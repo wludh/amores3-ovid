@@ -78,4 +78,38 @@ XML is a markup language that uses tags to describe data. It looks similar to HT
 1.  Navigate to the `public/data/` directory.
 2.  Open the XML file you want to edit (e.g., `witness-P.xml`).
 3.  The text is structured within XML tags like `<l>` (for a line) and `<w>` (for a word). You can edit the text content that appears between these tags.
-4.  Save the file. The changes will be reflected on the website. 
+4.  Save the file. The changes will be reflected on the website.
+
+## Updating IIIF Manifests
+
+The website uses IIIF manifests from external libraries to display manuscript images. These are pre-fetched and stored locally in the `public/data/iiif-manifests/` directory.
+
+If you need to refresh this data (for example, if a library has updated its manifest), you must run the following commands from the project's root directory:
+
+1.  **Install dependencies (only needs to be done once):**
+    ```sh
+    npm install
+    ```
+2.  **Run the fetch script:**
+    ```sh
+    node fetch-manifests.js
+    ```
+This will download the latest versions of the manifests and update the local files. After running the script, you should commit the updated JSON files to your repository.
+
+## Quick Reference: Editing and Pushing Changes to GitHub
+
+1. Edit your files locally using your preferred editor.
+2. Stage your changes:
+   ```sh
+   git add .
+   ```
+3. Commit your changes with a message:
+   ```sh
+   git commit -m "Describe what you changed"
+   ```
+4. Push your changes to GitHub:
+   ```sh
+   git push
+   ```
+
+Repeat these steps whenever you want to update your project on GitHub. 

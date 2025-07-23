@@ -98,22 +98,18 @@ const poemFolio = {
 
 // Helper to construct IIIF manifest URLs
 function getManifestUrl(poem, witness) {
-  // Point to our new local proxy server
-  const localProxy = 'http://localhost:3000/proxy?url=';
+  // Point to our new local manifest files
   let url;
 
   if (witness === 'P') {
-    url = 'https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/manifest.json';
+    url = 'data/iiif-manifests/witness-P.json';
   } else if (witness === 'Y') {
-    url = 'https://content.staatsbibliothek-berlin.de/dc/1844735508/manifest';
+    url = 'data/iiif-manifests/witness-Y.json';
   } else if (witness === 'S') {
-    url = 'https://www.e-codices.unifr.ch/metadata/iiif/csg-0864/manifest.json';
+    url = 'data/iiif-manifests/witness-S.json';
   }
 
-  if (url) {
-    return localProxy + encodeURIComponent(url);
-  }
-  return null;
+  return url; // Directly return the local path or null
 }
 
 
