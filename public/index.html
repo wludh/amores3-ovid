@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amores — Home</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏛️</text></svg>">
+  <!-- link to our CSS -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- Header + Navigation -->
+<header>
+  <div class="header-content">
+    <h1 class="site-title">The Amores Project</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="introduction.html">Introduction</a></li>
+        <li><a href="editions.html">Editions</a></li>
+        <li><a href="essays.html">Essays</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <main id="panels">
+  <!-- Panel 1: Transcription & Poem Selector -->
+  <section id="text-panel">
+    <div class="panel-header">
+      <span class="drag-handle" title="Drag to reorder">☰</span>
+      <h2>Transcription</h2>
+      <button class="toggle-btn" title="Collapse panel">×</button>
+    </div>
+    <!-- Poem dropdown -->
+    <select id="poem-select">
+       <option value="">Select a poem…</option>
+       <!-- JavaScript will populate options -->
+    </select>
+
+    <!-- Witness selector -->
+    <label for="witness-select">Witness:</label>
+    <select id="witness-select">
+      <option value="" selected>Select a witness...</option>
+      <option value="P">P</option>
+      <option value="Y">Y</option>
+      <option value="S">S</option>
+    </select>
+    <div id="text-content">
+      <p>Please select a poem to see its text.</p>
+    </div>
+  </section>
+
+  <!-- Panel 2: IIIF Viewer & Witness Buttons -->
+  <section id="viewer-panel">
+    <div class="panel-header">
+      <span class="drag-handle" title="Drag to reorder">☰</span>
+      <h2>IIIF Viewer</h2>
+      <button class="toggle-btn" title="Collapse panel">×</button>
+    </div>
+    <div id="witness-buttons">
+      <button data-witness="P">Witness P</button>
+      <button data-witness="Y">Witness Y</button>
+      <button data-witness="S">Witness S</button>
+    </div>
+
+    <div id="viewer">
+    </div>
+    <div id="page-controls">
+      <button id="prev-page" disabled>&larr;</button>
+      <span id="page-indicator"></span>
+      <input type="number" id="page-input" min="1" disabled>
+      <button id="go-to-page" disabled>Go</button>
+      <button id="next-page" disabled>&rarr;</button>
+    </div>
+    <div id="progress-container">
+      <div id="progress-bar"></div>
+    </div>
+    
+  </section>
+
+  <!-- Panel 3: Commentary / Vocabulary -->
+  <section id="comm-panel">
+    <div class="panel-header">
+      <span class="drag-handle" title="Drag to reorder">☰</span>
+      <h2>Companion</h2>
+      <button class="toggle-btn" title="Collapse panel">×</button>
+    </div>
+    <div id="companion-controls">
+      <label for="commentary-cb"><input type="checkbox" id="commentary-cb" data-extra="commentary" checked> Commentary</label>
+      <label for="text-commentary-cb"><input type="checkbox" id="text-commentary-cb" data-extra="text-commentary"> Text Commentary</label>
+      <label for="vocab-cb"><input type="checkbox" id="vocab-cb" data-extra="vocab"> Vocabulary</label>
+    </div>
+    <div id="extra-content">
+      <p>Choose a companion feature to display.</p>
+    </div>
+  </section>
+</main>
+
+ 
+  <!-- scripts -->
+  <script src="https://openseadragon.github.io/openseadragon/openseadragon.min.js"></script>
+  <script src="https://unpkg.com/split.js/dist/split.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.14.0/Sortable.min.js"></script>
+  <script src="js/CETEI.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Elegiac Couplets – Manuscript fol. 63r–63v (TEI encoding)</title>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <name>ChatGPT (o3 model)</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished – for private web presentation with user‑supplied CSS/XSL.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Transcription supplied by the user from a manuscript described as fol. 63r–63v; late‑medieval hand with numerous scribal marks and corrections.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Prepared for display on a personal website.  Second lines of each elegiac couplet carry <att>rend="indent"</att>; superscripts use <hi rend="sup">; darker‑ink additions use <hi rend="alt-ink">; unusual punctuation or diacritics are encoded as <g> referencing the <charDecl>.</p>
+      </projectDesc>
+      <charDecl>
+        <char xml:id="commaMark">
+          <charName>comma‑like supralinear mark</charName>
+          <mapping type="unicode">&#x201A;</mapping>
+        </char>
+        <char xml:id="subCommaMark">
+          <charName>comma‑like subpunct mark</charName>
+          <mapping type="unicode">&#x0326;</mapping>
+        </char>
+        <char xml:id="tieMark">
+          <charName>musical tie / undertie</charName>
+          <mapping type="unicode">&#x203F;</mapping>
+        </char>
+        <char xml:id="caretMark">
+          <charName>insertion caret</charName>
+          <mapping type="unicode">&#x2038;</mapping>
+        </char>
+      </charDecl>
+    </encodingDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <pb n="63r"/>
+
+      <!-- Couplets on 63r -->
+      <lg type="couplet" n="1">
+        <l n="1"><hi rend="drop-capital">A</hi><hi rend="sup">v</hi>t non formonsa<g ref="#commaMark"/><hi rend="sup">ẽ</hi> <hi rend="sup">v</hi>t non bene culta puella</l>
+        <l n="2" rend="indent">A<hi rend="sup">v</hi>t puto non uotis saepe petita meis</l>
+      </lg>
+
+      <lg type="couplet" n="2">
+        <l n="3">Hanc tamen in nullos tenui ma<hi rend="sup">le</hi><g ref="#subCommaMark"/> languidus usus</l>
+        <l n="4" rend="indent">Sed iacui pigro crimen onusque toro</l>
+      </lg>
+
+      <lg type="couplet" n="3">
+        <l n="5">N<span xml:space="preserve"> </span>ec potui cupiens pariter cupiente puella</l>
+        <l n="6" rend="indent">Inguinis effe<space quantity="2" unit="char"/>ti parte iuuante frui</l>
+      </lg>
+
+      <lg type="couplet" n="4">
+        <l n="7">Illa quidem nostro subiecit eburnea collo</l>
+        <l n="8" rend="indent">Brachia sit thonica candidiora niue</l>
+      </lg>
+
+      <lg type="couplet" n="5">
+        <l n="9">O<hi rend="sup">q̃</hi>scula inseruit cupide luctantia linguis</l>
+        <l n="10" rend="indent">Lasci<hi rend="sup">u</hi>m femori posui<hi rend="sup">sup</hi><hi rend="sup">t</hi>que femur</l>
+      </lg>
+
+      <lg type="couplet" n="6">
+        <l n="11">E<hi rend="alt-ink">t</hi> mihi blanditias dixit dominumque uocauit</l>
+        <l n="12" rend="indent">Etqu<hi rend="tail">e</hi> preterea publica uerba iuuant</l>
+      </lg>
+
+      <lg type="couplet" n="7">
+        <l n="13">Tacta tamen ueluti gelida mea membra cicuta</l>
+        <l n="14" rend="indent">Segnia <hi rend="alt-ink">p̄</hi>positum destituere meum</l>
+      </lg>
+
+      <lg type="couplet" n="8">
+        <l n="15">Truncus iners|iacui species <hi rend="amp">&amp;</hi> inutile pondus</l>
+        <l n="16" rend="indent">Et non exactum<hi rend="sup">ẽ</hi> corpus an umbra forem</l>
+      </lg>
+
+      <lg type="couplet" n="9">
+        <l n="17">Quae mihi uentura est siquidem uentura senectus</l>
+        <l n="18" rend="indent">Cum desit numeris ipsa iuuenta suis</l>
+      </lg>
+
+      <lg type="couplet" n="10">
+        <l n="19">A<hi rend="alt-ink">h</hi> pud <hi rend="amp">&amp;</hi> annorum quome iuuenemque uirum<hi rend="ligature">q͂</hi></l>
+        <l n="20" rend="indent">Nec iuuenem nec me sensit amica uirum</l>
+      </lg>
+
+      <lg type="couplet" n="11">
+        <l n="21">Sic flammas aditura pias aeterna sacerdos</l>
+        <l n="22" rend="indent">Surgit <hi rend="amp">&amp;</hi> a caro fratre uerenda soror</l>
+      </lg>
+
+      <lg type="couplet" n="12">
+        <l n="23">A<hi rend="sup">t</hi> nuper bis flaua|chlïde|ter candida pitho</l>
+        <l n="24" rend="indent">Ter libas officio continuata meo est</l>
+      </lg>
+
+      <pb n="63v"/>
+
+      <!-- Couplets on 63v -->
+      <lg type="couplet" n="13">
+        <l n="25">Exigere a nobis angusta nocte corinnam</l>
+        <l n="26" rend="indent">Me memini‑numeros sustinuisse  <hi rend="dash">—</hi> nouem</l>
+      </lg>
+
+      <lg type="couplet" n="14">
+        <l n="27">Nun mea thessalico languent deuota ueneno</l>
+        <l n="28" rend="indent">Corpora num misero carmen <hi rend="paren">(</hi>et herba nocent<g ref="#subCommaMark"/>)</l>
+      </lg>
+
+      <lg type="couplet" n="15">
+        <l n="29">Saga<g ref="#apostrophe"/>ue phoenicea defixit nomina cera</l>
+        <l n="30" rend="indent">Et medium tenuis in <hi rend="alt-ink">ie</hi>cur egit acus</l>
+      </lg>
+
+      <lg type="couplet" n="16">
+        <l n="31">Carminae <sic>lesa</sic> ceres – sterilem uescit in herbam</l>
+        <l n="32" rend="indent">Deficiunt laesi carmine fontis aque</l>
+      </lg>
+
+      <lg type="couplet" n="17">
+        <l n="33">Ilicibus glandes cantataque uitibus uua</l>
+        <l n="34" rend="indent">Decidit <hi rend="amp">&amp;</hi> nullo poma mouente fluunt</l>
+      </lg>
+
+      <lg type="couplet" n="18">
+        <l n="35">Quid uetat <hi rend="amp">&amp;</hi> ner <del rend="erase">ſ</del> vos magicas torpere per artes</l>
+        <l n="36" rend="indent">Forsitan impatiens sit latus iste meum<note xml:id="m36">iñ (marginal)</note></l>
+      </lg>
+
+      <lg type="couplet" n="19">
+        <l n="37">Huc pudor acessit facti pudor ipse nocebat</l>
+        <l n="38" rend="indent">Ille fuit uitii causa secunda mei</l>
+      </lg>
+
+      <lg type="couplet" n="20">
+        <l n="39">A<hi rend="alt-ink">t</hi> qual<hi rend="tilde">ẽ</hi> uidi qualem tetig<del>i</del><add place="margin">e</add> puellam</l>
+        <l n="40" rend="indent">Sic <hi rend="amp">&amp;</hi> iam tunica tangitur illa sua</l>
+      </lg>
+
+      <lg type="couplet" n="21">
+        <l n="41">Illius ad tactu pylius<hi rend="dot-over">ȳ</hi> iuuenescere possit</l>
+        <l n="42" rend="indent">Tithonosque annis fortior esse suis</l>
+      </lg>
+
+      <lg type="couplet" n="22">
+        <l n="43">Haec mihi contigerat sed uir non contigit ille</l>
+        <l n="44" rend="indent">Quas<g ref="#caretMark"/> concipiam per noua uota praeces</l>
+      </lg>
+
+      <lg type="couplet" n="23">
+        <l n="45">Credo<hi rend="amp">e&amp;</hi> iam magnos quo sum|tam|turpiter usus</l>
+        <l n="46" rend="indent">Muneris oblati penituisse deos</l>
+      </lg>
+
+      <lg type="couplet" n="24">
+        <l n="47">Obtabam certe recipi sum nempe receptus</l>
+        <l n="48" rend="indent">Oscula ferre.<pc>.</pc> tuli.<pc>.</pc> proximus esse.<pc>.</pc> fui</l>
+      </lg>
+
+      <lg type="couplet" n="25">
+        <l n="49">Quo mihi fortuna tantŨ quod dona sine usu ?</l>
+        <l n="50" rend="indent">quid nisi possedi diues auarus opes ?</l>
+      </lg>
+
+      <lg type="couplet" n="26">
+        <l n="51">Siccar<del rend="strike">c</del><add>c</add> mediis ta<add place="sup">c</add>icis uulgator in undis</l>
+        <l n="52" rend="indent">Pomaque que nullo tempore tangat hab<hi rend="amp">&amp;</hi></l>
+      </lg>
+
+      <lg type="couplet" n="27">
+        <l n="53">A tenera quisquam sic surgit mane puella</l>
+        <l n="54" rend="indent">Protinus ut sanctos possit adire deos ?</l>
+      </lg>
+
+      <lg type="couplet" n="28">
+        <l n="55">Sed puto non blanda non<g ref="#commaMark"/><hi rend="sup">ẽ</hi> non optima perdidit in me</l>
+        <l n="56" rend="indent">Oscula non omni sollicitauit ope</l>
+      </lg>
+
+      <lg type="couplet" n="29">
+        <l n="57">Illa graues potuis quercus adamantaque <hi rend="alt-ink">durum</hi></l>
+        <l n="58" rend="indent">Surdaque blanditiis saxa mouere suis</l>
+      </lg>
+
+      <lg type="couplet" n="30">
+        <l n="59">Digna mouere fuit certe diuosque uirosque</l>
+        <l n="60" rend="indent">Sed neque tum|uixi|nic uir/ut/ante fui</l>
+      </lg>
+
+      <lg type="couplet" n="31">
+        <l n="61">Quid iuu<hi rend="amp">&amp;</hi> ad surdas cant<hi rend="amp">&amp;</hi> Phineius auris</l>
+        <l n="62" rend="indent">Quid miserum Thamiran picta tabella iuuat ?</l>
+      </lg>
+
+      <lg type="couplet" n="32">
+        <l n="63">At<hi rend="amp">que</hi> non tacita formaui gaudia mente</l>
+        <l n="64" rend="indent">Quos ego non fixi disposuique modos ?</l>
+      </lg>
+
+      <pb n="64r"/>
+
+      <lg type="couplet" n="33">
+        <l n="65">Nostra tamen iacuere uelut premortua membra</l>
+        <l n="66" rend="indent">Turpiter hesterna languidiora rosa</l>
+      </lg>
+
+      <lg type="couplet" n="34">
+        <l n="67">Quae nunc ecce uigent intempestiua ualentque</l>
+        <l n="68" rend="indent">Nunc opus exposcunt miliciamque suam</l>
+      </lg>
+
+      <lg type="couplet" n="35">
+        <l n="69">Quin istic pudibunda iaces pars pessima nostri</l>
+        <l n="70" rend="indent">Sic sum pollicitis captus es <hi rend="amp">&amp;</hi> ante tuis</l>
+      </lg>
+
+      <lg type="couplet" n="36">
+        <l n="71">Tu dominum fallis per te deprensus inermis</l>
+        <l n="72" rend="indent">Tristia cum magno dampna pudore tuli</l>
+      </lg>
+
+      <lg type="couplet" n="37">
+        <l n="73">Hanc <hi rend="amp">&amp;</hi> iam non est mea dedignata puella</l>
+        <l n="74" rend="indent">Molliter admota sollictare manu</l>
+      </lg>
+
+      <lg type="couplet" n="38">
+        <l n="75">Sed postquam nullas corsurgere posse per artes</l>
+        <l n="76" rend="indent">Inmemoremque sui procubuisse uid<hi rend="amp">&amp;</hi></l>
+      </lg>
+
+      <lg type="couplet" n="39">
+        <l n="77">Quid me|ludis ait quis|te male sane iubebat</l>
+        <l n="78" rend="indent">inuitum nostro ponere membra toro ?</l>
+      </lg>
+
+      <lg type="couplet" n="40">
+        <l n="79">Aut te|traiectis aeaea uenefica ramis</l>
+        <l n="80" rend="indent">Deuou<hi rend="amp">&amp;</hi>|aut|alio lassus amore uenis ?</l>
+      </lg>
+
+      <lg type="couplet" n="41">
+        <l n="81">Nec mora desiluit tunica uelata soluta</l>
+        <l n="82" rend="indent">Et decuit nudos proripuisse pedes</l>
+      </lg>
+
+      <lg type="couplet" n="42">
+        <l n="83">Neue suae possent intactam scire ministrae</l>
+        <l n="84" rend="indent">Dedecus hoc sumpta dissimulauit aqua<pc>:</pc><g ref="#tieMark"/></l>
+      </lg>
+
+    </body>
+  </text>
+</TEI>
