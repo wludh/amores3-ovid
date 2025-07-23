@@ -9,7 +9,7 @@ const manifests = {
   'witness-S': 'https://www.e-codices.unifr.ch/metadata/iiif/csg-0864/manifest.json'
 };
 
-const outputDir = path.join(__dirname, 'public', 'data', 'iiif-manifests');
+const outputDir = path.join(__dirname, 'docs', 'data', 'iiif-manifests');
 
 // --- Main Function ---
 async function fetchAndSaveManifests() {

@@ -1,7 +1,8 @@
 const witnessFiles = {
   P: 'data/witness-P.xml',
   Y: 'data/witness-Y.xml',
-  S: 'data/witness-S.xml'
+  S: 'data/witness-S.xml',
+  LL: 'data/witness-LL.xml'
 };
 
 const companionData = {
@@ -75,4 +76,9 @@ const witnessPageData = {
     null, // 3.14
     null  // 3.15
   ],
+  'LL': [
+    null, null, null, null, null,
+    null, null, null, null, null,
+    null, null, null, null, null
+  ]
 };
