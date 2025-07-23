@@ -10,8 +10,8 @@
 /* 2) Base typography & background */
 body {
   font-family: Arial, sans-serif;
-  color: #333;
-  background-color: #fafafa;
+  color: var(--text-main);
+  background-color: var(--wl-bg);
   line-height: 1.6;
 }
 
@@ -19,7 +19,7 @@ body {
 header {
   background-color: #f4f4f4;
   padding: 10px 20px;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid var(--panel-border);
 }
 
 header nav ul {
@@ -30,14 +30,14 @@ header nav ul {
 
 header nav a {
   text-decoration: none;
-  color: #333;
+  color: var(--text-main);
   font-weight: bold;
   padding: 4px 8px;
   border-radius: 4px;
 }
 
 header nav a:hover {
-  background-color: #e0e0e0;
+  background-color: var(--button-hover-bg);
 }
 
 /* 4) Main content area */
@@ -53,7 +53,7 @@ main h1 {
 
 main p {
   font-size: 1rem;
-  color: #666;
+  color: var(--text-muted);
 }
 /* --- Panels Layout --- */
 #panels {
@@ -65,15 +65,15 @@ main p {
   /* let Split.js control width via inline styles */
   flex: 1 1 auto;
   min-height: 0; /* Important for Firefox */
-  border-right: 1px solid #ddd;
-  background: #fff;
+  border-right: 1px solid var(--panel-border);
+  background: var(--panel-bg);
 }
 
 /* Panel headers */
 .panel-header {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid var(--panel-border);
   padding-bottom: 6px;
   margin-bottom: 8px;
 }
@@ -89,7 +89,7 @@ main p {
 #panels .tabs button {
   padding: 6px 12px;
   border: none;
-  background: #e0e0e0;
+  background: var(--button-bg);
   margin-right: 6px;
   cursor: pointer;
 }
@@ -144,13 +144,32 @@ main p {
   --wl-grey:   #707372;
   --wl-white:  #ffffff;
   --wl-bg:     #f5f5f5;
+  --text-main: #333;
+  --text-muted: #666;
+  --panel-bg: var(--wl-white);
+  --panel-border: #ddd;
+  --button-bg: #f4f4f4;
+  --button-hover-bg: #e0e0e0;
+}
+
+body.dark-mode {
+  --wl-blue:   #5e8ac7;
+  --wl-grey:   #a0a0a0;
+  --wl-white:  #1e1e1e;
+  --wl-bg:     #121212;
+  --text-main: #e0e0e0;
+  --text-muted: #a0a0a0;
+  --panel-bg: #2a2a2a;
+  --panel-border: #444;
+  --button-bg: #333;
+  --button-hover-bg: #444;
 }
 
 /* 2) Base resets & typography */
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: var(--wl-bg);
-  color: #333;
+  color: var(--text-main);
 }
 h1, h2 {
   font-family: 'Lora', serif;
@@ -181,8 +200,8 @@ header nav a:hover {
   padding: 12px 24px;
 }
 #panels section {
-  background: var(--wl-white);
-  border: 1px solid var(--wl-grey);
+  background: var(--panel-bg);
+  border: 1px solid var(--panel-border);
   border-radius: 6px;
   display: flex;
   flex-direction: column;
@@ -194,7 +213,7 @@ header nav a:hover {
   background-color: var(--wl-blue);
   color: var(--wl-white);
   padding: 8px 12px;
-  border-bottom: 1px solid var(--wl-grey);
+  border-bottom: 1px solid var(--panel-border);
   display: flex;
   align-items: center;
 }
@@ -223,8 +242,8 @@ header nav a:hover {
 
 /* 7) Tabs & buttons */
 .tabs button {
-  background: var(--wl-grey);
-  color: var(--wl-white);
+  background: var(--button-bg);
+  color: var(--text-main);
   border: none;
   padding: 6px 12px;
   margin-right: 6px;
@@ -234,6 +253,7 @@ header nav a:hover {
 }
 .tabs button.active {
   background: var(--wl-blue);
+  color: var(--wl-white);
 }
 
 /* 8) Forms & selects */
@@ -243,15 +263,17 @@ select, button {
 }
 select {
   padding: 6px;
-  border: 1px solid var(--wl-grey);
+  border: 1px solid var(--panel-border);
   border-radius: 4px;
   margin-bottom: 12px;
+  background-color: var(--panel-bg);
+  color: var(--text-main);
 }
 
 /* 9) Witness buttons */
 #witness-buttons button {
-  background: var(--wl-grey);
-  color: var(--wl-white);
+  background: var(--button-bg);
+  color: var(--text-main);
   border: none;
   padding: 6px 12px;
   border-radius: 4px;
@@ -261,6 +283,7 @@ select {
 }
 #witness-buttons button.active {
   background: var(--wl-blue);
+  color: var(--wl-white);
 }
 
 /* 10) Gutters (Split.js) */
@@ -282,7 +305,7 @@ select {
 #viewer {
   flex: 1;
   min-height: 0;         /* allows flex children to shrink */
-  border: 1px solid var(--wl-grey);
+  border: 1px solid var(--panel-border);
   border-radius: 4px;
 }
 /* ensure header is above the body and always visible */
@@ -453,7 +476,7 @@ lg[type="elegiacCouplet"] { display:block; margin: 1em 0; }
     font-family: 'Crimson Pro', 'Junicode', 'Palatino', serif;
     font-size: 0.95rem;
     line-height: 1.6;
-    color: #2b2b2b;
+    color: var(--text-main);
 }
 
 /* Alternate ink styling */
@@ -485,7 +508,7 @@ tei-hi[rend="alt-ink"],
 #text-content tei-l::before {
     font-family: 'Open Sans', sans-serif;
     font-size: 0.8em;
-    color: #666;
+    color: var(--text-muted);
 }
 
 tei-l {
@@ -505,7 +528,7 @@ tei-l::before {
   left: 0;
   top: 0;
   display: none; /* hide by default */
-  color: #999;
+  color: var(--text-muted);
 }
 
 tei-l:nth-child(5n+1)::before,
@@ -536,7 +559,7 @@ tei-l::before {
     content: attr(n);
     position: absolute;
     left: 0;
-    color: #666;
+    color: var(--text-muted);
     font-size: 0.9em;
     width: 2.5em;
     text-align: right;
@@ -559,9 +582,9 @@ tei-l::before {
 #witness-buttons button {
     margin-right: 6px;
     padding: 4px 8px;
-    background-color: #f4f4f4;
-    border: 1px solid #ddd;
-    color: #333;
+    background-color: var(--button-bg);
+    border: 1px solid var(--panel-border);
+    color: var(--text-main);
     cursor: pointer;
 }
 
@@ -572,7 +595,7 @@ tei-l::before {
 }
 
 #witness-buttons button:hover {
-    background-color: #e0e0e0;
+  background-color: var(--button-hover-bg);
 }
 
 /* Label styling */
@@ -603,12 +626,15 @@ label[for="witness-select"] {
 #page-input {
   width: 50px;
   text-align: center;
+  background-color: var(--panel-bg);
+  color: var(--text-main);
+  border: 1px solid var(--panel-border);
 }
 
 #progress-container {
   width: 80%;
   height: 8px;
-  background-color: #eee;
+  background-color: var(--button-bg);
   margin: 10px auto;
   border-radius: 4px;
   overflow: hidden; /* Ensures the progress bar stays within the container's rounded corners */
@@ -627,13 +653,13 @@ label[for="witness-select"] {
   margin-top: 15px;
   margin-bottom: 5px;
   font-weight: bold;
-  color: #333; /* A darker, more readable color */
+  color: var(--text-main); /* A darker, more readable color */
   padding-left: 5px;
 }
 
 #companion-controls {
   padding: 10px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid var(--panel-border);
 }
 
 #companion-controls label {
@@ -648,7 +674,7 @@ label[for="witness-select"] {
 
 #companion-controls {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     gap: 15px;
     flex-wrap: nowrap;
@@ -690,7 +716,7 @@ label[for="witness-select"] {
 .line-ref {
     font-weight: 600;
     margin-right: 0.5em;
-    color: #555; /* A neutral, slightly lighter color for the number */
+    color: var(--text-muted); /* A neutral, slightly lighter color for the number */
 }
 
 /* Highlighting for linked lines/notes */
@@ -714,8 +740,8 @@ label[for="witness-select"] {
   height: calc(100vh - 100px); /* Account for header */
   position: sticky;
   top: 2rem;
-  background: var(--wl-white);
-  border: 1px solid #ddd;
+  background: var(--panel-bg);
+  border: 1px solid var(--panel-border);
   border-radius: 6px;
   padding: 1.5rem;
   overflow-y: auto;
@@ -749,7 +775,7 @@ label[for="witness-select"] {
 }
 
 .essays-nav a:hover {
-  background-color: #f0f0f0;
+  background-color: var(--button-hover-bg);
 }
 
 .essays-nav a.active {
@@ -763,8 +789,8 @@ label[for="witness-select"] {
 }
 
 .scholarly-essay {
-  background: var(--wl-white);
-  border: 1px solid #ddd;
+  background: var(--panel-bg);
+  border: 1px solid var(--panel-border);
   border-radius: 6px;
   padding: 2rem;
   margin-bottom: 2rem;
@@ -796,7 +822,7 @@ label[for="witness-select"] {
   line-height: 1.6;
   margin: 1rem 0;
   padding: 1rem;
-  background: #f8f8f8;
+  background: var(--button-bg);
   border-left: 4px solid var(--wl-blue);
 }
 
@@ -820,7 +846,7 @@ label[for="witness-select"] {
 .essay-notes {
   margin-top: 2rem;
   padding-top: 1rem;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid var(--panel-border);
   font-size: 0.9rem;
 }
 
@@ -881,16 +907,18 @@ label[for="witness-select"] {
 .search-container {
   margin-bottom: 1.5rem;
   padding-bottom: 1rem;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid var(--panel-border);
 }
 
 .search-input {
   width: 100%;
   padding: 0.5rem;
-  border: 1px solid #ddd;
+  border: 1px solid var(--panel-border);
   border-radius: 4px;
   font-family: 'Open Sans', sans-serif;
   font-size: 0.9rem;
+  background-color: var(--panel-bg);
+  color: var(--text-main);
 }
 
 .search-input:focus {
@@ -911,7 +939,7 @@ label[for="witness-select"] {
   gap: 0.5rem;
   margin-top: 1rem;
   padding-top: 1rem;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid var(--panel-border);
 }
 
 .export-button {
@@ -921,7 +949,7 @@ label[for="witness-select"] {
   padding: 0.5rem 1rem;
   border: 1px solid var(--wl-blue);
   border-radius: 4px;
-  background: white;
+  background: var(--panel-bg);
   color: var(--wl-blue);
   font-family: 'Open Sans', sans-serif;
   font-size: 0.9rem;
@@ -948,8 +976,8 @@ label[for="witness-select"] {
   position: absolute;
   top: 100%;
   left: 0;
-  background: white;
-  border: 1px solid #ddd;
+  background: var(--panel-bg);
+  border: 1px solid var(--panel-border);
   border-radius: 4px;
   padding: 0.5rem 0;
   margin-top: 0.25rem;
@@ -966,14 +994,14 @@ label[for="witness-select"] {
 .citation-format {
   display: block;
   padding: 0.5rem 1rem;
-  color: #333;
+  color: var(--text-main);
   text-decoration: none;
   font-size: 0.9rem;
   cursor: pointer;
 }
 
 .citation-format:hover {
-  background: #f5f5f5;
+  background: var(--button-hover-bg);
 }
 
 /* Print Styles */
@@ -1042,7 +1070,7 @@ label[for="witness-select"] {
   font-size: 1.1rem;
   line-height: 1.8;
   margin-bottom: 1.5rem;
-  color: #333;
+  color: var(--text-main);
 }
 
 .intro-image {
@@ -1076,4 +1104,40 @@ label[for="witness-select"] {
   .intro-section h2 {
     font-size: 1.75rem;
   }
+}
+
+#github-icon a:hover {
+  background-color: transparent !important;
+}
+
+#github-icon .github-svg {
+  width: 24px;
+  height: 24px;
+  transition: opacity 0.3s ease;
+}
+
+#github-icon .github-svg:hover {
+  opacity: 0.7;
+}
+
+#github-icon {
+  align-self: center;
+  margin-left: 1rem;
+}
+
+#theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+#theme-toggle .theme-svg {
+  transition: opacity 0.3s ease;
+}
+
+#theme-toggle:hover .theme-svg {
+  opacity: 0.7;
 }

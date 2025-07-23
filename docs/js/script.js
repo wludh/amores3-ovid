@@ -626,3 +626,24 @@ if (poemSelect.value && witnessSelect.value) {
 }
 // Also trigger the initial companion load
 updateCompanionPanel();
+
+document.addEventListener('DOMContentLoaded', function() {
+  // Theme toggle logic
+  const themeToggle = document.getElementById('theme-toggle');
+  if (themeToggle) {
+    const currentTheme = localStorage.getItem('theme');
+
+    if (currentTheme === 'dark') {
+      document.body.classList.add('dark-mode');
+    }
+
+    themeToggle.addEventListener('click', function() {
+      document.body.classList.toggle('dark-mode');
+      let theme = 'light';
+      if (document.body.classList.contains('dark-mode')) {
+        theme = 'dark';
+      }
+      localStorage.setItem('theme', theme);
+    });
+  }
+});
