@@ -1141,3 +1141,105 @@ label[for="witness-select"] {
 #theme-toggle:hover .theme-svg {
   opacity: 0.7;
 }
+
+/* Accordion Styles for About Page */
+.accordion-main {
+  border: 1px solid var(--panel-border);
+  border-radius: 8px; /* Slightly more rounded */
+  margin-bottom: 1rem;
+  background-color: var(--panel-bg);
+  overflow: hidden; /* To contain border-radius of children */
+}
+
+.accordion-main summary {
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  background-color: transparent;
+  transition: background-color 0.2s;
+}
+
+.accordion-main summary:hover {
+  background-color: var(--button-hover-bg);
+}
+
+.accordion-main summary h2 {
+  font-size: 1.75rem;
+  margin: 0;
+  color: var(--wl-blue);
+  font-family: 'Lora', serif; /* Consistent heading font */
+}
+
+.accordion-main .accordion-content {
+  padding: 0.5rem 1.5rem 1.5rem;
+  border-top: 1px solid var(--panel-border);
+}
+
+.accordion-nested {
+  border: 1px solid var(--panel-border);
+  border-radius: 6px; /* Make nested items card-like */
+  margin-top: 1rem;
+  background-color: var(--wl-bg); /* Use main bg for contrast */
+  transition: box-shadow 0.2s;
+}
+
+.accordion-nested:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05); /* Add subtle shadow on hover */
+}
+
+.accordion-nested summary {
+  padding: 1rem 1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: normal;
+  border-radius: 6px;
+}
+
+.accordion-nested summary h3 {
+  font-size: 1.15rem; /* Slightly smaller */
+  margin: 0;
+  color: var(--text-main);
+  transition: color 0.2s;
+  font-family: 'Open Sans', sans-serif; /* Consistent body font */
+  font-weight: 600; /* Bolder text */
+}
+
+.accordion-nested summary:hover h3 {
+  color: var(--wl-blue);
+}
+
+.accordion-nested .accordion-content-nested {
+  padding: 0 1rem 1rem 1rem;
+  font-size: 1rem;
+  line-height: 1.7;
+  border-top: 1px solid var(--panel-border);
+  margin: 0 1rem; /* Indent content from summary edges */
+}
+
+/* Custom Accordion Arrow */
+summary::after {
+  content: '▼';
+  font-size: 0.8rem;
+  color: var(--wl-blue);
+  transition: transform 0.2s ease-in-out;
+  margin-left: 1rem;
+}
+
+details[open] > summary::after {
+  transform: rotate(180deg);
+}
+
+/* Remove default marker */
+summary {
+  list-style: none; /* For Firefox */
+}
+
+summary::-webkit-details-marker {
+  display: none; /* For Chrome/Safari */
+}

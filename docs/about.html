@@ -40,9 +40,79 @@
 
 
   <!-- Main content for Home will go here later -->
-  <main>
+  <main class="introduction-content">
+  <section class="intro-section">
   <h1>About</h1>
-  <p>Website by James Kull W&L '27</p>
+  <p>This website was created by James Kull (W&L '27) as part of the Amores Project.</p>
+  </section>
+
+  <section class="intro-section" id="how-to-use-accordion">
+    <details open class="accordion-main">
+      <summary><h2>How to Use This Site</h2></summary>
+      <div class="accordion-content">
+        <p>This site is designed to provide a dynamic and interactive experience for exploring Ovid's <em>Amores</em>. The main page is divided into three primary sections, or "panels," that work together to present the text, manuscript images, and scholarly commentary.</p>
+        
+        <details class="accordion-nested">
+          <summary><h3>The Three-Panel Layout</h3></summary>
+          <div class="accordion-content-nested">
+            <p>The interface consists of three panels: <strong>Transcription</strong>, <strong>IIIF Viewer</strong>, and <strong>Companion</strong>.</p>
+            <ul>
+              <li><strong>Customizing Your View:</strong> You can resize each panel by clicking and dragging the vertical borders between them. You can also reorder the panels by dragging the "☰" icon at the top-left of each panel. To collapse a panel, click the "×" icon; click it again to expand.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="accordion-nested">
+          <summary><h3>Exploring the Text</h3></summary>
+          <div class="accordion-content-nested">
+            <ol>
+              <li><strong>Select a Poem:</strong> In the <strong>Transcription</strong> panel, use the "Select a poem..." dropdown menu to choose which of the <em>Amores</em> you wish to examine.</li>
+              <li><strong>Choose a Witness:</strong> Below the poem selector, the "Witness" dropdown allows you to load the transcription from a specific manuscript source (e.g., P, Y, S, or LL).</li>
+            </ol>
+          </div>
+        </details>
+
+        <details class="accordion-nested">
+          <summary><h3>Viewing the Manuscripts</h3></summary>
+          <div class="accordion-content-nested">
+            <ul>
+              <li>In the <strong>IIIF Viewer</strong> panel, you can view high-resolution images of the manuscripts. Click the buttons labeled "Witness P," "Witness Y," or "Witness S" to load the corresponding manuscript.</li>
+              <li>The viewer is synchronized with the poem selection. When you choose a new poem from the dropdown in the Transcription panel, the IIIF viewer will automatically jump to the page where that poem begins in the selected manuscript.</li>
+              <li>Standard controls for paging through the manuscript and zooming in on the images are available at the bottom of the viewer.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="accordion-nested">
+          <summary><h3>Accessing the Commentary</h3></summary>
+          <div class="accordion-content-nested">
+            <ul>
+              <li>The <strong>Companion</strong> panel provides contextual information. Check the boxes for "Commentary," "Text Commentary," or "Vocabulary" to display the desired notes for the selected poem.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="accordion-nested">
+          <summary><h3>Interactive Linking</h3></summary>
+          <div class="accordion-content-nested">
+            <p>The <strong>Transcription</strong> and <strong>Companion</strong> panels are linked to enhance your reading experience:</p>
+            <ul>
+              <li><strong>Hovering:</strong> Hover your mouse over a line in the transcription to highlight the corresponding notes in the companion panel, and vice-versa.</li>
+              <li><strong>Clicking:</strong> Click on a line in the transcription to automatically scroll the companion panel to the relevant notes. Similarly, clicking on a note in the companion will scroll the transcription to the corresponding line.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="accordion-nested">
+          <summary><h3>Dark Mode</h3></summary>
+          <div class="accordion-content-nested">
+            <p>For a different viewing experience, you can toggle dark mode by clicking the theme toggle icon in the header navigation.</p>
+          </div>
+        </details>
+
+      </div>
+    </details>
+  </section>
 </main>
 
   <!-- link to our JavaScript -->
