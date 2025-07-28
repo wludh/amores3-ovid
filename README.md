@@ -4,7 +4,7 @@ Welcome to the documentation for the Amores website. This guide is intended for 
 
 ## Project Structure Overview
 
-The most important directory for content editing is `public/data/`. This is where all the text for the website is stored.
+The most important directory for content editing is `docs/data/`. This is where all the text for the website is stored.
 
 ## How the Website Works: A Brief Overview
 
@@ -12,21 +12,21 @@ This section provides a simplified overview of how the website is built for thos
 
 *   `docs/`: This is the main folder for the website. All the files that the website uses are in here.
 *   `index.html`: This is the main file for the homepage of the website. It's the first page that loads. Other HTML files like `about.html` and `editions.html` are for those specific pages.
-*   `public/css/styles.css`: This is the stylesheet. It controls the colors, fonts, and layout of the website.
-*   `public/js/`: This folder contains the JavaScript files, which add interactivity to the site.
+*   `docs/css/styles.css`: This is the stylesheet. It controls the colors, fonts, and layout of the website.
+*   `docs/js/`: This folder contains the JavaScript files, which add interactivity to the site.
     *   `script.js`: This is the main script that runs the interactive features on the pages.
     *   `data.js`: This script is responsible for loading all the companion text data (the JSON files) and the witness text data (the XML files).
     *   `CETEI.js`: This is a special library used to make the XML manuscript files display correctly in a web browser.
 
-Again, for editing content, you will only need to work in the `public/data/` directory.
+Again, for editing content, you will only need to work in the `docs/data/` directory.
 
 ## Editing Companion Text
 
-The "companion text" for each poem is located in the `public/data/Companion/` directory. This directory contains three subdirectories for different types of companion text:
+The "companion text" for each poem is located in the `docs/data/Companion/` directory. This directory contains three subdirectories for different types of companion text:
 
-*   `public/data/Companion/Commentary/`: Contains commentary for each poem.
-*   `public/data/Companion/TextCommentary/`: Contains commentary on the Latin text itself.
-*   `public/data/Companion/Vocab/`: Contains vocabulary lists for each poem.
+*   `docs/data/Companion/Commentary/`: Contains commentary for each poem.
+*   `docs/data/Companion/TextCommentary/`: Contains commentary on the Latin text itself.
+*   `docs/data/Companion/Vocab/`: Contains vocabulary lists for each poem.
 
 Each of these directories contains a set of JSON files, one for each poem (e.g., `3.1.json`, `3.2.json`, etc.).
 
@@ -34,7 +34,7 @@ Each of these directories contains a set of JSON files, one for each poem (e.g.,
 
 A JSON file is a simple text file used to store data. It uses a `key: value` format. For this project, the "key" is a line number (as a string in double quotes), and the "value" is the text that should appear for that line.
 
-Here is an example from `public/data/Companion/Vocab/3.15.json`:
+Here is an example from `docs/data/Companion/Vocab/3.15.json`:
 
 ```json
 {
@@ -49,7 +49,7 @@ In this example:
 
 ### How to edit the JSON files
 
-1.  Navigate to the correct directory (e.g., `public/data/Companion/Commentary/`).
+1.  Navigate to the correct directory (e.g., `docs/data/Companion/Commentary/`).
 2.  Open the JSON file corresponding to the poem you want to edit (e.g., `3.1.json` for poem 3.1).
 3.  Find the line number (the key) you want to change.
 4.  Edit the text (the value) inside the double quotes.
@@ -62,12 +62,12 @@ In this example:
 
 ## Editing Witness XML Files
 
-The witness XML files contain the base texts for the different manuscript witnesses (P, S, and Y). These files are located directly in the `public/data/` directory.
+The witness XML files contain the base texts for the different manuscript witnesses (P, S, and Y). These files are located directly in the `docs/data/` directory.
 
 The files are:
-*   `public/data/witness-P.xml`
-*   `public/data/witness-S.xml`
-*   `public/data/witness-Y.xml`
+*   `docs/data/witness-P.xml`
+*   `docs/data/witness-S.xml`
+*   `docs/data/witness-Y.xml`
 
 ### What is an XML file?
 
@@ -75,14 +75,14 @@ XML is a markup language that uses tags to describe data. It looks similar to HT
 
 ### How to edit the XML files
 
-1.  Navigate to the `public/data/` directory.
+1.  Navigate to the `docs/data/` directory.
 2.  Open the XML file you want to edit (e.g., `witness-P.xml`).
 3.  The text is structured within XML tags like `<l>` (for a line) and `<w>` (for a word). You can edit the text content that appears between these tags.
 4.  Save the file. The changes will be reflected on the website.
 
 ## Updating IIIF Manifests
 
-The website uses IIIF manifests from external libraries to display manuscript images. These are pre-fetched and stored locally in the `public/data/iiif-manifests/` directory.
+The website uses IIIF manifests from external libraries to display manuscript images. These are pre-fetched and stored locally in the `docs/data/iiif-manifests/` directory.
 
 If you need to refresh this data (for example, if a library has updated its manifest), you must run the following commands from the project's root directory:
 
