@@ -10,7 +10,7 @@ The most important directory for content editing is `public/data/`. This is wher
 
 This section provides a simplified overview of how the website is built for those who are curious. You do not need to edit any of these files to change the content of the companion texts.
 
-*   `public/`: This is the main folder for the website. All the files that the website uses are in here.
+*   `docs/`: This is the main folder for the website. All the files that the website uses are in here.
 *   `index.html`: This is the main file for the homepage of the website. It's the first page that loads. Other HTML files like `about.html` and `editions.html` are for those specific pages.
 *   `public/css/styles.css`: This is the stylesheet. It controls the colors, fonts, and layout of the website.
 *   `public/js/`: This folder contains the JavaScript files, which add interactivity to the site.
