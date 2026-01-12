@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amores — Home</title>
+  <!-- link to our CSS -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- Header + Navigation --><header>
+  <div class="header-content">
+    <h1 class="site-title">The Amores Project</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="introduction.html">Introduction</a></li>
+        <li><a href="editions.html">Editions</a></li>
+        <li><a href="essays.html">Essays</a></li>
+        <li><a href="about.html">About</a></li>
+        <li>
+          <button id="theme-toggle" aria-label="Toggle dark mode">
+            <svg class="theme-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="24px" height="24px">
+              <path d="M12 3a9 9 0 1 0 9 9 9 9 0 0 0-9-9zM12 19.5A7.5 7.5 0 0 1 12 4.5v15z"/>
+            </svg>
+          </button>
+        </li>
+        <li id="github-icon">
+          <a href="https://github.com/wludh/amores3-ovid" target="_blank" rel="noopener noreferrer" aria-label="GitHub Repository">
+            <svg class="github-svg" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="white">
+              <title>GitHub</title>
+              <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+  <!-- Main content for Home will go here later -->
+  <main class="introduction-content">
+  <section class="intro-section">
+  <h1>About</h1>
+  <p>This website was created by James Kull (W&L '27) as part of the Amores Project.</p>
+  </section>
+
+  <section class="intro-section" id="how-to-use-accordion">
+    <details open class="accordion-main">
+      <summary><h2>How to Use This Site</h2></summary>
+      <div class="accordion-content">
+        <p>This site is designed to provide a dynamic and interactive experience for exploring Ovid's <em>Amores</em>. The main page is divided into three primary sections, or "panels," that work together to present the text, manuscript images, and scholarly commentary.</p>
+        
+        <details class="accordion-nested">
+          <summary><h3>The Three-Panel Layout</h3></summary>
+          <div class="accordion-content-nested">
+            <p>The interface consists of three panels: <strong>Transcription</strong>, <strong>IIIF Viewer</strong>, and <strong>Companion</strong>.</p>
+            <ul>
+              <li><strong>Customizing Your View:</strong> You can resize each panel by clicking and dragging the vertical borders between them. You can also reorder the panels by dragging the "☰" icon at the top-left of each panel. To collapse a panel, click the "×" icon; click it again to expand.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="accordion-nested">
+          <summary><h3>Exploring the Text</h3></summary>
+          <div class="accordion-content-nested">
+            <ol>
+              <li><strong>Select a Poem:</strong> In the <strong>Transcription</strong> panel, use the "Select a poem..." dropdown menu to choose which of the <em>Amores</em> you wish to examine.</li>
+              <li><strong>Choose a Witness:</strong> Below the poem selector, the "Witness" dropdown allows you to load the transcription from a specific manuscript source (e.g., P, Y, S, or LL).</li>
+            </ol>
+          </div>
+        </details>
+
+        <details class="accordion-nested">
+          <summary><h3>Viewing the Manuscripts</h3></summary>
+          <div class="accordion-content-nested">
+            <ul>
+              <li>In the <strong>IIIF Viewer</strong> panel, you can view high-resolution images of the manuscripts. Click the buttons labeled "Witness P," "Witness Y," or "Witness S" to load the corresponding manuscript.</li>
+              <li>The viewer is synchronized with the poem selection. When you choose a new poem from the dropdown in the Transcription panel, the IIIF viewer will automatically jump to the page where that poem begins in the selected manuscript.</li>
+              <li>Standard controls for paging through the manuscript and zooming in on the images are available at the bottom of the viewer.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="accordion-nested">
+          <summary><h3>Accessing the Commentary</h3></summary>
+          <div class="accordion-content-nested">
+            <ul>
+              <li>The <strong>Companion</strong> panel provides contextual information. Check the boxes for "Commentary," "Text Commentary," or "Vocabulary" to display the desired notes for the selected poem.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="accordion-nested">
+          <summary><h3>Interactive Linking</h3></summary>
+          <div class="accordion-content-nested">
+            <p>The <strong>Transcription</strong> and <strong>Companion</strong> panels are linked to enhance your reading experience:</p>
+            <ul>
+              <li><strong>Hovering:</strong> Hover your mouse over a line in the transcription to highlight the corresponding notes in the companion panel, and vice-versa.</li>
+              <li><strong>Clicking:</strong> Click on a line in the transcription to automatically scroll the companion panel to the relevant notes. Similarly, clicking on a note in the companion will scroll the transcription to the corresponding line.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="accordion-nested">
+          <summary><h3>Dark Mode</h3></summary>
+          <div class="accordion-content-nested">
+            <p>For a different viewing experience, you can toggle dark mode by clicking the theme toggle icon in the header navigation.</p>
+          </div>
+        </details>
+
+      </div>
+    </details>
+  </section>
+</main>
+
+  <!-- link to our JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,1469 @@
+/* styles.css */
+
+/* 1) Reset defaults so browsers behave consistently */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2) Base typography & background */
+body {
+  font-family: Arial, sans-serif;
+  color: var(--text-main);
+  background-color: var(--wl-bg);
+  line-height: 1.6;
+}
+
+/* 3) Header & navigation bar */
+header {
+  background-color: #f4f4f4;
+  padding: 10px 20px;
+  border-bottom: 1px solid var(--panel-border);
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: var(--text-main);
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+header nav a:hover {
+  background-color: var(--button-hover-bg);
+}
+
+/* 4) Main content area */
+main {
+  padding: 20px;
+}
+
+/* 5) Placeholder styles for “Coming soon” */
+main h1 {
+  margin-bottom: 10px;
+  font-size: 1.75rem;
+}
+
+main p {
+  font-size: 1rem;
+  color: var(--text-muted);
+}
+/* --- Panels Layout --- */
+#panels {
+  display: flex;
+  height: calc(100vh - 60px); /* full viewport minus header (~60px) */
+  overflow: hidden; /* Prevent double scrollbars */
+}
+#panels section {
+  /* let Split.js control width via inline styles */
+  flex: 1 1 auto;
+  min-height: 0; /* Important for Firefox */
+  border-right: 1px solid var(--panel-border);
+  background: var(--panel-bg);
+}
+
+/* Panel headers */
+.panel-header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--panel-border);
+  padding-bottom: 6px;
+  margin-bottom: 8px;
+}
+.panel-header h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Tabs inside panels */
+#panels .tabs {
+  margin: 8px 0;
+}
+#panels .tabs button {
+  padding: 6px 12px;
+  border: none;
+  background: var(--button-bg);
+  margin-right: 6px;
+  cursor: pointer;
+}
+#panels .tabs button.active {
+  background: #ccc;
+}
+
+/* Poem selector & witness buttons */
+#poem-select {
+  margin-bottom: 8px;
+  width: 100%;
+  padding: 4px;
+}
+#witness-buttons {
+  margin-top: 8px;
+}
+#witness-buttons button {
+  margin-right: 6px;
+  padding: 4px 8px;
+}
+/* Split.js gutter styling */
+.gutter {
+  background-color: #ccc;    /* make it visible */
+  background-clip: padding-box;
+}
+
+.gutter.gutter-horizontal {
+  cursor: col-resize;        /* show the resize cursor */
+  width: 6px;                /* match the gutterSize you chose */
+}
+
+#witness-buttons button.active {
+  background-color: #ccc;
+}
+/* Collapse behavior */
+.toggle-btn {
+  margin-left: auto;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+/* 0) Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;1,400&display=swap');
+
+/* 1) Brand color variables */
+:root {
+  --wl-blue:   #003087;
+  --wl-grey:   #707372;
+  --wl-white:  #ffffff;
+  --wl-bg:     #f5f5f5;
+  --text-main: #333;
+  --text-muted: #666;
+  --panel-bg: var(--wl-white);
+  --panel-border: #ddd;
+  --button-bg: #f4f4f4;
+  --button-hover-bg: #e0e0e0;
+}
+
+body.dark-mode {
+  --wl-blue:   #5e8ac7;
+  --wl-grey:   #a0a0a0;
+  --wl-white:  #1e1e1e;
+  --wl-bg:     #121212;
+  --text-main: #e0e0e0;
+  --text-muted: #a0a0a0;
+  --panel-bg: #2a2a2a;
+  --panel-border: #444;
+  --button-bg: #333;
+  --button-hover-bg: #444;
+}
+
+/* 2) Base resets & typography */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--wl-bg);
+  color: var(--text-main);
+}
+h1, h2 {
+  font-family: 'Lora', serif;
+  color: var(--wl-blue);
+  margin: 0 0 0.5rem;
+}
+
+/* 3) Header / nav */
+header {
+  background-color: var(--wl-blue);
+  color: var(--wl-white);
+  padding: 12px 24px;
+}
+header nav a {
+  color: var(--wl-white);
+  padding: 6px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+}
+header nav a:hover {
+  background-color: var(--wl-grey);
+}
+
+/* 4) Panels container & sections */
+#panels {
+  gap: 12px; /* space between panels */
+  padding: 12px 24px;
+}
+#panels section {
+  background: var(--panel-bg);
+  border: 1px solid var(--panel-border);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* 5) Panel headers */
+.panel-header {
+  background-color: var(--wl-blue);
+  color: var(--wl-white);
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--panel-border);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.panel-header h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0;
+}
+.panel-type-select {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: var(--wl-white);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+  outline: none;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+.panel-type-select:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+.panel-type-select:focus {
+  background-color: rgba(255, 255, 255, 0.25);
+  border-color: rgba(255, 255, 255, 0.6);
+}
+.panel-type-select option {
+  background-color: var(--wl-blue);
+  color: var(--wl-white);
+}
+.toggle-btn {
+  margin-left: auto;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  line-height: 1;
+  color: var(--wl-white);
+  cursor: pointer;
+}
+
+/* 6) Panel body */
+.panel-body {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  padding: 10px;
+  min-height: 0; /* Important for Firefox */
+}
+
+/* 7) Tabs & buttons */
+.tabs button {
+  background: var(--button-bg);
+  color: var(--text-main);
+  border: none;
+  padding: 6px 12px;
+  margin-right: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.tabs button.active {
+  background: var(--wl-blue);
+  color: var(--wl-white);
+}
+
+/* 8) Forms & selects */
+select, button {
+  font-family: inherit;
+  font-size: 1rem;
+}
+select {
+  padding: 6px;
+  border: 1px solid var(--panel-border);
+  border-radius: 4px;
+  margin-bottom: 12px;
+  background-color: var(--panel-bg);
+  color: var(--text-main);
+}
+
+/* 9) Witness buttons */
+#witness-buttons button {
+  background: var(--button-bg);
+  color: var(--text-main);
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 6px;
+  font-weight: 600;
+}
+#witness-buttons button.active {
+  background: var(--wl-blue);
+  color: var(--wl-white);
+}
+
+/* 10) Gutters (Split.js) */
+.gutter {
+  background-color: var(--wl-grey);
+  width: 8px;
+}
+.gutter.gutter-horizontal {
+  cursor: col-resize;
+}
+/* Make the viewer panel body a flex column so #viewer can grow */
+/* This is handled by the more specific rule below */
+
+/* Let the viewer div fill all available space */
+#viewer,
+.viewer {
+  flex: 1;
+  min-height: 0;         /* allows flex children to shrink */
+  border: 1px solid var(--panel-border);
+  border-radius: 4px;
+  height: 0;             /* Force flex to work */
+}
+/* ensure header is above the body and always visible */
+#panels section .panel-header {
+  position: relative;
+  z-index: 1;
+  flex: 0 0 auto;          /* don’t let it flex away */
+}
+
+/* explicitly style the <h2> in the header */
+#panels section .panel-header h2 {
+  display: block;
+  margin: 0;
+  color: var(--wl-white) !important;  /* override any other h2 color */
+}
+/* Header layout: title left, nav right */
+header .header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Site title styling */
+.site-title {
+  font-family: 'Lora', serif;
+  font-size: 1.75rem;
+  color: var(--wl-white);
+  margin: 0;
+}
+
+/* Push the nav list to the right */
+header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+/* === Viewer Panel Spacing Override === */
+/* Target only the viewer panel's body */
+section#viewer-panel > .panel-body,
+section[data-panel-type="viewer"] > .panel-body {
+  display: flex;                /* ensure it's flex */
+  flex-direction: column;
+  padding: 6px 12px 12px 12px;  /* top 6px (half), right/left 12px, bottom 12px */
+  gap: 16px;                    /* increase space between buttons & viewer */
+}
+/* Drag-handle styling */
+.drag-handle {
+  font-size: 1.2rem;
+  margin-right: 8px;
+  color: var(--wl-white);
+  cursor: grab;
+  user-select: none;
+}
+.drag-handle:active {
+  cursor: grabbing;
+}
+
+/* Highlight handle on header hover */
+.panel-header:hover .drag-handle {
+  color: var(--wl-grey);
+}
+
+/* Prevent the h2/title from shifting when handle appears */
+.panel-header h2 {
+  flex: 1; /* take remaining space */
+}
+
+/* Ghost placeholder when dragging */
+.sortable-ghost {
+  opacity: 0.4;
+  border: 2px dashed var(--wl-blue);
+}
+
+/* Enhance the drag handle hover state */
+.drag-handle {
+  user-select: none;  /* prevent text selection */
+  transition: color 0.2s, background 0.2s;
+}
+.drag-handle:hover {
+  color: var(--wl-grey);
+  background: rgba(255,255,255,0.15);
+}
+
+pre { white-space: pre-wrap; }
+
+/* Page navigation controls below the viewer */
+#page-controls {
+  margin-top: 8px;
+}
+#page-controls button {
+  margin-right: 6px;
+  padding: 4px 8px;
+}
+/* indent every second (pentameter) line */
+l[rend="indent"] { margin-left: 2em; }
+
+/* drop-capital */
+hi[rend="dropcap"]      { float:left; font-size:2.4em; line-height:1; margin-right:0.15em; }
+
+/* small caps (for the sunk N’s) */
+hi[rend="smallcaps"]    { font-variant: small-caps; }
+
+/* optional: make <lg> block respect poem margins */
+lg[type="elegiacCouplet"] { display:block; margin: 1em 0; }
+
+/* IIIF Viewer and Companion panel button improvements */
+/* Use arrows for Previous/Next */
+#prev-page::after,
+.prev-page::after {
+  content: '←';
+  font-size: 1.2em;
+  margin-left: 4px;
+}
+#next-page::after,
+.next-page::after {
+  content: '→';
+  font-size: 1.2em;
+  margin-left: 4px;
+}
+#prev-page, #next-page,
+.prev-page, .next-page {
+  text-indent: 0;
+  overflow: visible;
+}
+/* Companion panel button improvements */
+#comm-panel .tabs {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+#comm-panel .tabs button {
+  background: #f0f0f0; /* Lighter grey for inactive tabs */
+  color: #333;
+  font-weight: normal;
+}
+
+/* TEI text styling */
+#text-content,
+.text-content {
+    height: 100%;
+    overflow-y: auto;
+    padding: 1rem;
+    font-family: 'Crimson Pro', 'Junicode', 'Palatino', serif;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--text-main);
+}
+
+/* Alternate ink styling */
+tei-hi[rend="alt-ink"],
+#text-content tei-hi[rend="alt-ink"],
+.text-content tei-hi[rend="alt-ink"] {
+    color: #8B0000 !important; /* Dark red */
+    font-weight: 700 !important; /* Bold weight */
+}
+
+#text-content tei-l,
+.text-content tei-l {
+    margin: 0.4em 0;
+}
+
+#text-content tei-hi[rend="superscript"],
+#text-content tei-hi[rend="sup"],
+.text-content tei-hi[rend="superscript"],
+.text-content tei-hi[rend="sup"] {
+    font-size: 0.75em;
+}
+
+#text-content tei-hi[rend="drop-capital"],
+.text-content tei-hi[rend="drop-capital"] {
+    font-size: 2em;
+    float: left;
+    line-height: 1;
+    margin-right: 0.1em;
+    font-family: 'Crimson Pro', 'Junicode', 'Palatino', serif;
+    font-weight: 600;
+}
+
+/* Adjust line number styling */
+#text-content tei-l::before,
+.text-content tei-l::before {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
+    color: var(--text-muted);
+}
+
+tei-l {
+  display: block;
+  padding-left: 3em;
+  position: relative;
+}
+
+tei-lg[type="couplet"] {
+  margin-bottom: 1em;
+}
+
+tei-l::before {
+  counter-increment: line;
+  content: counter(line);
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none; /* hide by default */
+  color: var(--text-muted);
+}
+
+tei-l:nth-child(5n+1)::before,
+tei-l:first-child::before {
+  display: block; /* show for first and every 5th line */
+}
+
+tei-l[rend="indent"] {
+  margin-left: 2em;
+}
+
+/* TEI element styling */
+tei-hi[rend="superscript"],
+tei-hi[rend="sup"] {
+    vertical-align: super;
+    font-size: 0.8em;
+}
+
+/* Fix line numbering */
+tei-l {
+    display: block;
+    position: relative;
+    padding-left: 3em;  /* Space for line numbers */
+    margin: 0.5em 0;
+}
+
+tei-l::before {
+    content: attr(n);
+    position: absolute;
+    left: 0;
+    color: var(--text-muted);
+    font-size: 0.9em;
+    width: 2.5em;
+    text-align: right;
+    padding-right: 0.5em;
+}
+
+/* Poem and witness selectors */
+#poem-select,
+#witness-select,
+.poem-select,
+.witness-select {
+    width: calc(100% - 24px);
+    margin: 8px 12px;
+    padding: 6px 10px;
+}
+
+/* Witness buttons */
+#witness-buttons,
+.witness-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin: 16px 0 12px 0;
+}
+
+#witness-buttons button,
+.witness-buttons button {
+    margin-right: 6px;
+    padding: 4px 8px;
+    background-color: var(--button-bg);
+    border: 1px solid var(--panel-border);
+    color: var(--text-main);
+    cursor: pointer;
+    font-size: 0.95rem;
+    padding: 4px 10px;
+    margin: 0 4px;
+    font-weight: 600;
+}
+
+#witness-buttons button.active,
+.witness-buttons button.active {
+    background-color: var(--wl-blue);
+    color: white;
+    border-color: var(--wl-blue);
+}
+
+#witness-buttons button:hover,
+.witness-buttons button:hover {
+  background-color: var(--button-hover-bg);
+}
+
+/* Label styling */
+label[for="witness-select"],
+.witness-label {
+    display: block;
+    margin: 8px 0 4px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+    color: var(--wl-grey);
+    padding-left: 5px;
+}
+
+#page-controls,
+.page-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 12px;
+}
+
+#page-controls button,
+.page-controls button {
+  margin: 0 5px;
+  font-size: 1.1rem;
+  padding: 4px 12px;
+  min-width: 36px;
+  margin: 0 2px;
+}
+
+#page-indicator,
+.page-indicator {
+  margin: 0 10px;
+  font-family: monospace;
+}
+
+#page-input,
+.page-input {
+  width: 50px;
+  text-align: center;
+  background-color: var(--panel-bg);
+  color: var(--text-main);
+  border: 1px solid var(--panel-border);
+}
+
+#progress-container,
+.progress-container {
+  width: 80%;
+  height: 8px;
+  background-color: var(--button-bg);
+  margin: 10px auto;
+  border-radius: 4px;
+  overflow: hidden; /* Ensures the progress bar stays within the container's rounded corners */
+}
+
+#progress-bar,
+.progress-bar {
+  width: 0%;
+  height: 100%;
+  background-color: #007bff;
+  transition: width 0.3s ease;
+}
+
+/* Style for the witness selector label */
+label[for="witness-select"] {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: var(--text-main); /* A darker, more readable color */
+  padding-left: 5px;
+}
+
+#companion-controls,
+.companion-controls {
+  padding: 10px;
+  border-bottom: 1px solid var(--panel-border);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px 14px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+#companion-controls label,
+.companion-controls label {
+  font-family: sans-serif;
+  font-size: 0.9rem;
+  font-weight: bold;
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  flex: 1 1 160px; /* allow wrapping at narrow widths */
+  min-width: 0;    /* allow text to wrap in flex item */
+  white-space: normal;
+  margin-right: 0;
+}
+
+/* Styles for color-coding companion data and controls */
+.commentary-color { color: #005A9C; }
+.text-commentary-color { color: #4E6E58; }
+.vocab-color { color: #A95C54; }
+
+#companion-controls input[type="checkbox"],
+.companion-controls input[type="checkbox"] {
+    margin-right: 5px;
+    transform: scale(0.9);
+}
+
+@media (max-width: 420px) {
+  #companion-controls,
+  .companion-controls {
+    justify-content: flex-start;
+  }
+
+  #companion-controls label,
+  .companion-controls label {
+    flex-basis: 100%;
+  }
+}
+
+/* Apply colors to the checkbox labels - use data attribute instead of for attribute */
+#companion-controls label:has(input[data-extra="commentary"]),
+.companion-controls label:has(input[data-extra="commentary"]) { color: #005A9C; }
+#companion-controls label:has(input[data-extra="text-commentary"]),
+.companion-controls label:has(input[data-extra="text-commentary"]) { color: #4E6E58; }
+#companion-controls label:has(input[data-extra="vocab"]),
+.companion-controls label:has(input[data-extra="vocab"]) { color: #A95C54; }
+
+/* Styles for companion content */
+#extra-content,
+.extra-content {
+    height: 100%;
+    overflow-y: auto;
+    padding: 1rem;
+    font-family: 'Crimson Pro', serif;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.companion-item {
+  margin-bottom: 0.75em; /* space between items */
+}
+
+.line-ref {
+    font-weight: 600;
+    margin-right: 0.5em;
+    color: var(--text-muted); /* A neutral, slightly lighter color for the number */
+}
+
+/* Highlighting for linked lines/notes */
+.highlight {
+  background-color: rgba(0, 48, 135, 0.1); /* Very light, transparent version of --wl-blue */
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Essays Page Styles */
+.essays-layout {
+  display: flex;
+  gap: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+  position: relative;
+}
+
+.essays-sidebar {
+  width: 300px;
+  height: calc(100vh - 100px); /* Account for header */
+  position: sticky;
+  top: 2rem;
+  background: var(--panel-bg);
+  border: 1px solid var(--panel-border);
+  border-radius: 6px;
+  padding: 1.5rem;
+  overflow-y: auto;
+}
+
+.essays-sidebar h2 {
+  font-family: 'Crimson Pro', serif;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--wl-blue);
+}
+
+.essays-nav {
+  list-style: none;
+}
+
+.essays-nav li {
+  margin-bottom: 1rem;
+}
+
+.essays-nav a {
+  color: var(--wl-blue);
+  text-decoration: none;
+  font-family: 'Crimson Pro', serif;
+  font-size: 1.1rem;
+  display: block;
+  padding: 0.5rem;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.essays-nav a:hover {
+  background-color: var(--button-hover-bg);
+}
+
+.essays-nav a.active {
+  background-color: var(--wl-blue);
+  color: white;
+}
+
+.essays-content {
+  flex: 1;
+  max-width: 900px;
+}
+
+.scholarly-essay {
+  background: var(--panel-bg);
+  border: 1px solid var(--panel-border);
+  border-radius: 6px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.essay-header {
+  border-bottom: 2px solid var(--wl-blue);
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+}
+
+.essay-header h2 {
+  font-family: 'Crimson Pro', serif;
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.essay-metadata {
+  font-family: 'Open Sans', sans-serif;
+  color: var(--wl-grey);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.essay-abstract {
+  font-family: 'Crimson Pro', serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 1rem 0;
+  padding: 1rem;
+  background: var(--button-bg);
+  border-left: 4px solid var(--wl-blue);
+}
+
+.essay-content {
+  font-family: 'Crimson Pro', serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.essay-section {
+  margin: 2rem 0;
+}
+
+.essay-section h3 {
+  font-family: 'Crimson Pro', serif;
+  font-size: 1.5rem;
+  color: var(--wl-blue);
+  margin: 1.5rem 0 1rem;
+}
+
+.essay-notes {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--panel-border);
+  font-size: 0.9rem;
+}
+
+.essay-footnote {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.footnote-number {
+  color: var(--wl-blue);
+  font-weight: bold;
+  min-width: 1.5rem;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background: var(--wl-blue);
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+
+.back-to-top:hover {
+  opacity: 1;
+}
+
+@media (max-width: 1024px) {
+  .essays-layout {
+    flex-direction: column;
+  }
+
+  .essays-sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 0;
+    margin-bottom: 2rem;
+  }
+
+  .essays-nav {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+}
+
+/* Search Bar Styles */
+.search-container {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--panel-border);
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--panel-border);
+  border-radius: 4px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9rem;
+  background-color: var(--panel-bg);
+  color: var(--text-main);
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: var(--wl-blue);
+  box-shadow: 0 0 0 2px rgba(0, 48, 135, 0.1);
+}
+
+.search-highlight {
+  background-color: #fff3cd;
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
+/* Export Controls */
+.essay-controls {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--panel-border);
+}
+
+.export-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--wl-blue);
+  border-radius: 4px;
+  background: var(--panel-bg);
+  color: var(--wl-blue);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.export-button:hover {
+  background: var(--wl-blue);
+  color: white;
+}
+
+.export-button svg {
+  width: 16px;
+  height: 16px;
+}
+
+.citation-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.citation-formats {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: var(--panel-bg);
+  border: 1px solid var(--panel-border);
+  border-radius: 4px;
+  padding: 0.5rem 0;
+  margin-top: 0.25rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  display: none;
+  z-index: 100;
+  min-width: 150px;
+}
+
+.citation-formats.show {
+  display: block;
+}
+
+.citation-format {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: var(--text-main);
+  text-decoration: none;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.citation-format:hover {
+  background: var(--button-hover-bg);
+}
+
+/* Print Styles */
+@media print {
+  .essays-sidebar,
+  .essay-controls,
+  header nav {
+    display: none !important;
+  }
+
+  .essays-layout {
+    display: block;
+  }
+
+  .essays-content {
+    max-width: 100%;
+  }
+
+  .scholarly-essay {
+    break-before: page;
+    border: none;
+    padding: 0;
+  }
+
+  .essay-content {
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .essay-notes {
+    border-top: 1px solid #000;
+    margin-top: 2rem;
+    padding-top: 1rem;
+  }
+}
+
+/* Introduction page specific styles */
+.introduction-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.intro-section {
+  margin-bottom: 3rem;
+}
+
+.intro-section h1 {
+  color: var(--wl-blue);
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.intro-section h2 {
+  color: var(--wl-blue);
+  font-size: 2rem;
+  margin-bottom: 1.25rem;
+}
+
+.intro-section p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  color: var(--text-main);
+}
+
+.intro-image {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.intro-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro-image figcaption {
+  margin-top: 1rem;
+  font-style: italic;
+  color: var(--wl-grey);
+}
+
+/* Responsive adjustments for introduction page */
+@media (max-width: 768px) {
+  .introduction-content {
+    padding: 1rem;
+  }
+
+  .intro-section h1 {
+    font-size: 2rem;
+  }
+
+  .intro-section h2 {
+    font-size: 1.75rem;
+  }
+}
+
+#github-icon a:hover {
+  background-color: transparent !important;
+}
+
+#github-icon .github-svg {
+  width: 24px;
+  height: 24px;
+  transition: opacity 0.3s ease;
+}
+
+#github-icon .github-svg:hover {
+  opacity: 0.7;
+}
+
+#github-icon {
+  align-self: center;
+  margin-left: 1rem;
+}
+
+#theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+#theme-toggle .theme-svg {
+  transition: opacity 0.3s ease;
+}
+
+#theme-toggle:hover .theme-svg {
+  opacity: 0.7;
+}
+
+/* Accordion Styles for About Page */
+.accordion-main {
+  border: 1px solid var(--panel-border);
+  border-radius: 8px; /* Slightly more rounded */
+  margin-bottom: 1rem;
+  background-color: var(--panel-bg);
+  overflow: hidden; /* To contain border-radius of children */
+}
+
+.accordion-main summary {
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  background-color: transparent;
+  transition: background-color 0.2s;
+}
+
+.accordion-main summary:hover {
+  background-color: var(--button-hover-bg);
+}
+
+.accordion-main summary h2 {
+  font-size: 1.75rem;
+  margin: 0;
+  color: var(--wl-blue);
+  font-family: 'Lora', serif; /* Consistent heading font */
+}
+
+.accordion-main .accordion-content {
+  padding: 0.5rem 1.5rem 1.5rem;
+  border-top: 1px solid var(--panel-border);
+}
+
+.accordion-nested {
+  border: 1px solid var(--panel-border);
+  border-radius: 6px; /* Make nested items card-like */
+  margin-top: 1rem;
+  background-color: var(--wl-bg); /* Use main bg for contrast */
+  transition: box-shadow 0.2s;
+}
+
+.accordion-nested:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05); /* Add subtle shadow on hover */
+}
+
+.accordion-nested summary {
+  padding: 1rem 1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: normal;
+  border-radius: 6px;
+}
+
+.accordion-nested summary h3 {
+  font-size: 1.15rem; /* Slightly smaller */
+  margin: 0;
+  color: var(--text-main);
+  transition: color 0.2s;
+  font-family: 'Open Sans', sans-serif; /* Consistent body font */
+  font-weight: 600; /* Bolder text */
+}
+
+.accordion-nested summary:hover h3 {
+  color: var(--wl-blue);
+}
+
+.accordion-nested .accordion-content-nested {
+  padding: 0 1rem 1rem 1rem;
+  font-size: 1rem;
+  line-height: 1.7;
+  border-top: 1px solid var(--panel-border);
+  margin: 0 1rem; /* Indent content from summary edges */
+}
+
+/* Custom Accordion Arrow */
+summary::after {
+  content: '▼';
+  font-size: 0.8rem;
+  color: var(--wl-blue);
+  transition: transform 0.2s ease-in-out;
+  margin-left: 1rem;
+}
+
+details[open] > summary::after {
+  transform: rotate(180deg);
+}
+
+/* Remove default marker */
+summary {
+  list-style: none; /* For Firefox */
+}
+
+summary::-webkit-details-marker {
+  display: none; /* For Chrome/Safari */
+}
+
+/* ============================================================================
+   TUTORIAL OVERLAY STYLES
+   ============================================================================ */
+
+/* Main overlay - simple backdrop + centered modal */
+.tutorial-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.55);
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  backdrop-filter: blur(2px);
+  animation: tutorialFadeIn 0.5s ease-in-out;
+}
+
+/* Dark mode: slightly lighter overlay for better contrast */
+body.dark-mode .tutorial-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Hidden state */
+.tutorial-overlay.hidden {
+  display: none;
+}
+
+/* Fade out animation */
+.tutorial-overlay.fade-out {
+  animation: tutorialFadeOut 0.3s ease-in-out forwards;
+}
+
+/* Modal card */
+.tutorial-modal {
+  width: min(600px, 100%);
+  background: var(--panel-bg);
+  color: var(--text-main);
+  border: 1px solid var(--panel-border);
+  border-radius: 14px;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
+  padding: 18px 18px 14px;
+  position: relative;
+}
+
+.tutorial-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  border: 1px solid var(--panel-border);
+  background: transparent;
+  color: var(--text-main);
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.tutorial-close:hover {
+  background: var(--button-hover-bg);
+}
+
+.tutorial-modal h2 {
+  margin: 0 40px 6px 0;
+  font-size: 1.6rem;
+  color: var(--wl-blue);
+}
+
+.tutorial-subtitle {
+  margin: 0 0 14px 0;
+  color: var(--text-muted);
+  font-size: 1rem;
+}
+
+.tutorial-list {
+  margin: 0;
+  padding-left: 1.2rem;
+  display: grid;
+  gap: 10px;
+}
+
+.tutorial-list li {
+  line-height: 1.5;
+}
+
+.tutorial-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.tutorial-primary {
+  background: var(--wl-blue);
+  color: #fff;
+  border: 1px solid var(--wl-blue);
+  border-radius: 10px;
+  padding: 10px 14px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.tutorial-primary:hover {
+  filter: brightness(1.05);
+}
+
+.tutorial-footnote {
+  margin: 12px 0 0 0;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.tutorial-footnote kbd {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.85em;
+  padding: 0.1em 0.4em;
+  border: 1px solid var(--panel-border);
+  border-bottom-width: 2px;
+  border-radius: 6px;
+  background: var(--button-bg);
+}
+
+/* Animations */
+@keyframes tutorialFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes tutorialFadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .tutorial-overlay {
+    padding: 14px;
+  }
+
+  .tutorial-modal {
+    padding: 16px 14px 12px;
+  }
+
+  .tutorial-modal h2 {
+    font-size: 1.35rem;
+  }
+
+  .tutorial-actions {
+    justify-content: stretch;
+  }
+
+  .tutorial-primary {
+    width: 100%;
+    justify-content: center;
+  }
+}
