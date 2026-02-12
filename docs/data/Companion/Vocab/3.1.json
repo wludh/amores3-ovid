@@ -1,7 +1,7 @@
 {
   "1": "incaeduus, incaedua, incaeduum: uncut, unfelled",
   "2": "crēdibilis, crēdibilis, crēdibile: credible, worthy of belief, believable, likely\nīnsum: to be in, to be on, to belong to, be involved in or with",
-  "3": "spēlunca, spēluncae f.: a cave, cavern, chasm, a grotto\npendēns, pendentis: pending, depending, hanging down",
+  "3": "spēlunca, spēluncae f.: a cave, cavern, chasm, a grotto\npumex, pumicis m.: pumice stone; soft, porous rock\npendēns, pendentis: pending, depending, hanging down",
   "4": "dulce: sweetly, agreeably, delightfully",
   "5": "spatior: to accompany, stride, proceed, process\ntēctus, tēcta, tēctum: covered, concealed, hidden or concealed, sheltered",
   "6": "mūsa, mūsae f.: Muse, song, poem",
@@ -13,7 +13,7 @@
   "14": "cothurnus, cothurnī m.: cothurnus, buskin, boot",
   "15": "ecquis, ecquid: what, is there any",
   "16": "argūmentum, argūmentī n.: a proof, a point, a theme, a topic\nlentus, lenta, lentum: flexible, pliant; tough, sluggish; persistent (+ genitive)",
-  "17": "nēquitia, nēquitiae f.: negligence, inactivity, depravity, wickedness\nvīnōsus, vīnōsa, vīnōsum: tasting or smelling of wine",
+  "17": "nēquitia, nēquitiae f.: negligence, inactivity, depravity, wickedness\nvīnōsus, vīnōsa, vīnōsum: tasting or smelling of wine\nconvīvium, convīviī n.: a banquet, party, social gathering",
   "18": "compitum, compitī n.: a crossroad\nsectus, secta, sectum: cut (off, divided, amputated",
   "19": "digitus, digitī m.: a finger\ndēsignō, dēsignāre, dēsignāvī, dēsignātum: to mark, to trace out, to outline, describe\niēns, euntis: (participle from eō) going, moving, proceeding, advancing",
   "20": "ūrō, ūrere, ussī, ustum: to burn, consume, inflame, set afire or on fire",
@@ -25,6 +25,7 @@
   "27": "cantō, cantāre, cantāvī, cantātum: recite, play, foretell, or call forth by charms\nlūdō, lūdere, lūsī, lūsum: to play (a, to frolic, behave playfully, to practice\nmūsa, mūsae f.: song, poem, sciences, Muse",
   "28": "iuventa, iuventae f.: youth, young manhood",
   "29": "rōmānus, rōmāna, rōmānum: Roman \ntragoedia, tragoediae f.: ( drama ) tragedy",
+  "30": "inplēbit = implēbit",
   "31": "hāctenus (adv.): thus far, so far, as far as this, to this point\npingo, pingere, pīnxī, pīctus: to paint, decorate, color, embellish\ninnitor, innītī, innīxus: to rest or lean upon, to support oneself by",
   "32": "dēnsus, dēnsa, dēnsum: dense, compact, crowded, close\ncaesariēs, caesariēī f.: a head of hair\nter: thrice, three times, three as understood symbolically in\nquater: four times",
   "33": "līmus, līma, līmum: sidelong, askew, askance, sideways\nsubrīdeō, subrīdēre, subrīsī, subrīsum: to smile, to laugh quietly\nocellus, ocellī m.: a little eye; often used as a term of endearment",
@@ -46,12 +47,13 @@
   "52": "impercussus, impercussa, impercussa: unstruck; noiseless, silent",
   "53": "foris, foris, f.: a door, gate, opening\nīnfīgō, īnfīgere, īnfīxī, īnfīxum: to fix, thrust, drive, fasten in",
   "54": "praeteriēns, praetereuntis (participle from praetereō): passing by, disregarding or neglecting, surpassing",
-  "56": "ancilla, ancillae f.: maid, slave-girl, handmaiden\ndēlitēscō: to hide, or go, to withdraw, to take refuge",
+  "56": "ancilla, ancillae f.: maid, slave-girl, handmaiden\ndēlitescō, dēlitescere, dēlituī: to hide, to withdraw, to escape notice",
   "57": "nātālis, nātālis, nātāle: natal (of one's birth)",
   "58": "appositus, apposita, appositum: appointed, assigned\nbarbarus, barbara, barbarum:wild, savage, cruel, barbarous\nmersō, mersāre, mersāvī, mersātum: to immerse, to overwhelm, drown",
   "59": "sēmen, sēminis n.: seed",
+  "61": "dēsierat < dēsinō, dēsinere, dēsiī, dēsitus: to leave off, cease",
   "63": "decorō, decorāre, decorāvī, decorātum: to decorate, adorn, embellish, grace",
   "66": "versus, versus, f.: a line of writing, a verse of poetry",
   "67": "exiguus, exigua, exiguum: strict, exact, paltry, inadequate",
-  "70": "tergum, tergī, n.: the back (of a person or thing)\ngrandis, grande: full-grown, large, great, abundant\nurgeō: to press, push, force, drive"
+  "70": "tergum, tergī, n.: the back (of a person or thing)\ngrandis, grande: full-grown, large, great, abundant\nurgeō, urgēre, ursī: to press, push, force, drive"
 }
