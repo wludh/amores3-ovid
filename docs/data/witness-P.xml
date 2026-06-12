@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <witness n="P">
- <poem n="3.1">
+<poem n="3.1">
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
@@ -26,7 +26,7 @@
 </text>
 </TEI>
 </poem>
- <poem n="3.2">
+<poem n="3.2">
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
@@ -52,7 +52,7 @@
 </text>
 </TEI>
 </poem>
- <poem n="3.3">
+<poem n="3.3">
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
@@ -78,7 +78,7 @@
 </text>
 </TEI>
 </poem>
- <poem n="3.4">
+<poem n="3.4">
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
@@ -104,7 +104,7 @@
 </text>
 </TEI>
 </poem>
- <poem n="3.5">
+<poem n="3.5">
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
@@ -130,7 +130,7 @@
 </text>
 </TEI>
 </poem>
- <poem n="3.6">
+<poem n="3.6">
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
@@ -156,8 +156,8 @@
 </text>
 </TEI>
 </poem>
- <poem n="3.7">
-<TEI xmlns=“http://www.tei-c.org/ns/1.0”>
+<poem n="3.7">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -182,7 +182,7 @@
 </text>
 </TEI>
 </poem>
- <poem n="3.8">
+<poem n="3.8">
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
@@ -208,7 +208,7 @@
 </text>
 </TEI>
 </poem>
- <poem n="3.9">
+<poem n="3.9">
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
@@ -234,7 +234,7 @@
 </text>
 </TEI>
 </poem>
- <poem n="3.10">
+<poem n="3.10">
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
@@ -260,7 +260,7 @@
 </text>
 </TEI>
 </poem>
- <poem n="3.11">
+<poem n="3.11">
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
@@ -286,7 +286,7 @@
 </text>
 </TEI>
 </poem>
- <poem n="3.12">
+<poem n="3.12">
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
@@ -312,7 +312,7 @@
 </text>
 </TEI>
 </poem>
- <poem n="3.13">
+<poem n="3.13">
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
@@ -338,7 +338,7 @@
 </text>
 </TEI>
 </poem>
- <poem n="3.14">
+<poem n="3.14">
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
@@ -364,7 +364,7 @@
 </text>
 </TEI>
 </poem>
- <poem n="3.15">
+<poem n="3.15">
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
