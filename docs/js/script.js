@@ -105,6 +105,30 @@ function normalizeAnnotationList(items) {
     });
 }
 
+function buildAnnotationKey(annotation) {
+  return [
+    annotation.panelId || '',
+    annotation.witness || '',
+    annotation.lineId || '',
+    annotation.poem || ''
+  ].join('|');
+}
+
+function mergeAnnotationLists(fallbackList, storageList) {
+  const merged = new Map();
+
+  // Start with fallback annotations, then let storage override matching keys.
+  fallbackList.forEach(annotation => {
+    merged.set(buildAnnotationKey(annotation), annotation);
+  });
+
+  storageList.forEach(annotation => {
+    merged.set(buildAnnotationKey(annotation), annotation);
+  });
+
+  return Array.from(merged.values());
+}
+
 async function loadAnnotationsFromFallbackFile() {
   try {
     const resp = await fetch(ANNOTATION_FALLBACK_URL, { cache: 'no-cache' });
@@ -130,11 +154,23 @@ async function loadAnnotationsFromFallbackFile() {
 
 async function loadAnnotations() {
   const loadedFromStorage = loadAnnotationsFromStorage();
+  const storageAnnotations = loadedFromStorage ? [...annotationState.annotations] : [];
+
+  const loadedFromFallback = await loadAnnotationsFromFallbackFile();
+  const fallbackAnnotations = loadedFromFallback ? [...annotationState.annotations] : [];
+
+  if (loadedFromStorage && loadedFromFallback) {
+    annotationState.annotations = mergeAnnotationLists(fallbackAnnotations, storageAnnotations);
+    saveAnnotationsToStorage();
+    return annotationState.annotations.length > 0;
+  }
+
   if (loadedFromStorage) {
+    annotationState.annotations = storageAnnotations;
     return true;
   }
 
-  return loadAnnotationsFromFallbackFile();
+  return loadedFromFallback;
 }
 
 function restoreAnnotationsForAllViewerPanels() {
