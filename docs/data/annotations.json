@@ -5,11 +5,11 @@
         "lineId":  "1",
         "poem":  "3.1",
         "sourceWitness":  "LL",
-        "page":  119,
-        "x":  62,
-        "y":  1177,
-        "width":  1383,
-        "height":  108
+        "page": 119,
+        "x":  51,
+        "y":  1156,
+        "width":  1554,
+        "height":  151
     },
     {
         "panelId":  "viewer-panel",
@@ -30214,18 +30214,6 @@
         "y":  1099,
         "width":  1437,
         "height":  110
-    },
-    {
-        "panelId":  "viewer-panel",
-        "witness":  "Y",
-        "lineId":  "1",
-        "poem":  "3.1",
-        "sourceWitness":  "LL",
-        "page":  139,
-        "x":  110,
-        "y":  1133,
-        "width":  1451,
-        "height":  141
     },
     {
         "panelId":  "viewer-panel",

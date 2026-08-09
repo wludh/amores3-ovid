@@ -377,6 +377,8 @@ section[data-panel-type="viewer"] > .panel-body {
   flex-direction: column;
   padding: 6px 12px 12px 12px;  /* top 6px (half), right/left 12px, bottom 12px */
   gap: 8px;                     /* space between controls and viewers */
+  min-height: 0;                /* allow flex children to size correctly */
+  overflow: hidden;             /* let the viewer container handle scrolling */
 }
 
 /* === Stacked Viewers Container === */
@@ -385,17 +387,18 @@ section[data-panel-type="viewer"] > .panel-body {
   display: flex;
   flex-direction: column;
   gap: 12px;                    /* space between each viewer section */
-  flex: 1;
+  flex: 1 1 auto;
   min-height: 0;                /* allows flex to work properly */
-  overflow-y: auto;             /* enable scrolling if needed */
+  max-height: 100%;
+  overflow-y: auto;
 }
 
 /* Individual viewer section (one per manuscript) */
 .viewer-section {
   display: flex;
   flex-direction: column;
-  flex: 1;
-  min-height: 0;                /* critical for flex children */
+  flex: 1 1 0;
+  min-height: 120px;            /* allow three stacked viewers to share available space */
   border: 1px solid var(--panel-border);
   border-radius: 4px;
   background: var(--panel-bg);
