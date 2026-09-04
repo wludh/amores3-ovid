@@ -31882,5 +31882,29 @@
         "y":  3296,
         "width":  2110,
         "height":  345
+    },
+    {
+        "panelId":  "viewer-panel",
+        "witness":  "P",
+        "lineId":  "38",
+        "poem":  "3.11",
+        "sourceWitness":  "LL",
+        "page":  96,
+        "x":  2915,
+        "y":  2083,
+        "width":  1632,
+        "height":  195
+    },
+    {
+        "panelId":  "viewer-panel",
+        "witness":  "P",
+        "lineId":  "38",
+        "poem":  "3.14",
+        "sourceWitness":  "LL",
+        "page":  99,
+        "x":  617,
+        "y":  985,
+        "width":  1786,
+        "height":  285
     }
 ]

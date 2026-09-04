@@ -7,6 +7,18 @@
   box-sizing: border-box;
 }
 
+.visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
 /* 2) Base typography & background */
 body {
   font-family: Arial, sans-serif;
@@ -369,16 +381,22 @@ header nav ul {
   gap: 1rem;
 }
 
-/* === Viewer Panel Spacing Override === */
-/* Target only the viewer panel's body */
-section#viewer-panel > .panel-body,
-section[data-panel-type="viewer"] > .panel-body {
-  display: flex;                /* ensure it's flex */
+/* === Viewer Panel Spacing === */
+section[data-panel-type="viewer"] > .panel-body,
+section[data-panel-type="line-viewer"] > .panel-body {
+  display: flex;
   flex-direction: column;
-  padding: 6px 12px 12px 12px;  /* top 6px (half), right/left 12px, bottom 12px */
-  gap: 8px;                     /* space between controls and viewers */
-  min-height: 0;                /* allow flex children to size correctly */
-  overflow: hidden;             /* let the viewer container handle scrolling */
+  padding: 6px 12px 12px;
+  min-height: 0;
+}
+
+section[data-panel-type="viewer"] > .panel-body {
+  gap: 16px;
+}
+
+section[data-panel-type="line-viewer"] > .panel-body {
+  gap: 8px;
+  overflow: hidden;
 }
 
 /* === Stacked Viewers Container === */
@@ -386,7 +404,7 @@ section[data-panel-type="viewer"] > .panel-body {
 .viewers-container {
   display: flex;
   flex-direction: column;
-  gap: 12px;                    /* space between each viewer section */
+  gap: 5px;                     /* keep the three witnesses visually connected */
   flex: 1 1 auto;
   min-height: 0;                /* allows flex to work properly */
   max-height: 100%;
@@ -405,14 +423,23 @@ section[data-panel-type="viewer"] > .panel-body {
   overflow: hidden;
 }
 
-/* Label above each viewer (P, Y, S) */
+/* Compact witness badge over the image instead of a separate label row. */
 .viewer-label {
-  padding: 6px 10px;
-  background-color: var(--button-bg);
-  border-bottom: 1px solid var(--panel-border);
-  font-weight: 600;
-  font-size: 0.95rem;
-  color: var(--text-main);
+  position: absolute;
+  z-index: 60;
+  top: 6px;
+  left: 6px;
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  border: 1px solid rgba(255, 255, 255, 0.72);
+  border-radius: 999px;
+  background: rgba(0, 48, 135, 0.88);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.28);
+  color: #fff;
+  font: 700 0.78rem/1 'Open Sans', sans-serif;
+  pointer-events: none;
 }
 
 .viewer-wrapper {
@@ -492,12 +519,12 @@ section[data-panel-type="viewer"] > .panel-body {
 }
 
 .annotation-toolbar {
+  position: relative;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: 10px;
-  padding: 10px;
+  gap: 8px;
+  padding: 6px 8px;
   border: 1px solid var(--panel-border);
   border-radius: 6px;
   background: var(--button-bg);
@@ -505,17 +532,56 @@ section[data-panel-type="viewer"] > .panel-body {
 
 .annotation-status {
   display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  font-size: 0.9rem;
+  flex-wrap: nowrap;
+  gap: 0.4rem;
+  min-width: 0;
+  font-size: 0.82rem;
   color: var(--text-main);
+  white-space: nowrap;
+}
+
+.annotation-tools {
+  position: static;
+  flex: 0 0 auto;
+}
+
+.annotation-tools summary {
+  padding: 4px 8px;
+  border: 1px solid var(--panel-border);
+  border-radius: 4px;
+  background: var(--panel-bg);
+  color: var(--text-main);
+  font-size: 0.82rem;
+  line-height: 1.4;
+  white-space: nowrap;
+  cursor: pointer;
+  list-style: none;
+}
+
+.annotation-tools summary::-webkit-details-marker {
+  display: none;
+}
+
+.annotation-tools summary:hover,
+.annotation-tools summary:focus-visible {
+  background: var(--button-hover-bg);
 }
 
 .annotation-controls {
+  position: absolute;
+  z-index: 100;
+  top: calc(100% + 5px);
+  right: 0;
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
   align-items: center;
+  width: min(360px, 100%);
+  padding: 10px;
+  border: 1px solid var(--panel-border);
+  border-radius: 6px;
+  background: var(--panel-bg);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
 }
 
 .annotation-controls select,
@@ -524,9 +590,9 @@ section[data-panel-type="viewer"] > .panel-body {
 }
 
 .annotation-message {
+  flex-basis: 100%;
   color: var(--text-secondary);
   font-size: 0.85rem;
-  margin-left: 0.5rem;
 }
 
 .annotation-preview,
@@ -541,42 +607,28 @@ section[data-panel-type="viewer"] > .panel-body {
   border-style: solid;
 }
 
-/* Per-viewer page controls */
-.viewer-section .page-controls {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 6px 8px;
-  gap: 8px;
-  border-top: 1px solid var(--panel-border);
-  background-color: var(--button-bg);
-  font-size: 0.85rem;
+.annotation-rect.current-annotation {
+  z-index: 2;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: transparent;
+  box-shadow: 0 0 0 9999px rgba(8, 18, 38, 0.26);
 }
 
-.viewer-section .page-controls button {
-  padding: 3px 6px;
-  font-size: 0.8rem;
-  min-width: 24px;
-  margin: 0;
-}
-
-.viewer-section .page-controls .page-indicator {
-  font-family: monospace;
-  font-size: 0.75rem;
-  margin: 0 4px;
+.annotation-focus-label {
+  position: absolute;
+  z-index: 3;
+  top: 7px;
+  right: 7px;
+  padding: 2px 6px;
+  border-radius: 999px;
+  background: rgba(0, 48, 135, 0.94);
+  color: #fff;
+  font: 700 0.72rem/1.4 'Open Sans', sans-serif;
+  letter-spacing: 0.01em;
   white-space: nowrap;
+  pointer-events: none;
 }
 
-.viewer-section .page-controls .page-input {
-  width: 35px;
-  padding: 2px 4px;
-  font-size: 0.8rem;
-}
-
-.viewer-section .page-controls .go-to-page {
-  padding: 3px 6px;
-  font-size: 0.8rem;
-}
 /* Drag-handle styling */
 .drag-handle {
   font-size: 1.2rem;
@@ -637,7 +689,7 @@ hi[rend="smallcaps"]    { font-variant: small-caps; }
 /* optional: make <lg> block respect poem margins */
 lg[type="elegiacCouplet"] { display:block; margin: 1em 0; }
 
-/* IIIF Viewer and Companion panel button improvements */
+/* Single Manuscript Viewer and Companion panel button improvements */
 /* Use arrows for Previous/Next */
 #prev-page::after,
 .prev-page::after {
@@ -730,6 +782,50 @@ tei-hi[rend="alt-ink"],
 .text-content [data-line].clickable-line:hover,
 #text-content [data-line].clickable-line:hover {
   text-decoration: underline;
+}
+
+.transcription-empty-state {
+  padding: 1rem;
+  border: 1px solid var(--panel-border);
+  border-radius: 6px;
+  background: var(--button-bg);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.transcription-empty-state h3 {
+  margin: 0 0 0.5rem;
+  color: var(--text-main);
+  font-family: 'Lora', serif;
+  font-size: 1.05rem;
+}
+
+.transcription-empty-state p + p {
+  margin-top: 0.65rem;
+}
+
+.transcription-fallback-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 0.75rem;
+}
+
+.transcription-fallback {
+  padding: 6px 10px;
+  border: 1px solid var(--wl-blue);
+  border-radius: 4px;
+  background: var(--wl-blue);
+  color: var(--wl-white);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.transcription-fallback:hover,
+.transcription-fallback:focus-visible {
+  filter: brightness(1.12);
 }
 
 tei-l {
@@ -991,15 +1087,16 @@ label[for="witness-select"] {
 /* Essays Page Styles */
 .essays-layout {
   display: flex;
-  gap: 2rem;
-  max-width: 1400px;
+  align-items: flex-start;
+  gap: clamp(1.5rem, 4vw, 4rem);
+  max-width: 1240px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: clamp(1.25rem, 3vw, 3rem);
   position: relative;
 }
 
 .essays-sidebar {
-  width: 300px;
+  flex: 0 0 230px;
   height: calc(100vh - 100px); /* Account for header */
   position: sticky;
   top: 2rem;
@@ -1048,15 +1145,17 @@ label[for="witness-select"] {
 
 .essays-content {
   flex: 1;
-  max-width: 900px;
+  min-width: 0;
+  max-width: 76ch;
 }
 
 .scholarly-essay {
   background: var(--panel-bg);
   border: 1px solid var(--panel-border);
-  border-radius: 6px;
-  padding: 2rem;
-  margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.06);
+  padding: clamp(1.5rem, 4vw, 3.75rem);
+  margin-bottom: 2.5rem;
 }
 
 .essay-header {
@@ -1068,7 +1167,8 @@ label[for="witness-select"] {
 
 .essay-header h2 {
   font-family: 'Crimson Pro', serif;
-  font-size: 2rem;
+  font-size: clamp(2rem, 5vw, 3rem);
+  line-height: 1.08;
   color: var(--text-main);
   margin-bottom: 0.5rem;
 }
@@ -1092,12 +1192,34 @@ label[for="witness-select"] {
 
 .essay-content {
   font-family: 'Crimson Pro', serif;
-  font-size: 1.1rem;
-  line-height: 1.8;
+  font-size: clamp(1.08rem, 1.5vw, 1.2rem);
+  line-height: 1.72;
 }
 
 .essay-section {
   margin: 2rem 0;
+}
+
+.essay-section > p {
+  margin: 0 0 1.25em;
+  text-wrap: pretty;
+}
+
+#essay-3-1 .essay-section > p:first-of-type::first-letter {
+  color: var(--wl-blue);
+  font-size: 2.85em;
+  font-weight: 600;
+  line-height: 0.82;
+  padding-right: 0.08em;
+}
+
+.essay-section blockquote {
+  margin: 1.75rem 1rem;
+  padding: 0.8rem 1.25rem;
+  border-left: 3px solid var(--wl-blue);
+  background: var(--button-bg);
+  font-style: italic;
+  white-space: pre-line;
 }
 
 .essay-section h3 {
@@ -1118,6 +1240,14 @@ label[for="witness-select"] {
   display: flex;
   gap: 0.5rem;
   margin-bottom: 0.5rem;
+}
+
+.essay-forthcoming {
+  box-shadow: none;
+}
+
+.essay-forthcoming .essay-content {
+  color: var(--text-secondary);
 }
 
 .footnote-number {
@@ -1154,6 +1284,7 @@ label[for="witness-select"] {
 
   .essays-sidebar {
     width: 100%;
+    flex-basis: auto;
     height: auto;
     position: relative;
     top: 0;
@@ -1603,5 +1734,66 @@ body.dark-mode .tutorial-overlay {
   .tutorial-primary {
     width: 100%;
     justify-content: center;
+  }
+}
+
+/* Stack the research panels when three readable columns no longer fit. */
+@media (max-width: 900px) {
+  header .header-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .site-title {
+    font-size: 1.45rem;
+  }
+
+  header nav,
+  header nav ul {
+    width: 100%;
+  }
+
+  header nav ul {
+    flex-wrap: wrap;
+    gap: 4px 6px;
+  }
+
+  header nav a {
+    display: block;
+    padding: 4px 7px;
+    font-size: 0.9rem;
+  }
+
+  #github-icon {
+    margin-left: 0;
+  }
+
+  #panels {
+    flex-direction: column;
+    height: auto;
+    overflow: visible;
+    gap: 12px;
+    padding: 12px;
+  }
+
+  #panels section {
+    width: 100% !important;
+    height: 78vh;
+    min-height: 560px;
+    flex: 0 0 auto !important;
+  }
+
+  #panels section.collapsed {
+    height: auto;
+    min-height: 0;
+  }
+
+  #panels section.collapsed > .panel-body {
+    display: none;
+  }
+
+  #panels > .gutter {
+    display: none;
   }
 }

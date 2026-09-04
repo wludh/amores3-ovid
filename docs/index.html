@@ -48,7 +48,8 @@
       <span class="drag-handle" title="Drag to reorder">☰</span>
       <select class="panel-type-select">
         <option value="transcription">Transcription</option>
-        <option value="viewer">IIIF Viewer</option>
+        <option value="viewer">Single Manuscript Viewer</option>
+        <option value="line-viewer">Line-by-line Viewer</option>
         <option value="companion">Companion</option>
       </select>
       <button class="toggle-btn" title="Collapse panel">×</button>
@@ -75,13 +76,14 @@
     </div>
   </section>
 
-  <!-- Panel 2: IIIF Viewer & Witness Buttons -->
+  <!-- Panel 2: Single Manuscript Viewer & Witness Buttons -->
   <section id="viewer-panel">
     <div class="panel-header">
       <span class="drag-handle" title="Drag to reorder">☰</span>
       <select class="panel-type-select">
         <option value="transcription">Transcription</option>
-        <option value="viewer" selected>IIIF Viewer</option>
+        <option value="viewer" selected>Single Manuscript Viewer</option>
+        <option value="line-viewer">Line-by-line Viewer</option>
         <option value="companion">Companion</option>
       </select>
       <button class="toggle-btn" title="Collapse panel">×</button>
@@ -91,85 +93,22 @@
         <option value="">Select a poem…</option>
       </select>
 
-      <label class="manuscript-label">View:</label>
-      <select class="manuscript-select">
-        <option value="all" selected>All (P, Y, S)</option>
-        <option value="P">Manuscript P only</option>
-        <option value="Y">Manuscript Y only</option>
-        <option value="S">Manuscript S only</option>
-      </select>
-
-      <div class="annotation-toolbar">
-        <div class="annotation-status">
-          <span>Active line: <strong class="annotation-active-line">None</strong></span>
-          <span>Source witness: <strong class="annotation-source-witness">—</strong></span>
-        </div>
-        <div class="annotation-controls">
-          <label>
-            Target:
-            <select class="annotation-witness-select">
-              <option value="P">P</option>
-              <option value="Y">Y</option>
-              <option value="S">S</option>
-            </select>
-          </label>
-          <button class="toggle-annotation" type="button">Start annotation</button>
-          <button class="clear-annotations" type="button">Clear annotations</button>
-          <button class="import-annotations" type="button">Import annotations</button>
-          <button class="export-annotations" type="button">Export annotations</button>
-          <input class="annotation-import-input" type="file" accept="application/json,.json" hidden>
-          <span class="annotation-message" aria-live="polite"></span>
-        </div>
+      <div id="witness-buttons" class="witness-buttons">
+        <button data-witness="P">Witness P</button>
+        <button data-witness="Y">Witness Y</button>
+        <button data-witness="S">Witness S</button>
       </div>
 
-      <!-- Three vertically stacked viewers for P, Y, S manuscripts -->
-      <div class="viewers-container">
-        <div class="viewer-section" data-witness="P">
-          <div class="viewer-label">Manuscript P</div>
-          <div class="viewer-wrapper">
-            <div class="viewer" data-witness="P"></div>
-            <div class="annotation-overlay" data-witness="P"></div>
-          </div>
-          <div class="page-controls" data-witness="P">
-            <button class="prev-page" disabled>&larr;</button>
-            <span class="page-indicator"></span>
-            <input type="number" class="page-input" min="1" disabled>
-            <button class="go-to-page" disabled>Go</button>
-            <button class="next-page" disabled>&rarr;</button>
-          </div>
-        </div>
-        <div class="viewer-section" data-witness="Y">
-          <div class="viewer-label">Manuscript Y</div>
-          <div class="viewer-wrapper">
-            <div class="viewer" data-witness="Y"></div>
-            <div class="annotation-overlay" data-witness="Y"></div>
-          </div>
-          <div class="page-controls" data-witness="Y">
-            <button class="prev-page" disabled>&larr;</button>
-            <span class="page-indicator"></span>
-            <input type="number" class="page-input" min="1" disabled>
-            <button class="go-to-page" disabled>Go</button>
-            <button class="next-page" disabled>&rarr;</button>
-          </div>
-        </div>
-        <div class="viewer-section" data-witness="S">
-          <div class="viewer-label">Manuscript S</div>
-          <div class="viewer-wrapper">
-            <div class="viewer" data-witness="S"></div>
-            <div class="annotation-overlay" data-witness="S"></div>
-          </div>
-          <div class="page-controls" data-witness="S">
-            <button class="prev-page" disabled>&larr;</button>
-            <span class="page-indicator"></span>
-            <input type="number" class="page-input" min="1" disabled>
-            <button class="go-to-page" disabled>Go</button>
-            <button class="next-page" disabled>&rarr;</button>
-          </div>
-        </div>
+      <div id="viewer" class="viewer"></div>
+      <div id="page-controls" class="page-controls">
+        <button id="prev-page" class="prev-page" disabled>&larr;</button>
+        <span id="page-indicator" class="page-indicator"></span>
+        <input type="number" id="page-input" class="page-input" min="1" disabled>
+        <button id="go-to-page" class="go-to-page" disabled>Go</button>
+        <button id="next-page" class="next-page" disabled>&rarr;</button>
       </div>
-
-      <div class="progress-container">
-        <div class="progress-bar"></div>
+      <div id="progress-container" class="progress-container">
+        <div id="progress-bar" class="progress-bar"></div>
       </div>
     </div>
   </section>
@@ -180,7 +119,8 @@
       <span class="drag-handle" title="Drag to reorder">☰</span>
       <select class="panel-type-select">
         <option value="transcription">Transcription</option>
-        <option value="viewer">IIIF Viewer</option>
+        <option value="viewer">Single Manuscript Viewer</option>
+        <option value="line-viewer">Line-by-line Viewer</option>
         <option value="companion" selected>Companion</option>
       </select>
       <button class="toggle-btn" title="Collapse panel">×</button>
@@ -191,7 +131,7 @@
       </select>
       <div id="companion-controls" class="companion-controls">
         <label><input type="checkbox" data-extra="commentary" checked> Commentary</label>
-        <label><input type="checkbox" data-extra="text-commentary"> Text Commentary</label>
+        <label><input type="checkbox" data-extra="text-commentary"> Manuscript Commentary</label>
         <label><input type="checkbox" data-extra="vocab"> Vocabulary</label>
       </div>
       <div id="extra-content" class="extra-content">
@@ -212,8 +152,8 @@
 
       <ol class="tutorial-list">
         <li><strong>Pick a poem</strong> from the “Select a poem…” dropdown in any panel.</li>
-        <li><strong>Switch panel type</strong> (Transcription / IIIF Viewer / Companion) from the panel header.</li>
-        <li><strong>Compare witnesses</strong> using the witness selector (Transcription) or witness buttons (Viewer).</li>
+        <li><strong>Switch panel type</strong> (Transcription / Single Manuscript Viewer / Line-by-line Viewer / Companion) from the panel header.</li>
+        <li><strong>Inspect one witness</strong> in the Single Manuscript Viewer, or click a transcription line to compare witnesses in the Line-by-line Viewer.</li>
         <li><strong>Arrange the workspace</strong>: drag the ☰ handle to reorder, use × to collapse, and drag gutters to resize.</li>
         <li><strong>Toggle theme</strong> with the sun/moon icon in the header.</li>
       </ol>

@@ -2,9 +2,11 @@
   "name": "amores-proxy",
   "version": "1.0.0",
   "description": "A simple CORS proxy for the Amores project",
-  "main": "proxy-server.js",
+  "main": "dev-server.mjs",
   "scripts": {
-    "start": "node proxy-server.js"
+    "dev": "node dev-server.mjs",
+    "start": "node dev-server.mjs",
+    "test": "node --test"
   },
   "dependencies": {
     "axios": "^1.10.0",
