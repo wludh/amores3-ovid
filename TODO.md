@@ -17,3 +17,5 @@
 - [x] Add a labeled spotlight to the active manuscript line while retaining surrounding context.
 - [x] Remove the unused Summary sections from the Essays page.
 - [x] Move the active-line badge away from the manuscript text and soften the focus boundary.
+- [x] Keep the active-line spotlight aligned during manuscript zooming and panning.
+- [x] Extend transcription-click line focusing to the active Single Manuscript Viewer witness.

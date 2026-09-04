@@ -45,6 +45,7 @@ const PANEL_TYPES = {
 // Store OpenSeadragon instances per panel
 const osdViewers = new Map();
 const lineViewerLoadTokens = new Map();
+const singleViewerLoadTokens = new Map();
 // Expose for debugging and external access
 try { window.osdViewers = osdViewers; } catch (e) { /* ignore in non-browser env */ }
 
@@ -590,7 +591,10 @@ function createViewerPanelBody() {
       <button data-witness="Y">Witness Y</button>
       <button data-witness="S">Witness S</button>
     </div>
-    <div class="viewer"></div>
+    <div class="single-viewer-wrapper">
+      <div class="viewer"></div>
+      <div class="annotation-overlay single-viewer-annotation-overlay hidden-rects"></div>
+    </div>
     <div class="page-controls">
       <button class="prev-page" disabled>&larr;</button>
       <span class="page-indicator"></span>
@@ -865,8 +869,13 @@ function updateLineViewerUI(panel, witness, currentPage, totalPages) {
 async function loadManifest(panel, poem, witness) {
   const viewerEl = getPanelElement(panel, '.viewer');
   if (!viewerEl) return;
+
+  const focusOverlay = getPanelElement(panel, '.single-viewer-annotation-overlay');
+  if (focusOverlay) clearCurrentAnnotationMarkers(focusOverlay);
   
   const panelId = panel.id;
+  const loadToken = Symbol(`${panelId}-${poem}-${witness}`);
+  singleViewerLoadTokens.set(panelId, loadToken);
   const manifestUrl = getManifestUrl(poem, witness);
   
   if (!manifestUrl) {
@@ -905,9 +914,13 @@ async function loadManifest(panel, poem, witness) {
     const resp = await fetch(manifestUrl);
     manifest = await resp.json();
   } catch (e) {
-    viewerEl.innerHTML = '<p>Failed to load IIIF manifest.</p>';
+    if (singleViewerLoadTokens.get(panelId) === loadToken) {
+      viewerEl.innerHTML = '<p>Failed to load IIIF manifest.</p>';
+    }
     return;
   }
+
+  if (singleViewerLoadTokens.get(panelId) !== loadToken) return;
   
   // Validate manifest exists
   if (!manifest) {
@@ -976,6 +989,7 @@ async function loadManifest(panel, poem, witness) {
   }
   
   function initializeOpenSeadragon() {
+    if (singleViewerLoadTokens.get(panelId) !== loadToken) return;
     // Create OpenSeadragon instance
     const osdViewer = OpenSeadragon({
       element: viewerEl,
@@ -986,16 +1000,25 @@ async function loadManifest(panel, poem, witness) {
       crossOriginPolicy: 'Anonymous'
     });
 
+    viewerEl.dataset.poem = poem;
+    viewerEl.dataset.witness = witness;
     osdViewers.set(panelId, osdViewer);
+    attachFocusedAnnotationViewportHandlers(panel, witness, osdViewer);
     
     osdViewer.addHandler('open', () => {
       updateSingleViewerPageButtons(panel);
       updateSingleViewerUI(panel, osdViewer.currentPage(), osdViewer.tileSources.length);
+
+      if (annotationState.selectedPoem === poem && annotationState.selectedLineId) {
+        const annotation = getAnnotationForViewer(panel, annotationState.selectedLineId, witness, poem);
+        if (annotation) zoomViewerToAnnotation(panel, witness, annotation);
+      }
     });
     
     osdViewer.addHandler('page', (event) => {
       updateSingleViewerUI(panel, event.page, osdViewer.tileSources.length);
       updateSingleViewerPageButtons(panel);
+      refreshAnnotationOverlayVisibility(panel, witness, event.page);
     });
   }
 }
@@ -1124,6 +1147,8 @@ async function loadManifestForWitness(panel, poem, witness) {
     
     viewerEl.dataset.poem = poem;
     osdViewers.set(viewerId, osdViewer);
+
+    attachFocusedAnnotationViewportHandlers(panel, witness, osdViewer);
     
     osdViewer.addHandler('open', () => {
       updateLineViewerUI(panel, witness, osdViewer.currentPage(), osdViewer.tileSources.length);
@@ -1150,6 +1175,7 @@ async function loadManifestForWitness(panel, poem, witness) {
     osdViewer.addHandler('page', (event) => {
       updateLineViewerUI(panel, witness, event.page, osdViewer.tileSources.length);
     });
+
   }
 }
 
@@ -1256,6 +1282,18 @@ function getViewerId(panel, witness) {
   return `${panel.id}-${witness}`;
 }
 
+function getAnnotationViewer(panel, witness) {
+  return getPanelType(panel) === PANEL_TYPES.VIEWER
+    ? osdViewers.get(panel.id)
+    : osdViewers.get(getViewerId(panel, witness));
+}
+
+function getAnnotationOverlay(panel, witness) {
+  return getPanelType(panel) === PANEL_TYPES.VIEWER
+    ? getPanelElement(panel, '.single-viewer-annotation-overlay')
+    : getPanelElement(panel, `.annotation-overlay[data-witness="${witness}"]`);
+}
+
 function setSelectedAnnotationLine(lineId, sourceWitness, poem) {
   const changedLine = annotationState.selectedLineId !== lineId || annotationState.selectedPoem !== poem;
   annotationState.selectedLineId = lineId;
@@ -1263,11 +1301,10 @@ function setSelectedAnnotationLine(lineId, sourceWitness, poem) {
   annotationState.selectedPoem = poem || null;
   annotationState.activePanelId = annotationState.activePanelId || null;
 
-  if (changedLine && annotationState.activePanelId && annotationState.activeWitness) {
-    const activePanel = document.getElementById(annotationState.activePanelId);
-    if (activePanel) {
-      getPanelElements(activePanel, '.annotation-overlay').forEach(overlay => clearCurrentAnnotationMarkers(overlay));
-    }
+  if (changedLine) {
+    document.querySelectorAll('#panels .annotation-overlay').forEach(overlay => {
+      clearCurrentAnnotationMarkers(overlay);
+    });
   }
 
   refreshAllAnnotationToolbars();
@@ -1294,8 +1331,7 @@ function getViewerViewportRectFromImageRect(osdViewer, imageRect) {
 }
 
 function zoomViewerToAnnotation(panel, witness, annotation) {
-  const viewerId = getViewerId(panel, witness);
-  const osdViewer = osdViewers.get(viewerId);
+  const osdViewer = getAnnotationViewer(panel, witness);
   if (!osdViewer) return;
 
   const pageIndex = Math.max(0, annotation.page - 1);
@@ -1356,6 +1392,26 @@ function zoomAllViewersToLine(lineId, poem) {
         zoomViewerToAnnotation(panel, witness, annotation);
       }
     });
+  });
+
+  const singleViewerPanels = Array.from(document.querySelectorAll(`section[data-panel-type="${PANEL_TYPES.VIEWER}"]`));
+  singleViewerPanels.forEach(panel => {
+    const activeWitnessButton = getPanelElement(panel, '.witness-buttons button.active');
+    const poemSelect = getPanelElement(panel, '.poem-select');
+    if (!activeWitnessButton || !poemSelect) return;
+
+    const witness = activeWitnessButton.dataset.witness;
+    if (poemSelect.value !== poem) {
+      poemSelect.value = poem;
+      poemSelect.dispatchEvent(new Event('change'));
+      return;
+    }
+
+    const annotation = getAnnotationForViewer(panel, lineId, witness, poem);
+    const viewerEl = getPanelElement(panel, '.viewer');
+    if (annotation && viewerEl?.dataset.poem === poem && viewerEl.dataset.witness === witness) {
+      zoomViewerToAnnotation(panel, witness, annotation);
+    }
   });
 }
 
@@ -1429,8 +1485,8 @@ function clearCurrentAnnotationMarkers(overlay) {
 }
 
 function showFocusedAnnotation(panel, witness, annotation) {
-  const overlay = getPanelElement(panel, `.annotation-overlay[data-witness="${witness}"]`);
-  const osdViewer = osdViewers.get(getViewerId(panel, witness));
+  const overlay = getAnnotationOverlay(panel, witness);
+  const osdViewer = getAnnotationViewer(panel, witness);
   if (!overlay || !osdViewer || osdViewer.currentPage() !== annotation.page - 1) return;
 
   clearCurrentAnnotationMarkers(overlay);
@@ -1466,6 +1522,43 @@ function showFocusedAnnotation(panel, witness, annotation) {
   overlay.appendChild(label);
   overlay.classList.add('hidden-rects');
   refreshAnnotationOverlayVisibility(panel, witness, osdViewer.currentPage());
+}
+
+function positionFocusedAnnotation(panel, witness) {
+  const overlay = getAnnotationOverlay(panel, witness);
+  const osdViewer = getAnnotationViewer(panel, witness);
+  const poem = getPanelElement(panel, '.poem-select')?.value;
+  const lineId = annotationState.selectedLineId;
+  if (!overlay || !osdViewer || !poem || !lineId) return;
+
+  const annotation = getAnnotationForViewer(panel, lineId, witness, poem);
+  const rect = overlay.querySelector('.annotation-rect.current-annotation');
+  if (!annotation || !rect || osdViewer.currentPage() !== annotation.page - 1) return;
+
+  const overlayRect = getOverlayRectFromImageRect(osdViewer, annotation);
+  rect.style.left = `${overlayRect.left}px`;
+  rect.style.top = `${overlayRect.top}px`;
+  rect.style.width = `${overlayRect.width}px`;
+  rect.style.height = `${overlayRect.height}px`;
+}
+
+function attachFocusedAnnotationViewportHandlers(panel, witness, osdViewer) {
+  let focusAnimationFrame = null;
+  const scheduleFocusedAnnotationPosition = () => {
+    if (focusAnimationFrame !== null) return;
+    focusAnimationFrame = requestAnimationFrame(() => {
+      focusAnimationFrame = null;
+      positionFocusedAnnotation(panel, witness);
+    });
+  };
+
+  // Annotation rectangles are HTML overlays, so keep the active one aligned
+  // while OpenSeadragon transforms the manuscript image.
+  osdViewer.addHandler('animation', scheduleFocusedAnnotationPosition);
+  osdViewer.addHandler('animation-finish', scheduleFocusedAnnotationPosition);
+  osdViewer.addHandler('canvas-drag', scheduleFocusedAnnotationPosition);
+  osdViewer.addHandler('canvas-scroll', scheduleFocusedAnnotationPosition);
+  osdViewer.addHandler('resize', scheduleFocusedAnnotationPosition);
 }
 
 function toggleAnnotationMode(panel) {
@@ -1672,7 +1765,7 @@ function exportAnnotations(panel) {
 }
 
 function refreshAnnotationOverlayVisibility(panel, witness, currentPage) {
-  const overlay = getPanelElement(panel, `.annotation-overlay[data-witness="${witness}"]`);
+  const overlay = getAnnotationOverlay(panel, witness);
   if (!overlay) return;
 
   overlay.querySelectorAll('.annotation-rect').forEach(rect => {

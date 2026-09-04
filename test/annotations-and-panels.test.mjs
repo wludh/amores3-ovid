@@ -132,6 +132,31 @@ test('the focused manuscript line receives a labeled spotlight', async () => {
   assert.match(styles, /\.annotation-rect\.current-annotation\s*{[^}]*background:\s*transparent;/s);
 });
 
+test('the focused line overlay follows OpenSeadragon viewport changes', async () => {
+  const source = await readFile(scriptPath, 'utf8');
+
+  assert.match(source, /function positionFocusedAnnotation\(panel, witness\)/);
+  assert.match(source, /requestAnimationFrame\(\(\) =>/);
+  assert.match(source, /addHandler\('animation', scheduleFocusedAnnotationPosition\)/);
+  assert.match(source, /addHandler\('canvas-drag', scheduleFocusedAnnotationPosition\)/);
+  assert.match(source, /addHandler\('canvas-scroll', scheduleFocusedAnnotationPosition\)/);
+  assert.match(source, /addHandler\('resize', scheduleFocusedAnnotationPosition\)/);
+});
+
+test('single manuscript viewers reuse the click-to-focus annotation overlay', async () => {
+  const html = await readFile(indexPath, 'utf8');
+  const source = await readFile(scriptPath, 'utf8');
+  const styles = await readFile(new URL('../docs/css/styles.css', import.meta.url), 'utf8');
+
+  assert.match(html, /class="annotation-overlay single-viewer-annotation-overlay hidden-rects"/);
+  assert.match(source, /function getAnnotationViewer\(panel, witness\)/);
+  assert.match(source, /function getAnnotationOverlay\(panel, witness\)/);
+  assert.match(source, /section\[data-panel-type="\$\{PANEL_TYPES\.VIEWER\}"\]/);
+  assert.match(source, /viewerEl\.dataset\.witness = witness/);
+  assert.match(styles, /\.single-viewer-wrapper\s*{[^}]*position:\s*relative;/s);
+  assert.match(styles, /\.single-viewer-wrapper #viewer,\s*\.single-viewer-wrapper \.viewer\s*{[^}]*height:\s*100%;/s);
+});
+
 test('the first poem choice fills all panels only when the others are empty', async () => {
   const source = await readFile(scriptPath, 'utf8');
 
