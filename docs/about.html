@@ -4,10 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Amores — About</title>
-  <!-- link to our CSS -->
+  <!-- Shared theme and About page layout -->
   <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/about.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Open+Sans:wght@400;600&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
 </head>
-<body>
+<body class="about-page">
   <!-- Header + Navigation --><header>
   <div class="header-content">
     <h1 class="site-title">The Amores Project</h1>
@@ -17,7 +19,7 @@
         <li><a href="introduction.html">Introduction</a></li>
         <li><a href="editions.html">Editions</a></li>
         <li><a href="essays.html">Essays</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="about.html" aria-current="page">About</a></li>
         <li>
           <button id="theme-toggle" aria-label="Toggle dark mode">
             <svg class="theme-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="24px" height="24px">
@@ -39,94 +41,36 @@
 </header>
 
 
-  <!-- Main content for Home will go here later -->
-  <main class="introduction-content">
-  <section class="intro-section">
-  <h1>About</h1>
-  <p>This website was created by James Kull (W&L '27) as part of the Amores Project.</p>
-  </section>
+  <main class="about-content">
+    <article class="about-document" aria-labelledby="about-title">
+      <section class="about-intro">
+        <h1 id="about-title">ABOUT </h1>
+        <p>A central objective of <em>The Amores Project</em> is to remind readers that the process of book creation and preservation draws upon the labor and talents of a collective. The same is true of this website’s creation.</p>
+      </section>
+      <section class="about-contributors" aria-labelledby="contributors-title">
+        <h2 id="contributors-title">CREATORS / CONTRIBUTORS</h2>
+        <div class="contributor-grid">
+          <div class="contributor-card"><p><strong class="contributor-name">Caleb Dance</strong> (Associate Professor of Classics at W&amp;L University) conceived of the website’s basic structure and functionality with the support of many individuals and institutions. (His “Acknowledgements” appear below.) Caleb also authored the grammatical commentary, which has been improved through the feedback of students who contributed to his “Ovid and Book History” course offered in the early months of 2026.</p></div>
+          <div class="contributor-card"><p><strong class="contributor-name">Carter Zavitz</strong> (W&amp;L ’28) was a 2026 Summer Research Scholar (SRS) in Classics at W&amp;L and a student in “Ovid and Book History.” In addition to his co-authorship of the essay discussing the authenticity of <em>Amores </em>3.5, Carter envisioned and executed the line-by-line manuscript viewer and created the IIIF annotation tool.</p></div>
+          <div class="contributor-card"><p><strong class="contributor-name">James Kull</strong> (W&amp;L ’27) was a 2025 Summer Research Scholar (SRS) in Classics at W&amp;L. He created the website one long weekend in July 2025, making numerous inspired improvements to the design in the process (e.g., the flexibility of the three-panel layout). James also created the vocabulary tool while serving as the first reader of Caleb’s drafts of several poems’ commentaries. He has continued to volunteer his time in improving the project, recently integrating Carter’s line-by-line viewer with the original single manuscript viewer. </p></div>
+        </div>
+      </section>
+      <section class="about-acknowledgements" aria-labelledby="acknowledgements-title">
+        <h2 id="acknowledgements-title">Acknowledgements</h2>
+        <div class="acknowledgements-copy">
+          <p>I (Caleb) began thinking about this project some years ago, and I have amassed a lengthy list of names of people to whom I am indebted for making it possible. </p>
+          <p>The project might be little more than a collection of Word documents and a sketch of a webpage were it not for James Kull’s proactive and ongoing contributions. I thank James first because no other person has made such singular contributions to the project in its current and previous manifestations. I also owe a summer of thanks to Carter Zavitz for applying to be a Summer Research Scholar (hours before the deadline!) last March so he could make his own remarkable contributions to <em>The Amores Project</em>.</p>
+          <p>Gratitude is also due to Washington and Lee’s Office of the Provost (which administers the Summer Research Scholars program) and Office of the Dean of the College. The financial support for a Research Sabbatical during the ’23-’24 academic year permitted me to devote myself to the project in earnest, and several years of Lenfest Funding have also granted me the flexibility to focus on the project during summer months, sometimes alone, but also for those summers of research with James and Carter.</p>
+          <p>Prof. Mackenzie Brooks (W&amp;L Digital Humanities Librarian) talked me through the early stages of the project’s design and continues to improve it whenever she so much as glances at it (and she has often done more than that). A draft proposal for the project was also molded through the contributions of members of the Book History Teacher Scholar cohort funded by the Office of the Dean of the College. Special Collections and Archives at W&amp;L continues to support my plan to expand the project, and I’m thankful to Byron Faidey, Paula Kiser, K.T. Vaughan, and Leyburn Library for investing time, energy, and resources in digitizing and hosting a rare book in the collection. (Stay tuned!)</p>
+          <p>The germ of the idea for a “book historical edition” of Ovid’s <em>Amores </em>Book 3 emerged during my tenure as an M.C. Lang Fellow at Rare Book School, where I benefitted from the instruction and advice of Michael Suarez, David Vander Meulen, and Barbara Heritage. Had I not attended these and other rewarding courses at RBS, I cannot imagine I’d claim “book history” as a research interest, nor would the “Ovid and Book History” course in which I test-drove <em>The Amores Project </em>with students have ever taken shape.</p>
+          <p>In the first quarter of 2024 I was fortunate to be a Tyatus Fellow at University of Cincinnati, where I performed much of the research underpinning this project. My thanks to the UC Classics community, particularly to Steven Ellis, Calloway Scott, Kimmie Regler, Lily van Diepen, and Caitlin Hines for making those months in Northside simultaneously productive and pleasant. </p>
+          <p>I continue to benefit from Caitlin Hines’s ideas and improvements for the project, most recently when she and I co-presented a workshop at the “Teaching with Ovid” conference organized by the International Ovidian Society and <em>Societas </em><em>Ovidiana</em>. My thanks to the workshop attendees; to Joe Sheppard, Charley McNamara, Kate Brassel, and Zachary Hines for sharing feedback during a draft of that workshop; and to audiences to my presentations on Ovid and book historical topics at a meeting of the <em>Classical Association of Virginia </em>at University of Virginia and at meetings of the <em>Classical Association of the </em><em>Middle West and South </em>in Urbana-Champaign, IL and St. Louis, MO.</p>
+          <p>Thanks also to my colleagues in the Classics Department at Washington and Lee: to Kevin Crotty, Rebecca Benefiel, and especially to Michael Laughy, who, when I found myself at a research crossroads, encouraged me to tackle <em>this </em>project first.</p>
+          <p>Finally, thank you to my parents for making us all a family of book lovers. And to Lily van Diepen and Numa Sempronius Latro, both of whom have been at my figurative and literal side during so many of the hours I’ve worked on <em>The Amores Project.</em></p>
+        </div>
+      </section>
+    </article>
 
-  <section class="intro-section" id="how-to-use-accordion">
-    <details open class="accordion-main">
-      <summary><h2>How to Use This Site</h2></summary>
-      <div class="accordion-content">
-        <p>This site provides an interactive workspace for exploring Ovid's <em>Amores</em>. The home page contains three customizable panels that can display texts, manuscript images, or scholarly commentary side by side.</p>
-        
-        <details class="accordion-nested">
-          <summary><h3>The Three-Panel Layout</h3></summary>
-          <div class="accordion-content-nested">
-            <p>Each of the three panels can be switched between four modes: <strong>Transcription</strong>, <strong>Single Manuscript Viewer</strong>, <strong>Line-by-line Viewer</strong>, and <strong>Companion</strong>.</p>
-            <ul>
-              <li><strong>Customizing Your View:</strong> On wider screens, resize panels by dragging the vertical borders. Reorder panels with the "☰" handle, or use the "×" control to collapse a panel. On narrower screens, the panels stack vertically so each workspace remains readable.</li>
-            </ul>
-          </div>
-        </details>
-
-        <details class="accordion-nested">
-          <summary><h3>Exploring the Text</h3></summary>
-          <div class="accordion-content-nested">
-            <ol>
-              <li><strong>Select a Poem:</strong> In the <strong>Transcription</strong> panel, use the "Select a poem..." dropdown menu to choose which of the <em>Amores</em> you wish to examine.</li>
-              <li><strong>Choose a Witness:</strong> Below the poem selector, the "Witness" dropdown allows you to load the transcription from a specific manuscript source (e.g., P, Y, S, or LL).</li>
-              <li><strong>Unavailable Transcriptions:</strong> If the selected witness has not yet been transcribed, the panel offers the Latin Library (LL) text and any other transcription available for that poem.</li>
-            </ol>
-          </div>
-        </details>
-
-        <details class="accordion-nested">
-          <summary><h3>Viewing the Manuscripts</h3></summary>
-          <div class="accordion-content-nested">
-            <ul>
-              <li><strong>Single Manuscript Viewer:</strong> Select a poem in the viewer panel, then choose P, Y, or S to open that manuscript at the mapped page. The viewer includes zoom and page-navigation controls.</li>
-              <li><strong>Line-by-line Viewer:</strong> Select a poem and choose whether to display all three manuscripts or a single witness. Clicking a line in a transcription panel moves each available manuscript view to that line.</li>
-              <li>The line-by-line viewer follows the poem selected in the transcription automatically, while other panel selectors remain independent.</li>
-            </ul>
-          </div>
-        </details>
-
-        <details class="accordion-nested">
-          <summary><h3>Using Line Annotations</h3></summary>
-          <div class="accordion-content-nested">
-            <ol>
-              <li>Set one panel to <strong>Transcription</strong> and another to <strong>Line-by-line Viewer</strong>.</li>
-              <li>Choose a poem and witness in the transcription, then click any numbered line. Every manuscript with an annotation for that line moves to the corresponding passage and highlights the active line while retaining nearby context.</li>
-              <li>Use the <strong>View</strong> menu to compare P, Y, and S together or enlarge a single manuscript.</li>
-              <li>For annotation work, open <strong>Tools</strong>, choose the target manuscript, select a transcription line, and click <strong>Start annotation</strong>. Drag a box over the matching manuscript line, then export the JSON when finished.</li>
-            </ol>
-            <p>Annotation edits remain in the current browser until exported; they do not change the published dataset automatically.</p>
-          </div>
-        </details>
-
-        <details class="accordion-nested">
-          <summary><h3>Accessing the Commentary</h3></summary>
-          <div class="accordion-content-nested">
-            <ul>
-              <li>The <strong>Companion</strong> panel provides contextual information. Check the boxes for "Commentary," "Manuscript Commentary," or "Vocabulary" to display the desired notes for the selected poem.</li>
-            </ul>
-          </div>
-        </details>
-
-        <details class="accordion-nested">
-          <summary><h3>Interactive Linking</h3></summary>
-          <div class="accordion-content-nested">
-            <p>The <strong>Transcription</strong>, <strong>Line-by-line Viewer</strong>, and <strong>Companion</strong> panels provide linked reading tools:</p>
-            <ul>
-              <li><strong>Hovering:</strong> Hover your mouse over a line in the transcription to highlight the corresponding notes in the companion panel, and vice-versa.</li>
-              <li><strong>Clicking:</strong> Click a transcription line to move a line-by-line manuscript viewer to its annotated location and scroll the companion panel to relevant notes. Clicking a companion note scrolls the transcription to the corresponding line.</li>
-            </ul>
-          </div>
-        </details>
-
-        <details class="accordion-nested">
-          <summary><h3>Dark Mode</h3></summary>
-          <div class="accordion-content-nested">
-            <p>For a different viewing experience, you can toggle dark mode by clicking the theme toggle icon in the header navigation.</p>
-          </div>
-        </details>
-
-      </div>
-    </details>
-  </section>
 </main>
 
   <!-- link to our JavaScript -->

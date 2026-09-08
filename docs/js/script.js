@@ -1517,8 +1517,25 @@ function showFocusedAnnotation(panel, witness, annotation) {
   rect.classList.add('current-annotation');
   const label = document.createElement('span');
   label.className = 'annotation-focus-label';
-  label.setAttribute('aria-hidden', 'true');
   label.textContent = `Line ${annotation.lineId}`;
+  if (panel.dataset.panelType === PANEL_TYPES.VIEWER) {
+    const clearButton = document.createElement('button');
+    clearButton.type = 'button';
+    clearButton.className = 'annotation-focus-clear';
+    clearButton.textContent = '×';
+    clearButton.setAttribute('aria-label', 'Clear selected-line highlight');
+    clearButton.title = 'Clear selected-line highlight';
+    clearButton.addEventListener('click', event => {
+      event.stopPropagation();
+      clearCurrentAnnotationMarkers(overlay);
+      // Return keyboard focus to the viewer without changing its page or zoom.
+      osdViewer.element.setAttribute('tabindex', '-1');
+      osdViewer.element.focus({ preventScroll: true });
+    });
+    label.appendChild(clearButton);
+  } else {
+    label.setAttribute('aria-hidden', 'true');
+  }
   overlay.appendChild(label);
   overlay.classList.add('hidden-rects');
   refreshAnnotationOverlayVisibility(panel, witness, osdViewer.currentPage());

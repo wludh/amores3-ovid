@@ -144,7 +144,90 @@
   </section>
 </main>
 
- 
+
+  <button type="button" class="help-button" id="help-button" aria-label="How to Use This Site" aria-haspopup="dialog" aria-controls="help-dialog" title="How to Use This Site">?</button>
+  <dialog id="help-dialog" class="help-dialog" aria-labelledby="help-title">
+    <div class="help-heading">
+      <h2 id="help-title">How to Use This Site</h2>
+      <button type="button" class="help-close" aria-label="Close usage guide" autofocus>×</button>
+    </div>
+    <div class="help-content">
+<p>This site provides an interactive workspace for exploring Ovid's <em>Amores</em>. The home page contains three customizable panels that can display texts, manuscript images, or scholarly commentary side by side.</p>
+
+        <details class="accordion-nested">
+          <summary><h3>The Three-Panel Layout</h3></summary>
+          <div class="accordion-content-nested">
+            <p>Each of the three panels can be switched between four modes: <strong>Transcription</strong>, <strong>Single Manuscript Viewer</strong>, <strong>Line-by-line Viewer</strong>, and <strong>Companion</strong>.</p>
+            <ul>
+              <li><strong>Customizing Your View:</strong> On wider screens, resize panels by dragging the vertical borders. Reorder panels with the "☰" handle, or use the "×" control to collapse a panel. On narrower screens, the panels stack vertically so each workspace remains readable.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="accordion-nested">
+          <summary><h3>Exploring the Text</h3></summary>
+          <div class="accordion-content-nested">
+            <ol>
+              <li><strong>Select a Poem:</strong> In the <strong>Transcription</strong> panel, use the "Select a poem..." dropdown menu to choose which of the <em>Amores</em> you wish to examine.</li>
+              <li><strong>Choose a Witness:</strong> Below the poem selector, the "Witness" dropdown allows you to load the transcription from a specific manuscript source (e.g., P, Y, S, or LL).</li>
+              <li><strong>Unavailable Transcriptions:</strong> If the selected witness has not yet been transcribed, the panel offers the Latin Library (LL) text and any other transcription available for that poem.</li>
+            </ol>
+          </div>
+        </details>
+
+        <details class="accordion-nested">
+          <summary><h3>Viewing the Manuscripts</h3></summary>
+          <div class="accordion-content-nested">
+            <ul>
+              <li><strong>Single Manuscript Viewer:</strong> Select a poem in the viewer panel, then choose P, Y, or S to open that manuscript at the mapped page. The viewer includes zoom and page-navigation controls.</li>
+              <li><strong>Line-by-line Viewer:</strong> Select a poem and choose whether to display all three manuscripts or a single witness. Clicking a line in a transcription panel moves each available manuscript view to that line.</li>
+              <li>The line-by-line viewer follows the poem selected in the transcription automatically, while other panel selectors remain independent.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="accordion-nested">
+          <summary><h3>Using Line Annotations</h3></summary>
+          <div class="accordion-content-nested">
+            <ol>
+              <li>Set one panel to <strong>Transcription</strong> and another to <strong>Line-by-line Viewer</strong>.</li>
+              <li>Choose a poem and witness in the transcription, then click any numbered line. Every manuscript with an annotation for that line moves to the corresponding passage and highlights the active line while retaining nearby context.</li>
+              <li>Use the <strong>View</strong> menu to compare P, Y, and S together or enlarge a single manuscript.</li>
+              <li>For annotation work, open <strong>Tools</strong>, choose the target manuscript, select a transcription line, and click <strong>Start annotation</strong>. Drag a box over the matching manuscript line, then export the JSON when finished.</li>
+            </ol>
+            <p>Annotation edits remain in the current browser until exported; they do not change the published dataset automatically.</p>
+          </div>
+        </details>
+
+        <details class="accordion-nested">
+          <summary><h3>Accessing the Commentary</h3></summary>
+          <div class="accordion-content-nested">
+            <ul>
+              <li>The <strong>Companion</strong> panel provides contextual information. Check the boxes for "Commentary," "Manuscript Commentary," or "Vocabulary" to display the desired notes for the selected poem.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="accordion-nested">
+          <summary><h3>Interactive Linking</h3></summary>
+          <div class="accordion-content-nested">
+            <p>The <strong>Transcription</strong>, <strong>Line-by-line Viewer</strong>, and <strong>Companion</strong> panels provide linked reading tools:</p>
+            <ul>
+              <li><strong>Hovering:</strong> Hover your mouse over a line in the transcription to highlight the corresponding notes in the companion panel, and vice-versa.</li>
+              <li><strong>Clicking:</strong> Click a transcription line to move a line-by-line manuscript viewer to its annotated location and scroll the companion panel to relevant notes. Clicking a companion note scrolls the transcription to the corresponding line.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="accordion-nested">
+          <summary><h3>Dark Mode</h3></summary>
+          <div class="accordion-content-nested">
+            <p>For a different viewing experience, you can toggle dark mode by clicking the theme toggle icon in the header navigation.</p>
+          </div>
+        </details>
+    </div>
+  </dialog>
+
   <!-- Tutorial Overlay -->
   <div id="tutorial-overlay" class="tutorial-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="tutorial-title">
     <div class="tutorial-modal" role="document">
@@ -166,7 +249,7 @@
       </div>
 
       <p class="tutorial-footnote">
-        Tip: you can replay this later with <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>T</kbd>.
+        For the full guide, use the floating <strong>?</strong> button in the bottom-right corner.
       </p>
     </div>
   </div>
@@ -178,5 +261,6 @@
   <script src="js/CETEI.js"></script>
   <script src="js/data.js"></script>
   <script src="js/script.js"></script>
+  <script src="js/help.js"></script>
 </body>
 </html>

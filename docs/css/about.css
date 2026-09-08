@@ -1,0 +1,106 @@
+/* About extends the shared blue, paper surfaces, and scholarly typography. */
+.about-page nav a[aria-current="page"] {
+  background: rgba(255, 255, 255, 0.16);
+  text-decoration: underline;
+  text-underline-offset: 0.35em;
+}
+
+.about-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: clamp(1.25rem, 4vw, 3rem) clamp(1rem, 3vw, 2rem) 4rem;
+}
+
+.about-intro {
+  padding: clamp(1.5rem, 4vw, 3rem);
+  background: var(--panel-bg);
+  border: 1px solid var(--panel-border);
+  border-top: 4px solid var(--wl-blue);
+  border-radius: 0 0 6px 6px;
+}
+
+.about-intro h1 {
+  font-size: 0.95rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  margin-bottom: 1.5rem;
+}
+
+.about-intro p {
+  max-width: 36em;
+  font-family: 'Crimson Pro', Georgia, serif;
+  font-size: clamp(1.5rem, 2.8vw, 2rem);
+  line-height: 1.45;
+  color: var(--text-main);
+}
+
+.about-contributors {
+  margin: 3rem 0;
+}
+
+.about-contributors h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9rem;
+  letter-spacing: 0.12em;
+  margin-bottom: 1.25rem;
+}
+
+.contributor-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.contributor-card {
+  padding: 1.5rem;
+  border: 1px solid var(--panel-border);
+  border-top: 3px solid var(--wl-blue);
+  border-radius: 6px;
+  background: var(--panel-bg);
+}
+
+.contributor-card p {
+  font-size: 1rem;
+  color: var(--text-main);
+  line-height: 1.8;
+}
+
+.contributor-name {
+  display: block;
+  font-family: 'Lora', Georgia, serif;
+  font-size: 1.4rem;
+  color: var(--wl-blue);
+  line-height: 1.35;
+  margin-bottom: 0.75rem;
+}
+
+.about-acknowledgements {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2.6fr);
+  gap: 2.5rem;
+  padding: 2.5rem 0 1.5rem;
+  border-top: 1px solid var(--panel-border);
+}
+
+.about-acknowledgements h2 {
+  font-size: clamp(1.25rem, 2vw, 1.6rem);
+  overflow-wrap: anywhere;
+}
+
+.acknowledgements-copy p {
+  font-family: 'Crimson Pro', Georgia, serif;
+  font-size: 1.25rem;
+  color: var(--text-main);
+  line-height: 1.75;
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 900px) {
+  .contributor-grid { grid-template-columns: 1fr; }
+  .about-acknowledgements { grid-template-columns: 1fr; gap: 1rem; }
+}
+
+@media (max-width: 600px) {
+  .about-contributors { margin: 2rem 0; }
+}

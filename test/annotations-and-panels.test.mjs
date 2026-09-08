@@ -206,9 +206,11 @@ test('content pages have distinct titles and current workspace instructions', as
 
   assert.match(about, /<title>Amores — About<\/title>/);
   assert.match(editions, /<title>Amores — Editions<\/title>/);
-  assert.match(about, /<strong>Line-by-line Viewer<\/strong>/);
-  assert.match(about, /panels stack vertically/);
-  assert.match(about, /<h3>Using Line Annotations<\/h3>/);
+  const home = await readFile(new URL('../docs/index.html', import.meta.url), 'utf8');
+  assert.doesNotMatch(about, /How to Use This Site/);
+  assert.match(home, /<strong>Line-by-line Viewer<\/strong>/);
+  assert.match(home, /panels stack vertically/);
+  assert.match(home, /<h3>Using Line Annotations<\/h3>/);
 });
 
 test('complete GitHub commentary is retained in the reconciled dataset', async () => {

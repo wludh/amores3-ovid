@@ -1756,36 +1756,6 @@ body.dark-mode .tutorial-overlay {
 
 /* Stack the research panels when three readable columns no longer fit. */
 @media (max-width: 900px) {
-  header .header-content {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-  }
-
-  .site-title {
-    font-size: 1.45rem;
-  }
-
-  header nav,
-  header nav ul {
-    width: 100%;
-  }
-
-  header nav ul {
-    flex-wrap: wrap;
-    gap: 4px 6px;
-  }
-
-  header nav a {
-    display: block;
-    padding: 4px 7px;
-    font-size: 0.9rem;
-  }
-
-  #github-icon {
-    margin-left: 0;
-  }
-
   #panels {
     flex-direction: column;
     height: auto;
@@ -1813,4 +1783,163 @@ body.dark-mode .tutorial-overlay {
   #panels > .gutter {
     display: none;
   }
+}
+
+/* Workspace help stays within reach without adding a navigation item. */
+.help-button {
+  position: fixed;
+  right: max(1.25rem, env(safe-area-inset-right));
+  bottom: max(1.25rem, env(safe-area-inset-bottom));
+  z-index: 900;
+  width: 3rem;
+  height: 3rem;
+  border: 2px solid var(--panel-bg);
+  border-radius: 50%;
+  background: var(--wl-blue);
+  color: var(--wl-white);
+  font: 700 1.5rem/1 Georgia, serif;
+  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.help-button:hover { filter: brightness(1.15); }
+.help-button:focus-visible,
+.help-dialog button:focus-visible,
+.help-dialog summary:focus-visible {
+  outline: 3px solid var(--wl-blue);
+  outline-offset: 3px;
+}
+body.help-open { overflow: hidden; }
+.help-dialog {
+  margin: auto;
+  width: min(48rem, calc(100% - 2rem));
+  max-height: calc(100dvh - 3rem);
+  padding: 0;
+  border: 1px solid var(--panel-border);
+  border-radius: 10px;
+  background: var(--panel-bg);
+  color: var(--text-main);
+  box-shadow: 0 20px 70px rgba(0, 0, 0, 0.3);
+}
+.help-dialog::backdrop { background: rgba(0, 0, 0, 0.55); }
+.help-heading {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  background: var(--panel-bg);
+  border-bottom: 1px solid var(--panel-border);
+}
+.help-heading h2 { margin: 0; font-size: 1.5rem; }
+.help-close {
+  flex-shrink: 0;
+  width: 2.75rem;
+  height: 2.75rem;
+  border: 1px solid var(--panel-border);
+  border-radius: 6px;
+  background: var(--button-bg);
+  color: var(--text-main);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.help-close:hover { background: var(--button-hover-bg); }
+.help-content { padding: 1.5rem; font-size: 1rem; line-height: 1.75; }
+.help-content .accordion-content-nested { padding-top: 1rem; }
+.help-content :is(ul, ol) { padding-left: 1.4rem; }
+.help-content li + li { margin-top: 0.65rem; }
+.help-content .accordion-content-nested p { margin-top: 0.75rem; }
+@media (max-width: 600px) {
+  .help-heading, .help-content { padding: 1rem; }
+  .help-heading h2 { font-size: 1.2rem; }
+  .help-content .accordion-content-nested { margin: 0 0.5rem; }
+}
+
+/* Shared navigation: a compact single row with consistently sized controls. */
+body > header .header-content {
+  gap: 1.5rem;
+}
+body > header .site-title {
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+body > header nav { min-width: 0; }
+body > header nav ul {
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 0.5rem;
+}
+body > header nav li {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+body > header nav a,
+body > header #theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.75rem;
+  white-space: nowrap;
+}
+body > header #github-icon { margin-left: 0; }
+body > header #github-icon a,
+body > header #theme-toggle {
+  width: 2.75rem;
+  padding: 0;
+}
+body > header nav svg {
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+@media (max-width: 1100px) {
+  body > header { padding: 10px 20px; }
+  body > header .header-content { gap: 1rem; }
+  body > header .site-title { font-size: 1.45rem; }
+  body > header nav ul { gap: 0.25rem; }
+  body > header nav a { padding: 4px 7px; font-size: 0.9rem; }
+}
+@media (max-width: 740px) {
+  body > header .header-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+  body > header nav {
+    width: 100%;
+    overflow-x: auto;
+  }
+  body > header nav ul { width: max-content; }
+}
+
+/* Only the close control intercepts pointer input over the manuscript. */
+.single-viewer-annotation-overlay .annotation-focus-label {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 2px 6px;
+  font-size: 0.72rem;
+}
+.annotation-focus-clear {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 0.875rem;
+  height: 0.875rem;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: #fff;
+  font: 0.875rem/1 sans-serif;
+  cursor: pointer;
+  pointer-events: auto;
+}
+.annotation-focus-clear:hover { background: rgba(255, 255, 255, 0.2); }
+.annotation-focus-clear:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: -2px;
 }
