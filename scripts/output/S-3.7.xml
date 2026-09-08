@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<witness n="S">
-  <poem n="3.1"><TEI/></poem>
-  <poem n="3.2"><TEI/></poem>
-  <poem n="3.3"><TEI/></poem>
-  <poem n="3.4"><TEI/></poem>
-  <poem n="3.5"><TEI/></poem>
-  <poem n="3.6"><TEI/></poem>
-  <poem n="3.7"><TEI xmlns="http://www.tei-c.org/ns/1.0" n="S" xml:id="S">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="S" xml:id="S">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
@@ -764,13 +757,4 @@
       <note n="41" target="#S-3.7-l41" type="observation" resp="#S-second-reader" xml:id="S-3.7-note-41">Independent inspection reads the final word as written possit, with a clear i and terminal t. First-pass possēt/posset was corrected; no suspension is asserted.</note><note n="48" target="#S-3.7-l48" type="observation" resp="#S-second-reader" xml:id="S-3.7-note-48">Independent inspection reads the sign before fui as joined e+t. The first-pass barred-e abbreviation was replaced with written et.</note><note n="68" target="#S-3.7-l68" type="uncertainty" resp="#S-second-reader" xml:id="S-3.7-note-68">The displayed exposcīt abbreviation is retained; its first-pass expansion exposcit is marked low-certainty because the supralinear stroke may imply an omitted nasal. No normalized plural has been silently inserted.</note></div>
     </back>
   </text>
-</TEI></poem>
-  <poem n="3.8"><TEI/></poem>
-  <poem n="3.9"><TEI/></poem>
-  <poem n="3.10"><TEI/></poem>
-  <poem n="3.11"><TEI/></poem>
-  <poem n="3.12"><TEI/></poem>
-  <poem n="3.13"><TEI/></poem>
-  <poem n="3.14"><TEI/></poem>
-  <poem n="3.15"><TEI/></poem>
-</witness> 
+</TEI>

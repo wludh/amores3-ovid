@@ -1,5 +1,12 @@
 console.log('script.js loaded – Split is', typeof Split);
 
+const FACSIMILE_WITNESSES = ['P', 'Y', 'S', 'O'];
+const DEFAULT_LINE_WITNESSES = ['P', 'Y', 'S'];
+
+function getSelectedLineWitnesses(panel) {
+  return Array.from(getPanelElements(panel, '.manuscript-checkbox:checked'), input => input.value);
+}
+
 // Configure CETEI behaviors
 const behaviors = {
   "tei": {
@@ -137,7 +144,15 @@ function mergeAnnotationLists(fallbackList, storageList) {
   });
 
   storageList.forEach(annotation => {
-    merged.set(buildAnnotationKey(annotation), annotation);
+    const key = buildAnnotationKey(annotation);
+    const published = merged.get(key);
+    // Repair only cached copies of the original O export, which used a
+    // zero-based canvas index where the viewer expects a one-based page.
+    // Locally drawn or edited rectangles continue to override published data.
+    const staleOExport = annotation.witness === 'O' && published &&
+      annotation.page === published.page - 1 &&
+      ['x', 'y', 'width', 'height'].every(field => annotation[field] === published[field]);
+    if (!staleOExport) merged.set(key, annotation);
   });
 
   return Array.from(merged.values());
@@ -303,7 +318,7 @@ function restoreAnnotationRectanglesForOverlay(panel, witness) {
 }
 
 function restoreAnnotationRectanglesForPanel(panel) {
-  ['P', 'Y', 'S'].forEach(witness => {
+  FACSIMILE_WITNESSES.forEach(witness => {
     restoreAnnotationRectanglesForOverlay(panel, witness);
   });
 }
@@ -340,7 +355,7 @@ async function loadWitnessXml(witness) {
 }
 
 function getTranscriptionNode(xmlDoc, poem) {
-  return xmlDoc.querySelector(`poem[n="${poem}"] > TEI`);
+  return selectTeiPoem(xmlDoc, poem);
 }
 
 async function getAvailableTranscriptionWitnesses(poem) {
@@ -416,12 +431,8 @@ function renderTranscriptionUnavailable(panel, poem, witness, availableWitnesses
 
 // Helper to construct IIIF manifest URLs
 function getManifestUrl(poem, witness) {
-  if (witness === 'P') {
-    return 'data/iiif-manifests/witness-P.json';
-  } else if (witness === 'Y') {
-    return 'data/iiif-manifests/witness-Y.json';
-  } else if (witness === 'S') {
-    return 'data/iiif-manifests/witness-S.json';
+  if (FACSIMILE_WITNESSES.includes(witness)) {
+    return `data/iiif-manifests/witness-${witness}.json`;
   }
   return null;
 }
@@ -454,7 +465,7 @@ function getPanelState(panel) {
       type: getPanelType(panel),
       poem: '',
       witness: '',
-      manuscript: 'all',
+      manuscripts: [...DEFAULT_LINE_WITNESSES],
       activeWitness: null,
       companionExtras: ['commentary']
     });
@@ -482,9 +493,8 @@ function savePanelState(panel) {
   } else if (type === PANEL_TYPES.LINE_VIEWER) {
     // The line viewer remembers both its poem and manuscript layout.
     const poemSelect = getPanelElement(panel, '.poem-select');
-    const manuscriptSelect = getPanelElement(panel, '.manuscript-select');
     if (poemSelect) state.poem = poemSelect.value;
-    if (manuscriptSelect) state.manuscript = manuscriptSelect.value;
+    state.manuscripts = getSelectedLineWitnesses(panel);
   } else if (type === PANEL_TYPES.COMPANION) {
     const checkboxes = getPanelElements(panel, '.companion-controls input:checked');
     state.companionExtras = Array.from(checkboxes).map(cb => cb.dataset.extra);
@@ -523,15 +533,12 @@ function restorePanelState(panel) {
     }
   } else if (type === PANEL_TYPES.LINE_VIEWER) {
     const poemSelect = getPanelElement(panel, '.poem-select');
-    const manuscriptSelect = getPanelElement(panel, '.manuscript-select');
-    if (poemSelect && state.poem) {
-      poemSelect.value = state.poem;
-      poemSelect.dispatchEvent(new Event('change'));
-    }
-    if (manuscriptSelect && state.manuscript) {
-      manuscriptSelect.value = state.manuscript;
-      manuscriptSelect.dispatchEvent(new Event('change'));
-    }
+    const selected = state.manuscripts || DEFAULT_LINE_WITNESSES;
+    getPanelElements(panel, '.manuscript-checkbox').forEach(input => {
+      input.checked = selected.includes(input.value);
+    });
+    if (poemSelect && state.poem) poemSelect.value = state.poem;
+    updateLineWitnessSelection(panel);
   } else if (type === PANEL_TYPES.COMPANION) {
     const poemSelect = getPanelElement(panel, '.poem-select');
     if (poemSelect && state.poem) {
@@ -560,6 +567,7 @@ function createTranscriptionPanelBody() {
       <option value="P">P</option>
       <option value="Y">Y</option>
       <option value="S">S</option>
+        <option value="O">O</option>
       <option value="LL">LL</option>
     </select>
     <div class="text-content">
@@ -590,6 +598,7 @@ function createViewerPanelBody() {
       <button data-witness="P">Witness P</button>
       <button data-witness="Y">Witness Y</button>
       <button data-witness="S">Witness S</button>
+      <button data-witness="O" title="O — Teubner 1888 (printed edition)">Witness O</button>
     </div>
     <div class="single-viewer-wrapper">
       <div class="viewer"></div>
@@ -618,6 +627,47 @@ function createViewerPanelBody() {
   return div;
 }
 
+function updateLineWitnessSelection(panel, reload = false) {
+  const selected = getSelectedLineWitnesses(panel);
+  const poem = getPanelElement(panel, '.poem-select')?.value;
+  const container = getPanelElement(panel, '.viewers-container');
+  container?.classList.toggle('single-view', selected.length === 1);
+  const empty = getPanelElement(panel, '.witness-selection-empty');
+  if (empty) empty.hidden = selected.length !== 0;
+
+  if (annotationState.activePanelId === panel.id && !selected.includes(annotationState.activeWitness)) {
+    annotationState.activePanelId = null;
+    annotationState.activeWitness = null;
+    removePreviewRectangle();
+  }
+  FACSIMILE_WITNESSES.forEach(witness => {
+    const section = getPanelElement(panel, `.viewer-section[data-witness="${witness}"]`);
+    if (section) section.hidden = !selected.includes(witness);
+    const viewerEl = getPanelElement(panel, `.viewer[data-witness="${witness}"]`);
+    if (selected.includes(witness) && poem && (reload || viewerEl?.dataset.poem !== poem)) {
+      loadManifestForWitness(panel, poem, witness);
+    }
+  });
+  const target = getPanelElement(panel, '.annotation-witness-select');
+  if (target) {
+    Array.from(target.options).forEach(option => { option.disabled = !selected.includes(option.value); });
+    if (!selected.includes(target.value)) target.value = selected[0] || '';
+    target.disabled = selected.length === 0;
+  }
+  savePanelState(panel);
+  refreshAnnotationToolbar(panel);
+  setTimeout(() => {
+    selected.forEach(witness => {
+      const viewer = osdViewers.get(getViewerId(panel, witness));
+      if (!viewer) return;
+      viewer.forceRedraw?.();
+      restoreAnnotationRectanglesForOverlay(panel, witness);
+      const annotation = getAnnotationForViewer(panel, annotationState.selectedLineId, witness, poem);
+      if (annotation && annotationState.selectedPoem === poem) zoomViewerToAnnotation(panel, witness, annotation);
+    });
+  }, 120);
+}
+
 function createLineViewerPanelBody() {
   const div = document.createElement('div');
   div.className = 'panel-body';
@@ -626,13 +676,11 @@ function createLineViewerPanelBody() {
       <option value="">Select a poem…</option>
     </select>
 
-    <label class="manuscript-label">View:</label>
-    <select class="manuscript-select">
-      <option value="all" selected>All (P, Y, S)</option>
-      <option value="P">Manuscript P only</option>
-      <option value="Y">Manuscript Y only</option>
-      <option value="S">Manuscript S only</option>
-    </select>
+    <fieldset class="manuscript-checkboxes">
+      <legend>Witnesses</legend>
+      ${FACSIMILE_WITNESSES.map(witness => `<label title="${witness === 'O' ? 'O — Teubner 1888 (printed edition)' : `Manuscript ${witness}`}"><input class="manuscript-checkbox" type="checkbox" value="${witness}"${DEFAULT_LINE_WITNESSES.includes(witness) ? ' checked' : ''}> ${witness}</label>`).join('')}
+    </fieldset>
+    <p class="witness-selection-empty" hidden>Select a witness to view its pages.</p>
 
     <div class="annotation-toolbar">
       <div class="annotation-status">
@@ -648,6 +696,7 @@ function createLineViewerPanelBody() {
               <option value="P">P</option>
               <option value="Y">Y</option>
               <option value="S">S</option>
+              <option value="O">O</option>
             </select>
           </label>
           <button class="toggle-annotation" type="button">Start annotation</button>
@@ -660,29 +709,15 @@ function createLineViewerPanelBody() {
       </details>
     </div>
 
-    <!-- Three vertically stacked viewers for P, Y, S manuscripts -->
     <div class="viewers-container">
-      <div class="viewer-section" data-witness="P">
+      ${FACSIMILE_WITNESSES.map(witness => `
+      <div class="viewer-section" data-witness="${witness}"${DEFAULT_LINE_WITNESSES.includes(witness) ? '' : ' hidden'}>
         <div class="viewer-wrapper">
-          <span class="viewer-label" title="Manuscript P">P</span>
-          <div class="viewer" data-witness="P"></div>
-          <div class="annotation-overlay" data-witness="P"></div>
+          <span class="viewer-label" title="Witness ${witness}">${witness}</span>
+          <div class="viewer" data-witness="${witness}"></div>
+          <div class="annotation-overlay" data-witness="${witness}"></div>
         </div>
-      </div>
-      <div class="viewer-section" data-witness="Y">
-        <div class="viewer-wrapper">
-          <span class="viewer-label" title="Manuscript Y">Y</span>
-          <div class="viewer" data-witness="Y"></div>
-          <div class="annotation-overlay" data-witness="Y"></div>
-        </div>
-      </div>
-      <div class="viewer-section" data-witness="S">
-        <div class="viewer-wrapper">
-          <span class="viewer-label" title="Manuscript S">S</span>
-          <div class="viewer" data-witness="S"></div>
-          <div class="annotation-overlay" data-witness="S"></div>
-        </div>
-      </div>
+      </div>`).join('')}
     </div>
   `;
   
@@ -739,14 +774,16 @@ function switchPanelType(panel, newType) {
   // Destroy the active panel's OpenSeadragon viewer(s) before replacing it.
   if (getPanelType(panel) === PANEL_TYPES.VIEWER) {
     const panelId = panel.id;
+    singleViewerLoadTokens.delete(panelId);
     if (osdViewers.has(panelId)) {
       osdViewers.get(panelId).destroy();
       osdViewers.delete(panelId);
     }
   } else if (getPanelType(panel) === PANEL_TYPES.LINE_VIEWER) {
     const panelId = panel.id;
-    ['P', 'Y', 'S'].forEach(witness => {
+    FACSIMILE_WITNESSES.forEach(witness => {
       const viewerId = `${panelId}-${witness}`;
+      lineViewerLoadTokens.delete(viewerId);
       if (osdViewers.has(viewerId)) {
         osdViewers.get(viewerId).destroy();
         osdViewers.delete(viewerId);
@@ -931,13 +968,11 @@ async function loadManifest(panel, poem, witness) {
   // Extract tile sources
   const canvases = manifest.sequences?.[0]?.canvases || manifest.items || [];
   const tileSources = canvases.map(canvas => {
-    let imageService = null;
-    if (canvas.images && canvas.images[0]?.resource?.service) {
-      imageService = canvas.images[0].resource.service['@id'] || canvas.images[0].resource.service.id;
-    } else if (canvas.image && canvas.image.service) {
-      imageService = canvas.image.service['@id'] || canvas.image.service.id;
-    } else if (canvas.items && canvas.items[0]?.items && canvas.items[0].items[0]?.body?.service) {
-      imageService = canvas.items[0].items[0].body.service['@id'] || canvas.items[0].items[0].body.service.id;
+    const services = canvas.images?.[0]?.resource?.service || canvas.image?.service || canvas.items?.[0]?.items?.[0]?.body?.service;
+    const service = Array.isArray(services) ? services[0] : services;
+    const imageService = service?.['@id'] || service?.id;
+    if (imageService && (service.type === 'ImageService3' || imageService.includes('/image/iiif/3/'))) {
+      return `${imageService}/info.json`;
     }
     if (imageService && canvas.height && canvas.width) {
       return {
@@ -1023,7 +1058,7 @@ async function loadManifest(panel, poem, witness) {
   }
 }
 
-// Load manifest for a specific witness into its container (P, Y, or S)
+// Load a witness manifest into its comparison container.
 async function loadManifestForWitness(panel, poem, witness) {
   // Find the viewer container for this specific witness
   const viewerEl = panel.querySelector(`.viewer[data-witness="${witness}"]`);
@@ -1050,7 +1085,8 @@ async function loadManifestForWitness(panel, poem, witness) {
     osdViewers.delete(viewerId);
   }
   
-  // Clear the container
+  // Clear the container and its previous poem while the next manifest loads.
+  delete viewerEl.dataset.poem;
   viewerEl.innerHTML = '';
   
   // Fetch manifest
@@ -1077,13 +1113,11 @@ async function loadManifestForWitness(panel, poem, witness) {
   // Extract tile sources
   const canvases = manifest.sequences?.[0]?.canvases || manifest.items || [];
   const tileSources = canvases.map(canvas => {
-    let imageService = null;
-    if (canvas.images && canvas.images[0]?.resource?.service) {
-      imageService = canvas.images[0].resource.service['@id'] || canvas.images[0].resource.service.id;
-    } else if (canvas.image && canvas.image.service) {
-      imageService = canvas.image.service['@id'] || canvas.image.service.id;
-    } else if (canvas.items && canvas.items[0]?.items && canvas.items[0].items[0]?.body?.service) {
-      imageService = canvas.items[0].items[0].body.service['@id'] || canvas.items[0].items[0].body.service.id;
+    const services = canvas.images?.[0]?.resource?.service || canvas.image?.service || canvas.items?.[0]?.items?.[0]?.body?.service;
+    const service = Array.isArray(services) ? services[0] : services;
+    const imageService = service?.['@id'] || service?.id;
+    if (imageService && (service.type === 'ImageService3' || imageService.includes('/image/iiif/3/'))) {
+      return `${imageService}/info.json`;
     }
     if (imageService && canvas.height && canvas.width) {
       return {
@@ -1183,6 +1217,9 @@ async function loadManifestForWitness(panel, poem, witness) {
 async function loadTranscriptionFromXml(panel, poem, witness) {
   const textContent = getPanelElement(panel, '.text-content');
   if (!textContent) return;
+  const loadToken = {};
+  panel.transcriptionLoadToken = loadToken;
+  textContent.classList.remove('has-tei-edition');
   
   if (!poem || !witness) {
     textContent.innerHTML = '<p>Please select a poem and a witness.</p>';
@@ -1196,6 +1233,7 @@ async function loadTranscriptionFromXml(panel, poem, witness) {
   
   try {
     const xmlDoc = await loadWitnessXml(witness);
+    if (panel.transcriptionLoadToken !== loadToken) return;
     
     const poemNode = getTranscriptionNode(xmlDoc, poem);
     
@@ -1206,7 +1244,9 @@ async function loadTranscriptionFromXml(panel, poem, witness) {
       
       const html = cetei.domToHTML5(teiDoc);
       textContent.innerHTML = '';
-      textContent.appendChild(html);
+      const isTrial = poem === '3.7';
+      textContent.classList.toggle('has-tei-edition', isTrial);
+      textContent.appendChild(isTrial ? renderTrialEdition(html, poemNode, panel, witness, poem) : html);
       setupHighlightListeners(panel);
       attachClickableLineHandlers(panel);
     } else {
@@ -1218,6 +1258,7 @@ async function loadTranscriptionFromXml(panel, poem, witness) {
       }
     }
   } catch (e) {
+    if (panel.transcriptionLoadToken !== loadToken) return;
     console.error('Error loading or processing transcription:', e);
     textContent.innerHTML = '<p>Error loading transcription data.</p>';
   }
@@ -1240,7 +1281,7 @@ function attachClickableLineHandlers(panel) {
   const textContent = getPanelElement(panel, '.text-content');
   if (!textContent) return;
 
-  const lineElements = Array.from(textContent.querySelectorAll('[data-line], [n]'));
+  const lineElements = Array.from(textContent.querySelectorAll('tei-l'));
   lineElements.forEach((lineEl, index) => {
     let lineId = lineEl.dataset.line || lineEl.getAttribute('n');
     if (!lineId) {
@@ -1256,6 +1297,7 @@ function attachClickableLineHandlers(panel) {
     }
 
     const handler = (event) => {
+      if (event.target.closest('button, a')) return;
       event.stopPropagation();
       const poem = getTextPanelPoem(panel);
       setSelectedAnnotationLine(lineId, getTextPanelWitness(panel), poem);
@@ -1265,6 +1307,12 @@ function attachClickableLineHandlers(panel) {
 
     lineEl.__clickableLineHandler = handler;
     lineEl.addEventListener('click', handler);
+    lineEl.tabIndex = 0;
+    lineEl.onkeydown = event => {
+      if (event.target !== lineEl || !['Enter', ' '].includes(event.key)) return;
+      event.preventDefault();
+      handler(event);
+    };
   });
 }
 
@@ -1340,36 +1388,13 @@ function zoomViewerToAnnotation(panel, witness, annotation) {
     if (fitRectangle.width <= 0 || fitRectangle.height <= 0) return;
     osdViewer.viewport.fitBounds(fitRectangle, true);
 
-    try {
-      const container = osdViewer.element.closest('.viewers-container');
-      const currentSection = osdViewer.element.closest('.viewer-section');
-      if (container && currentSection) {
-        const visibleSections = Array.from(container.querySelectorAll('.viewer-section'))
-          .filter(section => section.offsetParent !== null);
-        const totalSections = container.querySelectorAll('.viewer-section').length;
-        if (visibleSections.length === 1 && totalSections > 1) {
-          const viewerRect = osdViewer.element.getBoundingClientRect();
-          const baselineHeight = container.getBoundingClientRect().height / totalSections;
-          const adjustment = viewerRect.height / baselineHeight;
-          if (adjustment > 1.1 && isFinite(adjustment)) {
-            const currentZoom = osdViewer.viewport.getZoom();
-            osdViewer.viewport.zoomTo(currentZoom / adjustment, null, true);
-          }
-        }
-      }
-    } catch (e) {
-      // ignore if measurement fails
-    }
-
     showFocusedAnnotation(panel, witness, annotation);
   };
 
   if (osdViewer.currentPage() !== pageIndex) {
-    const pageHandler = () => {
-      fitBounds();
-      osdViewer.removeHandler('page', pageHandler);
-    };
-    osdViewer.addHandler('page', pageHandler);
+    // The page event fires before the new image opens. Both viewer modes'
+    // open handlers refocus the currently selected annotation using the new
+    // image dimensions; fitting here would use the preceding page's geometry.
     osdViewer.goToPage(pageIndex);
   } else {
     fitBounds();
@@ -1385,7 +1410,7 @@ function zoomAllViewersToLine(lineId, poem) {
       poemSelect.dispatchEvent(new Event('change'));
     }
 
-    ['P', 'Y', 'S'].forEach(witness => {
+    getSelectedLineWitnesses(panel).forEach(witness => {
       const annotation = getAnnotationForViewer(panel, lineId, witness, poem);
       const viewerEl = panel.querySelector(`.viewer[data-witness="${witness}"]`);
       if (annotation && viewerEl?.dataset.poem === poem) {
@@ -1439,18 +1464,18 @@ function refreshAnnotationToolbar(panel) {
 
   if (toggleBtn) {
     toggleBtn.textContent = isActive ? 'Stop annotation' : 'Start annotation';
-    toggleBtn.disabled = !annotationState.selectedLineId;
+    toggleBtn.disabled = !annotationState.selectedLineId || getSelectedLineWitnesses(panel).length === 0;
   }
 
   if (messageEl && !messageEl.textContent) {
     messageEl.textContent = '';
   }
 
-  if (targetSelect && annotationState.selectedLineWitness && ['P', 'Y', 'S'].includes(annotationState.selectedLineWitness)) {
+  if (targetSelect && annotationState.selectedLineWitness && getSelectedLineWitnesses(panel).includes(annotationState.selectedLineWitness)) {
     targetSelect.value = annotationState.selectedLineWitness;
   }
 
-  ['P', 'Y', 'S'].forEach(witness => {
+  FACSIMILE_WITNESSES.forEach(witness => {
     const overlay = getPanelElement(panel, `.annotation-overlay[data-witness="${witness}"]`);
     if (overlay) {
       const shouldEnable = isActive && annotationState.activeWitness === witness;
@@ -2181,60 +2206,16 @@ function attachPanelEventHandlers(panel) {
     }
   } else if (type === PANEL_TYPES.LINE_VIEWER) {
     const poemSelect = getPanelElement(panel, '.poem-select');
-    const manuscriptSelect = getPanelElement(panel, '.manuscript-select');
-    
-    // When poem is selected, load all 3 witnesses (P, Y, S) simultaneously
     if (poemSelect) {
-      poemSelect.onchange = (e) => {
-        const poem = e.target.value;
-        syncEmptyPoemSelectors(poemSelect, poem);
-        if (poem) {
-          // Load all 3 witnesses simultaneously
-          loadManifestForWitness(panel, poem, 'P');
-          loadManifestForWitness(panel, poem, 'Y');
-          loadManifestForWitness(panel, poem, 'S');
-        }
-        savePanelState(panel);
+      poemSelect.onchange = () => {
+        syncEmptyPoemSelectors(poemSelect, poemSelect.value);
+        updateLineWitnessSelection(panel, true);
       };
     }
+    getPanelElements(panel, '.manuscript-checkbox').forEach(input => {
+      input.onchange = () => updateLineWitnessSelection(panel);
+    });
 
-    // Handle manuscript selector to show/hide viewers
-    if (manuscriptSelect) {
-      manuscriptSelect.onchange = (e) => {
-        const selection = e.target.value;
-        const viewersContainer = getPanelElement(panel, '.viewers-container');
-        if (viewersContainer) {
-          viewersContainer.classList.remove('hide-P', 'hide-Y', 'hide-S');
-          if (selection === 'P') {
-            viewersContainer.classList.add('hide-Y', 'hide-S');
-          } else if (selection === 'Y') {
-            viewersContainer.classList.add('hide-P', 'hide-S');
-          } else if (selection === 'S') {
-            viewersContainer.classList.add('hide-P', 'hide-Y');
-          }
-          // Add a single-view class when only one manuscript is shown so CSS can expand it
-          if (selection === 'all') {
-            viewersContainer.classList.remove('single-view');
-          } else {
-            viewersContainer.classList.add('single-view');
-          }
-        }
-        savePanelState(panel);
-        // After layout changes, give the browser a moment then refresh OpenSeadragon viewers
-        // and re-render annotation rectangles so coordinate conversions use correct sizes.
-        setTimeout(() => {
-          ['P', 'Y', 'S'].forEach(witness => {
-            const viewerId = getViewerId(panel, witness);
-            if (osdViewers.has(viewerId)) {
-              const osd = osdViewers.get(viewerId);
-              try { if (osd && typeof osd.forceRedraw === 'function') osd.forceRedraw(); } catch (e) {}
-              try { restoreAnnotationRectanglesForOverlay(panel, witness); } catch (e) {}
-            }
-          });
-        }, 120);
-      };
-    }
-    
     const toggleAnnotationBtn = getPanelElement(panel, '.toggle-annotation');
     const clearAnnotationsBtn = getPanelElement(panel, '.clear-annotations');
     const importAnnotationsBtn = getPanelElement(panel, '.import-annotations');
@@ -2567,6 +2548,27 @@ document.addEventListener('keydown', function(e) {
 });
 
 // Theme toggle (unchanged)
+function openRequestedTranscription() {
+  const params = new URLSearchParams(window.location.search);
+  const poem = params.get('poem');
+  const witness = params.get('witness');
+  const textPanel = document.getElementById('text-panel');
+  if (!textPanel || !poem || !Object.hasOwn(witnessFiles, witness)) return;
+  const poemSelect = getPanelElement(textPanel, '.poem-select');
+  const witnessSelect = getPanelElement(textPanel, '.witness-select');
+  if (!Array.from(poemSelect.options).some(option => option.value === poem)) return;
+  poemSelect.value = poem;
+  witnessSelect.value = witness;
+  poemSelect.dispatchEvent(new Event('change'));
+  const viewerPanel = document.getElementById('viewer-panel');
+  getPanelElement(viewerPanel, `.witness-buttons button[data-witness="${witness}"]`)?.click();
+  if (params.get('layout') === 'compare') {
+    const companion = document.getElementById('comm-panel');
+    if (!companion.classList.contains('collapsed')) companion.querySelector('.toggle-btn')?.click();
+    window.splitInstance?.setSizes([49, 49, 2]);
+  }
+}
+
 document.addEventListener('DOMContentLoaded', function() {
   const themeToggle = document.getElementById('theme-toggle');
   if (themeToggle) {
@@ -2589,6 +2591,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // The research workspace and its heavier data only exist on the home page.
   if (document.getElementById('panels')) {
     initializePanels();
+    openRequestedTranscription();
 
     loadAnnotations().then(loaded => {
       if (loaded) {

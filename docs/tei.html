@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Amores — TEI</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; color: #292e39; background: #f6f7fa; font: 16px/1.6 system-ui, sans-serif; }
+    header { display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; position: sticky; top: 0; padding: 1rem 1.5rem; background: #fff; border-bottom: 1px solid #d8dce5; }
+    a { color: #143b81; text-underline-offset: .2em; }
+    h1 { margin: 0 auto 0 0; font-size: 1rem; font-weight: 600; }
+    pre { margin: 0; padding: 1.5rem; font: .85rem/1.7 ui-monospace, monospace; white-space: pre-wrap; overflow-wrap: anywhere; tab-size: 2; }
+    [hidden] { display: none; }
+  </style>
+</head>
+<body>
+  <header><a id="back" href="index.html">← Back to poem</a><h1 id="title">TEI</h1><a id="download" hidden>Download XML</a></header>
+  <pre><code id="source" aria-live="polite">Loading transcription…</code></pre>
+  <script src="js/data.js"></script>
+  <script src="js/transcription.js"></script>
+  <script src="js/tei-source.js"></script>
+</body>
+</html>

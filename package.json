@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "node dev-server.mjs",
     "start": "node dev-server.mjs",
-    "test": "node --test"
+    "test": "node --test",
+    "validate:tei": "python3 scripts/validate-tei.py"
   },
   "dependencies": {
     "axios": "^1.10.0",

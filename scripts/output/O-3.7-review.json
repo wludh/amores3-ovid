@@ -1,0 +1,122 @@
+{
+  "witness": "O",
+  "poem": "3.7",
+  "date": "2026-09-08",
+  "reviewer": "OpenAI Codex independent encode_s agent",
+  "review_type": "independent-second-agent-image-and-encoding-review",
+  "human_approved": false,
+  "line_coverage": {
+    "count": 84,
+    "ranges": [
+      {
+        "page": "56",
+        "start": 1,
+        "end": 19
+      },
+      {
+        "page": "57",
+        "start": 20,
+        "end": 56
+      },
+      {
+        "page": "58",
+        "start": 57,
+        "end": 84
+      }
+    ]
+  },
+  "counts": {
+    "resolved": 6,
+    "documented-uncertainty": 0,
+    "escalate": 0
+  },
+  "previous_review_note_count": 0,
+  "notes": [
+    {
+      "note_id": "O-3.7-note-1",
+      "line": 1,
+      "target": "#O-3.7-l1",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "56",
+        "assessment": "The printed contraction formosast is retained; it is not expanded to formosa est.",
+        "image": "/tmp/amores-o37/104.jpg"
+      },
+      "change": "Confirmed from source image; no human action required."
+    },
+    {
+      "note_id": "O-3.7-note-17",
+      "line": 17,
+      "target": "#O-3.7-l17",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "56",
+        "assessment": "The printed contraction venturast is retained.",
+        "image": "/tmp/amores-o37/104.jpg"
+      },
+      "change": "Confirmed from source image; no human action required."
+    },
+    {
+      "note_id": "O-3.7-note-24",
+      "line": 24,
+      "target": "#O-3.7-l24",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "57",
+        "assessment": "The printed contraction meost is retained.",
+        "image": "/tmp/amores-o37/105.jpg"
+      },
+      "change": "Confirmed from source image; no human action required."
+    },
+    {
+      "note_id": "O-3.7-note-36",
+      "line": 36,
+      "target": "#O-3.7-l36",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "57",
+        "assessment": "The visible printed sequence is inpaiens and the line has inde, not iste. The transcription retains the source sequence without supplying a t.",
+        "image": "/tmp/amores-o37/105.jpg"
+      },
+      "change": "Confirmed from source image; no human action required."
+    },
+    {
+      "note_id": "O-3.7-note-49",
+      "line": 49,
+      "target": "#O-3.7-l49",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "57",
+        "assessment": "The printed text has quo regna sine usu; both occurrences of quo in the verse are confirmed by the image.",
+        "image": "/tmp/amores-o37/105.jpg"
+      },
+      "change": "Confirmed from source image; no human action required."
+    },
+    {
+      "note_id": "O-3.7-note-55",
+      "line": 55,
+      "target": "#O-3.7-l55",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "57",
+        "assessment": "The printed reading is non blande; its final e is clear in the image.",
+        "image": "/tmp/amores-o37/105.jpg"
+      },
+      "change": "Confirmed from source image; no human action required."
+    }
+  ],
+  "validation": {
+    "rng": "tei_all-4.12.0.rng",
+    "passed": true,
+    "consecutive_lines": 84,
+    "resolved_facs_links": 84
+  },
+  "reviewed_xml_sha256": "05a78183c0f74d9addee0b63fa488660a2b2d5e9f0c8e574ff979823c4d3e493",
+  "review_report_sha256": "477f26dbe45345b7e51caa2bc15adc55df905ceb611ee7c858163b010f853a6c"
+}

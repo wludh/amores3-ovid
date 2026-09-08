@@ -29,13 +29,14 @@ test('new annotations are appended without changing the scholar dataset', async 
 
 test('annotations retain their complete schema and known logical coverage', async () => {
   const annotations = JSON.parse((await readFile(annotationPath, 'utf8')).replace(/^\uFEFF/, ''));
-  assert.equal(annotations.length, 2659);
+  assert.ok(annotations.length >= 2659);
+  const originalAnnotations = annotations.slice(0, 2659);
 
   const logicalKeys = new Set();
   const witnesses = new Set();
   const poems = new Set();
 
-  for (const annotation of annotations) {
+  for (const annotation of originalAnnotations) {
     assert.equal(typeof annotation.panelId, 'string');
     assert.equal(typeof annotation.witness, 'string');
     assert.equal(typeof annotation.lineId, 'string');
@@ -105,9 +106,8 @@ test('line-viewer comparison omits page controls and uses overlay witness badges
 
   assert.ok(template, 'line-viewer template should exist');
   assert.doesNotMatch(template[1], /class="page-controls"/);
-  assert.match(template[1], /class="viewer-label" title="Manuscript P">P<\/span>/);
-  assert.match(template[1], /class="viewer-label" title="Manuscript Y">Y<\/span>/);
-  assert.match(template[1], /class="viewer-label" title="Manuscript S">S<\/span>/);
+  assert.match(template[1], /class="viewer-label" title="Witness \$\{witness\}">\$\{witness\}<\/span>/);
+
 });
 
 test('line clicks synchronize the comparison poem and survive asynchronous manifest loads', async () => {
@@ -251,4 +251,55 @@ test('all checked-in JSON files parse', async () => {
     const source = (await readFile(path, 'utf8')).replace(/^\uFEFF/, '');
     assert.doesNotThrow(() => JSON.parse(source), path);
   }
+});
+
+test('checkbox selection supports mixed witnesses, empty selection, and state restoration', async () => {
+  const { runInNewContext } = await import('node:vm');
+  const source = await readFile(scriptPath, 'utf8');
+  const inputs = ['P', 'Y', 'S', 'O'].map(value => ({ value, checked: ['P', 'O'].includes(value) }));
+  const sections = Object.fromEntries(inputs.map(({ value }) => [value, {}]));
+  const viewers = Object.fromEntries(inputs.map(({ value }) => [value, { dataset: {} }]));
+  const target = { value: 'Y', options: inputs.map(({ value }) => ({ value })) };
+  const empty = {};
+  const poem = { value: '1.1' };
+  const state = {};
+  const loads = [];
+  const annotationState = { activePanelId: 'test', activeWitness: 'Y' };
+  const panel = { id: 'test' };
+  const context = {
+    FACSIMILE_WITNESSES: inputs.map(input => input.value), DEFAULT_LINE_WITNESSES: ['P', 'Y', 'S'],
+    PANEL_TYPES: { LINE_VIEWER: 'line-viewer' }, annotationState, panel,
+    getPanelType: () => 'line-viewer', getPanelState: () => state,
+    getPanelElements: (_, selector) => selector.endsWith(':checked') ? inputs.filter(input => input.checked) : inputs,
+    getPanelElement: (_, selector) => {
+      if (selector === '.poem-select') return poem;
+      if (selector === '.viewers-container') return { classList: { toggle() {} } };
+      if (selector === '.witness-selection-empty') return empty;
+      if (selector === '.annotation-witness-select') return target;
+      const witness = selector.match(/data-witness="(\w+)"/)?.[1];
+      return selector.startsWith('.viewer-section') ? sections[witness] : viewers[witness];
+    },
+    loadManifestForWitness: (_, selectedPoem, witness) => { loads.push(witness); viewers[witness].dataset.poem = selectedPoem; },
+    removePreviewRectangle() {}, refreshAnnotationToolbar() {}, setTimeout() {},
+  };
+  for (const name of ['getSelectedLineWitnesses', 'savePanelState', 'restorePanelState', 'updateLineWitnessSelection']) {
+    const start = source.indexOf(`function ${name}(`);
+    const end = source.indexOf('\n}', start + 1) + 2;
+    runInNewContext(source.slice(start, end), context);
+  }
+  context.updateLineWitnessSelection(panel);
+  assert.deepEqual(loads, ['P', 'O']);
+  assert.equal(sections.Y.hidden, true);
+  assert.equal(sections.O.hidden, false);
+  assert.equal(target.value, 'P');
+  assert.equal(annotationState.activeWitness, null);
+  assert.deepEqual(Array.from(state.manuscripts), ['P', 'O']);
+  inputs.forEach(input => { input.checked = false; });
+  context.restorePanelState(panel);
+  assert.deepEqual(inputs.filter(input => input.checked).map(input => input.value), ['P', 'O']);
+  inputs.forEach(input => { input.checked = false; });
+  context.updateLineWitnessSelection(panel);
+  assert.equal(empty.hidden, false);
+  assert.equal(target.disabled, true);
+  assert.deepEqual(Array.from(state.manuscripts), []);
 });

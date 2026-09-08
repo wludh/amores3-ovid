@@ -1,0 +1,4376 @@
+[
+  {
+    "poem": "3.1",
+    "lineId": 1,
+    "page": 92,
+    "ocrIndex": 15,
+    "score": 0.987,
+    "ll": "Stat vetus et multos incaedua silva per annos;",
+    "ocr": "I. Stat vetus et multos incaedua silva per annos:"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 2,
+    "page": 92,
+    "ocrIndex": 16,
+    "score": 0.984,
+    "ll": "credibile est illi numen inesse loco.",
+    "ocr": "Credibilest illi numen inesse loco;"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 3,
+    "page": 92,
+    "ocrIndex": 17,
+    "score": 1.0,
+    "ll": "fons sacer in medio speluncaque pumice pendens,",
+    "ocr": "Fons sacer in medio speluncaque pumice pendens,"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 4,
+    "page": 92,
+    "ocrIndex": 18,
+    "score": 0.969,
+    "ll": "et latere ex omni dulce queruntur aves.",
+    "ocr": "Et latere ex onmi dulce queruntur aves."
+  },
+  {
+    "poem": "3.1",
+    "lineId": 5,
+    "page": 92,
+    "ocrIndex": 19,
+    "score": 1.0,
+    "ll": "Hic ego dum spatior tectus nemoralibus umbris —",
+    "ocr": "5 Hic ego dum spatior tectus nemoralibus umbris,"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 6,
+    "page": 92,
+    "ocrIndex": 20,
+    "score": 1.0,
+    "ll": "quod mea, quaerebam, Musa moveret opus —",
+    "ocr": "(Quod mea, quaerebam^ Musa moveret opus)"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 7,
+    "page": 92,
+    "ocrIndex": 21,
+    "score": 0.984,
+    "ll": "venit odoratos Elegia nexa capillos,",
+    "ocr": "Venit odoratos Elegeia nexa capillos,"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 8,
+    "page": 92,
+    "ocrIndex": 22,
+    "score": 1.0,
+    "ll": "et, puto, pes illi longior alter erat.",
+    "ocr": "Et, puto, pes illi longior alter erat:"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 9,
+    "page": 92,
+    "ocrIndex": 23,
+    "score": 1.0,
+    "ll": "forma decens, vestis tenuissima, vultus amantis,",
+    "ocr": "Forma decens, vestis tenuissima, vultus amantis;"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 10,
+    "page": 92,
+    "ocrIndex": 24,
+    "score": 1.0,
+    "ll": "et pedibus vitium causa decoris erat.",
+    "ocr": "10 Et pedibus vitium causa decoris erat."
+  },
+  {
+    "poem": "3.1",
+    "lineId": 11,
+    "page": 92,
+    "ocrIndex": 25,
+    "score": 1.0,
+    "ll": "venit et ingenti violenta Tragoedia passu:",
+    "ocr": "Venit et ingenti violenta Tragoedia passu"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 12,
+    "page": 92,
+    "ocrIndex": 26,
+    "score": 1.0,
+    "ll": "fronte comae torva, palla iacebat humi;",
+    "ocr": "(Fronte comae torva, palla iacebat humi;"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 13,
+    "page": 92,
+    "ocrIndex": 27,
+    "score": 1.0,
+    "ll": "laeva manus sceptrum late regale movebat,",
+    "ocr": "Laeva manus sceptrum late regale movebat,"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 14,
+    "page": 92,
+    "ocrIndex": 28,
+    "score": 0.971,
+    "ll": "Lydius alta pedum vincla cothurnus erat.",
+    "ocr": "Lydius alta pedum viucla cothurnus erat)"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 15,
+    "page": 92,
+    "ocrIndex": 29,
+    "score": 1.0,
+    "ll": "Et prior 'ecquis erit,' dixit, 'tibi finis amandi,",
+    "ocr": "15 Et prior 'ecquis erit' dixit 'tibi finis amandi,"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 16,
+    "page": 92,
+    "ocrIndex": 30,
+    "score": 0.978,
+    "ll": "O argumenti lente poeta tui?",
+    "ocr": "0 argumenti lente poeta tui?"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 17,
+    "page": 92,
+    "ocrIndex": 31,
+    "score": 1.0,
+    "ll": "nequitiam vinosa tuam convivia narrant,",
+    "ocr": "Nequitiam vinosa tuam convivia narrant,"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 18,
+    "page": 92,
+    "ocrIndex": 32,
+    "score": 1.0,
+    "ll": "narrant in multas conpita secta vias.",
+    "ocr": "Narrant in multas conpita secta vias."
+  },
+  {
+    "poem": "3.1",
+    "lineId": 19,
+    "page": 92,
+    "ocrIndex": 33,
+    "score": 1.0,
+    "ll": "saepe aliquis digito vatem designat euntem,",
+    "ocr": "Saepe aliquis digito vatem designat euntem,"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 20,
+    "page": 92,
+    "ocrIndex": 34,
+    "score": 1.0,
+    "ll": "atque ait \"hic, hic est, quem ferus urit Amor!\"",
+    "ocr": "20 Atque ait \"hic, hic est, quem ferus urit Amor.\""
+  },
+  {
+    "poem": "3.1",
+    "lineId": 21,
+    "page": 92,
+    "ocrIndex": 35,
+    "score": 1.0,
+    "ll": "fabula, nec sentis, tota iactaris in urbe,",
+    "ocr": "Fabula, nec sentis, tota iactaris in Urbe,"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 22,
+    "page": 93,
+    "ocrIndex": 1,
+    "score": 1.0,
+    "ll": "dum tua praeterito facta pudore refers.",
+    "ocr": "Dum tua praeterito facta pudore refers."
+  },
+  {
+    "poem": "3.1",
+    "lineId": 23,
+    "page": 93,
+    "ocrIndex": 2,
+    "score": 0.958,
+    "ll": "tempus erat, thyrso pulsum graviore moveri;",
+    "ocr": "Tempus erat, th^a-so pulsum graviore moveri;"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 24,
+    "page": 93,
+    "ocrIndex": 3,
+    "score": 1.0,
+    "ll": "cessatum satis est — incipe maius opus!",
+    "ocr": "Cessatum satis est: incipe maius opus!"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 25,
+    "page": 93,
+    "ocrIndex": 4,
+    "score": 0.96,
+    "ll": "materia premis ingenium. cane facta virorum.",
+    "ocr": "25 Materia premis ingeiiium; cane facta virorum:"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 26,
+    "page": 93,
+    "ocrIndex": 5,
+    "score": 0.982,
+    "ll": "\"haec animo,\" dices, \"area facta meo est!\"",
+    "ocr": "\"Haec animo\" dices \"area facta meost.\""
+  },
+  {
+    "poem": "3.1",
+    "lineId": 27,
+    "page": 93,
+    "ocrIndex": 6,
+    "score": 0.973,
+    "ll": "quod tenerae cantent, lusit tua Musa, puellae,",
+    "ocr": "Quod tenerae cantent, lusit tna Musa, puellae,"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 28,
+    "page": 93,
+    "ocrIndex": 7,
+    "score": 0.97,
+    "ll": "primaque per numeros acta iuventa suos.",
+    "ocr": "Primaque per nnmeros acta iuventa suos;"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 29,
+    "page": 93,
+    "ocrIndex": 8,
+    "score": 1.0,
+    "ll": "nunc habeam per te Romana Tragoedia nomen!",
+    "ocr": "Nunc habeam per te Romana Tragoedia nomen!"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 30,
+    "page": 93,
+    "ocrIndex": 9,
+    "score": 1.0,
+    "ll": "inplebit leges spiritus iste meas.'",
+    "ocr": "30 Inplebit leges spiritus iste meas.'"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 31,
+    "page": 93,
+    "ocrIndex": 10,
+    "score": 0.972,
+    "ll": "Hactenus, et movit pictis innixa cothurnis",
+    "ocr": "Hactenus, et movit pictis iunixa cothurnis"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 32,
+    "page": 93,
+    "ocrIndex": 11,
+    "score": 0.971,
+    "ll": "densum caesarie terque quaterque caput.",
+    "ocr": "Densnm caesarie terque quaterque caput."
+  },
+  {
+    "poem": "3.1",
+    "lineId": 33,
+    "page": 93,
+    "ocrIndex": 12,
+    "score": 1.0,
+    "ll": "altera, si memini, limis subrisit ocellis —",
+    "ocr": "Altera, si memini, limis subrisit ocellis;"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 34,
+    "page": 93,
+    "ocrIndex": 13,
+    "score": 0.951,
+    "ll": "fallor, an in dextra myrtea virga fuit?",
+    "ocr": "(Fallor, an in dextra myrtea \\drga fuit?)"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 35,
+    "page": 93,
+    "ocrIndex": 14,
+    "score": 1.0,
+    "ll": "'Quid gravibus verbis, animosa Tragoedia,' dixit,",
+    "ocr": "35 'Quid gravibus verbis, animosa Tragoedia/ dixit"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 36,
+    "page": 93,
+    "ocrIndex": 15,
+    "score": 1.0,
+    "ll": "'me premis? an numquam non gravis esse potes?",
+    "ocr": "'Me premis? an numquam non gravis esse potes?"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 37,
+    "page": 93,
+    "ocrIndex": 16,
+    "score": 0.972,
+    "ll": "inparibus tamen es numeris dignata moveri;",
+    "ocr": "Inparibus tamen es numeris diguata moveri:"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 38,
+    "page": 93,
+    "ocrIndex": 17,
+    "score": 1.0,
+    "ll": "in me pugnasti versibus usa meis.",
+    "ocr": "In me pugnasti versibus usa meis."
+  },
+  {
+    "poem": "3.1",
+    "lineId": 39,
+    "page": 93,
+    "ocrIndex": 18,
+    "score": 1.0,
+    "ll": "non ego contulerim sublimia carmina nostris;",
+    "ocr": "Non ego contulerim sublimia carmina nostris:"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 40,
+    "page": 93,
+    "ocrIndex": 19,
+    "score": 1.0,
+    "ll": "obruit exiguas regia vestra fores.",
+    "ocr": "40 Obruit exiguas regia vestra fores."
+  },
+  {
+    "poem": "3.1",
+    "lineId": 41,
+    "page": 93,
+    "ocrIndex": 20,
+    "score": 1.0,
+    "ll": "sum levis, et mecum levis est, mea cura, Cupido;",
+    "ocr": "Sum levis, et mecum levis est, mea cura, Cupido:"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 42,
+    "page": 93,
+    "ocrIndex": 21,
+    "score": 1.0,
+    "ll": "non sum materia fortior ipsa mea.",
+    "ocr": "Non sum materia fortior ipsa mea;"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 47,
+    "page": 93,
+    "ocrIndex": 22,
+    "score": 1.0,
+    "ll": "et tamen emerui plus quam tu posse, ferendo",
+    "ocr": "47 Et tamen emerui plus, quam tu, posse ferendo"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 48,
+    "page": 93,
+    "ocrIndex": 23,
+    "score": 1.0,
+    "ll": "multa supercilio non patienda tuo.",
+    "ocr": "Multa supercilio non patienda tuo."
+  },
+  {
+    "poem": "3.1",
+    "lineId": 43,
+    "page": 93,
+    "ocrIndex": 24,
+    "score": 1.0,
+    "ll": "rustica sit sine me lascivi mater Amoris;",
+    "ocr": "43 Rustica sit sine me lascivi mater Amoris:"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 44,
+    "page": 93,
+    "ocrIndex": 25,
+    "score": 1.0,
+    "ll": "huic ego proveni lena comesque deae.",
+    "ocr": "Huic ego proveni lena comesque deae;"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 45,
+    "page": 93,
+    "ocrIndex": 26,
+    "score": 1.0,
+    "ll": "quam tu non poteris duro reserare cothurno,",
+    "ocr": "45 Quam tu non poteris duro reserare cothurno,"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 46,
+    "page": 93,
+    "ocrIndex": 27,
+    "score": 1.0,
+    "ll": "haec est blanditiis ianua laxa meis;",
+    "ocr": "Haec est blanditiis ianua laxa meis;"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 49,
+    "page": 93,
+    "ocrIndex": 28,
+    "score": 1.0,
+    "ll": "per me decepto didicit custode Corinna",
+    "ocr": "49 Per me decepto didicit custode Corinna"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 50,
+    "page": 93,
+    "ocrIndex": 29,
+    "score": 0.952,
+    "ll": "liminis adstricti sollicitare fidem,",
+    "ocr": "Liminis adstricti solhcitare fidem"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 51,
+    "page": 93,
+    "ocrIndex": 30,
+    "score": 1.0,
+    "ll": "delabique toro tunica velata soluta",
+    "ocr": "Delabique toro tunica velata soluta"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 52,
+    "page": 93,
+    "ocrIndex": 31,
+    "score": 1.0,
+    "ll": "atque inpercussos nocte movere pedes.",
+    "ocr": "Atque inpercussos nocte movere pedes."
+  },
+  {
+    "poem": "3.1",
+    "lineId": 53,
+    "page": 93,
+    "ocrIndex": 32,
+    "score": 0.886,
+    "ll": "a quotiens foribus duris infixa pependi,",
+    "ocr": "Vel quotiens foribus duris inlisa pependi,"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 54,
+    "page": 93,
+    "ocrIndex": 33,
+    "score": 1.0,
+    "ll": "non verita a populo praetereunte legi!",
+    "ocr": "Non verita a populo praetereunte legi;"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 55,
+    "page": 93,
+    "ocrIndex": 34,
+    "score": 1.0,
+    "ll": "quin ego me memini, dum custos saevus abiret,",
+    "ocr": "55 Quin ego me memini, dum custos saevus abiret,"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 56,
+    "page": 93,
+    "ocrIndex": 35,
+    "score": 0.947,
+    "ll": "ancillae miseram delituisse sinu.",
+    "ocr": "Ancillae missam delituisse sinu;"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 57,
+    "page": 93,
+    "ocrIndex": 36,
+    "score": 1.0,
+    "ll": "quid, cum me munus natali mittis, at illa",
+    "ocr": "Quid, cum me munus natali mittis, at illa"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 58,
+    "page": 93,
+    "ocrIndex": 37,
+    "score": 1.0,
+    "ll": "rumpit et adposita barbara mersat aqua?",
+    "ocr": "Rumpit et adposita barbara mersat aqua?"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 59,
+    "page": 94,
+    "ocrIndex": 1,
+    "score": 0.985,
+    "ll": "prima tuae movi felicia semina mentis;",
+    "ocr": "I Prima tuae movi felicia semina mentis:"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 60,
+    "page": 94,
+    "ocrIndex": 2,
+    "score": 0.879,
+    "ll": "munus habes, quod te iam petit ista, meum.'",
+    "ocr": "i 60 Mumis liabes, quod te iam petit ista^ meum/"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 61,
+    "page": 94,
+    "ocrIndex": 3,
+    "score": 1.0,
+    "ll": "Desierat. coepi: 'per vos utramque rogamus,",
+    "ocr": "! Desierat; coepi 'per vos utramque rogamus,"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 62,
+    "page": 94,
+    "ocrIndex": 4,
+    "score": 1.0,
+    "ll": "in vacuas aures verba timentis eant.",
+    "ocr": "In vacuas aures verba timentis eant."
+  },
+  {
+    "poem": "3.1",
+    "lineId": 63,
+    "page": 94,
+    "ocrIndex": 5,
+    "score": 1.0,
+    "ll": "altera me sceptro decoras altoque cothurno;",
+    "ocr": "Altera me sceptro decoras altoque cothurno:"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 64,
+    "page": 94,
+    "ocrIndex": 6,
+    "score": 0.968,
+    "ll": "iam nunc contacto magnus in ore sonus.",
+    "ocr": "lam nunc contacto magnus in ore sonus;"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 65,
+    "page": 94,
+    "ocrIndex": 7,
+    "score": 1.0,
+    "ll": "altera das nostro victurum nomen amori —",
+    "ocr": "65 Altera das nostro victurum nomen amori:"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 66,
+    "page": 94,
+    "ocrIndex": 8,
+    "score": 1.0,
+    "ll": "ergo ades et longis versibus adde brevis!",
+    "ocr": "Ergo ades et longis versibus adde brevis!"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 67,
+    "page": 94,
+    "ocrIndex": 9,
+    "score": 1.0,
+    "ll": "exiguum vati concede, Tragoedia, tempus!",
+    "ocr": "Exiguum vati concede, Tragoedia, tempus:"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 68,
+    "page": 94,
+    "ocrIndex": 10,
+    "score": 0.986,
+    "ll": "tu labor aeternus; quod petit illa, breve est.'",
+    "ocr": "Tu labor aeternus; quod petit illa, brevest/"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 69,
+    "page": 94,
+    "ocrIndex": 11,
+    "score": 1.0,
+    "ll": "Mota dedit veniam — teneri properentur Amores,",
+    "ocr": "Mota dedit veniam: teneri properentur Amores,"
+  },
+  {
+    "poem": "3.1",
+    "lineId": 70,
+    "page": 94,
+    "ocrIndex": 12,
+    "score": 1.0,
+    "ll": "dum vacat; a tergo grandius urguet opus!",
+    "ocr": "70 Dum vacat; a tergo grandius urguet opus."
+  },
+  {
+    "poem": "3.2",
+    "lineId": 1,
+    "page": 94,
+    "ocrIndex": 13,
+    "score": 0.986,
+    "ll": "'Non ego nobilium sedeo studiosus equorum;",
+    "ocr": "U/Non ego nobilium sedeo studiosus equorum:"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 2,
+    "page": 94,
+    "ocrIndex": 14,
+    "score": 1.0,
+    "ll": "cui tamen ipsa faves, vincat ut ille, precor.",
+    "ocr": "Cui tamen ipsa faves, vincat ut ille, precor."
+  },
+  {
+    "poem": "3.2",
+    "lineId": 3,
+    "page": 94,
+    "ocrIndex": 15,
+    "score": 0.971,
+    "ll": "ut loquerer tecum veni, tecumque sederem,",
+    "ocr": "Ut loquerer tecum, veui, tecumque sederem,"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 4,
+    "page": 94,
+    "ocrIndex": 16,
+    "score": 1.0,
+    "ll": "ne tibi non notus, quem facis, esset amor.",
+    "ocr": "Ne tibi non notus, quem facis, esset amor."
+  },
+  {
+    "poem": "3.2",
+    "lineId": 5,
+    "page": 94,
+    "ocrIndex": 17,
+    "score": 1.0,
+    "ll": "tu cursus spectas, ego te; spectemus uterque",
+    "ocr": "5 Tu cursus spectas, ego te: spectemus uterque,"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 6,
+    "page": 94,
+    "ocrIndex": 18,
+    "score": 1.0,
+    "ll": "quod iuvat, atque oculos pascat uterque suos.",
+    "ocr": "Quod iuvat, atque oculos pascat uterque suos!"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 7,
+    "page": 94,
+    "ocrIndex": 19,
+    "score": 0.986,
+    "ll": "O, cuicumque faves, felix agitator equorum!",
+    "ocr": "0, cuicumque faves, felix agitator equorum!"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 8,
+    "page": 94,
+    "ocrIndex": 20,
+    "score": 1.0,
+    "ll": "ergo illi curae contigit esse tuae?",
+    "ocr": "Ergo illi curae contigit esse tuae?"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 9,
+    "page": 94,
+    "ocrIndex": 21,
+    "score": 1.0,
+    "ll": "hoc mihi contingat, sacro de carcere missis",
+    "ocr": "Hoc mihi contingat, sacro de carcere missis"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 10,
+    "page": 94,
+    "ocrIndex": 22,
+    "score": 0.968,
+    "ll": "insistam forti mente vehendus equis,",
+    "ocr": "10 Insistam forti meute vehendus equis"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 11,
+    "page": 94,
+    "ocrIndex": 23,
+    "score": 1.0,
+    "ll": "et modo lora dabo, modo verbere terga notabo,",
+    "ocr": "Et modo lora dabo, modo verbere terga notabo,"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 12,
+    "page": 94,
+    "ocrIndex": 24,
+    "score": 1.0,
+    "ll": "nunc stringam metas interiore rota.",
+    "ocr": "Nunc stringam metas interiore rota."
+  },
+  {
+    "poem": "3.2",
+    "lineId": 13,
+    "page": 94,
+    "ocrIndex": 25,
+    "score": 1.0,
+    "ll": "si mihi currenti fueris conspecta, morabor,",
+    "ocr": "Si mihi currenti fueris conspecta, morabor,"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 14,
+    "page": 94,
+    "ocrIndex": 26,
+    "score": 1.0,
+    "ll": "deque meis manibus lora remissa fluent.",
+    "ocr": "Deque meis manibus lora remissa fluent."
+  },
+  {
+    "poem": "3.2",
+    "lineId": 15,
+    "page": 94,
+    "ocrIndex": 27,
+    "score": 1.0,
+    "ll": "at quam paene Pelops Pisaea concidit hasta,",
+    "ocr": "15 At quam paene Pelops Pisaea concidit hasta,"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 16,
+    "page": 94,
+    "ocrIndex": 28,
+    "score": 0.918,
+    "ll": "dum spectat vultus, Hippodamia, tuos!",
+    "ocr": "Dum spectat vrdtus, Hippodamia, tuosl"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 17,
+    "page": 94,
+    "ocrIndex": 29,
+    "score": 1.0,
+    "ll": "nempe favore suae vicit tamen ille puellae.",
+    "ocr": "Nempe favore suae vicit tamen ille puellae."
+  },
+  {
+    "poem": "3.2",
+    "lineId": 18,
+    "page": 94,
+    "ocrIndex": 30,
+    "score": 1.0,
+    "ll": "vincamus dominae quisque favore suae!",
+    "ocr": "Vincamus dominae quisque favore suae!"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 19,
+    "page": 94,
+    "ocrIndex": 31,
+    "score": 0.972,
+    "ll": "Quid frustra refugis? cogit nos linea iungi.",
+    "ocr": "Quid frustra refugis? cogit nos linea iuugi:"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 20,
+    "page": 94,
+    "ocrIndex": 32,
+    "score": 1.0,
+    "ll": "haec in lege loci commoda circus habet —",
+    "ocr": "Haec in lege loci commoda circus habet."
+  },
+  {
+    "poem": "3.2",
+    "lineId": 21,
+    "page": 94,
+    "ocrIndex": 33,
+    "score": 1.0,
+    "ll": "tu tamen a dextra, quicumque es, parce puellae;",
+    "ocr": "Tu tamen, a dextra quicumque es, parce puellae:"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 22,
+    "page": 94,
+    "ocrIndex": 34,
+    "score": 1.0,
+    "ll": "contactu lateris laeditur ista tui.",
+    "ocr": "Contactu lateris laeditur ista tui."
+  },
+  {
+    "poem": "3.2",
+    "lineId": 23,
+    "page": 94,
+    "ocrIndex": 35,
+    "score": 1.0,
+    "ll": "tu quoque, qui spectas post nos, tua contrahe crura,",
+    "ocr": "Tu quoque, qui spectas post nos, tua contrahe crura,"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 24,
+    "page": 94,
+    "ocrIndex": 36,
+    "score": 1.0,
+    "ll": "si pudor est, rigido nec preme terga genu!",
+    "ocr": "Si pudor est, rigido nec preme terga genu!"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 25,
+    "page": 95,
+    "ocrIndex": 1,
+    "score": 0.88,
+    "ll": "Sed nimium demissa iacent tibi pallia terra.",
+    "ocr": "25 Sed mmiiini demissa iacent tibi pallia terra:"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 26,
+    "page": 95,
+    "ocrIndex": 2,
+    "score": 0.968,
+    "ll": "collige — vel digitis en ego tollo meis!",
+    "ocr": "Collige! vel digitis eu ego tollo meis."
+  },
+  {
+    "poem": "3.2",
+    "lineId": 27,
+    "page": 95,
+    "ocrIndex": 3,
+    "score": 0.897,
+    "ll": "invida vestis eras, quae tam bona crura tegebas;",
+    "ocr": "luvida vestis eras, quae tam boua erura tegebas;"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 28,
+    "page": 95,
+    "ocrIndex": 4,
+    "score": 0.971,
+    "ll": "quoque magis spectes — invida vestis eras!",
+    "ocr": "Quoque magis spectes — iuvida vestis eras."
+  },
+  {
+    "poem": "3.2",
+    "lineId": 29,
+    "page": 95,
+    "ocrIndex": 5,
+    "score": 0.941,
+    "ll": "talia Milanion Atalantes crura fugacis",
+    "ocr": "Talia Milauiou Atalantes crura fugacis"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 30,
+    "page": 95,
+    "ocrIndex": 6,
+    "score": 0.931,
+    "ll": "optavit manibus sustinuisse suis.",
+    "ocr": "30 Optavit mauibus sustiuuisse suis;"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 31,
+    "page": 95,
+    "ocrIndex": 7,
+    "score": 0.971,
+    "ll": "talia pinguntur succinctae crura Dianae",
+    "ocr": "Talia pinguutur succinctae crura Dianae,"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 32,
+    "page": 95,
+    "ocrIndex": 8,
+    "score": 1.0,
+    "ll": "cum sequitur fortes, fortior ipsa, feras.",
+    "ocr": "Cum sequitur fortes fortior ipsa feras."
+  },
+  {
+    "poem": "3.2",
+    "lineId": 33,
+    "page": 95,
+    "ocrIndex": 9,
+    "score": 0.939,
+    "ll": "his ego non visis arsi; quid fiet ab ipsis?",
+    "ocr": "His ego uou visis arsi; quid fiet ab ipsis?"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 34,
+    "page": 95,
+    "ocrIndex": 10,
+    "score": 0.909,
+    "ll": "in flammam flammas, in mare fundis aquas.",
+    "ocr": "lu flammam flammas, iu mare fundis aquas."
+  },
+  {
+    "poem": "3.2",
+    "lineId": 35,
+    "page": 95,
+    "ocrIndex": 11,
+    "score": 1.0,
+    "ll": "suspicor ex istis et cetera posse placere,",
+    "ocr": "35 Suspicor ex istis et cetera posse placere,"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 36,
+    "page": 95,
+    "ocrIndex": 12,
+    "score": 0.971,
+    "ll": "quae bene sub tenui condita veste latent.",
+    "ocr": "Quae bene sub tenui condita veste lateut."
+  },
+  {
+    "poem": "3.2",
+    "lineId": 37,
+    "page": 95,
+    "ocrIndex": 13,
+    "score": 0.946,
+    "ll": "Vis tamen interea faciles arcessere ventos?",
+    "ocr": "Vis tamen iuterea faciles arcessere veutos?"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 38,
+    "page": 95,
+    "ocrIndex": 14,
+    "score": 0.918,
+    "ll": "quos faciet nostra mota tabella manu.",
+    "ocr": "Quos faciet uostra mota tabeUa manu."
+  },
+  {
+    "poem": "3.2",
+    "lineId": 39,
+    "page": 95,
+    "ocrIndex": 15,
+    "score": 0.917,
+    "ll": "an magis hic meus est animi, non aeris aestus,",
+    "ocr": "An magis hic meus est auimi, uou aeris aestus,"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 40,
+    "page": 95,
+    "ocrIndex": 16,
+    "score": 0.97,
+    "ll": "captaque femineus pectora torret amor?",
+    "ocr": "40 Captaque femiueus pectora torret amor?"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 41,
+    "page": 95,
+    "ocrIndex": 17,
+    "score": 0.988,
+    "ll": "dum loquor, alba levi sparsa est tibi pulvere vestis.",
+    "ocr": "Dum loquor, alba levi sparsast tibi pulvere vestis:"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 42,
+    "page": 95,
+    "ocrIndex": 18,
+    "score": 1.0,
+    "ll": "sordide de niveo corpore pulvis abi!",
+    "ocr": "Sordide de niveo corpore pulvis abi!"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 43,
+    "page": 95,
+    "ocrIndex": 19,
+    "score": 0.974,
+    "ll": "Sed iam pompa venit — linguis animisque favete!",
+    "ocr": "Sed iam pompa venit: liuguis animisque favete!"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 44,
+    "page": 95,
+    "ocrIndex": 20,
+    "score": 1.0,
+    "ll": "tempus adest plausus — aurea pompa venit.",
+    "ocr": "Tempus adest plausus: aurea pompa venit."
+  },
+  {
+    "poem": "3.2",
+    "lineId": 45,
+    "page": 95,
+    "ocrIndex": 21,
+    "score": 0.943,
+    "ll": "prima loco fertur passis Victoria pinnis —",
+    "ocr": "45 Prima loco fertur passis Victoria pimiis:"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 46,
+    "page": 95,
+    "ocrIndex": 22,
+    "score": 0.969,
+    "ll": "huc ades et meus hic fac, dea, vincat amor!",
+    "ocr": "Huc ades et meus bic fac, dea, vincat amor!"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 47,
+    "page": 95,
+    "ocrIndex": 23,
+    "score": 0.973,
+    "ll": "plaudite Neptuno, nimium qui creditis undis!",
+    "ocr": "Plaudite Neptuno, nimium qui creditis uudis!"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 48,
+    "page": 95,
+    "ocrIndex": 24,
+    "score": 0.968,
+    "ll": "nil mihi cum pelago; me mea terra capit.",
+    "ocr": "Nil mibi cum pelago, me mea terra capit."
+  },
+  {
+    "poem": "3.2",
+    "lineId": 49,
+    "page": 95,
+    "ocrIndex": 25,
+    "score": 0.938,
+    "ll": "plaude tuo Marti, miles! nos odimus arma;",
+    "ocr": "Plande tuo Marti, miles! uos odimus arma:"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 50,
+    "page": 95,
+    "ocrIndex": 26,
+    "score": 1.0,
+    "ll": "pax iuvat et media pace repertus amor.",
+    "ocr": "50 Pax iuvat et media pace repertus amor."
+  },
+  {
+    "poem": "3.2",
+    "lineId": 51,
+    "page": 95,
+    "ocrIndex": 27,
+    "score": 1.0,
+    "ll": "auguribus Phoebus, Phoebe venantibus adsit!",
+    "ocr": "Auguribus Phoebus, Phoebe venantibus adsit,"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 52,
+    "page": 95,
+    "ocrIndex": 28,
+    "score": 0.933,
+    "ll": "artifices in te verte, Minerva, manus!",
+    "ocr": "Artifices iu te verte, Miuerva, manus;"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 53,
+    "page": 95,
+    "ocrIndex": 29,
+    "score": 1.0,
+    "ll": "ruricolae, Cereri teneroque adsurgite Baccho!",
+    "ocr": "Ruricolae Cereri teneroque adsurgite Baccho,"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 54,
+    "page": 95,
+    "ocrIndex": 30,
+    "score": 0.954,
+    "ll": "Pollucem pugiles, Castora placet eques!",
+    "ocr": "PoUucem pugiles, Castora placet eques!"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 55,
+    "page": 95,
+    "ocrIndex": 31,
+    "score": 0.976,
+    "ll": "nos tibi, blanda Venus, puerisque potentibus arcu",
+    "ocr": "55 Nos tibi, blanda Veuus, puerisque potentibus arcu"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 56,
+    "page": 95,
+    "ocrIndex": 32,
+    "score": 1.0,
+    "ll": "plaudimus; inceptis adnue, diva, meis",
+    "ocr": "Plaudimus: inceptis adnue, diva, meis"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 57,
+    "page": 95,
+    "ocrIndex": 33,
+    "score": 0.972,
+    "ll": "daque novae mentem dominae! patiatur amari!",
+    "ocr": "Daque uovae mentem dominae! patiatur amari!"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 58,
+    "page": 95,
+    "ocrIndex": 34,
+    "score": 1.0,
+    "ll": "adnuit et motu signa secunda dedit.",
+    "ocr": "Adnuit et motu signa secunda dedit."
+  },
+  {
+    "poem": "3.2",
+    "lineId": 59,
+    "page": 95,
+    "ocrIndex": 35,
+    "score": 1.0,
+    "ll": "quod dea promisit, promittas ipsa, rogamus;",
+    "ocr": "Quod dea promisit, promittas ipsa, rogamus:"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 60,
+    "page": 95,
+    "ocrIndex": 36,
+    "score": 0.968,
+    "ll": "pace loquar Veneris, tu dea maior eris.",
+    "ocr": "60 Pace loquar Veueris, tu dea maior eris."
+  },
+  {
+    "poem": "3.2",
+    "lineId": 61,
+    "page": 95,
+    "ocrIndex": 37,
+    "score": 1.0,
+    "ll": "per tibi tot iuro testes pompamque deorum,",
+    "ocr": "Per tibi tot iuro testes pompamque deorum,"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 62,
+    "page": 96,
+    "ocrIndex": 1,
+    "score": 1.0,
+    "ll": "te dominam nobis tempus in omne peti!",
+    "ocr": "Te dominam nobis tempus in omne peti."
+  },
+  {
+    "poem": "3.2",
+    "lineId": 63,
+    "page": 96,
+    "ocrIndex": 2,
+    "score": 0.974,
+    "ll": "Sed pendent tibi crura. potes, si forte iuvabit,",
+    "ocr": "Sed pendent tibi erura: potes, si forte iuvabit,"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 64,
+    "page": 96,
+    "ocrIndex": 3,
+    "score": 1.0,
+    "ll": "cancellis primos inseruisse pedes.",
+    "ocr": "Cancellis primos inseruisse pedes."
+  },
+  {
+    "poem": "3.2",
+    "lineId": 65,
+    "page": 96,
+    "ocrIndex": 4,
+    "score": 1.0,
+    "ll": "maxima iam vacuo praetor spectacula circo",
+    "ocr": "65 Maxima iam vacuo praetor spectacula circo"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 66,
+    "page": 96,
+    "ocrIndex": 5,
+    "score": 1.0,
+    "ll": "quadriiugos aequo carcere misit equos.",
+    "ocr": "Quadriiugos aequo carcere misit equos."
+  },
+  {
+    "poem": "3.2",
+    "lineId": 67,
+    "page": 96,
+    "ocrIndex": 6,
+    "score": 1.0,
+    "ll": "cui studeas, video. vincet, cuicumque favebis.",
+    "ocr": "Cui studeas, video-, vincet, cuicumque favebis:"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 68,
+    "page": 96,
+    "ocrIndex": 7,
+    "score": 1.0,
+    "ll": "quid cupias, ipsi scire videntur equi.",
+    "ocr": "Quid cupias, ipsi scire videntur equi."
+  },
+  {
+    "poem": "3.2",
+    "lineId": 69,
+    "page": 96,
+    "ocrIndex": 8,
+    "score": 1.0,
+    "ll": "me miserum, metam spatioso circuit orbe!",
+    "ocr": "Me miserum! metam spatioso circuit orbe."
+  },
+  {
+    "poem": "3.2",
+    "lineId": 70,
+    "page": 96,
+    "ocrIndex": 9,
+    "score": 1.0,
+    "ll": "quid facis? admoto proxumus axe subit.",
+    "ocr": "70 Quid facis? admoto proxumus axe subit."
+  },
+  {
+    "poem": "3.2",
+    "lineId": 71,
+    "page": 96,
+    "ocrIndex": 10,
+    "score": 1.0,
+    "ll": "quid facis, infelix? perdis bona vota puellae.",
+    "ocr": "Quid facis, infelix? perdis bona vota puellae:"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 72,
+    "page": 96,
+    "ocrIndex": 11,
+    "score": 1.0,
+    "ll": "tende, precor, valida lora sinistra manu!",
+    "ocr": "Tende, precor, valida lora sinistra manu!"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 73,
+    "page": 96,
+    "ocrIndex": 12,
+    "score": 1.0,
+    "ll": "favimus ignavo — sed enim revocate, Quirites,",
+    "ocr": "Favimus ignavo; sed enim revocate, Quirites,"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 74,
+    "page": 96,
+    "ocrIndex": 13,
+    "score": 0.935,
+    "ll": "et date iactatis undique signa togis!",
+    "ocr": "Et date iactatis imdique signa togis!"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 75,
+    "page": 96,
+    "ocrIndex": 14,
+    "score": 0.972,
+    "ll": "en, revocant! — ac ne turbet toga mota capillos,",
+    "ocr": "75 En, revocant! at, ne turbet toga mota capillos,"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 76,
+    "page": 96,
+    "ocrIndex": 15,
+    "score": 0.984,
+    "ll": "in nostros abdas te licet usque sinus.",
+    "ocr": "In nostros abdas te licet usqvie sinus."
+  },
+  {
+    "poem": "3.2",
+    "lineId": 77,
+    "page": 96,
+    "ocrIndex": 16,
+    "score": 0.974,
+    "ll": "Iamque patent iterum reserato carcere postes;",
+    "ocr": "lamque patent iterum reserato carcere postes:"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 78,
+    "page": 96,
+    "ocrIndex": 17,
+    "score": 1.0,
+    "ll": "evolat admissis discolor agmen equis.",
+    "ocr": "Evolat admissis discolor agmen equis."
+  },
+  {
+    "poem": "3.2",
+    "lineId": 79,
+    "page": 96,
+    "ocrIndex": 18,
+    "score": 1.0,
+    "ll": "nunc saltem supera spatioque insurge patenti!",
+    "ocr": "Nunc saltem supera spatioque insurge patenti:"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 80,
+    "page": 96,
+    "ocrIndex": 19,
+    "score": 1.0,
+    "ll": "sint mea, sint dominae fac rata vota meae!",
+    "ocr": "80 Sint mea, sint dominae fac rata vota meae!"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 81,
+    "page": 96,
+    "ocrIndex": 20,
+    "score": 1.0,
+    "ll": "Sunt dominae rata vota meae, mea vota supersunt.",
+    "ocr": "Sunt dominae rata vota meae, mea vota supersunt;"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 82,
+    "page": 96,
+    "ocrIndex": 21,
+    "score": 0.954,
+    "ll": "ille tenet palmam; palma petenda mea est.'",
+    "ocr": "Ille tenet palmam: palma j)etenda meast.'"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 83,
+    "page": 96,
+    "ocrIndex": 22,
+    "score": 1.0,
+    "ll": "Risit, et argutis quiddam promisit ocellis.",
+    "ocr": "Risit et argutis quiddam promisit ocellis:"
+  },
+  {
+    "poem": "3.2",
+    "lineId": 84,
+    "page": 96,
+    "ocrIndex": 23,
+    "score": 0.967,
+    "ll": "'Hoc satis est, alio cetera redde loco!'",
+    "ocr": "Hic satis est; alio cetera redde loco!"
+  },
+  {
+    "poem": "3.3",
+    "lineId": 1,
+    "page": 96,
+    "ocrIndex": 24,
+    "score": 0.943,
+    "ll": "Esse deos, i, crede — fidem iurata fefellit,",
+    "ocr": "ni.Esse deos hic crede: fidem iurata fefellit,"
+  },
+  {
+    "poem": "3.3",
+    "lineId": 2,
+    "page": 96,
+    "ocrIndex": 25,
+    "score": 1.0,
+    "ll": "et facies illi, quae fuit ante, manet!",
+    "ocr": "Et facies illi, quae fuit ante, manet!"
+  },
+  {
+    "poem": "3.3",
+    "lineId": 3,
+    "page": 96,
+    "ocrIndex": 26,
+    "score": 0.932,
+    "ll": "quam longos habuit nondum periura capillos,",
+    "ocr": "Quam longos babuit nondum periura capUlos,"
+  },
+  {
+    "poem": "3.3",
+    "lineId": 4,
+    "page": 96,
+    "ocrIndex": 27,
+    "score": 1.0,
+    "ll": "tam longos, postquam numina laesit, habet.",
+    "ocr": "Tam longos, postquam numina laesit, habet;"
+  },
+  {
+    "poem": "3.3",
+    "lineId": 5,
+    "page": 96,
+    "ocrIndex": 28,
+    "score": 0.955,
+    "ll": "candida candorem roseo suffusa rubore",
+    "ocr": "5 Candida candorem roseo suffiisa rubore"
+  },
+  {
+    "poem": "3.3",
+    "lineId": 6,
+    "page": 96,
+    "ocrIndex": 29,
+    "score": 1.0,
+    "ll": "ante fuit — niveo lucet in ore rubor.",
+    "ocr": "Ante fuit: niveo lucet in ore rubor;"
+  },
+  {
+    "poem": "3.3",
+    "lineId": 7,
+    "page": 96,
+    "ocrIndex": 30,
+    "score": 1.0,
+    "ll": "pes erat exiguus — pedis est artissima forma.",
+    "ocr": "Pes erat exiguus: pedis est artissima forma;"
+  },
+  {
+    "poem": "3.3",
+    "lineId": 8,
+    "page": 96,
+    "ocrIndex": 31,
+    "score": 1.0,
+    "ll": "longa decensque fuit — longa decensque manet.",
+    "ocr": "Longa decensque fuit: longa decensque manet;"
+  },
+  {
+    "poem": "3.3",
+    "lineId": 9,
+    "page": 96,
+    "ocrIndex": 32,
+    "score": 0.954,
+    "ll": "argutos habuit — radiant ut sidus ocelli,",
+    "ocr": "Argutos habuit: radiant ut sidus ocelU,"
+  },
+  {
+    "poem": "3.3",
+    "lineId": 10,
+    "page": 96,
+    "ocrIndex": 33,
+    "score": 0.985,
+    "ll": "per quos mentita est perfida saepe mihi.",
+    "ocr": "10 Per quos mentitast perfida saepe mihi."
+  },
+  {
+    "poem": "3.3",
+    "lineId": 11,
+    "page": 96,
+    "ocrIndex": 34,
+    "score": 0.971,
+    "ll": "scilicet aeterni falsum iurare puellis",
+    "ocr": "Scilicet aeterno falsum iurare puellis"
+  },
+  {
+    "poem": "3.3",
+    "lineId": 12,
+    "page": 96,
+    "ocrIndex": 35,
+    "score": 1.0,
+    "ll": "di quoque concedunt, formaque numen habet.",
+    "ocr": "Di quoque concedunt, formaque numen habet."
+  },
+  {
+    "poem": "3.3",
+    "lineId": 13,
+    "page": 96,
+    "ocrIndex": 36,
+    "score": 1.0,
+    "ll": "perque suos illam nuper iurasse recordor",
+    "ocr": "Perque suos illam nuper iurasse recordor"
+  },
+  {
+    "poem": "3.3",
+    "lineId": 14,
+    "page": 97,
+    "ocrIndex": 1,
+    "score": 0.912,
+    "ll": "perque meos oculos: en doluere mei!",
+    "ocr": "Perque meos oculos: et cloluere mei!"
+  },
+  {
+    "poem": "3.3",
+    "lineId": 15,
+    "page": 97,
+    "ocrIndex": 2,
+    "score": 1.0,
+    "ll": "Dicite, di, si vos inpune fefellerat illa,",
+    "ocr": "15 Dicite, di, si vos inpune fefellerat illa,"
+  },
+  {
+    "poem": "3.3",
+    "lineId": 16,
+    "page": 97,
+    "ocrIndex": 3,
+    "score": 1.0,
+    "ll": "alterius meriti cur ego damna tuli?",
+    "ocr": "Alterius meriti cur ego damna tuli?"
+  },
+  {
+    "poem": "3.3",
+    "lineId": 17,
+    "page": 97,
+    "ocrIndex": 4,
+    "score": 0.954,
+    "ll": "an non invidiae vobis Cepheia virgo est,",
+    "ocr": "At non invidiae vobis Cepheia virgost,"
+  },
+  {
+    "poem": "3.3",
+    "lineId": 18,
+    "page": 97,
+    "ocrIndex": 5,
+    "score": 1.0,
+    "ll": "pro male formosa iussa parente mori?",
+    "ocr": "Pro male formosa iussa parente mori?"
+  },
+  {
+    "poem": "3.3",
+    "lineId": 19,
+    "page": 97,
+    "ocrIndex": 6,
+    "score": 0.963,
+    "ll": "non satis est, quod vos habui sine pondere testis,",
+    "ocr": "Non satis est, quod vos liabui sine pondere testis,"
+  },
+  {
+    "poem": "3.3",
+    "lineId": 20,
+    "page": 97,
+    "ocrIndex": 7,
+    "score": 1.0,
+    "ll": "et mecum lusos ridet inulta deos?",
+    "ocr": "20 Et mecum lusos ridet inulta deos?"
+  },
+  {
+    "poem": "3.3",
+    "lineId": 21,
+    "page": 97,
+    "ocrIndex": 8,
+    "score": 1.0,
+    "ll": "ut sua per nostram redimat periuria poenam,",
+    "ocr": "Ut sua per nostram redimat periuria poenam,"
+  },
+  {
+    "poem": "3.3",
+    "lineId": 22,
+    "page": 97,
+    "ocrIndex": 9,
+    "score": 1.0,
+    "ll": "victima deceptus decipientis ero?",
+    "ocr": "Victima deceptus decipientis ero?"
+  },
+  {
+    "poem": "3.3",
+    "lineId": 23,
+    "page": 97,
+    "ocrIndex": 10,
+    "score": 1.0,
+    "ll": "aut sine re nomen deus est frustraque timetur",
+    "ocr": "Aut sine re nomen deus est frustraque timetur"
+  },
+  {
+    "poem": "3.3",
+    "lineId": 24,
+    "page": 97,
+    "ocrIndex": 11,
+    "score": 1.0,
+    "ll": "et stulta populos credulitate movet;",
+    "ocr": "Et stulta populos credulitate movet,"
+  },
+  {
+    "poem": "3.3",
+    "lineId": 25,
+    "page": 97,
+    "ocrIndex": 12,
+    "score": 1.0,
+    "ll": "aut, siquis deus est, teneras amat ille puellas",
+    "ocr": "25 Aut, siquis deus est, teneras amat ille puellas"
+  },
+  {
+    "poem": "3.3",
+    "lineId": 26,
+    "page": 97,
+    "ocrIndex": 13,
+    "score": 1.0,
+    "ll": "et nimium solas omnia posse iubet.",
+    "ocr": "Et nimium solas omnia posse iubet."
+  },
+  {
+    "poem": "3.3",
+    "lineId": 27,
+    "page": 97,
+    "ocrIndex": 14,
+    "score": 1.0,
+    "ll": "nobis fatifero Mavors accingitur ense;",
+    "ocr": "Nobis fatifero Mavors accingitur ense,"
+  },
+  {
+    "poem": "3.3",
+    "lineId": 28,
+    "page": 97,
+    "ocrIndex": 15,
+    "score": 1.0,
+    "ll": "nos petit invicta Palladis hasta manu.",
+    "ocr": "Nos petit invicta Palladis hasta manu,"
+  },
+  {
+    "poem": "3.3",
+    "lineId": 29,
+    "page": 97,
+    "ocrIndex": 16,
+    "score": 1.0,
+    "ll": "nobis flexibiles curvantur Apollinis arcus;",
+    "ocr": "Nobis flexibiles curvantur Apollinis arcus,"
+  },
+  {
+    "poem": "3.3",
+    "lineId": 30,
+    "page": 97,
+    "ocrIndex": 17,
+    "score": 0.969,
+    "ll": "in nos alta Iovis dextera fulmen habet.",
+    "ocr": "30 In nos alta lovis dextera fulmen habet;"
+  },
+  {
+    "poem": "3.3",
+    "lineId": 31,
+    "page": 97,
+    "ocrIndex": 18,
+    "score": 1.0,
+    "ll": "formosas superi metuunt offendere laesi",
+    "ocr": "Formosas superi metuunt off^endere laesi"
+  },
+  {
+    "poem": "3.3",
+    "lineId": 32,
+    "page": 97,
+    "ocrIndex": 19,
+    "score": 1.0,
+    "ll": "atque ultro, quae se non timuere, timent.",
+    "ocr": "Atque ultro, quae se non timuere, timent."
+  },
+  {
+    "poem": "3.3",
+    "lineId": 33,
+    "page": 97,
+    "ocrIndex": 20,
+    "score": 1.0,
+    "ll": "et quisquam pia tura focis inponere curat?",
+    "ocr": "Et quisquam pia tura focis inponere curat?"
+  },
+  {
+    "poem": "3.3",
+    "lineId": 34,
+    "page": 97,
+    "ocrIndex": 21,
+    "score": 1.0,
+    "ll": "certe plus animi debet inesse viris!",
+    "ocr": "Certe plus animi debet inesse viris."
+  },
+  {
+    "poem": "3.3",
+    "lineId": 35,
+    "page": 97,
+    "ocrIndex": 22,
+    "score": 0.972,
+    "ll": "Iuppiter igne suo lucos iaculatur et arces",
+    "ocr": "35 luppiter igne suo lucos iaculatur et arces"
+  },
+  {
+    "poem": "3.3",
+    "lineId": 36,
+    "page": 97,
+    "ocrIndex": 23,
+    "score": 1.0,
+    "ll": "missaque periuras tela ferire vetat.",
+    "ocr": "Missaque periuras tela ferire vetat;"
+  },
+  {
+    "poem": "3.3",
+    "lineId": 37,
+    "page": 97,
+    "ocrIndex": 24,
+    "score": 1.0,
+    "ll": "tot meruere peti — Semele miserabilis arsit!",
+    "ocr": "Tot meruere peti: Semele miserabilis arsit!"
+  },
+  {
+    "poem": "3.3",
+    "lineId": 38,
+    "page": 97,
+    "ocrIndex": 25,
+    "score": 0.982,
+    "ll": "officio est illi poena reperta suo;",
+    "ocr": "Officiost illi poena reperta suo;"
+  },
+  {
+    "poem": "3.3",
+    "lineId": 39,
+    "page": 97,
+    "ocrIndex": 26,
+    "score": 1.0,
+    "ll": "at si venturo se subduxisset amanti,",
+    "ocr": "At si venturo se subduxisset amanti,"
+  },
+  {
+    "poem": "3.3",
+    "lineId": 40,
+    "page": 97,
+    "ocrIndex": 27,
+    "score": 1.0,
+    "ll": "non pater in Baccho matris haberet opus.",
+    "ocr": "40 Non pater in Baccho matris haberet opus."
+  },
+  {
+    "poem": "3.3",
+    "lineId": 41,
+    "page": 97,
+    "ocrIndex": 28,
+    "score": 1.0,
+    "ll": "Quid queror et toto facio convicia caelo?",
+    "ocr": "Quid queror et toto facio convicia caelo?"
+  },
+  {
+    "poem": "3.3",
+    "lineId": 42,
+    "page": 97,
+    "ocrIndex": 29,
+    "score": 1.0,
+    "ll": "di quoque habent oculos, di quoque pectus habent!",
+    "ocr": "Di quoque habent oculos, di quoque pectus habent!"
+  },
+  {
+    "poem": "3.3",
+    "lineId": 43,
+    "page": 97,
+    "ocrIndex": 30,
+    "score": 1.0,
+    "ll": "si deus ipse forem, numen sine fraude liceret",
+    "ocr": "Si deus ipse forem, numen sine fraude liceret"
+  },
+  {
+    "poem": "3.3",
+    "lineId": 44,
+    "page": 97,
+    "ocrIndex": 31,
+    "score": 1.0,
+    "ll": "femina mendaci falleret ore meum;",
+    "ocr": "Femina mendaci falleret ore meum;"
+  },
+  {
+    "poem": "3.3",
+    "lineId": 45,
+    "page": 97,
+    "ocrIndex": 32,
+    "score": 1.0,
+    "ll": "ipse ego iurarem verum iurare puellas",
+    "ocr": "45 Ipse ego iurarem verum iurare puellas"
+  },
+  {
+    "poem": "3.3",
+    "lineId": 46,
+    "page": 97,
+    "ocrIndex": 33,
+    "score": 1.0,
+    "ll": "et non de tetricis dicerer esse deus.",
+    "ocr": "Et non de tetricis dicerer esse deus."
+  },
+  {
+    "poem": "3.3",
+    "lineId": 47,
+    "page": 97,
+    "ocrIndex": 34,
+    "score": 1.0,
+    "ll": "tu tamen illorum moderatius utere dono —",
+    "ocr": "Tu tamen illorum moderatius utere dono,"
+  },
+  {
+    "poem": "3.3",
+    "lineId": 48,
+    "page": 97,
+    "ocrIndex": 35,
+    "score": 1.0,
+    "ll": "aut oculis certe parce, puella, meis!",
+    "ocr": "Aut oculis certe parce, puella, meis!"
+  },
+  {
+    "poem": "3.4",
+    "lineId": 1,
+    "page": 98,
+    "ocrIndex": 1,
+    "score": 0.883,
+    "ll": "Dure vir, inposito tenerae custode puellae",
+    "ocr": "IIII. Dure vir, iuposito tenerae ciistode puellae"
+  },
+  {
+    "poem": "3.4",
+    "lineId": 2,
+    "page": 98,
+    "ocrIndex": 2,
+    "score": 0.954,
+    "ll": "nil agis; ingenio est quaeque tuenda suo.",
+    "ocr": "Nil agis: ingeniost quaeque tuenda sno."
+  },
+  {
+    "poem": "3.4",
+    "lineId": 3,
+    "page": 98,
+    "ocrIndex": 3,
+    "score": 0.974,
+    "ll": "siqua metu dempto casta est, ea denique casta est;",
+    "ocr": "Siqua metu dempto castast, ea denique castast;"
+  },
+  {
+    "poem": "3.4",
+    "lineId": 4,
+    "page": 98,
+    "ocrIndex": 4,
+    "score": 1.0,
+    "ll": "quae, quia non liceat, non facit, illa facit!",
+    "ocr": "Quae, quia non liceat, non facit, illa facit."
+  },
+  {
+    "poem": "3.4",
+    "lineId": 5,
+    "page": 98,
+    "ocrIndex": 5,
+    "score": 0.987,
+    "ll": "ut iam servaris bene corpus, adultera mens est;",
+    "ocr": "o Ut iam servaris bene corpus, adultera mens est:"
+  },
+  {
+    "poem": "3.4",
+    "lineId": 6,
+    "page": 98,
+    "ocrIndex": 6,
+    "score": 0.966,
+    "ll": "nec custodiri, ne velit, ulla potest.",
+    "ocr": "Nec custodiri, ne velit, illa potest,"
+  },
+  {
+    "poem": "3.4",
+    "lineId": 7,
+    "page": 98,
+    "ocrIndex": 7,
+    "score": 0.935,
+    "ll": "nec corpus servare potes, licet omnia claudas;",
+    "ocr": "Nec corpus servare jiotes, licet omuia claudas;"
+  },
+  {
+    "poem": "3.4",
+    "lineId": 8,
+    "page": 98,
+    "ocrIndex": 8,
+    "score": 1.0,
+    "ll": "omnibus exclusis intus adulter erit.",
+    "ocr": "Omnibus exclusis intus adulter erit."
+  },
+  {
+    "poem": "3.4",
+    "lineId": 9,
+    "page": 98,
+    "ocrIndex": 9,
+    "score": 1.0,
+    "ll": "cui peccare licet, peccat minus; ipsa potestas",
+    "ocr": "Cui peccare licet, peccat minus: ipsa potestas"
+  },
+  {
+    "poem": "3.4",
+    "lineId": 10,
+    "page": 98,
+    "ocrIndex": 10,
+    "score": 1.0,
+    "ll": "semina nequitiae languidiora facit.",
+    "ocr": "10 Semina nequitiae languidiora facit."
+  },
+  {
+    "poem": "3.4",
+    "lineId": 11,
+    "page": 98,
+    "ocrIndex": 11,
+    "score": 1.0,
+    "ll": "desine, crede mihi, vitia inritare vetando;",
+    "ocr": "Desine, crede mihi, vitia inritare vetando:"
+  },
+  {
+    "poem": "3.4",
+    "lineId": 12,
+    "page": 98,
+    "ocrIndex": 12,
+    "score": 1.0,
+    "ll": "obsequio vinces aptius illa tuo.",
+    "ocr": "Obsequio vinces aptius illa tuo."
+  },
+  {
+    "poem": "3.4",
+    "lineId": 13,
+    "page": 98,
+    "ocrIndex": 13,
+    "score": 0.974,
+    "ll": "Vidi ego nuper equum contra sua vincla tenacem",
+    "ocr": "Vidi ego nuper equum coutra sua vincla tenacem"
+  },
+  {
+    "poem": "3.4",
+    "lineId": 14,
+    "page": 98,
+    "ocrIndex": 14,
+    "score": 1.0,
+    "ll": "ore reluctanti fulminis ire modo;",
+    "ocr": "Ore reluctanti fulminis ire modo;"
+  },
+  {
+    "poem": "3.4",
+    "lineId": 15,
+    "page": 98,
+    "ocrIndex": 15,
+    "score": 1.0,
+    "ll": "constitit ut primum concessas sensit habenas",
+    "ocr": "15 Constitit, ut primum concessas sensit habenas"
+  },
+  {
+    "poem": "3.4",
+    "lineId": 16,
+    "page": 98,
+    "ocrIndex": 16,
+    "score": 1.0,
+    "ll": "frenaque in effusa laxa iacere iuba!",
+    "ocr": "Frenaque in effusa laxa iacere iuba."
+  },
+  {
+    "poem": "3.4",
+    "lineId": 17,
+    "page": 98,
+    "ocrIndex": 17,
+    "score": 1.0,
+    "ll": "nitimur in vetitum semper cupimusque negata;",
+    "ocr": "Nitimur in vetitum semper cupimusque negata:"
+  },
+  {
+    "poem": "3.4",
+    "lineId": 18,
+    "page": 98,
+    "ocrIndex": 18,
+    "score": 0.968,
+    "ll": "sic interdictis imminet aeger aquis.",
+    "ocr": "Sic interdictis inminet aeger aquis."
+  },
+  {
+    "poem": "3.4",
+    "lineId": 19,
+    "page": 98,
+    "ocrIndex": 19,
+    "score": 1.0,
+    "ll": "centum fronte oculos, centum cervice gerebat",
+    "ocr": "Centum fronte oculos, centum cervice gerebat"
+  },
+  {
+    "poem": "3.4",
+    "lineId": 20,
+    "page": 98,
+    "ocrIndex": 20,
+    "score": 0.952,
+    "ll": "Argus — et hos unus saepe fefellit Amor;",
+    "ocr": "20 Argus: et lios unus saepe fefellit Amor;"
+  },
+  {
+    "poem": "3.4",
+    "lineId": 21,
+    "page": 98,
+    "ocrIndex": 21,
+    "score": 1.0,
+    "ll": "in thalamum Danae ferro saxoque perennem",
+    "ocr": "In thalamum Danae ferro saxoque perennem"
+  },
+  {
+    "poem": "3.4",
+    "lineId": 22,
+    "page": 98,
+    "ocrIndex": 22,
+    "score": 1.0,
+    "ll": "quae fuerat virgo tradita, mater erat;",
+    "ocr": "Quae fuerat virgo tradita, mater erat:"
+  },
+  {
+    "poem": "3.4",
+    "lineId": 23,
+    "page": 98,
+    "ocrIndex": 23,
+    "score": 1.0,
+    "ll": "Penelope mansit, quamvis custode carebat,",
+    "ocr": "Penelope mansit, quamvis custode carebat,"
+  },
+  {
+    "poem": "3.4",
+    "lineId": 24,
+    "page": 98,
+    "ocrIndex": 24,
+    "score": 1.0,
+    "ll": "inter tot iuvenes intemerata procos.",
+    "ocr": "Inter tot iuvenes intemerata pro.cos."
+  },
+  {
+    "poem": "3.4",
+    "lineId": 25,
+    "page": 98,
+    "ocrIndex": 25,
+    "score": 1.0,
+    "ll": "Quidquid servatur cupimus magis, ipsaque furem",
+    "ocr": "25 Quidquid servatur, cupimus magis, ipsaque furem"
+  },
+  {
+    "poem": "3.4",
+    "lineId": 26,
+    "page": 98,
+    "ocrIndex": 26,
+    "score": 1.0,
+    "ll": "cura vocat; pauci, quod sinit alter, amant.",
+    "ocr": "Cura vocat: pauci, quod sinit alter, amant."
+  },
+  {
+    "poem": "3.4",
+    "lineId": 27,
+    "page": 98,
+    "ocrIndex": 27,
+    "score": 1.0,
+    "ll": "nec facie placet illa sua, sed amore mariti;",
+    "ocr": "Nec facie placet illa sua, sed amore mariti:"
+  },
+  {
+    "poem": "3.4",
+    "lineId": 28,
+    "page": 98,
+    "ocrIndex": 28,
+    "score": 1.0,
+    "ll": "nescio quid, quod te ceperit, esse putant.",
+    "ocr": "Nescio quid, quod te ceperit, esse putant."
+  },
+  {
+    "poem": "3.4",
+    "lineId": 29,
+    "page": 98,
+    "ocrIndex": 29,
+    "score": 1.0,
+    "ll": "non proba fit, quam vir servat, sed adultera cara;",
+    "ocr": "Non proba fit, quam vir servat, sed adultera cara:"
+  },
+  {
+    "poem": "3.4",
+    "lineId": 30,
+    "page": 98,
+    "ocrIndex": 30,
+    "score": 1.0,
+    "ll": "ipse timor pretium corpore maius habet.",
+    "ocr": "30 Ipse timor pretium corpore maius habet."
+  },
+  {
+    "poem": "3.4",
+    "lineId": 31,
+    "page": 98,
+    "ocrIndex": 31,
+    "score": 1.0,
+    "ll": "indignere licet, iuvat inconcessa voluptas;",
+    "ocr": "Indignere licet, iuvat inconcessa voluptas:"
+  },
+  {
+    "poem": "3.4",
+    "lineId": 32,
+    "page": 98,
+    "ocrIndex": 32,
+    "score": 1.0,
+    "ll": "sola placet, 'timeo!' dicere siqua potest.",
+    "ocr": "Sola placet, 'timeo' dicere siqua potest."
+  },
+  {
+    "poem": "3.4",
+    "lineId": 33,
+    "page": 98,
+    "ocrIndex": 33,
+    "score": 0.958,
+    "ll": "nec tamen ingenuam ius est servare puellam —",
+    "ocr": "Nec tamen ingenuam ius est servare pueUam:"
+  },
+  {
+    "poem": "3.4",
+    "lineId": 34,
+    "page": 98,
+    "ocrIndex": 34,
+    "score": 1.0,
+    "ll": "hic metus externae corpora gentis agat!",
+    "ocr": "Hic metus externae corpora gentis agat!"
+  },
+  {
+    "poem": "3.4",
+    "lineId": 35,
+    "page": 98,
+    "ocrIndex": 35,
+    "score": 1.0,
+    "ll": "scilicet ut possit custos 'ego' dicere 'feci,'",
+    "ocr": "35 Scilicet ut possit custos 'ego' dicere ^feci',"
+  },
+  {
+    "poem": "3.4",
+    "lineId": 36,
+    "page": 98,
+    "ocrIndex": 36,
+    "score": 1.0,
+    "ll": "in laudem servi casta sit illa tui?",
+    "ocr": "In laudem servi casta sit illa tui?"
+  },
+  {
+    "poem": "3.4",
+    "lineId": 37,
+    "page": 98,
+    "ocrIndex": 37,
+    "score": 1.0,
+    "ll": "Rusticus est nimium, quem laedit adultera coniunx,",
+    "ocr": "Rusticus est nimium, quem laedit adultera coniunx,"
+  },
+  {
+    "poem": "3.4",
+    "lineId": 38,
+    "page": 99,
+    "ocrIndex": 1,
+    "score": 0.918,
+    "ll": "et notos mores non satis urbis habet",
+    "ocr": "Et notos mores nou satis Urbis liabet,"
+  },
+  {
+    "poem": "3.4",
+    "lineId": 39,
+    "page": 99,
+    "ocrIndex": 2,
+    "score": 0.838,
+    "ll": "in qua Martigenae non sunt sine crimine nati",
+    "ocr": "lu qua Martigeuae uou suut sine crimine nati"
+  },
+  {
+    "poem": "3.4",
+    "lineId": 40,
+    "page": 99,
+    "ocrIndex": 3,
+    "score": 1.0,
+    "ll": "Romulus Iliades Iliadesque Remus.",
+    "ocr": "40 Romulus Iliades Iliadesque Remus."
+  },
+  {
+    "poem": "3.4",
+    "lineId": 41,
+    "page": 99,
+    "ocrIndex": 4,
+    "score": 1.0,
+    "ll": "quo tibi formosam, si non nisi casta placebat?",
+    "ocr": "Quo tibi formosam, si non nisi casta placebat?"
+  },
+  {
+    "poem": "3.4",
+    "lineId": 42,
+    "page": 99,
+    "ocrIndex": 5,
+    "score": 0.877,
+    "ll": "non possunt ullis ista coire modis.",
+    "ocr": "Non possimt uUis ista coire modis!"
+  },
+  {
+    "poem": "3.4",
+    "lineId": 43,
+    "page": 99,
+    "ocrIndex": 6,
+    "score": 0.946,
+    "ll": "Si sapis, indulge dominae vultusque severos",
+    "ocr": "Si sapis, iudulge domiuae vultusque severos"
+  },
+  {
+    "poem": "3.4",
+    "lineId": 44,
+    "page": 99,
+    "ocrIndex": 7,
+    "score": 1.0,
+    "ll": "exue, nec rigidi iura tuere viri,",
+    "ocr": "Exue nec rigidi iura tuere viri"
+  },
+  {
+    "poem": "3.4",
+    "lineId": 45,
+    "page": 99,
+    "ocrIndex": 8,
+    "score": 1.0,
+    "ll": "et cole quos dederit — multos dabit — uxor amicos.",
+    "ocr": "45 Et cole, quos dederit (multos dabit) uxor, amicos:"
+  },
+  {
+    "poem": "3.4",
+    "lineId": 46,
+    "page": 99,
+    "ocrIndex": 9,
+    "score": 0.903,
+    "ll": "gratia sic minimo magna labore venit;",
+    "ocr": "Gratia sic miuimo magua labore veuit;"
+  },
+  {
+    "poem": "3.4",
+    "lineId": 47,
+    "page": 99,
+    "ocrIndex": 10,
+    "score": 0.972,
+    "ll": "sic poteris iuvenum convivia semper inire",
+    "ocr": "Sic poteris iuveuum convivia semper inire"
+  },
+  {
+    "poem": "3.4",
+    "lineId": 48,
+    "page": 99,
+    "ocrIndex": 11,
+    "score": 1.0,
+    "ll": "et, quae non dederis, multa videre domi.",
+    "ocr": "Et, quae non dederis, multa videre domi."
+  },
+  {
+    "poem": "3.5",
+    "lineId": 1,
+    "page": 99,
+    "ocrIndex": 12,
+    "score": 0.946,
+    "ll": "'Nox erat, et somnus lassos submisit ocellos;",
+    "ocr": "V. ^Nox eratj et somuus lassos submisit ocellos;"
+  },
+  {
+    "poem": "3.5",
+    "lineId": 2,
+    "page": 99,
+    "ocrIndex": 13,
+    "score": 0.966,
+    "ll": "terruerunt animum talia visa meum:",
+    "ocr": "Terruerunt auimum talia visa meum:"
+  },
+  {
+    "poem": "3.5",
+    "lineId": 3,
+    "page": 99,
+    "ocrIndex": 14,
+    "score": 0.957,
+    "ll": "Colle sub aprico creberrimus ilice lucus",
+    "ocr": "CoUe sub aprico creberrimus ilice lucus"
+  },
+  {
+    "poem": "3.5",
+    "lineId": 4,
+    "page": 99,
+    "ocrIndex": 15,
+    "score": 1.0,
+    "ll": "stabat, et in ramis multa latebat avis.",
+    "ocr": "Stabat, et in ramis multa latebat avis;"
+  },
+  {
+    "poem": "3.5",
+    "lineId": 5,
+    "page": 99,
+    "ocrIndex": 16,
+    "score": 1.0,
+    "ll": "area gramineo suberat viridissima prato,",
+    "ocr": "5 Area gramineo suberat viridissima prato,"
+  },
+  {
+    "poem": "3.5",
+    "lineId": 6,
+    "page": 99,
+    "ocrIndex": 17,
+    "score": 0.967,
+    "ll": "umida de guttis lene sonantis aquae.",
+    "ocr": "Umida de guttis lene souantis aquae;"
+  },
+  {
+    "poem": "3.5",
+    "lineId": 7,
+    "page": 99,
+    "ocrIndex": 18,
+    "score": 0.973,
+    "ll": "ipse sub arboreis vitabam frondibus aestum —",
+    "ocr": "Ipse sub arboreis vitabam froudibus aestum:"
+  },
+  {
+    "poem": "3.5",
+    "lineId": 8,
+    "page": 99,
+    "ocrIndex": 19,
+    "score": 0.971,
+    "ll": "fronde sub arborea sed tamen aestus erat —",
+    "ocr": "(Froude sub arborea sed tamen aestus erat)"
+  },
+  {
+    "poem": "3.5",
+    "lineId": 9,
+    "page": 99,
+    "ocrIndex": 20,
+    "score": 0.974,
+    "ll": "ecce! petens variis inmixtas floribus herbas",
+    "ocr": "Ecce, petens variis iumixtas floribus herbas"
+  },
+  {
+    "poem": "3.5",
+    "lineId": 10,
+    "page": 99,
+    "ocrIndex": 21,
+    "score": 1.0,
+    "ll": "constitit ante oculos candida vacca meos,",
+    "ocr": "10 Constitit ante oculos candida vacca meos,"
+  },
+  {
+    "poem": "3.5",
+    "lineId": 11,
+    "page": 99,
+    "ocrIndex": 22,
+    "score": 0.974,
+    "ll": "candidior nivibus, tunc cum cecidere recentes,",
+    "ocr": "Candidior nivibus, tunc cum cecidere receutes,"
+  },
+  {
+    "poem": "3.5",
+    "lineId": 12,
+    "page": 99,
+    "ocrIndex": 23,
+    "score": 0.971,
+    "ll": "in liquidas nondum quas mora vertit aquas;",
+    "ocr": "In liquidas uondum quas mora vertit aquas,"
+  },
+  {
+    "poem": "3.5",
+    "lineId": 13,
+    "page": 99,
+    "ocrIndex": 24,
+    "score": 0.976,
+    "ll": "candidior, quod adhuc spumis stridentibus albet",
+    "ocr": "Candidior, quod adhuc spumis strideutibus albet"
+  },
+  {
+    "poem": "3.5",
+    "lineId": 14,
+    "page": 99,
+    "ocrIndex": 25,
+    "score": 1.0,
+    "ll": "et modo siccatam, lacte, reliquit ovem.",
+    "ocr": "Et modo siccatam, lacte, reliquit ovem."
+  },
+  {
+    "poem": "3.5",
+    "lineId": 15,
+    "page": 99,
+    "ocrIndex": 26,
+    "score": 1.0,
+    "ll": "taurus erat comes huic, feliciter ille maritus,",
+    "ocr": "15 Taurus erat comes huic, feliciter ille maritus,"
+  },
+  {
+    "poem": "3.5",
+    "lineId": 16,
+    "page": 99,
+    "ocrIndex": 27,
+    "score": 1.0,
+    "ll": "cumque sua teneram coniuge pressit humum.",
+    "ocr": "Cumque sua teneram coniuge pressit humum."
+  },
+  {
+    "poem": "3.5",
+    "lineId": 17,
+    "page": 99,
+    "ocrIndex": 28,
+    "score": 0.973,
+    "ll": "Dum iacet et lente revocatas ruminat herbas",
+    "ocr": "Dum iacet et lente revocatas rumiuat herbas"
+  },
+  {
+    "poem": "3.5",
+    "lineId": 18,
+    "page": 99,
+    "ocrIndex": 29,
+    "score": 0.969,
+    "ll": "atque iterum pasto pascitur ante cibo,",
+    "ocr": "Atque iterum pasto pascitur aute cibo,"
+  },
+  {
+    "poem": "3.5",
+    "lineId": 19,
+    "page": 99,
+    "ocrIndex": 30,
+    "score": 1.0,
+    "ll": "visus erat, somno vires adimente ferendi,",
+    "ocr": "Visus erat, somno vires adimente ferendi,"
+  },
+  {
+    "poem": "3.5",
+    "lineId": 20,
+    "page": 99,
+    "ocrIndex": 31,
+    "score": 0.951,
+    "ll": "cornigerum terra deposuisse caput.",
+    "ocr": "20 Cornigerum terra deposiiisse caput."
+  },
+  {
+    "poem": "3.5",
+    "lineId": 21,
+    "page": 99,
+    "ocrIndex": 32,
+    "score": 0.919,
+    "ll": "huc levibus cornix pinnis delapsa per auras",
+    "ocr": "Huc levibus coruix pimiis delapsa per auras"
+  },
+  {
+    "poem": "3.5",
+    "lineId": 22,
+    "page": 99,
+    "ocrIndex": 33,
+    "score": 1.0,
+    "ll": "venit et in viridi garrula sedit humo,",
+    "ocr": "Venit et in viridi garrula sedit humo"
+  },
+  {
+    "poem": "3.5",
+    "lineId": 23,
+    "page": 99,
+    "ocrIndex": 34,
+    "score": 1.0,
+    "ll": "terque bovis niveae petulanti pectora rostro",
+    "ocr": "Terque bovis niveae petulanti pectora rostro"
+  },
+  {
+    "poem": "3.5",
+    "lineId": 24,
+    "page": 99,
+    "ocrIndex": 35,
+    "score": 0.968,
+    "ll": "fodit et albentis abstulit ore iubas.",
+    "ocr": "Fodit et albeutis abstulit ore iubas."
+  },
+  {
+    "poem": "3.5",
+    "lineId": 25,
+    "page": 99,
+    "ocrIndex": 36,
+    "score": 0.974,
+    "ll": "illa locum taurumque diu cunctata relinquit —",
+    "ocr": "25 Illa locum taurumque diu cuuctata relinquit,"
+  },
+  {
+    "poem": "3.5",
+    "lineId": 26,
+    "page": 100,
+    "ocrIndex": 1,
+    "score": 0.969,
+    "ll": "sed niger in vaccae pectore livor erat;",
+    "ocr": "(Sed niger iu vaccae pectore livor erat)"
+  },
+  {
+    "poem": "3.5",
+    "lineId": 27,
+    "page": 100,
+    "ocrIndex": 2,
+    "score": 0.973,
+    "ll": "utque procul vidit carpentes pabula tauros —",
+    "ocr": "Utque procul vidit carpeutes pabula tauros,"
+  },
+  {
+    "poem": "3.5",
+    "lineId": 28,
+    "page": 100,
+    "ocrIndex": 3,
+    "score": 1.0,
+    "ll": "carpebant tauri pabula laeta procul —",
+    "ocr": "(Carpebant tauri pabula laeta procul)"
+  },
+  {
+    "poem": "3.5",
+    "lineId": 29,
+    "page": 100,
+    "ocrIndex": 4,
+    "score": 1.0,
+    "ll": "illuc se rapuit gregibusque inmiscuit illis",
+    "ocr": "Illuc se rapuit gregibusque inmiscuit illis"
+  },
+  {
+    "poem": "3.5",
+    "lineId": 30,
+    "page": 100,
+    "ocrIndex": 5,
+    "score": 0.951,
+    "ll": "et petiit herbae fertilioris humum.",
+    "ocr": "30 Et petiit herbae fertilioris humuni."
+  },
+  {
+    "poem": "3.5",
+    "lineId": 31,
+    "page": 100,
+    "ocrIndex": 6,
+    "score": 0.974,
+    "ll": "Dic age, nocturnae, quicumque es, imaginis augur,",
+    "ocr": "Dic age, nocturnae, qnicumque es, imaginis augur,"
+  },
+  {
+    "poem": "3.5",
+    "lineId": 32,
+    "page": 100,
+    "ocrIndex": 7,
+    "score": 0.957,
+    "ll": "siquid habent veri, visa quid ista ferant.'",
+    "ocr": "Siciuid habent veri, visa quid ista ferant.'"
+  },
+  {
+    "poem": "3.5",
+    "lineId": 33,
+    "page": 100,
+    "ocrIndex": 8,
+    "score": 0.944,
+    "ll": "Sic ego; nocturnae sic dixit imaginis augur,",
+    "ocr": "Sic ego; nocturuae sic dixit imagiuis augur,"
+  },
+  {
+    "poem": "3.5",
+    "lineId": 34,
+    "page": 100,
+    "ocrIndex": 9,
+    "score": 1.0,
+    "ll": "expendens animo singula dicta suo:",
+    "ocr": "Expendens animo singula dicta suo:"
+  },
+  {
+    "poem": "3.5",
+    "lineId": 35,
+    "page": 100,
+    "ocrIndex": 10,
+    "score": 1.0,
+    "ll": "'Quem tu mobilibus foliis vitare volebas,",
+    "ocr": "35 'Quem tu mobilibus foliis vitare volebas,"
+  },
+  {
+    "poem": "3.5",
+    "lineId": 36,
+    "page": 100,
+    "ocrIndex": 11,
+    "score": 1.0,
+    "ll": "sed male vitabas, aestus amoris erat.",
+    "ocr": "Sed male vitabas, aestus amoris erat."
+  },
+  {
+    "poem": "3.5",
+    "lineId": 37,
+    "page": 100,
+    "ocrIndex": 12,
+    "score": 0.987,
+    "ll": "vacca puella tua est — aptus color ille puellae;",
+    "ocr": "Vacca puella tuast: aptus color ille puellae;"
+  },
+  {
+    "poem": "3.5",
+    "lineId": 38,
+    "page": 100,
+    "ocrIndex": 13,
+    "score": 1.0,
+    "ll": "tu vir et in vacca conpare taurus eras.",
+    "ocr": "Tu vir et in vacca conpare taurus eras;"
+  },
+  {
+    "poem": "3.5",
+    "lineId": 39,
+    "page": 100,
+    "ocrIndex": 14,
+    "score": 0.972,
+    "ll": "pectora quod rostro cornix fodiebat acuto,",
+    "ocr": "Pectora quod rostro coruix fodiebat acuto,"
+  },
+  {
+    "poem": "3.5",
+    "lineId": 40,
+    "page": 100,
+    "ocrIndex": 15,
+    "score": 1.0,
+    "ll": "ingenium dominae lena movebat anus.",
+    "ocr": "40 Ingenium dominae lena movebat anus;"
+  },
+  {
+    "poem": "3.5",
+    "lineId": 41,
+    "page": 100,
+    "ocrIndex": 16,
+    "score": 1.0,
+    "ll": "quod cunctata diu taurum sua vacca reliquit,",
+    "ocr": "Quod cunctata diu taurum sua vacca reliquit,"
+  },
+  {
+    "poem": "3.5",
+    "lineId": 42,
+    "page": 100,
+    "ocrIndex": 17,
+    "score": 1.0,
+    "ll": "frigidus in viduo destituere toro.",
+    "ocr": "Frigidus in viduo destituere toro;"
+  },
+  {
+    "poem": "3.5",
+    "lineId": 43,
+    "page": 100,
+    "ocrIndex": 18,
+    "score": 1.0,
+    "ll": "livor et adverso maculae sub pectore nigrae",
+    "ocr": "Livor et adverso maculae sub pectore nigrae"
+  },
+  {
+    "poem": "3.5",
+    "lineId": 44,
+    "page": 100,
+    "ocrIndex": 19,
+    "score": 1.0,
+    "ll": "pectus adulterii labe carere negant.'",
+    "ocr": "Pectus adulterii labe carere negant.'"
+  },
+  {
+    "poem": "3.5",
+    "lineId": 45,
+    "page": 100,
+    "ocrIndex": 20,
+    "score": 1.0,
+    "ll": "Dixerat interpres. gelido mihi sanguis ab ore",
+    "ocr": "45 Dixerat interpres : gelido mihi sanguis ab ore"
+  },
+  {
+    "poem": "3.5",
+    "lineId": 46,
+    "page": 100,
+    "ocrIndex": 21,
+    "score": 1.0,
+    "ll": "fugit, et ante oculos nox stetit alta meos.",
+    "ocr": "Fugit, et ante oculos nox stetit alta meos."
+  },
+  {
+    "poem": "3.6",
+    "lineId": 1,
+    "page": 100,
+    "ocrIndex": 22,
+    "score": 0.889,
+    "ll": "Amnis harundinibus limosas obsite ripas,",
+    "ocr": "VI.Amnis harimdiuibus limosas obsite ripas,"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 2,
+    "page": 100,
+    "ocrIndex": 23,
+    "score": 1.0,
+    "ll": "ad dominam propero — siste parumper aquas!",
+    "ocr": "Ad dominam propero: siste parumper aquas!"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 3,
+    "page": 100,
+    "ocrIndex": 24,
+    "score": 0.987,
+    "ll": "nec tibi sunt pontes nec quae sine remigis ictu",
+    "ocr": "Nec tibi sunt |)ontes nec quae sine remigis ictu"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 4,
+    "page": 100,
+    "ocrIndex": 25,
+    "score": 1.0,
+    "ll": "concava traiecto cumba rudente vehat.",
+    "ocr": "Concava traiecto cumba rudente vehat."
+  },
+  {
+    "poem": "3.6",
+    "lineId": 5,
+    "page": 100,
+    "ocrIndex": 26,
+    "score": 0.971,
+    "ll": "parvus eras, memini, nec te transire refugi,",
+    "ocr": "5 Parvus eras, memini, nec te trausire refugi,"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 6,
+    "page": 100,
+    "ocrIndex": 27,
+    "score": 1.0,
+    "ll": "summaque vix talos contigit unda meos.",
+    "ocr": "Summaque vix talos contigit unda meos;"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 7,
+    "page": 100,
+    "ocrIndex": 28,
+    "score": 0.973,
+    "ll": "nunc ruis adposito nivibus de monte solutis",
+    "ocr": "Nunc ruis adposito uivibus de monte solutis"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 8,
+    "page": 100,
+    "ocrIndex": 29,
+    "score": 1.0,
+    "ll": "et turpi crassas gurgite volvis aquas.",
+    "ocr": "Et turpi crassas gurgite volvis aquas."
+  },
+  {
+    "poem": "3.6",
+    "lineId": 9,
+    "page": 100,
+    "ocrIndex": 30,
+    "score": 1.0,
+    "ll": "quid properasse iuvat, quid parca dedisse quieti",
+    "ocr": "Quid properasse iuvat, quid parca dedisse quieti"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 10,
+    "page": 100,
+    "ocrIndex": 31,
+    "score": 1.0,
+    "ll": "tempora, quid nocti conseruisse diem,",
+    "ocr": "10 Tempora, quid nocti conseruisse diem,"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 11,
+    "page": 100,
+    "ocrIndex": 32,
+    "score": 0.988,
+    "ll": "si tamen hic standum est, si non datur artibus ullis",
+    "ocr": "Si tamen hic standumst, si non datur artibus ullis"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 12,
+    "page": 100,
+    "ocrIndex": 33,
+    "score": 1.0,
+    "ll": "ulterior nostro ripa premenda pedi?",
+    "ocr": "Ulterior nostro ripa premenda pedi?"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 13,
+    "page": 100,
+    "ocrIndex": 34,
+    "score": 0.972,
+    "ll": "nunc ego, quas habuit pinnas Danaeius heros,",
+    "ocr": "Nunc ego, c^uas habuit pinnas Danaeius heros,"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 14,
+    "page": 100,
+    "ocrIndex": 35,
+    "score": 0.954,
+    "ll": "terribili densum cum tulit angue caput,",
+    "ocr": "Terribili densum cum tuUt angue caput,"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 15,
+    "page": 100,
+    "ocrIndex": 36,
+    "score": 0.97,
+    "ll": "nunc opto currum, de quo Cerealia primum",
+    "ocr": "15 Nune opto currum, de quo Cerealia primum"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 16,
+    "page": 101,
+    "ocrIndex": 1,
+    "score": 1.0,
+    "ll": "semina venerunt in rude missa solum.",
+    "ocr": "Semina venerunt in rude missa solum."
+  },
+  {
+    "poem": "3.6",
+    "lineId": 17,
+    "page": 101,
+    "ocrIndex": 2,
+    "score": 1.0,
+    "ll": "prodigiosa loquor veterum mendacia vatum;",
+    "ocr": "Prodigiosa loquor veterum mendacia vatum^"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 18,
+    "page": 101,
+    "ocrIndex": 3,
+    "score": 0.955,
+    "ll": "nec tulit haec umquam nec feret ulla dies.",
+    "ocr": "Nec tulit haec umquam nec feret uUa dies;"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 19,
+    "page": 101,
+    "ocrIndex": 4,
+    "score": 1.0,
+    "ll": "Tu potius, ripis effuse capacibus amnis —",
+    "ocr": "Tu potius, ripis effuse capacibus amnis,"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 20,
+    "page": 101,
+    "ocrIndex": 5,
+    "score": 1.0,
+    "ll": "sic aeternus eas — labere fine tuo!",
+    "ocr": "20 (Sic aeternus eas!) labere fine tuo!"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 21,
+    "page": 101,
+    "ocrIndex": 6,
+    "score": 1.0,
+    "ll": "non eris invidiae, torrens, mihi crede, ferendae,",
+    "ocr": "Non eris invidiae, torrens, mihi crede, ferendae,"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 22,
+    "page": 101,
+    "ocrIndex": 7,
+    "score": 1.0,
+    "ll": "si dicar per te forte retentus amans.",
+    "ocr": "Si dicar per te forte retentus amans."
+  },
+  {
+    "poem": "3.6",
+    "lineId": 23,
+    "page": 101,
+    "ocrIndex": 8,
+    "score": 1.0,
+    "ll": "flumina deberent iuvenes in amore iuvare;",
+    "ocr": "Flumina deberent iuvenes in amore iuvare;"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 24,
+    "page": 101,
+    "ocrIndex": 9,
+    "score": 0.879,
+    "ll": "flumina senserunt ipsa, quid esset amor.",
+    "ocr": "riumina sensermit ipsa, quid esset amor:"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 25,
+    "page": 101,
+    "ocrIndex": 10,
+    "score": 1.0,
+    "ll": "Inachus in Melie Bithynide pallidus isse",
+    "ocr": "25 Inachus in Melie Bithynide pallidus isse"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 26,
+    "page": 101,
+    "ocrIndex": 11,
+    "score": 1.0,
+    "ll": "dicitur et gelidis incaluisse vadis.",
+    "ocr": "Dicitur et gelidis incaluisse vadis;"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 27,
+    "page": 101,
+    "ocrIndex": 12,
+    "score": 0.943,
+    "ll": "nondum Troia fuit lustris obsessa duobus,",
+    "ocr": "Nondum Troia fuit histris obsessa duobus,"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 28,
+    "page": 101,
+    "ocrIndex": 13,
+    "score": 1.0,
+    "ll": "cum rapuit vultus, Xanthe, Neaera tuos.",
+    "ocr": "Cum rapuit vultus, Xanthe, Neaera tuos;"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 29,
+    "page": 101,
+    "ocrIndex": 14,
+    "score": 1.0,
+    "ll": "quid? non Alpheon diversis currere terris",
+    "ocr": "Quid? non Alpheon diversis currere terris"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 30,
+    "page": 101,
+    "ocrIndex": 15,
+    "score": 1.0,
+    "ll": "virginis Arcadiae certus adegit amor?",
+    "ocr": "30 Virginis Arcadiae certus adegit amor?"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 31,
+    "page": 101,
+    "ocrIndex": 16,
+    "score": 1.0,
+    "ll": "te quoque promissam Xutho, Penee, Creusam",
+    "ocr": "Te quoque promissam Xutho, Penee^ Creusam"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 32,
+    "page": 101,
+    "ocrIndex": 17,
+    "score": 0.984,
+    "ll": "Pthiotum terris occuluisse ferunt.",
+    "ocr": "Phthiotum terris occuluisse ferunt."
+  },
+  {
+    "poem": "3.6",
+    "lineId": 33,
+    "page": 101,
+    "ocrIndex": 18,
+    "score": 1.0,
+    "ll": "quid referam Asopon, quem cepit Martia Thebe,",
+    "ocr": "Quid referam Asopon, quem cepit Martia Thebe,"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 34,
+    "page": 101,
+    "ocrIndex": 19,
+    "score": 1.0,
+    "ll": "natarum Thebe quinque futura parens?",
+    "ocr": "Natarum Thebe quinque futura parens?"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 35,
+    "page": 101,
+    "ocrIndex": 20,
+    "score": 1.0,
+    "ll": "cornua si tua nunc ubi sint, Acheloe, requiram,",
+    "ocr": "35 Cornua si tua nunc ubi sint, Acheloe, requiram,"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 36,
+    "page": 101,
+    "ocrIndex": 21,
+    "score": 0.949,
+    "ll": "Herculis irata fracta querere manu;",
+    "ocr": "Hercuhs irata fracta querere manu:"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 37,
+    "page": 101,
+    "ocrIndex": 22,
+    "score": 1.0,
+    "ll": "nec tanti Calydon nec tota Aetolia tanti,",
+    "ocr": "Nec tanti Calydon nec tota Aetolia tanti,"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 38,
+    "page": 101,
+    "ocrIndex": 23,
+    "score": 1.0,
+    "ll": "una tamen tanti Deianira fuit.",
+    "ocr": "Una tamen tanti Deianira fuit."
+  },
+  {
+    "poem": "3.6",
+    "lineId": 39,
+    "page": 101,
+    "ocrIndex": 24,
+    "score": 0.943,
+    "ll": "ille fluens dives septena per ostia Nilus,",
+    "ocr": "Ille fluens dives septena per ostia Nikis,"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 40,
+    "page": 101,
+    "ocrIndex": 25,
+    "score": 1.0,
+    "ll": "qui patriam tantae tam bene celat aquae,",
+    "ocr": "40 Qui patriam tantae tam bene celat aquae,"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 41,
+    "page": 101,
+    "ocrIndex": 26,
+    "score": 0.947,
+    "ll": "fertur in Euanthe collectam Asopide flammam",
+    "ocr": "Fertur in Euanthe collectam Inopide flammam"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 42,
+    "page": 101,
+    "ocrIndex": 27,
+    "score": 1.0,
+    "ll": "vincere gurgitibus non potuisse suis.",
+    "ocr": "Vincere gurgitibus non potuisse suis;"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 43,
+    "page": 101,
+    "ocrIndex": 28,
+    "score": 1.0,
+    "ll": "siccus ut amplecti Salmonida posset Enipeus,",
+    "ocr": "Siccus ut amplecti Salmonida posset Enipeus,"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 44,
+    "page": 101,
+    "ocrIndex": 29,
+    "score": 1.0,
+    "ll": "cedere iussit aquam; iussa recessit aqua.",
+    "ocr": "Cedere iussit aquam: iussa recessit aqua."
+  },
+  {
+    "poem": "3.6",
+    "lineId": 45,
+    "page": 101,
+    "ocrIndex": 30,
+    "score": 1.0,
+    "ll": "Nec te praetereo, qui per cava saxa volutans",
+    "ocr": "45 Nec te praetereo, qui per cava saxa volutans"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 46,
+    "page": 101,
+    "ocrIndex": 31,
+    "score": 1.0,
+    "ll": "Tiburis Argei pomifera arva rigas,",
+    "ocr": "Tiburis Argei pomifera arva rigas,"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 47,
+    "page": 101,
+    "ocrIndex": 32,
+    "score": 0.959,
+    "ll": "Ilia cui placuit, quamvis erat horrida cultu,",
+    "ocr": "nia cui placuit, quamvis erat horrida cultu,"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 48,
+    "page": 101,
+    "ocrIndex": 33,
+    "score": 1.0,
+    "ll": "ungue notata comas, ungue notata genas.",
+    "ocr": "Ungue notata comas, ungue notata genas:"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 49,
+    "page": 101,
+    "ocrIndex": 34,
+    "score": 0.923,
+    "ll": "illa gemens patruique nefas delictaque Martis",
+    "ocr": "IUa gemens patruique nefas deHctaque Martis"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 50,
+    "page": 101,
+    "ocrIndex": 35,
+    "score": 1.0,
+    "ll": "errabat nudo per loca sola pede.",
+    "ocr": "50 Errabat nudo per loca sola pede;"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 51,
+    "page": 101,
+    "ocrIndex": 36,
+    "score": 1.0,
+    "ll": "hanc Anien rapidis animosus vidit ab undis",
+    "ocr": "Hanc Anien rapidis animosus vidit ab undis"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 52,
+    "page": 101,
+    "ocrIndex": 37,
+    "score": 1.0,
+    "ll": "raucaque de mediis sustulit ora vadis",
+    "ocr": "Raucaque de mediis sustulit ora vadis"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 53,
+    "page": 102,
+    "ocrIndex": 1,
+    "score": 1.0,
+    "ll": "atque ita 'quid nostras' dixit 'teris anxia ripas,",
+    "ocr": "Atque ita 'quid nostras' dixit 'teris anxia ripas,"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 54,
+    "page": 102,
+    "ocrIndex": 2,
+    "score": 1.0,
+    "ll": "Ilia, ab Idaeo Laumedonte genus?",
+    "ocr": "Ilia, ab Idaeo Laumedonte genus?"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 55,
+    "page": 102,
+    "ocrIndex": 3,
+    "score": 1.0,
+    "ll": "quo cultus abiere tui? quid sola vagaris,",
+    "ocr": "55 Quo cultus abiere tui? quid sola vagaris,"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 56,
+    "page": 102,
+    "ocrIndex": 4,
+    "score": 1.0,
+    "ll": "vitta nec evinctas inpedit alba comas?",
+    "ocr": "Vitta nec evinctas inpedit alba comas?"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 57,
+    "page": 102,
+    "ocrIndex": 5,
+    "score": 1.0,
+    "ll": "quid fles et madidos lacrimis corrumpis ocellos",
+    "ocr": "Quid fles et madidos lacrimis corrumpis ocellos"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 58,
+    "page": 102,
+    "ocrIndex": 6,
+    "score": 1.0,
+    "ll": "pectoraque insana plangis aperta manu?",
+    "ocr": "Pectoraque insana plangis aperta manu?"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 59,
+    "page": 102,
+    "ocrIndex": 7,
+    "score": 1.0,
+    "ll": "ille habet et silices et vivum in pectore ferrum,",
+    "ocr": "Ille habet et silices et vivum in pectore ferrum,"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 60,
+    "page": 102,
+    "ocrIndex": 8,
+    "score": 1.0,
+    "ll": "qui tenero lacrimas lentus in ore videt.",
+    "ocr": "60 Qui tenero lacrimas lentus in ore videt."
+  },
+  {
+    "poem": "3.6",
+    "lineId": 61,
+    "page": 102,
+    "ocrIndex": 9,
+    "score": 1.0,
+    "ll": "Ilia, pone metus! tibi regia nostra patebit,",
+    "ocr": "Ilia, pone metus! tibi regia nostra patebit,"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 62,
+    "page": 102,
+    "ocrIndex": 10,
+    "score": 1.0,
+    "ll": "teque colent amnes. Ilia, pone metus!",
+    "ocr": "Teque colent amnes; Ilia, pone metus!"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 63,
+    "page": 102,
+    "ocrIndex": 11,
+    "score": 1.0,
+    "ll": "tu centum aut plures inter dominabere nymphas;",
+    "ocr": "Tu centum aut plures inter dominabere nymphas:"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 64,
+    "page": 102,
+    "ocrIndex": 12,
+    "score": 1.0,
+    "ll": "nam centum aut plures flumina nostra tenent.",
+    "ocr": "Nam centum aut plures flumina nostra tenent;"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 65,
+    "page": 102,
+    "ocrIndex": 13,
+    "score": 0.972,
+    "ll": "ne me sperne, precor, tantum, Troiana propago;",
+    "ocr": "65 Ne me sperne, precor, tantum, Troiaua propago:"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 66,
+    "page": 102,
+    "ocrIndex": 14,
+    "score": 1.0,
+    "ll": "munera promissis uberiora feres.'",
+    "ocr": "Munera promissis uberiora feres.'"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 67,
+    "page": 102,
+    "ocrIndex": 15,
+    "score": 1.0,
+    "ll": "Dixerat. illa oculos in humum deiecta modestos",
+    "ocr": "Dixerat; illa oculos in humum deiecta modestos"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 68,
+    "page": 102,
+    "ocrIndex": 16,
+    "score": 1.0,
+    "ll": "spargebat teneros flebilis imbre sinus.",
+    "ocr": "Spargebat teneros flebilis imbre sinus;"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 69,
+    "page": 102,
+    "ocrIndex": 17,
+    "score": 0.959,
+    "ll": "ter molita fugam ter ad altas restitit undas,",
+    "ocr": "Ter mohta fugam ter ad altas restitit undas,"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 70,
+    "page": 102,
+    "ocrIndex": 18,
+    "score": 0.963,
+    "ll": "currendi vires eripiente metu.",
+    "ocr": "\"io Currendi vires eripiente metu;"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 71,
+    "page": 102,
+    "ocrIndex": 19,
+    "score": 1.0,
+    "ll": "sera tamen scindens inimico pollice crinem",
+    "ocr": "Sera tamen scindens inimico pollice crinem"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 72,
+    "page": 102,
+    "ocrIndex": 20,
+    "score": 1.0,
+    "ll": "edidit indignos ore tremente sonos:",
+    "ocr": "Edidit indignos ore tremente sonos:"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 73,
+    "page": 102,
+    "ocrIndex": 21,
+    "score": 0.987,
+    "ll": "'o utinam mea lecta forent patrioque sepulcro",
+    "ocr": "'0 utinam mea lecta forent patrioque sepulcro"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 74,
+    "page": 102,
+    "ocrIndex": 22,
+    "score": 1.0,
+    "ll": "condita, cum poterant virginis ossa legi!",
+    "ocr": "Condita, cum poterant virginis ossa legi!"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 75,
+    "page": 102,
+    "ocrIndex": 23,
+    "score": 1.0,
+    "ll": "cur, modo Vestalis, taedas invitor ad ullas",
+    "ocr": "75 Cur, modo Vestalis, taedas invitor ad uLlas"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 76,
+    "page": 102,
+    "ocrIndex": 24,
+    "score": 1.0,
+    "ll": "turpis et Iliacis infitianda focis?",
+    "ocr": "Turpis et Iliacis infitianda focis?"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 77,
+    "page": 102,
+    "ocrIndex": 25,
+    "score": 1.0,
+    "ll": "quid moror et digitis designor adultera vulgi?",
+    "ocr": "Quid moror et digitis designor adultera vulgi?"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 78,
+    "page": 102,
+    "ocrIndex": 26,
+    "score": 1.0,
+    "ll": "desint famosus quae notet ora pudor!'",
+    "ocr": "Desint famosus quae notet ora pudor!'"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 79,
+    "page": 102,
+    "ocrIndex": 27,
+    "score": 1.0,
+    "ll": "Hactenus, et vestem tumidis praetendit ocellis",
+    "ocr": "Hactenus, et vestem tumidis praetendit ocellis"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 80,
+    "page": 102,
+    "ocrIndex": 28,
+    "score": 1.0,
+    "ll": "atque ita se in rapidas perdita misit aquas.",
+    "ocr": "80 Atque ita se in rapidas perdita misit aquas:"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 81,
+    "page": 102,
+    "ocrIndex": 29,
+    "score": 1.0,
+    "ll": "supposuisse manus ad pectora lubricus amnis",
+    "ocr": "Supposuisse manus ad pectora lubricus amnis"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 82,
+    "page": 102,
+    "ocrIndex": 30,
+    "score": 1.0,
+    "ll": "dicitur et socii iura dedisse tori.",
+    "ocr": "Dicitur et socii iura dedisse tori."
+  },
+  {
+    "poem": "3.6",
+    "lineId": 83,
+    "page": 102,
+    "ocrIndex": 31,
+    "score": 0.937,
+    "ll": "Te quoque credibile est aliqua caluisse puella;",
+    "ocr": "Te quoque credibilest aliqua cakaisse puella;"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 84,
+    "page": 102,
+    "ocrIndex": 32,
+    "score": 0.944,
+    "ll": "sed nemora et silvae crimina vestra tegunt.",
+    "ocr": "Sed nemora et silvae crimina vestra tegmit."
+  },
+  {
+    "poem": "3.6",
+    "lineId": 85,
+    "page": 102,
+    "ocrIndex": 33,
+    "score": 0.933,
+    "ll": "dum loquor, increvit latis spatiosior undis,",
+    "ocr": "85 Dum loquor, increscis latis spatiosior undis,"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 86,
+    "page": 102,
+    "ocrIndex": 34,
+    "score": 1.0,
+    "ll": "nec capit admissas alveus altus aquas.",
+    "ocr": "Nec capit admissas alveus altus aquas:"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 87,
+    "page": 102,
+    "ocrIndex": 35,
+    "score": 1.0,
+    "ll": "quid mecum, furiose, tibi? quid mutua differs",
+    "ocr": "Quid mecum, furiose, tibi? quid mutua diff^ers"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 88,
+    "page": 102,
+    "ocrIndex": 36,
+    "score": 1.0,
+    "ll": "gaudia? quid coeptum, rustice, rumpis iter?",
+    "ocr": "Gaudia? quid coeptum, rustice, rumpis iter?"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 89,
+    "page": 102,
+    "ocrIndex": 37,
+    "score": 0.972,
+    "ll": "quid? si legitimum flueres, si nobile flumen,",
+    "ocr": "Quid, si legitimum flueres, si nobile flmnen,"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 90,
+    "page": 103,
+    "ocrIndex": 1,
+    "score": 1.0,
+    "ll": "si tibi per terras maxima fama foret —",
+    "ocr": "90 Si tibi per terras maxima fama foret?"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 91,
+    "page": 103,
+    "ocrIndex": 2,
+    "score": 0.917,
+    "ll": "nomen habes nullum, rivis collecte caducis,",
+    "ocr": "Nomeu habes millum, rivis collecte caducis,"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 92,
+    "page": 103,
+    "ocrIndex": 3,
+    "score": 0.928,
+    "ll": "nec tibi sunt fontes nec tibi certa domus!",
+    "ocr": "Nec tibi sunt foutes uec tibi certa domvis;"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 93,
+    "page": 103,
+    "ocrIndex": 4,
+    "score": 0.857,
+    "ll": "fontis habes instar pluviamque nivesque solutas,",
+    "ocr": "Fontis habes iustar phiviamque niyesque sohitas,"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 94,
+    "page": 103,
+    "ocrIndex": 5,
+    "score": 0.932,
+    "ll": "quas tibi divitias pigra ministrat hiemps;",
+    "ocr": "Quas tibi divitias pigra miuistrat hiemjjs;"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 95,
+    "page": 103,
+    "ocrIndex": 6,
+    "score": 0.932,
+    "ll": "aut lutulentus agis brumali tempore cursus,",
+    "ocr": "95 Aut lutuleutus agis brumah tempore cursus,"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 96,
+    "page": 103,
+    "ocrIndex": 7,
+    "score": 0.912,
+    "ll": "aut premis arentem pulverulentus humum.",
+    "ocr": "Aut premis areutem pulveruleutus humnm:"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 97,
+    "page": 103,
+    "ocrIndex": 8,
+    "score": 0.971,
+    "ll": "quis te tum potuit sitiens haurire viator?",
+    "ocr": "Quis te tum potuit sitieus haurire viator?"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 98,
+    "page": 103,
+    "ocrIndex": 9,
+    "score": 0.931,
+    "ll": "quis dixit grata voce 'perennis eas'?",
+    "ocr": "Quis dixit grata voce ^peremiis eas'?"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 99,
+    "page": 103,
+    "ocrIndex": 10,
+    "score": 0.971,
+    "ll": "damnosus pecori curris, damnosior agris.",
+    "ocr": "Damuosus pecori curris, damnosior agris;"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 100,
+    "page": 103,
+    "ocrIndex": 11,
+    "score": 0.892,
+    "ll": "forsitan haec alios; me mea damna movent.",
+    "ocr": "100 Forsitau haec ahos, me mea damua movent."
+  },
+  {
+    "poem": "3.6",
+    "lineId": 101,
+    "page": 103,
+    "ocrIndex": 12,
+    "score": 0.921,
+    "ll": "Huic ego, vae! demens narrabam fluminum amores!",
+    "ocr": "Huic ego vae! demeus narrabam flamiuum amores!"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 102,
+    "page": 103,
+    "ocrIndex": 13,
+    "score": 0.903,
+    "ll": "iactasse indigne nomina tanta pudet.",
+    "ocr": "lactasse iudigne nomina tauta pudet;"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 103,
+    "page": 103,
+    "ocrIndex": 14,
+    "score": 0.932,
+    "ll": "nescio quem hunc spectans Acheloon et Inachon amnem",
+    "ocr": "Nescio quem huuc spectaus Acheloon et Inachou amnem"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 104,
+    "page": 103,
+    "ocrIndex": 15,
+    "score": 0.926,
+    "ll": "et potui nomen, Nile, referre tuum!",
+    "ocr": "Et potui uomeu, Nile^ referre tuum!"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 105,
+    "page": 103,
+    "ocrIndex": 16,
+    "score": 0.946,
+    "ll": "at tibi pro meritis, opto, non candide torrens,",
+    "ocr": "105 At tibi pro meritis, opto, uon caudide torrens,"
+  },
+  {
+    "poem": "3.6",
+    "lineId": 106,
+    "page": 103,
+    "ocrIndex": 17,
+    "score": 0.971,
+    "ll": "sint rapidi soles siccaque semper hiemps!",
+    "ocr": "Siut rapidi soles siccaque semper hiemps!"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 1,
+    "page": 103,
+    "ocrIndex": 18,
+    "score": 0.861,
+    "ll": "At non formosa est, at non bene culta puella,",
+    "ocr": "TII. At non formosast, at uou beue culta puella,"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 2,
+    "page": 103,
+    "ocrIndex": 19,
+    "score": 0.931,
+    "ll": "at, puto, non votis saepe petita meis!",
+    "ocr": "At, puto, uou votis saepe petita meis."
+  },
+  {
+    "poem": "3.7",
+    "lineId": 3,
+    "page": 103,
+    "ocrIndex": 20,
+    "score": 0.857,
+    "ll": "hanc tamen in nullos tenui male languidus usus,",
+    "ocr": "Hanc tameu iu nuUos teuui male lauguidus usus,"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 4,
+    "page": 103,
+    "ocrIndex": 21,
+    "score": 0.933,
+    "ll": "sed iacui pigro crimen onusque toro;",
+    "ocr": "Sed iacui pigro crimeu ouusque toro"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 5,
+    "page": 103,
+    "ocrIndex": 22,
+    "score": 0.93,
+    "ll": "nec potui cupiens, pariter cupiente puella,",
+    "ocr": "5 Nec potui cupieus^ pariter cupiente pueUa,"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 6,
+    "page": 103,
+    "ocrIndex": 23,
+    "score": 0.967,
+    "ll": "inguinis effeti parte iuvante frui.",
+    "ocr": "Inguiuis effeti parte iuvante frui."
+  },
+  {
+    "poem": "3.7",
+    "lineId": 7,
+    "page": 103,
+    "ocrIndex": 24,
+    "score": 0.886,
+    "ll": "illa quidem nostro subiecit eburnea collo",
+    "ocr": "lUa quidem uostro subiecit eburnea coUo"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 8,
+    "page": 103,
+    "ocrIndex": 25,
+    "score": 0.967,
+    "ll": "bracchia Sithonia candidiora nive,",
+    "ocr": "Bracchia Sithonia caudidiora nive"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 9,
+    "page": 103,
+    "ocrIndex": 26,
+    "score": 0.763,
+    "ll": "osculaque inseruit cupida luctantia lingua",
+    "ocr": "OsciUaque iuseruit cupide hictantia Kuguis"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 10,
+    "page": 103,
+    "ocrIndex": 27,
+    "score": 1.0,
+    "ll": "lascivum femori supposuitque femur,",
+    "ocr": "10 Lascivum femori supposuitque femur"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 11,
+    "page": 103,
+    "ocrIndex": 28,
+    "score": 0.921,
+    "ll": "et mihi blanditias dixit dominumque vocavit,",
+    "ocr": "Et mihi blauditias dixit domiimmque vocavit,"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 12,
+    "page": 103,
+    "ocrIndex": 29,
+    "score": 0.954,
+    "ll": "et quae praeterea publica verba iuvant.",
+    "ocr": "Et quae praeterea pubhca verba iuvant."
+  },
+  {
+    "poem": "3.7",
+    "lineId": 13,
+    "page": 103,
+    "ocrIndex": 30,
+    "score": 0.959,
+    "ll": "tacta tamen veluti gelida mea membra cicuta",
+    "ocr": "Tacta tamen veluti geUda mea membra cicuta"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 14,
+    "page": 103,
+    "ocrIndex": 31,
+    "score": 0.967,
+    "ll": "segnia propositum destituere meum;",
+    "ocr": "Seguia propositum destituere meum;"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 15,
+    "page": 103,
+    "ocrIndex": 32,
+    "score": 0.923,
+    "ll": "truncus iners iacui, species et inutile pondus,",
+    "ocr": "15 Truucus iuers iacui, species et inutile poudus,"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 16,
+    "page": 103,
+    "ocrIndex": 33,
+    "score": 0.9,
+    "ll": "et non exactum, corpus an umbra forem.",
+    "ocr": "Et uou exactum, corpus au umbra forem."
+  },
+  {
+    "poem": "3.7",
+    "lineId": 17,
+    "page": 103,
+    "ocrIndex": 34,
+    "score": 0.938,
+    "ll": "Quae mihi ventura est, siquidem ventura, senectus,",
+    "ocr": "Quae mihi venturast, siquidem veutura, seuectus^"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 18,
+    "page": 103,
+    "ocrIndex": 35,
+    "score": 0.967,
+    "ll": "cum desit numeris ipsa iuventa suis?",
+    "ocr": "Cum desit numeris ipsa iuveuta suis?"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 19,
+    "page": 103,
+    "ocrIndex": 36,
+    "score": 1.0,
+    "ll": "a, pudet annorum: quo me iuvenemque virumque?",
+    "ocr": "A! pudet annorum! quo me iuvenemque virumque"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 20,
+    "page": 104,
+    "ocrIndex": 1,
+    "score": 0.794,
+    "ll": "nec iuvenem nec me sensit amica virum!",
+    "ocr": "20 Xec iuveueni uec me seusit amica \"vnrum?"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 21,
+    "page": 104,
+    "ocrIndex": 2,
+    "score": 0.93,
+    "ll": "sic flammas aditura pias aeterna sacerdos",
+    "ocr": "8ic flammas aditiu-a pias aeterua sacerdos"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 22,
+    "page": 104,
+    "ocrIndex": 3,
+    "score": 0.968,
+    "ll": "surgit et a caro fratre verenda soror.",
+    "ocr": "Surgit et a caro fratre vereuda soror."
+  },
+  {
+    "poem": "3.7",
+    "lineId": 23,
+    "page": 104,
+    "ocrIndex": 4,
+    "score": 0.972,
+    "ll": "at nuper bis flava Chlide, ter candida Pitho,",
+    "ocr": "At nuper bis flava Chlide, ter caudida Pitho,"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 24,
+    "page": 104,
+    "ocrIndex": 5,
+    "score": 0.918,
+    "ll": "ter Libas officio continuata meo est;",
+    "ocr": "Ter Libas officio coutiuuata meost;"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 25,
+    "page": 104,
+    "ocrIndex": 6,
+    "score": 1.0,
+    "ll": "exigere a nobis angusta nocte Corinnam",
+    "ocr": "25 Exigere a nobis angusta nocte Corinnam,"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 26,
+    "page": 104,
+    "ocrIndex": 7,
+    "score": 0.935,
+    "ll": "me memini numeros sustinuisse novem.",
+    "ocr": "Me memiui numeros sustinuisse uovem."
+  },
+  {
+    "poem": "3.7",
+    "lineId": 27,
+    "page": 104,
+    "ocrIndex": 8,
+    "score": 0.944,
+    "ll": "Num mea Thessalico languent devota veneno",
+    "ocr": "Xum mea Thessalico langueut devota veneno"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 28,
+    "page": 104,
+    "ocrIndex": 9,
+    "score": 0.914,
+    "ll": "corpora? num misero carmen et herba nocent,",
+    "ocr": "Coi*pora? uum misero carmeu et herba nocent,"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 29,
+    "page": 104,
+    "ocrIndex": 10,
+    "score": 0.935,
+    "ll": "sagave poenicea defixit nomina cera",
+    "ocr": "Sagave poeuicea defixit nomiua cera"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 30,
+    "page": 104,
+    "ocrIndex": 11,
+    "score": 0.966,
+    "ll": "et medium tenuis in iecur egit acus?",
+    "ocr": "30 Et medium teuuis in iecur egit acus?"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 31,
+    "page": 104,
+    "ocrIndex": 12,
+    "score": 0.951,
+    "ll": "carmine laesa Ceres sterilem vanescit in herbam,",
+    "ocr": "Carmiue laesa Ceres sterilem vauescit in herbam,"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 32,
+    "page": 104,
+    "ocrIndex": 13,
+    "score": 1.0,
+    "ll": "deficiunt laesi carmine fontis aquae,",
+    "ocr": "Deficiunt laesi carmine fontis aquae,"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 33,
+    "page": 104,
+    "ocrIndex": 14,
+    "score": 1.0,
+    "ll": "ilicibus glandes cantataque vitibus uva",
+    "ocr": "Ilicibus glandes cantataque vitibus uva"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 34,
+    "page": 104,
+    "ocrIndex": 15,
+    "score": 0.903,
+    "ll": "decidit, et nullo poma movente fluunt.",
+    "ocr": "Decidit, et uullo poma moveute fluuut."
+  },
+  {
+    "poem": "3.7",
+    "lineId": 35,
+    "page": 104,
+    "ocrIndex": 16,
+    "score": 1.0,
+    "ll": "quid vetat et nervos magicas torpere per artes?",
+    "ocr": "35 Quid vetat et nervos magicas torpere per artes?"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 36,
+    "page": 104,
+    "ocrIndex": 17,
+    "score": 0.923,
+    "ll": "forsitan inpatiens fit latus inde meum.",
+    "ocr": "Forsitan inpaiens sit latus iude meum."
+  },
+  {
+    "poem": "3.7",
+    "lineId": 37,
+    "page": 104,
+    "ocrIndex": 18,
+    "score": 1.0,
+    "ll": "huc pudor accessit: facti pudor ipse nocebat;",
+    "ocr": "Huc pudor accessit: facti pudor ipse nocebat;"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 38,
+    "page": 104,
+    "ocrIndex": 19,
+    "score": 1.0,
+    "ll": "ille fuit vitii causa secunda mei.",
+    "ocr": "Ille fuit vitii causa secunda mei."
+  },
+  {
+    "poem": "3.7",
+    "lineId": 39,
+    "page": 104,
+    "ocrIndex": 20,
+    "score": 1.0,
+    "ll": "At qualem vidi tantum tetigique puellam!",
+    "ocr": "At qualem vidi tantum tetigique puellam:"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 40,
+    "page": 104,
+    "ocrIndex": 21,
+    "score": 0.966,
+    "ll": "sic etiam tunica tangitur illa sua.",
+    "ocr": "40 (Sic etiam tuuica tangitur illa sua!)"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 41,
+    "page": 104,
+    "ocrIndex": 22,
+    "score": 0.973,
+    "ll": "illius ad tactum Pylius iuvenescere possit",
+    "ocr": "Illius ad tactum Pylius iuveuescere possit"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 42,
+    "page": 104,
+    "ocrIndex": 23,
+    "score": 0.935,
+    "ll": "Tithonosque annis fortior esse suis.",
+    "ocr": "Tithonosque auuis fortior esse suis."
+  },
+  {
+    "poem": "3.7",
+    "lineId": 43,
+    "page": 104,
+    "ocrIndex": 24,
+    "score": 0.923,
+    "ll": "haec mihi contigerat; sed vir non contigit illi.",
+    "ocr": "Haec mihi coutigeratl sed vir non contigit iUi."
+  },
+  {
+    "poem": "3.7",
+    "lineId": 44,
+    "page": 104,
+    "ocrIndex": 25,
+    "score": 0.971,
+    "ll": "quas nunc concipiam per nova vota preces?",
+    "ocr": "Quas nunc coucipiam per nova vota preces?"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 45,
+    "page": 104,
+    "ocrIndex": 26,
+    "score": 1.0,
+    "ll": "credo etiam magnos, quo sum tam turpiter usus,",
+    "ocr": "45 Credo etiam magnos, quo sum tam turpiter usus,"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 46,
+    "page": 104,
+    "ocrIndex": 27,
+    "score": 1.0,
+    "ll": "muneris oblati paenituisse deos.",
+    "ocr": "Muneris oblati paenituisse deos."
+  },
+  {
+    "poem": "3.7",
+    "lineId": 47,
+    "page": 104,
+    "ocrIndex": 28,
+    "score": 0.971,
+    "ll": "optabam certe recipi — sum nempe receptus;",
+    "ocr": "Optabam certe recipi: sum uempe receptus;"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 48,
+    "page": 104,
+    "ocrIndex": 29,
+    "score": 1.0,
+    "ll": "oscula ferre — tuli; proximus esse — fui.",
+    "ocr": "Oscula ferre: tuli; proximus esse: fui."
+  },
+  {
+    "poem": "3.7",
+    "lineId": 49,
+    "page": 104,
+    "ocrIndex": 30,
+    "score": 0.889,
+    "ll": "quo mihi fortunae tantum? quo regna sine usu?",
+    "ocr": "Quo mihi fortuuae tautum? quo regua siue usu?"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 50,
+    "page": 104,
+    "ocrIndex": 31,
+    "score": 0.9,
+    "ll": "quid, nisi possedi dives avarus opes?",
+    "ocr": "50 Quidj uisi possedi dives avams opes?"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 51,
+    "page": 104,
+    "ocrIndex": 32,
+    "score": 1.0,
+    "ll": "sic aret mediis taciti vulgator in undis",
+    "ocr": "Sic aret mediis taciti vulgator in undis"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 52,
+    "page": 104,
+    "ocrIndex": 33,
+    "score": 0.955,
+    "ll": "pomaque, quae nullo tempore tangat, habet.",
+    "ocr": "Pomaque, quae nuUo tempore tangat, habet."
+  },
+  {
+    "poem": "3.7",
+    "lineId": 53,
+    "page": 104,
+    "ocrIndex": 34,
+    "score": 0.955,
+    "ll": "a tenera quisquam sic surgit mane puella,",
+    "ocr": "A tenera quisquam sic surgit mane pueUa,"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 54,
+    "page": 104,
+    "ocrIndex": 35,
+    "score": 1.0,
+    "ll": "protinus ut sanctos possit adire deos?",
+    "ocr": "Protinus ut sanctos possit adire deos?"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 55,
+    "page": 104,
+    "ocrIndex": 36,
+    "score": 0.919,
+    "ll": "Sed, puto, non blanda: non optima perdidit in me",
+    "ocr": "55 Sed, puto, non blaude, nou optima perdidit in me"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 56,
+    "page": 104,
+    "ocrIndex": 37,
+    "score": 0.945,
+    "ll": "oscula; non omni sollicitavit ope!",
+    "ocr": "Oscula! non omni solUcitavit ope!"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 57,
+    "page": 105,
+    "ocrIndex": 1,
+    "score": 0.923,
+    "ll": "illa graves potuit quercus adamantaque durum",
+    "ocr": "lUa graves iDotuit quercus adamantaque durum"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 58,
+    "page": 105,
+    "ocrIndex": 2,
+    "score": 0.969,
+    "ll": "surdaque blanditiis saxa movere suis.",
+    "ocr": "Surdaque blauditiis saxa movere suis;"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 59,
+    "page": 105,
+    "ocrIndex": 3,
+    "score": 0.972,
+    "ll": "digna movere fuit certe vivosque virosque;",
+    "ocr": "Digua movere fuit certe vivosque virosque:"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 60,
+    "page": 105,
+    "ocrIndex": 4,
+    "score": 1.0,
+    "ll": "sed neque tum vixi nec vir, ut ante, fui.",
+    "ocr": "60 Sed neque tum vixi nec vir, ut ante, fui."
+  },
+  {
+    "poem": "3.7",
+    "lineId": 61,
+    "page": 105,
+    "ocrIndex": 5,
+    "score": 1.0,
+    "ll": "quid iuvet, ad surdas si cantet Phemius aures?",
+    "ocr": "Quid iuvet, ad surdas si cantet Phemius aures?"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 62,
+    "page": 105,
+    "ocrIndex": 6,
+    "score": 1.0,
+    "ll": "quid miserum Thamyran picta tabella iuvat?",
+    "ocr": "Quid miserum Thamyran picta tabella iuvat?"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 63,
+    "page": 105,
+    "ocrIndex": 7,
+    "score": 1.0,
+    "ll": "At quae non tacita formavi gaudia mente!",
+    "ocr": "At quae non tacita formavi gaudia mente!"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 64,
+    "page": 105,
+    "ocrIndex": 8,
+    "score": 1.0,
+    "ll": "quos ego non finxi disposuique modos!",
+    "ocr": "Quos ego non finxi disposuique modos!"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 65,
+    "page": 105,
+    "ocrIndex": 9,
+    "score": 1.0,
+    "ll": "nostra tamen iacuere velut praemortua membra",
+    "ocr": "65 Nostra tamen iacuere velut praemortua membra"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 66,
+    "page": 105,
+    "ocrIndex": 10,
+    "score": 1.0,
+    "ll": "turpiter hesterna languidiora rosa —",
+    "ocr": "Turpiter hesterna languidiora rosa:"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 67,
+    "page": 105,
+    "ocrIndex": 11,
+    "score": 1.0,
+    "ll": "quae nunc, ecce, vigent intempestiva valentque,",
+    "ocr": "Quae nunc, ecce, vigent intempestiva valentque,"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 68,
+    "page": 105,
+    "ocrIndex": 12,
+    "score": 1.0,
+    "ll": "nunc opus exposcunt militiamque suam.",
+    "ocr": "Nunc opus exposcunt militiamque suam."
+  },
+  {
+    "poem": "3.7",
+    "lineId": 69,
+    "page": 105,
+    "ocrIndex": 13,
+    "score": 1.0,
+    "ll": "quin istic pudibunda iaces, pars pessima nostri?",
+    "ocr": "Quin istic pudibunda iaces, pars pessima nostri?"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 70,
+    "page": 105,
+    "ocrIndex": 14,
+    "score": 0.969,
+    "ll": "sic sum pollicitis captus et ante tuis.",
+    "ocr": "70 Sic sum pollicitis caj)tus et ante tuis:"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 71,
+    "page": 105,
+    "ocrIndex": 15,
+    "score": 1.0,
+    "ll": "tu dominum fallis; per te deprensus inermis",
+    "ocr": "Tu dominum fallis, per te deprensus inermis"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 72,
+    "page": 105,
+    "ocrIndex": 16,
+    "score": 1.0,
+    "ll": "tristia cum magno damna pudore tuli.",
+    "ocr": "Tristia cum magno damna pudore tuli."
+  },
+  {
+    "poem": "3.7",
+    "lineId": 73,
+    "page": 105,
+    "ocrIndex": 17,
+    "score": 1.0,
+    "ll": "Hanc etiam non est mea dedignata puella",
+    "ocr": "Hanc etiam non est mea dedignata puella"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 74,
+    "page": 105,
+    "ocrIndex": 18,
+    "score": 1.0,
+    "ll": "molliter admota sollicitare manu;",
+    "ocr": "Molliter admota sollicitare manu;"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 75,
+    "page": 105,
+    "ocrIndex": 19,
+    "score": 1.0,
+    "ll": "sed postquam nullas consurgere posse per artes",
+    "ocr": "75 Sed postquam nullas consurgere posse per artes"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 76,
+    "page": 105,
+    "ocrIndex": 20,
+    "score": 1.0,
+    "ll": "inmemoremque sui procubuisse videt,",
+    "ocr": "Inmemoremque sui procubuisse videt,"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 77,
+    "page": 105,
+    "ocrIndex": 21,
+    "score": 1.0,
+    "ll": "'quid me ludis?' ait, 'quis te, male sane, iubebat",
+    "ocr": "'Quid me ludis?' ait, 'quis te^ male sane, iubebat"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 78,
+    "page": 105,
+    "ocrIndex": 22,
+    "score": 1.0,
+    "ll": "invitum nostro ponere membra toro?",
+    "ocr": "Invitum nostro ponere membra toro?"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 79,
+    "page": 105,
+    "ocrIndex": 23,
+    "score": 1.0,
+    "ll": "aut te traiectis Aeaea venefica lanis",
+    "ocr": "Aut te traiectis Aeaea venefica lanis"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 80,
+    "page": 105,
+    "ocrIndex": 24,
+    "score": 1.0,
+    "ll": "devovet, aut alio lassus amore venis.'",
+    "ocr": "80 Devovet, aut alio lassus amore venis.'"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 81,
+    "page": 105,
+    "ocrIndex": 25,
+    "score": 0.923,
+    "ll": "nec mora, desiluit tunica velata soluta —",
+    "ocr": "Nec mora, desikdt tunica velata soluta"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 82,
+    "page": 105,
+    "ocrIndex": 26,
+    "score": 1.0,
+    "ll": "et decuit nudos proripuisse pedes! —",
+    "ocr": "(Et decuit nudos proripuisse pedes!)"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 83,
+    "page": 105,
+    "ocrIndex": 27,
+    "score": 1.0,
+    "ll": "neve suae possent intactam scire ministrae,",
+    "ocr": "Neve suae possent intactam scire ministrae,"
+  },
+  {
+    "poem": "3.7",
+    "lineId": 84,
+    "page": 105,
+    "ocrIndex": 28,
+    "score": 1.0,
+    "ll": "dedecus hoc sumpta dissimulavit aqua.",
+    "ocr": "Dedecus hoc sumpta dissimulavit aqua."
+  }
+]

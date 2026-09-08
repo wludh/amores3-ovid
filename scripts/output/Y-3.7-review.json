@@ -1,0 +1,771 @@
+{
+  "witness": "Y",
+  "poem": "3.7",
+  "date": "2026-09-08",
+  "reviewer": "OpenAI Codex independent review_y agent",
+  "review_type": "independent-second-agent-image-and-encoding-review",
+  "human_approved": false,
+  "line_coverage": {
+    "count": 84,
+    "ranges": [
+      {
+        "folio": "63r",
+        "start": 1,
+        "end": 24
+      },
+      {
+        "folio": "63v",
+        "start": 25,
+        "end": 64
+      },
+      {
+        "folio": "64r",
+        "start": 65,
+        "end": 84
+      }
+    ]
+  },
+  "counts": {
+    "resolved": 26,
+    "documented-uncertainty": 26,
+    "escalate": 3
+  },
+  "previous_review_note_count": 37,
+  "previous_review_note_dispositions": {
+    "documented-uncertainty": 26,
+    "resolved": 8,
+    "escalate": 3
+  },
+  "guidelines": [
+    "https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-unclear.html",
+    "https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-del.html",
+    "https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-abbr.html"
+  ],
+  "notes": [
+    {
+      "note_id": "Y-3.7-note-1",
+      "line": 1,
+      "target": "#Y-3.7-l1",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "folio": "63r",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0129/full/full/0/default.jpg",
+        "assessment": "The three small v additions at 1–2 turn at into aut. The barred e above formonsa is expanded as est in the TEI. The placements and signs are supported by 63r; their shapes are approximated typographically."
+      },
+      "change": "Reviewed against image; recorded observation with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-3",
+      "line": 3,
+      "target": "#Y-3.7-l3",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "folio": "63r",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0129/full/full/0/default.jpg",
+        "assessment": "Supralinear le follows ma; a small mark below draws attention to the insertion. The insertion point and the separate lower mark are visible on 63r."
+      },
+      "change": "Reviewed against image; recorded observation with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-4",
+      "line": 4,
+      "target": "#Y-3.7-l4",
+      "previous_type": "review",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "folio": "63r",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0129/full/full/0/default.jpg",
+        "assessment": "A faint trace between crimen and onusque is retained as a low-certainty n. The image does not securely establish either the letter or a deletion action. The earlier erasure markup has therefore been removed."
+      },
+      "change": "Replaced conjectural del/erasure with unclear reason=faded cert=low."
+    },
+    {
+      "note_id": "Y-3.7-note-6",
+      "line": 6,
+      "target": "#Y-3.7-l6",
+      "previous_type": "review",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "folio": "63r",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0129/full/full/0/default.jpg",
+        "assessment": "A faint c-like trace is visible between effe and ti. It is retained as a low-certainty reading with reason faded; the image does not establish the mechanism that made it faint. No deletion action is asserted."
+      },
+      "change": "Replaced conjectural del/erasure with unclear reason=faded cert=low."
+    },
+    {
+      "note_id": "Y-3.7-note-8",
+      "line": 8,
+      "target": "#Y-3.7-l8",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "folio": "63r",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0129/full/full/0/default.jpg",
+        "assessment": "The t in sit is marked below and crossed through. The remaining thonica is retained; the spelling is not silently corrected to Sithonia."
+      },
+      "change": "Reviewed against image; recorded observation with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-9",
+      "line": 9,
+      "target": "#Y-3.7-l9",
+      "previous_type": "review",
+      "status": "resolved",
+      "evidence": {
+        "folio": "63r",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0129/full/full/0/default.jpg",
+        "assessment": "The small supralinear q with a curled suspension sign is visible after Oscula. The display qꝫ and TEI expansion que follow the declared abbreviation policy; exact imitation of the pen shape is not an unresolved reading."
+      },
+      "change": "Reviewed against image; recorded observation with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-10",
+      "line": 10,
+      "target": "#Y-3.7-l10",
+      "previous_type": "review",
+      "status": "escalate",
+      "evidence": {
+        "folio": "63r",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0129/full/full/0/default.jpg",
+        "assessment": "The u above Lascium and t in posuique are supported by 63r. The separate supralinear cluster before posuique is retained as uncertain sup. Whether it is an abbreviation, a gloss, or an instruction is unresolved; a confident interpretation would change how this intervention is encoded."
+      },
+      "change": "Reviewed against image; retained editorial escalation."
+    },
+    {
+      "note_id": "Y-3.7-note-11",
+      "line": 11,
+      "target": "#Y-3.7-l11",
+      "previous_type": "review",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "folio": "63r",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0129/full/full/0/default.jpg",
+        "assessment": "Mihi is legible in darker writing on a disturbed area. The underlying sequence cannot be securely recovered from this image, so no earlier nihil is reconstructed. The current reading is supported; the earlier state remains unknown."
+      },
+      "change": "Reviewed against image; recorded uncertainty with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-12",
+      "line": 12,
+      "target": "#Y-3.7-l12",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "folio": "63r",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0129/full/full/0/default.jpg",
+        "assessment": "The final e of Etque has a descending tail, represented by ę. The TEI records ae as its regularized alternative. Preterea remains unnormalized."
+      },
+      "change": "Reviewed against image; recorded observation with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-13",
+      "line": 13,
+      "target": "#Y-3.7-l13",
+      "previous_type": "review",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "folio": "63r",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0129/full/full/0/default.jpg",
+        "assessment": "The g of gelida is legible in darker ink. An underlying c cannot be securely recovered. The transcription records the visible g and does not invent an earlier reading."
+      },
+      "change": "Reviewed against image; recorded uncertainty with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-14",
+      "line": 14,
+      "target": "#Y-3.7-l14",
+      "previous_type": "review",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "folio": "63r",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0129/full/full/0/default.jpg",
+        "assessment": "The beginning of propositum is darker and includes a barred p, expanded as pro in the TEI. The earlier state beneath this writing is not legible enough to reconstruct."
+      },
+      "change": "Reviewed against image; recorded uncertainty with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-15",
+      "line": 15,
+      "target": "#Y-3.7-l15",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "folio": "63r",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0129/full/full/0/default.jpg",
+        "assessment": "A small vertical word-division mark separates iners and iacui. It is recorded independently of the editorial word spacing."
+      },
+      "change": "Reviewed against image; recorded observation with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-16",
+      "line": 16,
+      "target": "#Y-3.7-l16",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "folio": "63r",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0129/full/full/0/default.jpg",
+        "assessment": "A supralinear barred e after exactum is visible and expanded as est in the TEI."
+      },
+      "change": "Reviewed against image; recorded observation with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-19",
+      "line": 19,
+      "target": "#Y-3.7-l19",
+      "previous_type": "review",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "folio": "63r",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0129/full/full/0/default.jpg",
+        "assessment": "The final supralinear que sign and the undercurve joining pud to the et sign are visible. The h-like trace after A remains a low-certainty reading. The transcription does not identify a historical correcting hand or impose modern word division."
+      },
+      "change": "Reviewed against image; recorded uncertainty with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-23",
+      "line": 23,
+      "target": "#Y-3.7-l23",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "folio": "63r",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0129/full/full/0/default.jpg",
+        "assessment": "Flaua, chlide, and ter are close together. Word spacing is editorially segmented; the small diacritics in chlide are approximated by ï. Names retain the witness capitalization."
+      },
+      "change": "Reviewed against image; recorded observation with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-26",
+      "line": 26,
+      "target": "#Y-3.7-l26",
+      "previous_type": "review",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "folio": "63v",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0130/full/full/0/default.jpg",
+        "assessment": "An irregular dark stroke is visible between sustinuisse and nouem. Its function and any earlier text beneath it cannot be established from this image. It is retained as an unknown-function mark, with no erased letters supplied."
+      },
+      "change": "Reviewed against image; recorded uncertainty with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-27",
+      "line": 27,
+      "target": "#Y-3.7-l27",
+      "previous_type": "review",
+      "status": "resolved",
+      "evidence": {
+        "folio": "63v",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0130/full/full/0/default.jpg",
+        "assessment": "The enlarged opening shows Nun: the final character has the two-minim form of n, unlike the three-minim m in the nearby num in line 28. Nun is retained as a witness reading, without grammatical emendation."
+      },
+      "change": "Reviewed against image; recorded observation with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-28",
+      "line": 28,
+      "target": "#Y-3.7-l28",
+      "previous_type": "review",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "folio": "63v",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0130/full/full/0/default.jpg",
+        "assessment": "The visible carmen has darker m and final n. A proposed earlier carnem is not securely legible and is not reconstructed. The right marginal sign is displayed schematically as ⸮ under the declared punctuation policy."
+      },
+      "change": "Reviewed against image; recorded uncertainty with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-29",
+      "line": 29,
+      "target": "#Y-3.7-l29",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "folio": "63v",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0130/full/full/0/default.jpg",
+        "assessment": "Phoenicea is supported by 63v. The earlier example’s undeclared apostrophe glyph has no secure counterpart here and remains excluded."
+      },
+      "change": "Reviewed against image; recorded observation with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-30",
+      "line": 30,
+      "target": "#Y-3.7-l30",
+      "previous_type": "review",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "folio": "63v",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0130/full/full/0/default.jpg",
+        "assessment": "The ie of iecur is darker, beside faint traces tentatively represented by g. The g remains low-certainty; the earlier erasure assertion has been replaced by neutral faded-reading markup. No earlier word is reconstructed."
+      },
+      "change": "Replaced conjectural del/erasure with unclear reason=faded cert=low."
+    },
+    {
+      "note_id": "Y-3.7-note-31",
+      "line": 31,
+      "target": "#Y-3.7-l31",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "folio": "63v",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0130/full/full/0/default.jpg",
+        "assessment": "The image supports Carminae lesa and uanescit. The earlier example’s uescit is unsupported. Witness spellings and the small separating stop are retained."
+      },
+      "change": "Reviewed against image; recorded observation with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-35",
+      "line": 35,
+      "target": "#Y-3.7-l35",
+      "previous_type": "review",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "folio": "63v",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0130/full/full/0/default.jpg",
+        "assessment": "A faint vertical trace between ner and uos is retained as a low-certainty long s. Its identity and physical history cannot be established; the earlier erasure assertion has been removed."
+      },
+      "change": "Replaced conjectural del/erasure with unclear reason=faded cert=low."
+    },
+    {
+      "note_id": "Y-3.7-note-36",
+      "line": 36,
+      "target": "#Y-3.7-l36",
+      "previous_type": "review",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "folio": "63v",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0130/full/full/0/default.jpg",
+        "assessment": "The right margin shows i and a barred n, displayed as in̄. Its expansion and relation to the verse remain unknown. Keeping the annotation unexpanded and outside the verse reading is the settled policy for this image."
+      },
+      "change": "Reviewed against image; recorded uncertainty with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-38",
+      "line": 38,
+      "target": "#Y-3.7-l38",
+      "previous_type": "review",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "folio": "63v",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0130/full/full/0/default.jpg",
+        "assessment": "Mei is legible in darker ink. The image does not establish a prior reading beneath it, and none is reconstructed."
+      },
+      "change": "Reviewed against image; recorded uncertainty with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-39",
+      "line": 39,
+      "target": "#Y-3.7-l39",
+      "previous_type": "review",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "folio": "63v",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0130/full/full/0/default.jpg",
+        "assessment": "The visible baseline supports qualem tetigique. The darker t, the suspension in qualē, and the darker qualem tetigi are recorded. No marginal e is visible at the asserted location; a proposed underlying cecidi cannot be recovered securely."
+      },
+      "change": "Reviewed against image; recorded uncertainty with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-41",
+      "line": 41,
+      "target": "#Y-3.7-l41",
+      "previous_type": "review",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "folio": "63v",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0130/full/full/0/default.jpg",
+        "assessment": "The small mark above the y-like letter is displayed as ẏ. The adjoining sequence is retained as ad tactu, with editorial word spacing. The exact allograph and the crowded boundary after ad remain image-level uncertainties; no unattested final m is supplied."
+      },
+      "change": "Reviewed against image; recorded uncertainty with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-43",
+      "line": 43,
+      "target": "#Y-3.7-l43",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "folio": "63v",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0130/full/full/0/default.jpg",
+        "assessment": "The e in ille is marked below and i is added above it. The TEI substitution records both visible states without replacing the witness with a silently corrected word."
+      },
+      "change": "Reviewed against image; recorded observation with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-44",
+      "line": 44,
+      "target": "#Y-3.7-l44",
+      "previous_type": "review",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "folio": "63v",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0130/full/full/0/default.jpg",
+        "assessment": "Nunc is clearly written above the caret after Quas. Onci in concipiam is darker, with a visible division and earlier traces beneath it. The present intervention is recorded; the earlier letters are not securely recoverable."
+      },
+      "change": "Reviewed against image; recorded uncertainty with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-45",
+      "line": 45,
+      "target": "#Y-3.7-l45",
+      "previous_type": "review",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "folio": "63v",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0130/full/full/0/default.jpg",
+        "assessment": "The crowded opening remains a low-certainty Credoe. The enlarged image supports an extra e-like form after the rounded letter but does not securely establish whether it is a separate letter or reworking. Word-division marks and darker tur are visible and retained. No normalizing Credo is imposed."
+      },
+      "change": "Reviewed against image; recorded uncertainty with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-48",
+      "line": 48,
+      "target": "#Y-3.7-l48",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "folio": "63v",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0130/full/full/0/default.jpg",
+        "assessment": "The separating stops after ferre, tuli and esse are recorded once each. The image does not support the duplicated punctuation in the previous example."
+      },
+      "change": "Reviewed against image; recorded observation with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-49",
+      "line": 49,
+      "target": "#Y-3.7-l49",
+      "previous_type": "review",
+      "status": "resolved",
+      "evidence": {
+        "folio": "63v",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0130/full/full/0/default.jpg",
+        "assessment": "The darker e after fortuna, the suspension in tantūm, and darker dona si and final u are visible. The qd sign crosses the descender of q, not d; its schematic display has been corrected to q̵d. The TEI retains the conventional quod expansion and resolves the redundant nasal abbreviation as tantum."
+      },
+      "change": "Moved crossed abbreviation sign from d to q."
+    },
+    {
+      "note_id": "Y-3.7-note-51",
+      "line": 51,
+      "target": "#Y-3.7-l51",
+      "previous_type": "review",
+      "status": "escalate",
+      "evidence": {
+        "folio": "63v",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0130/full/full/0/default.jpg",
+        "assessment": "The correction cluster includes a crossed c in Siccar&, an added c above the baseline t in taticis, and marks beneath letters. Their full sequence and relationship remain unresolved. The left marginal word securely begins ta but its remaining letters are not sufficiently legible to assert the earlier taciti transcription; the rest is now encoded as illegible. A reading that reconstructs the final corrected verse would require editorial adjudication."
+      },
+      "change": "Retained unresolved cluster; reduced conjectural marginal taciti to uncertain ta followed by an illegible gap."
+    },
+    {
+      "note_id": "Y-3.7-note-52",
+      "line": 52,
+      "target": "#Y-3.7-l52",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "folio": "63v",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0130/full/full/0/default.jpg",
+        "assessment": "Que is retained as written; no unverified tail or diphthong is supplied. The final et sign completes habet in the TEI expansion."
+      },
+      "change": "Reviewed against image; recorded observation with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-53",
+      "line": 53,
+      "target": "#Y-3.7-l53",
+      "previous_type": "review",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "folio": "63v",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0130/full/full/0/default.jpg",
+        "assessment": "The e in puella appears reworked and darker. Only that visible appearance is encoded; an earlier l or c cannot be securely established."
+      },
+      "change": "Reviewed against image; recorded uncertainty with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-55",
+      "line": 55,
+      "target": "#Y-3.7-l55",
+      "previous_type": "review",
+      "status": "escalate",
+      "evidence": {
+        "folio": "63v",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0130/full/full/0/default.jpg",
+        "assessment": "The image supports non blanda, a small supralinear e-like character with an adjoining stroke, and then non optima. The addition remains uncertain and unexpanded: whether it is e, a fuller abbreviation such as est, or another intervention would materially change its interpretation. The unsupported extra non from the old transcription remains removed."
+      },
+      "change": "Reviewed against image; retained editorial escalation."
+    },
+    {
+      "note_id": "Y-3.7-note-57",
+      "line": 57,
+      "target": "#Y-3.7-l57",
+      "previous_type": "review",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "folio": "63v",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0130/full/full/0/default.jpg",
+        "assessment": "Darker writing in adamantaque is visible on 63v. Earlier letters beneath it cannot be securely reconstructed from this image. The current word and the visible extent of darker ink are retained without a conjectured earlier state."
+      },
+      "change": "Reviewed against image; recorded uncertainty with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-58",
+      "line": 58,
+      "target": "#Y-3.7-l58",
+      "previous_type": "review",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "folio": "63v",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0130/full/full/0/default.jpg",
+        "assessment": "Small strokes distinguish the adjacent i letters in blanditiis. The second a in saxa is darker; the proposed underlying o is not securely legible and is not reconstructed."
+      },
+      "change": "Reviewed against image; recorded uncertainty with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-59",
+      "line": 59,
+      "target": "#Y-3.7-l59",
+      "previous_type": "review",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "folio": "63v",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0130/full/full/0/default.jpg",
+        "assessment": "The d in diuosque is legible in darker ink. Its predecessor cannot be established from the image and is not supplied."
+      },
+      "change": "Reviewed against image; recorded uncertainty with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-60",
+      "line": 60,
+      "target": "#Y-3.7-l60",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "folio": "63v",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0130/full/full/0/default.jpg",
+        "assessment": "The visible sequence supports nec uir ut ante fui. Word-division marks and darker ui are retained separately from the words."
+      },
+      "change": "Reviewed against image; recorded observation with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-61",
+      "line": 61,
+      "target": "#Y-3.7-l61",
+      "previous_type": "review",
+      "status": "resolved",
+      "evidence": {
+        "folio": "63v",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0130/full/full/0/default.jpg",
+        "assessment": "The enlarged name supports phineius: an n-like pair of strokes follows phi, then ei. The witness form is retained rather than replaced by Phemius. The second u in iuuet is darker; the punctuation display remains schematic."
+      },
+      "change": "Reviewed against image; recorded observation with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-63",
+      "line": 63,
+      "target": "#Y-3.7-l63",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "folio": "63v",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0130/full/full/0/default.jpg",
+        "assessment": "At que is retained with editorial segmentation of the visible sequence. No silent change of que to quae is made."
+      },
+      "change": "Reviewed against image; recorded observation with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-64",
+      "line": 64,
+      "target": "#Y-3.7-l64",
+      "previous_type": "review",
+      "status": "resolved",
+      "evidence": {
+        "folio": "63v",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0130/full/full/0/default.jpg",
+        "assessment": "A horizontal nasal suspension above the i in fixi is visible and parallels the suspension used in qualē at 39. The transcription fīxi and TEI expansion finxi are retained. The separate lower-margin inscription is documented in its own note."
+      },
+      "change": "Reviewed against image; recorded observation with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-67",
+      "line": 67,
+      "target": "#Y-3.7-l67",
+      "previous_type": "review",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "folio": "64r",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0131/full/full/0/default.jpg",
+        "assessment": "The final t in uigent is legible in darker ink. An earlier long s cannot be securely recovered and is not supplied."
+      },
+      "change": "Reviewed against image; recorded uncertainty with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-68",
+      "line": 68,
+      "target": "#Y-3.7-l68",
+      "previous_type": "review",
+      "status": "resolved",
+      "evidence": {
+        "folio": "64r",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0131/full/full/0/default.jpg",
+        "assessment": "The c in exposcunt is visibly darker. Miliciamque is retained as the source spelling; no correction to militiamque is imposed."
+      },
+      "change": "Reviewed against image; recorded observation with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-70",
+      "line": 70,
+      "target": "#Y-3.7-l70",
+      "previous_type": "review",
+      "status": "resolved",
+      "evidence": {
+        "folio": "64r",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0131/full/full/0/default.jpg",
+        "assessment": "Supralinear vt is positioned over the underdotted es; the following et sign is also marked below. These visible interventions remain encoded separately. Their exact historical sequence or attribution to hands is not required to represent the visible page. Darker ti and tu are recorded separately."
+      },
+      "change": "Reviewed against image; recorded observation with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-73",
+      "line": 73,
+      "target": "#Y-3.7-l73",
+      "previous_type": "review",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "folio": "64r",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0131/full/full/0/default.jpg",
+        "assessment": "Writing and surface across 73–74 are visibly disturbed. The visible text is retained; a proposed earlier skipped-line error and complete deleted verse cannot be securely reconstructed from this image."
+      },
+      "change": "Reviewed against image; recorded uncertainty with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-74",
+      "line": 74,
+      "target": "#Y-3.7-l74",
+      "previous_type": "review",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "folio": "64r",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0131/full/full/0/default.jpg",
+        "assessment": "Sollicitare manu is the visible current text. Faint traces beyond and beneath it cannot be read securely enough to assert per artes or reconstruct an earlier line. Their presence is documented here without conjectural deleted words."
+      },
+      "change": "Reviewed against image; recorded uncertainty with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-75",
+      "line": 75,
+      "target": "#Y-3.7-l75",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "folio": "64r",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0131/full/full/0/default.jpg",
+        "assessment": "The image supports corsurgere. This witness spelling is retained without automatic conversion to consurgere."
+      },
+      "change": "Reviewed against image; recorded observation with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-77",
+      "line": 77,
+      "target": "#Y-3.7-l77",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "folio": "64r",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0131/full/full/0/default.jpg",
+        "assessment": "Fine word-division marks occur after me and quis. They are encoded separately from the words; the spacing is editorially segmented."
+      },
+      "change": "Reviewed against image; recorded observation with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-79",
+      "line": 79,
+      "target": "#Y-3.7-l79",
+      "previous_type": "review",
+      "status": "resolved",
+      "evidence": {
+        "folio": "64r",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0131/full/full/0/default.jpg",
+        "assessment": "The first i in traiectis and fi in uenefica are darker. The image supports ramis; the familiar lanis is not substituted."
+      },
+      "change": "Reviewed against image; recorded observation with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-80",
+      "line": 80,
+      "target": "#Y-3.7-l80",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "folio": "64r",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0131/full/full/0/default.jpg",
+        "assessment": "The image reads Deuouet aut alio lassus amore uenis. The corrected trial text is supported; the old example’s wording is not."
+      },
+      "change": "Reviewed against image; recorded observation with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-81",
+      "line": 81,
+      "target": "#Y-3.7-l81",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "folio": "64r",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0131/full/full/0/default.jpg",
+        "assessment": "The final two couplets on 64r support the corrected 84-line ending. The first begins Nec mora desiluit tunica uelata soluta; the a of mora is darker."
+      },
+      "change": "Reviewed against image; recorded observation with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-83",
+      "line": 83,
+      "target": "#Y-3.7-l83",
+      "previous_type": "review",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "folio": "64r",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0131/full/full/0/default.jpg",
+        "assessment": "The end of ministre is darker on a disturbed area. The visible spelling ministre is retained; an earlier state cannot be reconstructed securely."
+      },
+      "change": "Reviewed against image; recorded uncertainty with evidence; no user decision required."
+    },
+    {
+      "note_id": "Y-3.7-note-84",
+      "line": 84,
+      "target": "#Y-3.7-l84",
+      "previous_type": "review",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "folio": "64r",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0131/full/full/0/default.jpg",
+        "assessment": "Dots and a curved terminal stroke follow aqua before the next poem’s initial. The display :⌁ is schematic. Its location is certain but its checking or poem-end function is not, so the markup now uses unknown function."
+      },
+      "change": "Changed claimed poem-end function to unknown."
+    },
+    {
+      "note_id": "Y-3.7-note-margin",
+      "line": 64,
+      "target": "#Y-lower-margin-63v",
+      "previous_type": "review",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "folio": "63v",
+        "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0130/full/full/0/default.jpg",
+        "assessment": "The lower-right margin of 63v contains a short inscription with small marks above it, tentatively read si caret teum. The letters, abbreviation and relation to the poem remain uncertain. The inscription stays outside the verse sequence and unexpanded; this recorded limitation is not a request to invent a reading."
+      },
+      "change": "Reviewed against image; recorded uncertainty with evidence; no user decision required."
+    }
+  ],
+  "validation": {
+    "schema": "docs/schema/tei_all-4.12.0.rng",
+    "schema_result": "passed xmllint Relax NG",
+    "verse_lines": 84,
+    "facsimile_zones": 84,
+    "unique_ids": true,
+    "local_references_resolve": true
+  },
+  "reviewed_xml_sha256": "a1e7ebc9a0cbb2599f920225cd0121956e7ce583ea9b981fb9b925d4b2959836",
+  "review_report_sha256": "6bad8715cfdab23d3f49bbed6f3d631d9fa69e8c513fa3a4d4603383c9ac61ad"
+}

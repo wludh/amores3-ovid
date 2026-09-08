@@ -888,188 +888,217 @@
     </lg>
     </body></text>
   </TEI></poem>
-  <poem n="3.7"><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-  <fileDesc>
-    <titleStmt>
-      <title>Ovid, Amores 3.7</title>
-      <respStmt><resp>Encoded by</resp><name>ChatGPT (o3 model)</name></respStmt>
-    </titleStmt>
-    <publicationStmt><p>Public‑domain Latin text, TEI encoded for personal study.</p></publicationStmt>
-    <sourceDesc><p>Source: The Latin Library.</p></sourceDesc>
-  </fileDesc>
-</teiHeader>
-    <text><body>
-    <lg type="couplet" n="1">
-      <l n="1">At non formosa est, at non bene culta puella,</l>
-      <l n="2" rend="indent">at, puto, non votis saepe petita meis!</l>
-    </lg>
-    <lg type="couplet" n="2">
-      <l n="3">hanc tamen in nullos tenui male languidus usus,</l>
-      <l n="4" rend="indent">sed iacui pigro crimen onusque toro;</l>
-    </lg>
-    <lg type="couplet" n="3">
-      <l n="5">nec potui cupiens, pariter cupiente puella,</l>
-      <l n="6" rend="indent">inguinis effeti parte iuvante frui.</l>
-    </lg>
-    <lg type="couplet" n="4">
-      <l n="7">illa quidem nostro subiecit eburnea collo</l>
-      <l n="8" rend="indent">bracchia Sithonia candidiora nive,</l>
-    </lg>
-    <lg type="couplet" n="5">
-      <l n="9">osculaque inseruit cupida luctantia lingua</l>
-      <l n="10" rend="indent">lascivum femori supposuitque femur,</l>
-    </lg>
-    <lg type="couplet" n="6">
-      <l n="11">et mihi blanditias dixit dominumque vocavit,</l>
-      <l n="12" rend="indent">et quae praeterea publica verba iuvant.</l>
-    </lg>
-    <lg type="couplet" n="7">
-      <l n="13">tacta tamen veluti gelida mea membra cicuta</l>
-      <l n="14" rend="indent">segnia propositum destituere meum;</l>
-    </lg>
-    <lg type="couplet" n="8">
-      <l n="15">truncus iners iacui, species et inutile pondus,</l>
-      <l n="16" rend="indent">et non exactum, corpus an umbra forem.</l>
-    </lg>
-    <lg type="couplet" n="9">
-      <l n="17">Quae mihi ventura est, siquidem ventura, senectus,</l>
-      <l n="18" rend="indent">cum desit numeris ipsa iuventa suis?</l>
-    </lg>
-    <lg type="couplet" n="10">
-      <l n="19">a, pudet annorum: quo me iuvenemque virumque?</l>
-      <l n="20" rend="indent">nec iuvenem nec me sensit amica virum!</l>
-    </lg>
-    <lg type="couplet" n="11">
-      <l n="21">sic flammas aditura pias aeterna sacerdos</l>
-      <l n="22" rend="indent">surgit et a caro fratre verenda soror.</l>
-    </lg>
-    <lg type="couplet" n="12">
-      <l n="23">at nuper bis flava Chlide, ter candida Pitho,</l>
-      <l n="24" rend="indent">ter Libas officio continuata meo est;</l>
-    </lg>
-    <lg type="couplet" n="13">
-      <l n="25">exigere a nobis angusta nocte Corinnam</l>
-      <l n="26" rend="indent">me memini numeros sustinuisse novem.</l>
-    </lg>
-    <lg type="couplet" n="14">
-      <l n="27">Num mea Thessalico languent devota veneno</l>
-      <l n="28" rend="indent">corpora? num misero carmen et herba nocent,</l>
-    </lg>
-    <lg type="couplet" n="15">
-      <l n="29">sagave poenicea defixit nomina cera</l>
-      <l n="30" rend="indent">et medium tenuis in iecur egit acus?</l>
-    </lg>
-    <lg type="couplet" n="16">
-      <l n="31">carmine laesa Ceres sterilem vanescit in herbam,</l>
-      <l n="32" rend="indent">deficiunt laesi carmine fontis aquae,</l>
-    </lg>
-    <lg type="couplet" n="17">
-      <l n="33">ilicibus glandes cantataque vitibus uva</l>
-      <l n="34" rend="indent">decidit, et nullo poma movente fluunt.</l>
-    </lg>
-    <lg type="couplet" n="18">
-      <l n="35">quid vetat et nervos magicas torpere per artes?</l>
-      <l n="36" rend="indent">forsitan inpatiens fit latus inde meum.</l>
-    </lg>
-    <lg type="couplet" n="19">
-      <l n="37">huc pudor accessit: facti pudor ipse nocebat;</l>
-      <l n="38" rend="indent">ille fuit vitii causa secunda mei.</l>
-    </lg>
-    <lg type="couplet" n="20">
-      <l n="39">At qualem vidi tantum tetigique puellam!</l>
-      <l n="40" rend="indent">sic etiam tunica tangitur illa sua.</l>
-    </lg>
-    <lg type="couplet" n="21">
-      <l n="41">illius ad tactum Pylius iuvenescere possit</l>
-      <l n="42" rend="indent">Tithonosque annis fortior esse suis.</l>
-    </lg>
-    <lg type="couplet" n="22">
-      <l n="43">haec mihi contigerat; sed vir non contigit illi.</l>
-      <l n="44" rend="indent">quas nunc concipiam per nova vota preces?</l>
-    </lg>
-    <lg type="couplet" n="23">
-      <l n="45">credo etiam magnos, quo sum tam turpiter usus,</l>
-      <l n="46" rend="indent">muneris oblati paenituisse deos.</l>
-    </lg>
-    <lg type="couplet" n="24">
-      <l n="47">optabam certe recipi — sum nempe receptus;</l>
-      <l n="48" rend="indent">oscula ferre — tuli; proximus esse — fui.</l>
-    </lg>
-    <lg type="couplet" n="25">
-      <l n="49">quo mihi fortunae tantum? quo regna sine usu?</l>
-      <l n="50" rend="indent">quid, nisi possedi dives avarus opes?</l>
-    </lg>
-    <lg type="couplet" n="26">
-      <l n="51">sic aret mediis taciti vulgator in undis</l>
-      <l n="52" rend="indent">pomaque, quae nullo tempore tangat, habet.</l>
-    </lg>
-    <lg type="couplet" n="27">
-      <l n="53">a tenera quisquam sic surgit mane puella,</l>
-      <l n="54" rend="indent">protinus ut sanctos possit adire deos?</l>
-    </lg>
-    <lg type="couplet" n="28">
-      <l n="55">Sed, puto, non blanda: non optima perdidit in me</l>
-      <l n="56" rend="indent">oscula; non omni sollicitavit ope!</l>
-    </lg>
-    <lg type="couplet" n="29">
-      <l n="57">illa graves potuit quercus adamantaque durum</l>
-      <l n="58" rend="indent">surdaque blanditiis saxa movere suis.</l>
-    </lg>
-    <lg type="couplet" n="30">
-      <l n="59">digna movere fuit certe vivosque virosque;</l>
-      <l n="60" rend="indent">sed neque tum vixi nec vir, ut ante, fui.</l>
-    </lg>
-    <lg type="couplet" n="31">
-      <l n="61">quid iuvet, ad surdas si cantet Phemius aures?</l>
-      <l n="62" rend="indent">quid miserum Thamyran picta tabella iuvat?</l>
-    </lg>
-    <lg type="couplet" n="32">
-      <l n="63">At quae non tacita formavi gaudia mente!</l>
-      <l n="64" rend="indent">quos ego non finxi disposuique modos!</l>
-    </lg>
-    <lg type="couplet" n="33">
-      <l n="65">nostra tamen iacuere velut praemortua membra</l>
-      <l n="66" rend="indent">turpiter hesterna languidiora rosa —</l>
-    </lg>
-    <lg type="couplet" n="34">
-      <l n="67">quae nunc, ecce, vigent intempestiva valentque,</l>
-      <l n="68" rend="indent">nunc opus exposcunt militiamque suam.</l>
-    </lg>
-    <lg type="couplet" n="35">
-      <l n="69">quin istic pudibunda iaces, pars pessima nostri?</l>
-      <l n="70" rend="indent">sic sum pollicitis captus et ante tuis.</l>
-    </lg>
-    <lg type="couplet" n="36">
-      <l n="71">tu dominum fallis; per te deprensus inermis</l>
-      <l n="72" rend="indent">tristia cum magno damna pudore tuli.</l>
-    </lg>
-    <lg type="couplet" n="37">
-      <l n="73">Hanc etiam non est mea dedignata puella</l>
-      <l n="74" rend="indent">molliter admota sollicitare manu;</l>
-    </lg>
-    <lg type="couplet" n="38">
-      <l n="75">sed postquam nullas consurgere posse per artes</l>
-      <l n="76" rend="indent">inmemoremque sui procubuisse videt,</l>
-    </lg>
-    <lg type="couplet" n="39">
-      <l n="77">&#x27;quid me ludis?&#x27; ait, &#x27;quis te, male sane, iubebat</l>
-      <l n="78" rend="indent">invitum nostro ponere membra toro?</l>
-    </lg>
-    <lg type="couplet" n="40">
-      <l n="79">aut te traiectis Aeaea venefica lanis</l>
-      <l n="80" rend="indent">devovet, aut alio lassus amore venis.&#x27;</l>
-    </lg>
-    <lg type="couplet" n="41">
-      <l n="81">nec mora, desiluit tunica velata soluta —</l>
-      <l n="82" rend="indent">et decuit nudos proripuisse pedes! —</l>
-    </lg>
-    <lg type="couplet" n="42">
-      <l n="83">neve suae possent intactam scire ministrae,</l>
-      <l n="84" rend="indent">dedecus hoc sumpta dissimulavit aqua.</l>
-    </lg>
-    </body></text>
-  </TEI></poem>
+  <poem n="3.7"><TEI xmlns="http://www.tei-c.org/ns/1.0" n="LL" xml:id="LL">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title>Ovid, Amores 3.7 — The Latin Library</title>
+        <author>Publius Ovidius Naso</author>
+        <respStmt>
+          <resp>Source collation and trial encoding</resp>
+          <name>OpenAI Codex primary agent</name>
+        </respStmt>
+        <respStmt xml:id="LL-second-reader">
+          <resp>Independent second source collation of all 84 verses against a fresh retrieval of the live web text</resp>
+          <name>OpenAI Codex independent encode_s agent</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Local scholarly trial; not a published critical edition.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>The Latin Library: P. Ovidi Nasonis Amorum liber tertius</title>
+          <ref target="https://www.thelatinlibrary.com/ovid/ovid.amor3.shtml">Source web text</ref>
+          <date when="2026-09-08">Accessed 8 September 2026</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>All 84 verses collated against the source web text. Source wording, capitalization and punctuation retained; HTML whitespace normalized. Couplet grouping and line numbers are editorial. This is a modern web text, not a manuscript facsimile. No manuscript features or readings from other witnesses are supplied.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <change when="2026-09-08">Prepared 3.7 for independent source review.</change>
+      <change when="2026-09-08" who="#LL-second-reader">Independently verified all 84 lines against the live Latin Library source. Exact match after HTML entity decoding and whitespace normalization; no verse corrections or human review actions. Independent agent review does not constitute human scholarly approval.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <body>
+      <div type="poem" n="3.7" xml:id="LL-3.7">
+        <lg type="couplet" n="1">
+          <l n="1" xml:id="LL-3.7-l1">At non formosa est, at non bene culta puella,</l>
+          <l n="2" rend="indent" xml:id="LL-3.7-l2">at, puto, non votis saepe petita meis!</l>
+        </lg>
+        <lg type="couplet" n="2">
+          <l n="3" xml:id="LL-3.7-l3">hanc tamen in nullos tenui male languidus usus,</l>
+          <l n="4" rend="indent" xml:id="LL-3.7-l4">sed iacui pigro crimen onusque toro;</l>
+        </lg>
+        <lg type="couplet" n="3">
+          <l n="5" xml:id="LL-3.7-l5">nec potui cupiens, pariter cupiente puella,</l>
+          <l n="6" rend="indent" xml:id="LL-3.7-l6">inguinis effeti parte iuvante frui.</l>
+        </lg>
+        <lg type="couplet" n="4">
+          <l n="7" xml:id="LL-3.7-l7">illa quidem nostro subiecit eburnea collo</l>
+          <l n="8" rend="indent" xml:id="LL-3.7-l8">bracchia Sithonia candidiora nive,</l>
+        </lg>
+        <lg type="couplet" n="5">
+          <l n="9" xml:id="LL-3.7-l9">osculaque inseruit cupida luctantia lingua</l>
+          <l n="10" rend="indent" xml:id="LL-3.7-l10">lascivum femori supposuitque femur,</l>
+        </lg>
+        <lg type="couplet" n="6">
+          <l n="11" xml:id="LL-3.7-l11">et mihi blanditias dixit dominumque vocavit,</l>
+          <l n="12" rend="indent" xml:id="LL-3.7-l12">et quae praeterea publica verba iuvant.</l>
+        </lg>
+        <lg type="couplet" n="7">
+          <l n="13" xml:id="LL-3.7-l13">tacta tamen veluti gelida mea membra cicuta</l>
+          <l n="14" rend="indent" xml:id="LL-3.7-l14">segnia propositum destituere meum;</l>
+        </lg>
+        <lg type="couplet" n="8">
+          <l n="15" xml:id="LL-3.7-l15">truncus iners iacui, species et inutile pondus,</l>
+          <l n="16" rend="indent" xml:id="LL-3.7-l16">et non exactum, corpus an umbra forem.</l>
+        </lg>
+        <lg type="couplet" n="9">
+          <l n="17" xml:id="LL-3.7-l17">Quae mihi ventura est, siquidem ventura, senectus,</l>
+          <l n="18" rend="indent" xml:id="LL-3.7-l18">cum desit numeris ipsa iuventa suis?</l>
+        </lg>
+        <lg type="couplet" n="10">
+          <l n="19" xml:id="LL-3.7-l19">a, pudet annorum: quo me iuvenemque virumque?</l>
+          <l n="20" rend="indent" xml:id="LL-3.7-l20">nec iuvenem nec me sensit amica virum!</l>
+        </lg>
+        <lg type="couplet" n="11">
+          <l n="21" xml:id="LL-3.7-l21">sic flammas aditura pias aeterna sacerdos</l>
+          <l n="22" rend="indent" xml:id="LL-3.7-l22">surgit et a caro fratre verenda soror.</l>
+        </lg>
+        <lg type="couplet" n="12">
+          <l n="23" xml:id="LL-3.7-l23">at nuper bis flava Chlide, ter candida Pitho,</l>
+          <l n="24" rend="indent" xml:id="LL-3.7-l24">ter Libas officio continuata meo est;</l>
+        </lg>
+        <lg type="couplet" n="13">
+          <l n="25" xml:id="LL-3.7-l25">exigere a nobis angusta nocte Corinnam</l>
+          <l n="26" rend="indent" xml:id="LL-3.7-l26">me memini numeros sustinuisse novem.</l>
+        </lg>
+        <lg type="couplet" n="14">
+          <l n="27" xml:id="LL-3.7-l27">Num mea Thessalico languent devota veneno</l>
+          <l n="28" rend="indent" xml:id="LL-3.7-l28">corpora? num misero carmen et herba nocent,</l>
+        </lg>
+        <lg type="couplet" n="15">
+          <l n="29" xml:id="LL-3.7-l29">sagave poenicea defixit nomina cera</l>
+          <l n="30" rend="indent" xml:id="LL-3.7-l30">et medium tenuis in iecur egit acus?</l>
+        </lg>
+        <lg type="couplet" n="16">
+          <l n="31" xml:id="LL-3.7-l31">carmine laesa Ceres sterilem vanescit in herbam,</l>
+          <l n="32" rend="indent" xml:id="LL-3.7-l32">deficiunt laesi carmine fontis aquae,</l>
+        </lg>
+        <lg type="couplet" n="17">
+          <l n="33" xml:id="LL-3.7-l33">ilicibus glandes cantataque vitibus uva</l>
+          <l n="34" rend="indent" xml:id="LL-3.7-l34">decidit, et nullo poma movente fluunt.</l>
+        </lg>
+        <lg type="couplet" n="18">
+          <l n="35" xml:id="LL-3.7-l35">quid vetat et nervos magicas torpere per artes?</l>
+          <l n="36" rend="indent" xml:id="LL-3.7-l36">forsitan inpatiens fit latus inde meum.</l>
+        </lg>
+        <lg type="couplet" n="19">
+          <l n="37" xml:id="LL-3.7-l37">huc pudor accessit: facti pudor ipse nocebat;</l>
+          <l n="38" rend="indent" xml:id="LL-3.7-l38">ille fuit vitii causa secunda mei.</l>
+        </lg>
+        <lg type="couplet" n="20">
+          <l n="39" xml:id="LL-3.7-l39">At qualem vidi tantum tetigique puellam!</l>
+          <l n="40" rend="indent" xml:id="LL-3.7-l40">sic etiam tunica tangitur illa sua.</l>
+        </lg>
+        <lg type="couplet" n="21">
+          <l n="41" xml:id="LL-3.7-l41">illius ad tactum Pylius iuvenescere possit</l>
+          <l n="42" rend="indent" xml:id="LL-3.7-l42">Tithonosque annis fortior esse suis.</l>
+        </lg>
+        <lg type="couplet" n="22">
+          <l n="43" xml:id="LL-3.7-l43">haec mihi contigerat; sed vir non contigit illi.</l>
+          <l n="44" rend="indent" xml:id="LL-3.7-l44">quas nunc concipiam per nova vota preces?</l>
+        </lg>
+        <lg type="couplet" n="23">
+          <l n="45" xml:id="LL-3.7-l45">credo etiam magnos, quo sum tam turpiter usus,</l>
+          <l n="46" rend="indent" xml:id="LL-3.7-l46">muneris oblati paenituisse deos.</l>
+        </lg>
+        <lg type="couplet" n="24">
+          <l n="47" xml:id="LL-3.7-l47">optabam certe recipi — sum nempe receptus;</l>
+          <l n="48" rend="indent" xml:id="LL-3.7-l48">oscula ferre — tuli; proximus esse — fui.</l>
+        </lg>
+        <lg type="couplet" n="25">
+          <l n="49" xml:id="LL-3.7-l49">quo mihi fortunae tantum? quo regna sine usu?</l>
+          <l n="50" rend="indent" xml:id="LL-3.7-l50">quid, nisi possedi dives avarus opes?</l>
+        </lg>
+        <lg type="couplet" n="26">
+          <l n="51" xml:id="LL-3.7-l51">sic aret mediis taciti vulgator in undis</l>
+          <l n="52" rend="indent" xml:id="LL-3.7-l52">pomaque, quae nullo tempore tangat, habet.</l>
+        </lg>
+        <lg type="couplet" n="27">
+          <l n="53" xml:id="LL-3.7-l53">a tenera quisquam sic surgit mane puella,</l>
+          <l n="54" rend="indent" xml:id="LL-3.7-l54">protinus ut sanctos possit adire deos?</l>
+        </lg>
+        <lg type="couplet" n="28">
+          <l n="55" xml:id="LL-3.7-l55">Sed, puto, non blanda: non optima perdidit in me</l>
+          <l n="56" rend="indent" xml:id="LL-3.7-l56">oscula; non omni sollicitavit ope!</l>
+        </lg>
+        <lg type="couplet" n="29">
+          <l n="57" xml:id="LL-3.7-l57">illa graves potuit quercus adamantaque durum</l>
+          <l n="58" rend="indent" xml:id="LL-3.7-l58">surdaque blanditiis saxa movere suis.</l>
+        </lg>
+        <lg type="couplet" n="30">
+          <l n="59" xml:id="LL-3.7-l59">digna movere fuit certe vivosque virosque;</l>
+          <l n="60" rend="indent" xml:id="LL-3.7-l60">sed neque tum vixi nec vir, ut ante, fui.</l>
+        </lg>
+        <lg type="couplet" n="31">
+          <l n="61" xml:id="LL-3.7-l61">quid iuvet, ad surdas si cantet Phemius aures?</l>
+          <l n="62" rend="indent" xml:id="LL-3.7-l62">quid miserum Thamyran picta tabella iuvat?</l>
+        </lg>
+        <lg type="couplet" n="32">
+          <l n="63" xml:id="LL-3.7-l63">At quae non tacita formavi gaudia mente!</l>
+          <l n="64" rend="indent" xml:id="LL-3.7-l64">quos ego non finxi disposuique modos!</l>
+        </lg>
+        <lg type="couplet" n="33">
+          <l n="65" xml:id="LL-3.7-l65">nostra tamen iacuere velut praemortua membra</l>
+          <l n="66" rend="indent" xml:id="LL-3.7-l66">turpiter hesterna languidiora rosa —</l>
+        </lg>
+        <lg type="couplet" n="34">
+          <l n="67" xml:id="LL-3.7-l67">quae nunc, ecce, vigent intempestiva valentque,</l>
+          <l n="68" rend="indent" xml:id="LL-3.7-l68">nunc opus exposcunt militiamque suam.</l>
+        </lg>
+        <lg type="couplet" n="35">
+          <l n="69" xml:id="LL-3.7-l69">quin istic pudibunda iaces, pars pessima nostri?</l>
+          <l n="70" rend="indent" xml:id="LL-3.7-l70">sic sum pollicitis captus et ante tuis.</l>
+        </lg>
+        <lg type="couplet" n="36">
+          <l n="71" xml:id="LL-3.7-l71">tu dominum fallis; per te deprensus inermis</l>
+          <l n="72" rend="indent" xml:id="LL-3.7-l72">tristia cum magno damna pudore tuli.</l>
+        </lg>
+        <lg type="couplet" n="37">
+          <l n="73" xml:id="LL-3.7-l73">Hanc etiam non est mea dedignata puella</l>
+          <l n="74" rend="indent" xml:id="LL-3.7-l74">molliter admota sollicitare manu;</l>
+        </lg>
+        <lg type="couplet" n="38">
+          <l n="75" xml:id="LL-3.7-l75">sed postquam nullas consurgere posse per artes</l>
+          <l n="76" rend="indent" xml:id="LL-3.7-l76">inmemoremque sui procubuisse videt,</l>
+        </lg>
+        <lg type="couplet" n="39">
+          <l n="77" xml:id="LL-3.7-l77">'quid me ludis?' ait, 'quis te, male sane, iubebat</l>
+          <l n="78" rend="indent" xml:id="LL-3.7-l78">invitum nostro ponere membra toro?</l>
+        </lg>
+        <lg type="couplet" n="40">
+          <l n="79" xml:id="LL-3.7-l79">aut te traiectis Aeaea venefica lanis</l>
+          <l n="80" rend="indent" xml:id="LL-3.7-l80">devovet, aut alio lassus amore venis.'</l>
+        </lg>
+        <lg type="couplet" n="41">
+          <l n="81" xml:id="LL-3.7-l81">nec mora, desiluit tunica velata soluta —</l>
+          <l n="82" rend="indent" xml:id="LL-3.7-l82">et decuit nudos proripuisse pedes! —</l>
+        </lg>
+        <lg type="couplet" n="42">
+          <l n="83" xml:id="LL-3.7-l83">neve suae possent intactam scire ministrae,</l>
+          <l n="84" rend="indent" xml:id="LL-3.7-l84">dedecus hoc sumpta dissimulavit aqua.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI></poem>
   <poem n="3.8"><TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
   <fileDesc>

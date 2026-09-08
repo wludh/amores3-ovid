@@ -1,0 +1,91 @@
+#!/usr/bin/env python3
+"""Validate the reviewed 3.7 trial; no third-party Python packages required."""
+from collections import Counter
+from pathlib import Path
+import hashlib
+import json
+import subprocess
+import tempfile
+import xml.etree.ElementTree as ET
+
+ROOT = Path(__file__).resolve().parents[1]
+NS = 'http://www.tei-c.org/ns/1.0'
+ID = '{http://www.w3.org/XML/1998/namespace}id'
+ET.register_namespace('', NS)
+
+
+def select_tei(path):
+    root = ET.parse(path).getroot()
+    if root.tag != '{%s}TEI' % NS:
+        root = root.find("poem[@n='3.7']/{%s}TEI" % NS)
+    assert root is not None, 'Missing 3.7 TEI'
+    root.tail = None
+    return root
+
+
+def xml_digest(root):
+    return hashlib.sha256(ET.canonicalize(ET.tostring(root, encoding='unicode')).encode()).hexdigest()
+
+
+def validate(witness):
+    root = select_tei(ROOT / f'docs/data/witness-{witness}.xml')
+    ledger = json.loads((ROOT / f'scripts/output/{witness}-3.7-review.json').read_text())
+    report = ROOT / f'scripts/output/{witness}-3.7-second-pass.md'
+    assert ledger['reviewed_xml_sha256'] == xml_digest(root), 'XML changed since independent review; re-review required'
+    assert ledger['review_report_sha256'] == hashlib.sha256(report.read_bytes()).hexdigest(), 'Review report changed since seal'
+    assert ledger['reviewer'] and ledger['witness'] == witness and ledger['poem'] == '3.7'
+    with tempfile.NamedTemporaryFile(suffix='.xml') as tmp:
+        tmp.write(ET.tostring(root, encoding='utf-8', xml_declaration=True)); tmp.flush()
+        result = subprocess.run(['xmllint', '--noout', '--relaxng', str(ROOT / 'docs/schema/tei_all-4.12.0.rng'), tmp.name], capture_output=True, text=True)
+        assert result.returncode == 0, result.stderr
+    elements = list(root.iter())
+    ids = [e.get(ID) for e in elements if e.get(ID)]
+    assert len(ids) == len(set(ids)), 'Duplicate XML IDs'
+    by_id = {e.get(ID): e for e in elements if e.get(ID)}
+    for el in elements:
+        for attr in ('facs', 'target', 'ref', 'who', 'resp', 'corresp', 'ana', 'hand'):
+            for ref in el.get(attr, '').split():
+                assert not ref.startswith('#') or ref[1:] in by_id, f'Broken {attr}: {ref}'
+    lines = list(root.iter('{%s}l' % NS))
+    count = 74 if witness == 'S' else 84
+    assert [int(e.get('n')) for e in lines] == list(range(1, count + 1)), 'Verse sequence mismatch'
+    assert all(e.get(ID) == f'{witness}-3.7-l{e.get("n")}' for e in lines), 'Unstable verse IDs'
+    assert ledger['line_coverage']['count'] == count, 'Incomplete independent line coverage'
+    coverage = [n for span in ledger['line_coverage']['ranges'] for n in range(span['start'], span['end'] + 1)]
+    assert coverage == list(range(1, count + 1)), 'Review coverage ranges are incomplete'
+    if witness != 'LL':
+        for line in lines:
+            zone = by_id.get(line.get('facs', '')[1:])
+            assert zone is not None and zone.tag == '{%s}zone' % NS, 'Missing verse image zone'
+            assert float(zone.get('lrx')) > float(zone.get('ulx')) and float(zone.get('lry')) > float(zone.get('uly')), 'Invalid zone geometry'
+    if witness == 'S':
+        assert any(g.get('quantity') == '10' and g.get('unit') == 'line' for g in root.iter('{%s}gap' % NS)), 'Missing explicit absent ending'
+    notes = [e for e in elements if e.tag == '{%s}note' % NS and e.get('type') in ('review', 'uncertainty', 'observation')]
+    dispositions = {n['note_id']: n for n in ledger['notes']}
+    assert len(dispositions) == len(ledger['notes']), 'Duplicate review dispositions'
+    assert set(dispositions) == {n.get(ID) for n in notes}, 'Every note needs an independent disposition'
+    statuses = {'review': 'escalate', 'uncertainty': 'documented-uncertainty', 'observation': 'resolved'}
+    for note in notes:
+        record = dispositions[note.get(ID)]
+        assert record['status'] == statuses[note.get('type')], 'Note type disagrees with review disposition'
+        assert record['target'] == note.get('target') and record.get('evidence'), 'Missing or mismatched review evidence'
+    counts = Counter(n['status'] for n in ledger['notes'])
+    assert all(ledger['counts'][k] == counts[k] for k in statuses.values()), 'Disposition counts disagree'
+    questions = [(n.get('n'), ' '.join(n.itertext())) for n in notes if n.get('type') == 'review']
+    return count, counts, questions
+
+
+def main():
+    rows = []; questions = []
+    for witness in ['P', 'Y', 'S', 'O', 'LL']:
+        count, counts, remaining = validate(witness)
+        rows.append(f'| {witness} | {count} | {counts["resolved"]} | {counts["documented-uncertainty"]} | {counts["escalate"]} |')
+        questions.extend(f'- **{witness}, line {n}:** {text}' for n, text in remaining)
+        print(f'{witness}: schema, coverage, references, review dispositions and review seal passed ({count} verses)')
+    output = '# Amores 3.7 — independent review status\n\nGenerated by `npm run validate:tei`. All five source passes and independent reviews are recorded; human approval is not implied.\n\n| Witness | Extant verses reviewed | Observations | Documented uncertainties | Editorial questions |\n| --- | ---: | ---: | ---: | ---: |\n' + '\n'.join(rows)
+    output += '\n\nS ends after verse 74; ten absent verses are explicitly encoded. Documented uncertainty is retained evidence, not a user task.\n\n## Remaining editorial questions\n\n' + '\n'.join(questions) + '\n'
+    (ROOT / 'scripts/output/3.7-review-status.md').write_text(output)
+
+
+if __name__ == '__main__':
+    main()

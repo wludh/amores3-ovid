@@ -497,30 +497,28 @@ section[data-panel-type="line-viewer"] > .panel-body {
   display: block !important;
 }
 
-.manuscript-label {
-  display: block;
-  margin-top: 8px;
-  margin-bottom: 4px;
-  font-size: 0.9rem;
-  color: var(--text-main);
-}
-
-.manuscript-select {
-  width: 100%;
+.manuscript-checkboxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  margin: 8px 0;
   padding: 6px 8px;
-  margin-bottom: 8px;
   border: 1px solid var(--panel-border);
   border-radius: 4px;
-  background: var(--input-bg);
-  color: var(--text-main);
   font-size: 0.9rem;
+}
+.manuscript-checkboxes label {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
   cursor: pointer;
 }
-
-.viewers-container.hide-Y .viewer-section[data-witness="Y"],
-.viewers-container.hide-S .viewer-section[data-witness="S"],
-.viewers-container.hide-P .viewer-section[data-witness="P"] {
+.viewer-section[hidden], .witness-selection-empty[hidden] {
   display: none;
+}
+.witness-selection-empty {
+  color: var(--text-main);
+  padding: 8px;
 }
 
 /* When only one manuscript is selected make its viewer larger */

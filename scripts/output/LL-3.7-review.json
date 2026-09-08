@@ -1,0 +1,42 @@
+{
+  "witness": "LL",
+  "poem": "3.7",
+  "date": "2026-09-08",
+  "reviewer": "OpenAI Codex independent encode_s agent",
+  "review_type": "independent-second-agent-live-source-and-encoding-review",
+  "human_approved": false,
+  "line_coverage": {
+    "count": 84,
+    "ranges": [
+      {
+        "source": "The Latin Library, Amores III, VII",
+        "start": 1,
+        "end": 84
+      }
+    ]
+  },
+  "counts": {
+    "resolved": 0,
+    "documented-uncertainty": 0,
+    "escalate": 0
+  },
+  "previous_review_note_count": 0,
+  "notes": [],
+  "source": {
+    "url": "https://www.thelatinlibrary.com/ovid/ovid.amor3.shtml",
+    "live_retrieval": true,
+    "sha256": "514ae177539de56ff40b6c0b7890e460db0e3402cbc313e7747e45c33420798d",
+    "evidence": "/tmp/amores-ll37-review/source-live.html",
+    "comparison": "/tmp/amores-ll37-review/comparison.json"
+  },
+  "validation": {
+    "rng": "tei_all-4.12.0.rng",
+    "passed": true,
+    "consecutive_lines": 84,
+    "exact_source_line_matches": 84,
+    "facs_required": false,
+    "source_normalization": "HTML entities decoded; whitespace collapsed. No changes to punctuation, case or spelling."
+  },
+  "reviewed_xml_sha256": "bc80fe01d587638ede7153115d23bdc847d3adcc00d55db9ef1f83dbb8831f23",
+  "review_report_sha256": "9a761505cdb33f8d316eebd052086f47826eed6b1ff9e40a98f95fdd3302533b"
+}

@@ -1,0 +1,254 @@
+{
+  "witness": "P",
+  "poem": "3.7",
+  "date": "2026-09-08",
+  "reviewer": "OpenAI Codex independent review_y agent",
+  "review_type": "independent-second-agent-image-and-encoding-review",
+  "human_approved": false,
+  "line_coverage": {
+    "count": 84,
+    "ranges": [
+      {
+        "image": 91,
+        "page_position": "left",
+        "start": 1,
+        "end": 8
+      },
+      {
+        "image": 91,
+        "page_position": "right",
+        "start": 9,
+        "end": 36
+      },
+      {
+        "image": 92,
+        "page_position": "left",
+        "start": 37,
+        "end": 64
+      },
+      {
+        "image": 92,
+        "page_position": "right",
+        "start": 65,
+        "end": 84
+      }
+    ]
+  },
+  "counts": {
+    "documented-uncertainty": 8,
+    "escalate": 2,
+    "resolved": 5
+  },
+  "previous_review_note_count": 4,
+  "previous_review_note_dispositions": {
+    "documented-uncertainty": 2,
+    "escalate": 2
+  },
+  "notes": [
+    {
+      "note_id": "P-3.7-note-1",
+      "line": 1,
+      "status": "documented-uncertainty",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f91/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The enlarged A is supported. At the second at a small u-like letter stands above the baseline t and a dot lies below it; this is now recorded as a qualified substitution rather than only darker ink. The exact form and relationship remain low-certainty. A small mark also occurs above the first letter of uotis in line 2; its precise correction history is not established."
+      },
+      "change": "Encoded qualified underdotted t and supralinear u substitution.",
+      "target": "#P-3.7-l1"
+    },
+    {
+      "note_id": "P-3.7-note-6",
+      "line": 6,
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f91/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The faint group in effecti supports retaining an uncertain c. The source image does not establish a deletion or its cause. No erased earlier reading is reconstructed."
+      },
+      "change": "Independently reviewed note and recorded its evidence-based disposition.",
+      "target": "#P-3.7-l6"
+    },
+    {
+      "note_id": "P-3.7-note-13",
+      "line": 13,
+      "status": "documented-uncertainty",
+      "previous_type": "review",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f91/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The entire verse is visible: the short meæ-like group is followed directly by cicuta, with no room or visible separate word membra between them. Membra is therefore not supplied. The exact ligature in the short group remains uncertain, and li in gelida is darker."
+      },
+      "change": "Independently reviewed note and recorded its evidence-based disposition.",
+      "target": "#P-3.7-l13"
+    },
+    {
+      "note_id": "P-3.7-note-19",
+      "line": 19,
+      "status": "documented-uncertainty",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f91/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The decorated initial is difficult to identify independently of the following ud and et sign. P is now explicitly low-certainty rather than an assured reading. No separate ah is recoverable with confidence; the ornament is not silently converted to one."
+      },
+      "change": "Marked decorated initial P low-certainty.",
+      "target": "#P-3.7-l19"
+    },
+    {
+      "note_id": "P-3.7-note-23",
+      "line": 23,
+      "status": "escalate",
+      "previous_type": "review",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f91/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The added h after c is visible, but the baseline sequence and the small higher marks before candida remain difficult. The provisional lidetis has not been normalized to an expected name and numeral. The exact letters, possible second supralinear intervention, and word division remain a consequential unresolved cluster."
+      },
+      "change": "Independently reviewed note and recorded its evidence-based disposition.",
+      "target": "#P-3.7-l23"
+    },
+    {
+      "note_id": "P-3.7-note-29",
+      "line": 29,
+      "status": "documented-uncertainty",
+      "previous_type": "review",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f91/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "A second enlarged reading favors phenice over the first-pass phemee: the middle strokes appear to be n followed by i, and the final joined c/e-like forms carry a small lower curve. The full word remains low-certainty under unclear. Neither an unmarked confident reading nor the expected phoenicea is imposed."
+      },
+      "change": "Revised uncertain phemee to uncertain phenice.",
+      "target": "#P-3.7-l29"
+    },
+    {
+      "note_id": "P-3.7-note-36",
+      "line": 36,
+      "status": "escalate",
+      "previous_type": "review",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f91/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The enlarged line supports a qualified beginning Forsitan impatiens, followed by sit and latus; the final recognizable group is meum. This replaces unsupported first-pass Cor stupet iners sic lassi demtam. The intervening i-like stroke and darker joined signs remain partly illegible and are not silently reconstructed as a complete phrase. The right-margin iis-like mark is retained separately. A secure complete reading remains unresolved."
+      },
+      "change": "Replaced unsupported word groups with qualified partial reading and illegible gap.",
+      "target": "#P-3.7-l36"
+    },
+    {
+      "note_id": "P-3.7-note-39",
+      "line": 39,
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f92/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The visible baseline supports Ad quale uidi tantum tetigique puellam. The marginal titici-like annotation remains unclear and unexpanded; the image does not establish a substitution relationship."
+      },
+      "change": "Independently reviewed note and recorded its evidence-based disposition.",
+      "target": "#P-3.7-l39"
+    },
+    {
+      "note_id": "P-3.7-note-51",
+      "line": 51,
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f92/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The right-margin annotation and adjoining strokes remain uncertain and schematically recorded. The baseline et ligature in ar& is now represented consistently with the other declared et signs. No marginal expansion or correction relationship is imposed."
+      },
+      "change": "Independently reviewed note and recorded its evidence-based disposition.",
+      "target": "#P-3.7-l51"
+    },
+    {
+      "note_id": "P-3.7-note-57",
+      "line": 57,
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f92/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The final nasal suspension over u is visible. The TEI durū/durum choice is supported, with the abbreviation shown in the single manuscript display."
+      },
+      "change": "Independently reviewed note and recorded its evidence-based disposition.",
+      "target": "#P-3.7-l57"
+    },
+    {
+      "note_id": "P-3.7-note-63",
+      "line": 63,
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f92/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The visible sequence supports Atque non tacita formaui gaudia mente. Word segmentation is editorial; the source is not silently changed to an expected quae reading."
+      },
+      "change": "Independently reviewed note and recorded its evidence-based disposition.",
+      "target": "#P-3.7-l63"
+    },
+    {
+      "note_id": "P-3.7-note-64",
+      "line": 64,
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f92/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "A small interlinear character above the i in fixi is visible, shaped like an n/u form. The tentative added n remains low-certainty; it is not replaced by an asserted nasal bar and no correcting hand is assigned."
+      },
+      "change": "Independently reviewed note and recorded its evidence-based disposition.",
+      "target": "#P-3.7-l64"
+    },
+    {
+      "note_id": "P-3.7-note-79",
+      "line": 79,
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f92/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The baseline ramis and separate right-margin LANIS are visible. Both are retained without asserting deletion or formal substitution. The baseline aea remains as transcribed rather than automatically regularized to aeaea."
+      },
+      "change": "Independently reviewed note and recorded its evidence-based disposition.",
+      "target": "#P-3.7-l79"
+    },
+    {
+      "note_id": "P-3.7-note-40",
+      "line": 40,
+      "status": "resolved",
+      "previous_type": null,
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f92/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "Visible et signs are consistently encoded as abbreviation/expansion choices at 40 and 45 (&iam), 51 (ar&), 52 (hab&), 61 (iuu& and cant&), 73 (&iam) and 76 (uid&). These replace silently expanded et strings in the first pass; the ordinary allograph policy remains unchanged."
+      },
+      "change": "Encoded eight et occurrences across seven lines.",
+      "target": "#P-3.7-l40"
+    },
+    {
+      "note_id": "P-3.7-note-60",
+      "line": 60,
+      "status": "resolved",
+      "previous_type": null,
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f92/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The enlarged image reads nec uir after uixi; the first-pass neque uir is unsupported. Corrected to nec while preserving the earlier neque in the same line."
+      },
+      "change": "Corrected second neque to nec.",
+      "target": "#P-3.7-l60"
+    }
+  ],
+  "validation": {
+    "schema": "docs/schema/tei_all-4.12.0.rng",
+    "schema_result": "passed xmllint Relax NG",
+    "verse_lines": 84,
+    "facsimile_zones": 84,
+    "unique_ids": true,
+    "local_references_resolve": true
+  },
+  "reviewed_xml_sha256": "fa860eb82a15ed4b68791421974f0bf6c511fcfb9c97e8c4a3ec6b22c7d83705",
+  "review_report_sha256": "bbc766fe62b373e61d56b502a152e0a006ff7c660541aa8f9cc650b110f86582"
+}

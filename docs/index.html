@@ -7,6 +7,7 @@
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏛️</text></svg>">
   <!-- link to our CSS -->
   <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/transcription.css" />
 </head>
 <body>
   <!-- Header + Navigation -->
@@ -68,6 +69,7 @@
         <option value="P">P</option>
         <option value="Y">Y</option>
         <option value="S">S</option>
+        <option value="O">O</option>
         <option value="LL">LL</option>
       </select>
       <div id="text-content" class="text-content">
@@ -97,6 +99,7 @@
         <button data-witness="P">Witness P</button>
         <button data-witness="Y">Witness Y</button>
         <button data-witness="S">Witness S</button>
+        <button data-witness="O" title="O — Teubner 1888 (printed edition)">Witness O</button>
       </div>
 
       <div class="single-viewer-wrapper">
@@ -179,8 +182,8 @@
           <summary><h3>Viewing the Manuscripts</h3></summary>
           <div class="accordion-content-nested">
             <ul>
-              <li><strong>Single Manuscript Viewer:</strong> Select a poem in the viewer panel, then choose P, Y, or S to open that manuscript at the mapped page. The viewer includes zoom and page-navigation controls.</li>
-              <li><strong>Line-by-line Viewer:</strong> Select a poem and choose whether to display all three manuscripts or a single witness. Clicking a line in a transcription panel moves each available manuscript view to that line.</li>
+              <li><strong>Single Manuscript Viewer:</strong> Select a poem in the viewer panel, then choose P, Y, S, or O to open that witness at the mapped page. O is the <a href="https://archive.org/details/operaovid03oviduoft/page/44/mode/2up" target="_blank" rel="noopener noreferrer">Teubner 1888 printed edition</a>. The viewer includes zoom and page-navigation controls.</li>
+              <li><strong>Line-by-line Viewer:</strong> Select a poem and use the witness checkboxes to choose any combination of P, Y, S, and O. P, Y, and S are checked by default. Clicking a line in a transcription panel moves each selected witness with an annotation to that line.</li>
               <li>The line-by-line viewer follows the poem selected in the transcription automatically, while other panel selectors remain independent.</li>
             </ul>
           </div>
@@ -191,8 +194,8 @@
           <div class="accordion-content-nested">
             <ol>
               <li>Set one panel to <strong>Transcription</strong> and another to <strong>Line-by-line Viewer</strong>.</li>
-              <li>Choose a poem and witness in the transcription, then click any numbered line. Every manuscript with an annotation for that line moves to the corresponding passage and highlights the active line while retaining nearby context.</li>
-              <li>Use the <strong>View</strong> menu to compare P, Y, and S together or enlarge a single manuscript.</li>
+              <li>Choose a poem and witness in the transcription, then click any numbered line. Every selected witness with an annotation for that line moves to the corresponding passage and highlights the active line while retaining nearby context.</li>
+              <li>Use the <strong>Witnesses</strong> checkboxes to compare any combination, include printed witness O, or enlarge a single selected witness.</li>
               <li>For annotation work, open <strong>Tools</strong>, choose the target manuscript, select a transcription line, and click <strong>Start annotation</strong>. Drag a box over the matching manuscript line, then export the JSON when finished.</li>
             </ol>
             <p>Annotation edits remain in the current browser until exported; they do not change the published dataset automatically.</p>
@@ -260,6 +263,7 @@
   <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.14.0/Sortable.min.js"></script>
   <script src="js/CETEI.js"></script>
   <script src="js/data.js"></script>
+  <script src="js/transcription.js"></script>
   <script src="js/script.js"></script>
   <script src="js/help.js"></script>
 </body>

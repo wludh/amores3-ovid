@@ -2,6 +2,7 @@ const witnessFiles = {
   P: 'data/witness-P.xml',
   Y: 'data/witness-Y.xml',
   S: 'data/witness-S.xml',
+  O: 'data/witness-O.xml',
   LL: 'data/witness-LL.xml'
 };
 
@@ -23,7 +24,13 @@ const companionData = {
   '3.15': { commentary: '' },
 };
 
+// O: Ehwald/Merkel, Teubner 1888; scan title is Tom. I despite archive volume metadata.
+const witnessSources = {
+  O: { label: 'O — Teubner 1888 (printed edition)', url: 'https://archive.org/details/operaovid03oviduoft/page/44/mode/2up' }
+};
+
 const witnessPageData = {
+  'O': [92, 94, 96, 98, 99, 100, 103, 105, 107, 109, 110, 112, 113, 114, 115],
   //note for these they navigate to n+1 page number
   'P': [
     83, // 3.1

@@ -82,6 +82,33 @@ XML is a markup language that uses tags to describe data. It looks similar to HT
 
 ## Updating IIIF Manifests
 
+Witness **O** is the Teubner 1888 printed edition edited by R. Ehwald from
+R. Merkel's recension, available in the [supplied Internet Archive scan](https://archive.org/details/operaovid03oviduoft/page/44/mode/2up).
+The scanned title page says *Tom. I, Amores*; the archive's volume-3 catalog
+metadata is misleading. Its local IIIF manifest uses Presentation/Image API 3.
+O is available in both image viewers; it does not have a diplomatic transcription.
+
+The line-by-line viewer provides independent witness checkboxes. P, Y, and S
+are selected by default; O can be added or viewed alone. Choices are preserved
+when changing a panel's type.
+
+All 870 Book III lines have O image-region annotations, appended after the
+original 2,659 records in `docs/data/annotations.json`. Existing manuscript
+annotations are preserved. Annotation `page` is **one based**, whereas
+`witnessPageData`, IIIF canvas indices, and the OCR audit use **zero based**
+indices. Coordinates are full-resolution image pixels, not thumbnail pixels.
+
+The source OCR rectangles and page/scan-leaf mapping are retained in
+`scripts/sources/witness-O-ocr.json`. Rebuild the two reviewed O annotation
+fragments with `python3 scripts/annotate-o-first.py` and
+`python3 scripts/annotate-o-last.py`; the outputs and alignment evidence are
+in `scripts/output/`. Preserve the original manuscript records when updating
+the published array. The reviews document the transposition in 3.1 and the
+XIb division in 3.11. These annotations map image regions, not scholarly notes.
+
+Run `npm test` to verify complete O coverage, rectangles against actual OCR
+pages, page/scan correspondence, and preservation of the original dataset.
+
 The website uses IIIF manifests from external libraries to display manuscript images. These are pre-fetched and stored locally in the `docs/data/iiif-manifests/` directory.
 
 If you need to refresh this data (for example, if a library has updated its manifest), you must run the following commands from the project's root directory:
@@ -95,6 +122,14 @@ If you need to refresh this data (for example, if a library has updated its mani
     node fetch-manifests.js
     ```
 This will download the latest versions of the manifests and update the local files. After running the script, you should commit the updated JSON files to your repository.
+
+## Amores 3.7 TEI trial
+
+Run `npm run dev`, then open [the 3.7 trial](http://localhost:4173/?poem=3.7&witness=Y&layout=compare). P, Y, S, O and LL have independently reviewed transcriptions. S preserves 74 extant verses and explicitly marks its absent ending. The reading panel has one source-oriented display, a collapsed **Find alterations** control, and a **TEI** link with return navigation and XML download.
+
+Run `npm run validate:tei` to check all five trial files against TEI P5 4.12.0, source-line coverage, internal references, note dispositions and review hashes. Run `npm test` for the site's regression checks. The validator is currently scoped to the 3.7 pilot; extend its coverage configuration as additional poems are enrolled in the workflow.
+
+See [the encoding workflow](docs/encoding-workflow.md), [the independent review summary](scripts/output/3.7-review-status.md), and [the browser verification record](scripts/output/3.7-site-verification.md). Project instructions require a separate source-reading agent before future transcription handoffs. Uncertain source evidence remains encoded; only consequential editorial decisions are escalated.
 
 ## Quick Reference: Editing and Pushing Changes to GitHub
 

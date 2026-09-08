@@ -1,0 +1,427 @@
+{
+  "witness": "S",
+  "poem": "3.7",
+  "reviewer": "OpenAI Codex independent encode_p agent",
+  "reviewedDate": "2026-09-08",
+  "status": "second-pass-complete",
+  "scope": {
+    "extantLinesReviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74
+    ],
+    "absentCanonicalLines": [
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84
+    ],
+    "sourcePages": [
+      395,
+      396,
+      397
+    ]
+  },
+  "firstPassSHA256": "8da2859cf96e704c646de8e5afd124c4ef1bc05c2e8cbd69ff59e10db0488d38",
+  "reviewedSHA256": "4828b78bfa8915d3163fbd803ad788b59f82e7c8bb5c155309d9635048d40fe7",
+  "humanActions": [],
+  "dispositions": [
+    {
+      "line": 3,
+      "disposition": "corrected",
+      "evidence": "/tmp/amores-s37/line-3.jpg",
+      "reason": "Independent second reading corrects the first-pass in molli to in nullos: the ending is visibly s-like and the tall paired shafts support ll. The dense middle of nullos remains uncertain. No hidden earlier reading or historical hand is asserted."
+    },
+    {
+      "line": 27,
+      "disposition": "retained-source-uncertainty",
+      "evidence": "/tmp/amores-s37/line-27.jpg",
+      "reason": "Second reading confirms that the post-N trace is faint and u-shaped; no additional ending or contraction mark can be securely recovered. The local unclear is retained rather than normalizing to num."
+    },
+    {
+      "line": 28,
+      "disposition": "retained-source-uncertainty",
+      "evidence": "/tmp/amores-s37/line-28.jpg",
+      "reason": "Second reading confirms the dark stain on or in Corpora. The neighbouring letters support the word, but the obscured traces remain locally unclear."
+    },
+    {
+      "line": 29,
+      "disposition": "retained-source-uncertainty",
+      "evidence": "/tmp/amores-s37/line-29.jpg",
+      "reason": "Second reading confirms staining on ag in Saga. The retained local unclear records the physical limitation and does not create an editorial task."
+    },
+    {
+      "line": 39,
+      "disposition": "resolved",
+      "evidence": "/tmp/amores-s37/line-39.jpg",
+      "reason": "Enlarged independent inspection resolves uidi, so the first-pass unclear was removed. The final puella is retained without supplying final m."
+    },
+    {
+      "line": 41,
+      "disposition": "corrected",
+      "evidence": "/tmp/amores-s37/line-41.jpg",
+      "reason": "Independent inspection reads the final word as written possit, with a clear i and terminal t. First-pass possēt/posset was corrected; no suspension is asserted."
+    },
+    {
+      "line": 48,
+      "disposition": "corrected",
+      "evidence": "/tmp/amores-s37/zoom-48.png",
+      "reason": "Independent inspection reads the sign before fui as joined e+t. The first-pass barred-e abbreviation was replaced with written et."
+    },
+    {
+      "line": 61,
+      "disposition": "corrected",
+      "evidence": "/tmp/amores-s37/line-61.jpg",
+      "reason": "Independent inspection finds cancellation of the ending after sur and a small a below. The encoded dis/a records visible traces without manufacturing an additional written das. The final word before aures is abbreviated, tentatively psaltꝛ/psalter; the initial sequence and sign remain uncertain. Its identification as an instrument is not asserted."
+    },
+    {
+      "line": 68,
+      "disposition": "retained-source-uncertainty",
+      "evidence": "/tmp/amores-s37/line-68.jpg",
+      "reason": "The displayed exposcīt abbreviation is retained; its first-pass expansion exposcit is marked low-certainty because the supralinear stroke may imply an omitted nasal. No normalized plural has been silently inserted."
+    },
+    {
+      "line": 23,
+      "disposition": "confirmed",
+      "reason": "Names chide and phito confirmed; no regularization."
+    },
+    {
+      "line": 51,
+      "disposition": "confirmed",
+      "reason": "tacta confirmed as visible; retained unusual witness reading."
+    },
+    {
+      "line": 67,
+      "disposition": "confirmed",
+      "reason": "intēpestiua confirmed; first-pass internal resolution accepted."
+    },
+    {
+      "line": 69,
+      "disposition": "confirmed",
+      "reason": "Quid habes confirmed; no normalization to a different witness."
+    },
+    {
+      "line": 74,
+      "disposition": "confirmed",
+      "reason": "Last verse and immediately following blank page confirmed; terminal gap75–84 retained."
+    }
+  ],
+  "validation": {
+    "schema": "TEI P5 4.12.0 tei_all RelaxNG",
+    "status": "passed",
+    "extantLineCount": 74,
+    "zoneCount": 74,
+    "allFacsimileLinksResolve": true,
+    "humanReviewNotes": 0,
+    "rng": "tei_all-4.12.0.rng",
+    "passed": true,
+    "consecutive_lines": 74,
+    "resolved_facs_links": 74
+  },
+  "date": "2026-09-08",
+  "review_type": "independent-second-agent-image-and-encoding-review",
+  "human_approved": false,
+  "line_coverage": {
+    "count": 74,
+    "ranges": [
+      {
+        "page": "395",
+        "start": 1,
+        "end": 31
+      },
+      {
+        "page": "396",
+        "start": 32,
+        "end": 74
+      }
+    ],
+    "absent_ranges": [
+      {
+        "start": 75,
+        "end": 84,
+        "evidence_pages": [
+          "396",
+          "397"
+        ]
+      }
+    ]
+  },
+  "previous_review_note_count": 0,
+  "notes": [
+    {
+      "note_id": "S-3.7-note-1",
+      "target": "#S-3.7-l1",
+      "line": 1,
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "395",
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_395.jp2/full/full/0/default/jpg",
+        "local_image": "/tmp/amores-s37/395.jpg",
+        "assessment": "A small a appears at the left beside the first verse, with a large unfilled space before t. Encoded as the visible guide letter and space rather than inventing a decorated initial."
+      },
+      "change": "Confirmed source observation during independent second reading."
+    },
+    {
+      "note_id": "S-3.7-note-3",
+      "target": "#S-3.7-l3",
+      "line": 3,
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "395",
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_395.jp2/full/full/0/default/jpg",
+        "local_image": "/tmp/amores-s37/395.jpg",
+        "assessment": "Independent second reading corrects the first-pass in molli to in nullos: the ending is visibly s-like and the tall paired shafts support ll. The dense middle of nullos remains uncertain. No hidden earlier reading or historical hand is asserted.",
+        "detail": "/tmp/amores-s37/line-3.jpg"
+      },
+      "change": "corrected"
+    },
+    {
+      "note_id": "S-3.7-note-23",
+      "target": "#S-3.7-l23",
+      "line": 23,
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "395",
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_395.jp2/full/full/0/default/jpg",
+        "local_image": "/tmp/amores-s37/395.jpg",
+        "assessment": "The visible names read chide and phito in this witness; they have not been silently regularized to forms from another witness."
+      },
+      "change": "confirmed"
+    },
+    {
+      "note_id": "S-3.7-note-27",
+      "target": "#S-3.7-l27",
+      "line": 27,
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "395",
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_395.jp2/full/full/0/default/jpg",
+        "local_image": "/tmp/amores-s37/395.jpg",
+        "assessment": "Second reading confirms that the post-N trace is faint and u-shaped; no additional ending or contraction mark can be securely recovered. The local unclear is retained rather than normalizing to num.",
+        "detail": "/tmp/amores-s37/line-27.jpg"
+      },
+      "change": "retained-source-uncertainty"
+    },
+    {
+      "note_id": "S-3.7-note-28",
+      "target": "#S-3.7-l28",
+      "line": 28,
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "395",
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_395.jp2/full/full/0/default/jpg",
+        "local_image": "/tmp/amores-s37/395.jpg",
+        "assessment": "Second reading confirms the dark stain on or in Corpora. The neighbouring letters support the word, but the obscured traces remain locally unclear.",
+        "detail": "/tmp/amores-s37/line-28.jpg"
+      },
+      "change": "retained-source-uncertainty"
+    },
+    {
+      "note_id": "S-3.7-note-29",
+      "target": "#S-3.7-l29",
+      "line": 29,
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "395",
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_395.jp2/full/full/0/default/jpg",
+        "local_image": "/tmp/amores-s37/395.jpg",
+        "assessment": "Second reading confirms staining on ag in Saga. The retained local unclear records the physical limitation and does not create an editorial task.",
+        "detail": "/tmp/amores-s37/line-29.jpg"
+      },
+      "change": "retained-source-uncertainty"
+    },
+    {
+      "note_id": "S-3.7-note-39",
+      "target": "#S-3.7-l39",
+      "line": 39,
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "396",
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_396.jp2/full/full/0/default/jpg",
+        "local_image": "/tmp/amores-s37/396.jpg",
+        "assessment": "Enlarged independent inspection resolves uidi, so the first-pass unclear was removed. The final puella is retained without supplying final m.",
+        "detail": "/tmp/amores-s37/line-39.jpg"
+      },
+      "change": "resolved"
+    },
+    {
+      "note_id": "S-3.7-note-61",
+      "target": "#S-3.7-l61",
+      "line": 61,
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "396",
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_396.jp2/full/full/0/default/jpg",
+        "local_image": "/tmp/amores-s37/396.jpg",
+        "assessment": "Independent inspection finds cancellation of the ending after sur and a small a below. The encoded dis/a records visible traces without manufacturing an additional written das. The final word before aures is abbreviated, tentatively psaltꝛ/psalter; the initial sequence and sign remain uncertain. Its identification as an instrument is not asserted.",
+        "detail": "/tmp/amores-s37/line-61.jpg"
+      },
+      "change": "corrected"
+    },
+    {
+      "note_id": "S-3.7-note-67",
+      "target": "#S-3.7-l67",
+      "line": 67,
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "396",
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_396.jp2/full/full/0/default/jpg",
+        "local_image": "/tmp/amores-s37/396.jpg",
+        "assessment": "The crowded sequence after uiget is read intēpestiua, with the contraction expanded as intempestiua. Enlarged inspection resolves this without a human-review action."
+      },
+      "change": "confirmed"
+    },
+    {
+      "note_id": "S-3.7-note-74",
+      "target": "#S-3.7-l74",
+      "line": 74,
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "396",
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_396.jp2/full/full/0/default/jpg",
+        "local_image": "/tmp/amores-s37/396.jpg",
+        "assessment": "This is the last written verse at the foot of page 396. The next manifest canvas, page 397, is blank. Together with the catalogue statement that Amores is incomplete at the end, this supports an explicit terminal gap for canonical verses 75–84. It does not establish when or how the text ceased to be transmitted."
+      },
+      "change": "confirmed"
+    },
+    {
+      "note_id": "S-3.7-note-41",
+      "target": "#S-3.7-l41",
+      "line": 41,
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "396",
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_396.jp2/full/full/0/default/jpg",
+        "local_image": "/tmp/amores-s37/396.jpg",
+        "assessment": "Independent inspection reads the final word as written possit, with a clear i and terminal t. First-pass possēt/posset was corrected; no suspension is asserted.",
+        "detail": "/tmp/amores-s37/line-41.jpg"
+      },
+      "change": "corrected"
+    },
+    {
+      "note_id": "S-3.7-note-48",
+      "target": "#S-3.7-l48",
+      "line": 48,
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "396",
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_396.jp2/full/full/0/default/jpg",
+        "local_image": "/tmp/amores-s37/396.jpg",
+        "assessment": "Independent inspection reads the sign before fui as joined e+t. The first-pass barred-e abbreviation was replaced with written et.",
+        "detail": "/tmp/amores-s37/zoom-48.png"
+      },
+      "change": "corrected"
+    },
+    {
+      "note_id": "S-3.7-note-68",
+      "target": "#S-3.7-l68",
+      "line": 68,
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "396",
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_396.jp2/full/full/0/default/jpg",
+        "local_image": "/tmp/amores-s37/396.jpg",
+        "assessment": "The displayed exposcīt abbreviation is retained; its first-pass expansion exposcit is marked low-certainty because the supralinear stroke may imply an omitted nasal. No normalized plural has been silently inserted.",
+        "detail": "/tmp/amores-s37/line-68.jpg"
+      },
+      "change": "retained-source-uncertainty"
+    }
+  ],
+  "counts": {
+    "resolved": 7,
+    "documented-uncertainty": 6,
+    "escalate": 0
+  },
+  "reviewed_xml_sha256": "b2b9d6b53cb88121aeccfdc94534451167903c0c5aa143c38b182d983d4a17a5",
+  "review_report_sha256": "2afa1a06b5ddfb8989846257ec181a4235139cd693ce7a8bf0183d84b8adc3e9"
+}
