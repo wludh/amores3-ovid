@@ -305,5 +305,6 @@
     "local_references_resolve": true
   },
   "reviewed_candidate_sha256": "a1bfc741890597f356d5990d11badbc37141fd6222e12f145f0ad1b2fcf39eb4",
-  "review_report_sha256": "f5f1215cc6b93ec96425637d2cee74dedbae1f032cf8eb3010cb6beac5b6b284"
+  "review_report_sha256": "f5f1215cc6b93ec96425637d2cee74dedbae1f032cf8eb3010cb6beac5b6b284",
+  "reviewed_xml_sha256": "ec5e5046652abab11b03fdccf311f52380e9d49204cada8f6ddbeb418aff4ad1"
 }

@@ -282,5 +282,6 @@
   },
   "first_pass_sha256": "2aef6ca677f5496dbb98367c77f51a97423a8bb356bd37203f947a02a9c7af22",
   "reviewed_candidate_sha256": "9cd42192cb4b67f4c6f7eeec4533f61feede378da3259e3c3d64c5ff5799a124",
-  "review_report_sha256": "d3b0b3f83d9639d4f5b8d957f9957fb502ba4510182a44de21505da7014c3cf9"
+  "review_report_sha256": "d3b0b3f83d9639d4f5b8d957f9957fb502ba4510182a44de21505da7014c3cf9",
+  "reviewed_xml_sha256": "a8dd533ede4f39b523875fcd759a97e75cc4adca5f24aedb4bfcde775a86b87f"
 }

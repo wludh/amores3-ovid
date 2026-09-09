@@ -1,0 +1,23 @@
+{
+  "page_headers": {
+    "100": "AMORUM",
+    "101": "III, IIII, 38 — VI, 15."
+  },
+  "headings": {
+    "1": "V."
+  },
+  "notes": {
+    "1": "The print opens a quoted passage before Nox, closing it after ferant at32. This source punctuation is retained, rather than limiting quotation to the explicit request at31.",
+    "6": "The source prints Umida without an initial h. This spelling is retained.",
+    "8": "The entire parenthetical verse is printed in parentheses. It remains an extant verse rather than a deletion or an editorial note.",
+    "14": "The source places commas after siccatam and lacte. The unusual punctuation is retained as printed.",
+    "18": "The source reads Atque iterum pasto pascitur ante cibo, with pasto and ante retained in that order.",
+    "25": "The source prints relinquit here, while reliquit appears at41. The page break occurs between verses25 and26.",
+    "26": "The source prints Sed niger in vaccae pectore livor erat as a parenthetical verse. The parentheses do not themselves assert manuscript cancellation.",
+    "28": "The complete verse Carpebant tauri pabula laeta procul is parenthesized in the print and retained.",
+    "35": "The interpreter’s quoted response opens before Quem at35 and closes after negant at44. Its punctuation is encoded in place.",
+    "37": "The printed contraction tuast is preserved without expansion.",
+    "41": "The source reads Quod cunctata diu taurum sua vacca reliquit. Its wording and tense are retained.",
+    "42": "The print reads destituere, not a supplied alternative verbal ending. This is retained as a source reading."
+  }
+}

@@ -65,6 +65,7 @@ body.dark-mode .tei-edition {
 .text-content .tei-edition tei-l.highlight { background: color-mix(in srgb, var(--review) 15%, transparent); }
 .text-content .tei-edition tei-hi[rend~="initial"] { font-size: 1.85em; line-height: 0; font-weight: 400; vertical-align: -.04em; }
 .text-content .tei-edition tei-hi[rend~="line-initial"] { font-size: 1.15em; }
+.text-content .tei-edition tei-hi[rend~="smaller-script"] { font-size: .8em; }
 .text-content .tei-edition tei-hi[rend~="darker-ink"], .tei-edition tei-add { color: var(--later-ink); font-weight: 500; }
 .tei-edition tei-seg[type="word"] { display: inline-block; }
 .tei-edition .interlinear { position: relative; display: inline-block; width: 0; overflow: visible; vertical-align: baseline; }

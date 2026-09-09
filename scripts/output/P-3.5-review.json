@@ -1,0 +1,497 @@
+{
+  "witness": "P",
+  "poem": "3.5",
+  "date": "2026-09-09",
+  "author_agent": "/root/encode_p",
+  "reviewer_agent": "/root/review_y",
+  "reviewer": "OpenAI Codex independent review_y agent",
+  "review_type": "independent-second-agent-image-and-encoding-review",
+  "human_approved": false,
+  "line_coverage": {
+    "count": 46,
+    "ranges": [
+      {
+        "image": 88,
+        "page_position": "right",
+        "start": 1,
+        "end": 20
+      },
+      {
+        "image": 89,
+        "page_position": "left",
+        "start": 21,
+        "end": 46
+      }
+    ]
+  },
+  "line_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "counts": {
+    "resolved": 0,
+    "documented-uncertainty": 31,
+    "escalate": 0
+  },
+  "previous_note_count": 31,
+  "notes": [
+    {
+      "note_id": "P-3.5-note-1",
+      "line": 1,
+      "target": "#P-3.5-l1",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f88/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The initial N and two marginal lines are visible. SOMN is distinguishable, but the final letter of the first marginal line cannot safely be fixed as I; it is now a local gap. The second marginal line remains a gap."
+      },
+      "change": "Source-supported revision to the partial transcription and corresponding evidence note; see assessment."
+    },
+    {
+      "note_id": "P-3.5-note-7",
+      "line": 7,
+      "target": "#P-3.5-l7",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f88/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The enlarged centre retains a plausible uitabam, with a disturbed and faint letter sequence. The unclear element appropriately avoids an asserted erased prior reading."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.5-note-8",
+      "line": 8,
+      "target": "#P-3.5-l8",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f88/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The end has distinguishable traces compatible with aestus erat, but contrast remains weak. Both words remain unclear."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.5-note-10",
+      "line": 10,
+      "target": "#P-3.5-l10",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f88/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The two words after oculos remain compatible with candida uacca under local discoloration; their uncertainty is retained."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.5-note-15",
+      "line": 15,
+      "target": "#P-3.5-l15",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f88/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The first three words are markedly fainter than huic and the following clause. Taurus erat comes remains a tentative reading rather than unqualified text."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.5-note-16",
+      "line": 16,
+      "target": "#P-3.5-l16",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f88/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The enlarged opening is compatible with Cumque sua tenerum but does not justify removing the uncertainty. The remainder is more legible."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.5-note-17",
+      "line": 17,
+      "target": "#P-3.5-l17",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f88/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The left stain crosses Dum iacet. The following et sign and ruminat herbas remain visible; no cancellation can be inferred from the stain."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.5-note-18",
+      "line": 18,
+      "target": "#P-3.5-l18",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f88/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The opening is obscured; the tentative Atque iterum pasto and clearer later pascitur ante cibo reflect the contrast difference."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.5-note-19",
+      "line": 19,
+      "target": "#P-3.5-l19",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f88/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "Inspected the whole bottom-page line and enlarged opening. Residual opening letters do not form defensible words; the terminal adimente ferendi remains tentative. The gap is photographic illegibility, not witness omission."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.5-note-20",
+      "line": 20,
+      "target": "#P-3.5-l20",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f88/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The lower margin and stain obscure the beginning. The surviving deposuisse caput is retained with the former word qualified; no complete expected verse was supplied."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.5-note-21",
+      "line": 21,
+      "target": "#P-3.5-l21",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f89/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The physical page begins at this verse. Auras at the right fades into the parchment. The complete written sequence continues through line 46 before the next initial."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.5-note-22",
+      "line": 22,
+      "target": "#P-3.5-l22",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f89/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "Venit remains extremely pale. The following sign has the manuscript et form, unlike the separate letter sequence at line 28."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.5-note-28",
+      "line": 28,
+      "target": "#P-3.5-l28",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f89/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The word after Carpitur consists of separate letters compatible with aut, not the et ligature represented in the first pass. The following ending looks closer to pabula than pabulo; both words remain tentative. Laeta is not sufficiently supported by the following traces and has been withdrawn into the ending gap."
+      },
+      "change": "Source-supported revision to the partial transcription and corresponding evidence note; see assessment."
+    },
+    {
+      "note_id": "P-3.5-note-29",
+      "line": 29,
+      "target": "#P-3.5-l29",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f89/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The line opening remains too faded for a defensible word. Gregibus and final illis are visible, while se immiscuit remains qualified."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.5-note-30",
+      "line": 30,
+      "target": "#P-3.5-l30",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f89/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The hole or bright surface loss lies within a large dark patch. Herbae felicior to its left remains tentative; the remaining traces cannot safely supply continuous words. No deliberate deletion is claimed."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.5-note-31",
+      "line": 31,
+      "target": "#P-3.5-l31",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f89/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "Reviewed the entire verse again with contrast enhancement. The central excussere remains tentative and the adjacent weak traces do not support a continuous reading. The pending second-reader request is replaced with this completed assessment."
+      },
+      "change": "Completed second-reader assessment replaces the first-pass or pending-review description; conservative text retained."
+    },
+    {
+      "note_id": "P-3.5-note-32",
+      "line": 32,
+      "target": "#P-3.5-l32",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f89/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The left patch and low contrast prevent continuous reading. The central uidisse remains the defensible tentative fragment; residual isolated strokes are not expanded into words."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.5-note-33",
+      "line": 33,
+      "target": "#P-3.5-l33",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f89/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The source supports tentative fidem amid the stain and pale adjoining writing. Surrounding traces are not enough to establish their word boundaries and complete readings."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.5-note-34",
+      "line": 34,
+      "target": "#P-3.5-l34",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f89/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The enlarged centre supports tentative animo before singula and dicta after it. These two additional visible words are now retained as unclear; the surrounding gaps remain."
+      },
+      "change": "Source-supported revision to the partial transcription and corresponding evidence note; see assessment."
+    },
+    {
+      "note_id": "P-3.5-note-35",
+      "line": 35,
+      "target": "#P-3.5-l35",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f89/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "After tale est simulacrum, the enlarged image supports tentative noctis. That word is now retained under unclear, while the outer fragments remain gaps."
+      },
+      "change": "Source-supported revision to the partial transcription and corresponding evidence note; see assessment."
+    },
+    {
+      "note_id": "P-3.5-note-36",
+      "line": 36,
+      "target": "#P-3.5-l36",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f89/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The stained opening and pale continuation do not support a reliable continuous reading. The first-pass consule remains tentative; no additional clause is inferred from familiar Latin."
+      },
+      "change": "Completed second-reader assessment replaces the first-pass or pending-review description; conservative text retained."
+    },
+    {
+      "note_id": "P-3.5-note-37",
+      "line": 37,
+      "target": "#P-3.5-l37",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f89/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The central est and final puella remain visible. The intervening faded sequence does not safely support a complete additional word; the gap remains."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.5-note-38",
+      "line": 38,
+      "target": "#P-3.5-l38",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f89/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The enlarged line has pale isolated strokes outside the large stain, but no complete word I can independently establish. Its extant physical position remains represented by a verse gap."
+      },
+      "change": "Completed second-reader assessment replaces the first-pass or pending-review description; conservative text retained."
+    },
+    {
+      "note_id": "P-3.5-note-39",
+      "line": 39,
+      "target": "#P-3.5-l39",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f89/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The large stain crosses most of this verse. Surviving pale right-side strokes do not independently establish a complete word; the extant verse gap is retained."
+      },
+      "change": "Completed second-reader assessment replaces the first-pass or pending-review description; conservative text retained."
+    },
+    {
+      "note_id": "P-3.5-note-40",
+      "line": 40,
+      "target": "#P-3.5-l40",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f89/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The right-side amore remains tentative. The darker angled mark is visible but does not establish an added letter, hand, or correction sequence."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.5-note-41",
+      "line": 41,
+      "target": "#P-3.5-l41",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f89/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The final right-side word has traces compatible with cupido and is recoverable tentatively in the enlarged image. It now replaces the end of the whole-verse gap under unclear; the opening remains illegible."
+      },
+      "change": "Source-supported revision to the partial transcription and corresponding evidence note; see assessment."
+    },
+    {
+      "note_id": "P-3.5-note-42",
+      "line": 42,
+      "target": "#P-3.5-l42",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f89/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The line remains physically present. Enlarged surviving letter groups do not support defensible complete words independently; the verse gap remains without claiming omission."
+      },
+      "change": "Completed second-reader assessment replaces the first-pass or pending-review description; conservative text retained."
+    },
+    {
+      "note_id": "P-3.5-note-43",
+      "line": 43,
+      "target": "#P-3.5-l43",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f89/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The tall left L is visible but the attached continuation is not secure. It remains unclear with a gap for the remainder; no full verse is reconstructed from its initial."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.5-note-44",
+      "line": 44,
+      "target": "#P-3.5-l44",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f89/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "Diu remains the defensible tentative fragment. The other pale groups do not justify completing words, and the rest remains explicit gaps."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.5-note-45",
+      "line": 45,
+      "target": "#P-3.5-l45",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f89/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "Dixerat is clear; interpres gelido mihi remains tentative where the stain spreads rightward. The dark final area remains a gap."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.5-note-46",
+      "line": 46,
+      "target": "#P-3.5-l46",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f89/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The lower-right stain obscures the end of the final verse. Oculos remains tentative. The separate initial below establishes the following poem boundary without supplying missing readings."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    }
+  ],
+  "validation": {
+    "schema": "docs/schema/tei_all-4.12.0.rng",
+    "schema_result": "passed xmllint Relax NG",
+    "verse_lines": 46,
+    "facsimile_zones": 46,
+    "unique_ids": true,
+    "local_references_resolve": true
+  },
+  "reviewed_candidate_sha256": "9dc16fb2153595e8689ad261b9c4a59c9c68b63a6e3f3401b696ead784e96e8b",
+  "review_report_sha256": "68f85148d1a21592571ef2f36f56865be477abdb64203a344546943ee220e08b",
+  "reviewed_xml_sha256": "8ffcc20ad0427f6e04d991dc056f5f07ec938d21aacf590a477df171f2dc774d"
+}

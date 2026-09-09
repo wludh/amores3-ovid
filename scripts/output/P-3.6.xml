@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../docs/schema/tei_all-4.12.0.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="P" xml:id="P">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title>Ovid, Amores 3.6: witness P — independently reviewed manuscript transcription</title>
+        <author>Publius Ovidius Naso</author>
+        <respStmt xml:id="P-3.6-encoder">
+          <resp>First-pass image transcription and TEI encoding</resp>
+          <name>OpenAI Codex</name>
+        </respStmt>
+      <respStmt xml:id="P-3.6-reviewer"><resp>Independent second-agent reading of every extant source verse and evidence note; not human approval</resp><name>OpenAI Codex, review_y agent</name></respStmt></titleStmt>
+      <publicationStmt>
+        <p>Amores Project local working transcription, 9 September 2026. Draft; not a scholarly approved edition.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="P-3.6-manuscript">
+          <msIdentifier>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France, Département des Manuscrits</repository>
+            <idno>Latin 8242</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus>Gallica digital images 89, 90, 91; left/right positions identify physical pages in the photographed openings, not asserted medieval foliation.</locus>
+              <title>Amores 3.6</title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <handDesc>
+              <handNote>Main text and any darker interventions are distinguished where observed. No individual historical correcting hands are inferred from tonal contrast in monochrome photographs.</handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <p>The supplied BnF IIIF manifest dates the manuscript to 1001–1100. The catalogue dating is not a date assigned to individual interventions.</p>
+            </origin>
+          </history>
+          <additional>
+            <surrogates>
+              <p><ref target="https://gallica.bnf.fr/ark:/12148/btv1b9066797j">BnF Gallica Latin 8242</ref></p>
+              <p>The original full-resolution digital images and enlarged crops were inspected for this first pass. Gallica source reuse conditions apply. No text was populated from LL or another witness.</p>
+            </surrogates>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Source-grounded first reading of all 106 annotated verse positions, with manuscript-specific spellings and observed interventions. A different agent subsequently inspected all source verses and every evidence note; see revision record and second-pass ledger.</p>
+      </projectDesc>
+      <editorialDecl>
+        <correction>
+          <p>No silent emendation from an edition or another witness. Local uncertain letters use unclear, irrecoverable text or signs use gap. Observed above-line letters use add. Tonal distinctions use hi without an invented underlying erased text or historical hand. Manuscript annotations use note type manuscript, distinct from editorial evidence notes.</p>
+        </correction>
+        <normalization>
+          <p>One source-oriented display. Ordinary allographs, long s, and capitals are represented in legible Latin types. Word boundaries are editorially segmented; no indentation whitespace is inserted inside verse mixed content. Selected ligatures and abbreviation signs are declared typographic approximations; explicit expansions remain in TEI rather than a separate reading mode. This is not a facsimile-perfect inventory of every minute stroke.</p>
+        </normalization>
+        <punctuation>
+          <p>Significant observed punctuation is retained schematically, without adding systematic modern sentence punctuation.</p>
+        </punctuation>
+        <segmentation>
+          <p>Each l represents a verse and physical written line at its canonical poem position. Elegiac couplets and even-line indentation are editorial display grouping. Page breaks follow the photographed left/right physical pages. Facsimile zones reproduce the existing annotation rectangles unchanged; they may include neighbouring ink and exclude marginal annotations.</p>
+        </segmentation>
+        <interpretation>
+          <p>First-pass evidence notes are a working queue for an independent agent, not assignments for the human editor. Genuine source uncertainty remains local; consequential unresolved interpretation is distinguished from ordinary observation.</p>
+        </interpretation>
+      </editorialDecl>
+      <charDecl>
+        <char xml:id="P-3.6-et">
+          <desc>ET LIGATURE, SCHEMATIC TYPE REPRESENTATION</desc>
+          <mapping type="display">&amp;</mapping>
+          <mapping type="expansion">et</mapping>
+        </char>
+      </charDecl>
+    </encodingDesc>
+    <revisionDesc status="independently-reviewed"><change when="2026-09-09" who="#P-3.6-reviewer">Independent second-agent source review of all 106 verses and every editorial note. A different agent inspected all 106 physical verse positions and all 70 author notes. The reading qui at 6 is corrected to tentative uix, and amore at 60 to in ore. Additional tentative fragments are recovered at 4, 8, 10, 24, 29, 30, 34, 48, and 59; the partial gaps elsewhere remain explicit. Fluminum amores at 101 is now readable as written-out letters. Adire at 97 receives a new local uncertainty note. Heavy image 89 staining and other pale passages are not filled from an edition or another witness. No human approval is implied.</change>
+      <change when="2026-09-09" who="#P-3.6-encoder">Completed first reading from source images and enlarged crops, with line coverage and evidence notes. Independent second reading not yet performed.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="image 89" xml:id="P-3.6-image-89" ulx="0" uly="0" lrx="5812" lry="3969">
+      <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f89/full/full/0/native.jpg" />
+      <zone xml:id="P-3.6-zone-1" ulx="366" uly="3200" lrx="2574" lry="3455" />
+      <zone xml:id="P-3.6-zone-2" ulx="822" uly="3337" lrx="2523" lry="3544" />
+      <zone xml:id="P-3.6-zone-3" ulx="3008" uly="423" lrx="4710" lry="639" />
+      <zone xml:id="P-3.6-zone-4" ulx="2997" uly="544" lrx="4745" lry="740" />
+      <zone xml:id="P-3.6-zone-5" ulx="3035" uly="653" lrx="4694" lry="839" />
+      <zone xml:id="P-3.6-zone-6" ulx="3020" uly="770" lrx="4804" lry="952" />
+      <zone xml:id="P-3.6-zone-7" ulx="3016" uly="876" lrx="4787" lry="1064" />
+      <zone xml:id="P-3.6-zone-8" ulx="3026" uly="982" lrx="4777" lry="1152" />
+      <zone xml:id="P-3.6-zone-9" ulx="2910" uly="1079" lrx="4814" lry="1281" />
+      <zone xml:id="P-3.6-zone-10" ulx="2889" uly="1197" lrx="4834" lry="1378" />
+      <zone xml:id="P-3.6-zone-11" ulx="2888" uly="1316" lrx="4801" lry="1520" />
+      <zone xml:id="P-3.6-zone-12" ulx="2909" uly="1432" lrx="4873" lry="1604" />
+      <zone xml:id="P-3.6-zone-13" ulx="2896" uly="1524" lrx="4768" lry="1746" />
+      <zone xml:id="P-3.6-zone-14" ulx="2918" uly="1617" lrx="4725" lry="1811" />
+      <zone xml:id="P-3.6-zone-15" ulx="2889" uly="1759" lrx="4728" lry="1927" />
+      <zone xml:id="P-3.6-zone-16" ulx="2892" uly="1861" lrx="4708" lry="2022" />
+      <zone xml:id="P-3.6-zone-17" ulx="2925" uly="1933" lrx="4800" lry="2133" />
+      <zone xml:id="P-3.6-zone-18" ulx="2908" uly="2038" lrx="4766" lry="2229" />
+      <zone xml:id="P-3.6-zone-19" ulx="2860" uly="2150" lrx="4656" lry="2331" />
+      <zone xml:id="P-3.6-zone-20" ulx="2886" uly="2267" lrx="4524" lry="2424" />
+      <zone xml:id="P-3.6-zone-21" ulx="2887" uly="2363" lrx="4821" lry="2551" />
+      <zone xml:id="P-3.6-zone-22" ulx="2922" uly="2453" lrx="4761" lry="2669" />
+      <zone xml:id="P-3.6-zone-23" ulx="2880" uly="2581" lrx="4666" lry="2771" />
+      <zone xml:id="P-3.6-zone-24" ulx="2857" uly="2692" lrx="4696" lry="2847" />
+      <zone xml:id="P-3.6-zone-25" ulx="2908" uly="2767" lrx="4628" lry="2939" />
+      <zone xml:id="P-3.6-zone-26" ulx="2877" uly="2915" lrx="4589" lry="3051" />
+      <zone xml:id="P-3.6-zone-27" ulx="2872" uly="3001" lrx="4701" lry="3169" />
+      <zone xml:id="P-3.6-zone-28" ulx="2871" uly="3126" lrx="4650" lry="3275" />
+      <zone xml:id="P-3.6-zone-29" ulx="2918" uly="3215" lrx="4708" lry="3375" />
+      <zone xml:id="P-3.6-zone-30" ulx="2927" uly="3314" lrx="4600" lry="3598" />
+    </surface>
+    <surface n="image 90" xml:id="P-3.6-image-90" ulx="0" uly="0" lrx="5810" lry="3967">
+      <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f90/full/full/0/native.jpg" />
+      <zone xml:id="P-3.6-zone-31" ulx="557" uly="484" lrx="2348" lry="632" />
+      <zone xml:id="P-3.6-zone-32" ulx="602" uly="590" lrx="2334" lry="736" />
+      <zone xml:id="P-3.6-zone-33" ulx="566" uly="685" lrx="2323" lry="840" />
+      <zone xml:id="P-3.6-zone-34" ulx="593" uly="789" lrx="2400" lry="937" />
+      <zone xml:id="P-3.6-zone-35" ulx="594" uly="899" lrx="2266" lry="1047" />
+      <zone xml:id="P-3.6-zone-36" ulx="576" uly="1015" lrx="2226" lry="1174" />
+      <zone xml:id="P-3.6-zone-37" ulx="564" uly="1138" lrx="2276" lry="1296" />
+      <zone xml:id="P-3.6-zone-38" ulx="567" uly="1225" lrx="2215" lry="1391" />
+      <zone xml:id="P-3.6-zone-39" ulx="583" uly="1343" lrx="2224" lry="1524" />
+      <zone xml:id="P-3.6-zone-40" ulx="554" uly="1432" lrx="2433" lry="1582" />
+      <zone xml:id="P-3.6-zone-41" ulx="573" uly="1561" lrx="2431" lry="1712" />
+      <zone xml:id="P-3.6-zone-42" ulx="599" uly="1639" lrx="2409" lry="1797" />
+      <zone xml:id="P-3.6-zone-43" ulx="580" uly="1762" lrx="2363" lry="1910" />
+      <zone xml:id="P-3.6-zone-44" ulx="592" uly="1847" lrx="2444" lry="2004" />
+      <zone xml:id="P-3.6-zone-45" ulx="609" uly="1980" lrx="2342" lry="2144" />
+      <zone xml:id="P-3.6-zone-46" ulx="605" uly="2067" lrx="2457" lry="2223" />
+      <zone xml:id="P-3.6-zone-47" ulx="612" uly="2183" lrx="2466" lry="2320" />
+      <zone xml:id="P-3.6-zone-48" ulx="624" uly="2268" lrx="2405" lry="2415" />
+      <zone xml:id="P-3.6-zone-49" ulx="621" uly="2376" lrx="2444" lry="2531" />
+      <zone xml:id="P-3.6-zone-50" ulx="634" uly="2473" lrx="2325" lry="2615" />
+      <zone xml:id="P-3.6-zone-51" ulx="593" uly="2607" lrx="2266" lry="2759" />
+      <zone xml:id="P-3.6-zone-52" ulx="616" uly="2695" lrx="2225" lry="2856" />
+      <zone xml:id="P-3.6-zone-53" ulx="612" uly="2805" lrx="2413" lry="2954" />
+      <zone xml:id="P-3.6-zone-54" ulx="628" uly="2896" lrx="2180" lry="3060" />
+      <zone xml:id="P-3.6-zone-55" ulx="663" uly="3018" lrx="2250" lry="3164" />
+      <zone xml:id="P-3.6-zone-56" ulx="617" uly="3096" lrx="2307" lry="3245" />
+      <zone xml:id="P-3.6-zone-57" ulx="663" uly="3220" lrx="2411" lry="3376" />
+      <zone xml:id="P-3.6-zone-58" ulx="641" uly="3316" lrx="2425" lry="3530" />
+      <zone xml:id="P-3.6-zone-59" ulx="2993" uly="364" lrx="4886" lry="554" />
+      <zone xml:id="P-3.6-zone-60" ulx="2999" uly="487" lrx="4779" lry="639" />
+      <zone xml:id="P-3.6-zone-61" ulx="2987" uly="577" lrx="4763" lry="783" />
+      <zone xml:id="P-3.6-zone-62" ulx="3003" uly="706" lrx="4742" lry="863" />
+      <zone xml:id="P-3.6-zone-63" ulx="2965" uly="820" lrx="4968" lry="992" />
+      <zone xml:id="P-3.6-zone-64" ulx="2979" uly="918" lrx="4896" lry="1084" />
+      <zone xml:id="P-3.6-zone-65" ulx="3002" uly="1044" lrx="4812" lry="1221" />
+      <zone xml:id="P-3.6-zone-66" ulx="3003" uly="1143" lrx="4613" lry="1323" />
+      <zone xml:id="P-3.6-zone-67" ulx="2970" uly="1244" lrx="4697" lry="1422" />
+      <zone xml:id="P-3.6-zone-68" ulx="2980" uly="1349" lrx="4600" lry="1509" />
+      <zone xml:id="P-3.6-zone-69" ulx="2978" uly="1466" lrx="4775" lry="1628" />
+      <zone xml:id="P-3.6-zone-70" ulx="2965" uly="1570" lrx="4725" lry="1719" />
+      <zone xml:id="P-3.6-zone-71" ulx="2996" uly="1674" lrx="4828" lry="1840" />
+      <zone xml:id="P-3.6-zone-72" ulx="3022" uly="1767" lrx="4702" lry="1924" />
+      <zone xml:id="P-3.6-zone-73" ulx="2970" uly="1876" lrx="4971" lry="2054" />
+      <zone xml:id="P-3.6-zone-74" ulx="2988" uly="1976" lrx="4732" lry="2171" />
+      <zone xml:id="P-3.6-zone-75" ulx="2985" uly="2090" lrx="4728" lry="2295" />
+      <zone xml:id="P-3.6-zone-76" ulx="2983" uly="2220" lrx="4494" lry="2374" />
+      <zone xml:id="P-3.6-zone-77" ulx="2960" uly="2308" lrx="4890" lry="2484" />
+      <zone xml:id="P-3.6-zone-78" ulx="2998" uly="2408" lrx="4688" lry="2569" />
+      <zone xml:id="P-3.6-zone-79" ulx="2995" uly="2519" lrx="4873" lry="2697" />
+      <zone xml:id="P-3.6-zone-80" ulx="3018" uly="2657" lrx="4846" lry="2823" />
+      <zone xml:id="P-3.6-zone-81" ulx="2987" uly="2746" lrx="4859" lry="2934" />
+      <zone xml:id="P-3.6-zone-82" ulx="3005" uly="2836" lrx="4729" lry="2997" />
+      <zone xml:id="P-3.6-zone-83" ulx="3006" uly="2978" lrx="4867" lry="3127" />
+      <zone xml:id="P-3.6-zone-84" ulx="2982" uly="3081" lrx="4847" lry="3215" />
+      <zone xml:id="P-3.6-zone-85" ulx="3017" uly="3176" lrx="4938" lry="3354" />
+      <zone xml:id="P-3.6-zone-86" ulx="3016" uly="3299" lrx="4684" lry="3496" />
+    </surface>
+    <surface n="image 91" xml:id="P-3.6-image-91" ulx="0" uly="0" lrx="5817" lry="3965">
+      <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f91/full/full/0/native.jpg" />
+      <zone xml:id="P-3.6-zone-87" ulx="670" uly="387" lrx="2438" lry="568" />
+      <zone xml:id="P-3.6-zone-88" ulx="663" uly="483" lrx="2463" lry="645" />
+      <zone xml:id="P-3.6-zone-89" ulx="679" uly="605" lrx="2366" lry="767" />
+      <zone xml:id="P-3.6-zone-90" ulx="688" uly="693" lrx="2276" lry="888" />
+      <zone xml:id="P-3.6-zone-91" ulx="687" uly="806" lrx="2347" lry="990" />
+      <zone xml:id="P-3.6-zone-92" ulx="664" uly="917" lrx="2285" lry="1097" />
+      <zone xml:id="P-3.6-zone-93" ulx="676" uly="1064" lrx="2575" lry="1228" />
+      <zone xml:id="P-3.6-zone-94" ulx="675" uly="1147" lrx="2283" lry="1328" />
+      <zone xml:id="P-3.6-zone-95" ulx="649" uly="1263" lrx="2412" lry="1436" />
+      <zone xml:id="P-3.6-zone-96" ulx="686" uly="1364" lrx="2382" lry="1530" />
+      <zone xml:id="P-3.6-zone-97" ulx="647" uly="1460" lrx="2208" lry="1651" />
+      <zone xml:id="P-3.6-zone-98" ulx="661" uly="1570" lrx="2051" lry="1760" />
+      <zone xml:id="P-3.6-zone-99" ulx="663" uly="1681" lrx="2255" lry="1863" />
+      <zone xml:id="P-3.6-zone-100" ulx="664" uly="1785" lrx="2314" lry="1963" />
+      <zone xml:id="P-3.6-zone-101" ulx="650" uly="1888" lrx="2461" lry="2095" />
+      <zone xml:id="P-3.6-zone-102" ulx="656" uly="2006" lrx="2234" lry="2191" />
+      <zone xml:id="P-3.6-zone-103" ulx="655" uly="2122" lrx="2592" lry="2329" />
+      <zone xml:id="P-3.6-zone-104" ulx="678" uly="2238" lrx="2185" lry="2411" />
+      <zone xml:id="P-3.6-zone-105" ulx="693" uly="2333" lrx="2397" lry="2548" />
+      <zone xml:id="P-3.6-zone-106" ulx="656" uly="2441" lrx="2468" lry="2620" />
+    </surface>
+  </facsimile>
+  <text xml:lang="la">
+    <body>
+      <div type="poem" n="3.6" xml:id="P-3.6">
+        <lg type="couplet" n="1">
+          <pb n="image 89, left" facs="#P-3.6-image-89" />
+          <l n="1" xml:id="P-3.6-l1" facs="#P-3.6-zone-1"><hi rend="initial">A</hi><unclear reason="faded">mnis arundinibus</unclear> <gap reason="illegible" extent="the rest of the verse" /></l>
+          <l n="2" xml:id="P-3.6-l2" facs="#P-3.6-zone-2" rend="indent"><gap reason="illegible" extent="one verse" /></l>
+        </lg>
+        <lg type="couplet" n="2">
+          <pb n="image 89, right" facs="#P-3.6-image-89" />
+          <l n="3" xml:id="P-3.6-l3" facs="#P-3.6-zone-3"><gap reason="illegible" extent="one or more words" /> pontes <unclear reason="faded">nec te sine remigis ictu</unclear></l>
+          <l n="4" xml:id="P-3.6-l4" facs="#P-3.6-zone-4" rend="indent"><gap reason="illegible" extent="one or more words" /> <unclear reason="faded">traiecto</unclear> cumba <unclear reason="faded">rudente uehat</unclear></l>
+        </lg>
+        <lg type="couplet" n="3">
+          <l n="5" xml:id="P-3.6-l5" facs="#P-3.6-zone-5"><gap reason="illegible" extent="one or more words" /> <unclear reason="faded">paruas memini</unclear> nec te <unclear reason="faded">transire</unclear> refugit</l>
+          <l n="6" xml:id="P-3.6-l6" facs="#P-3.6-zone-6" rend="indent"><gap reason="illegible" extent="one or more words" /> <unclear reason="faded">uix</unclear> talos <unclear reason="faded">contigerunt</unclear> meos</l>
+        </lg>
+        <lg type="couplet" n="4">
+          <l n="7" xml:id="P-3.6-l7" facs="#P-3.6-zone-7"><gap reason="illegible" extent="one or more words" /> depositos niuibus de monte solutis</l>
+          <l n="8" xml:id="P-3.6-l8" facs="#P-3.6-zone-8" rend="indent"><gap reason="illegible" extent="one or more words" /> <unclear reason="faded">glaciosas</unclear> gurgite <unclear reason="faded">uoluis</unclear> aquas</l>
+        </lg>
+        <lg type="couplet" n="5">
+          <l n="9" xml:id="P-3.6-l9" facs="#P-3.6-zone-9"><gap reason="illegible" extent="one or more words" /> <unclear reason="faded">optasse iubet</unclear> <gap reason="illegible" extent="one or more words" /> <unclear reason="faded">parca dedisset</unclear> equos</l>
+          <l n="10" xml:id="P-3.6-l10" facs="#P-3.6-zone-10" rend="indent"><gap reason="illegible" extent="one or more words" /> <unclear reason="faded">nocti constituisse</unclear> diem</l>
+        </lg>
+        <lg type="couplet" n="6">
+          <l n="11" xml:id="P-3.6-l11" facs="#P-3.6-zone-11"><gap reason="illegible" extent="one or more words" /> <unclear reason="stained">hic tandem</unclear> <unclear reason="faded">est</unclear> si non datur artibus ullis</l>
+          <l n="12" xml:id="P-3.6-l12" facs="#P-3.6-zone-12" rend="indent"><gap reason="illegible" extent="one or more words" /> ripa <unclear reason="faded">premenda</unclear> pede</l>
+        </lg>
+        <lg type="couplet" n="7">
+          <l n="13" xml:id="P-3.6-l13" facs="#P-3.6-zone-13"><gap reason="illegible" extent="one or more words" /> <unclear reason="stained">habuit</unclear> <unclear reason="faded">pinnas</unclear> Danaeius heros</l>
+          <l n="14" xml:id="P-3.6-l14" facs="#P-3.6-zone-14" rend="indent"><gap reason="illegible" extent="one or more words" /> <unclear reason="faded">portaret</unclear> angue caput</l>
+        </lg>
+        <lg type="couplet" n="8">
+          <l n="15" xml:id="P-3.6-l15" facs="#P-3.6-zone-15"><gap reason="illegible" extent="one or more words" /> <unclear reason="faded">de quo</unclear> <gap reason="illegible" extent="one or more words" /> primum</l>
+          <l n="16" xml:id="P-3.6-l16" facs="#P-3.6-zone-16" rend="indent"><gap reason="illegible" extent="one or more words" /> <unclear reason="faded">in rude misit</unclear> solum</l>
+        </lg>
+        <lg type="couplet" n="9">
+          <l n="17" xml:id="P-3.6-l17" facs="#P-3.6-zone-17"><gap reason="illegible" extent="one or more words" /> <unclear reason="stained">loquor</unclear> ueterum <unclear reason="faded">mendacia</unclear> uatum</l>
+          <l n="18" xml:id="P-3.6-l18" facs="#P-3.6-zone-18" rend="indent"><gap reason="illegible" extent="one or more words" /> nec <unclear reason="faded">fuit</unclear> ulla dies</l>
+        </lg>
+        <lg type="couplet" n="10">
+          <l n="19" xml:id="P-3.6-l19" facs="#P-3.6-zone-19"><gap reason="illegible" extent="one or more words" /> <unclear reason="stained">optatis</unclear> fessis capacibus amnis</l>
+          <l n="20" xml:id="P-3.6-l20" facs="#P-3.6-zone-20" rend="indent"><gap reason="illegible" extent="one or more words" /> <unclear reason="stained">semper</unclear> labere <unclear reason="faded">in otio</unclear></l>
+        </lg>
+        <lg type="couplet" n="11">
+          <l n="21" xml:id="P-3.6-l21" facs="#P-3.6-zone-21"><gap reason="illegible" extent="one or more words" /> <unclear reason="faded">torrentem limosae</unclear> <gap reason="illegible" extent="one or more words" /> undae</l>
+          <l n="22" xml:id="P-3.6-l22" facs="#P-3.6-zone-22" rend="indent"><gap reason="illegible" extent="one or more words" /> <unclear reason="faded">noster</unclear> <gap reason="illegible" extent="one or more words" /></l>
+        </lg>
+        <lg type="couplet" n="12">
+          <l n="23" xml:id="P-3.6-l23" facs="#P-3.6-zone-23"><gap reason="illegible" extent="one or more words" /> <unclear reason="faded">ignis</unclear> in <unclear reason="faded">amore</unclear> <gap reason="illegible" extent="one or more words" /></l>
+          <l n="24" xml:id="P-3.6-l24" facs="#P-3.6-zone-24" rend="indent"><gap reason="illegible" extent="one or more words" /> ipse <unclear reason="faded">uidisse</unclear> <unclear reason="faded">amne</unclear></l>
+        </lg>
+        <lg type="couplet" n="13">
+          <l n="25" xml:id="P-3.6-l25" facs="#P-3.6-zone-25"><gap reason="illegible" extent="one or more words" /> <unclear reason="stained">Bithyni</unclear><gap reason="illegible" extent="several letters" /> latuisse</l>
+          <l n="26" xml:id="P-3.6-l26" facs="#P-3.6-zone-26" rend="indent"><gap reason="illegible" extent="one or more words" /> <unclear reason="faded">Argolidas</unclear> <gap reason="illegible" extent="one or more words" /></l>
+        </lg>
+        <lg type="couplet" n="14">
+          <l n="27" xml:id="P-3.6-l27" facs="#P-3.6-zone-27"><gap reason="illegible" extent="one or more words" /> <unclear reason="stained">tristis</unclear> obessa duobus</l>
+          <l n="28" xml:id="P-3.6-l28" facs="#P-3.6-zone-28" rend="indent"><gap reason="illegible" extent="one or more words" /> <unclear reason="faded">Xanthos</unclear> <gap reason="illegible" extent="one or more words" /></l>
+        </lg>
+        <lg type="couplet" n="15">
+          <l n="29" xml:id="P-3.6-l29" facs="#P-3.6-zone-29"><gap reason="illegible" extent="one or more words" /> <unclear reason="stained">diues</unclear> <unclear reason="faded">arcessit</unclear> <gap reason="illegible" extent="one or more words" /> <unclear reason="faded">herbis</unclear></l>
+          <l n="30" xml:id="P-3.6-l30" facs="#P-3.6-zone-30" rend="indent"><gap reason="illegible" extent="one or more words" /> <unclear reason="faded">certos</unclear> <unclear reason="faded">cepit</unclear> amores<metamark function="unknown" place="below">M</metamark></l>
+        </lg>
+        <lg type="couplet" n="16">
+          <pb n="image 90, left" facs="#P-3.6-image-90" />
+          <l n="31" xml:id="P-3.6-l31" facs="#P-3.6-zone-31"><gap reason="illegible" extent="one or more words" /> <unclear reason="faded">promissum</unclear> <unclear reason="faded">Parthenopen</unclear> <gap reason="illegible" extent="one or more words" /></l>
+          <l n="32" xml:id="P-3.6-l32" facs="#P-3.6-zone-32" rend="indent"><gap reason="illegible" extent="one or more words" /> <unclear reason="faded">terris</unclear> <unclear reason="faded">oculuisse</unclear> ferunt</l>
+        </lg>
+        <lg type="couplet" n="17">
+          <l n="33" xml:id="P-3.6-l33" facs="#P-3.6-zone-33">Quid <unclear reason="stained">referam</unclear> asopon quem cepit <unclear reason="faded">martia</unclear> <unclear reason="faded">thebe</unclear></l>
+          <l n="34" xml:id="P-3.6-l34" facs="#P-3.6-zone-34" rend="indent"><unclear reason="faded">Natarum thebenamque</unclear> <unclear reason="faded">futuris</unclear> potens</l>
+        </lg>
+        <lg type="couplet" n="18">
+          <l n="35" xml:id="P-3.6-l35" facs="#P-3.6-zone-35">Cornua si tua nunc ubi sint acheloe requiram</l>
+          <l n="36" xml:id="P-3.6-l36" facs="#P-3.6-zone-36" rend="indent"><unclear reason="faded">Herculis</unclear> <unclear reason="faded">irata</unclear> fracta querere manu</l>
+        </lg>
+        <lg type="couplet" n="19">
+          <l n="37" xml:id="P-3.6-l37" facs="#P-3.6-zone-37">Nec tanti calidon nec tota etolia tanti</l>
+          <l n="38" xml:id="P-3.6-l38" facs="#P-3.6-zone-38" rend="indent">Una tamen tanti deianira fuit</l>
+        </lg>
+        <lg type="couplet" n="20">
+          <l n="39" xml:id="P-3.6-l39" facs="#P-3.6-zone-39">Ille fluens diues septena per ostia nilus</l>
+          <l n="40" xml:id="P-3.6-l40" facs="#P-3.6-zone-40" rend="indent">Qui patriam tanto tam bene celat <unclear reason="faded">aquis</unclear></l>
+        </lg>
+        <lg type="couplet" n="21">
+          <l n="41" xml:id="P-3.6-l41" facs="#P-3.6-zone-41">Fertur in euanthe collectam asopide flammam</l>
+          <l n="42" xml:id="P-3.6-l42" facs="#P-3.6-zone-42" rend="indent">Vincere gurgitibus non potuisse suis</l>
+        </lg>
+        <lg type="couplet" n="22">
+          <l n="43" xml:id="P-3.6-l43" facs="#P-3.6-zone-43"><unclear reason="faded">Siccus ut amplexus salmonida posset enipeus</unclear></l>
+          <l n="44" xml:id="P-3.6-l44" facs="#P-3.6-zone-44" rend="indent">Cedere iussit aquam iussa recessit aqua</l>
+        </lg>
+        <lg type="couplet" n="23">
+          <l n="45" xml:id="P-3.6-l45" facs="#P-3.6-zone-45"><unclear reason="faded">Nec te praetereo</unclear> qui per caua saxa uolutans</l>
+          <l n="46" xml:id="P-3.6-l46" facs="#P-3.6-zone-46" rend="indent">Tiburis arua pomiferaque rigas</l>
+        </lg>
+        <lg type="couplet" n="24">
+          <l n="47" xml:id="P-3.6-l47" facs="#P-3.6-zone-47">Ilia cui placuit quamuis ea horrida cultu</l>
+          <l n="48" xml:id="P-3.6-l48" facs="#P-3.6-zone-48" rend="indent"><unclear reason="faded">Ungue notata comas ungue</unclear> <gap reason="illegible" extent="one or more words" /> <unclear reason="faded">genas</unclear></l>
+        </lg>
+        <lg type="couplet" n="25">
+          <l n="49" xml:id="P-3.6-l49" facs="#P-3.6-zone-49"><unclear reason="faded">Illa</unclear> <gap reason="illegible" extent="one or more words" /> <unclear reason="faded">que</unclear> <gap reason="illegible" extent="one or more words" /></l>
+          <l n="50" xml:id="P-3.6-l50" facs="#P-3.6-zone-50" rend="indent">Errabat nudo per loca sola pede</l>
+        </lg>
+        <lg type="couplet" n="26">
+          <l n="51" xml:id="P-3.6-l51" facs="#P-3.6-zone-51">Hanc <unclear reason="faded">anio</unclear> rapidis animosus uidit ab undis</l>
+          <l n="52" xml:id="P-3.6-l52" facs="#P-3.6-zone-52" rend="indent"><unclear reason="faded">Raucaque</unclear> <unclear reason="faded">de mediis</unclear> sustulit <unclear reason="faded">ora uadis</unclear></l>
+        </lg>
+        <lg type="couplet" n="27">
+          <l n="53" xml:id="P-3.6-l53" facs="#P-3.6-zone-53"><unclear reason="faded">Atque ita quid nostras</unclear> <gap reason="illegible" extent="several words" /></l>
+          <l n="54" xml:id="P-3.6-l54" facs="#P-3.6-zone-54" rend="indent">Ilia <unclear reason="faded">ab idaeo</unclear> <unclear reason="faded">laomedonte genus</unclear></l>
+        </lg>
+        <lg type="couplet" n="28">
+          <l n="55" xml:id="P-3.6-l55" facs="#P-3.6-zone-55"><unclear reason="faded">Quo cultus abiere tui</unclear> <gap reason="illegible" extent="several words" /></l>
+          <l n="56" xml:id="P-3.6-l56" facs="#P-3.6-zone-56" rend="indent"><gap reason="illegible" extent="one or more words" /> <unclear reason="faded">praetinctis</unclear> <gap reason="illegible" extent="one or more words" /> illa <unclear reason="faded">comis</unclear></l>
+        </lg>
+        <lg type="couplet" n="29">
+          <l n="57" xml:id="P-3.6-l57" facs="#P-3.6-zone-57"><unclear reason="faded">Quid fles et madidos lacrimis</unclear> <gap reason="illegible" extent="several words" /></l>
+          <l n="58" xml:id="P-3.6-l58" facs="#P-3.6-zone-58" rend="indent"><unclear reason="faded">Pectoraque</unclear> <gap reason="illegible" extent="several words" /></l>
+        </lg>
+        <lg type="couplet" n="30">
+          <pb n="image 90, right" facs="#P-3.6-image-90" />
+          <l n="59" xml:id="P-3.6-l59" facs="#P-3.6-zone-59"><gap reason="illegible" extent="one or more words" /> <unclear reason="faded">silices uiuum</unclear> in pectore <unclear reason="faded">ferrum</unclear></l>
+          <l n="60" xml:id="P-3.6-l60" facs="#P-3.6-zone-60" rend="indent"><gap reason="illegible" extent="one or more words" /> lacrimas lentus in ore uidet</l>
+        </lg>
+        <lg type="couplet" n="31">
+          <l n="61" xml:id="P-3.6-l61" facs="#P-3.6-zone-61">Ilia pone metus tibi regia nostra patebit</l>
+          <l n="62" xml:id="P-3.6-l62" facs="#P-3.6-zone-62" rend="indent">Teque colent amnes ilia pone metus</l>
+        </lg>
+        <lg type="couplet" n="32">
+          <l n="63" xml:id="P-3.6-l63" facs="#P-3.6-zone-63"><unclear reason="faded">Ilia tuam</unclear> aut plures inter dominabere nymphas</l>
+          <l n="64" xml:id="P-3.6-l64" facs="#P-3.6-zone-64" rend="indent">Non tantum aut plures flumina nostra tenent</l>
+        </lg>
+        <lg type="couplet" n="33">
+          <l n="65" xml:id="P-3.6-l65" facs="#P-3.6-zone-65">Ne me sperne precor tantum <unclear reason="faded">Troiana</unclear> propago</l>
+          <l n="66" xml:id="P-3.6-l66" facs="#P-3.6-zone-66" rend="indent">Munera promissis uberiora feres</l>
+        </lg>
+        <lg type="couplet" n="34">
+          <l n="67" xml:id="P-3.6-l67" facs="#P-3.6-zone-67">Dixerat illa oculos in humum deiecta modestos</l>
+          <l n="68" xml:id="P-3.6-l68" facs="#P-3.6-zone-68" rend="indent">Spargebat teneros flebilis imbre sinus</l>
+        </lg>
+        <lg type="couplet" n="35">
+          <l n="69" xml:id="P-3.6-l69" facs="#P-3.6-zone-69">Ter molita fugam ter ad altas restitit undas</l>
+          <l n="70" xml:id="P-3.6-l70" facs="#P-3.6-zone-70" rend="indent"><unclear reason="faded">Cur pendit</unclear> <gap reason="illegible" extent="one word" /> <unclear reason="faded">praecipitem</unclear> metu</l>
+        </lg>
+        <lg type="couplet" n="36">
+          <l n="71" xml:id="P-3.6-l71" facs="#P-3.6-zone-71">Sera tamen scindens inimico pollice crinem</l>
+          <l n="72" xml:id="P-3.6-l72" facs="#P-3.6-zone-72" rend="indent">Edidit indignos ore tremente sonos</l>
+        </lg>
+        <lg type="couplet" n="37">
+          <l n="73" xml:id="P-3.6-l73" facs="#P-3.6-zone-73">Outinam mea tecta forent patriaque sepulchro</l>
+          <l n="74" xml:id="P-3.6-l74" facs="#P-3.6-zone-74" rend="indent">Condita <unclear reason="faded">cum poterant</unclear> uirginis ossa legi</l>
+        </lg>
+        <lg type="couplet" n="38">
+          <l n="75" xml:id="P-3.6-l75" facs="#P-3.6-zone-75">Cur modo <hi rend="darker-ink">V</hi>estalis <unclear reason="faded">col</unclear><gap reason="illegible" extent="several letters" /> sum uocata <unclear reason="faded">dulcis</unclear></l>
+          <l n="76" xml:id="P-3.6-l76" facs="#P-3.6-zone-76" rend="indent">Turpis <choice><abbr><g ref="#P-3.6-et">&amp;</g></abbr><expan>et</expan></choice> iliacis infitianda focis</l>
+        </lg>
+        <lg type="couplet" n="39">
+          <l n="77" xml:id="P-3.6-l77" facs="#P-3.6-zone-77">Quid moror <choice><abbr><g ref="#P-3.6-et">&amp;</g></abbr><expan>et</expan></choice> digitis designor adultera uolgi</l>
+          <l n="78" xml:id="P-3.6-l78" facs="#P-3.6-zone-78" rend="indent">Desint famosus <unclear reason="faded">quam notet</unclear> ora pudor</l>
+        </lg>
+        <lg type="couplet" n="40">
+          <l n="79" xml:id="P-3.6-l79" facs="#P-3.6-zone-79">Hactenus <choice><abbr><g ref="#P-3.6-et">&amp;</g></abbr><expan>et</expan></choice> <unclear reason="faded">uestem</unclear> tumidis praetendit ocellis</l>
+          <l n="80" xml:id="P-3.6-l80" facs="#P-3.6-zone-80" rend="indent">Atque ita se in rapidas perdita misit aquas</l>
+        </lg>
+        <lg type="couplet" n="41">
+          <l n="81" xml:id="P-3.6-l81" facs="#P-3.6-zone-81">Supposuisse manus ad pectora lubricus amnis</l>
+          <l n="82" xml:id="P-3.6-l82" facs="#P-3.6-zone-82" rend="indent">Dicitur <choice><abbr><g ref="#P-3.6-et">&amp;</g></abbr><expan>et</expan></choice> socii iura dedisse tori</l>
+        </lg>
+        <lg type="couplet" n="42">
+          <l n="83" xml:id="P-3.6-l83" facs="#P-3.6-zone-83">Te quoque credibile est aliqua caluisse puella</l>
+          <l n="84" xml:id="P-3.6-l84" facs="#P-3.6-zone-84" rend="indent">Sed nemora <choice><abbr><g ref="#P-3.6-et">&amp;</g></abbr><expan>et</expan></choice> siluae crimina <unclear reason="faded">uestra</unclear> tegunt</l>
+        </lg>
+        <lg type="couplet" n="43">
+          <l n="85" xml:id="P-3.6-l85" facs="#P-3.6-zone-85">Dum loquor increuit <unclear reason="faded">tuis</unclear> spatiosus ab undis</l>
+          <l n="86" xml:id="P-3.6-l86" facs="#P-3.6-zone-86" rend="indent"><unclear reason="faded">Nec capit admissas alueus altus aquas</unclear></l>
+        </lg>
+        <lg type="couplet" n="44">
+          <pb n="image 91, left" facs="#P-3.6-image-91" />
+          <l n="87" xml:id="P-3.6-l87" facs="#P-3.6-zone-87">Quid mecum furiose tibi quid mutua differs</l>
+          <l n="88" xml:id="P-3.6-l88" facs="#P-3.6-zone-88" rend="indent">Gaudia quid coeptum rusticus rumpis iter</l>
+        </lg>
+        <lg type="couplet" n="45">
+          <l n="89" xml:id="P-3.6-l89" facs="#P-3.6-zone-89">Quid si legitimum flueres si nobile flumen</l>
+          <l n="90" xml:id="P-3.6-l90" facs="#P-3.6-zone-90" rend="indent">Si tibi per terras maxima fama foret</l>
+        </lg>
+        <lg type="couplet" n="46">
+          <l n="91" xml:id="P-3.6-l91" facs="#P-3.6-zone-91">Nomen habes nullum riuis collecte caducis</l>
+          <l n="92" xml:id="P-3.6-l92" facs="#P-3.6-zone-92" rend="indent">Nec tibi sunt fontes nec tibi certa domus</l>
+        </lg>
+        <lg type="couplet" n="47">
+          <l n="93" xml:id="P-3.6-l93" facs="#P-3.6-zone-93">Fontis habes instar pluuiamque niuesque solutas</l>
+          <l n="94" xml:id="P-3.6-l94" facs="#P-3.6-zone-94" rend="indent">Quas tibi diuitas pigra ministrat hiemps</l>
+        </lg>
+        <lg type="couplet" n="48">
+          <l n="95" xml:id="P-3.6-l95" facs="#P-3.6-zone-95">Aut lutulentus agis brumali tempore cursus</l>
+          <l n="96" xml:id="P-3.6-l96" facs="#P-3.6-zone-96" rend="indent">Aut premis arentem puluerulentus humum</l>
+        </lg>
+        <lg type="couplet" n="49">
+          <l n="97" xml:id="P-3.6-l97" facs="#P-3.6-zone-97">Quis te tum potuit totiens <unclear reason="faded">adire</unclear> uiator</l>
+          <l n="98" xml:id="P-3.6-l98" facs="#P-3.6-zone-98" rend="indent">Quis dixit grata uoce perennis eas</l>
+        </lg>
+        <lg type="couplet" n="50">
+          <l n="99" xml:id="P-3.6-l99" facs="#P-3.6-zone-99">Damnosus pecori curris damnosior agris</l>
+          <l n="100" xml:id="P-3.6-l100" facs="#P-3.6-zone-100" rend="indent">Forsitan haec alios mentis damna mouent</l>
+        </lg>
+        <lg type="couplet" n="51">
+          <l n="101" xml:id="P-3.6-l101" facs="#P-3.6-zone-101">Huic ego <unclear reason="faded">uae demens</unclear> narrabam fluminum amores</l>
+          <l n="102" xml:id="P-3.6-l102" facs="#P-3.6-zone-102" rend="indent">Iactasse indigne nomina tanta pudet ·</l>
+        </lg>
+        <lg type="couplet" n="52">
+          <l n="103" xml:id="P-3.6-l103" facs="#P-3.6-zone-103">Nescio quem <unclear reason="faded">hunc spectas</unclear> acheloon <choice><abbr><g ref="#P-3.6-et">&amp;</g></abbr><expan>et</expan></choice> inachon <unclear reason="faded">amnem</unclear></l>
+          <l n="104" xml:id="P-3.6-l104" facs="#P-3.6-zone-104" rend="indent">Et potui <unclear reason="faded">nomenque nile referre</unclear> tuum</l>
+        </lg>
+        <lg type="couplet" n="53">
+          <l n="105" xml:id="P-3.6-l105" facs="#P-3.6-zone-105">At tibi pro meritis opto non candide torrens</l>
+          <l n="106" xml:id="P-3.6-l106" facs="#P-3.6-zone-106" rend="indent">Sint rapidi soles siccaque semper hiemps</l>
+        </lg>
+      </div>
+    </body>
+    <back>
+      <div type="editorial-notes">
+        <head>Independently reviewed source notes</head>
+        <note xml:id="P-3.6-note-1" n="1" type="uncertainty" target="#P-3.6-l1" resp="#P-3.6-reviewer">The decorated initial and tentative mnis arundinibus are visible at the bottom of image 89 left. Opaque staining obscures the right; no additional complete word is independently recoverable.</note>
+        <note xml:id="P-3.6-note-2" n="2" type="uncertainty" target="#P-3.6-l2" resp="#P-3.6-reviewer">The physical second verse is present below the initial line. The stain and fading prevent an independent complete-word reading, so the extant-position gap remains.</note>
+        <note xml:id="P-3.6-note-3" n="3" type="uncertainty" target="#P-3.6-l3" resp="#P-3.6-reviewer">The opening of image 89 right is under a broad black patch. Pontes and the pale continuation are present; nec te sine remigis ictu remains tentative. The patch does not establish scribal deletion.</note>
+        <note xml:id="P-3.6-note-4" n="4" type="uncertainty" target="#P-3.6-l4" resp="#P-3.6-reviewer">The final pale word is compatible with uehat and is now retained under unclear. The stained opening remains a gap, with traiecto and rudente still tentative.</note>
+        <note xml:id="P-3.6-note-5" n="5" type="uncertainty" target="#P-3.6-l5" resp="#P-3.6-reviewer">The partly obscured paruas memini and pale transire remain tentative. No hidden initial word is supplied beneath the stain.</note>
+        <note xml:id="P-3.6-note-6" n="6" type="uncertainty" target="#P-3.6-l6" resp="#P-3.6-reviewer">The visible letters immediately before talos read uix, not qui. The reading is corrected and remains qualified because of the pale ink; contigerunt remains tentative and the obscured opening remains a gap.</note>
+        <note xml:id="P-3.6-note-7" n="7" type="uncertainty" target="#P-3.6-l7" resp="#P-3.6-reviewer">The surviving depositos niuibus de monte solutis is legible to the right of the opaque patch. The opening gap remains justified.</note>
+        <note xml:id="P-3.6-note-8" n="8" type="uncertainty" target="#P-3.6-l8" resp="#P-3.6-reviewer">Tentative source traces retained in unclear: glaciosas. The surviving depositos niuibus de monte solutis is legible to the right of the opaque patch. The opening gap remains justified.</note>
+        <note xml:id="P-3.6-note-9" n="9" type="uncertainty" target="#P-3.6-l9" resp="#P-3.6-reviewer">The right-hand sequence is tentatively parca dedisset, followed by equos. Earlier traces remain uncertain; do not reconstruct a familiar mythological line. Tentative source traces retained in unclear: optasse iubet; parca dedisset. The surviving depositos niuibus de monte solutis is legible to the right of the opaque patch. The opening gap remains justified.</note>
+        <note xml:id="P-3.6-note-10" n="10" type="uncertainty" target="#P-3.6-l10" resp="#P-3.6-reviewer">Tentative source traces retained in unclear: constituisse. The surviving depositos niuibus de monte solutis is legible to the right of the opaque patch. The opening gap remains justified.</note>
+        <note xml:id="P-3.6-note-11" n="11" type="uncertainty" target="#P-3.6-l11" resp="#P-3.6-reviewer">Tentative source traces retained in unclear: hic tandem; est. The surviving depositos niuibus de monte solutis is legible to the right of the opaque patch. The opening gap remains justified.</note>
+        <note xml:id="P-3.6-note-12" n="12" type="uncertainty" target="#P-3.6-l12" resp="#P-3.6-reviewer">Tentative source traces retained in unclear: premenda. The surviving depositos niuibus de monte solutis is legible to the right of the opaque patch. The opening gap remains justified.</note>
+        <note xml:id="P-3.6-note-13" n="13" type="uncertainty" target="#P-3.6-l13" resp="#P-3.6-reviewer">Tentative source traces retained in unclear: habuit; pinnas. The surviving depositos niuibus de monte solutis is legible to the right of the opaque patch. The opening gap remains justified.</note>
+        <note xml:id="P-3.6-note-14" n="14" type="uncertainty" target="#P-3.6-l14" resp="#P-3.6-reviewer">Tentative source traces retained in unclear: portaret. The surviving depositos niuibus de monte solutis is legible to the right of the opaque patch. The opening gap remains justified.</note>
+        <note xml:id="P-3.6-note-15" n="15" type="uncertainty" target="#P-3.6-l15" resp="#P-3.6-reviewer">The first-pass reading retains only tentative de quo and final primum amid gaps. No name has been reconstructed under the stain. Tentative source traces retained in unclear: de quo. The surviving depositos niuibus de monte solutis is legible to the right of the opaque patch. The opening gap remains justified.</note>
+        <note xml:id="P-3.6-note-16" n="16" type="uncertainty" target="#P-3.6-l16" resp="#P-3.6-reviewer">Tentative source traces retained in unclear: in rude misit. The surviving depositos niuibus de monte solutis is legible to the right of the opaque patch. The opening gap remains justified.</note>
+        <note xml:id="P-3.6-note-17" n="17" type="uncertainty" target="#P-3.6-l17" resp="#P-3.6-reviewer">Tentative source traces retained in unclear: loquor; mendacia. The surviving depositos niuibus de monte solutis is legible to the right of the opaque patch. The opening gap remains justified.</note>
+        <note xml:id="P-3.6-note-18" n="18" type="uncertainty" target="#P-3.6-l18" resp="#P-3.6-reviewer">Tentative source traces retained in unclear: fuit. The surviving depositos niuibus de monte solutis is legible to the right of the opaque patch. The opening gap remains justified.</note>
+        <note xml:id="P-3.6-note-19" n="19" type="uncertainty" target="#P-3.6-l19" resp="#P-3.6-reviewer">The clearly recoverable end is fessis capacibus amnis. The stained opening remains incomplete. Tentative source traces retained in unclear: optatis. The surviving depositos niuibus de monte solutis is legible to the right of the opaque patch. The opening gap remains justified.</note>
+        <note xml:id="P-3.6-note-20" n="20" type="uncertainty" target="#P-3.6-l20" resp="#P-3.6-reviewer">Tentative source traces retained in unclear: semper; in otio. The surviving depositos niuibus de monte solutis is legible to the right of the opaque patch. The opening gap remains justified.</note>
+        <note xml:id="P-3.6-note-21" n="21" type="uncertainty" target="#P-3.6-l21" resp="#P-3.6-reviewer">Tentative source traces retained in unclear: torrentem limosae. The surviving depositos niuibus de monte solutis is legible to the right of the opaque patch. The opening gap remains justified.</note>
+        <note xml:id="P-3.6-note-22" n="22" type="uncertainty" target="#P-3.6-l22" resp="#P-3.6-reviewer">Tentative source traces retained in unclear: noster. The surviving depositos niuibus de monte solutis is legible to the right of the opaque patch. The opening gap remains justified.</note>
+        <note xml:id="P-3.6-note-23" n="23" type="uncertainty" target="#P-3.6-l23" resp="#P-3.6-reviewer">Tentative source traces retained in unclear: ignis; amore. The surviving depositos niuibus de monte solutis is legible to the right of the opaque patch. The opening gap remains justified.</note>
+        <note xml:id="P-3.6-note-24" n="24" type="uncertainty" target="#P-3.6-l24" resp="#P-3.6-reviewer">Tentative source traces retained in unclear: uidisse. The surviving depositos niuibus de monte solutis is legible to the right of the opaque patch. The opening gap remains justified.</note>
+        <note xml:id="P-3.6-note-25" n="25" type="uncertainty" target="#P-3.6-l25" resp="#P-3.6-reviewer">The tentative Bithyni fragment lies at the edge of a dark patch. Its ending remains a gap; no complete proper name or geographic phrase is supplied. Tentative source traces retained in unclear: Bithyni. The surviving depositos niuibus de monte solutis is legible to the right of the opaque patch. The opening gap remains justified.</note>
+        <note xml:id="P-3.6-note-26" n="26" type="uncertainty" target="#P-3.6-l26" resp="#P-3.6-reviewer">Tentative source traces retained in unclear: Argolidas. The surviving depositos niuibus de monte solutis is legible to the right of the opaque patch. The opening gap remains justified.</note>
+        <note xml:id="P-3.6-note-27" n="27" type="uncertainty" target="#P-3.6-l27" resp="#P-3.6-reviewer">Obessa duobus is preserved as the visible spelling; no silent conversion to a different form. Tentative source traces retained in unclear: tristis. The surviving depositos niuibus de monte solutis is legible to the right of the opaque patch. The opening gap remains justified.</note>
+        <note xml:id="P-3.6-note-28" n="28" type="uncertainty" target="#P-3.6-l28" resp="#P-3.6-reviewer">Tentative source traces retained in unclear: Xanthos. The surviving depositos niuibus de monte solutis is legible to the right of the opaque patch. The opening gap remains justified.</note>
+        <note xml:id="P-3.6-note-29" n="29" type="uncertainty" target="#P-3.6-l29" resp="#P-3.6-reviewer">Tentative source traces retained in unclear: diues; arcessit. The surviving depositos niuibus de monte solutis is legible to the right of the opaque patch. The opening gap remains justified.</note>
+        <note xml:id="P-3.6-note-30" n="30" type="uncertainty" target="#P-3.6-l30" resp="#P-3.6-reviewer">A separate darker M-like mark is visible below the final line of the right page. It is encoded as a metamark with unknown function, without assigning a correcting hand. Tentative source traces retained in unclear: certos. The surviving depositos niuibus de monte solutis is legible to the right of the opaque patch. The opening gap remains justified.</note>
+        <note xml:id="P-3.6-note-31" n="31" type="uncertainty" target="#P-3.6-l31" resp="#P-3.6-reviewer">Image 90 left begins here; the first couplet is faded and partially affected by discoloration. Tentative source traces retained in unclear: promissum; Parthenopen. The surviving depositos niuibus de monte solutis is legible to the right of the opaque patch. The opening gap remains justified.</note>
+        <note xml:id="P-3.6-note-32" n="32" type="uncertainty" target="#P-3.6-l32" resp="#P-3.6-reviewer">Tentative source traces retained in unclear: terris; oculuisse. The surviving depositos niuibus de monte solutis is legible to the right of the opaque patch. The opening gap remains justified.</note>
+        <note xml:id="P-3.6-note-33" n="33" type="uncertainty" target="#P-3.6-l33" resp="#P-3.6-reviewer">The photograph supports asopon and quem cepit, with pale referam and the final martia thebe still tentative. The names are not normalized to an edition.</note>
+        <note xml:id="P-3.6-note-34" n="34" type="uncertainty" target="#P-3.6-l34" resp="#P-3.6-reviewer">The first phrase is retained tentatively as Natarum thebenamque rather than silently matching an edition. Tentative source traces retained in unclear: Natarum thebenamque. The surviving depositos niuibus de monte solutis is legible to the right of the opaque patch. The opening gap remains justified.</note>
+        <note xml:id="P-3.6-note-36" n="36" type="uncertainty" target="#P-3.6-l36" resp="#P-3.6-reviewer">Herculis irata is compatible with the pale opening; fracta querere manu is clearer. The opening uncertainty remains appropriate.</note>
+        <note xml:id="P-3.6-note-40" n="40" type="uncertainty" target="#P-3.6-l40" resp="#P-3.6-reviewer">The terminal aquis is distinguishable on enlargement, though still pale. Its existing local uncertainty is retained conservatively.</note>
+        <note xml:id="P-3.6-note-41" n="41" type="observation" target="#P-3.6-l41" resp="#P-3.6-reviewer">Euanthe and asopide are visible manuscript forms. The unusual names are retained as an observation, without editorial substitution.</note>
+        <note xml:id="P-3.6-note-43" n="43" type="uncertainty" target="#P-3.6-l43" resp="#P-3.6-reviewer">The complete line is visible at weak contrast and supports the existing tentative Siccus ut amplexus salmonida posset enipeus. The qualification is retained.</note>
+        <note xml:id="P-3.6-note-45" n="45" type="uncertainty" target="#P-3.6-l45" resp="#P-3.6-reviewer">The pale Nec te praetereo remains compatible with the image; qui per caua saxa uolutans is clearer. Existing local uncertainty is retained.</note>
+        <note xml:id="P-3.6-note-48" n="48" type="uncertainty" target="#P-3.6-l48" resp="#P-3.6-reviewer">The surviving traces support tentative Ungue notata comas ungue; the faint ending is not completed. Tentative source traces retained in unclear: Ungue notata comas ungue. The surviving depositos niuibus de monte solutis is legible to the right of the opaque patch. The opening gap remains justified.</note>
+        <note xml:id="P-3.6-note-49" n="49" type="uncertainty" target="#P-3.6-l49" resp="#P-3.6-reviewer">The line is physically present but its central and final text cannot be read securely in this pass. Tentative source traces retained in unclear: Illa; que. The surviving depositos niuibus de monte solutis is legible to the right of the opaque patch. The opening gap remains justified.</note>
+        <note xml:id="P-3.6-note-51" n="51" type="uncertainty" target="#P-3.6-l51" resp="#P-3.6-reviewer">Anio remains compatible with the faint name after Hanc; rapidis animosus uidit ab undis is clearer. The local name uncertainty remains.</note>
+        <note xml:id="P-3.6-note-52" n="52" type="uncertainty" target="#P-3.6-l52" resp="#P-3.6-reviewer">The whole verse was inspected. Raucaque, de mediis and ora uadis remain pale but compatible with the tentative transcription.</note>
+        <note xml:id="P-3.6-note-53" n="53" type="uncertainty" target="#P-3.6-l53" resp="#P-3.6-reviewer">The opening is tentatively Atque ita quid nostras; the faded ending is left as a gap. Tentative source traces retained in unclear: Atque ita quid nostras. The surviving depositos niuibus de monte solutis is legible to the right of the opaque patch. The opening gap remains justified.</note>
+        <note xml:id="P-3.6-note-54" n="54" type="uncertainty" target="#P-3.6-l54" resp="#P-3.6-reviewer">The line supports Ilia with pale ab idaeo laomedonte genus. The name and origin phrase remain qualified rather than normalized.</note>
+        <note xml:id="P-3.6-note-55" n="55" type="uncertainty" target="#P-3.6-l55" resp="#P-3.6-reviewer">The bottom four verses of image 90 left are exceptionally faint; only locally supported readings are retained. Tentative source traces retained in unclear: Quo cultus abiere tui. The surviving depositos niuibus de monte solutis is legible to the right of the opaque patch. The opening gap remains justified.</note>
+        <note xml:id="P-3.6-note-56" n="56" type="uncertainty" target="#P-3.6-l56" resp="#P-3.6-reviewer">Tentative source traces retained in unclear: praetinctis; comis. The surviving depositos niuibus de monte solutis is legible to the right of the opaque patch. The opening gap remains justified.</note>
+        <note xml:id="P-3.6-note-57" n="57" type="uncertainty" target="#P-3.6-l57" resp="#P-3.6-reviewer">Tentative source traces retained in unclear: Quid fles et madidos lacrimis. The surviving depositos niuibus de monte solutis is legible to the right of the opaque patch. The opening gap remains justified.</note>
+        <note xml:id="P-3.6-note-58" n="58" type="uncertainty" target="#P-3.6-l58" resp="#P-3.6-reviewer">Tentative source traces retained in unclear: Pectoraque. The surviving depositos niuibus de monte solutis is legible to the right of the opaque patch. The opening gap remains justified.</note>
+        <note xml:id="P-3.6-note-59" n="59" type="uncertainty" target="#P-3.6-l59" resp="#P-3.6-reviewer">Image 90 right begins this verse. Its opening is faint; silices and ferrum are tentative. Tentative source traces retained in unclear: silices; ferrum. The surviving depositos niuibus de monte solutis is legible to the right of the opaque patch. The opening gap remains justified.</note>
+        <note xml:id="P-3.6-note-60" n="60" type="uncertainty" target="#P-3.6-l60" resp="#P-3.6-reviewer">Only lacrimas lentus amore uidet is retained with confidence; the opening is left unreadable rather than forced into an expected construction. The surviving depositos niuibus de monte solutis is legible to the right of the opaque patch. The opening gap remains justified.</note>
+        <note xml:id="P-3.6-note-63" n="63" type="uncertainty" target="#P-3.6-l63" resp="#P-3.6-reviewer">The enlarged opening remains compatible with tentative Ilia tuam, though the first group is especially faint. Aut plures inter dominabere nymphas is visible; the unusual sequence is not normalized.</note>
+        <note xml:id="P-3.6-note-64" n="64" type="observation" target="#P-3.6-l64" resp="#P-3.6-reviewer">Non tantum aut plures is visibly present. The line is retained as a source observation without grammatical emendation.</note>
+        <note xml:id="P-3.6-note-65" n="65" type="uncertainty" target="#P-3.6-l65" resp="#P-3.6-reviewer">The name Troiana is pale but compatible with the surviving letter sequence. The qualification remains appropriate.</note>
+        <note xml:id="P-3.6-note-70" n="70" type="uncertainty" target="#P-3.6-l70" resp="#P-3.6-reviewer">The opening is tentatively Cur pendit; intervening traces remain illegible. The source does not support a confident complete verse in this pass. Tentative source traces retained in unclear: Cur pendit; praecipitem. The surviving depositos niuibus de monte solutis is legible to the right of the opaque patch. The opening gap remains justified.</note>
+        <note xml:id="P-3.6-note-73" n="73" type="observation" target="#P-3.6-l73" resp="#P-3.6-reviewer">The apparent joined spelling Outinam is present. Editorial spacing is not used to invent a manuscript difference.</note>
+        <note xml:id="P-3.6-note-74" n="74" type="uncertainty" target="#P-3.6-l74" resp="#P-3.6-reviewer">Cum poterant remains compatible with the pale centre, while uirginis ossa legi is clearer. Existing uncertainty remains local.</note>
+        <note xml:id="P-3.6-note-75" n="75" type="uncertainty" target="#P-3.6-l75" resp="#P-3.6-reviewer">The V of Vestalis is visibly darker than surrounding ink. No earlier letter, mechanism of correction or historical hand is inferred. The middle and end of this line remain uncertain. Tentative source traces retained in unclear: col; dulcis. The surviving depositos niuibus de monte solutis is legible to the right of the opaque patch. The opening gap remains justified.</note>
+        <note xml:id="P-3.6-note-78" n="78" type="uncertainty" target="#P-3.6-l78" resp="#P-3.6-reviewer">The enlarged central group remains compatible with tentative quam notet. The source reading is not regularized to a more familiar phrase.</note>
+        <note xml:id="P-3.6-note-79" n="79" type="uncertainty" target="#P-3.6-l79" resp="#P-3.6-reviewer">Vestem remains plausible in the faint opening half. The et sign and later phrase remain visible, and the uncertainty is retained.</note>
+        <note xml:id="P-3.6-note-84" n="84" type="uncertainty" target="#P-3.6-l84" resp="#P-3.6-reviewer">The possessive before tegunt is still pale and compatible with uestra. Its local uncertainty is retained.</note>
+        <note xml:id="P-3.6-note-85" n="85" type="uncertainty" target="#P-3.6-l85" resp="#P-3.6-reviewer">Tuis is compatible with the small pale group before spatiosus. The image does not justify replacing it with an expected adjective.</note>
+        <note xml:id="P-3.6-note-86" n="86" type="uncertainty" target="#P-3.6-l86" resp="#P-3.6-reviewer">All words are present but faint at the lower right. The complete-line unclear element remains a conservative representation of Nec capit admissas alueus altus aquas.</note>
+        <note xml:id="P-3.6-note-87" n="87" type="observation" target="#P-3.6-l87" resp="#P-3.6-reviewer">Image 91 left begins at this verse. The twenty final physical positions are present before the next decorated initial; the opening reading is compatible with the photograph.</note>
+        <note xml:id="P-3.6-note-94" n="94" type="observation" target="#P-3.6-l94" resp="#P-3.6-reviewer">Diuitas and hiemps are the apparent source spellings and remain unchanged.</note>
+        <note xml:id="P-3.6-note-100" n="100" type="observation" target="#P-3.6-l100" resp="#P-3.6-reviewer">The visible middle word remains compatible with mentis. No correction is made to match an expected adjective.</note>
+        <note xml:id="P-3.6-note-101" n="101" type="uncertainty" target="#P-3.6-l101" resp="#P-3.6-reviewer">Uae demens remains pale and qualified. Fluminum amores is distinguishable on enlargement with letters written out, so that phrase is no longer unclear; no abbreviation sign is invented.</note>
+        <note xml:id="P-3.6-note-103" n="103" type="uncertainty" target="#P-3.6-l103" resp="#P-3.6-reviewer">The enlarged sequence after quem remains compatible with tentative hunc spectas and the final amnem remains faint. Acheloon and inachon are retained as source forms.</note>
+        <note xml:id="P-3.6-note-104" n="104" type="uncertainty" target="#P-3.6-l104" resp="#P-3.6-reviewer">The compact group nomenque and the pale nile referre remain tentative. The ending after nomen is not distinct enough to encode a specific abbreviation sign; no sign is fabricated.</note>
+        <note xml:id="P-3.6-note-106" n="106" type="observation" target="#P-3.6-l106" resp="#P-3.6-reviewer">The complete final line precedes the large initial of P 3.7. The physical sequence confirms all 106 extant positions, with illegibility distinguished from manuscript absence.</note>
+        <note xml:id="P-3.6-note-97" n="97" type="uncertainty" target="#P-3.6-l97" resp="#P-3.6-reviewer">The word between totiens and uiator is less secure than the first pass implies, especially its opening letters. The existing reading adire is now qualified as unclear rather than replaced with an unsupported alternative.</note>
+      </div>
+    </back>
+  </text>
+</TEI>

@@ -67,7 +67,8 @@ function renderTrialEdition(fragment, xml, panel, witness, poem) {
   scroll.querySelectorAll('tei-hi[rend="darker-ink"]').forEach(el => { el.title = 'Darker ink; earlier letters and hand not inferred'; });
   scroll.querySelectorAll('tei-space').forEach(el => {
     el.style.display = 'inline-block';
-    el.style.width = `${Math.min(Number(el.getAttribute('quantity')) || 1, 20)}ch`;
+    const defaultWidth = el.getAttribute('extent') === 'large' ? 4 : 1;
+    el.style.width = `${Math.min(Number(el.getAttribute('quantity')) || defaultWidth, 20)}ch`;
     el.setAttribute('aria-label', 'Space in manuscript');
   });
   // Page boundaries remain in the source XML; the reading view stays continuous.
@@ -155,9 +156,20 @@ function renderTrialEdition(fragment, xml, panel, witness, poem) {
     const children = Array.from(choice.children);
     const selected = ['tei-abbr', 'tei-orig', 'tei-sic'].map(name => children.find(el => el.localName === name)).find(Boolean) || children[0];
     children.forEach(el => { el.hidden = el !== selected; });
-    choice.title = children.filter(el => el !== selected).map(el => el.textContent).join(' / ');
+    choice.title = children.filter(el => el !== selected).map(el => {
+      const qualified = ['low', 'medium'].includes(el.getAttribute('cert'));
+      return `${el.textContent}${qualified ? ' (tentative expansion)' : ''}`;
+    }).join(' / ');
   });
   scroll.querySelectorAll('tei-gap').forEach(gap => {
+    if (['notInscribed', 'not-inscribed'].includes(gap.getAttribute('reason'))) {
+      gap.replaceChildren();
+      gap.style.display = 'inline-block';
+      gap.style.width = `${Math.min(Number(gap.getAttribute('quantity')) || 1, 20)}ch`;
+      gap.title = 'Uninscribed space in the manuscript';
+      gap.setAttribute('aria-label', gap.title);
+      return;
+    }
     const label = document.createElement('span');
     const inline = Boolean(gap.closest('tei-l, tei-note'));
     label.className = inline ? 'inline-gap' : 'transcription-gap';

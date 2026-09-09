@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Y-3.4-document" n="Y">
+<teiHeader xml:lang="en"><fileDesc><titleStmt><title>Ovid, Amores 3.4: witness Y — independently source-reviewed transcription</title><author>Publius Ovidius Naso</author><respStmt xml:id="Y-3.4-encoder"><resp>First manuscript-image transcription and encoding</resp><name>OpenAI Codex, first reader</name></respStmt><respStmt xml:id="Y-3.4-reviewer"><resp>Independent second source reading of all 48 verses, corrections, and disposition of every note</resp><name>OpenAI Codex, encode_s reviewer</name></respStmt></titleStmt><publicationStmt><p>Amores Project working transcription, 9 September 2026. Independently reviewed by a second agent; not human scholarly approval.</p></publicationStmt><sourceDesc><msDesc xml:id="Y-3.4-manuscript"><msIdentifier><settlement>Berlin</settlement><repository>Staatsbibliothek zu Berlin — Preußischer Kulturbesitz</repository><idno>Ms. Ham. 471</idno></msIdentifier><msContents><msItem><locus from="60v" to="61r">60v–61r</locus><title>Amores 3.4</title></msItem></msContents><physDesc><handDesc><handNote>Brown main writing and darker interventions are visible. Ink differences are recorded without assigning historical hands.</handNote></handDesc></physDesc><history><origin><p>The supplied library manifest dates the manuscript to the 10th/11th century; this does not date individual interventions.</p></origin></history><additional><surrogates><p><ref target="https://resolver.staatsbibliothek-berlin.de/SBB00034ABB00000000">Library digital facsimile, PPN1844735508</ref>. The supplied manifest identifies the images as Public Domain Mark 1.0. Every verse in folios 60v, 61r was inspected for this first pass.</p></surrogates></additional></msDesc></sourceDesc></fileDesc>
+<encodingDesc><projectDesc><p>Source-grounded first pass of all 48 manuscript verses. No other witness or normalized edition was used as transcription input. Existing annotation coordinates provide navigation, not text. There are 95 annotation rows for 48 distinct verses. Select the last row per line: all duplicate rectangles are identical except line 47, where the first rectangle is displaced to line 48 and the last correctly encloses line 47 on image 125. All selected regions were checked against the source page. witness=Y, sourceWitness=LL and panelId=viewer-panel are navigation provenance only; no LL text supplied readings. Original annotations are unchanged.</p></projectDesc><editorialDecl><correction><p>Uncertain letters are marked unclear and unreadable text gap. Darker ink is hi, not proof of erasure or a distinct hand. Actual additions use add; deletion or substitution is asserted only with visible evidence and qualified where needed. No unattested earlier reading is supplied.</p></correction><normalization><p>Single source-oriented display. Ordinary allographs and long s are represented with standard Latin characters. Source spelling is preserved; word spacing and couplet layout are editorial. Explicit abbreviation expansions remain in TEI choices. Punctuation and unusual signs are schematic typographic equivalents, not exact pen-shape replicas.</p></normalization><punctuation><p>Visible significant punctuation and separation or insertion marks are retained. No modern sentence punctuation is supplied.</p></punctuation><segmentation><p>Each l is one verse and one physical source line. Even lines are indented; lg groups are editorial elegiac couplets. Each verse has a stable ID and an existing facsimile rectangle. The rectangles may include neighbouring text and need not enclose marginal inscriptions.</p></segmentation><interpretation><p>Every verse and first-reader note has been checked against the source by a separate agent. Observations record supported features and corrections; uncertainty records source limitations without automatic human escalation. The separate JSON ledger records each disposition and binds this candidate to the review report.</p></interpretation></editorialDecl><charDecl><char xml:id="Y-3.4-et"><desc>ET LIGATURE, SCHEMATIC</desc><mapping type="display">&amp;</mapping><mapping type="expansion">et</mapping></char><char xml:id="Y-3.4-question"><desc>QUESTION-LIKE SIGN, SCHEMATIC</desc><mapping type="display">⸮</mapping></char><char xml:id="Y-3.4-per"><desc>P WITH CROSSING STROKE THROUGH DESCENDER, SCHEMATIC</desc><mapping type="display">ꝑ</mapping><mapping type="expansion">per</mapping></char></charDecl></encodingDesc><revisionDesc status="agent-reviewed"><change when="2026-09-09" who="#Y-3.4-encoder">First source pass covering all 48 verses and visible interventions in folios 60v, 61r; awaiting a different agent's independent reading.</change><change when="2026-09-09" who="#Y-3.4-reviewer">Independent visual second pass of all 48 verses and every note; corrected supported readings and source features, checked line47 navigation against both duplicate rectangles, preserved local uncertainty, and prepared the complete review ledger.</change></revisionDesc></teiHeader>
+<facsimile>
+<surface xml:id="Y-3.4-s124" n="60v" ulx="0" uly="0" lrx="1971" lry="3363"><graphic url="https://content.staatsbibliothek-berlin.de/dc/1844735508-0124/full/full/0/default.jpg" />
+<zone xml:id="Y-3.4-zone-1" ulx="304" uly="1316" lrx="1628" lry="1420" />
+<zone xml:id="Y-3.4-zone-2" ulx="463" uly="1403" lrx="1572" lry="1496" />
+<zone xml:id="Y-3.4-zone-3" ulx="344" uly="1455" lrx="1682" lry="1559" />
+<zone xml:id="Y-3.4-zone-4" ulx="408" uly="1542" lrx="1607" lry="1635" />
+<zone xml:id="Y-3.4-zone-5" ulx="350" uly="1585" lrx="1763" lry="1695" />
+<zone xml:id="Y-3.4-zone-6" ulx="405" uly="1661" lrx="1433" lry="1754" />
+<zone xml:id="Y-3.4-zone-7" ulx="347" uly="1716" lrx="1630" lry="1826" />
+<zone xml:id="Y-3.4-zone-8" ulx="408" uly="1805" lrx="1459" lry="1889" />
+<zone xml:id="Y-3.4-zone-9" ulx="364" uly="1852" lrx="1598" lry="1950" />
+<zone xml:id="Y-3.4-zone-10" ulx="393" uly="1933" lrx="1410" lry="2023" />
+<zone xml:id="Y-3.4-zone-11" ulx="335" uly="1997" lrx="1511" lry="2098" />
+<zone xml:id="Y-3.4-zone-12" ulx="399" uly="2060" lrx="1372" lry="2142" />
+<zone xml:id="Y-3.4-zone-13" ulx="356" uly="2124" lrx="1711" lry="2225" />
+<zone xml:id="Y-3.4-zone-14" ulx="396" uly="2185" lrx="1436" lry="2281" />
+<zone xml:id="Y-3.4-zone-15" ulx="344" uly="2263" lrx="1642" lry="2350" />
+<zone xml:id="Y-3.4-zone-16" ulx="376" uly="2312" lrx="1514" lry="2410" />
+<zone xml:id="Y-3.4-zone-17" ulx="335" uly="2385" lrx="1609" lry="2483" />
+<zone xml:id="Y-3.4-zone-18" ulx="402" uly="2443" lrx="1572" lry="2530" />
+<zone xml:id="Y-3.4-zone-19" ulx="338" uly="2510" lrx="1667" lry="2619" />
+<zone xml:id="Y-3.4-zone-20" ulx="408" uly="2573" lrx="1627" lry="2674" />
+<zone xml:id="Y-3.4-zone-21" ulx="332" uly="2640" lrx="1682" lry="2738" />
+<zone xml:id="Y-3.4-zone-22" ulx="408" uly="2706" lrx="1480" lry="2790" />
+<zone xml:id="Y-3.4-zone-23" ulx="350" uly="2773" lrx="1497" lry="2866" />
+<zone xml:id="Y-3.4-zone-24" ulx="396" uly="2852" lrx="1538" lry="2964" />
+</surface>
+<surface xml:id="Y-3.4-s125" n="61r" ulx="0" uly="0" lrx="1965" lry="3363"><graphic url="https://content.staatsbibliothek-berlin.de/dc/1844735508-0125/full/full/0/default.jpg" />
+<zone xml:id="Y-3.4-zone-25" ulx="128" uly="291" lrx="1559" lry="363" />
+<zone xml:id="Y-3.4-zone-26" ulx="148" uly="358" lrx="1454" lry="436" />
+<zone xml:id="Y-3.4-zone-27" ulx="102" uly="433" lrx="1304" lry="505" />
+<zone xml:id="Y-3.4-zone-28" ulx="174" uly="505" lrx="1211" lry="580" />
+<zone xml:id="Y-3.4-zone-29" ulx="102" uly="556" lrx="1585" lry="642" />
+<zone xml:id="Y-3.4-zone-30" ulx="183" uly="633" lrx="1405" lry="705" />
+<zone xml:id="Y-3.4-zone-31" ulx="93" uly="683" lrx="1428" lry="775" />
+<zone xml:id="Y-3.4-zone-32" ulx="183" uly="766" lrx="1373" lry="827" />
+<zone xml:id="Y-3.4-zone-33" ulx="137" uly="824" lrx="1429" lry="917" />
+<zone xml:id="Y-3.4-zone-34" ulx="192" uly="899" lrx="1626" lry="969" />
+<zone xml:id="Y-3.4-zone-35" ulx="119" uly="960" lrx="1344" lry="1050" />
+<zone xml:id="Y-3.4-zone-36" ulx="171" uly="1033" lrx="1185" lry="1108" />
+<zone xml:id="Y-3.4-zone-37" ulx="142" uly="1076" lrx="1561" lry="1177" />
+<zone xml:id="Y-3.4-zone-38" ulx="197" uly="1169" lrx="1289" lry="1239" />
+<zone xml:id="Y-3.4-zone-39" ulx="128" uly="1218" lrx="1428" lry="1305" />
+<zone xml:id="Y-3.4-zone-40" ulx="177" uly="1293" lrx="1292" lry="1371" />
+<zone xml:id="Y-3.4-zone-41" ulx="145" uly="1340" lrx="1509" lry="1424" />
+<zone xml:id="Y-3.4-zone-42" ulx="180" uly="1418" lrx="1333" lry="1490" />
+<zone xml:id="Y-3.4-zone-43" ulx="125" uly="1458" lrx="1475" lry="1556" />
+<zone xml:id="Y-3.4-zone-44" ulx="212" uly="1551" lrx="1232" lry="1626" />
+<zone xml:id="Y-3.4-zone-45" ulx="148" uly="1589" lrx="1593" lry="1685" />
+<zone xml:id="Y-3.4-zone-46" ulx="189" uly="1673" lrx="1371" lry="1754" />
+<zone xml:id="Y-3.4-zone-47" ulx="149" uly="1723" lrx="1478" lry="1828" />
+<zone xml:id="Y-3.4-zone-48" ulx="131" uly="1785" lrx="1568" lry="1882" />
+</surface>
+</facsimile><text xml:lang="la"><body><div type="poem" n="3.4" xml:id="Y-3.4" resp="#Y-3.4-encoder">
+<pb n="60v" facs="#Y-3.4-s124" />
+<lg type="couplet" n="1">
+<l n="1" xml:id="Y-3.4-l1" facs="#Y-3.4-zone-1"><hi rend="initial">D</hi>ure uir inposito tenerae custode puellae</l>
+<l n="2" xml:id="Y-3.4-l2" facs="#Y-3.4-zone-2" rend="indent">Nil agis ingenio est quaeque tuenda suo<pc>.</pc></l>
+</lg>
+<lg type="couplet" n="2">
+<l n="3" xml:id="Y-3.4-l3" facs="#Y-3.4-zone-3">Si qua metu dempto casta est ea <choice><abbr>deniq<am>ͦ</am></abbr><expan>denique</expan></choice> casta est<pc>.</pc></l>
+<l n="4" xml:id="Y-3.4-l4" facs="#Y-3.4-zone-4" rend="indent">Quae quia non licet non facit illa facit<pc>.</pc></l>
+</lg>
+<lg type="couplet" n="3">
+<l n="5" xml:id="Y-3.4-l5" facs="#Y-3.4-zone-5">Vt iam seruaris <hi rend="dark-ink">b</hi>ene corpus adultera mens est</l>
+<l n="6" xml:id="Y-3.4-l6" facs="#Y-3.4-zone-6" rend="indent">Nec custodiri ni uelit ulla potest<pc>.</pc></l>
+</lg>
+<lg type="couplet" n="4">
+<l n="7" xml:id="Y-3.4-l7" facs="#Y-3.4-zone-7">Nec corpus<note type="manuscript" place="above">mentem</note> seruare potest lic<choice><abbr><g ref="#Y-3.4-et">&amp;</g></abbr><expan>et</expan></choice> omnia cla<add place="above">u</add>das<pc>.</pc></l>
+<l n="8" xml:id="Y-3.4-l8" facs="#Y-3.4-zone-8" rend="indent">Omnibus exclusis intus adulter erit<pc>.</pc></l>
+</lg>
+<lg type="couplet" n="5">
+<l n="9" xml:id="Y-3.4-l9" facs="#Y-3.4-zone-9">Cui peccare lic<choice><abbr><g ref="#Y-3.4-et">&amp;</g></abbr><expan>et</expan></choice> peccat minus ipsa potestas<pc>.</pc></l>
+<l n="10" xml:id="Y-3.4-l10" facs="#Y-3.4-zone-10" rend="indent">Semina nequitię languidiora facit<pc>.</pc></l>
+</lg>
+<lg type="couplet" n="6">
+<l n="11" xml:id="Y-3.4-l11" facs="#Y-3.4-zone-11">Desine crede mihi uitia inritare uetando<pc>.</pc></l>
+<l n="12" xml:id="Y-3.4-l12" facs="#Y-3.4-zone-12" rend="indent">Obsequio uinces aptius illa tuo<pc>.</pc></l>
+</lg>
+<lg type="couplet" n="7">
+<l n="13" xml:id="Y-3.4-l13" facs="#Y-3.4-zone-13">Vidi ego nuper equum contra sua uincla tenacem</l>
+<l n="14" xml:id="Y-3.4-l14" facs="#Y-3.4-zone-14" rend="indent">Or<hi rend="dark-ink">e</hi> reluctanti fulminis ire modo<pc>.</pc></l>
+</lg>
+<lg type="couplet" n="8">
+<l n="15" xml:id="Y-3.4-l15" facs="#Y-3.4-zone-15">Constitit ut primum concessas sensit habenas</l>
+<l n="16" xml:id="Y-3.4-l16" facs="#Y-3.4-zone-16" rend="indent">Frenaque in effusa<note type="manuscript" place="above"><unclear reason="illegible">s</unclear></note> laxa iacere iuba<pc>.</pc><note type="manuscript" place="above"><unclear reason="illegible">s</unclear></note></l>
+</lg>
+<lg type="couplet" n="9">
+<l n="17" xml:id="Y-3.4-l17" facs="#Y-3.4-zone-17">Nitimur in uetitum sem<choice><abbr><g ref="#Y-3.4-per">ꝑ</g></abbr><expan>per</expan></choice> cupimusque negata</l>
+<l n="18" xml:id="Y-3.4-l18" facs="#Y-3.4-zone-18" rend="indent">Sic interdictis imminet aeger aquis<pc>.</pc></l>
+</lg>
+<lg type="couplet" n="10">
+<l n="19" xml:id="Y-3.4-l19" facs="#Y-3.4-zone-19">Centum fronte oculos centum ceruice gerebat</l>
+<l n="20" xml:id="Y-3.4-l20" facs="#Y-3.4-zone-20" rend="indent">Argus <choice><abbr><g ref="#Y-3.4-et">&amp;</g></abbr><expan>et</expan></choice> hos unus saepe fefellit amor<pc>.</pc></l>
+</lg>
+<lg type="couplet" n="11">
+<l n="21" xml:id="Y-3.4-l21" facs="#Y-3.4-zone-21">In thalamum danae ferro saxoque per<space dim="horizontal" extent="space around a parchment hole" />ennem</l>
+<l n="22" xml:id="Y-3.4-l22" facs="#Y-3.4-zone-22" rend="indent">Quae fuerat uirgo tradita <choice><abbr>mat<am>̄</am></abbr><expan>mater</expan></choice> erat</l>
+</lg>
+<lg type="couplet" n="12">
+<l n="23" xml:id="Y-3.4-l23" facs="#Y-3.4-zone-23">Penelope mansit <choice><abbr>quāuis</abbr><expan>quamuis</expan></choice> custode carebat</l>
+<l n="24" xml:id="Y-3.4-l24" facs="#Y-3.4-zone-24" rend="indent">Inter tot iuuenes intemerata procos<pc>.</pc><note type="manuscript" place="below">tam multos<pc>.</pc></note></l>
+</lg>
+<pb n="61r" facs="#Y-3.4-s125" />
+<lg type="couplet" n="13">
+<l n="25" xml:id="Y-3.4-l25" facs="#Y-3.4-zone-25">Que quid seruatur cupimus magis<pc>:</pc> ipsaque furem</l>
+<l n="26" xml:id="Y-3.4-l26" facs="#Y-3.4-zone-26" rend="indent">Cura<pc>.</pc><note type="manuscript" place="above">Preda</note> uocat pauci quod sinit alter amant</l>
+</lg>
+<lg type="couplet" n="14">
+<l n="27" xml:id="Y-3.4-l27" facs="#Y-3.4-zone-27">Nec faci<hi rend="dark-ink">e</hi> plac<choice><abbr><g ref="#Y-3.4-et">&amp;</g></abbr><expan>et</expan></choice> illa sua sed<note type="manuscript" place="above"><unclear reason="illegible">a</unclear></note> more mariti</l>
+<l n="28" xml:id="Y-3.4-l28" facs="#Y-3.4-zone-28" rend="indent">Nescio quod<note type="manuscript" place="above"><choice><abbr>q<am>̄</am>d</abbr><expan>quid</expan></choice></note> te ceperit esse<pc>.</pc><note type="manuscript" place="above"><metamark function="unknown">ʌ</metamark></note> putant</l>
+</lg>
+<lg type="couplet" n="15">
+<l n="29" xml:id="Y-3.4-l29" facs="#Y-3.4-zone-29">Non proba sit quam ui<hi rend="dark-ink">r</hi> seruat sed adultera cara<note type="manuscript" place="above"><choice><abbr>tanti e<am>̄</am></abbr><expan>tanti est</expan></choice></note></l>
+<l n="30" xml:id="Y-3.4-l30" facs="#Y-3.4-zone-30" rend="indent">Ipse timor precium corpore maius hab<choice><abbr><g ref="#Y-3.4-et">&amp;</g></abbr><expan>et</expan></choice><pc>.</pc></l>
+</lg>
+<lg type="couplet" n="16">
+<l n="31" xml:id="Y-3.4-l31" facs="#Y-3.4-zone-31">Indignere lic<hi rend="darker-ink"><choice><abbr><g ref="#Y-3.4-et">&amp;</g></abbr><expan>et</expan></choice></hi> iuuat inconcessa uoluptas</l>
+<l n="32" xml:id="Y-3.4-l32" facs="#Y-3.4-zone-32" rend="indent">Sola plac<choice><abbr><g ref="#Y-3.4-et">&amp;</g></abbr><expan>et</expan></choice> timeo dicere siqua potest<pc>.</pc></l>
+</lg>
+<lg type="couplet" n="17">
+<l n="33" xml:id="Y-3.4-l33" facs="#Y-3.4-zone-33">Nec tamen inge<hi rend="dark-ink">nuo</hi> ius est seruare puellam</l>
+<l n="34" xml:id="Y-3.4-l34" facs="#Y-3.4-zone-34" rend="indent">Hic metus est externae corpora gentis agat<pc>.</pc></l>
+</lg>
+<lg type="couplet" n="18">
+<l n="35" xml:id="Y-3.4-l35" facs="#Y-3.4-zone-35">Scilic<choice><abbr><g ref="#Y-3.4-et">&amp;</g></abbr><expan>et</expan></choice> ut possit custos ego dicere feci</l>
+<l n="36" xml:id="Y-3.4-l36" facs="#Y-3.4-zone-36" rend="indent">In laudem serui <hi rend="dark-ink">ca</hi>sta sit illa tui<pc>.</pc></l>
+</lg>
+<lg type="couplet" n="19">
+<l n="37" xml:id="Y-3.4-l37" facs="#Y-3.4-zone-37">R<hi rend="dark-ink">ust</hi>icus est nimium quem ledit adultera coniunx<pc>.</pc></l>
+<l n="38" xml:id="Y-3.4-l38" facs="#Y-3.4-zone-38" rend="indent">Et notos mores non satis urbis hab<choice><abbr><g ref="#Y-3.4-et">&amp;</g></abbr><expan>et</expan></choice><pc>.</pc></l>
+</lg>
+<lg type="couplet" n="20">
+<l n="39" xml:id="Y-3.4-l39" facs="#Y-3.4-zone-39">In qua martigene non sunt sine crimine nati</l>
+<l n="40" xml:id="Y-3.4-l40" facs="#Y-3.4-zone-40" rend="indent">Romulus iliades <hi rend="dark-ink">i</hi>liadesque remus</l>
+</lg>
+<lg type="couplet" n="21">
+<l n="41" xml:id="Y-3.4-l41" facs="#Y-3.4-zone-41">Quo tibi formonsam si non nisi casta placebat<pc>.</pc></l>
+<l n="42" xml:id="Y-3.4-l42" facs="#Y-3.4-zone-42" rend="indent">Non possunt pullis ista cohire modis<pc>.</pc><note type="manuscript" place="above">i</note></l>
+</lg>
+<lg type="couplet" n="22">
+<l n="43" xml:id="Y-3.4-l43" facs="#Y-3.4-zone-43">Si sapis indulge domine uultusque seueros</l>
+<l n="44" xml:id="Y-3.4-l44" facs="#Y-3.4-zone-44" rend="indent">Exue <hi rend="dark-ink">nec</hi> rigidi iura <hi rend="dark-ink">t</hi>u<del rend="underdotted strikethrough"><unclear>en</unclear></del>ere uiri<pc>.</pc></l>
+</lg>
+<lg type="couplet" n="23">
+<l n="45" xml:id="Y-3.4-l45" facs="#Y-3.4-zone-45">Et cole quos dederit multos dabit uxor amicos<pc>.</pc></l>
+<l n="46" xml:id="Y-3.4-l46" facs="#Y-3.4-zone-46" rend="indent">Gratia sic minimo magna labore uenit<pc>.</pc></l>
+</lg>
+<lg type="couplet" n="24">
+<l n="47" xml:id="Y-3.4-l47" facs="#Y-3.4-zone-47">Sic poteris iuuenum conuiuia semper inire</l>
+<l n="48" xml:id="Y-3.4-l48" facs="#Y-3.4-zone-48" rend="indent">Et que non dederis multa uidere domi<pc>.</pc><pc type="separator">~</pc></l>
+</lg>
+</div></body><back><div type="editorial-notes" xml:lang="en"><head>First-pass source notes</head>
+<note xml:id="Y-3.4-note-1" n="1" type="observation" target="#Y-3.4-l1">Large initial D occupies the left of the opening couplet. The text above belongs to the previous poem.</note>
+<note xml:id="Y-3.4-note-2" n="2" type="observation" target="#Y-3.4-l2">The image reads quaeque, with an ae form, in this first line beneath the initial. The visible terminal point is retained.</note>
+<note xml:id="Y-3.4-note-3" n="3" type="observation" target="#Y-3.4-l3">The ending of denique uses a small raised suspension sign. Its schematic source form and explicit expansion are retained after visual verification; the typographic equivalent does not claim exact pen shape. The visible terminal point is retained.</note>
+<note xml:id="Y-3.4-note-5" n="5" type="observation" target="#Y-3.4-l5">The b of bene is darker than its neighbours. No earlier letter or erased state is recoverable.</note>
+<note xml:id="Y-3.4-note-6" n="6" type="observation" target="#Y-3.4-l6">The word before uelit reads ni in this image; it is not normalized to ne. The visible terminal point is retained.</note>
+<note xml:id="Y-3.4-note-7" n="7" type="uncertainty" target="#Y-3.4-l7">The source reads potest, correcting first-pass potes. Mentem stands above uncanceled corpus and remains a separate manuscript alternative. The baseline ending is cladas with u above between a and d; this is encoded as an above-line addition completing claudas. The et sign in licet remains explicit. The relationship of mentem to corpus is not reconstructed as a cancellation. The visible terminal point is retained.</note>
+<note xml:id="Y-3.4-note-14" n="14" type="observation" target="#Y-3.4-l14">The final e of Ore is darker. The main reading is retained without an invented previous state. The visible terminal point is retained.</note>
+<note xml:id="Y-3.4-note-16" n="16" type="uncertainty" target="#Y-3.4-l16">Small raised strokes above effusa and iuba are tentatively s-like. Their word-level function is not established; they are not silently inserted into the verse. The visible terminal point is retained.</note>
+<note xml:id="Y-3.4-note-20" n="20" type="observation" target="#Y-3.4-l20">The et ligature is represented schematically and expanded in a TEI choice. The visible terminal point is retained.</note>
+<note xml:id="Y-3.4-note-21" n="21" type="observation" target="#Y-3.4-l21">A physical hole interrupts the horizontal space within perennem, with writing on both sides. No lost letters are supplied; a space records the physical separation.</note>
+<note xml:id="Y-3.4-note-22" n="22" type="observation" target="#Y-3.4-l22">The shortened mat with its contraction mark is retained and explicitly expanded mater. The adjacent hole does not establish missing text; no conjectural gap is supplied.</note>
+<note xml:id="Y-3.4-note-24" n="24" type="uncertainty" target="#Y-3.4-l24">Tam multos is written below the line, beneath the area of tot iuuenes. The annotation is retained as a manuscript alternative without deleting any main-line words. The visible terminal point is retained.</note>
+<note xml:id="Y-3.4-note-25" n="25" type="observation" target="#Y-3.4-l25">The beginning is transcribed Que quid as written rather than normalized. A colon-like mark follows magis.</note>
+<note xml:id="Y-3.4-note-26" n="26" type="uncertainty" target="#Y-3.4-l26">Preda is written above Cura. Both visible readings are retained; no cancelled state of Cura is asserted. The visible terminal point is retained.</note>
+<note xml:id="Y-3.4-note-27" n="27" type="uncertainty" target="#Y-3.4-l27">The e of facie is darker. A small a-like mark appears above the area of sed; its function and target are not securely established. The visible et ligature in the verbal ending is retained explicitly.</note>
+<note xml:id="Y-3.4-note-28" n="28" type="uncertainty" target="#Y-3.4-l28">The middle word ceperit is legible on enlargement; unnecessary unclear markup has been removed. The source begins Nescio quod te, with a separate abbreviated qd above quod. The small sign above esse is encoded as a metamark of unknown function rather than a conjectural letter. No canceled baseline is established. The visible terminal point is retained.</note>
+<note xml:id="Y-3.4-note-29" n="29" type="uncertainty" target="#Y-3.4-l29">The r of uir is darker. Above cara appears tanti followed by abbreviated est, retained as a manuscript gloss or alternative without changing the base word.</note>
+<note xml:id="Y-3.4-note-33" n="33" type="observation" target="#Y-3.4-l33">The ending nuo of ingenuo is noticeably darker; no unattested underlying word is reconstructed.</note>
+<note xml:id="Y-3.4-note-36" n="36" type="observation" target="#Y-3.4-l36">The ca of casta is darkened while the full word remains legible. The visible terminal point is retained.</note>
+<note xml:id="Y-3.4-note-37" n="37" type="observation" target="#Y-3.4-l37">The ust sequence of Rusticus is darker. No erasure or distinct historical hand is inferred. The visible terminal point is retained.</note>
+<note xml:id="Y-3.4-note-39" n="39" type="observation" target="#Y-3.4-l39">The main line reads martigene; no regularized spelling is substituted.</note>
+<note xml:id="Y-3.4-note-40" n="40" type="observation" target="#Y-3.4-l40">The repeated iliades and iliadesque are both visibly present. The initial i of the second is darker; neither repeated word is deleted editorially.</note>
+<note xml:id="Y-3.4-note-41" n="41" type="observation" target="#Y-3.4-l41">Formonsam retains the source spelling with n. The visible terminal point is retained.</note>
+<note xml:id="Y-3.4-note-42" n="42" type="uncertainty" target="#Y-3.4-l42">Enlargement supports the visible reading pullis; unnecessary unclear markup on the word has been removed. The source has cohire and a small i above the modis area. The function of that separate high i remains uncertain; neither unusual spelling is normalized. The visible terminal point is retained.</note>
+<note xml:id="Y-3.4-note-44" n="44" type="uncertainty" target="#Y-3.4-l44">Nec and the first t of the following verb are darker. After tu, two letters are underdotted and crossed, provisionally en, followed by ere. Their visible cancellation is retained, with the canceled letters locally unclear. The first pass omitted this intervention. No unobserved predecessor is reconstructed. The visible terminal point is retained.</note>
+<note xml:id="Y-3.4-note-47" n="47" type="observation" target="#Y-3.4-l47">Of the two annotation rectangles for this verse, the last correctly encloses line 47; the first is displaced downward to line 48. Coverage was confirmed on the actual page.</note>
+<note xml:id="Y-3.4-note-48" n="48" type="observation" target="#Y-3.4-l48">A wavy separator follows domi. The following large N begins the next poem and is not included here. The visible terminal point is retained.</note>
+<note n="10" xml:id="Y-3.4-note-10" target="#Y-3.4-l10" type="observation">The final vowel of nequitię has a descending cauda and is preserved as e caudata rather than expanded ae. The visible terminal point is retained.</note><note n="17" xml:id="Y-3.4-note-17" target="#Y-3.4-l17" type="observation">Semper is abbreviated as sem followed by a p with a crossing stroke through its descender. Its schematic source glyph and expansion are retained; it is no longer silently spelled out.</note><note n="23" xml:id="Y-3.4-note-23" target="#Y-3.4-l23" type="observation">Quamuis is written with a nasal contraction, quāuis. Its visible bar is now retained with an explicit expansion rather than silently spelled-out text.</note><note n="30" xml:id="Y-3.4-note-30" target="#Y-3.4-l30" type="observation">The source spells precium with c, correcting first-pass pretium. Habet ends with the declared et sign, now retained explicitly. The terminal point is visible.</note><note n="31" xml:id="Y-3.4-note-31" target="#Y-3.4-l31" type="observation">The ending of licet is an et sign in distinctly darker ink. Both the abbreviation and ink distinction are now encoded without inferring an earlier reading.</note><note n="34" xml:id="Y-3.4-note-34" target="#Y-3.4-l34" type="observation">The source clearly reads Hic metus est externae: the omitted est has been restored from the visible letters. The terminal point is also retained.</note><note n="4" xml:id="Y-3.4-note-4" target="#Y-3.4-l4" type="observation">A clearly visible terminal point is retained from the source; the first pass omitted it.</note><note n="8" xml:id="Y-3.4-note-8" target="#Y-3.4-l8" type="observation">A clearly visible terminal point is retained from the source; the first pass omitted it.</note><note n="9" xml:id="Y-3.4-note-9" target="#Y-3.4-l9" type="observation">A clearly visible terminal point is retained from the source; the first pass omitted it. The visible et ligature in the verbal ending is retained explicitly.</note><note n="11" xml:id="Y-3.4-note-11" target="#Y-3.4-l11" type="observation">A clearly visible terminal point is retained from the source; the first pass omitted it.</note><note n="12" xml:id="Y-3.4-note-12" target="#Y-3.4-l12" type="observation">A clearly visible terminal point is retained from the source; the first pass omitted it.</note><note n="18" xml:id="Y-3.4-note-18" target="#Y-3.4-l18" type="observation">A clearly visible terminal point is retained from the source; the first pass omitted it.</note><note n="32" xml:id="Y-3.4-note-32" target="#Y-3.4-l32" type="observation">A clearly visible terminal point is retained from the source; the first pass omitted it. The visible et ligature in the verbal ending is retained explicitly.</note><note n="38" xml:id="Y-3.4-note-38" target="#Y-3.4-l38" type="observation">A clearly visible terminal point is retained from the source; the first pass omitted it. The visible et ligature in the verbal ending is retained explicitly.</note><note n="45" xml:id="Y-3.4-note-45" target="#Y-3.4-l45" type="observation">A clearly visible terminal point is retained from the source; the first pass omitted it.</note><note n="46" xml:id="Y-3.4-note-46" target="#Y-3.4-l46" type="observation">A clearly visible terminal point is retained from the source; the first pass omitted it.</note><note n="35" xml:id="Y-3.4-note-35" target="#Y-3.4-l35" type="observation">The verbal ending uses an et ligature, retained with the declared schematic glyph and explicit expansion.</note></div></back></text></TEI>

@@ -1,0 +1,30 @@
+{
+  "page_headers": {
+    "99": "III, III, 14 — IIII, 37.",
+    "100": "AMORUM"
+  },
+  "headings": {
+    "1": "IIII."
+  },
+  "footers": {
+    "37": [
+      {
+        "type": "signature",
+        "text": "4*"
+      }
+    ]
+  },
+  "notes": {
+    "1": "The printed poem heading is IIII., using four strokes. It is encoded separately from the opening verse. The source spelling inposito is retained.",
+    "2": "The source prints the contraction ingeniost as one word; it is not silently expanded in the transcription.",
+    "3": "Both occurrences of castast are printed contractions and retained as written.",
+    "6": "The source ends this verse with a comma. The punctuation has not been regularized to match the following semicolon.",
+    "11": "The printed spelling inritare is retained, as is inminet at18.",
+    "32": "The source places quotation marks around timeo only. Their placement is retained with schematic curly quotes.",
+    "35": "Ego and feci are separately quoted in the print, with dicere between them. The question continues through the following verse.",
+    "37": "The printed signature 4* follows this verse at the foot of page51. It is encoded as forme work; the couplet continues on page52.",
+    "38": "The source capitalizes Urbis here and Martigenae in the next verse.",
+    "40": "The source prints Iliades Iliadesque; the repeated name is retained without editorial correction.",
+    "45": "The parenthetical multos dabit is printed inside the verse and retained along with its surrounding commas and final colon."
+  }
+}

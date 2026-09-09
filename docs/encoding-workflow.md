@@ -28,6 +28,10 @@ The trial validates against the pinned official TEI P5 4.12.0 `tei_all` Relax NG
 
 Source-image coordinates reproduce the existing annotation rectangles. Each extant verse has a stable XML ID and, for image witnesses, a facsimile zone. Missing text is explicitly described with `gap`, never supplied from LL. Local editorial notes target the relevant verse or manuscript inscription. Full source links remain in the XML even when metadata is hidden in the reading panel.
 
+If source inspection establishes that an original rectangle targets the wrong text, preserve that original zone and add a separate corrected zone. The independent reviewer must record both sets of bounds, the correct image, and the reason and visual evidence in `zone_corrections`. Promotion verifies the original annotation provenance and exports only the reviewed navigation correction. The browser applies it only to the exact original rectangle, preserving subsequent scholar edits. `python3 scripts/test-tei-provenance.py` checks this preservation and rejection of unreviewed changes.
+
+Uninscribed space is displayed as blank space; illegible writing retains an ellipsis. Explicit large spaces and smaller script receive a readable layout approximation. Qualified expansions remain identified as tentative in tooltips, while the written abbreviation is displayed.
+
 For 3.7, S transmits only positions 1–74 on pp. 395–396; the following page is blank. The absence of 75–84 is represented explicitly, without assigning an unverified physical cause. LL is a modern web text and has no invented manuscript facsimile zones.
 
 ## Finding interventions

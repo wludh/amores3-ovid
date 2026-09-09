@@ -1,0 +1,200 @@
+{
+  "witness": "Y",
+  "poem": "3.5",
+  "date": "2026-09-09",
+  "stage": "first-pass",
+  "independently_reviewed": false,
+  "human_approved": false,
+  "coverage": [
+    {
+      "page": 125,
+      "folio": "61r",
+      "start": 1,
+      "end": 16,
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0125/full/full/0/default.jpg"
+    },
+    {
+      "page": 126,
+      "folio": "61v",
+      "start": 17,
+      "end": 46,
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0126/full/full/0/default.jpg"
+    }
+  ],
+  "line_count": 46,
+  "annotation_policy": "There are 92 annotation rows for 46 distinct verses. The two rectangle sets differ in position or dimensions for many verses while retaining the same page per verse. Select the last existing row per line and inspect each exact selected crop as well as its source page. Every selected region encloses the assigned verse; some include neighbouring lines or extra margin. In particular the narrower line-40 rectangle still includes the complete ending anus. witness=Y, sourceWitness=LL and panelId=viewer-panel are navigation provenance only, not a source for readings. Original annotations are unchanged.",
+  "notes": [
+    {
+      "note_id": "Y-3.5-note-1",
+      "line": 1,
+      "type": "observation",
+      "evidence": "A large decorated N begins the poem and extends beside the first couplet. The source reading submissit is retained. Et ligatures throughout are represented schematically with explicit expansions."
+    },
+    {
+      "note_id": "Y-3.5-note-3",
+      "line": 3,
+      "type": "observation",
+      "evidence": "The b of creberrimus and u of lucus are darker than adjacent letters. Their visible readings are encoded without conjectural erasures or hand assignments."
+    },
+    {
+      "note_id": "Y-3.5-note-5",
+      "line": 5,
+      "type": "observation",
+      "evidence": "The eo ending of gramineo is darker; the word remains legible."
+    },
+    {
+      "note_id": "Y-3.5-note-8",
+      "line": 8,
+      "type": "uncertainty",
+      "evidence": "The ending after arbor is a dark, crowded a-like form; arbora is retained tentatively rather than silently expanded to arborea. The initial s of sed is also dark. No earlier state is reconstructed."
+    },
+    {
+      "note_id": "Y-3.5-note-11",
+      "line": 11,
+      "type": "observation",
+      "evidence": "The source reads tunc cum, with a visible n before c, rather than tum cum."
+    },
+    {
+      "note_id": "Y-3.5-note-13",
+      "line": 13,
+      "type": "uncertainty",
+      "evidence": "The main word is sumpsit. Spumis appears in the right margin followed by dots, and is retained as an alternative without deleting sumpsit. Stridentibus has an abbreviated ending represented schematically with an explicit expansion."
+    },
+    {
+      "note_id": "Y-3.5-note-16",
+      "line": 16,
+      "type": "uncertainty",
+      "evidence": "The initial C is dark. After sua there is an m-like sequence crossed by a horizontal stroke; it is retained as unclear rather than asserting a deliberate deletion. The initial h of humum is faint. No other witness supplies an omitted or corrected word."
+    },
+    {
+      "note_id": "Y-3.5-note-18",
+      "line": 18,
+      "type": "observation",
+      "evidence": "The source word after iterum reads facto, which is preserved without normalization."
+    },
+    {
+      "note_id": "Y-3.5-note-19",
+      "line": 19,
+      "type": "observation",
+      "evidence": "The verse is fully visible and reads Visus erat somno uires adimente ferenti. It is transcribed directly from this image."
+    },
+    {
+      "note_id": "Y-3.5-note-20",
+      "line": 20,
+      "type": "observation",
+      "evidence": "The word is disposuisse in the photograph; no normalized substitute is used."
+    },
+    {
+      "note_id": "Y-3.5-note-21",
+      "line": 21,
+      "type": "observation",
+      "evidence": "The final a of delapsa is darker. The source remains legible."
+    },
+    {
+      "note_id": "Y-3.5-note-22",
+      "line": 22,
+      "type": "uncertainty",
+      "evidence": "The source reads sedet. A dark vertical stroke and lower dot occur after or through the end of garrula; an exclamation-like glyph represents the visible mark schematically, without assigning modern exclamatory force. Two oblique strokes stand in the right margin. The punctuation and marginal mark do not establish a scribal hand or a correction sequence."
+    },
+    {
+      "note_id": "Y-3.5-note-23",
+      "line": 23,
+      "type": "observation",
+      "evidence": "The visible words are uobis niueo. Their unusual forms are preserved rather than replaced with an expected phrase."
+    },
+    {
+      "note_id": "Y-3.5-note-24",
+      "line": 24,
+      "type": "observation",
+      "evidence": "The b of albentes is darker. The et sign is encoded with its expansion."
+    },
+    {
+      "note_id": "Y-3.5-note-25",
+      "line": 25,
+      "type": "observation",
+      "evidence": "The final t of reliquit is darker. Small accent-like strokes above the middle of the line do not securely establish additional letters."
+    },
+    {
+      "note_id": "Y-3.5-note-26",
+      "line": 26,
+      "type": "observation",
+      "evidence": "Sed nihil is clearly written. The statement is not rewritten to conform to the sense of a different reading."
+    },
+    {
+      "note_id": "Y-3.5-note-27",
+      "line": 27,
+      "type": "observation",
+      "evidence": "The o of tauros is darker. A small separate oblique stroke appears beyond the line ending, without a securely established textual function."
+    },
+    {
+      "note_id": "Y-3.5-note-28",
+      "line": 28,
+      "type": "observation",
+      "evidence": "The full verse Carpebant tauri pabula laeta procul is clearly present at this physical position."
+    },
+    {
+      "note_id": "Y-3.5-note-30",
+      "line": 30,
+      "type": "uncertainty",
+      "evidence": "A small stain crosses the beginning of fertilioris. Fert is retained tentatively and the remaining ilioris is clear. Herbe preserves the source spelling."
+    },
+    {
+      "note_id": "Y-3.5-note-31",
+      "line": 31,
+      "type": "uncertainty",
+      "evidence": "The main line reads augor, with a dark u written above o. Both are retained without asserting cancellation of o. The rest of the verse reads Dic age nocturne quicumque es imaginis."
+    },
+    {
+      "note_id": "Y-3.5-note-33",
+      "line": 33,
+      "type": "uncertainty",
+      "evidence": "The visible line begins Sic ergo nocturne sic dixit. The ending of nocturne is touched by a dark trailing stroke, but no replacement letters are securely established. The punctus after ergo is retained."
+    },
+    {
+      "note_id": "Y-3.5-note-35",
+      "line": 35,
+      "type": "observation",
+      "evidence": "Quem tu mobilibus foliis uitare uolebas is the complete visible source verse. It is not replaced with a different version of this physical position."
+    },
+    {
+      "note_id": "Y-3.5-note-36",
+      "line": 36,
+      "type": "observation",
+      "evidence": "The uit sequence of uitabas and t of estus are darker; no erased earlier reading is claimed. Estus retains the source spelling."
+    },
+    {
+      "note_id": "Y-3.5-note-38",
+      "line": 38,
+      "type": "observation",
+      "evidence": "The main line reads Tu uir and compare, with the final e visibly present. The final s of eras is darker. These source forms are preserved."
+    },
+    {
+      "note_id": "Y-3.5-note-40",
+      "line": 40,
+      "type": "observation",
+      "evidence": "The selected annotation rectangle, although narrower than its duplicate, encloses the complete verse through anus and the following point. The source spelling lena is retained."
+    },
+    {
+      "note_id": "Y-3.5-note-42",
+      "line": 42,
+      "type": "observation",
+      "evidence": "Inuiduo is the source sequence and is not normalized. Destituere and the final toro remain legible."
+    },
+    {
+      "note_id": "Y-3.5-note-46",
+      "line": 46,
+      "type": "observation",
+      "evidence": "A wavy separator follows meos. The decorated A below begins the next poem; it is excluded from this text."
+    }
+  ],
+  "author_agent": "/root/review_y",
+  "validation": {
+    "schema": "docs/schema/tei_all-4.12.0.rng",
+    "schema_result": "passed xmllint Relax NG",
+    "verse_lines": 46,
+    "facsimile_zones": 46,
+    "unique_ids": true,
+    "local_references_resolve": true
+  },
+  "candidate_sha256": "d33685831693c6b10bf3d1db436b17c47e3e7eb2c145c6ed4a79a7be63b7bbf3"
+}
