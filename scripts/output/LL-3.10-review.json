@@ -1,0 +1,91 @@
+{
+  "witness": "LL",
+  "poem": "3.10",
+  "date": "2026-09-09",
+  "reviewer": "OpenAI Codex independent encode_s agent",
+  "author_agent": "/root",
+  "reviewer_agent": "/root/encode_s",
+  "review_type": "independent-second-agent-live-source-and-encoding-review",
+  "human_approved": false,
+  "line_coverage": {
+    "count": 48,
+    "ranges": [
+      {
+        "source": "X",
+        "start": 1,
+        "end": 48
+      }
+    ]
+  },
+  "line_order": [
+    "LL-3.10-l1",
+    "LL-3.10-l2",
+    "LL-3.10-l3",
+    "LL-3.10-l4",
+    "LL-3.10-l5",
+    "LL-3.10-l6",
+    "LL-3.10-l7",
+    "LL-3.10-l8",
+    "LL-3.10-l9",
+    "LL-3.10-l10",
+    "LL-3.10-l11",
+    "LL-3.10-l12",
+    "LL-3.10-l13",
+    "LL-3.10-l14",
+    "LL-3.10-l15",
+    "LL-3.10-l16",
+    "LL-3.10-l17",
+    "LL-3.10-l18",
+    "LL-3.10-l19",
+    "LL-3.10-l20",
+    "LL-3.10-l21",
+    "LL-3.10-l22",
+    "LL-3.10-l23",
+    "LL-3.10-l24",
+    "LL-3.10-l25",
+    "LL-3.10-l26",
+    "LL-3.10-l27",
+    "LL-3.10-l28",
+    "LL-3.10-l29",
+    "LL-3.10-l30",
+    "LL-3.10-l31",
+    "LL-3.10-l32",
+    "LL-3.10-l33",
+    "LL-3.10-l34",
+    "LL-3.10-l35",
+    "LL-3.10-l36",
+    "LL-3.10-l37",
+    "LL-3.10-l38",
+    "LL-3.10-l39",
+    "LL-3.10-l40",
+    "LL-3.10-l41",
+    "LL-3.10-l42",
+    "LL-3.10-l43",
+    "LL-3.10-l44",
+    "LL-3.10-l45",
+    "LL-3.10-l46",
+    "LL-3.10-l47",
+    "LL-3.10-l48"
+  ],
+  "counts": {
+    "resolved": 0,
+    "documented-uncertainty": 0,
+    "escalate": 0
+  },
+  "previous_review_note_count": 0,
+  "notes": [],
+  "source": {
+    "url": "https://www.thelatinlibrary.com/ovid/ovid.amor3.shtml",
+    "live_retrieval": true,
+    "sha256": "514ae177539de56ff40b6c0b7890e460db0e3402cbc313e7747e45c33420798d"
+  },
+  "validation": {
+    "rng": "tei_all-4.12.0.rng",
+    "passed": true,
+    "consecutive_lines": 48,
+    "exact_source_line_matches": 48,
+    "facs_required": false
+  },
+  "reviewed_candidate_sha256": "e5324ab95ff4ca6fe1a8345e464df92d538184cd5e2fca20dfb8066e452758a0",
+  "review_report_sha256": "4dd516be17aa60612fb52d646664abf0f5b76328cd5ba95c08d5227c95cb67bf"
+}

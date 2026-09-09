@@ -1,0 +1,331 @@
+{
+  "witness": "P",
+  "poem": "3.1",
+  "date": "2026-09-09",
+  "author_agent": "/root/encode_p",
+  "reviewer_agent": "/root/review_y",
+  "reviewer": "OpenAI Codex independent review_y agent",
+  "review_type": "independent-second-agent-image-and-encoding-review",
+  "human_approved": false,
+  "line_coverage": {
+    "count": 70,
+    "ranges": [
+      {
+        "image": 84,
+        "page_position": "left",
+        "start": 1,
+        "end": 18
+      },
+      {
+        "image": 84,
+        "page_position": "right",
+        "start": 19,
+        "end": 46
+      },
+      {
+        "image": 85,
+        "page_position": "left",
+        "start": 47,
+        "end": 70
+      }
+    ]
+  },
+  "line_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70
+  ],
+  "counts": {
+    "resolved": 7,
+    "documented-uncertainty": 9,
+    "escalate": 0
+  },
+  "previous_note_count": 13,
+  "notes": [
+    {
+      "note_id": "P-3.1-note-1",
+      "line": 1,
+      "target": "#P-3.1-l1",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f84/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "Confirmed Book III heading and the enlarged S extending into the following verse space."
+      },
+      "change": "Independent image review confirms conservative encoding and records disposition."
+    },
+    {
+      "note_id": "P-3.1-note-5",
+      "line": 5,
+      "target": "#P-3.1-l5",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f84/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The short sequence supports provisional spator; a separate i remains unresolved at this resolution. Local unclear is retained."
+      },
+      "change": "Independent image review confirms conservative encoding and records disposition."
+    },
+    {
+      "note_id": "P-3.1-note-11",
+      "line": 11,
+      "target": "#P-3.1-l11",
+      "status": "resolved",
+      "previous_type": null,
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f84/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The source reads uiolenta without an additional i before the final a. The second pass corrects first-pass uiolentia from the enlarged line."
+      },
+      "change": "The source reads uiolenta without an additional i before the final a. The second pass corrects first-pass uiolentia from the enlarged line."
+    },
+    {
+      "note_id": "P-3.1-note-17",
+      "line": 17,
+      "target": "#P-3.1-l17",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f84/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "Faded uinosa is a defensible provisional reading, but loss of contrast remains material. Retain local unclear without a user action."
+      },
+      "change": "Independent image review confirms conservative encoding and records disposition."
+    },
+    {
+      "note_id": "P-3.1-note-20",
+      "line": 20,
+      "target": "#P-3.1-l20",
+      "status": "resolved",
+      "previous_type": null,
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f84/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The source repeats hic: Atque ait hic hic est. Both occurrences are retained; the first pass had omitted one."
+      },
+      "change": "The source repeats hic: Atque ait hic hic est. Both occurrences are retained; the first pass had omitted one."
+    },
+    {
+      "note_id": "P-3.1-note-22",
+      "line": 22,
+      "target": "#P-3.1-l22",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f84/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The separate letters ta are visibly above fac before pudore; the add placement and completion facta are supported."
+      },
+      "change": "Independent image review confirms conservative encoding and records disposition."
+    },
+    {
+      "note_id": "P-3.1-note-26",
+      "line": 26,
+      "target": "#P-3.1-l26",
+      "status": "resolved",
+      "previous_type": null,
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f84/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The word after dices reads area. Its short rounded third letter differs from the taller t in neighbouring facta; first-pass arta is corrected from the enlarged source."
+      },
+      "change": "The word after dices reads area. Its short rounded third letter differs from the taller t in neighbouring facta; first-pass arta is corrected from the enlarged source."
+    },
+    {
+      "note_id": "P-3.1-note-32",
+      "line": 32,
+      "target": "#P-3.1-l32",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f84/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "A short annotation above densum/terque supports a cesarie(s)-like reading; the final stroke and its insertion or gloss function are not secure. Retain uncertain manuscript note without inventing a substitution."
+      },
+      "change": "Independent image review confirms conservative encoding and records disposition."
+    },
+    {
+      "note_id": "P-3.1-note-39",
+      "line": 39,
+      "target": "#P-3.1-l39",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f84/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "Small supralinear curved mark above contulerim remains u-like but indeterminate. The conservative uncertain annotation avoids asserting erased letters."
+      },
+      "change": "Independent image review confirms conservative encoding and records disposition."
+    },
+    {
+      "note_id": "P-3.1-note-40",
+      "line": 40,
+      "target": "#P-3.1-l40",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f84/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The compact marked urā-like form before fores supports the schematic abbreviation and uestra expansion."
+      },
+      "change": "Independent image review confirms conservative encoding and records disposition."
+    },
+    {
+      "note_id": "P-3.1-note-41",
+      "line": 41,
+      "target": "#P-3.1-l41",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f84/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The dark sign above cura remains illegible despite enlargement. Its presence and location are recorded; no expansion or historical hand is recoverable."
+      },
+      "change": "Independent image review confirms conservative encoding and records disposition."
+    },
+    {
+      "note_id": "P-3.1-note-43",
+      "line": 43,
+      "target": "#P-3.1-l43",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f84/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The darker group is compatible with sit, but fused strokes prevent a wholly secure diplomatic reading. Retain unclear within darker-ink hi; no del is justified."
+      },
+      "change": "Independent image review confirms conservative encoding and records disposition."
+    },
+    {
+      "note_id": "P-3.1-note-44",
+      "line": 44,
+      "target": "#P-3.1-l44",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f84/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The faint terminal group is compatible with deaeque, with joined vowels still uncertain. Retain the provisional reading locally."
+      },
+      "change": "Independent image review confirms conservative encoding and records disposition."
+    },
+    {
+      "note_id": "P-3.1-note-57",
+      "line": 57,
+      "target": "#P-3.1-l57",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f85/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The two tall l strokes are clear; the following small vowel has an extended curved exit stroke. Keep illi locally uncertain without normalizing to an expected form."
+      },
+      "change": "Independent image review confirms conservative encoding and records disposition."
+    },
+    {
+      "note_id": "P-3.1-note-58",
+      "line": 58,
+      "target": "#P-3.1-l58",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f85/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The opening sequence appears Rumpit with an additional minim; R and adjoining strokes are faint. Retain unclear. Posita has no separately visible prefix."
+      },
+      "change": "Independent image review confirms conservative encoding and records disposition."
+    },
+    {
+      "note_id": "P-3.1-note-69",
+      "line": 69,
+      "target": "#P-3.1-l69",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f85/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "Darker pro in properentur is visible; it does not establish an earlier state or named correcting hand."
+      },
+      "change": "Independent image review confirms conservative encoding and records disposition."
+    }
+  ],
+  "validation": {
+    "schema": "docs/schema/tei_all-4.12.0.rng",
+    "schema_result": "passed xmllint Relax NG",
+    "verse_lines": 70,
+    "facsimile_zones": 70,
+    "unique_ids": true,
+    "local_references_resolve": true
+  },
+  "reviewed_candidate_sha256": "f12354afa9d27459ab0f415d77d16a8b53f1069f9d702f94c7bb43ab8ff677ce",
+  "review_report_sha256": "96b688b3cd23965bd22d18184105bc73bc80e0d8f852f3937d7dce587b2a096d"
+}

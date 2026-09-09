@@ -1,0 +1,93 @@
+{
+  "witness": "LL",
+  "poem": "3.14",
+  "date": "2026-09-09",
+  "reviewer": "OpenAI Codex independent encode_s agent",
+  "author_agent": "/root",
+  "reviewer_agent": "/root/encode_s",
+  "review_type": "independent-second-agent-live-source-and-encoding-review",
+  "human_approved": false,
+  "line_coverage": {
+    "count": 50,
+    "ranges": [
+      {
+        "source": "XIV",
+        "start": 1,
+        "end": 50
+      }
+    ]
+  },
+  "line_order": [
+    "LL-3.14-l1",
+    "LL-3.14-l2",
+    "LL-3.14-l3",
+    "LL-3.14-l4",
+    "LL-3.14-l5",
+    "LL-3.14-l6",
+    "LL-3.14-l7",
+    "LL-3.14-l8",
+    "LL-3.14-l9",
+    "LL-3.14-l10",
+    "LL-3.14-l11",
+    "LL-3.14-l12",
+    "LL-3.14-l13",
+    "LL-3.14-l14",
+    "LL-3.14-l15",
+    "LL-3.14-l16",
+    "LL-3.14-l17",
+    "LL-3.14-l18",
+    "LL-3.14-l19",
+    "LL-3.14-l20",
+    "LL-3.14-l21",
+    "LL-3.14-l22",
+    "LL-3.14-l23",
+    "LL-3.14-l24",
+    "LL-3.14-l25",
+    "LL-3.14-l26",
+    "LL-3.14-l27",
+    "LL-3.14-l28",
+    "LL-3.14-l29",
+    "LL-3.14-l30",
+    "LL-3.14-l31",
+    "LL-3.14-l32",
+    "LL-3.14-l33",
+    "LL-3.14-l34",
+    "LL-3.14-l35",
+    "LL-3.14-l36",
+    "LL-3.14-l37",
+    "LL-3.14-l38",
+    "LL-3.14-l39",
+    "LL-3.14-l40",
+    "LL-3.14-l41",
+    "LL-3.14-l42",
+    "LL-3.14-l43",
+    "LL-3.14-l44",
+    "LL-3.14-l45",
+    "LL-3.14-l46",
+    "LL-3.14-l47",
+    "LL-3.14-l48",
+    "LL-3.14-l49",
+    "LL-3.14-l50"
+  ],
+  "counts": {
+    "resolved": 0,
+    "documented-uncertainty": 0,
+    "escalate": 0
+  },
+  "previous_review_note_count": 0,
+  "notes": [],
+  "source": {
+    "url": "https://www.thelatinlibrary.com/ovid/ovid.amor3.shtml",
+    "live_retrieval": true,
+    "sha256": "514ae177539de56ff40b6c0b7890e460db0e3402cbc313e7747e45c33420798d"
+  },
+  "validation": {
+    "rng": "tei_all-4.12.0.rng",
+    "passed": true,
+    "consecutive_lines": 50,
+    "exact_source_line_matches": 50,
+    "facs_required": false
+  },
+  "reviewed_candidate_sha256": "392252b9c94356e8bcc608b69537644db32f578c8adc77cb797b67434fa1df1f",
+  "review_report_sha256": "422ecccebd8bd2f700c2f0930a6970529f9dabdba4faafb48a677a765e4d3fe9"
+}

@@ -11,7 +11,7 @@
   document.getElementById('title').textContent = `Amores ${poem} · ${witness} · TEI`;
   document.title = `Amores ${poem} — ${witness} TEI`;
   try {
-    const response = await fetch(witnessFiles[witness]);
+    const response = await fetch(await resolveWitnessFile(witness, poem));
     if (!response.ok) throw new Error('Source unavailable');
     const doc = new DOMParser().parseFromString(await response.text(), 'application/xml');
     if (doc.querySelector('parsererror')) throw new Error('Invalid XML');

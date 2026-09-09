@@ -1,0 +1,63 @@
+{
+  "witness": "LL",
+  "poem": "3.15",
+  "date": "2026-09-09",
+  "reviewer": "OpenAI Codex independent encode_s agent",
+  "author_agent": "/root",
+  "reviewer_agent": "/root/encode_s",
+  "review_type": "independent-second-agent-live-source-and-encoding-review",
+  "human_approved": false,
+  "line_coverage": {
+    "count": 20,
+    "ranges": [
+      {
+        "source": "XV",
+        "start": 1,
+        "end": 20
+      }
+    ]
+  },
+  "line_order": [
+    "LL-3.15-l1",
+    "LL-3.15-l2",
+    "LL-3.15-l3",
+    "LL-3.15-l4",
+    "LL-3.15-l5",
+    "LL-3.15-l6",
+    "LL-3.15-l7",
+    "LL-3.15-l8",
+    "LL-3.15-l9",
+    "LL-3.15-l10",
+    "LL-3.15-l11",
+    "LL-3.15-l12",
+    "LL-3.15-l13",
+    "LL-3.15-l14",
+    "LL-3.15-l15",
+    "LL-3.15-l16",
+    "LL-3.15-l17",
+    "LL-3.15-l18",
+    "LL-3.15-l19",
+    "LL-3.15-l20"
+  ],
+  "counts": {
+    "resolved": 0,
+    "documented-uncertainty": 0,
+    "escalate": 0
+  },
+  "previous_review_note_count": 0,
+  "notes": [],
+  "source": {
+    "url": "https://www.thelatinlibrary.com/ovid/ovid.amor3.shtml",
+    "live_retrieval": true,
+    "sha256": "514ae177539de56ff40b6c0b7890e460db0e3402cbc313e7747e45c33420798d"
+  },
+  "validation": {
+    "rng": "tei_all-4.12.0.rng",
+    "passed": true,
+    "consecutive_lines": 20,
+    "exact_source_line_matches": 20,
+    "facs_required": false
+  },
+  "reviewed_candidate_sha256": "dd475e3e069890bbcc5a3d06795f25a641e3833c1e1c3fb7895950817637da7e",
+  "review_report_sha256": "74c568d6946b2337ec86d19c5f172fa3711cb382897d48a1e8b1ed8dffe888cf"
+}

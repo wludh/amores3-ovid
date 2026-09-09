@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="LL" xml:id="LL-3.9">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title>Ovid, Amores 3.9 — The Latin Library</title>
+        <author>Publius Ovidius Naso</author>
+        <respStmt xml:id="LL-3.9-encoder">
+          <resp>Source collation and first-pass TEI encoding</resp>
+          <name>OpenAI Codex primary agent</name>
+        </respStmt>
+        <respStmt xml:id="LL-3.9-second-reader">
+          <resp>Independent second source collation of every verse against a separate live webpage retrieval</resp>
+          <name>OpenAI Codex independent encode_s agent</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Amores Project working transcription; not a human-approved critical edition.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>The Latin Library: Ovid, Amores III</title>
+          <ref target="https://www.thelatinlibrary.com/ovid/ovid.amor3.shtml">Source web text</ref>
+          <date when="2026-09-09">Accessed 9 September 2026</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Wording, capitalization and punctuation follow the source webpage. HTML entities are decoded and HTML whitespace normalized; couplets and line numbers are editorial. This web text does not carry invented manuscript features or facsimile zones. The site's XIa and XIb are treated as continuous Amores 3.11, while preserving the source division explicitly. Independent second source collation is complete; no verse differences remain. Agent review does not constitute human scholarly approval.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <change when="2026-09-09" who="#LL-3.9-encoder">Collated all 68 verses against a fresh source retrieval and encoded first pass for independent review.</change>
+      <change when="2026-09-09" who="#LL-3.9-second-reader">Independently extracted and compared all 68 verse lines from a fresh live Latin Library retrieval; exact match after HTML entity decoding and whitespace normalization. No textual corrections or human review actions.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <body>
+      <div type="poem" n="3.9" xml:id="LL-3.9-poem">
+        <lg type="couplet">
+          <l n="1" xml:id="LL-3.9-l1">Memnona si mater, mater ploravit Achillem,</l>
+          <l n="2" xml:id="LL-3.9-l2" rend="indent">et tangunt magnas tristia fata deas,</l>
+        </lg>
+        <lg type="couplet">
+          <l n="3" xml:id="LL-3.9-l3">flebilis indignos, Elegia, solve capillos!</l>
+          <l n="4" xml:id="LL-3.9-l4" rend="indent">a, nimis ex vero nunc tibi nomen erit! —</l>
+        </lg>
+        <lg type="couplet">
+          <l n="5" xml:id="LL-3.9-l5">ille tui vates operis, tua fama, Tibullus</l>
+          <l n="6" xml:id="LL-3.9-l6" rend="indent">ardet in extructo, corpus inane, rogo.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="7" xml:id="LL-3.9-l7">ecce, puer Veneris fert eversamque pharetram</l>
+          <l n="8" xml:id="LL-3.9-l8" rend="indent">et fractos arcus et sine luce facem;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="9" xml:id="LL-3.9-l9">adspice, demissis ut eat miserabilis alis</l>
+          <l n="10" xml:id="LL-3.9-l10" rend="indent">pectoraque infesta tundat aperta manu!</l>
+        </lg>
+        <lg type="couplet">
+          <l n="11" xml:id="LL-3.9-l11">excipiunt lacrimas sparsi per colla capilli,</l>
+          <l n="12" xml:id="LL-3.9-l12" rend="indent">oraque singultu concutiente sonant.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="13" xml:id="LL-3.9-l13">fratris in Aeneae sic illum funere dicunt</l>
+          <l n="14" xml:id="LL-3.9-l14" rend="indent">egressum tectis, pulcher Iule, tuis;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="15" xml:id="LL-3.9-l15">nec minus est confusa Venus moriente Tibullo,</l>
+          <l n="16" xml:id="LL-3.9-l16" rend="indent">quam iuveni rupit cum ferus inguen aper.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="17" xml:id="LL-3.9-l17">at sacri vates et divum cura vocamur;</l>
+          <l n="18" xml:id="LL-3.9-l18" rend="indent">sunt etiam qui nos numen habere putent.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="19" xml:id="LL-3.9-l19">Scilicet omne sacrum mors inportuna profanat,</l>
+          <l n="20" xml:id="LL-3.9-l20" rend="indent">omnibus obscuras inicit illa manus!</l>
+        </lg>
+        <lg type="couplet">
+          <l n="21" xml:id="LL-3.9-l21">quid pater Ismario, quid mater profuit Orpheo?</l>
+          <l n="22" xml:id="LL-3.9-l22" rend="indent">carmine quid victas obstipuisse feras?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="23" xml:id="LL-3.9-l23">et Linon in silvis idem pater 'aelinon!' altis</l>
+          <l n="24" xml:id="LL-3.9-l24" rend="indent">dicitur invita concinuisse lyra.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="25" xml:id="LL-3.9-l25">adice Maeoniden, a quo ceu fonte perenni</l>
+          <l n="26" xml:id="LL-3.9-l26" rend="indent">vatum Pieriis ora rigantur aquis —</l>
+        </lg>
+        <lg type="couplet">
+          <l n="27" xml:id="LL-3.9-l27">hunc quoque summa dies nigro submersit Averno.</l>
+          <l n="28" xml:id="LL-3.9-l28" rend="indent">defugiunt avidos carmina sola rogos;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="29" xml:id="LL-3.9-l29">durant, vatis opus, Troiani fama laboris</l>
+          <l n="30" xml:id="LL-3.9-l30" rend="indent">tardaque nocturno tela retexta dolo.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="31" xml:id="LL-3.9-l31">sic Nemesis longum, sic Delia nomen habebunt,</l>
+          <l n="32" xml:id="LL-3.9-l32" rend="indent">altera cura recens, altera primus amor.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="33" xml:id="LL-3.9-l33">Quid vos sacra iuvant? quid nunc Aegyptia prosunt</l>
+          <l n="34" xml:id="LL-3.9-l34" rend="indent">sistra? quid in vacuo secubuisse toro?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="35" xml:id="LL-3.9-l35">cum rapiunt mala fata bonos — ignoscite fasso! —</l>
+          <l n="36" xml:id="LL-3.9-l36" rend="indent">sollicitor nullos esse putare deos.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="37" xml:id="LL-3.9-l37">vive pius — moriere; pius cole sacra — colentem</l>
+          <l n="38" xml:id="LL-3.9-l38" rend="indent">mors gravis a templis in cava busta trahet;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="39" xml:id="LL-3.9-l39">carminibus confide bonis — iacet, ecce, Tibullus:</l>
+          <l n="40" xml:id="LL-3.9-l40" rend="indent">vix manet e toto, parva quod urna capit!</l>
+        </lg>
+        <lg type="couplet">
+          <l n="41" xml:id="LL-3.9-l41">tene, sacer vates, flammae rapuere rogales</l>
+          <l n="42" xml:id="LL-3.9-l42" rend="indent">pectoribus pasci nec timuere tuis?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="43" xml:id="LL-3.9-l43">aurea sanctorum potuissent templa deorum</l>
+          <l n="44" xml:id="LL-3.9-l44" rend="indent">urere, quae tantum sustinuere nefas!</l>
+        </lg>
+        <lg type="couplet">
+          <l n="45" xml:id="LL-3.9-l45">avertit vultus, Erycis quae possidet arces;</l>
+          <l n="46" xml:id="LL-3.9-l46" rend="indent">sunt quoque, qui lacrimas continuisse negant.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="47" xml:id="LL-3.9-l47">Sed tamen hoc melius, quam si Phaeacia tellus</l>
+          <l n="48" xml:id="LL-3.9-l48" rend="indent">ignotum vili supposuisset humo.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="49" xml:id="LL-3.9-l49">hinc certe madidos fugientis pressit ocellos</l>
+          <l n="50" xml:id="LL-3.9-l50" rend="indent">mater et in cineres ultima dona tulit;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="51" xml:id="LL-3.9-l51">hinc soror in partem misera cum matre doloris</l>
+          <l n="52" xml:id="LL-3.9-l52" rend="indent">venit inornatas dilaniata comas,</l>
+        </lg>
+        <lg type="couplet">
+          <l n="53" xml:id="LL-3.9-l53">cumque tuis sua iunxerunt Nemesisque priorque</l>
+          <l n="54" xml:id="LL-3.9-l54" rend="indent">oscula nec solos destituere rogos.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="55" xml:id="LL-3.9-l55">Delia discedens 'felicius' inquit 'amata</l>
+          <l n="56" xml:id="LL-3.9-l56" rend="indent">sum tibi; vixisti, dum tuus ignis eram.'</l>
+        </lg>
+        <lg type="couplet">
+          <l n="57" xml:id="LL-3.9-l57">cui Nemesis 'quid' ait 'tibi sunt mea damna dolori?</l>
+          <l n="58" xml:id="LL-3.9-l58" rend="indent">me tenuit moriens deficiente manu.'</l>
+        </lg>
+        <lg type="couplet">
+          <l n="59" xml:id="LL-3.9-l59">Si tamen e nobis aliquid nisi nomen et umbra</l>
+          <l n="60" xml:id="LL-3.9-l60" rend="indent">restat, in Elysia valle Tibullus erit.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="61" xml:id="LL-3.9-l61">obvius huic venias hedera iuvenalia cinctus</l>
+          <l n="62" xml:id="LL-3.9-l62" rend="indent">tempora cum Calvo, docte Catulle, tuo;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="63" xml:id="LL-3.9-l63">tu quoque, si falsum est temerati crimen amici,</l>
+          <l n="64" xml:id="LL-3.9-l64" rend="indent">sanguinis atque animae prodige Galle tuae.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="65" xml:id="LL-3.9-l65">his comes umbra tua est; siqua est modo corporis umbra,</l>
+          <l n="66" xml:id="LL-3.9-l66" rend="indent">auxisti numeros, culte Tibulle, pios.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="67" xml:id="LL-3.9-l67">ossa quieta, precor, tuta requiescite in urna,</l>
+          <l n="68" xml:id="LL-3.9-l68" rend="indent">et sit humus cineri non onerosa tuo!</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

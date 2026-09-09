@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="LL" xml:id="LL-3.1">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title>Ovid, Amores 3.1 — The Latin Library</title>
+        <author>Publius Ovidius Naso</author>
+        <respStmt xml:id="LL-3.1-encoder">
+          <resp>Source collation and first-pass TEI encoding</resp>
+          <name>OpenAI Codex primary agent</name>
+        </respStmt>
+        <respStmt xml:id="LL-3.1-second-reader">
+          <resp>Independent second source collation of every verse against a separate live webpage retrieval</resp>
+          <name>OpenAI Codex independent encode_s agent</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Amores Project working transcription; not a human-approved critical edition.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>The Latin Library: Ovid, Amores III</title>
+          <ref target="https://www.thelatinlibrary.com/ovid/ovid.amor3.shtml">Source web text</ref>
+          <date when="2026-09-09">Accessed 9 September 2026</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Wording, capitalization and punctuation follow the source webpage. HTML entities are decoded and HTML whitespace normalized; couplets and line numbers are editorial. This web text does not carry invented manuscript features or facsimile zones. The site's XIa and XIb are treated as continuous Amores 3.11, while preserving the source division explicitly. Independent second source collation is complete; no verse differences remain. Agent review does not constitute human scholarly approval.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <change when="2026-09-09" who="#LL-3.1-encoder">Collated all 70 verses against a fresh source retrieval and encoded first pass for independent review.</change>
+      <change when="2026-09-09" who="#LL-3.1-second-reader">Independently extracted and compared all 70 verse lines from a fresh live Latin Library retrieval; exact match after HTML entity decoding and whitespace normalization. No textual corrections or human review actions.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <body>
+      <div type="poem" n="3.1" xml:id="LL-3.1-poem">
+        <lg type="couplet">
+          <l n="1" xml:id="LL-3.1-l1">Stat vetus et multos incaedua silva per annos;</l>
+          <l n="2" xml:id="LL-3.1-l2" rend="indent">credibile est illi numen inesse loco.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="3" xml:id="LL-3.1-l3">fons sacer in medio speluncaque pumice pendens,</l>
+          <l n="4" xml:id="LL-3.1-l4" rend="indent">et latere ex omni dulce queruntur aves.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="5" xml:id="LL-3.1-l5">Hic ego dum spatior tectus nemoralibus umbris —</l>
+          <l n="6" xml:id="LL-3.1-l6" rend="indent">quod mea, quaerebam, Musa moveret opus —</l>
+        </lg>
+        <lg type="couplet">
+          <l n="7" xml:id="LL-3.1-l7">venit odoratos Elegia nexa capillos,</l>
+          <l n="8" xml:id="LL-3.1-l8" rend="indent">et, puto, pes illi longior alter erat.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="9" xml:id="LL-3.1-l9">forma decens, vestis tenuissima, vultus amantis,</l>
+          <l n="10" xml:id="LL-3.1-l10" rend="indent">et pedibus vitium causa decoris erat.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="11" xml:id="LL-3.1-l11">venit et ingenti violenta Tragoedia passu:</l>
+          <l n="12" xml:id="LL-3.1-l12" rend="indent">fronte comae torva, palla iacebat humi;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="13" xml:id="LL-3.1-l13">laeva manus sceptrum late regale movebat,</l>
+          <l n="14" xml:id="LL-3.1-l14" rend="indent">Lydius alta pedum vincla cothurnus erat.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="15" xml:id="LL-3.1-l15">Et prior 'ecquis erit,' dixit, 'tibi finis amandi,</l>
+          <l n="16" xml:id="LL-3.1-l16" rend="indent">O argumenti lente poeta tui?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="17" xml:id="LL-3.1-l17">nequitiam vinosa tuam convivia narrant,</l>
+          <l n="18" xml:id="LL-3.1-l18" rend="indent">narrant in multas conpita secta vias.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="19" xml:id="LL-3.1-l19">saepe aliquis digito vatem designat euntem,</l>
+          <l n="20" xml:id="LL-3.1-l20" rend="indent">atque ait "hic, hic est, quem ferus urit Amor!"</l>
+        </lg>
+        <lg type="couplet">
+          <l n="21" xml:id="LL-3.1-l21">fabula, nec sentis, tota iactaris in urbe,</l>
+          <l n="22" xml:id="LL-3.1-l22" rend="indent">dum tua praeterito facta pudore refers.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="23" xml:id="LL-3.1-l23">tempus erat, thyrso pulsum graviore moveri;</l>
+          <l n="24" xml:id="LL-3.1-l24" rend="indent">cessatum satis est — incipe maius opus!</l>
+        </lg>
+        <lg type="couplet">
+          <l n="25" xml:id="LL-3.1-l25">materia premis ingenium. cane facta virorum.</l>
+          <l n="26" xml:id="LL-3.1-l26" rend="indent">"haec animo," dices, "area facta meo est!"</l>
+        </lg>
+        <lg type="couplet">
+          <l n="27" xml:id="LL-3.1-l27">quod tenerae cantent, lusit tua Musa, puellae,</l>
+          <l n="28" xml:id="LL-3.1-l28" rend="indent">primaque per numeros acta iuventa suos.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="29" xml:id="LL-3.1-l29">nunc habeam per te Romana Tragoedia nomen!</l>
+          <l n="30" xml:id="LL-3.1-l30" rend="indent">inplebit leges spiritus iste meas.'</l>
+        </lg>
+        <lg type="couplet">
+          <l n="31" xml:id="LL-3.1-l31">Hactenus, et movit pictis innixa cothurnis</l>
+          <l n="32" xml:id="LL-3.1-l32" rend="indent">densum caesarie terque quaterque caput.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="33" xml:id="LL-3.1-l33">altera, si memini, limis subrisit ocellis —</l>
+          <l n="34" xml:id="LL-3.1-l34" rend="indent">fallor, an in dextra myrtea virga fuit?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="35" xml:id="LL-3.1-l35">'Quid gravibus verbis, animosa Tragoedia,' dixit,</l>
+          <l n="36" xml:id="LL-3.1-l36" rend="indent">'me premis? an numquam non gravis esse potes?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="37" xml:id="LL-3.1-l37">inparibus tamen es numeris dignata moveri;</l>
+          <l n="38" xml:id="LL-3.1-l38" rend="indent">in me pugnasti versibus usa meis.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="39" xml:id="LL-3.1-l39">non ego contulerim sublimia carmina nostris;</l>
+          <l n="40" xml:id="LL-3.1-l40" rend="indent">obruit exiguas regia vestra fores.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="41" xml:id="LL-3.1-l41">sum levis, et mecum levis est, mea cura, Cupido;</l>
+          <l n="42" xml:id="LL-3.1-l42" rend="indent">non sum materia fortior ipsa mea.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="43" xml:id="LL-3.1-l43">rustica sit sine me lascivi mater Amoris;</l>
+          <l n="44" xml:id="LL-3.1-l44" rend="indent">huic ego proveni lena comesque deae.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="45" xml:id="LL-3.1-l45">quam tu non poteris duro reserare cothurno,</l>
+          <l n="46" xml:id="LL-3.1-l46" rend="indent">haec est blanditiis ianua laxa meis;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="47" xml:id="LL-3.1-l47">et tamen emerui plus quam tu posse, ferendo</l>
+          <l n="48" xml:id="LL-3.1-l48" rend="indent">multa supercilio non patienda tuo.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="49" xml:id="LL-3.1-l49">per me decepto didicit custode Corinna</l>
+          <l n="50" xml:id="LL-3.1-l50" rend="indent">liminis adstricti sollicitare fidem,</l>
+        </lg>
+        <lg type="couplet">
+          <l n="51" xml:id="LL-3.1-l51">delabique toro tunica velata soluta</l>
+          <l n="52" xml:id="LL-3.1-l52" rend="indent">atque inpercussos nocte movere pedes.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="53" xml:id="LL-3.1-l53">a quotiens foribus duris infixa pependi,</l>
+          <l n="54" xml:id="LL-3.1-l54" rend="indent">non verita a populo praetereunte legi!</l>
+        </lg>
+        <lg type="couplet">
+          <l n="55" xml:id="LL-3.1-l55">quin ego me memini, dum custos saevus abiret,</l>
+          <l n="56" xml:id="LL-3.1-l56" rend="indent">ancillae miseram delituisse sinu.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="57" xml:id="LL-3.1-l57">quid, cum me munus natali mittis, at illa</l>
+          <l n="58" xml:id="LL-3.1-l58" rend="indent">rumpit et adposita barbara mersat aqua?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="59" xml:id="LL-3.1-l59">prima tuae movi felicia semina mentis;</l>
+          <l n="60" xml:id="LL-3.1-l60" rend="indent">munus habes, quod te iam petit ista, meum.'</l>
+        </lg>
+        <lg type="couplet">
+          <l n="61" xml:id="LL-3.1-l61">Desierat. coepi: 'per vos utramque rogamus,</l>
+          <l n="62" xml:id="LL-3.1-l62" rend="indent">in vacuas aures verba timentis eant.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="63" xml:id="LL-3.1-l63">altera me sceptro decoras altoque cothurno;</l>
+          <l n="64" xml:id="LL-3.1-l64" rend="indent">iam nunc contacto magnus in ore sonus.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="65" xml:id="LL-3.1-l65">altera das nostro victurum nomen amori —</l>
+          <l n="66" xml:id="LL-3.1-l66" rend="indent">ergo ades et longis versibus adde brevis!</l>
+        </lg>
+        <lg type="couplet">
+          <l n="67" xml:id="LL-3.1-l67">exiguum vati concede, Tragoedia, tempus!</l>
+          <l n="68" xml:id="LL-3.1-l68" rend="indent">tu labor aeternus; quod petit illa, breve est.'</l>
+        </lg>
+        <lg type="couplet">
+          <l n="69" xml:id="LL-3.1-l69">Mota dedit veniam — teneri properentur Amores,</l>
+          <l n="70" xml:id="LL-3.1-l70" rend="indent">dum vacat; a tergo grandius urguet opus!</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

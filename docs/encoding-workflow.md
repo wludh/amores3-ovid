@@ -10,7 +10,9 @@ The first reader transcribes from each source and records evidence. A different 
 - **Documented uncertainty:** the image cannot securely establish letters, an earlier state or a feature's function. Preserve the uncertainty without making it a user task.
 - **Escalate:** a consequential interpretation or editorial choice remains open. Keep conservative markup and make that specific question visible.
 
-Review reports and JSON ledgers live in `scripts/output/`. The ledger records actual inspected coverage, evidence and dispositions. `npm run validate:tei` checks schema conformance, coverage, identifiers, references, note dispositions and the hash tying review to the current XML. It generates `scripts/output/3.7-review-status.md`. It does not perform a new visual reading or confer human scholarly approval. An XML change invalidates the recorded review hash; a reviewer must check it before the ledger is updated.
+Review reports and JSON ledgers live in `scripts/output/`. The ledger records actual inspected coverage, evidence and dispositions. `npm run validate:tei` checks schema conformance, coverage, identifiers, references, note dispositions and the hash tying review to the current XML. It generates `scripts/output/corpus-review-status.md`. It does not perform a new visual reading or confer human scholarly approval. An XML change invalidates the recorded review hash; a reviewer must check it before the ledger is updated.
+
+The corpus index, `docs/data/tei-corpus.json`, tracks all 75 poem–witness slots. Unintegrated candidates remain in `scripts/output/`; only records marked `reviewed` load their new XML in the site. After independent review, run `python3 scripts/promote-tei.py WITNESS POEM` to validate the candidate and its review bindings before integration. Review ledgers may express source order as verse numbers or complete XML verse IDs. Run promotions sequentially because each updates the shared index. `npm run audit:tei` additionally requires all 75 slots to be reviewed and fails while corpus work remains incomplete. Missing annotations alone never establish source absence.
 
 ## TEI conventions
 

@@ -1,0 +1,727 @@
+{
+  "witness": "Y",
+  "poem": "3.1",
+  "date": "2026-09-09",
+  "reviewer": "OpenAI Codex independent encode_s agent",
+  "author_agent": "/root/review_y",
+  "reviewer_agent": "/root/encode_s",
+  "review_type": "independent-second-agent-image-and-encoding-review",
+  "human_approved": false,
+  "line_coverage": {
+    "count": 70,
+    "ranges": [
+      {
+        "page": "58r",
+        "start": 1,
+        "end": 26
+      },
+      {
+        "page": "58v",
+        "start": 27,
+        "end": 66
+      },
+      {
+        "page": "59r",
+        "start": 67,
+        "end": 70
+      }
+    ]
+  },
+  "line_order": [
+    "Y-3.1-l1",
+    "Y-3.1-l2",
+    "Y-3.1-l3",
+    "Y-3.1-l4",
+    "Y-3.1-l5",
+    "Y-3.1-l6",
+    "Y-3.1-l7",
+    "Y-3.1-l8",
+    "Y-3.1-l9",
+    "Y-3.1-l10",
+    "Y-3.1-l11",
+    "Y-3.1-l12",
+    "Y-3.1-l13",
+    "Y-3.1-l14",
+    "Y-3.1-l15",
+    "Y-3.1-l16",
+    "Y-3.1-l17",
+    "Y-3.1-l18",
+    "Y-3.1-l19",
+    "Y-3.1-l20",
+    "Y-3.1-l21",
+    "Y-3.1-l22",
+    "Y-3.1-l23",
+    "Y-3.1-l24",
+    "Y-3.1-l25",
+    "Y-3.1-l26",
+    "Y-3.1-l27",
+    "Y-3.1-l28",
+    "Y-3.1-l29",
+    "Y-3.1-l30",
+    "Y-3.1-l31",
+    "Y-3.1-l32",
+    "Y-3.1-l33",
+    "Y-3.1-l34",
+    "Y-3.1-l35",
+    "Y-3.1-l36",
+    "Y-3.1-l37",
+    "Y-3.1-l38",
+    "Y-3.1-l39",
+    "Y-3.1-l40",
+    "Y-3.1-l41",
+    "Y-3.1-l42",
+    "Y-3.1-l43",
+    "Y-3.1-l44",
+    "Y-3.1-l45",
+    "Y-3.1-l46",
+    "Y-3.1-l47",
+    "Y-3.1-l48",
+    "Y-3.1-l49",
+    "Y-3.1-l50",
+    "Y-3.1-l51",
+    "Y-3.1-l52",
+    "Y-3.1-l53",
+    "Y-3.1-l54",
+    "Y-3.1-l55",
+    "Y-3.1-l56",
+    "Y-3.1-l57",
+    "Y-3.1-l58",
+    "Y-3.1-l59",
+    "Y-3.1-l60",
+    "Y-3.1-l61",
+    "Y-3.1-l62",
+    "Y-3.1-l63",
+    "Y-3.1-l64",
+    "Y-3.1-l65",
+    "Y-3.1-l66",
+    "Y-3.1-l67",
+    "Y-3.1-l68",
+    "Y-3.1-l69",
+    "Y-3.1-l70"
+  ],
+  "counts": {
+    "resolved": 22,
+    "documented-uncertainty": 19,
+    "escalate": 0
+  },
+  "previous_review_note_count": 8,
+  "notes": [
+    {
+      "note_id": "Y-3.1-note-1",
+      "line": 1,
+      "target": "#Y-3.1-l1",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "58r",
+        "assessment": "The large S begins the poem beneath a book-transition rubric. Uetus is darker and its final s has a raised curled form. A hole between per and annos does not demonstrably remove verse letters; no textual gap is invented. The rubric belongs to the book transition and is described here rather than inserted into verse 1.",
+        "image": "/tmp/amores-y31-33/119.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0119/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.1-01.png"
+      },
+      "change": "Source reading or feature confirmed; applied the documented correction where required."
+    },
+    {
+      "note_id": "Y-3.1-note-4",
+      "line": 4,
+      "target": "#Y-3.1-l4",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "58r",
+        "assessment": "The area after omni is faint or disturbed. No readable deleted letters are established; the visible line continues dulce queruntur aues.",
+        "image": "/tmp/amores-y31-33/119.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0119/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.1-04.png"
+      },
+      "change": "Retained the locally qualified source feature; no unsupported corrected reading or human task."
+    },
+    {
+      "note_id": "Y-3.1-note-6",
+      "line": 6,
+      "target": "#Y-3.1-l6",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "58r",
+        "assessment": "The et ligature completing moueret is darker. It is preserved as a glyph with explicit expansion, as are comparable et signs elsewhere.",
+        "image": "/tmp/amores-y31-33/119.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0119/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.1-06.png"
+      },
+      "change": "Source reading or feature confirmed; applied the documented correction where required."
+    },
+    {
+      "note_id": "Y-3.1-note-7",
+      "line": 7,
+      "target": "#Y-3.1-l7",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "58r",
+        "assessment": "The initial o of odoratos is visibly darker. No earlier character is reconstructed.",
+        "image": "/tmp/amores-y31-33/119.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0119/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.1-07.png"
+      },
+      "change": "Source reading or feature confirmed; applied the documented correction where required."
+    },
+    {
+      "note_id": "Y-3.1-note-11",
+      "line": 11,
+      "target": "#Y-3.1-l11",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "58r",
+        "assessment": "Tragoedia is retained from the visible sequence; a darker or crowded beginning does not establish an erased predecessor.",
+        "image": "/tmp/amores-y31-33/119.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0119/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.1-11.png"
+      },
+      "change": "Source reading or feature confirmed; applied the documented correction where required."
+    },
+    {
+      "note_id": "Y-3.1-note-12",
+      "line": 12,
+      "target": "#Y-3.1-l12",
+      "previous_type": "second-pass-addition",
+      "status": "resolved",
+      "evidence": {
+        "page": "58r",
+        "assessment": "Independent reinspection reads comę and palla. The first pass expanded the e caudata and inserted an unsupported i in palla; both have been corrected.",
+        "image": "/tmp/amores-y31-33/119.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0119/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.1-12.png"
+      },
+      "change": "Source reading or feature confirmed; applied the documented correction where required."
+    },
+    {
+      "note_id": "Y-3.1-note-14",
+      "line": 14,
+      "target": "#Y-3.1-l14",
+      "previous_type": "review",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "58r",
+        "assessment": "A small p-like character stands above alta, approximately over the l/t boundary. Its precise reading, anchor and function are uncertain; the visible above-line material is retained without forcing a grammatical expansion.",
+        "image": "/tmp/amores-y31-33/119.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0119/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.1-14.png"
+      },
+      "change": "Retained the locally qualified source feature; no unsupported corrected reading or human task."
+    },
+    {
+      "note_id": "Y-3.1-note-15",
+      "line": 15,
+      "target": "#Y-3.1-l15",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "58r",
+        "assessment": "Question-like signs follow amandi and tui in 15–16. Their display is schematic, and the stops are not modern punctuation supplied from another text.",
+        "image": "/tmp/amores-y31-33/119.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0119/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.1-15.png"
+      },
+      "change": "Source reading or feature confirmed; applied the documented correction where required."
+    },
+    {
+      "note_id": "Y-3.1-note-17",
+      "line": 17,
+      "target": "#Y-3.1-l17",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "58r",
+        "assessment": "The n of uinosa is darker. The witness reading is retained without a reconstructed earlier state.",
+        "image": "/tmp/amores-y31-33/119.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0119/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.1-17.png"
+      },
+      "change": "Source reading or feature confirmed; applied the documented correction where required."
+    },
+    {
+      "note_id": "Y-3.1-note-21",
+      "line": 21,
+      "target": "#Y-3.1-l21",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "58r",
+        "assessment": "The sequence is iactaris; the high initial i-like stroke is treated as an ordinary allograph, not a separate addition.",
+        "image": "/tmp/amores-y31-33/119.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0119/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.1-21.png"
+      },
+      "change": "Source reading or feature confirmed; applied the documented correction where required."
+    },
+    {
+      "note_id": "Y-3.1-note-23",
+      "line": 23,
+      "target": "#Y-3.1-l23",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "58r",
+        "assessment": "The y-like character in thyrso is faint. The visible marked form pulsū is retained without an expansion: the horizontal stroke is clear, but its function does not securely establish a nasal or an unmarked pulsu reading.",
+        "image": "/tmp/amores-y31-33/119.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0119/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.1-23.png"
+      },
+      "change": "Retained the locally qualified source feature; no unsupported corrected reading or human task."
+    },
+    {
+      "note_id": "Y-3.1-note-25",
+      "line": 25,
+      "target": "#Y-3.1-l25",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "58r",
+        "assessment": "The initial M is disturbed but the word Materia remains legible. No earlier reading is supplied.",
+        "image": "/tmp/amores-y31-33/119.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0119/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.1-25.png"
+      },
+      "change": "Source reading or feature confirmed; applied the documented correction where required."
+    },
+    {
+      "note_id": "Y-3.1-note-26",
+      "line": 26,
+      "target": "#Y-3.1-l26",
+      "previous_type": "review",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "58r",
+        "assessment": "Digna is legible above baseline facta. No unambiguous deletion is visible; the addition and baseline word are retained separately, without asserting a replacement relationship.",
+        "image": "/tmp/amores-y31-33/119.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0119/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.1-26.png"
+      },
+      "change": "Retained the locally qualified source feature; no unsupported corrected reading or human task."
+    },
+    {
+      "note_id": "Y-3.1-note-27",
+      "line": 27,
+      "target": "#Y-3.1-l27",
+      "previous_type": "second-pass-addition",
+      "status": "resolved",
+      "evidence": {
+        "page": "58v",
+        "assessment": "The source writes e caudata in tenerę and puellę. These letter forms are retained rather than silently expanded to ae.",
+        "image": "/tmp/amores-y31-33/120.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0120/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.1-27.png"
+      },
+      "change": "Source reading or feature confirmed; applied the documented correction where required."
+    },
+    {
+      "note_id": "Y-3.1-note-29",
+      "line": 29,
+      "target": "#Y-3.1-l29",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "58v",
+        "assessment": "Habeam includes a fine dark stroke within the word. It is retained without asserting that the stroke cancels a particular letter.",
+        "image": "/tmp/amores-y31-33/120.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0120/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.1-29.png"
+      },
+      "change": "Retained the locally qualified source feature; no unsupported corrected reading or human task."
+    },
+    {
+      "note_id": "Y-3.1-note-30",
+      "line": 30,
+      "target": "#Y-3.1-l30",
+      "previous_type": "review",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "58v",
+        "assessment": "Independent enlargement supports the above-line word iste. Baseline ipse has no assured cancellation, so both are retained and their possible replacement relationship remains unspecified.",
+        "image": "/tmp/amores-y31-33/120.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0120/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.1-30.png"
+      },
+      "change": "Retained the locally qualified source feature; no unsupported corrected reading or human task."
+    },
+    {
+      "note_id": "Y-3.1-note-31",
+      "line": 31,
+      "target": "#Y-3.1-l31",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "58v",
+        "assessment": "The m of mouit is darker. The remaining visible sequence reads pictis innexa coturnis.",
+        "image": "/tmp/amores-y31-33/120.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0120/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.1-31.png"
+      },
+      "change": "Source reading or feature confirmed; applied the documented correction where required."
+    },
+    {
+      "note_id": "Y-3.1-note-32",
+      "line": 32,
+      "target": "#Y-3.1-l32",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "58v",
+        "assessment": "The witness spelling capud is visible, with a tall final d; no silent change to caput is made.",
+        "image": "/tmp/amores-y31-33/120.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0120/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.1-32.png"
+      },
+      "change": "Source reading or feature confirmed; applied the documented correction where required."
+    },
+    {
+      "note_id": "Y-3.1-note-33",
+      "line": 33,
+      "target": "#Y-3.1-l33",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "58v",
+        "assessment": "Si and the end of ocellis are darker. The area before memini is disturbed; no underlying words or historical correcting hand are inferred.",
+        "image": "/tmp/amores-y31-33/120.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0120/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.1-33.png"
+      },
+      "change": "Retained the locally qualified source feature; no unsupported corrected reading or human task."
+    },
+    {
+      "note_id": "Y-3.1-note-34",
+      "line": 34,
+      "target": "#Y-3.1-l34",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "58v",
+        "assessment": "The m of myrtea is darker. The source spelling is retained.",
+        "image": "/tmp/amores-y31-33/120.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0120/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.1-34.png"
+      },
+      "change": "Source reading or feature confirmed; applied the documented correction where required."
+    },
+    {
+      "note_id": "Y-3.1-note-39",
+      "line": 39,
+      "target": "#Y-3.1-l39",
+      "previous_type": "uncertainty",
+      "status": "resolved",
+      "evidence": {
+        "page": "58v",
+        "assessment": "Independent enlargement confirms the barred contraction represented schematically as nrīs, expanded nostris. The typography is not an exact replica of the manuscript bar placement.",
+        "image": "/tmp/amores-y31-33/120.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0120/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.1-39.png"
+      },
+      "change": "Source reading or feature confirmed; applied the documented correction where required."
+    },
+    {
+      "note_id": "Y-3.1-note-40",
+      "line": 40,
+      "target": "#Y-3.1-l40",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "58v",
+        "assessment": "The it of Obruit is darker. Adjacent faint traces do not justify reconstructing erased letters.",
+        "image": "/tmp/amores-y31-33/120.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0120/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.1-40.png"
+      },
+      "change": "Source reading or feature confirmed; applied the documented correction where required."
+    },
+    {
+      "note_id": "Y-3.1-note-41",
+      "line": 41,
+      "target": "#Y-3.1-l41",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "58v",
+        "assessment": "The end of leuis is darker. A hole in the adjacent space does not establish missing text; the et sign is separately encoded.",
+        "image": "/tmp/amores-y31-33/120.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0120/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.1-41.png"
+      },
+      "change": "Source reading or feature confirmed; applied the documented correction where required."
+    },
+    {
+      "note_id": "Y-3.1-note-45",
+      "line": 45,
+      "target": "#Y-3.1-l45",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "58v",
+        "assessment": "The visible marked form tū carries a horizontal stroke. Its function remains uncertain, so no tu or tum expansion is imposed; the literal marked form is retained.",
+        "image": "/tmp/amores-y31-33/120.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0120/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.1-45.png"
+      },
+      "change": "Retained the locally qualified source feature; no unsupported corrected reading or human task."
+    },
+    {
+      "note_id": "Y-3.1-note-46",
+      "line": 46,
+      "target": "#Y-3.1-l46",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "58v",
+        "assessment": "The m of meis is darker; the current text and source spacing are retained with editorial segmentation.",
+        "image": "/tmp/amores-y31-33/120.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0120/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.1-46.png"
+      },
+      "change": "Source reading or feature confirmed; applied the documented correction where required."
+    },
+    {
+      "note_id": "Y-3.1-note-50",
+      "line": 50,
+      "target": "#Y-3.1-l50",
+      "previous_type": "review",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "58v",
+        "assessment": "The source writes adstrictę with e caudata. Baseline fidem and darker marginal fores are both legible. No secure cancellation or linking sign establishes replacement; the marginal word is retained without assigning that relationship.",
+        "image": "/tmp/amores-y31-33/120.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0120/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.1-50.png"
+      },
+      "change": "Retained the locally qualified source feature; no unsupported corrected reading or human task."
+    },
+    {
+      "note_id": "Y-3.1-note-53",
+      "line": 53,
+      "target": "#Y-3.1-l53",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "58v",
+        "assessment": "The opening quotiens and the following line’s uerita are on disturbed areas. The words remain legible; no earlier text is reconstructed.",
+        "image": "/tmp/amores-y31-33/120.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0120/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.1-53.png"
+      },
+      "change": "Retained the locally qualified source feature; no unsupported corrected reading or human task."
+    },
+    {
+      "note_id": "Y-3.1-note-55",
+      "line": 55,
+      "target": "#Y-3.1-l55",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "58v",
+        "assessment": "The final et sign in abiret is retained with a declared expansion. The note is distinct from the manuscript line, not extra verse text.",
+        "image": "/tmp/amores-y31-33/120.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0120/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.1-55.png"
+      },
+      "change": "Source reading or feature confirmed; applied the documented correction where required."
+    },
+    {
+      "note_id": "Y-3.1-note-56",
+      "line": 56,
+      "target": "#Y-3.1-l56",
+      "previous_type": "second-pass-addition",
+      "status": "resolved",
+      "evidence": {
+        "page": "58v",
+        "assessment": "The source reads Ancillę missam: e caudata and missam are retained from the visible letters.",
+        "image": "/tmp/amores-y31-33/120.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0120/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.1-56.png"
+      },
+      "change": "Source reading or feature confirmed; applied the documented correction where required."
+    },
+    {
+      "note_id": "Y-3.1-note-57",
+      "line": 57,
+      "target": "#Y-3.1-l57",
+      "previous_type": "review",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "58v",
+        "assessment": "A small t-like addition appears above the area between ad and illa. Its anchoring and role are uncertain. The baseline sequence is preserved without silently changing it to an expected illa or illi construction.",
+        "image": "/tmp/amores-y31-33/120.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0120/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.1-57.png"
+      },
+      "change": "Retained the locally qualified source feature; no unsupported corrected reading or human task."
+    },
+    {
+      "note_id": "Y-3.1-note-58",
+      "line": 58,
+      "target": "#Y-3.1-l58",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "58v",
+        "assessment": "The word beginning Ru is disturbed; an m-like trace before pta remains under unclear, without an inferred deletion action. Independent reinspection confirms final aqua, without a following m; the first-pass aquam has been corrected.",
+        "image": "/tmp/amores-y31-33/120.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0120/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.1-58.png"
+      },
+      "change": "Retained the locally qualified source feature; no unsupported corrected reading or human task."
+    },
+    {
+      "note_id": "Y-3.1-note-59",
+      "line": 59,
+      "target": "#Y-3.1-l59",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "58v",
+        "assessment": "The area in tuae is disturbed but the current reading is retained. Prima tuae moui is transcribed from the image.",
+        "image": "/tmp/amores-y31-33/120.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0120/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.1-59.png"
+      },
+      "change": "Retained the locally qualified source feature; no unsupported corrected reading or human task."
+    },
+    {
+      "note_id": "Y-3.1-note-60",
+      "line": 60,
+      "target": "#Y-3.1-l60",
+      "previous_type": "review",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "58v",
+        "assessment": "Independent inspection restores the clearly written te after quod. Small es stands above the baseline et sign in habet. No secure deletion of that sign establishes a substitution; both visible inscriptions are retained without an expanded corrected reading.",
+        "image": "/tmp/amores-y31-33/120.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0120/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.1-60.png"
+      },
+      "change": "Retained the locally qualified source feature; no unsupported corrected reading or human task."
+    },
+    {
+      "note_id": "Y-3.1-note-61",
+      "line": 61,
+      "target": "#Y-3.1-l61",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "58v",
+        "assessment": "Coepi is faint in the disturbed left portion. The remainder reads per uos utramque rogamus; it is not normalized to an expected verb ending.",
+        "image": "/tmp/amores-y31-33/120.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0120/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.1-61.png"
+      },
+      "change": "Retained the locally qualified source feature; no unsupported corrected reading or human task."
+    },
+    {
+      "note_id": "Y-3.1-note-63",
+      "line": 63,
+      "target": "#Y-3.1-l63",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "58v",
+        "assessment": "The e of me and initial s of sceptro are darker. Sceptro is a baseline word, not a marginal addition.",
+        "image": "/tmp/amores-y31-33/120.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0120/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.1-63.png"
+      },
+      "change": "Source reading or feature confirmed; applied the documented correction where required."
+    },
+    {
+      "note_id": "Y-3.1-note-64",
+      "line": 64,
+      "target": "#Y-3.1-l64",
+      "previous_type": "review",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "58v",
+        "assessment": "A small r-like character stands above contacto; darker right annotation orbe sonor is legible. Baseline in ore sonus remains visible. The uncertain character and unspecified relationships are preserved without forcing substitution.",
+        "image": "/tmp/amores-y31-33/120.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0120/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.1-64.png"
+      },
+      "change": "Retained the locally qualified source feature; no unsupported corrected reading or human task."
+    },
+    {
+      "note_id": "Y-3.1-note-65",
+      "line": 65,
+      "target": "#Y-3.1-l65",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "58v",
+        "assessment": "The o in nostrom is darker and a horizontal stroke crosses the following m-like form. A qualified deletion records the visible stroke; no replacement vowel or earlier word is invented.",
+        "image": "/tmp/amores-y31-33/120.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0120/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.1-65.png"
+      },
+      "change": "Retained the locally qualified source feature; no unsupported corrected reading or human task."
+    },
+    {
+      "note_id": "Y-3.1-note-66",
+      "line": 66,
+      "target": "#Y-3.1-l66",
+      "previous_type": "review",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "58v",
+        "assessment": "The baseline opening appears Exiga des. Independent enlargement reads the above-line loop as o; its anchoring and role remain tentative. The visible forms are retained without supplying a normalized word.",
+        "image": "/tmp/amores-y31-33/120.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0120/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.1-66.png"
+      },
+      "change": "Retained the locally qualified source feature; no unsupported corrected reading or human task."
+    },
+    {
+      "note_id": "Y-3.1-note-67",
+      "line": 67,
+      "target": "#Y-3.1-l67",
+      "previous_type": "second-pass-addition",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "59r",
+        "assessment": "The existing annotation rectangle for this verse points to the next poem opening. The verse itself was independently verified from the first text line of folio 59r. The original coordinates are preserved pending a separate navigation correction; they do not support the reading of this verse.",
+        "image": "/tmp/amores-y31-33/121.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0121/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/121-part1.png"
+      },
+      "change": "Retained the locally qualified source feature; no unsupported corrected reading or human task."
+    },
+    {
+      "note_id": "Y-3.1-note-69",
+      "line": 69,
+      "target": "#Y-3.1-l69",
+      "previous_type": "second-pass-addition",
+      "status": "resolved",
+      "evidence": {
+        "page": "59r",
+        "assessment": "Independent inspection confirms Mota, with the crossbar of t visible. The first-pass Mora has been corrected.",
+        "image": "/tmp/amores-y31-33/121.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0121/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.1-69.png"
+      },
+      "change": "Source reading or feature confirmed; applied the documented correction where required."
+    },
+    {
+      "note_id": "Y-3.1-note-70",
+      "line": 70,
+      "target": "#Y-3.1-l70",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "59r",
+        "assessment": "The u in uacat and final et sign in urget are darker. The next poem begins below this verse and is not part of 3.1.",
+        "image": "/tmp/amores-y31-33/121.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0121/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.1-70.png"
+      },
+      "change": "Source reading or feature confirmed; applied the documented correction where required."
+    }
+  ],
+  "reviewed_candidate_sha256": "41b811f3383d112d928ce8e066272118fc8cf67d7fa6becb8ccc14baf499a747",
+  "review_report_sha256": "0b83d41f437404e41d1932a6e710f0ffbb6dfb731e2709a05231788695fff231"
+}

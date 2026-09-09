@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="LL" xml:id="LL-3.4">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title>Ovid, Amores 3.4 — The Latin Library</title>
+        <author>Publius Ovidius Naso</author>
+        <respStmt xml:id="LL-3.4-encoder">
+          <resp>Source collation and first-pass TEI encoding</resp>
+          <name>OpenAI Codex primary agent</name>
+        </respStmt>
+        <respStmt xml:id="LL-3.4-second-reader">
+          <resp>Independent second source collation of every verse against a separate live webpage retrieval</resp>
+          <name>OpenAI Codex independent encode_s agent</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Amores Project working transcription; not a human-approved critical edition.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>The Latin Library: Ovid, Amores III</title>
+          <ref target="https://www.thelatinlibrary.com/ovid/ovid.amor3.shtml">Source web text</ref>
+          <date when="2026-09-09">Accessed 9 September 2026</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Wording, capitalization and punctuation follow the source webpage. HTML entities are decoded and HTML whitespace normalized; couplets and line numbers are editorial. This web text does not carry invented manuscript features or facsimile zones. The site's XIa and XIb are treated as continuous Amores 3.11, while preserving the source division explicitly. Independent second source collation is complete; no verse differences remain. Agent review does not constitute human scholarly approval.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <change when="2026-09-09" who="#LL-3.4-encoder">Collated all 48 verses against a fresh source retrieval and encoded first pass for independent review.</change>
+      <change when="2026-09-09" who="#LL-3.4-second-reader">Independently extracted and compared all 48 verse lines from a fresh live Latin Library retrieval; exact match after HTML entity decoding and whitespace normalization. No textual corrections or human review actions.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <body>
+      <div type="poem" n="3.4" xml:id="LL-3.4-poem">
+        <lg type="couplet">
+          <l n="1" xml:id="LL-3.4-l1">Dure vir, inposito tenerae custode puellae</l>
+          <l n="2" xml:id="LL-3.4-l2" rend="indent">nil agis; ingenio est quaeque tuenda suo.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="3" xml:id="LL-3.4-l3">siqua metu dempto casta est, ea denique casta est;</l>
+          <l n="4" xml:id="LL-3.4-l4" rend="indent">quae, quia non liceat, non facit, illa facit!</l>
+        </lg>
+        <lg type="couplet">
+          <l n="5" xml:id="LL-3.4-l5">ut iam servaris bene corpus, adultera mens est;</l>
+          <l n="6" xml:id="LL-3.4-l6" rend="indent">nec custodiri, ne velit, ulla potest.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="7" xml:id="LL-3.4-l7">nec corpus servare potes, licet omnia claudas;</l>
+          <l n="8" xml:id="LL-3.4-l8" rend="indent">omnibus exclusis intus adulter erit.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="9" xml:id="LL-3.4-l9">cui peccare licet, peccat minus; ipsa potestas</l>
+          <l n="10" xml:id="LL-3.4-l10" rend="indent">semina nequitiae languidiora facit.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="11" xml:id="LL-3.4-l11">desine, crede mihi, vitia inritare vetando;</l>
+          <l n="12" xml:id="LL-3.4-l12" rend="indent">obsequio vinces aptius illa tuo.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="13" xml:id="LL-3.4-l13">Vidi ego nuper equum contra sua vincla tenacem</l>
+          <l n="14" xml:id="LL-3.4-l14" rend="indent">ore reluctanti fulminis ire modo;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="15" xml:id="LL-3.4-l15">constitit ut primum concessas sensit habenas</l>
+          <l n="16" xml:id="LL-3.4-l16" rend="indent">frenaque in effusa laxa iacere iuba!</l>
+        </lg>
+        <lg type="couplet">
+          <l n="17" xml:id="LL-3.4-l17">nitimur in vetitum semper cupimusque negata;</l>
+          <l n="18" xml:id="LL-3.4-l18" rend="indent">sic interdictis imminet aeger aquis.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="19" xml:id="LL-3.4-l19">centum fronte oculos, centum cervice gerebat</l>
+          <l n="20" xml:id="LL-3.4-l20" rend="indent">Argus — et hos unus saepe fefellit Amor;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="21" xml:id="LL-3.4-l21">in thalamum Danae ferro saxoque perennem</l>
+          <l n="22" xml:id="LL-3.4-l22" rend="indent">quae fuerat virgo tradita, mater erat;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="23" xml:id="LL-3.4-l23">Penelope mansit, quamvis custode carebat,</l>
+          <l n="24" xml:id="LL-3.4-l24" rend="indent">inter tot iuvenes intemerata procos.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="25" xml:id="LL-3.4-l25">Quidquid servatur cupimus magis, ipsaque furem</l>
+          <l n="26" xml:id="LL-3.4-l26" rend="indent">cura vocat; pauci, quod sinit alter, amant.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="27" xml:id="LL-3.4-l27">nec facie placet illa sua, sed amore mariti;</l>
+          <l n="28" xml:id="LL-3.4-l28" rend="indent">nescio quid, quod te ceperit, esse putant.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="29" xml:id="LL-3.4-l29">non proba fit, quam vir servat, sed adultera cara;</l>
+          <l n="30" xml:id="LL-3.4-l30" rend="indent">ipse timor pretium corpore maius habet.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="31" xml:id="LL-3.4-l31">indignere licet, iuvat inconcessa voluptas;</l>
+          <l n="32" xml:id="LL-3.4-l32" rend="indent">sola placet, 'timeo!' dicere siqua potest.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="33" xml:id="LL-3.4-l33">nec tamen ingenuam ius est servare puellam —</l>
+          <l n="34" xml:id="LL-3.4-l34" rend="indent">hic metus externae corpora gentis agat!</l>
+        </lg>
+        <lg type="couplet">
+          <l n="35" xml:id="LL-3.4-l35">scilicet ut possit custos 'ego' dicere 'feci,'</l>
+          <l n="36" xml:id="LL-3.4-l36" rend="indent">in laudem servi casta sit illa tui?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="37" xml:id="LL-3.4-l37">Rusticus est nimium, quem laedit adultera coniunx,</l>
+          <l n="38" xml:id="LL-3.4-l38" rend="indent">et notos mores non satis urbis habet</l>
+        </lg>
+        <lg type="couplet">
+          <l n="39" xml:id="LL-3.4-l39">in qua Martigenae non sunt sine crimine nati</l>
+          <l n="40" xml:id="LL-3.4-l40" rend="indent">Romulus Iliades Iliadesque Remus.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="41" xml:id="LL-3.4-l41">quo tibi formosam, si non nisi casta placebat?</l>
+          <l n="42" xml:id="LL-3.4-l42" rend="indent">non possunt ullis ista coire modis.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="43" xml:id="LL-3.4-l43">Si sapis, indulge dominae vultusque severos</l>
+          <l n="44" xml:id="LL-3.4-l44" rend="indent">exue, nec rigidi iura tuere viri,</l>
+        </lg>
+        <lg type="couplet">
+          <l n="45" xml:id="LL-3.4-l45">et cole quos dederit — multos dabit — uxor amicos.</l>
+          <l n="46" xml:id="LL-3.4-l46" rend="indent">gratia sic minimo magna labore venit;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="47" xml:id="LL-3.4-l47">sic poteris iuvenum convivia semper inire</l>
+          <l n="48" xml:id="LL-3.4-l48" rend="indent">et, quae non dederis, multa videre domi.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

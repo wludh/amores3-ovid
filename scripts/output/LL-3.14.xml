@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="LL" xml:id="LL-3.14">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title>Ovid, Amores 3.14 — The Latin Library</title>
+        <author>Publius Ovidius Naso</author>
+        <respStmt xml:id="LL-3.14-encoder">
+          <resp>Source collation and first-pass TEI encoding</resp>
+          <name>OpenAI Codex primary agent</name>
+        </respStmt>
+        <respStmt xml:id="LL-3.14-second-reader">
+          <resp>Independent second source collation of every verse against a separate live webpage retrieval</resp>
+          <name>OpenAI Codex independent encode_s agent</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Amores Project working transcription; not a human-approved critical edition.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>The Latin Library: Ovid, Amores III</title>
+          <ref target="https://www.thelatinlibrary.com/ovid/ovid.amor3.shtml">Source web text</ref>
+          <date when="2026-09-09">Accessed 9 September 2026</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Wording, capitalization and punctuation follow the source webpage. HTML entities are decoded and HTML whitespace normalized; couplets and line numbers are editorial. This web text does not carry invented manuscript features or facsimile zones. The site's XIa and XIb are treated as continuous Amores 3.11, while preserving the source division explicitly. Independent second source collation is complete; no verse differences remain. Agent review does not constitute human scholarly approval.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <change when="2026-09-09" who="#LL-3.14-encoder">Collated all 50 verses against a fresh source retrieval and encoded first pass for independent review.</change>
+      <change when="2026-09-09" who="#LL-3.14-second-reader">Independently extracted and compared all 50 verse lines from a fresh live Latin Library retrieval; exact match after HTML entity decoding and whitespace normalization. No textual corrections or human review actions.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <body>
+      <div type="poem" n="3.14" xml:id="LL-3.14-poem">
+        <lg type="couplet">
+          <l n="1" xml:id="LL-3.14-l1">Non ego, ne pecces, cum sis formosa, recuso,</l>
+          <l n="2" xml:id="LL-3.14-l2" rend="indent">sed ne sit misero scire necesse mihi;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="3" xml:id="LL-3.14-l3">nec te nostra iubet fieri censura pudicam,</l>
+          <l n="4" xml:id="LL-3.14-l4" rend="indent">sed tamen, ut temptes dissimulare, rogat.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="5" xml:id="LL-3.14-l5">non peccat, quaecumque potest peccasse negare,</l>
+          <l n="6" xml:id="LL-3.14-l6" rend="indent">solaque famosam culpa professa facit.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="7" xml:id="LL-3.14-l7">quis furor est, quae nocte latent, in luce fateri,</l>
+          <l n="8" xml:id="LL-3.14-l8" rend="indent">et quae clam facias facta referre palam?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="9" xml:id="LL-3.14-l9">ignoto meretrix corpus iunctura Quiriti</l>
+          <l n="10" xml:id="LL-3.14-l10" rend="indent">opposita populum summovet ante sera;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="11" xml:id="LL-3.14-l11">tu tua prostitues famae peccata sinistrae</l>
+          <l n="12" xml:id="LL-3.14-l12" rend="indent">commissi perages indiciumque tui?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="13" xml:id="LL-3.14-l13">sit tibi mens melior, saltemve imitare pudicas,</l>
+          <l n="14" xml:id="LL-3.14-l14" rend="indent">teque probam, quamvis non eris, esse putem.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="15" xml:id="LL-3.14-l15">quae facis, haec facito; tantum fecisse negato,</l>
+          <l n="16" xml:id="LL-3.14-l16" rend="indent">nec pudeat coram verba modesta loqui!</l>
+        </lg>
+        <lg type="couplet">
+          <l n="17" xml:id="LL-3.14-l17">Est qui nequitiam locus exigat; omnibus illum</l>
+          <l n="18" xml:id="LL-3.14-l18" rend="indent">deliciis inple, stet procul inde pudor!</l>
+        </lg>
+        <lg type="couplet">
+          <l n="19" xml:id="LL-3.14-l19">hinc simul exieris, lascivia protinus omnis</l>
+          <l n="20" xml:id="LL-3.14-l20" rend="indent">absit, et in lecto crimina pone tuo.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="21" xml:id="LL-3.14-l21">illic nec tunicam tibi sit posuisse pudori</l>
+          <l n="22" xml:id="LL-3.14-l22" rend="indent">nec femori inpositum sustinuisse femur;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="23" xml:id="LL-3.14-l23">illic purpureis condatur lingua labellis,</l>
+          <l n="24" xml:id="LL-3.14-l24" rend="indent">inque modos Venerem mille figuret amor;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="25" xml:id="LL-3.14-l25">illic nec voces nec verba iuvantia cessent,</l>
+          <l n="26" xml:id="LL-3.14-l26" rend="indent">spondaque lasciva mobilitate tremat!</l>
+        </lg>
+        <lg type="couplet">
+          <l n="27" xml:id="LL-3.14-l27">indue cum tunicis metuentem crimina vultum,</l>
+          <l n="28" xml:id="LL-3.14-l28" rend="indent">et pudor obscenum diffiteatur opus;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="29" xml:id="LL-3.14-l29">da populo, da verba mihi; sine nescius errem,</l>
+          <l n="30" xml:id="LL-3.14-l30" rend="indent">et liceat stulta credulitate frui!</l>
+        </lg>
+        <lg type="couplet">
+          <l n="31" xml:id="LL-3.14-l31">Cur totiens video mitti recipique tabellas?</l>
+          <l n="32" xml:id="LL-3.14-l32" rend="indent">cur pressus prior est interiorque torus?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="33" xml:id="LL-3.14-l33">cur plus quam somno turbatos esse capillos</l>
+          <l n="34" xml:id="LL-3.14-l34" rend="indent">collaque conspicio dentis habere notam?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="35" xml:id="LL-3.14-l35">tantum non oculos crimen deducis ad ipsos;</l>
+          <l n="36" xml:id="LL-3.14-l36" rend="indent">si dubitas famae parcere, parce mihi!</l>
+        </lg>
+        <lg type="couplet">
+          <l n="37" xml:id="LL-3.14-l37">mens abit et morior quotiens peccasse fateris,</l>
+          <l n="38" xml:id="LL-3.14-l38" rend="indent">perque meos artus frigida gutta fluit.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="39" xml:id="LL-3.14-l39">tunc amo, tunc odi frustra quod amare necesse est;</l>
+          <l n="40" xml:id="LL-3.14-l40" rend="indent">tunc ego, sed tecum, mortuus esse velim!</l>
+        </lg>
+        <lg type="couplet">
+          <l n="41" xml:id="LL-3.14-l41">Nil equidem inquiram, nec quae celare parabis</l>
+          <l n="42" xml:id="LL-3.14-l42" rend="indent">insequar, et falli muneris instar erit.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="43" xml:id="LL-3.14-l43">si tamen in media deprensa tenebere culpa,</l>
+          <l n="44" xml:id="LL-3.14-l44" rend="indent">et fuerint oculis probra videnda meis,</l>
+        </lg>
+        <lg type="couplet">
+          <l n="45" xml:id="LL-3.14-l45">quae bene visa mihi fuerint, bene visa negato —</l>
+          <l n="46" xml:id="LL-3.14-l46" rend="indent">concedent verbis lumina nostra tuis.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="47" xml:id="LL-3.14-l47">prona tibi vinci cupientem vincere palma est,</l>
+          <l n="48" xml:id="LL-3.14-l48" rend="indent">sit modo 'non feci!' dicere lingua memor.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="49" xml:id="LL-3.14-l49">cum tibi contingat verbis superare duobus,</l>
+          <l n="50" xml:id="LL-3.14-l50" rend="indent">etsi non causa, iudice vince tuo!</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

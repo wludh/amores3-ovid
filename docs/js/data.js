@@ -6,6 +6,19 @@ const witnessFiles = {
   LL: 'data/witness-LL.xml'
 };
 
+let teiCorpusRequest;
+async function resolveWitnessFile(witness, poem) {
+  if (!teiCorpusRequest) {
+    teiCorpusRequest = fetch('data/tei-corpus.json').then(response => {
+      if (!response.ok) throw new Error('Corpus index unavailable');
+      return response.json();
+    });
+  }
+  const corpus = await teiCorpusRequest;
+  const entry = corpus.records.find(item => item.witness === witness && item.poem === poem);
+  return entry?.status === 'reviewed' && entry.path ? entry.path : witnessFiles[witness];
+}
+
 const companionData = {
   '3.1': { commentary: '' },
   '3.2': { commentary: '' },

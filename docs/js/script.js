@@ -329,12 +329,9 @@ const panelStates = new Map();
 // Store witness XML cache (shared across panels)
 const witnessXmlCache = {};
 
-async function loadWitnessXml(witness) {
-  if (witnessXmlCache[witness]) {
-    return witnessXmlCache[witness];
-  }
-
-  const xmlPath = witnessFiles[witness];
+async function loadWitnessXml(witness, poem) {
+  const xmlPath = await resolveWitnessFile(witness, poem);
+  if (witnessXmlCache[xmlPath]) return witnessXmlCache[xmlPath];
   if (!xmlPath) {
     throw new Error(`No data file specified for witness ${witness}.`);
   }
@@ -350,7 +347,7 @@ async function loadWitnessXml(witness) {
     throw new Error(`Invalid XML in ${xmlPath}`);
   }
 
-  witnessXmlCache[witness] = xmlDoc;
+  witnessXmlCache[xmlPath] = xmlDoc;
   return xmlDoc;
 }
 
@@ -362,7 +359,7 @@ async function getAvailableTranscriptionWitnesses(poem) {
   const witnesses = Object.keys(witnessFiles);
   const availability = await Promise.all(witnesses.map(async witness => {
     try {
-      const xmlDoc = await loadWitnessXml(witness);
+      const xmlDoc = await loadWitnessXml(witness, poem);
       const poemNode = getTranscriptionNode(xmlDoc, poem);
       return poemNode && poemNode.firstElementChild ? witness : null;
     } catch (error) {
@@ -1232,7 +1229,7 @@ async function loadTranscriptionFromXml(panel, poem, witness) {
   }
   
   try {
-    const xmlDoc = await loadWitnessXml(witness);
+    const xmlDoc = await loadWitnessXml(witness, poem);
     if (panel.transcriptionLoadToken !== loadToken) return;
     
     const poemNode = getTranscriptionNode(xmlDoc, poem);
@@ -1244,7 +1241,8 @@ async function loadTranscriptionFromXml(panel, poem, witness) {
       
       const html = cetei.domToHTML5(teiDoc);
       textContent.innerHTML = '';
-      const isTrial = poem === '3.7';
+      const isTrial = Array.from(poemNode.getElementsByTagNameNS(TEI_NS, 'div'))
+        .some(div => div.getAttribute('type') === 'poem' && div.getAttribute('n') === poem);
       textContent.classList.toggle('has-tei-edition', isTrial);
       textContent.appendChild(isTrial ? renderTrialEdition(html, poemNode, panel, witness, poem) : html);
       setupHighlightListeners(panel);

@@ -1,0 +1,296 @@
+{
+  "witness": "S",
+  "poem": "3.1",
+  "date": "2026-09-09",
+  "reviewer": "OpenAI Codex primary agent, independent second reader",
+  "author_agent": "/root/encode_s",
+  "reviewer_agent": "/root",
+  "review_type": "independent-second-agent-image-and-encoding-review",
+  "human_approved": false,
+  "line_coverage": {
+    "count": 70,
+    "ranges": [
+      {
+        "manuscript_page": "384",
+        "viewer_page": 385,
+        "start": 1,
+        "end": 3
+      },
+      {
+        "manuscript_page": "385",
+        "viewer_page": 386,
+        "start": 4,
+        "end": 46
+      },
+      {
+        "manuscript_page": "386",
+        "viewer_page": 387,
+        "start": 47,
+        "end": 70
+      }
+    ]
+  },
+  "line_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70
+  ],
+  "absent_lines": [],
+  "notes": [
+    {
+      "note_id": "S-3.1-note-1",
+      "line": 1,
+      "target": "#S-3.1-l1",
+      "previous_type": "uncertainty",
+      "status": "resolved",
+      "evidence": {
+        "manuscript_page": 384,
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_384.jp2/full/full/0/default/jpg",
+        "assessment": "Independent inspection confirms an unfilled initial position before tat and the large interior space before silua. The right-margin incipit is retained separately with schematic abbreviation marks. No missing S or decoration is invented."
+      }
+    },
+    {
+      "note_id": "S-3.1-note-9",
+      "line": 9,
+      "target": "#S-3.1-l9",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "manuscript_page": 385,
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_385.jp2/full/full/0/default/jpg",
+        "assessment": "Independent source inspection confirms: The line has uultus amantis, with a suspension sign in uultus; e caudata and long-s allographs are treated according to the header policy."
+      }
+    },
+    {
+      "note_id": "S-3.1-note-10",
+      "line": 10,
+      "target": "#S-3.1-l10",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "manuscript_page": 385,
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_385.jp2/full/full/0/default/jpg",
+        "assessment": "Independent source inspection confirms: The visible opening is In pedibus and the next word is uicii; this witness reading is retained rather than replacing it with a familiar reading."
+      }
+    },
+    {
+      "note_id": "S-3.1-note-14",
+      "line": 14,
+      "target": "#S-3.1-l14",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "manuscript_page": 385,
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_385.jp2/full/full/0/default/jpg",
+        "assessment": "The opening shows Lidi followed by a raised curled suspension sign, rather than the first-pass full Lidia. It is represented schematically as Lidiꝰ with a qualified Lidius expansion. The final erant remains locally uncertain because of surface disturbance."
+      }
+    },
+    {
+      "note_id": "S-3.1-note-27",
+      "line": 27,
+      "target": "#S-3.1-l27",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "manuscript_page": 385,
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_385.jp2/full/full/0/default/jpg",
+        "assessment": "The sequence after cantate lacks a secure p descender and does not support the first-pass prius expansion. Enlarged inspection gives a tentative risit; it remains unclear and unexpanded. The small raised stroke is not enough to establish a specific abbreviation."
+      }
+    },
+    {
+      "note_id": "S-3.1-note-31",
+      "line": 31,
+      "target": "#S-3.1-l31",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "manuscript_page": 385,
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_385.jp2/full/full/0/default/jpg",
+        "assessment": "Independent inspection supports the baseline inuicta and the separate marginal innixa. Both are retained. No deletion stroke establishes a replacement action, so the margin is not silently substituted into the verse."
+      }
+    },
+    {
+      "note_id": "S-3.1-note-45",
+      "line": 45,
+      "target": "#S-3.1-l45",
+      "previous_type": "observation",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "manuscript_page": 385,
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_385.jp2/full/full/0/default/jpg",
+        "assessment": "The group after non has a visible bar and a compact terminal form; the first-pass full potes obscured that abbreviation evidence. The display pot̄u is schematic, with the final character uncertain. No expansion is imposed from another witness."
+      }
+    },
+    {
+      "note_id": "S-3.1-note-48",
+      "line": 48,
+      "target": "#S-3.1-l48",
+      "previous_type": "uncertainty",
+      "status": "resolved",
+      "evidence": {
+        "manuscript_page": 386,
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_386.jp2/full/full/0/default/jpg",
+        "assessment": "Enlarged independent reading resolves the opening as Multa, with the same rounded capital-M form seen in Munus60 and Mota69. The following l and t support Multa rather than the first-pass Omnia; the uncertainty is removed."
+      }
+    },
+    {
+      "note_id": "S-3.1-note-53",
+      "line": 53,
+      "target": "#S-3.1-l53",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "manuscript_page": 386,
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_386.jp2/full/full/0/default/jpg",
+        "assessment": "Independent source inspection confirms: Visible Vel quotiens and illusa pependit are retained as witness wording, without normalization."
+      }
+    },
+    {
+      "note_id": "S-3.1-note-60",
+      "line": 60,
+      "target": "#S-3.1-l60",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "manuscript_page": 386,
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_386.jp2/full/full/0/default/jpg",
+        "assessment": "The group after Munus consists of h and a c-like form with two small marks above; ḧc is a schematic display. The first-pass contextual hoc expansion is unsupported and has been removed. The final meū suspension supports meum and does not require a user decision."
+      }
+    },
+    {
+      "note_id": "S-3.1-note-64",
+      "line": 64,
+      "target": "#S-3.1-l64",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "manuscript_page": 386,
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_386.jp2/full/full/0/default/jpg",
+        "assessment": "Independent source inspection confirms: The source has tacto without an encoded con- abbreviation, so no prefix is silently supplied."
+      }
+    },
+    {
+      "note_id": "S-3.1-note-6",
+      "line": 6,
+      "target": "#S-3.1-l6",
+      "previous_type": null,
+      "status": "documented-uncertainty",
+      "evidence": {
+        "manuscript_page": 385,
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_385.jp2/full/full/0/default/jpg",
+        "assessment": "The opening is written Qd, not full Quid. The source form is now encoded as an abbreviation; Quod is a qualified contextual expansion. The same Qd form at35 and57 is represented explicitly, with question-context Quid expansions."
+      }
+    },
+    {
+      "note_id": "S-3.1-note-30",
+      "line": 30,
+      "target": "#S-3.1-l30",
+      "previous_type": null,
+      "status": "documented-uncertainty",
+      "evidence": {
+        "manuscript_page": 385,
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_385.jp2/full/full/0/default/jpg",
+        "assessment": "The visible Inplebū contraction is retained. Its Inplebunt expansion is now qualified because the written group does not independently establish a final t; no alteration of the source form is made."
+      }
+    },
+    {
+      "note_id": "S-3.1-note-33",
+      "line": 33,
+      "target": "#S-3.1-l33",
+      "previous_type": null,
+      "status": "resolved",
+      "evidence": {
+        "manuscript_page": 385,
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_385.jp2/full/full/0/default/jpg",
+        "assessment": "The bar in the contracted opening Alt̄a is now explicitly encoded, with expansion Altera. The same visible contraction at65 is represented consistently."
+      }
+    },
+    {
+      "note_id": "S-3.1-note-66",
+      "line": 66,
+      "target": "#S-3.1-l66",
+      "previous_type": null,
+      "status": "resolved",
+      "evidence": {
+        "manuscript_page": 386,
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_386.jp2/full/full/0/default/jpg",
+        "assessment": "The source writes an abbreviated G with a small o above. It is now represented as an abbreviation with superscript o and expansion Ergo, not as a separately added word or as full written Ergo."
+      }
+    }
+  ],
+  "counts": {
+    "resolved": 9,
+    "documented-uncertainty": 6,
+    "escalate": 0
+  },
+  "reviewed_candidate_sha256": "ca47ebee5c5986387c13a5c4a26166a0f5bd2a8d8ffcc4565ed57914f6b429ed",
+  "review_report_sha256": "4467f24b9b743fa8e5c087178b9e41085593ed13949818ecb077b998780eef8d",
+  "reviewed_xml_sha256": "03c72235004daf753233869d9c588106cb54574733bc46fda2c54693f8d2c2e1"
+}

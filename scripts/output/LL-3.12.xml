@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="LL" xml:id="LL-3.12">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title>Ovid, Amores 3.12 — The Latin Library</title>
+        <author>Publius Ovidius Naso</author>
+        <respStmt xml:id="LL-3.12-encoder">
+          <resp>Source collation and first-pass TEI encoding</resp>
+          <name>OpenAI Codex primary agent</name>
+        </respStmt>
+        <respStmt xml:id="LL-3.12-second-reader">
+          <resp>Independent second source collation of every verse against a separate live webpage retrieval</resp>
+          <name>OpenAI Codex independent encode_s agent</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Amores Project working transcription; not a human-approved critical edition.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>The Latin Library: Ovid, Amores III</title>
+          <ref target="https://www.thelatinlibrary.com/ovid/ovid.amor3.shtml">Source web text</ref>
+          <date when="2026-09-09">Accessed 9 September 2026</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Wording, capitalization and punctuation follow the source webpage. HTML entities are decoded and HTML whitespace normalized; couplets and line numbers are editorial. This web text does not carry invented manuscript features or facsimile zones. The site's XIa and XIb are treated as continuous Amores 3.11, while preserving the source division explicitly. Independent second source collation is complete; no verse differences remain. Agent review does not constitute human scholarly approval.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <change when="2026-09-09" who="#LL-3.12-encoder">Collated all 44 verses against a fresh source retrieval and encoded first pass for independent review.</change>
+      <change when="2026-09-09" who="#LL-3.12-second-reader">Independently extracted and compared all 44 verse lines from a fresh live Latin Library retrieval; exact match after HTML entity decoding and whitespace normalization. No textual corrections or human review actions.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <body>
+      <div type="poem" n="3.12" xml:id="LL-3.12-poem">
+        <lg type="couplet">
+          <l n="1" xml:id="LL-3.12-l1">Quis fuit ille dies, quo tristia semper amanti</l>
+          <l n="2" xml:id="LL-3.12-l2" rend="indent">omina non albae concinuistis aves?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="3" xml:id="LL-3.12-l3">quodve putem sidus nostris occurrere fatis,</l>
+          <l n="4" xml:id="LL-3.12-l4" rend="indent">quosve deos in me bella movere querar?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="5" xml:id="LL-3.12-l5">quae modo dicta mea est, quam coepi solus amare,</l>
+          <l n="6" xml:id="LL-3.12-l6" rend="indent">cum multis vereor ne sit habenda mihi.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="7" xml:id="LL-3.12-l7">Fallimur, an nostris innotuit illa libellis?</l>
+          <l n="8" xml:id="LL-3.12-l8" rend="indent">sic erit — ingenio prostitit illa meo.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="9" xml:id="LL-3.12-l9">et merito! quid enim formae praeconia feci?</l>
+          <l n="10" xml:id="LL-3.12-l10" rend="indent">vendibilis culpa facta puella mea est.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="11" xml:id="LL-3.12-l11">me lenone placet, duce me perductus amator,</l>
+          <l n="12" xml:id="LL-3.12-l12" rend="indent">ianua per nostras est adaperta manus.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="13" xml:id="LL-3.12-l13">An prosint, dubium, nocuerunt carmina semper;</l>
+          <l n="14" xml:id="LL-3.12-l14" rend="indent">invidiae nostris illa fuere bonis.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="15" xml:id="LL-3.12-l15">cum Thebae, cum Troia foret, cum Caesaris acta,</l>
+          <l n="16" xml:id="LL-3.12-l16" rend="indent">ingenium movit sola Corinna meum.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="17" xml:id="LL-3.12-l17">aversis utinam tetigissem carmina Musis,</l>
+          <l n="18" xml:id="LL-3.12-l18" rend="indent">Phoebus et inceptum destituisset opus!</l>
+        </lg>
+        <lg type="couplet">
+          <l n="19" xml:id="LL-3.12-l19">Nec tamen ut testes mos est audire poetas;</l>
+          <l n="20" xml:id="LL-3.12-l20" rend="indent">malueram verbis pondus abesse meis.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="21" xml:id="LL-3.12-l21">per nos Scylla patri caros furata capillos</l>
+          <l n="22" xml:id="LL-3.12-l22" rend="indent">pube premit rabidos inguinibusque canes;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="23" xml:id="LL-3.12-l23">nos pedibus pinnas dedimus, nos crinibus angues;</l>
+          <l n="24" xml:id="LL-3.12-l24" rend="indent">victor Abantiades alite fertur equo.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="25" xml:id="LL-3.12-l25">idem per spatium Tityon porreximus ingens,</l>
+          <l n="26" xml:id="LL-3.12-l26" rend="indent">et tria vipereo fecimus ora cani;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="27" xml:id="LL-3.12-l27">fecimus Enceladon iaculantem mille lacertis,</l>
+          <l n="28" xml:id="LL-3.12-l28" rend="indent">ambiguae captos virginis ore viros.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="29" xml:id="LL-3.12-l29">Aeolios Ithacis inclusimus utribus Euros;</l>
+          <l n="30" xml:id="LL-3.12-l30" rend="indent">proditor in medio Tantalus amne sitit.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="31" xml:id="LL-3.12-l31">de Niobe silicem, de virgine fecimus ursam.</l>
+          <l n="32" xml:id="LL-3.12-l32" rend="indent">concinit Odrysium Cecropis ales Ityn;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="33" xml:id="LL-3.12-l33">Iuppiter aut in aves aut se transformat in aurum</l>
+          <l n="34" xml:id="LL-3.12-l34" rend="indent">aut secat inposita virgine taurus aquas.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="35" xml:id="LL-3.12-l35">Protea quid referam Thebanaque semina, dentes;</l>
+          <l n="36" xml:id="LL-3.12-l36" rend="indent">qui vomerent flammas ore, fuisse boves;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="37" xml:id="LL-3.12-l37">flere genis electra tuas, Auriga, sorores;</l>
+          <l n="38" xml:id="LL-3.12-l38" rend="indent">quaeque rates fuerint, nunc maris esse deas;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="39" xml:id="LL-3.12-l39">aversumque diem mensis furialibus Atrei,</l>
+          <l n="40" xml:id="LL-3.12-l40" rend="indent">duraque percussam saxa secuta lyram?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="41" xml:id="LL-3.12-l41">Exit in inmensum fecunda licentia vatum,</l>
+          <l n="42" xml:id="LL-3.12-l42" rend="indent">obligat historica nec sua verba fide.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="43" xml:id="LL-3.12-l43">et mea debuerat falso laudata videri</l>
+          <l n="44" xml:id="LL-3.12-l44" rend="indent">femina; credulitas nunc mihi vestra nocet.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,240 @@
+{
+  "witness": "O",
+  "poem": "3.1",
+  "author_agent": "/root",
+  "reviewer_agent": "/root/encode_p",
+  "reviewer": "OpenAI Codex independent encode_p agent",
+  "date": "2026-09-09",
+  "status": "second-pass-complete",
+  "review_type": "independent-second-agent-image-and-encoding-review",
+  "human_approved": false,
+  "line_coverage": {
+    "count": 70,
+    "ranges": [
+      {
+        "page": "45",
+        "start": 1,
+        "end": 21
+      },
+      {
+        "page": "46",
+        "start": 22,
+        "end": 42
+      },
+      {
+        "page": "46",
+        "start": 47,
+        "end": 48
+      },
+      {
+        "page": "46",
+        "start": 43,
+        "end": 46
+      },
+      {
+        "page": "46",
+        "start": 49,
+        "end": 58
+      },
+      {
+        "page": "47",
+        "start": 59,
+        "end": 70
+      }
+    ],
+    "absent_ranges": []
+  },
+  "line_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    47,
+    48,
+    43,
+    44,
+    45,
+    46,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70
+  ],
+  "previous_review_note_count": 0,
+  "notes": [
+    {
+      "note_id": "O-3.1-note-2",
+      "target": "#O-3.1-l2",
+      "line": 2,
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "45",
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0097.jp2/full/max/0/default.jpg",
+        "local_image": "/tmp/amores-o-corpus/93.jpg",
+        "assessment": "Credibilest is clearly printed as one contracted word."
+      },
+      "change": "Confirmed by independent source inspection."
+    },
+    {
+      "note_id": "O-3.1-note-7",
+      "target": "#O-3.1-l7",
+      "line": 7,
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "45",
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0097.jp2/full/max/0/default.jpg",
+        "local_image": "/tmp/amores-o-corpus/93.jpg",
+        "assessment": "The printed spelling is Elegeia; all letters are distinct."
+      },
+      "change": "Confirmed by independent source inspection; note made source-specific."
+    },
+    {
+      "note_id": "O-3.1-note-26",
+      "target": "#O-3.1-l26",
+      "line": 26,
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "46",
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0098.jp2/full/max/0/default.jpg",
+        "local_image": "/tmp/amores-o-corpus/94.jpg",
+        "assessment": "The printed contraction is meost, with no space or separately supplied est."
+      },
+      "change": "Confirmed by independent source inspection."
+    },
+    {
+      "note_id": "O-3.1-note-47",
+      "target": "#O-3.1-l47",
+      "line": 47,
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "46",
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0098.jp2/full/max/0/default.jpg",
+        "local_image": "/tmp/amores-o-corpus/94.jpg",
+        "assessment": "Printed marginal numbers and the physical sequence show 47–48 following42 and preceding43–46; XML order is retained."
+      },
+      "change": "Confirmed by independent source inspection."
+    },
+    {
+      "note_id": "O-3.1-note-53",
+      "target": "#O-3.1-l53",
+      "line": 53,
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "46",
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0098.jp2/full/max/0/default.jpg",
+        "local_image": "/tmp/amores-o-corpus/94.jpg",
+        "assessment": "The scan clearly prints Vel quotiens foribus duris inlisa pependi, including Vel and inlisa."
+      },
+      "change": "Confirmed by independent source inspection; note made source-specific."
+    },
+    {
+      "note_id": "O-3.1-note-56",
+      "target": "#O-3.1-l56",
+      "line": 56,
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "46",
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0098.jp2/full/max/0/default.jpg",
+        "local_image": "/tmp/amores-o-corpus/94.jpg",
+        "assessment": "The printed form is missam, with the double s distinct; no correction is warranted."
+      },
+      "change": "Confirmed by independent source inspection; note made source-specific."
+    },
+    {
+      "note_id": "O-3.1-note-68",
+      "target": "#O-3.1-l68",
+      "line": 68,
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "47",
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0099.jp2/full/max/0/default.jpg",
+        "local_image": "/tmp/amores-o-corpus/95.jpg",
+        "assessment": "The final contracted form is brevest followed by the printed stop and closing quote."
+      },
+      "change": "Confirmed by independent source inspection."
+    }
+  ],
+  "counts": {
+    "resolved": 7,
+    "documented-uncertainty": 0,
+    "escalate": 0
+  },
+  "humanActions": [],
+  "validation": {
+    "rng": "tei_all-4.12.0.rng",
+    "passed": true,
+    "extantLineCount": 70,
+    "zoneCount": 70,
+    "resolved_facs_links": 70,
+    "source_order_preserved": true,
+    "verse_text_unchanged": true,
+    "coordinate_rectangles_unchanged": true,
+    "humanReviewNotes": 0
+  },
+  "first_pass_sha256": "34bf1ceecd37f9ab2dd3fd6c6c70836d700b15bbb62484c17fc2ab88af337db8",
+  "reviewed_candidate_sha256": "45794e148d1517eba1c9e57e09d5e390213413af75da0e7769dd505adbfeab76",
+  "review_report_sha256": "8a324d5b87c61aa4812c93581c333014ad60178a36f3c687d64051448271c84c"
+}
