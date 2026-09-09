@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="LL" xml:id="LL-3.6">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title>Ovid, Amores 3.6 — The Latin Library</title>
+        <author>Publius Ovidius Naso</author>
+        <respStmt xml:id="LL-3.6-encoder">
+          <resp>Source collation and first-pass TEI encoding</resp>
+          <name>OpenAI Codex primary agent</name>
+        </respStmt>
+        <respStmt xml:id="LL-3.6-second-reader">
+          <resp>Independent second source collation of every verse against a separate live webpage retrieval</resp>
+          <name>OpenAI Codex independent encode_s agent</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Amores Project working transcription; not a human-approved critical edition.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>The Latin Library: Ovid, Amores III</title>
+          <ref target="https://www.thelatinlibrary.com/ovid/ovid.amor3.shtml">Source web text</ref>
+          <date when="2026-09-09">Accessed 9 September 2026</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Wording, capitalization and punctuation follow the source webpage. HTML entities are decoded and HTML whitespace normalized; couplets and line numbers are editorial. This web text does not carry invented manuscript features or facsimile zones. The site's XIa and XIb are treated as continuous Amores 3.11, while preserving the source division explicitly. Independent second source collation is complete; no verse differences remain. Agent review does not constitute human scholarly approval.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <change when="2026-09-09" who="#LL-3.6-encoder">Collated all 106 verses against a fresh source retrieval and encoded first pass for independent review.</change>
+      <change when="2026-09-09" who="#LL-3.6-second-reader">Independently extracted and compared all 106 verse lines from a fresh live Latin Library retrieval; exact match after HTML entity decoding and whitespace normalization. No textual corrections or human review actions.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <body>
+      <div type="poem" n="3.6" xml:id="LL-3.6-poem">
+        <lg type="couplet">
+          <l n="1" xml:id="LL-3.6-l1">Amnis harundinibus limosas obsite ripas,</l>
+          <l n="2" xml:id="LL-3.6-l2" rend="indent">ad dominam propero — siste parumper aquas!</l>
+        </lg>
+        <lg type="couplet">
+          <l n="3" xml:id="LL-3.6-l3">nec tibi sunt pontes nec quae sine remigis ictu</l>
+          <l n="4" xml:id="LL-3.6-l4" rend="indent">concava traiecto cumba rudente vehat.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="5" xml:id="LL-3.6-l5">parvus eras, memini, nec te transire refugi,</l>
+          <l n="6" xml:id="LL-3.6-l6" rend="indent">summaque vix talos contigit unda meos.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="7" xml:id="LL-3.6-l7">nunc ruis adposito nivibus de monte solutis</l>
+          <l n="8" xml:id="LL-3.6-l8" rend="indent">et turpi crassas gurgite volvis aquas.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="9" xml:id="LL-3.6-l9">quid properasse iuvat, quid parca dedisse quieti</l>
+          <l n="10" xml:id="LL-3.6-l10" rend="indent">tempora, quid nocti conseruisse diem,</l>
+        </lg>
+        <lg type="couplet">
+          <l n="11" xml:id="LL-3.6-l11">si tamen hic standum est, si non datur artibus ullis</l>
+          <l n="12" xml:id="LL-3.6-l12" rend="indent">ulterior nostro ripa premenda pedi?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="13" xml:id="LL-3.6-l13">nunc ego, quas habuit pinnas Danaeius heros,</l>
+          <l n="14" xml:id="LL-3.6-l14" rend="indent">terribili densum cum tulit angue caput,</l>
+        </lg>
+        <lg type="couplet">
+          <l n="15" xml:id="LL-3.6-l15">nunc opto currum, de quo Cerealia primum</l>
+          <l n="16" xml:id="LL-3.6-l16" rend="indent">semina venerunt in rude missa solum.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="17" xml:id="LL-3.6-l17">prodigiosa loquor veterum mendacia vatum;</l>
+          <l n="18" xml:id="LL-3.6-l18" rend="indent">nec tulit haec umquam nec feret ulla dies.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="19" xml:id="LL-3.6-l19">Tu potius, ripis effuse capacibus amnis —</l>
+          <l n="20" xml:id="LL-3.6-l20" rend="indent">sic aeternus eas — labere fine tuo!</l>
+        </lg>
+        <lg type="couplet">
+          <l n="21" xml:id="LL-3.6-l21">non eris invidiae, torrens, mihi crede, ferendae,</l>
+          <l n="22" xml:id="LL-3.6-l22" rend="indent">si dicar per te forte retentus amans.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="23" xml:id="LL-3.6-l23">flumina deberent iuvenes in amore iuvare;</l>
+          <l n="24" xml:id="LL-3.6-l24" rend="indent">flumina senserunt ipsa, quid esset amor.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="25" xml:id="LL-3.6-l25">Inachus in Melie Bithynide pallidus isse</l>
+          <l n="26" xml:id="LL-3.6-l26" rend="indent">dicitur et gelidis incaluisse vadis.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="27" xml:id="LL-3.6-l27">nondum Troia fuit lustris obsessa duobus,</l>
+          <l n="28" xml:id="LL-3.6-l28" rend="indent">cum rapuit vultus, Xanthe, Neaera tuos.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="29" xml:id="LL-3.6-l29">quid? non Alpheon diversis currere terris</l>
+          <l n="30" xml:id="LL-3.6-l30" rend="indent">virginis Arcadiae certus adegit amor?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="31" xml:id="LL-3.6-l31">te quoque promissam Xutho, Penee, Creusam</l>
+          <l n="32" xml:id="LL-3.6-l32" rend="indent">Pthiotum terris occuluisse ferunt.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="33" xml:id="LL-3.6-l33">quid referam Asopon, quem cepit Martia Thebe,</l>
+          <l n="34" xml:id="LL-3.6-l34" rend="indent">natarum Thebe quinque futura parens?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="35" xml:id="LL-3.6-l35">cornua si tua nunc ubi sint, Acheloe, requiram,</l>
+          <l n="36" xml:id="LL-3.6-l36" rend="indent">Herculis irata fracta querere manu;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="37" xml:id="LL-3.6-l37">nec tanti Calydon nec tota Aetolia tanti,</l>
+          <l n="38" xml:id="LL-3.6-l38" rend="indent">una tamen tanti Deianira fuit.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="39" xml:id="LL-3.6-l39">ille fluens dives septena per ostia Nilus,</l>
+          <l n="40" xml:id="LL-3.6-l40" rend="indent">qui patriam tantae tam bene celat aquae,</l>
+        </lg>
+        <lg type="couplet">
+          <l n="41" xml:id="LL-3.6-l41">fertur in Euanthe collectam Asopide flammam</l>
+          <l n="42" xml:id="LL-3.6-l42" rend="indent">vincere gurgitibus non potuisse suis.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="43" xml:id="LL-3.6-l43">siccus ut amplecti Salmonida posset Enipeus,</l>
+          <l n="44" xml:id="LL-3.6-l44" rend="indent">cedere iussit aquam; iussa recessit aqua.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="45" xml:id="LL-3.6-l45">Nec te praetereo, qui per cava saxa volutans</l>
+          <l n="46" xml:id="LL-3.6-l46" rend="indent">Tiburis Argei pomifera arva rigas,</l>
+        </lg>
+        <lg type="couplet">
+          <l n="47" xml:id="LL-3.6-l47">Ilia cui placuit, quamvis erat horrida cultu,</l>
+          <l n="48" xml:id="LL-3.6-l48" rend="indent">ungue notata comas, ungue notata genas.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="49" xml:id="LL-3.6-l49">illa gemens patruique nefas delictaque Martis</l>
+          <l n="50" xml:id="LL-3.6-l50" rend="indent">errabat nudo per loca sola pede.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="51" xml:id="LL-3.6-l51">hanc Anien rapidis animosus vidit ab undis</l>
+          <l n="52" xml:id="LL-3.6-l52" rend="indent">raucaque de mediis sustulit ora vadis</l>
+        </lg>
+        <lg type="couplet">
+          <l n="53" xml:id="LL-3.6-l53">atque ita 'quid nostras' dixit 'teris anxia ripas,</l>
+          <l n="54" xml:id="LL-3.6-l54" rend="indent">Ilia, ab Idaeo Laumedonte genus?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="55" xml:id="LL-3.6-l55">quo cultus abiere tui? quid sola vagaris,</l>
+          <l n="56" xml:id="LL-3.6-l56" rend="indent">vitta nec evinctas inpedit alba comas?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="57" xml:id="LL-3.6-l57">quid fles et madidos lacrimis corrumpis ocellos</l>
+          <l n="58" xml:id="LL-3.6-l58" rend="indent">pectoraque insana plangis aperta manu?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="59" xml:id="LL-3.6-l59">ille habet et silices et vivum in pectore ferrum,</l>
+          <l n="60" xml:id="LL-3.6-l60" rend="indent">qui tenero lacrimas lentus in ore videt.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="61" xml:id="LL-3.6-l61">Ilia, pone metus! tibi regia nostra patebit,</l>
+          <l n="62" xml:id="LL-3.6-l62" rend="indent">teque colent amnes. Ilia, pone metus!</l>
+        </lg>
+        <lg type="couplet">
+          <l n="63" xml:id="LL-3.6-l63">tu centum aut plures inter dominabere nymphas;</l>
+          <l n="64" xml:id="LL-3.6-l64" rend="indent">nam centum aut plures flumina nostra tenent.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="65" xml:id="LL-3.6-l65">ne me sperne, precor, tantum, Troiana propago;</l>
+          <l n="66" xml:id="LL-3.6-l66" rend="indent">munera promissis uberiora feres.'</l>
+        </lg>
+        <lg type="couplet">
+          <l n="67" xml:id="LL-3.6-l67">Dixerat. illa oculos in humum deiecta modestos</l>
+          <l n="68" xml:id="LL-3.6-l68" rend="indent">spargebat teneros flebilis imbre sinus.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="69" xml:id="LL-3.6-l69">ter molita fugam ter ad altas restitit undas,</l>
+          <l n="70" xml:id="LL-3.6-l70" rend="indent">currendi vires eripiente metu.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="71" xml:id="LL-3.6-l71">sera tamen scindens inimico pollice crinem</l>
+          <l n="72" xml:id="LL-3.6-l72" rend="indent">edidit indignos ore tremente sonos:</l>
+        </lg>
+        <lg type="couplet">
+          <l n="73" xml:id="LL-3.6-l73">'o utinam mea lecta forent patrioque sepulcro</l>
+          <l n="74" xml:id="LL-3.6-l74" rend="indent">condita, cum poterant virginis ossa legi!</l>
+        </lg>
+        <lg type="couplet">
+          <l n="75" xml:id="LL-3.6-l75">cur, modo Vestalis, taedas invitor ad ullas</l>
+          <l n="76" xml:id="LL-3.6-l76" rend="indent">turpis et Iliacis infitianda focis?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="77" xml:id="LL-3.6-l77">quid moror et digitis designor adultera vulgi?</l>
+          <l n="78" xml:id="LL-3.6-l78" rend="indent">desint famosus quae notet ora pudor!'</l>
+        </lg>
+        <lg type="couplet">
+          <l n="79" xml:id="LL-3.6-l79">Hactenus, et vestem tumidis praetendit ocellis</l>
+          <l n="80" xml:id="LL-3.6-l80" rend="indent">atque ita se in rapidas perdita misit aquas.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="81" xml:id="LL-3.6-l81">supposuisse manus ad pectora lubricus amnis</l>
+          <l n="82" xml:id="LL-3.6-l82" rend="indent">dicitur et socii iura dedisse tori.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="83" xml:id="LL-3.6-l83">Te quoque credibile est aliqua caluisse puella;</l>
+          <l n="84" xml:id="LL-3.6-l84" rend="indent">sed nemora et silvae crimina vestra tegunt.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="85" xml:id="LL-3.6-l85">dum loquor, increvit latis spatiosior undis,</l>
+          <l n="86" xml:id="LL-3.6-l86" rend="indent">nec capit admissas alveus altus aquas.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="87" xml:id="LL-3.6-l87">quid mecum, furiose, tibi? quid mutua differs</l>
+          <l n="88" xml:id="LL-3.6-l88" rend="indent">gaudia? quid coeptum, rustice, rumpis iter?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="89" xml:id="LL-3.6-l89">quid? si legitimum flueres, si nobile flumen,</l>
+          <l n="90" xml:id="LL-3.6-l90" rend="indent">si tibi per terras maxima fama foret —</l>
+        </lg>
+        <lg type="couplet">
+          <l n="91" xml:id="LL-3.6-l91">nomen habes nullum, rivis collecte caducis,</l>
+          <l n="92" xml:id="LL-3.6-l92" rend="indent">nec tibi sunt fontes nec tibi certa domus!</l>
+        </lg>
+        <lg type="couplet">
+          <l n="93" xml:id="LL-3.6-l93">fontis habes instar pluviamque nivesque solutas,</l>
+          <l n="94" xml:id="LL-3.6-l94" rend="indent">quas tibi divitias pigra ministrat hiemps;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="95" xml:id="LL-3.6-l95">aut lutulentus agis brumali tempore cursus,</l>
+          <l n="96" xml:id="LL-3.6-l96" rend="indent">aut premis arentem pulverulentus humum.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="97" xml:id="LL-3.6-l97">quis te tum potuit sitiens haurire viator?</l>
+          <l n="98" xml:id="LL-3.6-l98" rend="indent">quis dixit grata voce 'perennis eas'?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="99" xml:id="LL-3.6-l99">damnosus pecori curris, damnosior agris.</l>
+          <l n="100" xml:id="LL-3.6-l100" rend="indent">forsitan haec alios; me mea damna movent.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="101" xml:id="LL-3.6-l101">Huic ego, vae! demens narrabam fluminum amores!</l>
+          <l n="102" xml:id="LL-3.6-l102" rend="indent">iactasse indigne nomina tanta pudet.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="103" xml:id="LL-3.6-l103">nescio quem hunc spectans Acheloon et Inachon amnem</l>
+          <l n="104" xml:id="LL-3.6-l104" rend="indent">et potui nomen, Nile, referre tuum!</l>
+        </lg>
+        <lg type="couplet">
+          <l n="105" xml:id="LL-3.6-l105">at tibi pro meritis, opto, non candide torrens,</l>
+          <l n="106" xml:id="LL-3.6-l106" rend="indent">sint rapidi soles siccaque semper hiemps!</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

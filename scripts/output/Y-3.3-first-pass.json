@@ -1,0 +1,172 @@
+{
+  "witness": "Y",
+  "poem": "3.3",
+  "date": "2026-09-09",
+  "stage": "first-pass",
+  "independently_reviewed": false,
+  "human_approved": false,
+  "coverage": [
+    {
+      "page": 123,
+      "folio": "60r",
+      "start": 1,
+      "end": 32,
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0123/full/full/0/default.jpg"
+    },
+    {
+      "page": 124,
+      "folio": "60v",
+      "start": 33,
+      "end": 48,
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0124/full/full/0/default.jpg"
+    }
+  ],
+  "line_count": 48,
+  "annotation_policy": "All duplicate rows have identical page/x/y/width/height. Select first row per line. witness=Y, sourceWitness=LL and panelId=viewer-panel are annotation provenance only; no LL text was read. Original annotations unchanged.",
+  "notes": [
+    {
+      "note_id": "Y-3.3-note-1",
+      "line": 1,
+      "type": "uncertainty",
+      "evidence": "An enlarged decorated E opens the poem. Above baseline hic crede, the dark annotation reads credam ne. Both remain visible; no cancellation of the baseline or assigned historical hand is asserted."
+    },
+    {
+      "note_id": "Y-3.3-note-2",
+      "line": 2,
+      "type": "observation",
+      "evidence": "Selected et signs in manet, habet and other verbal endings are represented with a declared schematic glyph and explicit expansions. The source spelling que is retained."
+    },
+    {
+      "note_id": "Y-3.3-note-5",
+      "line": 5,
+      "type": "uncertainty",
+      "evidence": "The baseline reads robore, with a small u-like pair of strokes above its first vowel. This is retained as an uncertain manuscript annotation rather than silently replacing the word."
+    },
+    {
+      "note_id": "Y-3.3-note-7",
+      "line": 7,
+      "type": "observation",
+      "evidence": "S in Pes and final us of exiguus are dark. The source reads artissima; no grammatical or cross-witness replacement is made."
+    },
+    {
+      "note_id": "Y-3.3-note-8",
+      "line": 8,
+      "type": "observation",
+      "evidence": "The end of manet is distinctly dark. It is not treated as a recoverable erased state."
+    },
+    {
+      "note_id": "Y-3.3-note-9",
+      "line": 9,
+      "type": "observation",
+      "evidence": "The o of argutos is darker than surrounding letters."
+    },
+    {
+      "note_id": "Y-3.3-note-11",
+      "line": 11,
+      "type": "uncertainty",
+      "evidence": "The final vowel of aeterno is dark and compact, provisionally o. Its earlier state cannot be inferred."
+    },
+    {
+      "note_id": "Y-3.3-note-14",
+      "line": 14,
+      "type": "uncertainty",
+      "evidence": "En stands above the et sign after oculos. No secure cancellation is visible, so it remains a manuscript annotation rather than an asserted substitution."
+    },
+    {
+      "note_id": "Y-3.3-note-17",
+      "line": 17,
+      "type": "observation",
+      "evidence": "The source begins At non and writes cepheia. These readings are retained without normalization."
+    },
+    {
+      "note_id": "Y-3.3-note-20",
+      "line": 20,
+      "type": "observation",
+      "evidence": "The final s of lusos is dark; no hand or erased text is assigned."
+    },
+    {
+      "note_id": "Y-3.3-note-23",
+      "line": 23,
+      "type": "observation",
+      "evidence": "The et sign after est has cancelling points below and is encoded as an underdotted deletion. The e of sine is dark. A separate long curved marginal stroke spans this region, with small marks at its upper end; its function remains unknown and its type shape is schematic."
+    },
+    {
+      "note_id": "Y-3.3-note-25",
+      "line": 25,
+      "type": "observation",
+      "evidence": "A repeated ama after ille is underdotted and is recorded as a deletion. The preceding amat remains as written."
+    },
+    {
+      "note_id": "Y-3.3-note-28",
+      "line": 28,
+      "type": "observation",
+      "evidence": "The source writes asta. Small high strokes nearby are not converted into an unverified initial h."
+    },
+    {
+      "note_id": "Y-3.3-note-29",
+      "line": 29,
+      "type": "uncertainty",
+      "evidence": "A small i stands above the flexibles group, interpreted as completing flexibiles. Its precise relation to the tightly spaced baseline letters should be checked by the independent reader; no cancelled baseline is asserted."
+    },
+    {
+      "note_id": "Y-3.3-note-30",
+      "line": 30,
+      "type": "observation",
+      "evidence": "A parchment hole interrupts the space after In nos and also affects the following line. The writing is placed around it; the encoded space is approximate and no missing word is supplied."
+    },
+    {
+      "note_id": "Y-3.3-note-31",
+      "line": 31,
+      "type": "review",
+      "evidence": "Before the parchment hole the n of Formon is underdotted and crossed by a short horizontal stroke. After the hole a short stroke precedes sa and a dark s-like shape. The provisional encoding retains the cancellation, hole spacing and uncertain darker final shape without inventing lost letters. The exact relationship of the latter strokes and the resulting word needs the independent reader to inspect closely."
+    },
+    {
+      "note_id": "Y-3.3-note-33",
+      "line": 33,
+      "type": "uncertainty",
+      "evidence": "The opening group after quisquam reads provisionally piatur, followed by a sign shaped like et and then focis. The unusual sequence is retained; the word division and last letter of piatur are locally uncertain rather than regularized from another witness."
+    },
+    {
+      "note_id": "Y-3.3-note-35",
+      "line": 35,
+      "type": "observation",
+      "evidence": "The uc area in lucos is darker."
+    },
+    {
+      "note_id": "Y-3.3-note-36",
+      "line": 36,
+      "type": "observation",
+      "evidence": "The source has periuras; its final s is darker. No change to another inflection is made."
+    },
+    {
+      "note_id": "Y-3.3-note-37",
+      "line": 37,
+      "type": "observation",
+      "evidence": "The r of meruere is dark."
+    },
+    {
+      "note_id": "Y-3.3-note-39",
+      "line": 39,
+      "type": "observation",
+      "evidence": "The ending set of subduxisset is darker; no deleted predecessor is reconstructed."
+    },
+    {
+      "note_id": "Y-3.3-note-40",
+      "line": 40,
+      "type": "observation",
+      "evidence": "The terminal et sign in haberet is dark and encoded with the declared glyph."
+    },
+    {
+      "note_id": "Y-3.3-note-46",
+      "line": 46,
+      "type": "observation",
+      "evidence": "The first te in tetricis is darker. The source reads Et non de tetricis."
+    },
+    {
+      "note_id": "Y-3.3-note-48",
+      "line": 48,
+      "type": "uncertainty",
+      "evidence": "Two points and a sweeping terminal flourish follow meis before the next poem. The flourish is a schematic metamark with unknown function, not a reconstructed word."
+    }
+  ]
+}

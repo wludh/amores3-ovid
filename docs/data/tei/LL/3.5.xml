@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="LL" xml:id="LL-3.5">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title>Ovid, Amores 3.5 — The Latin Library</title>
+        <author>Publius Ovidius Naso</author>
+        <respStmt xml:id="LL-3.5-encoder">
+          <resp>Source collation and first-pass TEI encoding</resp>
+          <name>OpenAI Codex primary agent</name>
+        </respStmt>
+        <respStmt xml:id="LL-3.5-second-reader">
+          <resp>Independent second source collation of every verse against a separate live webpage retrieval</resp>
+          <name>OpenAI Codex independent encode_s agent</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Amores Project working transcription; not a human-approved critical edition.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>The Latin Library: Ovid, Amores III</title>
+          <ref target="https://www.thelatinlibrary.com/ovid/ovid.amor3.shtml">Source web text</ref>
+          <date when="2026-09-09">Accessed 9 September 2026</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Wording, capitalization and punctuation follow the source webpage. HTML entities are decoded and HTML whitespace normalized; couplets and line numbers are editorial. This web text does not carry invented manuscript features or facsimile zones. The site's XIa and XIb are treated as continuous Amores 3.11, while preserving the source division explicitly. Independent second source collation is complete; no verse differences remain. Agent review does not constitute human scholarly approval.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <change when="2026-09-09" who="#LL-3.5-encoder">Collated all 46 verses against a fresh source retrieval and encoded first pass for independent review.</change>
+      <change when="2026-09-09" who="#LL-3.5-second-reader">Independently extracted and compared all 46 verse lines from a fresh live Latin Library retrieval; exact match after HTML entity decoding and whitespace normalization. No textual corrections or human review actions.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <body>
+      <div type="poem" n="3.5" xml:id="LL-3.5-poem">
+        <lg type="couplet">
+          <l n="1" xml:id="LL-3.5-l1">'Nox erat, et somnus lassos submisit ocellos;</l>
+          <l n="2" xml:id="LL-3.5-l2" rend="indent">terruerunt animum talia visa meum:</l>
+        </lg>
+        <lg type="couplet">
+          <l n="3" xml:id="LL-3.5-l3">Colle sub aprico creberrimus ilice lucus</l>
+          <l n="4" xml:id="LL-3.5-l4" rend="indent">stabat, et in ramis multa latebat avis.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="5" xml:id="LL-3.5-l5">area gramineo suberat viridissima prato,</l>
+          <l n="6" xml:id="LL-3.5-l6" rend="indent">umida de guttis lene sonantis aquae.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="7" xml:id="LL-3.5-l7">ipse sub arboreis vitabam frondibus aestum —</l>
+          <l n="8" xml:id="LL-3.5-l8" rend="indent">fronde sub arborea sed tamen aestus erat —</l>
+        </lg>
+        <lg type="couplet">
+          <l n="9" xml:id="LL-3.5-l9">ecce! petens variis inmixtas floribus herbas</l>
+          <l n="10" xml:id="LL-3.5-l10" rend="indent">constitit ante oculos candida vacca meos,</l>
+        </lg>
+        <lg type="couplet">
+          <l n="11" xml:id="LL-3.5-l11">candidior nivibus, tunc cum cecidere recentes,</l>
+          <l n="12" xml:id="LL-3.5-l12" rend="indent">in liquidas nondum quas mora vertit aquas;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="13" xml:id="LL-3.5-l13">candidior, quod adhuc spumis stridentibus albet</l>
+          <l n="14" xml:id="LL-3.5-l14" rend="indent">et modo siccatam, lacte, reliquit ovem.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="15" xml:id="LL-3.5-l15">taurus erat comes huic, feliciter ille maritus,</l>
+          <l n="16" xml:id="LL-3.5-l16" rend="indent">cumque sua teneram coniuge pressit humum.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="17" xml:id="LL-3.5-l17">Dum iacet et lente revocatas ruminat herbas</l>
+          <l n="18" xml:id="LL-3.5-l18" rend="indent">atque iterum pasto pascitur ante cibo,</l>
+        </lg>
+        <lg type="couplet">
+          <l n="19" xml:id="LL-3.5-l19">visus erat, somno vires adimente ferendi,</l>
+          <l n="20" xml:id="LL-3.5-l20" rend="indent">cornigerum terra deposuisse caput.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="21" xml:id="LL-3.5-l21">huc levibus cornix pinnis delapsa per auras</l>
+          <l n="22" xml:id="LL-3.5-l22" rend="indent">venit et in viridi garrula sedit humo,</l>
+        </lg>
+        <lg type="couplet">
+          <l n="23" xml:id="LL-3.5-l23">terque bovis niveae petulanti pectora rostro</l>
+          <l n="24" xml:id="LL-3.5-l24" rend="indent">fodit et albentis abstulit ore iubas.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="25" xml:id="LL-3.5-l25">illa locum taurumque diu cunctata relinquit —</l>
+          <l n="26" xml:id="LL-3.5-l26" rend="indent">sed niger in vaccae pectore livor erat;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="27" xml:id="LL-3.5-l27">utque procul vidit carpentes pabula tauros —</l>
+          <l n="28" xml:id="LL-3.5-l28" rend="indent">carpebant tauri pabula laeta procul —</l>
+        </lg>
+        <lg type="couplet">
+          <l n="29" xml:id="LL-3.5-l29">illuc se rapuit gregibusque inmiscuit illis</l>
+          <l n="30" xml:id="LL-3.5-l30" rend="indent">et petiit herbae fertilioris humum.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="31" xml:id="LL-3.5-l31">Dic age, nocturnae, quicumque es, imaginis augur,</l>
+          <l n="32" xml:id="LL-3.5-l32" rend="indent">siquid habent veri, visa quid ista ferant.'</l>
+        </lg>
+        <lg type="couplet">
+          <l n="33" xml:id="LL-3.5-l33">Sic ego; nocturnae sic dixit imaginis augur,</l>
+          <l n="34" xml:id="LL-3.5-l34" rend="indent">expendens animo singula dicta suo:</l>
+        </lg>
+        <lg type="couplet">
+          <l n="35" xml:id="LL-3.5-l35">'Quem tu mobilibus foliis vitare volebas,</l>
+          <l n="36" xml:id="LL-3.5-l36" rend="indent">sed male vitabas, aestus amoris erat.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="37" xml:id="LL-3.5-l37">vacca puella tua est — aptus color ille puellae;</l>
+          <l n="38" xml:id="LL-3.5-l38" rend="indent">tu vir et in vacca conpare taurus eras.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="39" xml:id="LL-3.5-l39">pectora quod rostro cornix fodiebat acuto,</l>
+          <l n="40" xml:id="LL-3.5-l40" rend="indent">ingenium dominae lena movebat anus.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="41" xml:id="LL-3.5-l41">quod cunctata diu taurum sua vacca reliquit,</l>
+          <l n="42" xml:id="LL-3.5-l42" rend="indent">frigidus in viduo destituere toro.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="43" xml:id="LL-3.5-l43">livor et adverso maculae sub pectore nigrae</l>
+          <l n="44" xml:id="LL-3.5-l44" rend="indent">pectus adulterii labe carere negant.'</l>
+        </lg>
+        <lg type="couplet">
+          <l n="45" xml:id="LL-3.5-l45">Dixerat interpres. gelido mihi sanguis ab ore</l>
+          <l n="46" xml:id="LL-3.5-l46" rend="indent">fugit, et ante oculos nox stetit alta meos.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

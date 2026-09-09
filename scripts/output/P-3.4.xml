@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../docs/schema/tei_all-4.12.0.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="P" xml:id="P">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title>Ovid, Amores 3.4: witness P — independently reviewed manuscript transcription</title>
+        <author>Publius Ovidius Naso</author>
+        <respStmt xml:id="P-3.4-encoder">
+          <resp>First-pass image transcription and TEI encoding</resp>
+          <name>OpenAI Codex</name>
+        </respStmt>
+      <respStmt xml:id="P-3.4-reviewer"><resp>Independent second-agent reading of every extant source verse and evidence note; not human approval</resp><name>OpenAI Codex, review_y agent</name></respStmt></titleStmt>
+      <publicationStmt>
+        <p>Amores Project local working transcription, 9 September 2026. Draft; not a scholarly approved edition.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="P-3.4-manuscript">
+          <msIdentifier>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France, Département des Manuscrits</repository>
+            <idno>Latin 8242</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus>Gallica digital images 87, 88; left/right positions identify physical pages in the photographed openings, not asserted medieval foliation.</locus>
+              <title>Amores 3.4</title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <handDesc>
+              <handNote>Main text and any darker interventions are distinguished where observed. No individual historical correcting hands are inferred from tonal contrast in monochrome photographs.</handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <p>The supplied BnF IIIF manifest dates the manuscript to 1001–1100. The catalogue dating is not a date assigned to individual interventions.</p>
+            </origin>
+          </history>
+          <additional>
+            <surrogates>
+              <p><ref target="https://gallica.bnf.fr/ark:/12148/btv1b9066797j">BnF Gallica Latin 8242</ref></p>
+              <p>The original full-resolution digital images and enlarged crops were inspected for this first pass. Gallica source reuse conditions apply. No text was populated from LL or another witness.</p>
+            </surrogates>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Source-grounded first reading of all 48 annotated verse positions, with manuscript-specific spellings and observed interventions. A different agent subsequently inspected all source verses and every evidence note; see revision record and second-pass ledger.</p>
+      </projectDesc>
+      <editorialDecl>
+        <correction>
+          <p>No silent emendation from an edition or another witness. Local uncertain letters use unclear, irrecoverable text or signs use gap. Observed above-line letters use add. Tonal distinctions use hi without an invented underlying erased text or historical hand. Manuscript annotations use note type manuscript, distinct from editorial evidence notes.</p>
+        </correction>
+        <normalization>
+          <p>One source-oriented display. Ordinary allographs, long s, and capitals are represented in legible Latin types. Word boundaries are editorially segmented; no indentation whitespace is inserted inside verse mixed content. Selected ligatures and abbreviation signs are declared typographic approximations; explicit expansions remain in TEI rather than a separate reading mode. This is not a facsimile-perfect inventory of every minute stroke.</p>
+        </normalization>
+        <punctuation>
+          <p>Significant observed punctuation is retained schematically, without adding systematic modern sentence punctuation.</p>
+        </punctuation>
+        <segmentation>
+          <p>Each l represents a verse and physical written line at its canonical poem position. Elegiac couplets and even-line indentation are editorial display grouping. Page breaks follow the photographed left/right physical pages. Facsimile zones reproduce the existing annotation rectangles unchanged; they may include neighbouring ink and exclude marginal annotations.</p>
+        </segmentation>
+        <interpretation>
+          <p>First-pass evidence notes are a working queue for an independent agent, not assignments for the human editor. Genuine source uncertainty remains local; consequential unresolved interpretation is distinguished from ordinary observation.</p>
+        </interpretation>
+      </editorialDecl>
+      <charDecl>
+        <char xml:id="P-3.4-et">
+          <desc>ET LIGATURE, SCHEMATIC TYPE REPRESENTATION</desc>
+          <mapping type="display">&amp;</mapping>
+          <mapping type="expansion">et</mapping>
+        </char>
+      </charDecl>
+    </encodingDesc>
+    <revisionDesc status="independently-reviewed"><change when="2026-09-09" who="#P-3.4-reviewer">Independent second-agent source review of all 48 verses and every editorial note. Qualified the first iliades at40, retaining other conservative first-pass readings after direct inspection. Extensively faded lines, especially36, remain provisional; no erased text or alternative-witness wording is supplied. No human approval is implied.</change>
+      <change when="2026-09-09" who="#P-3.4-encoder">Completed first reading from source images and enlarged crops, with line coverage and evidence notes. Independent second reading not yet performed.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="image 87" xml:id="P-3.4-image-87" ulx="0" uly="0" lrx="5815" lry="3969">
+      <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f87/full/full/0/native.jpg" />
+      <zone xml:id="P-3.4-zone-1" ulx="2897" uly="2037" lrx="5284" lry="2423" />
+      <zone xml:id="P-3.4-zone-2" ulx="2892" uly="2139" lrx="4506" lry="2375" />
+      <zone xml:id="P-3.4-zone-3" ulx="2899" uly="2250" lrx="4697" lry="2498" />
+      <zone xml:id="P-3.4-zone-4" ulx="2897" uly="2366" lrx="4487" lry="2580" />
+      <zone xml:id="P-3.4-zone-5" ulx="2869" uly="2477" lrx="4694" lry="2668" />
+      <zone xml:id="P-3.4-zone-6" ulx="2910" uly="2575" lrx="4293" lry="2795" />
+      <zone xml:id="P-3.4-zone-7" ulx="2883" uly="2680" lrx="4665" lry="2944" />
+      <zone xml:id="P-3.4-zone-8" ulx="2880" uly="2755" lrx="4316" lry="3001" />
+      <zone xml:id="P-3.4-zone-9" ulx="2873" uly="2885" lrx="4594" lry="3090" />
+      <zone xml:id="P-3.4-zone-10" ulx="2880" uly="2980" lrx="4430" lry="3198" />
+      <zone xml:id="P-3.4-zone-11" ulx="2894" uly="3080" lrx="4495" lry="3307" />
+      <zone xml:id="P-3.4-zone-12" ulx="2893" uly="3183" lrx="4219" lry="3412" />
+    </surface>
+    <surface n="image 88" xml:id="P-3.4-image-88" ulx="0" uly="0" lrx="5814" lry="3969">
+      <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f88/full/full/0/native.jpg" />
+      <zone xml:id="P-3.4-zone-13" ulx="645" uly="351" lrx="2190" lry="574" />
+      <zone xml:id="P-3.4-zone-14" ulx="632" uly="423" lrx="2030" lry="708" />
+      <zone xml:id="P-3.4-zone-15" ulx="650" uly="565" lrx="2419" lry="788" />
+      <zone xml:id="P-3.4-zone-16" ulx="638" uly="664" lrx="2028" lry="897" />
+      <zone xml:id="P-3.4-zone-17" ulx="633" uly="762" lrx="2398" lry="999" />
+      <zone xml:id="P-3.4-zone-18" ulx="640" uly="874" lrx="2241" lry="1104" />
+      <zone xml:id="P-3.4-zone-19" ulx="611" uly="987" lrx="2395" lry="1250" />
+      <zone xml:id="P-3.4-zone-20" ulx="654" uly="1107" lrx="2170" lry="1325" />
+      <zone xml:id="P-3.4-zone-21" ulx="651" uly="1207" lrx="2333" lry="1464" />
+      <zone xml:id="P-3.4-zone-22" ulx="661" uly="1333" lrx="2102" lry="1545" />
+      <zone xml:id="P-3.4-zone-23" ulx="662" uly="1434" lrx="2354" lry="1654" />
+      <zone xml:id="P-3.4-zone-24" ulx="659" uly="1538" lrx="2143" lry="1722" />
+      <zone xml:id="P-3.4-zone-25" ulx="653" uly="1600" lrx="2482" lry="1838" />
+      <zone xml:id="P-3.4-zone-26" ulx="676" uly="1729" lrx="2398" lry="1943" />
+      <zone xml:id="P-3.4-zone-27" ulx="641" uly="1830" lrx="2241" lry="2060" />
+      <zone xml:id="P-3.4-zone-28" ulx="677" uly="1918" lrx="2223" lry="2150" />
+      <zone xml:id="P-3.4-zone-29" ulx="705" uly="2066" lrx="2263" lry="2292" />
+      <zone xml:id="P-3.4-zone-30" ulx="725" uly="2160" lrx="2264" lry="2396" />
+      <zone xml:id="P-3.4-zone-31" ulx="710" uly="2283" lrx="2289" lry="2476" />
+      <zone xml:id="P-3.4-zone-32" ulx="718" uly="2381" lrx="2127" lry="2577" />
+      <zone xml:id="P-3.4-zone-33" ulx="716" uly="2498" lrx="2341" lry="2695" />
+      <zone xml:id="P-3.4-zone-34" ulx="706" uly="2598" lrx="2146" lry="2807" />
+      <zone xml:id="P-3.4-zone-35" ulx="715" uly="2690" lrx="2136" lry="2933" />
+      <zone xml:id="P-3.4-zone-36" ulx="713" uly="2811" lrx="1979" lry="3006" />
+      <zone xml:id="P-3.4-zone-37" ulx="672" uly="2884" lrx="2166" lry="3143" />
+      <zone xml:id="P-3.4-zone-38" ulx="693" uly="3031" lrx="2200" lry="3198" />
+      <zone xml:id="P-3.4-zone-39" ulx="673" uly="3085" lrx="2264" lry="3349" />
+      <zone xml:id="P-3.4-zone-40" ulx="526" uly="3191" lrx="2281" lry="3444" />
+      <zone xml:id="P-3.4-zone-41" ulx="2784" uly="422" lrx="4455" lry="624" />
+      <zone xml:id="P-3.4-zone-42" ulx="2805" uly="524" lrx="4172" lry="746" />
+      <zone xml:id="P-3.4-zone-43" ulx="2776" uly="589" lrx="4365" lry="837" />
+      <zone xml:id="P-3.4-zone-44" ulx="2820" uly="743" lrx="4015" lry="962" />
+      <zone xml:id="P-3.4-zone-45" ulx="2800" uly="838" lrx="4440" lry="1074" />
+      <zone xml:id="P-3.4-zone-46" ulx="2816" uly="925" lrx="4303" lry="1155" />
+      <zone xml:id="P-3.4-zone-47" ulx="2816" uly="1034" lrx="4543" lry="1275" />
+      <zone xml:id="P-3.4-zone-48" ulx="2825" uly="1157" lrx="4395" lry="1383" />
+    </surface>
+  </facsimile>
+  <text xml:lang="la">
+    <body>
+      <div type="poem" n="3.4" xml:id="P-3.4">
+        <lg type="couplet" n="1">
+          <pb n="image 87, right" facs="#P-3.4-image-87" />
+          <l n="1" xml:id="P-3.4-l1" facs="#P-3.4-zone-1"><note type="manuscript" place="margin">AD <unclear reason="faded">VIRUM</unclear><lb /><choice><abbr>SERUAN<lb break="no" />TĒ</abbr><expan>SERUANTEM</expan></choice> UX<lb break="no" />OREM</note><hi rend="initial">D</hi>ure uir inposito tenerae custode puellae</l>
+          <l n="2" xml:id="P-3.4-l2" facs="#P-3.4-zone-2" rend="indent">Nil agis <unclear reason="faded">ingenio</unclear> est quaeque tuenda suo</l>
+        </lg>
+        <lg type="couplet" n="2">
+          <l n="3" xml:id="P-3.4-l3" facs="#P-3.4-zone-3">Siqua m<choice><abbr><g ref="#P-3.4-et">&amp;</g></abbr><expan>et</expan></choice>u dempto casta est ea denique casta est</l>
+          <l n="4" xml:id="P-3.4-l4" facs="#P-3.4-zone-4" rend="indent">Quae quia non licet non facit illa facit</l>
+        </lg>
+        <lg type="couplet" n="3">
+          <l n="5" xml:id="P-3.4-l5" facs="#P-3.4-zone-5">Ut iam seruaris <unclear reason="faded">bene corpus</unclear> adultera mens est</l>
+          <l n="6" xml:id="P-3.4-l6" facs="#P-3.4-zone-6" rend="indent">Nec custodiri ne uelit ulla potest</l>
+        </lg>
+        <lg type="couplet" n="4">
+          <l n="7" xml:id="P-3.4-l7" facs="#P-3.4-zone-7">Nec corpus seruare potes lic<choice><abbr><g ref="#P-3.4-et">&amp;</g></abbr><expan>et</expan></choice> omnia claudas</l>
+          <l n="8" xml:id="P-3.4-l8" facs="#P-3.4-zone-8" rend="indent">Omnibus exclusis intus adulter erit</l>
+        </lg>
+        <lg type="couplet" n="5">
+          <l n="9" xml:id="P-3.4-l9" facs="#P-3.4-zone-9">Cui peccare lic<choice><abbr><g ref="#P-3.4-et">&amp;</g></abbr><expan>et</expan></choice> peccat minus ipsa potestas</l>
+          <l n="10" xml:id="P-3.4-l10" facs="#P-3.4-zone-10" rend="indent">Semina nequitiae languidiora facit</l>
+        </lg>
+        <lg type="couplet" n="6">
+          <l n="11" xml:id="P-3.4-l11" facs="#P-3.4-zone-11">Desine crede mihi uitia inritare u<choice><abbr><g ref="#P-3.4-et">&amp;</g></abbr><expan>et</expan></choice>ando</l>
+          <l n="12" xml:id="P-3.4-l12" facs="#P-3.4-zone-12" rend="indent"><unclear reason="faded">Obsequio uinces</unclear> aptius illa tuo</l>
+        </lg>
+        <lg type="couplet" n="7">
+          <pb n="image 88, left" facs="#P-3.4-image-88" />
+          <l n="13" xml:id="P-3.4-l13" facs="#P-3.4-zone-13">Vidi ego nuper <unclear reason="faded">equum contra sua uincla tenacem</unclear></l>
+          <l n="14" xml:id="P-3.4-l14" facs="#P-3.4-zone-14" rend="indent">Ore reluctanti fulminis ire modo</l>
+        </lg>
+        <lg type="couplet" n="8">
+          <l n="15" xml:id="P-3.4-l15" facs="#P-3.4-zone-15"><unclear reason="faded">Constitit ut</unclear> primum concessas sensit habenas</l>
+          <l n="16" xml:id="P-3.4-l16" facs="#P-3.4-zone-16" rend="indent">Frenaque in effusa laxa iacere iuba</l>
+        </lg>
+        <lg type="couplet" n="9">
+          <l n="17" xml:id="P-3.4-l17" facs="#P-3.4-zone-17">Nitimur in uetitum semper cupimusque negata</l>
+          <l n="18" xml:id="P-3.4-l18" facs="#P-3.4-zone-18" rend="indent">Sic interdictis immin<choice><abbr><g ref="#P-3.4-et">&amp;</g></abbr><expan>et</expan></choice> aeger aquis</l>
+        </lg>
+        <lg type="couplet" n="10">
+          <l n="19" xml:id="P-3.4-l19" facs="#P-3.4-zone-19">Centum fronte oculos centum ceruice gerebat</l>
+          <l n="20" xml:id="P-3.4-l20" facs="#P-3.4-zone-20" rend="indent">Argus <choice><abbr><g ref="#P-3.4-et">&amp;</g></abbr><expan>et</expan></choice> hos unus saepe fefellit amor</l>
+        </lg>
+        <lg type="couplet" n="11">
+          <l n="21" xml:id="P-3.4-l21" facs="#P-3.4-zone-21">In thalamum danae ferro saxoque perennem</l>
+          <l n="22" xml:id="P-3.4-l22" facs="#P-3.4-zone-22" rend="indent">Quae fuerat uirgo tradita mater erat</l>
+        </lg>
+        <lg type="couplet" n="12">
+          <l n="23" xml:id="P-3.4-l23" facs="#P-3.4-zone-23">Penelope mansit quamuis custode carebat</l>
+          <l n="24" xml:id="P-3.4-l24" facs="#P-3.4-zone-24" rend="indent">Inter tot iuuenis intemerata procos</l>
+        </lg>
+        <lg type="couplet" n="13">
+          <l n="25" xml:id="P-3.4-l25" facs="#P-3.4-zone-25">Quidquid <unclear reason="faded">seruatur</unclear> cupimus magis ipsaque furem</l>
+          <l n="26" xml:id="P-3.4-l26" facs="#P-3.4-zone-26" rend="indent"><unclear reason="faded">Cura uocat</unclear> pauci quod sinit alter amant</l>
+        </lg>
+        <lg type="couplet" n="14">
+          <l n="27" xml:id="P-3.4-l27" facs="#P-3.4-zone-27">Nec facie plac<choice><abbr><g ref="#P-3.4-et">&amp;</g></abbr><expan>et</expan></choice> illa sua sed amore mariti</l>
+          <l n="28" xml:id="P-3.4-l28" facs="#P-3.4-zone-28" rend="indent"><unclear reason="faded">Nescioquid</unclear> quod te cepit nosse uolunt</l>
+        </lg>
+        <lg type="couplet" n="15">
+          <l n="29" xml:id="P-3.4-l29" facs="#P-3.4-zone-29">Non proba <unclear reason="faded">fit quam uir seruat</unclear> sed adultera cara</l>
+          <l n="30" xml:id="P-3.4-l30" facs="#P-3.4-zone-30" rend="indent">Ipse timor pretium corpore maius hab<choice><abbr><g ref="#P-3.4-et">&amp;</g></abbr><expan>et</expan></choice></l>
+        </lg>
+        <lg type="couplet" n="16">
+          <l n="31" xml:id="P-3.4-l31" facs="#P-3.4-zone-31">Indignere lic<choice><abbr><g ref="#P-3.4-et">&amp;</g></abbr><expan>et</expan></choice> iuuat inconcessa uoluptas</l>
+          <l n="32" xml:id="P-3.4-l32" facs="#P-3.4-zone-32" rend="indent">Sola plac<choice><abbr><g ref="#P-3.4-et">&amp;</g></abbr><expan>et</expan></choice> timido dicere <unclear reason="faded">siqua potest</unclear></l>
+        </lg>
+        <lg type="couplet" n="17">
+          <l n="33" xml:id="P-3.4-l33" facs="#P-3.4-zone-33">Nec tamen ingenuam ius est seruare puellam</l>
+          <l n="34" xml:id="P-3.4-l34" facs="#P-3.4-zone-34" rend="indent">Hic m<choice><abbr><g ref="#P-3.4-et">&amp;</g></abbr><expan>et</expan></choice>us <unclear reason="faded">externae corpora gentis</unclear> agat</l>
+        </lg>
+        <lg type="couplet" n="18">
+          <l n="35" xml:id="P-3.4-l35" facs="#P-3.4-zone-35">Scilicet ut possit custos <unclear reason="faded">ego dicere feci</unclear></l>
+          <l n="36" xml:id="P-3.4-l36" facs="#P-3.4-zone-36" rend="indent"><unclear reason="faded">In laudem serui casta sit illa tui</unclear></l>
+        </lg>
+        <lg type="couplet" n="19">
+          <l n="37" xml:id="P-3.4-l37" facs="#P-3.4-zone-37">Rusticus est nimium <unclear reason="faded">quem laedit adultera coniunx</unclear></l>
+          <l n="38" xml:id="P-3.4-l38" facs="#P-3.4-zone-38" rend="indent">Et notos mores non satis urbis habet</l>
+        </lg>
+        <lg type="couplet" n="20">
+          <l n="39" xml:id="P-3.4-l39" facs="#P-3.4-zone-39">In qua martigenae <unclear reason="faded">non sunt sine crimine nati</unclear></l>
+          <l n="40" xml:id="P-3.4-l40" facs="#P-3.4-zone-40" rend="indent"><metamark function="unknown" place="margin"><gap reason="illegible" extent="one sign" /></metamark>Romulus <unclear reason="faded">iliades</unclear> iliadesque remus</l>
+        </lg>
+        <lg type="couplet" n="21">
+          <pb n="image 88, right" facs="#P-3.4-image-88" />
+          <l n="41" xml:id="P-3.4-l41" facs="#P-3.4-zone-41"><unclear reason="faded">Quo tibi</unclear> formonsam si non nisi casta placebat</l>
+          <l n="42" xml:id="P-3.4-l42" facs="#P-3.4-zone-42" rend="indent"><unclear reason="faded">Non possunt</unclear> ullis ista coire modis</l>
+        </lg>
+        <lg type="couplet" n="22">
+          <l n="43" xml:id="P-3.4-l43" facs="#P-3.4-zone-43">Si sapis indulge dominae uultusque seueros</l>
+          <l n="44" xml:id="P-3.4-l44" facs="#P-3.4-zone-44" rend="indent">Exue nec rigidi iura tuere uiri</l>
+        </lg>
+        <lg type="couplet" n="23">
+          <l n="45" xml:id="P-3.4-l45" facs="#P-3.4-zone-45">Et cole quos dederit multos dabit uxor amicos</l>
+          <l n="46" xml:id="P-3.4-l46" facs="#P-3.4-zone-46" rend="indent">Gratia sic minimo magna labore uenit</l>
+        </lg>
+        <lg type="couplet" n="24">
+          <l n="47" xml:id="P-3.4-l47" facs="#P-3.4-zone-47">Sic poteris iuuenum conuiuia semper inire</l>
+          <l n="48" xml:id="P-3.4-l48" facs="#P-3.4-zone-48" rend="indent">Et quae non dederis multa uidere domi</l>
+        </lg>
+      </div>
+    </body>
+    <back>
+      <div type="editorial-notes">
+        <head>Independently reviewed source notes</head>
+        <note xml:id="P-3.4-note-1" n="1" type="uncertainty" target="#P-3.4-l1" resp="#P-3.4-reviewer">The four-line marginal heading is represented AD VIRUM / SERUAN / TĒ UX / OREM. VIRUM is faint; the marked TĒ is expanded as TEM in SERUANTEM. The large D begins the poem. Physical heading line breaks are retained with word continuity rather than silently adding spaces.</note>
+        <note xml:id="P-3.4-note-2" n="2" type="uncertainty" target="#P-3.4-l2" resp="#P-3.4-reviewer">The middle of ingenio is faded; local unclear preserves the tentative reading. No replaced underlying text is inferred.</note>
+        <note xml:id="P-3.4-note-3" n="3" type="observation" target="#P-3.4-l3" resp="#P-3.4-reviewer">Selected et ligatures occur inside metu and later verbal forms, as well as the conjunction. Explicit schematic glyphs and expansions preserve their distinction from a silently expanded text.</note>
+        <note xml:id="P-3.4-note-5" n="5" type="uncertainty" target="#P-3.4-l5" resp="#P-3.4-reviewer">The phrase bene corpus is markedly faint. It remains a tentative local reading; tonal contrast is not evidence of a recoverable erasure.</note>
+        <note xml:id="P-3.4-note-6" n="6" type="observation" target="#P-3.4-l6" resp="#P-3.4-reviewer">The short phrase following custodiri reads ne uelit; it is retained without silently altering the wording.</note>
+        <note xml:id="P-3.4-note-12" n="12" type="uncertainty" target="#P-3.4-l12" resp="#P-3.4-reviewer">The opening Obsequio uinces is faded at the foot of image87. The first line on the next left page,13, also has a faint extended phrase equum contra sua uincla tenacem. Both retain uncertainty.</note>
+        <note xml:id="P-3.4-note-15" n="15" type="uncertainty" target="#P-3.4-l15" resp="#P-3.4-reviewer">The first words Constitit ut are faint; the following concessas sensit habenas is more securely legible.</note>
+        <note xml:id="P-3.4-note-24" n="24" type="observation" target="#P-3.4-l24" resp="#P-3.4-reviewer">The visible spelling is iuuenis. The word is not regularized to another inflection from grammatical expectation.</note>
+        <note xml:id="P-3.4-note-25" n="25" type="uncertainty" target="#P-3.4-l25" resp="#P-3.4-reviewer">The word seruatur is faint. At26 the opening Cura uocat is similarly faded. The readings remain local uncertainties.</note>
+        <note xml:id="P-3.4-note-28" n="28" type="uncertainty" target="#P-3.4-l28" resp="#P-3.4-reviewer">The opening Nescioquid is tentative. At29 the central fit quam uir seruat is faint and retained locally in unclear.</note>
+        <note xml:id="P-3.4-note-32" n="32" type="uncertainty" target="#P-3.4-l32" resp="#P-3.4-reviewer">The end of32 is read siqua potest but is faded. No invisible letters or unrelated witness text are asserted as certain.</note>
+        <note xml:id="P-3.4-note-34" n="34" type="uncertainty" target="#P-3.4-l34" resp="#P-3.4-reviewer">The central phrase externae corpora gentis is markedly faint. Lines35–36 also have extended faded text: ego dicere feci and In laudem serui casta sit illa tui. These readings remain tentative after independent source inspection.</note>
+        <note xml:id="P-3.4-note-37" n="37" type="uncertainty" target="#P-3.4-l37" resp="#P-3.4-reviewer">The end of37 and much of39 are faint: quem laedit adultera coniunx and non sunt sine crimine nati. The first iliades after Romulus at40 is now locally unclear after independent inspection; the later iliadesque remus remains more legible.</note>
+        <note xml:id="P-3.4-note-40" n="40" type="uncertainty" target="#P-3.4-l40" resp="#P-3.4-reviewer">A dark sign resembling a curved B occurs in the left margin beside the final couplet. Its function and exact glyph identity are not established; metamark with an illegible sign records its presence without assigning a textual reading or hand. The first iliades in the verse remains locally unclear after independent inspection of its faint later strokes.</note>
+        <note xml:id="P-3.4-note-41" n="41" type="uncertainty" target="#P-3.4-l41" resp="#P-3.4-reviewer">The opening Quo tibi is faded near the gutter on the right page; Non possunt at42 is also faint. The physical page break is before41, despite the small x-coordinate overlap of some existing rectangles with the opening gutter.</note>
+        <note xml:id="P-3.4-note-48" n="48" type="observation" target="#P-3.4-l48" resp="#P-3.4-reviewer">Verse48 is followed by the next poem beginning Nox erat. The complete48-position coverage and poem boundary are observed in the source, not inferred solely from annotations.</note>
+      </div>
+    </back>
+  </text>
+</TEI>

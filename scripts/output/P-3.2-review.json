@@ -1,0 +1,365 @@
+{
+  "witness": "P",
+  "poem": "3.2",
+  "date": "2026-09-09",
+  "author_agent": "/root/encode_p",
+  "reviewer_agent": "/root/review_y",
+  "review_type": "independent-second-agent-image-and-encoding-review",
+  "human_approved": false,
+  "line_coverage": {
+    "count": 84,
+    "ranges": [
+      {
+        "image": 85,
+        "page_position": "left",
+        "start": 1,
+        "end": 4
+      },
+      {
+        "image": 85,
+        "page_position": "right",
+        "start": 5,
+        "end": 32
+      },
+      {
+        "image": 86,
+        "page_position": "left",
+        "start": 33,
+        "end": 60
+      },
+      {
+        "image": 86,
+        "page_position": "right",
+        "start": 61,
+        "end": 84
+      }
+    ]
+  },
+  "line_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84
+  ],
+  "counts": {
+    "resolved": 8,
+    "documented-uncertainty": 9,
+    "escalate": 0
+  },
+  "previous_note_count": 15,
+  "notes": [
+    {
+      "note_id": "P-3.2-note-1",
+      "line": 1,
+      "target": "#P-3.2-l1",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f85/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The two-line heading remains consistent with tentative ad amicam / in circus; several faint strokes cannot be independently resolved. Retain unclear rather than expand or regularize it."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.2-note-4",
+      "line": 4,
+      "target": "#P-3.2-l4",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f85/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The terminal et sign in esset is visible and its declared schematic glyph/expansion is supported."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.2-note-5",
+      "line": 5,
+      "target": "#P-3.2-l5",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f85/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The diagonal obstruction is visible across the upper right page. The line readings remain recoverable; wider faint traces do not permit a secure marginal transcription."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.2-note-14",
+      "line": 14,
+      "target": "#P-3.2-l14",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f85/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The word after manibus begins with short r, not the tall l visible in lora at11; rora is supported."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.2-note-15",
+      "line": 15,
+      "target": "#P-3.2-l15",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f85/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The final word reads asta without a separately written h; pisaea is also supported by the enlarged photograph."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.2-note-28",
+      "line": 28,
+      "target": "#P-3.2-l28",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f85/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The final vowel in spectas is faint. The provisional a remains local unclear, without a normalized replacement."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.2-note-29",
+      "line": 29,
+      "target": "#P-3.2-l29",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f85/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The name sequence is severely faded, with several minims and joins lost in low contrast. Retain tentative milanion atlantis under unclear."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.2-note-33",
+      "line": 33,
+      "target": "#P-3.2-l33",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f86/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The diagonal obstruction intersects arsi; enough surrounding ink supports its tentative retention, with obscuration explicit."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.2-note-35",
+      "line": 35,
+      "target": "#P-3.2-l35",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f86/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The short ex group lies under the diagonal obstruction and remains genuinely partial, so unclear is retained."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.2-note-52",
+      "line": 52,
+      "target": "#P-3.2-l52",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f86/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The final word ends manu; no independently visible final s supports supplying manus."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.2-note-54",
+      "line": 54,
+      "target": "#P-3.2-l54",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f86/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The short word after castora has a readable plac- beginning and faint final strokes, compatible with tentative placet. Retain local uncertainty."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.2-note-57",
+      "line": 57,
+      "target": "#P-3.2-l57",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f86/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The dark patch obscures parts of dominae patiatur and secunda at58. The source does not establish a scribal deletion, so conservative unclear is retained."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.2-note-59",
+      "line": 59,
+      "target": "#P-3.2-l59",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f86/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The middle strokes in promittas remain faint and disturbed. The tentative word remains unclear without reconstructing earlier text."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.2-note-62",
+      "line": 62,
+      "target": "#P-3.2-l62",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f86/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The two supralinear letters om visibly precede baseline ne and complete omne; above-line addition is supported."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.2-note-65",
+      "line": 65,
+      "target": "#P-3.2-l65",
+      "status": "resolved",
+      "previous_type": null,
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f86/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The end of the enlarged line reads circum, including faint final nasal strokes, rather than first-pass circo."
+      },
+      "change": "The end of the enlarged line reads circum, including faint final nasal strokes, rather than first-pass circo."
+    },
+    {
+      "note_id": "P-3.2-note-80",
+      "line": 80,
+      "target": "#P-3.2-l80",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f86/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The opening Sint and the following Sunt at81 are distinct in the scan; repeated wording is preserved."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.2-note-81",
+      "line": 81,
+      "target": "#P-3.2-l81",
+      "status": "documented-uncertainty",
+      "previous_type": null,
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f86/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The final vowel of the word after dominae is rounded, favoring rato. It is less securely differentiated in this faded stretch, so the revised o remains local unclear."
+      },
+      "change": "The final vowel of the word after dominae is rounded, favoring rato. It is less securely differentiated in this faded stretch, so the revised o remains local unclear."
+    }
+  ],
+  "validation": {
+    "schema": "docs/schema/tei_all-4.12.0.rng",
+    "schema_result": "passed xmllint Relax NG",
+    "verse_lines": 84,
+    "facsimile_zones": 84,
+    "unique_ids": true,
+    "local_references_resolve": true
+  },
+  "reviewed_candidate_sha256": "b415627995f2d59b5570a23c008ec2749827006b980f36965d9b1450a3fe6c3c",
+  "review_report_sha256": "6ecb64133fe0a8a1b93ade606ecc4f583491db2b93c9d1f7d38e0877a20227fe",
+  "reviewer": "OpenAI Codex independent review_y agent",
+  "reviewed_xml_sha256": "61294c455b78b92ec3a17e1500954ebd4b1a12b142d4c81456aabd6652d50ad1"
+}

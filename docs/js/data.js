@@ -7,16 +7,34 @@ const witnessFiles = {
 };
 
 let teiCorpusRequest;
-async function resolveWitnessFile(witness, poem) {
+let teiCorpus;
+async function loadTeiCorpus() {
   if (!teiCorpusRequest) {
     teiCorpusRequest = fetch('data/tei-corpus.json').then(response => {
       if (!response.ok) throw new Error('Corpus index unavailable');
       return response.json();
+    }).then(corpus => {
+      teiCorpus = corpus;
+      return corpus;
     });
   }
-  const corpus = await teiCorpusRequest;
+  return teiCorpusRequest;
+}
+
+async function resolveWitnessFile(witness, poem) {
+  const corpus = await loadTeiCorpus();
   const entry = corpus.records.find(item => item.witness === witness && item.poem === poem);
   return entry?.status === 'reviewed' && entry.path ? entry.path : witnessFiles[witness];
+}
+
+function applyReviewedNavigation(annotation, witness, poem, lineId) {
+  const entry = teiCorpus?.records.find(item => item.witness === witness && item.poem === poem);
+  if (entry?.status !== 'reviewed') return annotation;
+  const correction = entry.navigation_overrides?.find(item => item.lineId === String(lineId));
+  if (!correction || !annotation) return annotation;
+  // Preserve scholar edits; replace only the exact original published rectangle.
+  if (!Object.keys(correction.original).every(key => annotation[key] === correction.original[key])) return annotation;
+  return { ...annotation, ...correction.corrected };
 }
 
 const companionData = {

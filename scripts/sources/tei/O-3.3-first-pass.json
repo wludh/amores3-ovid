@@ -1,0 +1,16 @@
+{
+  "page_headers": {"97": "III, II, 25 — III, 13.", "98": "AMORUM"},
+  "headings": {"1": "III."},
+  "footers": {"13": [{"type": "footer", "text": "OVID. I."}, {"type": "sig", "text": "4"}]},
+  "notes": {
+    "1": "The source reads Esse deos hic crede, with hic, followed by a colon. The margin label III. is recorded separately.",
+    "5": "The printed verse reads Candida candorem roseo suffusa rubore. Its wording is retained without grammatical normalization.",
+    "10": "The printed contraction mentitast is retained without expansion.",
+    "13": "The page ends after this verse within a couplet. The footer OVID. I. and signature 4 belong to the printed page, not to the verse.",
+    "17": "The source prints At non invidiae and the contraction virgost; both are retained.",
+    "25": "The printed siquis is one word and is retained.",
+    "33": "The source spells inponere with n and includes focis after tura.",
+    "38": "The source prints the contraction Officiost without a space or expansion.",
+    "40": "The printed reading is Non pater in Baccho matris haberet opus. No alternate text is supplied."
+  }
+}

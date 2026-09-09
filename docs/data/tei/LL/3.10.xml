@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="LL" xml:id="LL-3.10">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title>Ovid, Amores 3.10 — The Latin Library</title>
+        <author>Publius Ovidius Naso</author>
+        <respStmt xml:id="LL-3.10-encoder">
+          <resp>Source collation and first-pass TEI encoding</resp>
+          <name>OpenAI Codex primary agent</name>
+        </respStmt>
+        <respStmt xml:id="LL-3.10-second-reader">
+          <resp>Independent second source collation of every verse against a separate live webpage retrieval</resp>
+          <name>OpenAI Codex independent encode_s agent</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Amores Project working transcription; not a human-approved critical edition.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>The Latin Library: Ovid, Amores III</title>
+          <ref target="https://www.thelatinlibrary.com/ovid/ovid.amor3.shtml">Source web text</ref>
+          <date when="2026-09-09">Accessed 9 September 2026</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Wording, capitalization and punctuation follow the source webpage. HTML entities are decoded and HTML whitespace normalized; couplets and line numbers are editorial. This web text does not carry invented manuscript features or facsimile zones. The site's XIa and XIb are treated as continuous Amores 3.11, while preserving the source division explicitly. Independent second source collation is complete; no verse differences remain. Agent review does not constitute human scholarly approval.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <change when="2026-09-09" who="#LL-3.10-encoder">Collated all 48 verses against a fresh source retrieval and encoded first pass for independent review.</change>
+      <change when="2026-09-09" who="#LL-3.10-second-reader">Independently extracted and compared all 48 verse lines from a fresh live Latin Library retrieval; exact match after HTML entity decoding and whitespace normalization. No textual corrections or human review actions.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <body>
+      <div type="poem" n="3.10" xml:id="LL-3.10-poem">
+        <lg type="couplet">
+          <l n="1" xml:id="LL-3.10-l1">Annua venerunt Cerealis tempora sacri;</l>
+          <l n="2" xml:id="LL-3.10-l2" rend="indent">secubat in vacuo sola puella toro.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="3" xml:id="LL-3.10-l3">flava Ceres, tenues spicis redimita capillos,</l>
+          <l n="4" xml:id="LL-3.10-l4" rend="indent">cur inhibes sacris commoda nostra tuis?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="5" xml:id="LL-3.10-l5">Te, dea, munificam gentes, ubi quaeque, loquuntur,</l>
+          <l n="6" xml:id="LL-3.10-l6" rend="indent">nec minus humanis invidet ulla bonis.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="7" xml:id="LL-3.10-l7">ante nec hirsuti torrebant farra coloni,</l>
+          <l n="8" xml:id="LL-3.10-l8" rend="indent">nec notum terris area nomen erat,</l>
+        </lg>
+        <lg type="couplet">
+          <l n="9" xml:id="LL-3.10-l9">sed glandem quercus, oracula prima, ferebant;</l>
+          <l n="10" xml:id="LL-3.10-l10" rend="indent">haec erat et teneri caespitis herba cibus.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="11" xml:id="LL-3.10-l11">prima Ceres docuit turgescere semen in agris</l>
+          <l n="12" xml:id="LL-3.10-l12" rend="indent">falce coloratas subsecuitque comas;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="13" xml:id="LL-3.10-l13">prima iugis tauros supponere colla coegit,</l>
+          <l n="14" xml:id="LL-3.10-l14" rend="indent">et veterem curvo dente revellit humum.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="15" xml:id="LL-3.10-l15">Hanc quisquam lacrimis laetari credit amantum</l>
+          <l n="16" xml:id="LL-3.10-l16" rend="indent">et bene tormentis secubituque coli?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="17" xml:id="LL-3.10-l17">nec tamen est, quamvis agros amet illa feraces,</l>
+          <l n="18" xml:id="LL-3.10-l18" rend="indent">rustica nec viduum pectus amoris habet.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="19" xml:id="LL-3.10-l19">Cretes erunt testes — nec fingunt omnia Cretes.</l>
+          <l n="20" xml:id="LL-3.10-l20" rend="indent">Crete nutrito terra superba Iove.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="21" xml:id="LL-3.10-l21">illic, sideream mundi qui temperat arcem,</l>
+          <l n="22" xml:id="LL-3.10-l22" rend="indent">exiguus tenero lac bibit ore puer.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="23" xml:id="LL-3.10-l23">Magna fides testi: testis laudatur alumno.</l>
+          <l n="24" xml:id="LL-3.10-l24" rend="indent">fassuram Cererem crimina nostra puto.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="25" xml:id="LL-3.10-l25">viderat Iasium Cretaea diva sub Ida</l>
+          <l n="26" xml:id="LL-3.10-l26" rend="indent">figentem certa terga ferina manu.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="27" xml:id="LL-3.10-l27">vidit, et ut tenerae flammam rapuere medullae,</l>
+          <l n="28" xml:id="LL-3.10-l28" rend="indent">hinc pudor, ex illa parte trahebat amor.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="29" xml:id="LL-3.10-l29">victus amore pudor; sulcos arere videres</l>
+          <l n="30" xml:id="LL-3.10-l30" rend="indent">et sata cum minima parte redire sui.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="31" xml:id="LL-3.10-l31">cum bene iactati pulsarant arva ligones,</l>
+          <l n="32" xml:id="LL-3.10-l32" rend="indent">ruperat et duram vomer aduncus humum,</l>
+        </lg>
+        <lg type="couplet">
+          <l n="33" xml:id="LL-3.10-l33">seminaque in latos ierant aequaliter agros,</l>
+          <l n="34" xml:id="LL-3.10-l34" rend="indent">inrita decepti vota colentis erant.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="35" xml:id="LL-3.10-l35">diva potens frugum silvis cessabat in altis;</l>
+          <l n="36" xml:id="LL-3.10-l36" rend="indent">deciderant longae spicea serta comae.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="37" xml:id="LL-3.10-l37">sola fuit Crete fecundo fertilis anno;</l>
+          <l n="38" xml:id="LL-3.10-l38" rend="indent">omnia, qua tulerat se dea, messis erat;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="39" xml:id="LL-3.10-l39">ipsa, locus nemorum, canebat frugibus Ide,</l>
+          <l n="40" xml:id="LL-3.10-l40" rend="indent">et ferus in silva farra metebat aper.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="41" xml:id="LL-3.10-l41">optavit Minos similes sibi legifer annos;</l>
+          <l n="42" xml:id="LL-3.10-l42" rend="indent">optasset, Cereris longus ut esset amor.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="43" xml:id="LL-3.10-l43">Quod tibi secubitus tristes, dea flava, fuissent,</l>
+          <l n="44" xml:id="LL-3.10-l44" rend="indent">hoc cogor sacris nunc ego ferre tuis?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="45" xml:id="LL-3.10-l45">cur ego sim tristis, cum sit tibi nata reperta</l>
+          <l n="46" xml:id="LL-3.10-l46" rend="indent">regnaque quam Iuno sorte minore regat?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="47" xml:id="LL-3.10-l47">festa dies Veneremque vocat cantusque merumque;</l>
+          <l n="48" xml:id="LL-3.10-l48" rend="indent">haec decet ad dominos munera ferre deos.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -945,6 +945,7 @@ async function loadManifest(panel, poem, witness) {
   // Fetch manifest
   let manifest;
   try {
+    await loadTeiCorpus();
     const resp = await fetch(manifestUrl);
     manifest = await resp.json();
   } catch (e) {
@@ -1089,6 +1090,7 @@ async function loadManifestForWitness(panel, poem, witness) {
   // Fetch manifest
   let manifest;
   try {
+    await loadTeiCorpus();
     const resp = await fetch(manifestUrl);
     manifest = await resp.json();
   } catch (e) {
@@ -1357,11 +1359,12 @@ function setSelectedAnnotationLine(lineId, sourceWitness, poem) {
 }
 
 function getAnnotationForViewer(panel, lineId, witness, poem) {
-  return annotationState.annotations.find(annotation =>
+  const annotation = annotationState.annotations.find(annotation =>
     annotation.lineId === lineId &&
     annotation.witness === witness &&
     (annotation.poem ? annotation.poem === poem : poem == null)
   );
+  return applyReviewedNavigation(annotation, witness, poem, lineId);
 }
 
 function getViewerViewportRectFromImageRect(osdViewer, imageRect) {

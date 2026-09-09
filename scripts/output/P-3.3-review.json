@@ -1,0 +1,258 @@
+{
+  "witness": "P",
+  "poem": "3.3",
+  "date": "2026-09-09",
+  "author_agent": "/root/encode_p",
+  "reviewer_agent": "/root/review_y",
+  "reviewer": "OpenAI Codex independent review_y agent",
+  "review_type": "independent-second-agent-image-and-encoding-review",
+  "human_approved": false,
+  "line_coverage": {
+    "count": 48,
+    "ranges": [
+      {
+        "image": 86,
+        "page_position": "right",
+        "start": 1,
+        "end": 4
+      },
+      {
+        "image": 87,
+        "page_position": "left",
+        "start": 5,
+        "end": 32
+      },
+      {
+        "image": 87,
+        "page_position": "right",
+        "start": 33,
+        "end": 48
+      }
+    ]
+  },
+  "line_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48
+  ],
+  "counts": {
+    "resolved": 6,
+    "documented-uncertainty": 6,
+    "escalate": 0
+  },
+  "previous_note_count": 12,
+  "notes": [
+    {
+      "note_id": "P-3.3-note-1",
+      "line": 1,
+      "target": "#P-3.3-l1",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f86/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The enlarged E and the two-line marginal title are visible. The middle word is consistent with marked PERIURA, but the final mark and letter remain uncertain; do not assert its expansion or a hand."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.3-note-4",
+      "line": 4,
+      "target": "#P-3.3-l4",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f86/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The selected terminal et signs are visible at4,6,12,30,34,39,40 and43. Their schematic g and explicit expansions are supported."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.3-note-11",
+      "line": 11,
+      "target": "#P-3.3-l11",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f87/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The visible sequence reads aeterno; retained independently of grammatical expectation."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.3-note-16",
+      "line": 16,
+      "target": "#P-3.3-l16",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f87/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The word reads meriti. The darker initial group does not establish a recoverable erased state or named hand."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.3-note-18",
+      "line": 18,
+      "target": "#P-3.3-l18",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f87/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "Formonsa is visible at18. At31 the enlarged source likewise ends Formonsa before the separate initial s of superi; removed the unsupported second s of first-pass Formonsas. Cepheia at17 is supported."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.3-note-21",
+      "line": 21,
+      "target": "#P-3.3-l21",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f87/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The source reads Ut sua per nostrum redimat periuria poenam; retained without grammatical regularization."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.3-note-23",
+      "line": 23,
+      "target": "#P-3.3-l23",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f87/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The short marked form has a d-like beginning and s-like ending with a higher stroke, compatible with contracted deus. Keep both its glyph reading and expansion qualified."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.3-note-27",
+      "line": 27,
+      "target": "#P-3.3-l27",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f87/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The final ensi remains faded; retain the tentative local reading rather than assert its letters as wholly secure."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.3-note-28",
+      "line": 28,
+      "target": "#P-3.3-l28",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f87/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "Asta is visible without an initial h; no extra letter is supplied."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.3-note-31",
+      "line": 31,
+      "target": "#P-3.3-l31",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f87/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The source has Formonsa followed by superi, with no separate final s before the latter word. The faint ending laesi and the non timuere sequence at32 remain uncertain after enlargement."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.3-note-33",
+      "line": 33,
+      "target": "#P-3.3-l33",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f87/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "Only a short pia tura-like sequence is recoverable between quisquam and imponere. The photograph does not support inserting an additional word; preserve local unclear. Faint animi at34 also remains provisional."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.3-note-45",
+      "line": 45,
+      "target": "#P-3.3-l45",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f87/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The faded first part of45 is compatible with Ipse ego iurarem but not secure throughout. The non de sequence at46 remains qualified; the image does not justify replacing it from another text."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    }
+  ],
+  "validation": {
+    "schema": "docs/schema/tei_all-4.12.0.rng",
+    "schema_result": "passed xmllint Relax NG",
+    "verse_lines": 48,
+    "facsimile_zones": 48,
+    "unique_ids": true,
+    "local_references_resolve": true
+  },
+  "reviewed_candidate_sha256": "15dd0bace511ca98a2723ebfb96b5f190b5d14d8d214c69e9147b66caf47ba8a",
+  "review_report_sha256": "6871a5df32a894bbb888f68b95cb4191f6892d41c8a7e043b658ee9efd61ce3b",
+  "reviewed_xml_sha256": "9263f4820ffe65a2e187c83a2a84fdc0fa4bbd13f288d67169faa13a30f7045f"
+}

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="LL" xml:id="LL-3.15">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title>Ovid, Amores 3.15 — The Latin Library</title>
+        <author>Publius Ovidius Naso</author>
+        <respStmt xml:id="LL-3.15-encoder">
+          <resp>Source collation and first-pass TEI encoding</resp>
+          <name>OpenAI Codex primary agent</name>
+        </respStmt>
+        <respStmt xml:id="LL-3.15-second-reader">
+          <resp>Independent second source collation of every verse against a separate live webpage retrieval</resp>
+          <name>OpenAI Codex independent encode_s agent</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Amores Project working transcription; not a human-approved critical edition.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>The Latin Library: Ovid, Amores III</title>
+          <ref target="https://www.thelatinlibrary.com/ovid/ovid.amor3.shtml">Source web text</ref>
+          <date when="2026-09-09">Accessed 9 September 2026</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Wording, capitalization and punctuation follow the source webpage. HTML entities are decoded and HTML whitespace normalized; couplets and line numbers are editorial. This web text does not carry invented manuscript features or facsimile zones. The site's XIa and XIb are treated as continuous Amores 3.11, while preserving the source division explicitly. Independent second source collation is complete; no verse differences remain. Agent review does not constitute human scholarly approval.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <change when="2026-09-09" who="#LL-3.15-encoder">Collated all 20 verses against a fresh source retrieval and encoded first pass for independent review.</change>
+      <change when="2026-09-09" who="#LL-3.15-second-reader">Independently extracted and compared all 20 verse lines from a fresh live Latin Library retrieval; exact match after HTML entity decoding and whitespace normalization. No textual corrections or human review actions.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <body>
+      <div type="poem" n="3.15" xml:id="LL-3.15-poem">
+        <lg type="couplet">
+          <l n="1" xml:id="LL-3.15-l1">Quaere novum vatem, tenerorum mater Amorum!</l>
+          <l n="2" xml:id="LL-3.15-l2" rend="indent">raditur hic elegis ultima meta meis;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="3" xml:id="LL-3.15-l3">quos ego conposui, Paeligni ruris alumnus —</l>
+          <l n="4" xml:id="LL-3.15-l4" rend="indent">nec me deliciae dedecuere meae —</l>
+        </lg>
+        <lg type="couplet">
+          <l n="5" xml:id="LL-3.15-l5">siquid id est, usque a proavis vetus ordinis heres,</l>
+          <l n="6" xml:id="LL-3.15-l6" rend="indent">non modo militiae turbine factus eques.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="7" xml:id="LL-3.15-l7">Mantua Vergilio, gaudet Verona Catullo;</l>
+          <l n="8" xml:id="LL-3.15-l8" rend="indent">Paelignae dicar gloria gentis ego,</l>
+        </lg>
+        <lg type="couplet">
+          <l n="9" xml:id="LL-3.15-l9">quam sua libertas ad honesta coegerat arma,</l>
+          <l n="10" xml:id="LL-3.15-l10" rend="indent">cum timuit socias anxia Roma manus.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="11" xml:id="LL-3.15-l11">atque aliquis spectans hospes Sulmonis aquosi</l>
+          <l n="12" xml:id="LL-3.15-l12" rend="indent">moenia, quae campi iugera pauca tenent,</l>
+        </lg>
+        <lg type="couplet">
+          <l n="13" xml:id="LL-3.15-l13">'Quae tantum' dicat 'potuistis ferre poetam,</l>
+          <l n="14" xml:id="LL-3.15-l14" rend="indent">quantulacumque estis, vos ego magna voco.'</l>
+        </lg>
+        <lg type="couplet">
+          <l n="15" xml:id="LL-3.15-l15">Culte puer puerique parens Amathusia culti.</l>
+          <l n="16" xml:id="LL-3.15-l16" rend="indent">aurea de campo vellite signa meo!</l>
+        </lg>
+        <lg type="couplet">
+          <l n="17" xml:id="LL-3.15-l17">corniger increpuit thyrso graviore Lyaeus:</l>
+          <l n="18" xml:id="LL-3.15-l18" rend="indent">pulsanda est magnis area maior equis.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="19" xml:id="LL-3.15-l19">inbelles elegi, genialis Musa, valete,</l>
+          <l n="20" xml:id="LL-3.15-l20" rend="indent">post mea mansurum fata superstes opus.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

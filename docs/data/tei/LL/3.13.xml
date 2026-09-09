@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="LL" xml:id="LL-3.13">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title>Ovid, Amores 3.13 — The Latin Library</title>
+        <author>Publius Ovidius Naso</author>
+        <respStmt xml:id="LL-3.13-encoder">
+          <resp>Source collation and first-pass TEI encoding</resp>
+          <name>OpenAI Codex primary agent</name>
+        </respStmt>
+        <respStmt xml:id="LL-3.13-second-reader">
+          <resp>Independent second source collation of every verse against a separate live webpage retrieval</resp>
+          <name>OpenAI Codex independent encode_s agent</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Amores Project working transcription; not a human-approved critical edition.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>The Latin Library: Ovid, Amores III</title>
+          <ref target="https://www.thelatinlibrary.com/ovid/ovid.amor3.shtml">Source web text</ref>
+          <date when="2026-09-09">Accessed 9 September 2026</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Wording, capitalization and punctuation follow the source webpage. HTML entities are decoded and HTML whitespace normalized; couplets and line numbers are editorial. This web text does not carry invented manuscript features or facsimile zones. The site's XIa and XIb are treated as continuous Amores 3.11, while preserving the source division explicitly. Independent second source collation is complete; no verse differences remain. Agent review does not constitute human scholarly approval.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <change when="2026-09-09" who="#LL-3.13-encoder">Collated all 36 verses against a fresh source retrieval and encoded first pass for independent review.</change>
+      <change when="2026-09-09" who="#LL-3.13-second-reader">Independently extracted and compared all 36 verse lines from a fresh live Latin Library retrieval; exact match after HTML entity decoding and whitespace normalization. No textual corrections or human review actions.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <body>
+      <div type="poem" n="3.13" xml:id="LL-3.13-poem">
+        <lg type="couplet">
+          <l n="1" xml:id="LL-3.13-l1">Cum mihi pomiferis coniunx foret orta Faliscis,</l>
+          <l n="2" xml:id="LL-3.13-l2" rend="indent">moenia contigimus victa, Camille, tibi.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="3" xml:id="LL-3.13-l3">casta sacerdotes Iunoni festa parabant</l>
+          <l n="4" xml:id="LL-3.13-l4" rend="indent">et celebres ludos indigenamque bovem;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="5" xml:id="LL-3.13-l5">grande morae pretium ritus cognoscere, quamvis</l>
+          <l n="6" xml:id="LL-3.13-l6" rend="indent">difficilis clivis huc via praebet iter.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="7" xml:id="LL-3.13-l7">Stat vetus et densa praenubilus arbore lucus;</l>
+          <l n="8" xml:id="LL-3.13-l8" rend="indent">adspice — concedas numen inesse loco.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="9" xml:id="LL-3.13-l9">accipit ara preces votivaque tura piorum —</l>
+          <l n="10" xml:id="LL-3.13-l10" rend="indent">ara per antiquas facta sine arte manus.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="11" xml:id="LL-3.13-l11">hinc, ubi praesonuit sollemni tibia cantu,</l>
+          <l n="12" xml:id="LL-3.13-l12" rend="indent">it per velatas annua pompa vias;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="13" xml:id="LL-3.13-l13">ducuntur niveae populo plaudente iuvencae,</l>
+          <l n="14" xml:id="LL-3.13-l14" rend="indent">quas aluit campis herba Falisca suis,</l>
+        </lg>
+        <lg type="couplet">
+          <l n="15" xml:id="LL-3.13-l15">et vituli nondum metuenda fronte minaces,</l>
+          <l n="16" xml:id="LL-3.13-l16" rend="indent">et minor ex humili victima porcus hara,</l>
+        </lg>
+        <lg type="couplet">
+          <l n="17" xml:id="LL-3.13-l17">duxque gregis cornu per tempora dura recurvo.</l>
+          <l n="18" xml:id="LL-3.13-l18" rend="indent">invisa est dominae sola capella deae;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="19" xml:id="LL-3.13-l19">illius indicio silvis inventa sub altis</l>
+          <l n="20" xml:id="LL-3.13-l20" rend="indent">dicitur inceptam destituisse fugam.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="21" xml:id="LL-3.13-l21">nunc quoque per pueros iaculis incessitur index</l>
+          <l n="22" xml:id="LL-3.13-l22" rend="indent">et pretium auctori vulneris ipsa datur.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="23" xml:id="LL-3.13-l23">Qua ventura dea est, iuvenes timidaeque puellae</l>
+          <l n="24" xml:id="LL-3.13-l24" rend="indent">praeverrunt latas veste iacente vias.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="25" xml:id="LL-3.13-l25">virginei crines auro gemmaque premuntur,</l>
+          <l n="26" xml:id="LL-3.13-l26" rend="indent">et tegit auratos palla superba pedes;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="27" xml:id="LL-3.13-l27">more patrum Graio velatae vestibus albis</l>
+          <l n="28" xml:id="LL-3.13-l28" rend="indent">tradita supposito vertice sacra ferunt.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="29" xml:id="LL-3.13-l29">ora favent populi tum cum venit aurea pompa,</l>
+          <l n="30" xml:id="LL-3.13-l30" rend="indent">ipsa sacerdotes subsequiturque suas.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="31" xml:id="LL-3.13-l31">Argiva est pompae facies; Agamemnone caeso</l>
+          <l n="32" xml:id="LL-3.13-l32" rend="indent">et scelus et patrias fugit Halaesus opes</l>
+        </lg>
+        <lg type="couplet">
+          <l n="33" xml:id="LL-3.13-l33">iamque pererratis profugus terraque fretoque</l>
+          <l n="34" xml:id="LL-3.13-l34" rend="indent">moenia felici condidit alta manu.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="35" xml:id="LL-3.13-l35">ille suos docuit Iunonia sacra Faliscos.</l>
+          <l n="36" xml:id="LL-3.13-l36" rend="indent">sint mihi, sint populo semper amica suo!</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

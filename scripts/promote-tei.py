@@ -29,6 +29,11 @@ original_ledger = ledger_path.read_bytes()
 ledger_path.write_text(json.dumps(ledger, ensure_ascii=False, indent=2) + '\n')
 proposed = dict(record, path=str(candidate), absent_lines=ledger.get('absent_lines', []))
 try:
+    if args.witness != 'LL':
+        root = validation.select_tei(candidate, args.poem)
+        by_id = {el.get(validation.ID): el for el in root.iter() if el.get(validation.ID)}
+        proposed['navigation_overrides'] = validation.verify_image_provenance(root, args.witness, args.poem,
+            list(root.iter('{%s}l' % validation.NS)), by_id, ledger)
     validation.validate(args.witness, args.poem, proposed)
 except BaseException:
     ledger_path.write_bytes(original_ledger)
@@ -37,6 +42,10 @@ destination = ROOT / f'docs/data/tei/{args.witness}/{args.poem}.xml'
 destination.parent.mkdir(parents=True, exist_ok=True)
 destination.write_bytes(candidate.read_bytes())
 record.update(status='reviewed', path=str(destination.relative_to(ROOT / 'docs')), absent_lines=proposed['absent_lines'])
+if proposed.get('navigation_overrides'):
+    record['navigation_overrides'] = proposed['navigation_overrides']
+else:
+    record.pop('navigation_overrides', None)
 record.pop('candidate_path', None)
 index.write_text(json.dumps(corpus, indent=2) + '\n')
 print(f'Integrated reviewed {args.witness} {args.poem}; complete-corpus audit remains required.')

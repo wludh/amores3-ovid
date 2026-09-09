@@ -1,0 +1,286 @@
+{
+  "witness": "O",
+  "poem": "3.2",
+  "author_agent": "/root",
+  "reviewer_agent": "/root/encode_p",
+  "reviewer": "OpenAI Codex independent encode_p agent",
+  "date": "2026-09-09",
+  "status": "second-pass-complete",
+  "review_type": "independent-second-agent-image-and-encoding-review",
+  "human_approved": false,
+  "line_coverage": {
+    "count": 84,
+    "ranges": [
+      {
+        "page": "47",
+        "start": 1,
+        "end": 24
+      },
+      {
+        "page": "48",
+        "start": 25,
+        "end": 61
+      },
+      {
+        "page": "49",
+        "start": 62,
+        "end": 84
+      }
+    ],
+    "absent_ranges": []
+  },
+  "line_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84
+  ],
+  "previous_review_note_count": 0,
+  "notes": [
+    {
+      "note_id": "O-3.2-note-1",
+      "target": "#O-3.2-l1",
+      "line": 1,
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "page": "47",
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0099.jp2/full/max/0/default.jpg",
+        "local_image": "/tmp/amores-o-corpus/95.jpg",
+        "assessment": "Full opening-margin crop confirms II. and the opening quote. The closing quote is after82;84 has no quote delimiters. First-pass note corrected."
+      }
+    },
+    {
+      "note_id": "O-3.2-note-10",
+      "target": "#O-3.2-l10",
+      "line": 10,
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "page": "47",
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0099.jp2/full/max/0/default.jpg",
+        "local_image": "/tmp/amores-o-corpus/95.jpg",
+        "assessment": "The printed equis at10 is followed by no punctuation."
+      }
+    },
+    {
+      "note_id": "O-3.2-note-17",
+      "target": "#O-3.2-l17",
+      "line": 17,
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "page": "47",
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0099.jp2/full/max/0/default.jpg",
+        "local_image": "/tmp/amores-o-corpus/95.jpg",
+        "assessment": "Nempe favore suae vicit tamen ille puellae. is confirmed including the terminal full stop."
+      }
+    },
+    {
+      "note_id": "O-3.2-note-28",
+      "target": "#O-3.2-l28",
+      "line": 28,
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "page": "48",
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0100.jp2/full/max/0/default.jpg",
+        "local_image": "/tmp/amores-o-corpus/96.jpg",
+        "assessment": "The printed dash between spectes and invida is clearly visible."
+      }
+    },
+    {
+      "note_id": "O-3.2-note-29",
+      "target": "#O-3.2-l29",
+      "line": 29,
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "page": "48",
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0100.jp2/full/max/0/default.jpg",
+        "local_image": "/tmp/amores-o-corpus/96.jpg",
+        "assessment": "Both proper-name forms Milanion and Atalantes are confirmed from the print."
+      }
+    },
+    {
+      "note_id": "O-3.2-note-41",
+      "target": "#O-3.2-l41",
+      "line": 41,
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "page": "48",
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0100.jp2/full/max/0/default.jpg",
+        "local_image": "/tmp/amores-o-corpus/96.jpg",
+        "assessment": "The contracted word sparsast is clearly printed as one word."
+      }
+    },
+    {
+      "note_id": "O-3.2-note-54",
+      "target": "#O-3.2-l54",
+      "line": 54,
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "page": "48",
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0100.jp2/full/max/0/default.jpg",
+        "local_image": "/tmp/amores-o-corpus/96.jpg",
+        "assessment": "The form placet is clearly printed; no additional vowel is justified."
+      }
+    },
+    {
+      "note_id": "O-3.2-note-56",
+      "target": "#O-3.2-l56",
+      "line": 56,
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "page": "48",
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0100.jp2/full/max/0/default.jpg",
+        "local_image": "/tmp/amores-o-corpus/96.jpg",
+        "assessment": "The final meis has no punctuation in the print."
+      }
+    },
+    {
+      "note_id": "O-3.2-note-66",
+      "target": "#O-3.2-l66",
+      "line": 66,
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "page": "49",
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0101.jp2/full/max/0/default.jpg",
+        "local_image": "/tmp/amores-o-corpus/97.jpg",
+        "assessment": "The spelling Quadriiugos contains the adjacent i characters."
+      }
+    },
+    {
+      "note_id": "O-3.2-note-82",
+      "target": "#O-3.2-l82",
+      "line": 82,
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "page": "49",
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0101.jp2/full/max/0/default.jpg",
+        "local_image": "/tmp/amores-o-corpus/97.jpg",
+        "assessment": "The source has meast followed by a full stop and closing quote."
+      }
+    },
+    {
+      "note_id": "O-3.2-note-84",
+      "target": "#O-3.2-l84",
+      "line": 84,
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "page": "49",
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0101.jp2/full/max/0/default.jpg",
+        "local_image": "/tmp/amores-o-corpus/97.jpg",
+        "assessment": "The scan clearly shows Hic satis est; alio cetera redde loco! without quotation marks. Removed the first-pass added pair; all wording and other punctuation retained."
+      }
+    }
+  ],
+  "counts": {
+    "resolved": 11,
+    "documented-uncertainty": 0,
+    "escalate": 0
+  },
+  "humanActions": [],
+  "validation": {
+    "rng": "tei_all-4.12.0.rng",
+    "passed": true,
+    "extantLineCount": 84,
+    "zoneCount": 84,
+    "resolved_facs_links": 84,
+    "source_order_preserved": true,
+    "changed_verse_ids": [
+      84
+    ],
+    "coordinate_rectangles_unchanged": true,
+    "humanReviewNotes": 0
+  },
+  "first_pass_sha256": "2aef6ca677f5496dbb98367c77f51a97423a8bb356bd37203f947a02a9c7af22",
+  "reviewed_candidate_sha256": "9cd42192cb4b67f4c6f7eeec4533f61feede378da3259e3c3d64c5ff5799a124",
+  "review_report_sha256": "d3b0b3f83d9639d4f5b8d957f9957fb502ba4510182a44de21505da7014c3cf9"
+}

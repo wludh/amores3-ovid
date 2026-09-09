@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../docs/schema/tei_all-4.12.0.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="P" xml:id="P">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title>Ovid, Amores 3.5: witness P — manuscript first pass</title>
+        <author>Publius Ovidius Naso</author>
+        <respStmt xml:id="P-3.5-encoder">
+          <resp>First-pass image transcription and TEI encoding; independent second reading pending</resp>
+          <name>OpenAI Codex</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Amores Project local working transcription, 9 September 2026. Draft; not a scholarly approved edition.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="P-3.5-manuscript">
+          <msIdentifier>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France, Département des Manuscrits</repository>
+            <idno>Latin 8242</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus>Gallica digital images 88, 89; left/right positions identify physical pages in the photographed openings, not asserted medieval foliation.</locus>
+              <title>Amores 3.5</title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <handDesc>
+              <handNote>Main text and any darker interventions are distinguished where observed. No individual historical correcting hands are inferred from tonal contrast in monochrome photographs.</handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <p>The supplied BnF IIIF manifest dates the manuscript to 1001–1100. The catalogue dating is not a date assigned to individual interventions.</p>
+            </origin>
+          </history>
+          <additional>
+            <surrogates>
+              <p><ref target="https://gallica.bnf.fr/ark:/12148/btv1b9066797j">BnF Gallica Latin 8242</ref></p>
+              <p>The original full-resolution digital images and enlarged crops were inspected for this first pass. Gallica source reuse conditions apply. No text was populated from LL or another witness.</p>
+            </surrogates>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Source-grounded first reading of all 46 annotated verse positions, with manuscript-specific spellings and observed interventions. Independent second reading is required before integration as reviewed.</p>
+      </projectDesc>
+      <editorialDecl>
+        <correction>
+          <p>No silent emendation from an edition or another witness. Local uncertain letters use unclear, irrecoverable text or signs use gap. Observed above-line letters use add. Tonal distinctions use hi without an invented underlying erased text or historical hand. Manuscript annotations use note type manuscript, distinct from editorial evidence notes.</p>
+        </correction>
+        <normalization>
+          <p>One source-oriented display. Ordinary allographs, long s, and capitals are represented in legible Latin types. Word boundaries are editorially segmented; no indentation whitespace is inserted inside verse mixed content. Selected ligatures and abbreviation signs are declared typographic approximations; explicit expansions remain in TEI rather than a separate reading mode. This is not a facsimile-perfect inventory of every minute stroke.</p>
+        </normalization>
+        <punctuation>
+          <p>Significant observed punctuation is retained schematically, without adding systematic modern sentence punctuation.</p>
+        </punctuation>
+        <segmentation>
+          <p>Each l represents a verse and physical written line at its canonical poem position. Elegiac couplets and even-line indentation are editorial display grouping. Page breaks follow the photographed left/right physical pages. Facsimile zones reproduce the existing annotation rectangles unchanged; they may include neighbouring ink and exclude marginal annotations.</p>
+        </segmentation>
+        <interpretation>
+          <p>First-pass evidence notes are a working queue for an independent agent, not assignments for the human editor. Genuine source uncertainty remains local; consequential unresolved interpretation is distinguished from ordinary observation.</p>
+        </interpretation>
+      </editorialDecl>
+      <charDecl>
+        <char xml:id="P-3.5-et">
+          <desc>ET LIGATURE, SCHEMATIC TYPE REPRESENTATION</desc>
+          <mapping type="display">&amp;</mapping>
+          <mapping type="expansion">et</mapping>
+        </char>
+      </charDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <change when="2026-09-09" who="#P-3.5-encoder">Completed first reading from source images and enlarged crops, with line coverage and evidence notes. Independent second reading not yet performed.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="image 88" xml:id="P-3.5-image-88" ulx="0" uly="0" lrx="5814" lry="3969">
+      <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f88/full/full/0/native.jpg" />
+      <zone xml:id="P-3.5-zone-1" ulx="2835" uly="1291" lrx="5254" lry="1509" />
+      <zone xml:id="P-3.5-zone-2" ulx="2855" uly="1403" lrx="4768" lry="1534" />
+      <zone xml:id="P-3.5-zone-3" ulx="2849" uly="1499" lrx="4759" lry="1639" />
+      <zone xml:id="P-3.5-zone-4" ulx="2859" uly="1601" lrx="4804" lry="1737" />
+      <zone xml:id="P-3.5-zone-5" ulx="2835" uly="1687" lrx="4818" lry="1849" />
+      <zone xml:id="P-3.5-zone-6" ulx="2847" uly="1802" lrx="4832" lry="1949" />
+      <zone xml:id="P-3.5-zone-7" ulx="2858" uly="1928" lrx="4813" lry="2069" />
+      <zone xml:id="P-3.5-zone-8" ulx="2870" uly="2037" lrx="4851" lry="2167" />
+      <zone xml:id="P-3.5-zone-9" ulx="2859" uly="2138" lrx="4878" lry="2280" />
+      <zone xml:id="P-3.5-zone-10" ulx="2848" uly="2251" lrx="4802" lry="2362" />
+      <zone xml:id="P-3.5-zone-11" ulx="2854" uly="2342" lrx="4892" lry="2476" />
+      <zone xml:id="P-3.5-zone-12" ulx="2859" uly="2445" lrx="4866" lry="2588" />
+      <zone xml:id="P-3.5-zone-13" ulx="2853" uly="2574" lrx="4917" lry="2694" />
+      <zone xml:id="P-3.5-zone-14" ulx="2853" uly="2674" lrx="4872" lry="2789" />
+      <zone xml:id="P-3.5-zone-15" ulx="2855" uly="2785" lrx="4934" lry="2910" />
+      <zone xml:id="P-3.5-zone-16" ulx="2856" uly="2885" lrx="4878" lry="3003" />
+      <zone xml:id="P-3.5-zone-17" ulx="2850" uly="2986" lrx="4925" lry="3107" />
+      <zone xml:id="P-3.5-zone-18" ulx="2862" uly="3078" lrx="4795" lry="3204" />
+      <zone xml:id="P-3.5-zone-19" ulx="2854" uly="3181" lrx="4875" lry="3318" />
+      <zone xml:id="P-3.5-zone-20" ulx="2872" uly="3289" lrx="4886" lry="3414" />
+    </surface>
+    <surface n="image 89" xml:id="P-3.5-image-89" ulx="0" uly="0" lrx="5812" lry="3969">
+      <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f89/full/full/0/native.jpg" />
+      <zone xml:id="P-3.5-zone-21" ulx="738" uly="469" lrx="2616" lry="599" />
+      <zone xml:id="P-3.5-zone-22" ulx="757" uly="597" lrx="2650" lry="707" />
+      <zone xml:id="P-3.5-zone-23" ulx="746" uly="701" lrx="2611" lry="850" />
+      <zone xml:id="P-3.5-zone-24" ulx="735" uly="807" lrx="2501" lry="934" />
+      <zone xml:id="P-3.5-zone-25" ulx="750" uly="922" lrx="2479" lry="1053" />
+      <zone xml:id="P-3.5-zone-26" ulx="760" uly="1027" lrx="2398" lry="1145" />
+      <zone xml:id="P-3.5-zone-27" ulx="716" uly="1125" lrx="2468" lry="1260" />
+      <zone xml:id="P-3.5-zone-28" ulx="769" uly="1237" lrx="2620" lry="1366" />
+      <zone xml:id="P-3.5-zone-29" ulx="754" uly="1355" lrx="2398" lry="1501" />
+      <zone xml:id="P-3.5-zone-30" ulx="765" uly="1452" lrx="2568" lry="1578" />
+      <zone xml:id="P-3.5-zone-31" ulx="758" uly="1569" lrx="2395" lry="1689" />
+      <zone xml:id="P-3.5-zone-32" ulx="761" uly="1653" lrx="2444" lry="1786" />
+      <zone xml:id="P-3.5-zone-33" ulx="760" uly="1780" lrx="2460" lry="1895" />
+      <zone xml:id="P-3.5-zone-34" ulx="767" uly="1876" lrx="2594" lry="2020" />
+      <zone xml:id="P-3.5-zone-35" ulx="751" uly="1970" lrx="2552" lry="2146" />
+      <zone xml:id="P-3.5-zone-36" ulx="749" uly="2076" lrx="2560" lry="2220" />
+      <zone xml:id="P-3.5-zone-37" ulx="756" uly="2181" lrx="2513" lry="2311" />
+      <zone xml:id="P-3.5-zone-38" ulx="788" uly="2278" lrx="2495" lry="2424" />
+      <zone xml:id="P-3.5-zone-39" ulx="798" uly="2380" lrx="2504" lry="2540" />
+      <zone xml:id="P-3.5-zone-40" ulx="791" uly="2499" lrx="2505" lry="2622" />
+      <zone xml:id="P-3.5-zone-41" ulx="800" uly="2583" lrx="2527" lry="2740" />
+      <zone xml:id="P-3.5-zone-42" ulx="821" uly="2686" lrx="2465" lry="2835" />
+      <zone xml:id="P-3.5-zone-43" ulx="814" uly="2814" lrx="2500" lry="2975" />
+      <zone xml:id="P-3.5-zone-44" ulx="823" uly="2911" lrx="2528" lry="3066" />
+      <zone xml:id="P-3.5-zone-45" ulx="829" uly="3028" lrx="2484" lry="3192" />
+      <zone xml:id="P-3.5-zone-46" ulx="827" uly="3124" lrx="2635" lry="3287" />
+    </surface>
+  </facsimile>
+  <text xml:lang="la">
+    <body>
+      <div type="poem" n="3.5" xml:id="P-3.5">
+        <lg type="couplet" n="1">
+          <pb n="image 88, right" facs="#P-3.5-image-88" />
+          <l n="1" xml:id="P-3.5-l1" facs="#P-3.5-zone-1"><hi rend="initial">N</hi>ox erat <choice><abbr><g ref="#P-3.5-et">&amp;</g></abbr><expan>et</expan></choice> somnus lassos summisit ocellos<note type="manuscript" place="margin"><unclear reason="faded">SOMNI</unclear><lb /><gap reason="illegible" extent="one short word" /></note></l>
+          <l n="2" xml:id="P-3.5-l2" facs="#P-3.5-zone-2" rend="indent">Terruerunt animum talia uisa meum</l>
+        </lg>
+        <lg type="couplet" n="2">
+          <l n="3" xml:id="P-3.5-l3" facs="#P-3.5-zone-3">Colle sub aprico creberrimus ilice lucus</l>
+          <l n="4" xml:id="P-3.5-l4" facs="#P-3.5-zone-4" rend="indent">Stabat <choice><abbr><g ref="#P-3.5-et">&amp;</g></abbr><expan>et</expan></choice> in ramis multa latebat auis</l>
+        </lg>
+        <lg type="couplet" n="3">
+          <l n="5" xml:id="P-3.5-l5" facs="#P-3.5-zone-5">Area gramineo suberat uiridissima prato</l>
+          <l n="6" xml:id="P-3.5-l6" facs="#P-3.5-zone-6" rend="indent">Umida de guttis lene sonantis aquae</l>
+        </lg>
+        <lg type="couplet" n="4">
+          <l n="7" xml:id="P-3.5-l7" facs="#P-3.5-zone-7">Ipse sub arboreis <unclear reason="faded">uitabam</unclear> frondibus aestum</l>
+          <l n="8" xml:id="P-3.5-l8" facs="#P-3.5-zone-8" rend="indent">Fronde sub arborea sed tamen <unclear reason="faded">aestus erat</unclear></l>
+        </lg>
+        <lg type="couplet" n="5">
+          <l n="9" xml:id="P-3.5-l9" facs="#P-3.5-zone-9">Ecce petens uariis immixtas floribus herbas</l>
+          <l n="10" xml:id="P-3.5-l10" facs="#P-3.5-zone-10" rend="indent">Constitit ante oculos <unclear reason="faded">candida uacca</unclear> meos</l>
+        </lg>
+        <lg type="couplet" n="6">
+          <l n="11" xml:id="P-3.5-l11" facs="#P-3.5-zone-11">Candidior niuibus tum cum cecidere recentes</l>
+          <l n="12" xml:id="P-3.5-l12" facs="#P-3.5-zone-12" rend="indent">In liquidas nondum quas mora uertit aquas</l>
+        </lg>
+        <lg type="couplet" n="7">
+          <l n="13" xml:id="P-3.5-l13" facs="#P-3.5-zone-13">Candidior quod adhuc spumis stridentibus albet</l>
+          <l n="14" xml:id="P-3.5-l14" facs="#P-3.5-zone-14" rend="indent">Et modo siccatam lacte relinquit ouem</l>
+        </lg>
+        <lg type="couplet" n="8">
+          <l n="15" xml:id="P-3.5-l15" facs="#P-3.5-zone-15"><unclear reason="faded">Taurus erat comes</unclear> huic feliciter ille maritus</l>
+          <l n="16" xml:id="P-3.5-l16" facs="#P-3.5-zone-16" rend="indent"><unclear reason="faded">Cumque sua tenerum</unclear> coniuge pressit humum</l>
+        </lg>
+        <lg type="couplet" n="9">
+          <l n="17" xml:id="P-3.5-l17" facs="#P-3.5-zone-17"><unclear reason="stained">Dum iacet</unclear> <choice><abbr><g ref="#P-3.5-et">&amp;</g></abbr><expan>et</expan></choice> lente reuocatas ruminat herbas</l>
+          <l n="18" xml:id="P-3.5-l18" facs="#P-3.5-zone-18" rend="indent"><unclear reason="stained">Atque iterum pasto</unclear> pascitur ante cibo</l>
+        </lg>
+        <lg type="couplet" n="10">
+          <l n="19" xml:id="P-3.5-l19" facs="#P-3.5-zone-19"><gap reason="illegible" extent="several words" /> <unclear reason="faded">adimente ferendi</unclear></l>
+          <l n="20" xml:id="P-3.5-l20" facs="#P-3.5-zone-20" rend="indent"><gap reason="illegible" extent="several words" /> <unclear reason="faded">deposuisse</unclear> caput</l>
+        </lg>
+        <lg type="couplet" n="11">
+          <pb n="image 89, left" facs="#P-3.5-image-89" />
+          <l n="21" xml:id="P-3.5-l21" facs="#P-3.5-zone-21">Huc leuibus cornix pinnis delapsa per <unclear reason="faded">auras</unclear></l>
+          <l n="22" xml:id="P-3.5-l22" facs="#P-3.5-zone-22" rend="indent"><unclear reason="faded">Venit</unclear> <choice><abbr><g ref="#P-3.5-et">&amp;</g></abbr><expan>et</expan></choice> in uiridi garrula sedit humo</l>
+        </lg>
+        <lg type="couplet" n="12">
+          <l n="23" xml:id="P-3.5-l23" facs="#P-3.5-zone-23">Terque bouis niueae petulanti pectora rostro</l>
+          <l n="24" xml:id="P-3.5-l24" facs="#P-3.5-zone-24" rend="indent">Fodit <choice><abbr><g ref="#P-3.5-et">&amp;</g></abbr><expan>et</expan></choice> albentes abstulit ore iubas</l>
+        </lg>
+        <lg type="couplet" n="13">
+          <l n="25" xml:id="P-3.5-l25" facs="#P-3.5-zone-25">Illa locum taurumque diu cunctata reliquit</l>
+          <l n="26" xml:id="P-3.5-l26" facs="#P-3.5-zone-26" rend="indent">Sed niger in uaccae pectore liuor erat</l>
+        </lg>
+        <lg type="couplet" n="14">
+          <l n="27" xml:id="P-3.5-l27" facs="#P-3.5-zone-27">Utque procul uidit carpentes pabula tauros</l>
+          <l n="28" xml:id="P-3.5-l28" facs="#P-3.5-zone-28" rend="indent"><unclear reason="faded">Carpitur</unclear> <choice><abbr><g ref="#P-3.5-et">&amp;</g></abbr><expan>et</expan></choice> <unclear reason="faded">pabulo laeta</unclear> <gap reason="illegible" extent="one or more words" /></l>
+        </lg>
+        <lg type="couplet" n="15">
+          <l n="29" xml:id="P-3.5-l29" facs="#P-3.5-zone-29"><gap reason="illegible" extent="one or more words" /> gregibus <unclear reason="faded">se immiscuit</unclear> illis</l>
+          <l n="30" xml:id="P-3.5-l30" facs="#P-3.5-zone-30" rend="indent"><gap reason="illegible" extent="one or more words" /> <unclear reason="faded">herbae felicior</unclear> <gap reason="illegible" extent="several words" /></l>
+        </lg>
+        <lg type="couplet" n="16">
+          <l n="31" xml:id="P-3.5-l31" facs="#P-3.5-zone-31"><gap reason="illegible" extent="several words" /> <unclear reason="faded">excussere</unclear> <gap reason="illegible" extent="one or more words" /></l>
+          <l n="32" xml:id="P-3.5-l32" facs="#P-3.5-zone-32" rend="indent"><gap reason="illegible" extent="several words" /> <unclear reason="faded">uidisse</unclear> <gap reason="illegible" extent="one or more words" /></l>
+        </lg>
+        <lg type="couplet" n="17">
+          <l n="33" xml:id="P-3.5-l33" facs="#P-3.5-zone-33"><gap reason="illegible" extent="several words" /> <unclear reason="faded">fidem</unclear> <gap reason="illegible" extent="several words" /></l>
+          <l n="34" xml:id="P-3.5-l34" facs="#P-3.5-zone-34" rend="indent"><gap reason="illegible" extent="several words" /> <unclear reason="faded">singula</unclear> <gap reason="illegible" extent="several words" /></l>
+        </lg>
+        <lg type="couplet" n="18">
+          <l n="35" xml:id="P-3.5-l35" facs="#P-3.5-zone-35"><gap reason="illegible" extent="one or more words" /> <unclear reason="faded">tale est simulacrum</unclear> <gap reason="illegible" extent="several words" /></l>
+          <l n="36" xml:id="P-3.5-l36" facs="#P-3.5-zone-36" rend="indent"><gap reason="illegible" extent="several words" /> <unclear reason="faded">consule</unclear> <gap reason="illegible" extent="several words" /></l>
+        </lg>
+        <lg type="couplet" n="19">
+          <l n="37" xml:id="P-3.5-l37" facs="#P-3.5-zone-37"><gap reason="illegible" extent="several words" /> <unclear reason="faded">est</unclear> <gap reason="illegible" extent="one or more words" /> puella</l>
+          <l n="38" xml:id="P-3.5-l38" facs="#P-3.5-zone-38" rend="indent"><gap reason="illegible" extent="one verse" /></l>
+        </lg>
+        <lg type="couplet" n="20">
+          <l n="39" xml:id="P-3.5-l39" facs="#P-3.5-zone-39"><gap reason="illegible" extent="one verse" /></l>
+          <l n="40" xml:id="P-3.5-l40" facs="#P-3.5-zone-40" rend="indent"><gap reason="illegible" extent="several words" /> <unclear reason="faded">amore</unclear> <gap reason="illegible" extent="one or more words" /></l>
+        </lg>
+        <lg type="couplet" n="21">
+          <l n="41" xml:id="P-3.5-l41" facs="#P-3.5-zone-41"><gap reason="illegible" extent="one verse" /></l>
+          <l n="42" xml:id="P-3.5-l42" facs="#P-3.5-zone-42" rend="indent"><gap reason="illegible" extent="one verse" /></l>
+        </lg>
+        <lg type="couplet" n="22">
+          <l n="43" xml:id="P-3.5-l43" facs="#P-3.5-zone-43"><unclear reason="stained">L</unclear><gap reason="illegible" extent="the rest of the verse" /></l>
+          <l n="44" xml:id="P-3.5-l44" facs="#P-3.5-zone-44" rend="indent"><gap reason="illegible" extent="several words" /> <unclear reason="faded">diu</unclear> <gap reason="illegible" extent="several words" /></l>
+        </lg>
+        <lg type="couplet" n="23">
+          <l n="45" xml:id="P-3.5-l45" facs="#P-3.5-zone-45">Dixerat <unclear reason="faded">interpres gelido mihi</unclear> <gap reason="illegible" extent="several words" /></l>
+          <l n="46" xml:id="P-3.5-l46" facs="#P-3.5-zone-46" rend="indent"><gap reason="illegible" extent="one or more words" /> <unclear reason="faded">oculos</unclear> <gap reason="illegible" extent="several words" /></l>
+        </lg>
+      </div>
+    </body>
+    <back>
+      <div type="editorial-notes">
+        <head>First-pass evidence notes</head>
+        <note xml:id="P-3.5-note-1" n="1" type="uncertainty" target="#P-3.5-l1" resp="#P-3.5-encoder">The large N extends beside the first couplet. Two short lines of marginal capitals are present to the right: SOMNI is a tentative reading of the first, while the second is too faint to transcribe confidently. No completed title has been supplied. The et ligature is represented schematically and expanded in TEI.</note>
+        <note xml:id="P-3.5-note-7" n="7" type="uncertainty" target="#P-3.5-l7" resp="#P-3.5-encoder">The middle word is tentatively uitabam; faded or disturbed ink prevents a fully secure reading. No erased prior state is asserted.</note>
+        <note xml:id="P-3.5-note-8" n="8" type="uncertainty" target="#P-3.5-l8" resp="#P-3.5-encoder">The last two words are faint and tentatively read aestus erat.</note>
+        <note xml:id="P-3.5-note-10" n="10" type="uncertainty" target="#P-3.5-l10" resp="#P-3.5-encoder">The centre-right words candida uacca are affected by faded ink and local discoloration; retained as unclear.</note>
+        <note xml:id="P-3.5-note-15" n="15" type="uncertainty" target="#P-3.5-l15" resp="#P-3.5-encoder">The first phrase is very faint; Taurus erat comes is tentative. The rest is more legible. No substitute phrase has been introduced from another witness.</note>
+        <note xml:id="P-3.5-note-16" n="16" type="uncertainty" target="#P-3.5-l16" resp="#P-3.5-encoder">The first three words are faint; Cumque sua tenerum is tentative.</note>
+        <note xml:id="P-3.5-note-17" n="17" type="uncertainty" target="#P-3.5-l17" resp="#P-3.5-encoder">Staining at the left obscures the beginning. Dum iacet is tentative; the et sign and the later words remain distinguishable. This is not identified as scribal cancellation.</note>
+        <note xml:id="P-3.5-note-18" n="18" type="uncertainty" target="#P-3.5-l18" resp="#P-3.5-encoder">Staining extends through the first phrase, tentatively Atque iterum pasto. The later pascitur ante cibo is more secure.</note>
+        <note xml:id="P-3.5-note-19" n="19" type="uncertainty" target="#P-3.5-l19" resp="#P-3.5-encoder">The beginning of this physical verse is too faint and stained to reconstruct securely. Only tentative adimente ferendi is retained from its right-hand traces. The gap describes unreadable source text, not a manuscript omission.</note>
+        <note xml:id="P-3.5-note-20" n="20" type="uncertainty" target="#P-3.5-l20" resp="#P-3.5-encoder">At the bottom of image 88 the verse beginning is unreadable in this photograph. Tentative deposuisse and clear caput remain; no familiar complete verse was used to fill the gap.</note>
+        <note xml:id="P-3.5-note-21" n="21" type="uncertainty" target="#P-3.5-l21" resp="#P-3.5-encoder">Image 89 left begins this verse. Its final auras is faint; the following poem begins beneath position 46 on the same physical page, so all 46 assigned positions belong to the extant written sequence.</note>
+        <note xml:id="P-3.5-note-22" n="22" type="uncertainty" target="#P-3.5-l22" resp="#P-3.5-encoder">Venit at the beginning is extremely faint. The et sign and later words are legible.</note>
+        <note xml:id="P-3.5-note-28" n="28" type="uncertainty" target="#P-3.5-l28" resp="#P-3.5-encoder">The opening appears to read Carpitur; its letters and the following pabulo laeta are tentative. The ending is too faint to complete. The apparent unusual reading is preserved rather than normalized.</note>
+        <note xml:id="P-3.5-note-29" n="29" type="uncertainty" target="#P-3.5-l29" resp="#P-3.5-encoder">The opening is faded beyond a secure reading. The sequence gregibus, tentative se immiscuit, and final illis remains visible.</note>
+        <note xml:id="P-3.5-note-30" n="30" type="uncertainty" target="#P-3.5-l30" resp="#P-3.5-encoder">A large dark stain and bright central hole or surface loss obscure the middle of the line. Tentative herbae felicior survives to its left; unreadable spans remain gaps. The physical feature is not treated as deliberate deletion, and its cause is not assigned.</note>
+        <note xml:id="P-3.5-note-31" n="31" type="uncertainty" target="#P-3.5-l31" resp="#P-3.5-encoder">Faint traces across the whole verse do not support a complete reading. Only tentative excussere is retained. An independent reader should re-examine the full line; no human decision is assigned by this working note.</note>
+        <note xml:id="P-3.5-note-32" n="32" type="uncertainty" target="#P-3.5-l32" resp="#P-3.5-encoder">Fading and a large dark patch at the left prevent a continuous reading. Tentative uidisse is retained amid explicit gaps.</note>
+        <note xml:id="P-3.5-note-33" n="33" type="uncertainty" target="#P-3.5-l33" resp="#P-3.5-encoder">The left portion is stained, and the remaining letters are faint. Only tentative fidem is retained; no complete sentence is reconstructed.</note>
+        <note xml:id="P-3.5-note-34" n="34" type="uncertainty" target="#P-3.5-l34" resp="#P-3.5-encoder">The left portion is obscured and most remaining letters are faint. Tentative singula is retained amid gaps.</note>
+        <note xml:id="P-3.5-note-35" n="35" type="uncertainty" target="#P-3.5-l35" resp="#P-3.5-encoder">The visible central sequence is tentatively tale est simulacrum. Both sides remain unreadable; this is a partial first-pass decipherment, not a supplied full reading.</note>
+        <note xml:id="P-3.5-note-36" n="36" type="uncertainty" target="#P-3.5-l36" resp="#P-3.5-encoder">Heavy staining and fading prevent a continuous reading. Tentative consule is the only retained word.</note>
+        <note xml:id="P-3.5-note-37" n="37" type="uncertainty" target="#P-3.5-l37" resp="#P-3.5-encoder">Dark patches obscure the left part of the verse. Tentative est and the final puella can be distinguished; intervening and preceding spans remain gaps.</note>
+        <note xml:id="P-3.5-note-38" n="38" type="uncertainty" target="#P-3.5-l38" resp="#P-3.5-encoder">The physical line was inspected at full resolution and enlarged. Its traces do not yet support a defensible continuous reading or secure complete word in this pass; a one-verse illegibility gap preserves the extant position.</note>
+        <note xml:id="P-3.5-note-39" n="39" type="uncertainty" target="#P-3.5-l39" resp="#P-3.5-encoder">Heavy dark staining obscures much of the verse and the surviving right-side ink is faint. The line is represented conservatively as illegible, not as absent.</note>
+        <note xml:id="P-3.5-note-40" n="40" type="uncertainty" target="#P-3.5-l40" resp="#P-3.5-encoder">Only tentative amore is retained from the faint right-side text. A darker angled mark nearby has no safely established function or letter reading and is not used to infer a correction.</note>
+        <note xml:id="P-3.5-note-41" n="41" type="uncertainty" target="#P-3.5-l41" resp="#P-3.5-encoder">Most left-side ink is obscured by a dark patch; the faint right-side traces do not support secure words in this pass. The extant line remains represented by a gap.</note>
+        <note xml:id="P-3.5-note-42" n="42" type="uncertainty" target="#P-3.5-l42" resp="#P-3.5-encoder">The line is visible but too stained and faint for defensible words in this first pass. A gap is retained without inferring source absence.</note>
+        <note xml:id="P-3.5-note-43" n="43" type="uncertainty" target="#P-3.5-l43" resp="#P-3.5-encoder">A large initial L is tentatively distinguishable at the left edge of the stain. The rest remains unreadable. The initial is not enough evidence to reconstruct the verse.</note>
+        <note xml:id="P-3.5-note-44" n="44" type="uncertainty" target="#P-3.5-l44" resp="#P-3.5-encoder">Only tentative diu is retained from the middle of this faded line; surrounding spans are gaps.</note>
+        <note xml:id="P-3.5-note-45" n="45" type="uncertainty" target="#P-3.5-l45" resp="#P-3.5-encoder">Dixerat is clear at the left. The subsequent interpres gelido mihi is tentative, and the right end disappears into a large dark patch. No complete verse is reconstructed.</note>
+        <note xml:id="P-3.5-note-46" n="46" type="uncertainty" target="#P-3.5-l46" resp="#P-3.5-encoder">The final verse is obscured by fading and the lower-right dark patch. Tentative oculos survives; the remaining words are gaps. The next poem has its own initial on the following physical line.</note>
+      </div>
+    </back>
+  </text>
+</TEI>

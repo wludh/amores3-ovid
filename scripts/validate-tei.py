@@ -35,13 +35,37 @@ def image_identity(url):
     return parsed.netloc.removeprefix('www.') + parsed.path.split('/full/')[0]
 
 
-def verify_image_provenance(root, witness, poem, lines, by_id):
+def verify_image_provenance(root, witness, poem, lines, by_id, ledger):
     annotations = json.loads((ROOT / 'docs/data/annotations.json').read_text(encoding='utf-8-sig'))
     manifest = json.loads((ROOT / f'docs/data/iiif-manifests/witness-{witness}.json').read_text())
     canvases = manifest.get('items') or manifest['sequences'][0]['canvases']
+    def canvas_image(canvas):
+        resource = canvas['images'][0]['resource'] if 'images' in canvas else canvas['items'][0]['items'][0]['body']
+        return image_identity(resource.get('id') or resource['@id'])
     parents = {child: parent for parent in root.iter() for child in parent}
+    corrections = {str(c['line']): c for c in ledger.get('zone_corrections', [])}
+    assert len(corrections) == len(ledger.get('zone_corrections', [])), 'Duplicate zone correction'
+    assert set(corrections) <= {line.get('n') for line in lines}, 'Zone correction lacks a verse'
+    navigation_overrides = []
     for line in lines:
         zone = by_id[line.get('facs')[1:]]
+        correction = corrections.get(line.get('n'))
+        if correction:
+            assert correction.get('reason') and correction.get('evidence'), 'Zone correction lacks independent evidence'
+            assert line.get('facs') == correction['corrected_facs'], 'Verse does not use reviewed correction'
+            assert correction['original_facs'] != correction['corrected_facs'], 'Original zone must be preserved separately'
+            original = by_id[correction['original_facs'][1:]]
+            for label, element in [('original', original), ('corrected', zone)]:
+                assert element.tag == '{%s}zone' % NS
+                assert {k: float(element.get(k)) for k in ('ulx', 'uly', 'lrx', 'lry')} == correction[label + '_bounds'], 'Zone differs from reviewed bounds'
+            corrected_surface = parents[zone]
+            while corrected_surface.tag != '{%s}surface' % NS:
+                corrected_surface = parents[corrected_surface]
+            corrected_graphic = corrected_surface.find('{%s}graphic' % NS)
+            assert image_identity(corrected_graphic.get('url')) == image_identity(correction['source_graphic']), 'Corrected zone image differs from review'
+            corrected_pages = [i + 1 for i, c in enumerate(canvases) if canvas_image(c) == image_identity(correction['source_graphic'])]
+            assert len(corrected_pages) == 1, 'Corrected image must identify one manifest canvas'
+            zone = original
         surface = parents[zone]
         while surface.tag != '{%s}surface' % NS:
             surface = parents[surface]
@@ -50,6 +74,16 @@ def verify_image_provenance(root, witness, poem, lines, by_id):
         bounds = tuple(float(zone.get(k)) for k in ('ulx', 'uly', 'lrx', 'lry'))
         matching = [a for a in annotations if a.get('witness') == witness and a.get('poem') == poem and str(a.get('lineId')) == line.get('n') and (a['x'], a['y'], a['x'] + a['width'], a['y'] + a['height']) == bounds]
         assert matching, f'Line {line.get("n")}: zone differs from original annotation evidence'
+        if correction:
+            reviewed_bounds = correction['corrected_bounds']
+            original_annotation = matching[0]
+            fields = ('page', 'x', 'y', 'width', 'height')
+            navigation_overrides.append({
+                'lineId': line.get('n'),
+                'original': {k: original_annotation[k] for k in fields},
+                'corrected': {'page': corrected_pages[0], 'x': reviewed_bounds['ulx'], 'y': reviewed_bounds['uly'],
+                              'width': reviewed_bounds['lrx'] - reviewed_bounds['ulx'], 'height': reviewed_bounds['lry'] - reviewed_bounds['uly']}
+            })
         images = []
         for annotation in matching:
             canvas = canvases[annotation['page'] - 1]
@@ -59,6 +93,7 @@ def verify_image_provenance(root, witness, poem, lines, by_id):
                 resource = canvas['items'][0]['items'][0]['body']
             images.append(image_identity(resource.get('id') or resource['@id']))
         assert image_identity(graphic.get('url')) in images, f'Line {line.get("n")}: source image does not match the annotation canvas'
+    return navigation_overrides
 
 
 def validate(witness, poem='3.7', record=None):
@@ -109,7 +144,8 @@ def validate(witness, poem='3.7', record=None):
             zone = by_id.get(line.get('facs', '')[1:])
             assert zone is not None and zone.tag == '{%s}zone' % NS, 'Missing verse image zone'
             assert float(zone.get('lrx')) > float(zone.get('ulx')) and float(zone.get('lry')) > float(zone.get('uly')), 'Invalid zone geometry'
-        verify_image_provenance(root, witness, poem, lines, by_id)
+        overrides = verify_image_provenance(root, witness, poem, lines, by_id, ledger)
+        assert record.get('navigation_overrides', []) == overrides, 'Published navigation differs from reviewed TEI zones'
     if absent:
         gaps = [g for g in root.iter('{%s}gap' % NS) if g.get('unit') == 'line' and g.get('reason') == 'not-transmitted']
         assert sum(int(g.get('quantity', '0')) for g in gaps) == len(absent), 'Missing explicit absent extent'

@@ -1,0 +1,309 @@
+{
+  "witness": "P",
+  "poem": "3.4",
+  "date": "2026-09-09",
+  "author_agent": "/root/encode_p",
+  "reviewer_agent": "/root/review_y",
+  "reviewer": "OpenAI Codex independent review_y agent",
+  "review_type": "independent-second-agent-image-and-encoding-review",
+  "human_approved": false,
+  "line_coverage": {
+    "count": 48,
+    "ranges": [
+      {
+        "image": 87,
+        "page_position": "right",
+        "start": 1,
+        "end": 12
+      },
+      {
+        "image": 88,
+        "page_position": "left",
+        "start": 13,
+        "end": 40
+      },
+      {
+        "image": 88,
+        "page_position": "right",
+        "start": 41,
+        "end": 48
+      }
+    ]
+  },
+  "line_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48
+  ],
+  "counts": {
+    "resolved": 4,
+    "documented-uncertainty": 12,
+    "escalate": 0
+  },
+  "previous_note_count": 16,
+  "notes": [
+    {
+      "note_id": "P-3.4-note-1",
+      "line": 1,
+      "target": "#P-3.4-l1",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f87/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The four-line marginal heading and enlarged D are visible. VIRUM remains faint; the nasal mark over TE supports the expansion TEM in SERUANTEM. Word continuity through the title line breaks is preserved."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.4-note-2",
+      "line": 2,
+      "target": "#P-3.4-l2",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f87/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The middle of ingenio is faint but compatible with the tentative sequence. Retain unclear; no earlier reading is recoverable."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.4-note-3",
+      "line": 3,
+      "target": "#P-3.4-l3",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f87/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The selected et signs are visible in metu and the later encoded positions; declared glyphs and expansions are supported."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.4-note-5",
+      "line": 5,
+      "target": "#P-3.4-l5",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f87/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "Bene corpus remains substantially faded. The tentative phrase is not secure enough to remove unclear, and the photograph does not prove erasure."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.4-note-6",
+      "line": 6,
+      "target": "#P-3.4-l6",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f87/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The source reads ne uelit following custodiri; no silent syntax correction is made."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.4-note-12",
+      "line": 12,
+      "target": "#P-3.4-l12",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f87/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "Obsequio uinces at12 and equum contra sua uincla tenacem at13 remain faint but compatible with the provisional text. Both retain local uncertainty."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.4-note-15",
+      "line": 15,
+      "target": "#P-3.4-l15",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f88/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The faint opening supports provisional Constitit ut; later concessas sensit habenas is more legible. Retain the local caution."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.4-note-24",
+      "line": 24,
+      "target": "#P-3.4-l24",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f88/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The source writes iuuenis, with final is; the spelling is preserved."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.4-note-25",
+      "line": 25,
+      "target": "#P-3.4-l25",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f88/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "Seruatur and next-line Cura uocat remain faded after enlargement. No confidently different sequence is supported."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.4-note-28",
+      "line": 28,
+      "target": "#P-3.4-l28",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f88/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The opening Nescioquid and next-line fit quam uir seruat remain plausible provisional readings rather than secure text."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.4-note-32",
+      "line": 32,
+      "target": "#P-3.4-l32",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f88/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The ending siqua potest is compatible with the faint traces but not secure throughout. Retain unclear."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.4-note-34",
+      "line": 34,
+      "target": "#P-3.4-l34",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f88/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "Extensive fading affects externae corpora gentis at34 and ego dicere feci at35. The full36 is compatible with In laudem serui casta sit illa tui but remains tentative; keep the whole line locally unclear."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.4-note-37",
+      "line": 37,
+      "target": "#P-3.4-l37",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f88/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The end of37 and middle/end of39 remain too faint for certainty. The first name after Romulus at40 is less securely legible than the author note suggested; it is now explicitly unclear rather than silently accepted."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.4-note-40",
+      "line": 40,
+      "target": "#P-3.4-l40",
+      "status": "documented-uncertainty",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f88/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The curved B-like marginal sign is visible with unknown function. The first iliades in the verse has a discernible ili- beginning but poorly separated later strokes; its full reading is now qualified. The following iliadesque remus is more legible."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.4-note-41",
+      "line": 41,
+      "target": "#P-3.4-l41",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f88/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "Quo tibi and next-line Non possunt remain faded near the right-page gutter. Page position and break before41 are confirmed from the opening."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    },
+    {
+      "note_id": "P-3.4-note-48",
+      "line": 48,
+      "target": "#P-3.4-l48",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f88/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The next poem begins Nox erat immediately after48, confirming the observed boundary and complete48-line coverage."
+      },
+      "change": "Independently checked source and retained conservative encoding."
+    }
+  ],
+  "validation": {
+    "schema": "docs/schema/tei_all-4.12.0.rng",
+    "schema_result": "passed xmllint Relax NG",
+    "verse_lines": 48,
+    "facsimile_zones": 48,
+    "unique_ids": true,
+    "local_references_resolve": true
+  },
+  "reviewed_candidate_sha256": "a1bfc741890597f356d5990d11badbc37141fd6222e12f145f0ad1b2fcf39eb4",
+  "review_report_sha256": "f5f1215cc6b93ec96425637d2cee74dedbae1f032cf8eb3010cb6beac5b6b284"
+}

@@ -100,8 +100,8 @@
     "Y-3.1-l70"
   ],
   "counts": {
-    "resolved": 22,
-    "documented-uncertainty": 19,
+    "resolved": 23,
+    "documented-uncertainty": 18,
     "escalate": 0
   },
   "previous_review_note_count": 8,
@@ -681,15 +681,15 @@
       "line": 67,
       "target": "#Y-3.1-l67",
       "previous_type": "second-pass-addition",
-      "status": "documented-uncertainty",
+      "status": "resolved",
       "evidence": {
         "page": "59r",
-        "assessment": "The existing annotation rectangle for this verse points to the next poem opening. The verse itself was independently verified from the first text line of folio 59r. The original coordinates are preserved pending a separate navigation correction; they do not support the reading of this verse.",
+        "assessment": "The supplied annotation rectangle points to the next poem opening. Independent reinspection verifies this verse on the first text line of folio 59r and establishes a corrected TEI zone (125,265)–(1530,370), now linked from this verse. Original zone (103,536)–(1460,622) is preserved as provenance; annotations.json is unchanged.",
         "image": "/tmp/amores-y31-33/121.jpg",
         "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0121/full/full/0/default.jpg",
         "crop": "/tmp/amores-y31-33/121-part1.png"
       },
-      "change": "Retained the locally qualified source feature; no unsupported corrected reading or human task."
+      "change": "Source reading or feature confirmed; applied the documented correction where required."
     },
     {
       "note_id": "Y-3.1-note-69",
@@ -722,6 +722,29 @@
       "change": "Source reading or feature confirmed; applied the documented correction where required."
     }
   ],
-  "reviewed_candidate_sha256": "41b811f3383d112d928ce8e066272118fc8cf67d7fa6becb8ccc14baf499a747",
-  "review_report_sha256": "0b83d41f437404e41d1932a6e710f0ffbb6dfb731e2709a05231788695fff231"
+  "reviewed_candidate_sha256": "a8da07f63b63e946b1e8476c08f9cc65c5659d06aca2999623b80bddbee3e058",
+  "review_report_sha256": "4250c5bb34a0b3ca5169be14968b0289532631f9d5e67934d57f96fa61ca85ed",
+  "zone_corrections": [
+    {
+      "line": "67",
+      "original_facs": "#Y-3.1-zone-67",
+      "corrected_facs": "#Y-3.1-zone-67-corrected",
+      "original_bounds": {
+        "ulx": 103,
+        "uly": 536,
+        "lrx": 1460,
+        "lry": 622
+      },
+      "corrected_bounds": {
+        "ulx": 125,
+        "uly": 265,
+        "lrx": 1530,
+        "lry": 370
+      },
+      "source_graphic": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0121/full/full/0/default.jpg",
+      "reason": "Supplied zone encloses the first verse of3.2; corrected zone encloses actual3.1.67 at top of59r.",
+      "evidence": "Independently reinspected full source image and corrected crop /tmp/amores-y31-review/67-corrected.png; text reads Exiguum uati concede tragoedia tempus. Original annotation unchanged."
+    }
+  ],
+  "reviewed_xml_sha256": "272627d290697fa9ef34db80133a77cb1b973a2523f4300de0e54ee48837a051"
 }

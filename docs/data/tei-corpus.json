@@ -7,8 +7,8 @@
       "witness": "P",
       "poem": "3.1",
       "canonical_line_count": 70,
-      "status": "in-review",
-      "path": null,
+      "status": "reviewed",
+      "path": "data/tei/P/3.1.xml",
       "review_path": "scripts/output/P-3.1-review.json",
       "report_path": "scripts/output/P-3.1-second-pass.md",
       "absent_lines": [],
@@ -90,15 +90,14 @@
           84,
           85
         ]
-      },
-      "candidate_path": "scripts/output/P-3.1.xml"
+      }
     },
     {
       "witness": "Y",
       "poem": "3.1",
       "canonical_line_count": 70,
-      "status": "in-review",
-      "path": null,
+      "status": "reviewed",
+      "path": "data/tei/Y/3.1.xml",
       "review_path": "scripts/output/Y-3.1-review.json",
       "report_path": "scripts/output/Y-3.1-second-pass.md",
       "absent_lines": [],
@@ -182,7 +181,25 @@
           121
         ]
       },
-      "candidate_path": "scripts/output/Y-3.1.xml"
+      "navigation_overrides": [
+        {
+          "lineId": "67",
+          "original": {
+            "page": 121,
+            "x": 103,
+            "y": 536,
+            "width": 1357,
+            "height": 86
+          },
+          "corrected": {
+            "page": 121,
+            "x": 125,
+            "y": 265,
+            "width": 1405,
+            "height": 105
+          }
+        }
+      ]
     },
     {
       "witness": "S",
@@ -278,8 +295,8 @@
       "witness": "O",
       "poem": "3.1",
       "canonical_line_count": 70,
-      "status": "in-review",
-      "path": null,
+      "status": "reviewed",
+      "path": "data/tei/O/3.1.xml",
       "review_path": "scripts/output/O-3.1-review.json",
       "report_path": "scripts/output/O-3.1-second-pass.md",
       "absent_lines": [],
@@ -362,15 +379,14 @@
           94,
           95
         ]
-      },
-      "candidate_path": "scripts/output/O-3.1.xml"
+      }
     },
     {
       "witness": "LL",
       "poem": "3.1",
       "canonical_line_count": 70,
-      "status": "in-review",
-      "path": null,
+      "status": "reviewed",
+      "path": "data/tei/LL/3.1.xml",
       "review_path": "scripts/output/LL-3.1-review.json",
       "report_path": "scripts/output/LL-3.1-second-pass.md",
       "absent_lines": [],
@@ -378,15 +394,14 @@
         "rows": 0,
         "line_ids": [],
         "viewer_pages": []
-      },
-      "candidate_path": "scripts/output/LL-3.1.xml"
+      }
     },
     {
       "witness": "P",
       "poem": "3.2",
       "canonical_line_count": 84,
-      "status": "first-pass",
-      "path": null,
+      "status": "reviewed",
+      "path": "data/tei/P/3.2.xml",
       "review_path": "scripts/output/P-3.2-review.json",
       "report_path": "scripts/output/P-3.2-second-pass.md",
       "absent_lines": [],
@@ -482,8 +497,7 @@
           85,
           86
         ]
-      },
-      "candidate_path": "scripts/output/P-3.2.xml"
+      }
     },
     {
       "witness": "Y",
@@ -593,8 +607,8 @@
       "witness": "S",
       "poem": "3.2",
       "canonical_line_count": 84,
-      "status": "pending",
-      "path": null,
+      "status": "reviewed",
+      "path": "data/tei/S/3.2.xml",
       "review_path": "scripts/output/S-3.2-review.json",
       "report_path": "scripts/output/S-3.2-second-pass.md",
       "absent_lines": [],
@@ -801,8 +815,8 @@
       "witness": "LL",
       "poem": "3.2",
       "canonical_line_count": 84,
-      "status": "in-review",
-      "path": null,
+      "status": "reviewed",
+      "path": "data/tei/LL/3.2.xml",
       "review_path": "scripts/output/LL-3.2-review.json",
       "report_path": "scripts/output/LL-3.2-second-pass.md",
       "absent_lines": [],
@@ -810,15 +824,14 @@
         "rows": 0,
         "line_ids": [],
         "viewer_pages": []
-      },
-      "candidate_path": "scripts/output/LL-3.2.xml"
+      }
     },
     {
       "witness": "P",
       "poem": "3.3",
       "canonical_line_count": 48,
-      "status": "first-pass",
-      "path": null,
+      "status": "reviewed",
+      "path": "data/tei/P/3.3.xml",
       "review_path": "scripts/output/P-3.3-review.json",
       "report_path": "scripts/output/P-3.3-second-pass.md",
       "absent_lines": [],
@@ -878,8 +891,7 @@
           86,
           87
         ]
-      },
-      "candidate_path": "scripts/output/P-3.3.xml"
+      }
     },
     {
       "witness": "Y",
@@ -1086,8 +1098,8 @@
       "witness": "LL",
       "poem": "3.3",
       "canonical_line_count": 48,
-      "status": "in-review",
-      "path": null,
+      "status": "reviewed",
+      "path": "data/tei/LL/3.3.xml",
       "review_path": "scripts/output/LL-3.3-review.json",
       "report_path": "scripts/output/LL-3.3-second-pass.md",
       "absent_lines": [],
@@ -1095,8 +1107,7 @@
         "rows": 0,
         "line_ids": [],
         "viewer_pages": []
-      },
-      "candidate_path": "scripts/output/LL-3.3.xml"
+      }
     },
     {
       "witness": "P",
@@ -1370,8 +1381,8 @@
       "witness": "LL",
       "poem": "3.4",
       "canonical_line_count": 48,
-      "status": "in-review",
-      "path": null,
+      "status": "reviewed",
+      "path": "data/tei/LL/3.4.xml",
       "review_path": "scripts/output/LL-3.4-review.json",
       "report_path": "scripts/output/LL-3.4-second-pass.md",
       "absent_lines": [],
@@ -1379,8 +1390,7 @@
         "rows": 0,
         "line_ids": [],
         "viewer_pages": []
-      },
-      "candidate_path": "scripts/output/LL-3.4.xml"
+      }
     },
     {
       "witness": "P",
@@ -1646,8 +1656,8 @@
       "witness": "LL",
       "poem": "3.5",
       "canonical_line_count": 46,
-      "status": "in-review",
-      "path": null,
+      "status": "reviewed",
+      "path": "data/tei/LL/3.5.xml",
       "review_path": "scripts/output/LL-3.5-review.json",
       "report_path": "scripts/output/LL-3.5-second-pass.md",
       "absent_lines": [],
@@ -1655,8 +1665,7 @@
         "rows": 0,
         "line_ids": [],
         "viewer_pages": []
-      },
-      "candidate_path": "scripts/output/LL-3.5.xml"
+      }
     },
     {
       "witness": "P",
@@ -2169,8 +2178,8 @@
       "witness": "LL",
       "poem": "3.6",
       "canonical_line_count": 106,
-      "status": "in-review",
-      "path": null,
+      "status": "reviewed",
+      "path": "data/tei/LL/3.6.xml",
       "review_path": "scripts/output/LL-3.6-review.json",
       "report_path": "scripts/output/LL-3.6-second-pass.md",
       "absent_lines": [],
@@ -2178,8 +2187,7 @@
         "rows": 0,
         "line_ids": [],
         "viewer_pages": []
-      },
-      "candidate_path": "scripts/output/LL-3.6.xml"
+      }
     },
     {
       "witness": "P",
@@ -2888,8 +2896,8 @@
       "witness": "LL",
       "poem": "3.8",
       "canonical_line_count": 66,
-      "status": "in-review",
-      "path": null,
+      "status": "reviewed",
+      "path": "data/tei/LL/3.8.xml",
       "review_path": "scripts/output/LL-3.8-review.json",
       "report_path": "scripts/output/LL-3.8-second-pass.md",
       "absent_lines": [],
@@ -2897,8 +2905,7 @@
         "rows": 0,
         "line_ids": [],
         "viewer_pages": []
-      },
-      "candidate_path": "scripts/output/LL-3.8.xml"
+      }
     },
     {
       "witness": "P",
@@ -3181,8 +3188,8 @@
       "witness": "LL",
       "poem": "3.9",
       "canonical_line_count": 68,
-      "status": "in-review",
-      "path": null,
+      "status": "reviewed",
+      "path": "data/tei/LL/3.9.xml",
       "review_path": "scripts/output/LL-3.9-review.json",
       "report_path": "scripts/output/LL-3.9-second-pass.md",
       "absent_lines": [],
@@ -3190,8 +3197,7 @@
         "rows": 0,
         "line_ids": [],
         "viewer_pages": []
-      },
-      "candidate_path": "scripts/output/LL-3.9.xml"
+      }
     },
     {
       "witness": "P",
@@ -3414,8 +3420,8 @@
       "witness": "LL",
       "poem": "3.10",
       "canonical_line_count": 48,
-      "status": "in-review",
-      "path": null,
+      "status": "reviewed",
+      "path": "data/tei/LL/3.10.xml",
       "review_path": "scripts/output/LL-3.10-review.json",
       "report_path": "scripts/output/LL-3.10-second-pass.md",
       "absent_lines": [],
@@ -3423,8 +3429,7 @@
         "rows": 0,
         "line_ids": [],
         "viewer_pages": []
-      },
-      "candidate_path": "scripts/output/LL-3.10.xml"
+      }
     },
     {
       "witness": "P",
@@ -3659,8 +3664,8 @@
       "witness": "LL",
       "poem": "3.11",
       "canonical_line_count": 52,
-      "status": "in-review",
-      "path": null,
+      "status": "reviewed",
+      "path": "data/tei/LL/3.11.xml",
       "review_path": "scripts/output/LL-3.11-review.json",
       "report_path": "scripts/output/LL-3.11-second-pass.md",
       "absent_lines": [],
@@ -3668,8 +3673,7 @@
         "rows": 0,
         "line_ids": [],
         "viewer_pages": []
-      },
-      "candidate_path": "scripts/output/LL-3.11.xml"
+      }
     },
     {
       "witness": "P",
@@ -3857,8 +3861,8 @@
       "witness": "LL",
       "poem": "3.12",
       "canonical_line_count": 44,
-      "status": "in-review",
-      "path": null,
+      "status": "reviewed",
+      "path": "data/tei/LL/3.12.xml",
       "review_path": "scripts/output/LL-3.12-review.json",
       "report_path": "scripts/output/LL-3.12-second-pass.md",
       "absent_lines": [],
@@ -3866,8 +3870,7 @@
         "rows": 0,
         "line_ids": [],
         "viewer_pages": []
-      },
-      "candidate_path": "scripts/output/LL-3.12.xml"
+      }
     },
     {
       "witness": "P",
@@ -4013,8 +4016,8 @@
       "witness": "LL",
       "poem": "3.13",
       "canonical_line_count": 36,
-      "status": "in-review",
-      "path": null,
+      "status": "reviewed",
+      "path": "data/tei/LL/3.13.xml",
       "review_path": "scripts/output/LL-3.13-review.json",
       "report_path": "scripts/output/LL-3.13-second-pass.md",
       "absent_lines": [],
@@ -4022,8 +4025,7 @@
         "rows": 0,
         "line_ids": [],
         "viewer_pages": []
-      },
-      "candidate_path": "scripts/output/LL-3.13.xml"
+      }
     },
     {
       "witness": "P",
@@ -4251,8 +4253,8 @@
       "witness": "LL",
       "poem": "3.14",
       "canonical_line_count": 50,
-      "status": "in-review",
-      "path": null,
+      "status": "reviewed",
+      "path": "data/tei/LL/3.14.xml",
       "review_path": "scripts/output/LL-3.14-review.json",
       "report_path": "scripts/output/LL-3.14-second-pass.md",
       "absent_lines": [],
@@ -4260,8 +4262,7 @@
         "rows": 0,
         "line_ids": [],
         "viewer_pages": []
-      },
-      "candidate_path": "scripts/output/LL-3.14.xml"
+      }
     },
     {
       "witness": "P",
@@ -4398,8 +4399,8 @@
       "witness": "LL",
       "poem": "3.15",
       "canonical_line_count": 20,
-      "status": "in-review",
-      "path": null,
+      "status": "reviewed",
+      "path": "data/tei/LL/3.15.xml",
       "review_path": "scripts/output/LL-3.15-review.json",
       "report_path": "scripts/output/LL-3.15-second-pass.md",
       "absent_lines": [],
@@ -4407,8 +4408,7 @@
         "rows": 0,
         "line_ids": [],
         "viewer_pages": []
-      },
-      "candidate_path": "scripts/output/LL-3.15.xml"
+      }
     }
   ]
 }

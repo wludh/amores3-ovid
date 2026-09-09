@@ -105,5 +105,6 @@
     "facs_required": false
   },
   "reviewed_candidate_sha256": "61a8754a71e01758ff11b04bbb99b14d75caa55793b1b6150b93cf2ef59da2bb",
-  "review_report_sha256": "90f1c34d849320d93c0b6279121bb53c8d36f7f1bc0d0caac4c8d22a353dda1f"
+  "review_report_sha256": "90f1c34d849320d93c0b6279121bb53c8d36f7f1bc0d0caac4c8d22a353dda1f",
+  "reviewed_xml_sha256": "aa62d34d831408369733f1d1283f197f40e518740fe0f0cd3485e854b0164d45"
 }
