@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../docs/schema/tei_all-4.12.0.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="P" xml:id="P">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title>Ovid, Amores 3.15: witness P — independently source-reviewed</title>
+        <author>Publius Ovidius Naso</author>
+        <respStmt xml:id="P-3.15-encoder">
+          <resp>First-pass image transcription and TEI encoding</resp>
+          <name>OpenAI Codex</name>
+        </respStmt>
+      <respStmt xml:id="P-3.15-reviewer"><resp>Independent second reading of all eight source rows, notes, layout and terminal boundary</resp><name>OpenAI Codex independent encode_s agent</name></respStmt></titleStmt>
+      <publicationStmt>
+        <p>Amores Project local working transcription, 9 September 2026. Independently reviewed by a second source reader; not human-approved.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="P-3.15-manuscript">
+          <msIdentifier>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France, Département des Manuscrits</repository>
+            <idno>Latin 8242</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus>Gallica digital images 99, 100, 101; left/right positions identify physical pages in the photographed openings, not asserted medieval foliation.</locus>
+              <title>Amores 3.15</title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <handDesc>
+              <handNote>Main text and any darker interventions are distinguished where observed. No individual historical correcting hands are inferred from tonal contrast in monochrome photographs.</handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <p>The supplied BnF IIIF manifest dates the manuscript to 1001–1100. The catalogue dating is not a date assigned to individual interventions.</p>
+            </origin>
+          </history>
+          <additional>
+            <surrogates>
+              <p><ref target="https://gallica.bnf.fr/ark:/12148/btv1b9066797j">BnF Gallica Latin 8242</ref></p>
+              <p>The original full-resolution digital images and enlarged crops were inspected for this first pass. Gallica source reuse conditions apply. No text was populated from LL or another witness.</p>
+            <p><ref target="https://libsysdigi.library.illinois.edu/ilharvest/OtherCDM/chatem0001paldes/chatem0001paldes_v00002/chatem0001paldes_v00002_opt.pdf">Émile Chatelain, Paléographie des classiques latins II, plate XCI notice, PDF fifth page (zero-based 4): surviving Amores ends at 3.15.8. Used for source-coverage corroboration, not supplied verse text.</ref></p></surrogates>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Source-grounded first reading of all eight surviving verses of 3.15. A source-confirmed terminal gap represents canonical positions 9–20. Their twelve overlapping saved rectangles remain facsimile provenance but do not establish twelve additional written verses. Every surviving row, the terminal boundary and all evidence notes have received an independent second reading.</p>
+      </projectDesc>
+      <editorialDecl>
+        <correction>
+          <p>No silent emendation from an edition or another witness. Local uncertain letters use unclear, irrecoverable text or signs use gap. Observed above-line letters use add. Tonal distinctions use hi without an invented underlying erased text or historical hand. Manuscript annotations use note type manuscript, distinct from editorial evidence notes.</p>
+        </correction>
+        <normalization>
+          <p>One source-oriented display. Ordinary allographs, long s, and capitals are represented in legible Latin types. Word boundaries are editorially segmented; no indentation whitespace is inserted inside verse mixed content. Selected ligatures and abbreviation signs are declared typographic approximations; explicit expansions remain in TEI rather than a separate reading mode. This is not a facsimile-perfect inventory of every minute stroke.</p>
+        </normalization>
+        <punctuation>
+          <p>Significant observed punctuation is retained schematically, without adding systematic modern sentence punctuation.</p>
+        </punctuation>
+        <segmentation>
+          <p>Eight l elements represent the eight actual surviving written rows. Canonical positions 9–20 are represented by a single explicit terminal gap, not invented line containers. Original zones 1–20 are preserved unchanged; only 1–8 are used by verse text, while the duplicate lower-page zones 9–20 remain provenance. Full-page source inspection supports modest alternating offsets at the four surviving even-line starts. Couplets are editorial grouping. Mixed-content verse text contains no formatting newlines.</p>
+        </segmentation>
+        <interpretation>
+          <p>The companion independent-review ledger records dispositions for every note. Image uncertainty remains documented locally rather than assigned to the human editor.</p>
+        </interpretation>
+      </editorialDecl>
+      <charDecl>
+        <char xml:id="P-3.15-et">
+          <desc>ET LIGATURE, SCHEMATIC TYPE REPRESENTATION</desc>
+          <mapping type="display">&amp;</mapping>
+          <mapping type="expansion">et</mapping>
+        </char>
+      </charDecl>
+    </encodingDesc>
+    <revisionDesc status="agent-reviewed"><change when="2026-09-10" who="#P-3.15-reviewer">Independently inspected every surviving row in full-page and enlarged source context, all nine evidence notes, the terminal inscription, all following photographed material through image 101, and Chatelain’s direct manuscript description. Retained qualified source readings and original zones; confirmed the terminal absence 9–20.</change>
+      <change when="2026-09-09" who="#P-3.15-encoder">Completed first reading from source images and enlarged crops, with line coverage and evidence notes. Independent second reading not yet performed.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="image 99" xml:id="P-3.15-image-99" ulx="0" uly="0" lrx="5814" lry="3969">
+      <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f99/full/full/0/native.jpg" />
+      <zone xml:id="P-3.15-zone-1" ulx="527" uly="2393" lrx="2368" lry="2715" />
+      <zone xml:id="P-3.15-zone-2" ulx="524" uly="2491" lrx="2241" lry="2789" />
+      <zone xml:id="P-3.15-zone-3" ulx="525" uly="2593" lrx="2316" lry="2883" />
+      <zone xml:id="P-3.15-zone-4" ulx="526" uly="2686" lrx="2122" lry="2994" />
+      <zone xml:id="P-3.15-zone-5" ulx="498" uly="2796" lrx="2232" lry="3115" />
+      <zone xml:id="P-3.15-zone-6" ulx="507" uly="2908" lrx="2213" lry="3214" />
+      <zone xml:id="P-3.15-zone-7" ulx="479" uly="2992" lrx="2269" lry="3332" />
+      <zone xml:id="P-3.15-zone-8" ulx="420" uly="3095" lrx="2529" lry="3428" />
+      <zone xml:id="P-3.15-zone-9" ulx="434" uly="3284" lrx="2235" lry="3573" />
+      <zone xml:id="P-3.15-zone-10" ulx="494" uly="3283" lrx="2285" lry="3593" />
+      <zone xml:id="P-3.15-zone-11" ulx="404" uly="3284" lrx="2182" lry="3604" />
+      <zone xml:id="P-3.15-zone-12" ulx="358" uly="3303" lrx="2254" lry="3578" />
+      <zone xml:id="P-3.15-zone-13" ulx="366" uly="3283" lrx="2246" lry="3598" />
+      <zone xml:id="P-3.15-zone-14" ulx="396" uly="3269" lrx="2240" lry="3597" />
+      <zone xml:id="P-3.15-zone-15" ulx="418" uly="3303" lrx="2255" lry="3600" />
+      <zone xml:id="P-3.15-zone-16" ulx="292" uly="3291" lrx="2188" lry="3598" />
+      <zone xml:id="P-3.15-zone-17" ulx="337" uly="3234" lrx="2264" lry="3605" />
+      <zone xml:id="P-3.15-zone-18" ulx="300" uly="3261" lrx="2254" lry="3594" />
+      <zone xml:id="P-3.15-zone-19" ulx="243" uly="3248" lrx="2344" lry="3625" />
+      <zone xml:id="P-3.15-zone-20" ulx="281" uly="3296" lrx="2391" lry="3641" />
+    </surface>
+    <surface n="image 100" xml:id="P-3.15-image-100" ulx="0" uly="0" lrx="5810" lry="3968">
+      <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f100/full/full/0/native.jpg" />
+    </surface>
+    <surface n="image 101" xml:id="P-3.15-image-101" ulx="0" uly="0" lrx="5824" lry="3970">
+      <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f101/full/full/0/native.jpg" />
+    </surface>
+  </facsimile>
+  <text xml:lang="la">
+    <body>
+      <div type="poem" n="3.15" xml:id="P-3.15">
+        <lg type="couplet" n="1">
+          <pb n="image 99, left" facs="#P-3.15-image-99" />
+          <l n="1" xml:id="P-3.15-l1" facs="#P-3.15-zone-1"><hi rend="large-initial">Q</hi><unclear>uere nouum uatem</unclear> tenerorum <unclear>mater amorum</unclear></l>
+          <l n="2" xml:id="P-3.15-l2" facs="#P-3.15-zone-2" rend="indent"><unclear>Raditur hic elegis</unclear> ultima meta meis</l>
+        </lg>
+        <lg type="couplet" n="2">
+          <l n="3" xml:id="P-3.15-l3" facs="#P-3.15-zone-3"><unclear>Quos ego conposui</unclear> <gap reason="illegible" extent="unknown" unit="character" /> <unclear>natus aquosis</unclear></l>
+          <l n="4" xml:id="P-3.15-l4" facs="#P-3.15-zone-4" rend="indent"><unclear>Ille ego</unclear> <gap reason="illegible" extent="unknown" unit="character" /> <unclear>naso poeta mee</unclear></l>
+        </lg>
+        <lg type="couplet" n="3">
+          <l n="5" xml:id="P-3.15-l5" facs="#P-3.15-zone-5"><hi rend="large-initial">S</hi>i quid id est <unclear>usque a proauis</unclear> <gap reason="illegible" extent="unknown" unit="character" /></l>
+          <l n="6" xml:id="P-3.15-l6" facs="#P-3.15-zone-6" rend="indent">Non <gap reason="illegible" extent="unknown" unit="character" /> <unclear>turbine</unclear> factus eques</l>
+        </lg>
+        <lg type="couplet" n="4">
+          <l n="7" xml:id="P-3.15-l7" facs="#P-3.15-zone-7"><unclear>Mantua</unclear> uirgilio gaudet <unclear>uerona catullo</unclear></l>
+          <l n="8" xml:id="P-3.15-l8" facs="#P-3.15-zone-8" rend="indent"><unclear>Peligna dicar gloria gentis ego</unclear></l>
+        </lg>
+      <note type="manuscript" place="bottom" xml:id="P-3.15-terminal-inscription" facs="#P-3.15-image-99">Desunt aliquot <unclear>uersus</unclear></note><gap reason="not-transmitted" quantity="12" unit="line" xml:id="P-3.15-terminal-gap" facs="#P-3.15-image-99 #P-3.15-image-100 #P-3.15-image-101"><desc>Canonical verses 9–20 are not transmitted after the eight surviving written rows. The lower page carries Desunt aliquot uersus; the subsequent photographed material contains later notes, French prose, blank binding material and the final FIN card. Chatelain’s plate XCI notice independently identifies 3.15.8 as the endpoint. Saved rectangles 9–20 overlap the same lower-page inscription and blank area, and remain unused provenance rather than verse locations. No missing text, original leaf count, historical cause or date is supplied.</desc></gap></div>
+    </body>
+    <back>
+      <div type="editorial-notes">
+        <head>Independently reviewed source notes</head>
+        <note xml:id="P-3.15-note-1" n="1" type="uncertainty" target="#P-3.15-l1" resp="#P-3.15-reviewer">The large Q establishes the new poem below 3.14.50. The stained uere nouum uatem group and pale mater amorum remain qualified; tenerorum can be followed. The full page supports eight written rows through the final Peligna row.</note>
+        <note xml:id="P-3.15-note-2" n="2" type="uncertainty" target="#P-3.15-l2" resp="#P-3.15-reviewer">The opening Raditur hic elegis remains tentative beneath the stain and crossing marks. Ultima meta meis is supported. The actual start is modestly inset in full-page context.</note>
+        <note xml:id="P-3.15-note-3" n="3" type="uncertainty" target="#P-3.15-l3" resp="#P-3.15-reviewer">The source supports only provisional Quos ego conposui and natus aquosis around the obscured middle. No place-name can be securely recovered; the central gap remains.</note>
+        <note xml:id="P-3.15-note-4" n="4" type="uncertainty" target="#P-3.15-l4" resp="#P-3.15-reviewer">Ille ego and naso poeta mee remain tentative groups on either side of heavy obscuration. The middle is not reconstructed, and the visible start supports its inset.</note>
+        <note xml:id="P-3.15-note-5" n="5" type="uncertainty" target="#P-3.15-l5" resp="#P-3.15-reviewer">The large S and Si quid id est are visible. Usque a proauis remains a qualified reading; the pale ending is not defensibly recoverable. No additional text is supplied.</note>
+        <note xml:id="P-3.15-note-6" n="6" type="uncertainty" target="#P-3.15-l6" resp="#P-3.15-reviewer">Non is visible before the obscured span. Turbine remains tentative; factus eques is supported. The source inset is visible despite damage after the opening.</note>
+        <note xml:id="P-3.15-note-7" n="7" type="uncertainty" target="#P-3.15-l7" resp="#P-3.15-reviewer">The photograph supports uirgilio gaudet. Mantua and uerona catullo remain weaker and qualified; no normalization of those source spellings is made.</note>
+        <note xml:id="P-3.15-note-8" n="8" type="uncertainty" target="#P-3.15-l8" resp="#P-3.15-reviewer">The eighth and final verse is very pale; Peligna dicar gloria gentis ego remains wholly qualified. The later bottom inscription has clear Desunt aliquot and a compact uersus ending whose final strokes do not securely distinguish ordinary small letters from contraction; its local uncertainty is retained. Full image 99 right contains later scholarly notes, image 100 French prose and blank binding material, and image 101 the FIN card. No further continuous Amores verse text is present. Chatelain plate XCI notice 1 independently records endpoint 3.15.8.</note>
+      <note type="observation" n="9" target="#P-3.15-terminal-gap" resp="#P-3.15-reviewer" xml:id="P-3.15-note-9">The twelve original rectangles 9–20 repeatedly encompass the bottom inscription and surrounding blank space; they do not identify twelve further verse rows. The actual eight-row endpoint, following photographed material through the manifest final canvas 101, and Chatelain’s explicit 3.15.8 endpoint independently establish canonical absence 9–20. Original rectangles remain unchanged and unused; no replacement zones, missing wording, original leaf count, cause or date of loss are invented.</note></div>
+    </back>
+  </text>
+</TEI>

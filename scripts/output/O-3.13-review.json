@@ -1,0 +1,310 @@
+{
+  "witness": "O",
+  "poem": "3.13",
+  "date": "2026-09-10",
+  "author_agent": "/root",
+  "reviewer_agent": "/root/review_y",
+  "reviewer": "OpenAI Codex independent review_y agent",
+  "review_type": "independent-second-agent-image-and-encoding-review",
+  "human_approved": false,
+  "line_coverage": {
+    "count": 36,
+    "ranges": [
+      {
+        "image": 114,
+        "printed_page": 66,
+        "page_position": "printed page 66",
+        "start": 1,
+        "end": 20
+      },
+      {
+        "image": 115,
+        "printed_page": 67,
+        "page_position": "printed page 67",
+        "start": 21,
+        "end": 36
+      }
+    ]
+  },
+  "line_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36
+  ],
+  "counts": {
+    "resolved": 17,
+    "documented-uncertainty": 0,
+    "escalate": 0
+  },
+  "previous_note_count": 17,
+  "notes": [
+    {
+      "note_id": "O-3.13-note-1",
+      "line": 1,
+      "target": "#O-3.13-l1",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0118.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 66",
+        "assessment": "Heading XIII. precedes Cum; Faliscis is clear at the end. The actual insets continue across the page boundary."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.13-note-2",
+      "line": 2,
+      "target": "#O-3.13-l2",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0118.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 66",
+        "assessment": "The enlarged line reads Moenia contigimus victa, Camille, tibi.; both commas around Camille are present."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.13-note-4",
+      "line": 4,
+      "target": "#O-3.13-l4",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0118.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 66",
+        "assessment": "Indigenamque bovem ends with a colon."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.13-note-6",
+      "line": 6,
+      "target": "#O-3.13-l6",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0118.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 66",
+        "assessment": "Clivis is the visible printed word between Difficilis and huc."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.13-note-7",
+      "line": 7,
+      "target": "#O-3.13-l7",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0118.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 66",
+        "assessment": "The print has praenubilus, with final semicolon after lucus."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.13-note-8",
+      "line": 8,
+      "target": "#O-3.13-l8",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0118.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 66",
+        "assessment": "Adspice has ds and a following colon; loco has semicolon."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.13-note-11",
+      "line": 11,
+      "target": "#O-3.13-l11",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0118.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 66",
+        "assessment": "Praesonuit and sollemni are clear, including doubled l; cantu has comma."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.13-note-15",
+      "line": 15,
+      "target": "#O-3.13-l15",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0118.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 66",
+        "assessment": "Neither minaces15 nor hara16 has punctuation; recurvo17 ends with semicolon."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.13-note-18",
+      "line": 18,
+      "target": "#O-3.13-l18",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0118.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 66",
+        "assessment": "Invisast is printed as one word; deae has colon."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.13-note-20",
+      "line": 20,
+      "target": "#O-3.13-l20",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0118.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 66",
+        "assessment": "Inceptam destituisse fugam and the final semicolon are clear before the page boundary."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.13-note-21",
+      "line": 21,
+      "target": "#O-3.13-l21",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0119.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 67",
+        "assessment": "The first line of printed67 reads incessitur index; the running header uses additive XIIII for poem14."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.13-note-23",
+      "line": 23,
+      "target": "#O-3.13-l23",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0119.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 67",
+        "assessment": "The print joins dea and est as deast, followed by comma."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.13-note-24",
+      "line": 24,
+      "target": "#O-3.13-l24",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0119.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 67",
+        "assessment": "Praeverrunt has double r; vias is followed by colon."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.13-note-27",
+      "line": 27,
+      "target": "#O-3.13-l27",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0119.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 67",
+        "assessment": "Graio is clearly printed between patrum and velatae."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.13-note-31",
+      "line": 31,
+      "target": "#O-3.13-l31",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0119.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 67",
+        "assessment": "Argivast is contracted; facies has colon and Agamemnone begins with capital A."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.13-note-32",
+      "line": 32,
+      "target": "#O-3.13-l32",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0119.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 67",
+        "assessment": "Halaesus is the name printed here; neither opes32 nor fretoque33 has terminal punctuation."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.13-note-36",
+      "line": 36,
+      "target": "#O-3.13-l36",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0119.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 67",
+        "assessment": "Mihi has comma, suo exclamation mark. Separate heading XIIII. introduces the next poem below."
+      },
+      "change": "Independently checked and retained."
+    }
+  ],
+  "validation": {
+    "schema": "docs/schema/tei_all-4.12.0.rng",
+    "schema_result": "passed xmllint Relax NG",
+    "verse_lines": 36,
+    "facsimile_zones": 36,
+    "unique_ids": true,
+    "local_references_resolve": true
+  },
+  "layout_evidence": {
+    "assessment": "Both full printed pages show actual alternate-line insets; these are retained. The source headings XIII. and following XIIII. stand left of the opening verse, outside its wording."
+  },
+  "reviewed_candidate_sha256": "8d2c0971051d5b72fc6137fd38a45e86a4c481b9a33b4caa13b3710237750636",
+  "review_report_sha256": "843ddd3912fe7317311ddfb8eee5ea485a735c8879e7b6ff22c14e1ff13c003b",
+  "reviewed_xml_sha256": "c9b87d095c8a2bf7958479407b3783123d1f7e4ae8242158abd8fc13102ff063"
+}

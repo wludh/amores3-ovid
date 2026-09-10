@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../docs/schema/tei_all-4.12.0.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Y-3.12-document" n="Y">
+<teiHeader xml:lang="en"><fileDesc><titleStmt><title>Ovid, Amores 3.12: witness Y — independently source-reviewed</title><author>Publius Ovidius Naso</author><respStmt xml:id="Y-3.12-encoder"><resp>First manuscript-image transcription and encoding</resp><name>OpenAI Codex, first reader</name></respStmt><respStmt xml:id="Y-3.12-reviewer"><resp>Independent second reading of every manuscript verse, note and full-page layout</resp><name>OpenAI Codex independent encode_s agent</name></respStmt></titleStmt><publicationStmt><p>Amores Project working transcription, 9 September 2026. Independently source-reviewed by a second agent; not human-approved.</p></publicationStmt><sourceDesc><msDesc xml:id="Y-3.12-manuscript"><msIdentifier><settlement>Berlin</settlement><repository>Staatsbibliothek zu Berlin — Preußischer Kulturbesitz</repository><idno>Ms. Ham. 471</idno></msIdentifier><msContents><msItem><locus from="67r" to="67v">67r–67v</locus><title>Amores 3.12</title></msItem></msContents><physDesc><handDesc><handNote>Brown main writing and darker interventions are visible. Ink differences are recorded without assigning historical hands.</handNote></handDesc></physDesc><history><origin><p>The supplied library manifest dates the manuscript to the 10th/11th century; this does not date individual interventions.</p></origin></history><additional><surrogates><p><ref target="https://resolver.staatsbibliothek-berlin.de/SBB00034ABB00000000">Library digital facsimile, PPN1844735508</ref>. The supplied manifest identifies the images as Public Domain Mark 1.0. Every verse in folios 67r, 67v was inspected for this first pass.</p></surrogates></additional></msDesc></sourceDesc></fileDesc>
+<encodingDesc><projectDesc><p>Source-grounded transcription of all 44 manuscript verses, independently checked against the images. No other witness or normalized edition was used as transcription input. Existing annotation coordinates provide navigation, not text. There are 44 original annotation rows for 44 distinct source verses, without duplicate selection. All44 original rectangles were inspected and retained. Neighbouring text can fall inside a rectangle, while marginal additions may lie outside. sourceWitness=LL and panelId are annotation provenance only; no LL text was consulted.</p></projectDesc><editorialDecl><correction><p>Uncertain letters are marked unclear and unreadable text gap. Darker ink is hi, not proof of erasure or a distinct hand. Actual additions use add; deletion or substitution is asserted only with visible evidence and qualified where needed. No unattested earlier reading is supplied.</p></correction><normalization><p>Single source-oriented display. Ordinary allographs and long s are represented with standard Latin characters. Source spelling is preserved; word spacing and couplet layout are editorial. Explicit abbreviation expansions remain in TEI choices. Punctuation and unusual signs are schematic typographic equivalents, not exact pen-shape replicas.</p></normalization><punctuation><p>Visible significant punctuation and separation or insertion marks are retained. No modern sentence punctuation is supplied.</p></punctuation><segmentation><p>Each l is one verse and one physical source line. Full-page inspection of folios67r and67v shows alternate physical lines inset; even-verse rend attributes record that visible layout. The lg groups are editorial elegiac couplets. Each verse has a stable ID and an existing facsimile rectangle. The rectangles may include neighbouring text and need not enclose marginal inscriptions.</p></segmentation><interpretation><p>Every note has received an independent second source reading. The companion ledger distinguishes supported observations from documented source uncertainty; none is assigned to human review.</p></interpretation></editorialDecl><charDecl><char xml:id="Y-3.12-et"><desc>ET LIGATURE, SCHEMATIC</desc><mapping type="display">&amp;</mapping><mapping type="expansion">et</mapping></char><char xml:id="Y-3.12-question"><desc>QUESTION-LIKE SIGN, SCHEMATIC</desc><mapping type="display">⸮</mapping></char></charDecl></encodingDesc><revisionDesc status="agent-reviewed"><change when="2026-09-10" who="#Y-3.12-reviewer">Independently read all 44 source verses, every first-pass note and both full-page layouts. Corrected the unsupported sinistrum in verse 3 to source putem. Added previously unencoded source marks and a source-visible space; refined darker-ink extent while preserving uncertainty and original zones.</change><change when="2026-09-09" who="#Y-3.12-encoder">First source pass covering all 44 verses and visible interventions in folios 67r, 67v; awaiting a different agent's independent reading.</change></revisionDesc></teiHeader>
+<facsimile>
+<surface xml:id="Y-3.12-s137" n="67r" ulx="0" uly="0" lrx="1961" lry="3363"><graphic url="https://content.staatsbibliothek-berlin.de/dc/1844735508-0137/full/full/0/default.jpg"/>
+<zone xml:id="Y-3.12-zone-1" ulx="116" uly="1144" lrx="1585" lry="1310"/>
+<zone xml:id="Y-3.12-zone-2" ulx="120" uly="1220" lrx="1460" lry="1342"/>
+<zone xml:id="Y-3.12-zone-3" ulx="142" uly="1270" lrx="1538" lry="1413"/>
+<zone xml:id="Y-3.12-zone-4" ulx="168" uly="1360" lrx="1426" lry="1468"/>
+<zone xml:id="Y-3.12-zone-5" ulx="173" uly="1418" lrx="1522" lry="1539"/>
+<zone xml:id="Y-3.12-zone-6" ulx="195" uly="1479" lrx="1605" lry="1589"/>
+<zone xml:id="Y-3.12-zone-7" ulx="182" uly="1551" lrx="1432" lry="1666"/>
+<zone xml:id="Y-3.12-zone-8" ulx="187" uly="1620" lrx="1449" lry="1731"/>
+<zone xml:id="Y-3.12-zone-9" ulx="173" uly="1669" lrx="1835" lry="1802"/>
+<zone xml:id="Y-3.12-zone-10" ulx="213" uly="1772" lrx="1455" lry="1863"/>
+<zone xml:id="Y-3.12-zone-11" ulx="195" uly="1814" lrx="1493" lry="1916"/>
+<zone xml:id="Y-3.12-zone-12" ulx="190" uly="1877" lrx="1510" lry="1979"/>
+<zone xml:id="Y-3.12-zone-13" ulx="171" uly="1935" lrx="1530" lry="2058"/>
+<zone xml:id="Y-3.12-zone-14" ulx="176" uly="2004" lrx="1383" lry="2123"/>
+<zone xml:id="Y-3.12-zone-15" ulx="184" uly="2077" lrx="1502" lry="2203"/>
+<zone xml:id="Y-3.12-zone-16" ulx="195" uly="2140" lrx="1454" lry="2254"/>
+<zone xml:id="Y-3.12-zone-17" ulx="189" uly="2207" lrx="1510" lry="2309"/>
+<zone xml:id="Y-3.12-zone-18" ulx="190" uly="2268" lrx="1480" lry="2393"/>
+<zone xml:id="Y-3.12-zone-19" ulx="169" uly="2341" lrx="1502" lry="2452"/>
+<zone xml:id="Y-3.12-zone-20" ulx="95" uly="2401" lrx="1556" lry="2525"/>
+<zone xml:id="Y-3.12-zone-21" ulx="174" uly="2468" lrx="1485" lry="2563"/>
+<zone xml:id="Y-3.12-zone-22" ulx="201" uly="2524" lrx="1531" lry="2647"/>
+<zone xml:id="Y-3.12-zone-23" ulx="187" uly="2606" lrx="1579" lry="2708"/>
+<zone xml:id="Y-3.12-zone-24" ulx="196" uly="2655" lrx="1860" lry="2773"/>
+<zone xml:id="Y-3.12-zone-25" ulx="152" uly="2716" lrx="1624" lry="2845"/>
+<zone xml:id="Y-3.12-zone-26" ulx="174" uly="2777" lrx="1839" lry="2942"/>
+</surface>
+<surface xml:id="Y-3.12-s138" n="67v" ulx="0" uly="0" lrx="1966" lry="3363"><graphic url="https://content.staatsbibliothek-berlin.de/dc/1844735508-0138/full/full/0/default.jpg"/>
+<zone xml:id="Y-3.12-zone-27" ulx="74" uly="211" lrx="1668" lry="368"/>
+<zone xml:id="Y-3.12-zone-28" ulx="310" uly="292" lrx="1453" lry="423"/>
+<zone xml:id="Y-3.12-zone-29" ulx="74" uly="362" lrx="1600" lry="494"/>
+<zone xml:id="Y-3.12-zone-30" ulx="310" uly="420" lrx="1580" lry="575"/>
+<zone xml:id="Y-3.12-zone-31" ulx="76" uly="503" lrx="1615" lry="644"/>
+<zone xml:id="Y-3.12-zone-32" ulx="77" uly="587" lrx="1453" lry="701"/>
+<zone xml:id="Y-3.12-zone-33" ulx="77" uly="630" lrx="1694" lry="774"/>
+<zone xml:id="Y-3.12-zone-34" ulx="303" uly="693" lrx="1610" lry="840"/>
+<zone xml:id="Y-3.12-zone-35" ulx="299" uly="766" lrx="1727" lry="921"/>
+<zone xml:id="Y-3.12-zone-36" ulx="72" uly="849" lrx="1650" lry="973"/>
+<zone xml:id="Y-3.12-zone-37" ulx="79" uly="908" lrx="1521" lry="1039"/>
+<zone xml:id="Y-3.12-zone-38" ulx="288" uly="957" lrx="1679" lry="1093"/>
+<zone xml:id="Y-3.12-zone-39" ulx="308" uly="1022" lrx="1648" lry="1177"/>
+<zone xml:id="Y-3.12-zone-40" ulx="321" uly="1087" lrx="1435" lry="1238"/>
+<zone xml:id="Y-3.12-zone-41" ulx="292" uly="1158" lrx="1623" lry="1298"/>
+<zone xml:id="Y-3.12-zone-42" ulx="316" uly="1226" lrx="1461" lry="1357"/>
+<zone xml:id="Y-3.12-zone-43" ulx="295" uly="1280" lrx="1508" lry="1427"/>
+<zone xml:id="Y-3.12-zone-44" ulx="292" uly="1349" lrx="1746" lry="1496"/>
+</surface>
+</facsimile><text xml:lang="la"><body><div type="poem" n="3.12" xml:id="Y-3.12" resp="#Y-3.12-encoder">
+<pb n="67r" facs="#Y-3.12-s137"/>
+<lg type="couplet" n="1">
+<l n="1" xml:id="Y-3.12-l1" facs="#Y-3.12-zone-1"><hi rend="large-initial">Q</hi>uis fuit ille dies quo tristia semper amanti</l>
+<l n="2" xml:id="Y-3.12-l2" facs="#Y-3.12-zone-2" rend="indent">Omi<hi rend="darker-ink">n</hi>a non albae concinuistis<metamark function="unspecified">—</metamark><metamark function="unspecified">|</metamark> aues <pc type="interrogative"><g ref="#Y-3.12-question">⸮</g></pc></l>
+</lg>
+<lg type="couplet" n="2">
+<l n="3" xml:id="Y-3.12-l3" facs="#Y-3.12-zone-3">Quod ue putem sidus nostris occurr<hi rend="darker-ink">ere</hi> fatis</l>
+<l n="4" xml:id="Y-3.12-l4" facs="#Y-3.12-zone-4" rend="indent">Quos ue deos in me <hi rend="darker-ink">b</hi>ella mouere querar <pc>.</pc></l>
+</lg>
+<lg type="couplet" n="3">
+<l n="5" xml:id="Y-3.12-l5" facs="#Y-3.12-zone-5">Quae modo dicta mea est quam coepi solus amare</l>
+<l n="6" xml:id="Y-3.12-l6" facs="#Y-3.12-zone-6" rend="indent">Cum multis uereor ne sit habenda mihi<metamark function="unspecified">—</metamark></l>
+</lg>
+<lg type="couplet" n="4">
+<l n="7" xml:id="Y-3.12-l7" facs="#Y-3.12-zone-7">Fallimur an nostris innotuit illa libellis</l>
+<l n="8" xml:id="Y-3.12-l8" facs="#Y-3.12-zone-8" rend="indent">Sic er<hi rend="darker-ink">a</hi>t ingenio prostitit illa meo</l>
+</lg>
+<lg type="couplet" n="5">
+<l n="9" xml:id="Y-3.12-l9" facs="#Y-3.12-zone-9">Et merito quid <hi rend="darker-ink"><unclear>enim</unclear></hi> formae preconia feci<metamark function="unspecified" place="margin-right">+</metamark></l>
+<l n="10" xml:id="Y-3.12-l10" facs="#Y-3.12-zone-10" rend="indent">Vendibilis culpa facta puella mea est</l>
+</lg>
+<lg type="couplet" n="6">
+<l n="11" xml:id="Y-3.12-l11" facs="#Y-3.12-zone-11">Me<metamark function="unspecified">|</metamark> lenone plac<choice><abbr><g ref="#Y-3.12-et">&amp;</g></abbr><expan>et</expan></choice> <pc>.</pc> duce me perductus amator <pc>.</pc></l>
+<l n="12" xml:id="Y-3.12-l12" facs="#Y-3.12-zone-12" rend="indent">Ianua per nostras est adaperta manus</l>
+</lg>
+<lg type="couplet" n="7">
+<l n="13" xml:id="Y-3.12-l13" facs="#Y-3.12-zone-13">An prosint dubium <pc>.</pc> nocuerunt carmina semper</l>
+<l n="14" xml:id="Y-3.12-l14" facs="#Y-3.12-zone-14" rend="indent">Inuidiae nostris illa fuere bonis <pc>.</pc></l>
+</lg>
+<lg type="couplet" n="8">
+<l n="15" xml:id="Y-3.12-l15" facs="#Y-3.12-zone-15">Cum<metamark function="unspecified">|</metamark> thebe<metamark function="unspecified">|</metamark> cum troia for<choice><abbr><g ref="#Y-3.12-et">&amp;</g></abbr><expan>et</expan></choice><metamark function="unspecified">|</metamark> cum caesaris acta<metamark function="unspecified">|</metamark></l>
+<l n="16" xml:id="Y-3.12-l16" facs="#Y-3.12-zone-16" rend="indent">Ingenium mou<hi rend="darker-ink">it</hi> sola corinna meum<metamark function="unspecified">|</metamark></l>
+</lg>
+<lg type="couplet" n="9">
+<l n="17" xml:id="Y-3.12-l17" facs="#Y-3.12-zone-17">Auersis utinam tetigissem carmina musis <pc>.</pc></l>
+<l n="18" xml:id="Y-3.12-l18" facs="#Y-3.12-zone-18" rend="indent">Phoebus <choice><abbr><g ref="#Y-3.12-et">&amp;</g></abbr><expan>et</expan></choice> incoeptum destituisse<metamark function="unspecified">—</metamark><space dim="horizontal" quantity="2" unit="character"/>opus <pc>.</pc></l>
+</lg>
+<lg type="couplet" n="10">
+<l n="19" xml:id="Y-3.12-l19" facs="#Y-3.12-zone-19">Nec tamen ut testes mos est audire poetas</l>
+<l n="20" xml:id="Y-3.12-l20" facs="#Y-3.12-zone-20" rend="indent">Maluer<add place="above">i</add>am u<metamark function="unspecified">|</metamark>erbis pondus abesse meis <pc>.</pc><add place="margin-left">debuerat</add><metamark function="unspecified" place="margin-left"><gap reason="illegible" extent="unknown" unit="character"><desc>Small upright and point-like marks precede the marginal debuerat; their function is unclear.</desc></gap></metamark></l>
+</lg>
+<lg type="couplet" n="11">
+<l n="21" xml:id="Y-3.12-l21" facs="#Y-3.12-zone-21">Per <hi rend="darker-ink">n</hi>os scilla patri caros furata capillos</l>
+<l n="22" xml:id="Y-3.12-l22" facs="#Y-3.12-zone-22" rend="indent">Pube premit<metamark function="unspecified">|</metamark> rapidos inguinibusque canes</l>
+</lg>
+<lg type="couplet" n="12">
+<l n="23" xml:id="Y-3.12-l23" facs="#Y-3.12-zone-23">Nos pedibus pinnas dedimus <pc>.</pc> nos crinibus angues</l>
+<l n="24" xml:id="Y-3.12-l24" facs="#Y-3.12-zone-24" rend="indent">Victor abantia<metamark function="unspecified">—</metamark> des<metamark function="unspecified">|</metamark>ultat fertur equo <pc>.</pc></l>
+</lg>
+<lg type="couplet" n="13">
+<l n="25" xml:id="Y-3.12-l25" facs="#Y-3.12-zone-25">Idem per spatium tityon porreximus ingens<metamark function="unspecified">|</metamark></l>
+<l n="26" xml:id="Y-3.12-l26" facs="#Y-3.12-zone-26" rend="indent">Et tria uipe<hi rend="darker-ink">r</hi>o fecimus ora cani <pc>.</pc></l>
+</lg>
+<pb n="67v" facs="#Y-3.12-s138"/>
+<lg type="couplet" n="14">
+<l n="27" xml:id="Y-3.12-l27" facs="#Y-3.12-zone-27">Fecimus enceladum iaculantem mille lacertis<metamark function="unspecified" place="margin-left">//</metamark></l>
+<l n="28" xml:id="Y-3.12-l28" facs="#Y-3.12-zone-28" rend="indent">Ambiguae captos uirginis ore uiros <pc>.</pc></l>
+</lg>
+<lg type="couplet" n="15">
+<l n="29" xml:id="Y-3.12-l29" facs="#Y-3.12-zone-29"><unclear>Adiol</unclear> <hi rend="darker-ink">it</hi>hacis inclusimus utribus euros<metamark function="unspecified" place="margin-left">//</metamark></l>
+<l n="30" xml:id="Y-3.12-l30" facs="#Y-3.12-zone-30" rend="indent">Proditor in medio tantalus amne stetit <pc>.</pc></l>
+</lg>
+<lg type="couplet" n="16">
+<l n="31" xml:id="Y-3.12-l31" facs="#Y-3.12-zone-31">De niobe<del rend="strikethrough">m</del> silicem <choice><abbr>f<pc>.</pc></abbr><expan cert="low">fecimus</expan></choice> de uirgine fecimus ursam<metamark function="unspecified" place="margin-left">//</metamark></l>
+<l n="32" xml:id="Y-3.12-l32" facs="#Y-3.12-zone-32" rend="indent"><choice><abbr>Concī<hi rend="darker-ink">t</hi></abbr><expan>Concinit</expan></choice> <hi rend="darker-ink">ot</hi>risium cecropi<metamark function="unspecified">—</metamark> sa<metamark function="unspecified">|</metamark>le<hi rend="darker-ink">si</hi>tum<metamark function="unspecified" place="margin-left">//</metamark></l>
+</lg>
+<lg type="couplet" n="17">
+<l n="33" xml:id="Y-3.12-l33" facs="#Y-3.12-zone-33">Iuppiter aut in <hi rend="darker-ink">au</hi>es aut se transformat in aurum</l>
+<l n="34" xml:id="Y-3.12-l34" facs="#Y-3.12-zone-34" rend="indent">Aut secat imposita uirgine taurus aquas <pc>.</pc></l>
+</lg>
+<lg type="couplet" n="18">
+<l n="35" xml:id="Y-3.12-l35" facs="#Y-3.12-zone-35">Protea quid referam<metamark function="unspecified">|</metamark> thebanaque semina <hi rend="darker-ink"><unclear>dentes</unclear></hi></l>
+<l n="36" xml:id="Y-3.12-l36" facs="#Y-3.12-zone-36" rend="indent">Qu<hi rend="darker-ink">i uom</hi>erent flammas or<hi rend="darker-ink">e</hi> fuisse <hi rend="darker-ink">b</hi>obes <pc>.</pc><metamark function="unspecified" place="margin-left">//</metamark></l>
+</lg>
+<lg type="couplet" n="19">
+<l n="37" xml:id="Y-3.12-l37" facs="#Y-3.12-zone-37">Flere genus electra tuas aurora<add place="above">ga</add> sorores<metamark function="unspecified" place="margin-left">//</metamark></l>
+<l n="38" xml:id="Y-3.12-l38" facs="#Y-3.12-zone-38" rend="indent">Quaeq <pc>.</pc> rates fuerint nunc maris esse deas <pc>.</pc></l>
+</lg>
+<lg type="couplet" n="20">
+<l n="39" xml:id="Y-3.12-l39" facs="#Y-3.12-zone-39">Auersumque diem mensi<hi rend="darker-ink">s</hi><metamark function="unspecified">—</metamark> furalibus atrei</l>
+<l n="40" xml:id="Y-3.12-l40" facs="#Y-3.12-zone-40" rend="indent">Duraque percussa saxa secuta lira</l>
+</lg>
+<lg type="couplet" n="21">
+<l n="41" xml:id="Y-3.12-l41" facs="#Y-3.12-zone-41">Exit in immensum iucunda<add place="above"><abbr>fac-</abbr></add> licentia uatum</l>
+<l n="42" xml:id="Y-3.12-l42" facs="#Y-3.12-zone-42" rend="indent">Obligat historica nec sua uerba fide</l>
+</lg>
+<lg type="couplet" n="22">
+<l n="43" xml:id="Y-3.12-l43" facs="#Y-3.12-zone-43">Et mea debuerat falso laudata uideri</l>
+<l n="44" xml:id="Y-3.12-l44" facs="#Y-3.12-zone-44" rend="indent">Faemina <pc>.</pc> credulitas nunc mihi uestra noc<choice><abbr><g ref="#Y-3.12-et">&amp;</g></abbr><expan>et</expan></choice> <pc>:</pc><metamark function="separation">—</metamark></l>
+</lg>
+</div></body><back><div type="editorial-notes" xml:lang="en"><head>Independently reviewed source notes</head>
+<note xml:id="Y-3.12-note-1" n="1" type="observation" target="#Y-3.12-l1" resp="#Y-3.12-reviewer">Independent enlarged-source reading confirms the following evidence: A large ornamental Q opens the poem. The first two verses remain source lines, not a prose heading.</note>
+<note xml:id="Y-3.12-note-2" n="2" type="uncertainty" target="#Y-3.12-l2" resp="#Y-3.12-reviewer">The n of Omina is visibly darker. Both the short horizontal boundary stroke and the crossing upright near aues are now represented; neither identifies an erased word. The terminal question-like sign remains supported.</note>
+<note xml:id="Y-3.12-note-3" n="3" type="observation" target="#Y-3.12-l3" resp="#Y-3.12-reviewer">Direct reading of the original row and a fresh enlargement establishes Quod ue putem sidus nostris occurrere fatis. The unsupported first-pass sinistrum is corrected to putem. The darker ere of occurrere remains encoded without supplying an earlier state.</note>
+<note xml:id="Y-3.12-note-4" n="4" type="observation" target="#Y-3.12-l4" resp="#Y-3.12-reviewer">Independent enlarged-source reading confirms the following evidence: The b of bella is dark; the current word is readable.</note>
+<note xml:id="Y-3.12-note-6" n="6" type="uncertainty" target="#Y-3.12-l6" resp="#Y-3.12-reviewer">Independent enlarged-source reading confirms the following evidence: A long rising stroke after mihi extends into the right margin. It is retained schematically with unspecified function.</note>
+<note xml:id="Y-3.12-note-8" n="8" type="observation" target="#Y-3.12-l8" resp="#Y-3.12-reviewer">Independent enlarged-source reading confirms the following evidence: The a of erat is dark. The source verb prostitit is retained without normalization.</note>
+<note xml:id="Y-3.12-note-9" n="9" type="uncertainty" target="#Y-3.12-l9" resp="#Y-3.12-reviewer">The dark group after quid remains tentatively enim, with local uncertainty in the overlapping letters. An editorial space now separates quid from that group. The small right-margin cross is now encoded explicitly; its function is not assigned.</note>
+<note xml:id="Y-3.12-note-11" n="11" type="uncertainty" target="#Y-3.12-l11" resp="#Y-3.12-reviewer">Independent enlarged-source reading confirms the following evidence: A slender vertical mark crosses Me. It is recorded without cancelling the letters. The et ending of placet is a ligature.</note>
+<note xml:id="Y-3.12-note-15" n="15" type="uncertainty" target="#Y-3.12-l15" resp="#Y-3.12-reviewer">The source has crossing strokes at the first cum/thebe interval and after thebe, the et ligature of foret and acta. The previously omitted first boundary stroke is now encoded. The source letters remain uncancelled.</note>
+<note xml:id="Y-3.12-note-16" n="16" type="observation" target="#Y-3.12-l16" resp="#Y-3.12-reviewer">Independent enlarged-source reading confirms the following evidence: Final it of mouit is darker. A small terminal vertical mark is recorded with unspecified function.</note>
+<note xml:id="Y-3.12-note-17" n="17" type="observation" target="#Y-3.12-l17" resp="#Y-3.12-reviewer">Independent enlarged-source reading confirms the following evidence: The source reads Auersis. Its ordinary letter forms are represented with standard characters, not normalized to a different opening.</note>
+<note xml:id="Y-3.12-note-18" n="18" type="uncertainty" target="#Y-3.12-l18" resp="#Y-3.12-reviewer">Destituisse is readable before a short dark horizontal stroke and conspicuously wider uninscribed interval before opus. The interval is now represented by a two-character space as an approximate layout measure; it is not a missing-text gap. No erased ending is inferred.</note>
+<note xml:id="Y-3.12-note-20" n="20" type="uncertainty" target="#Y-3.12-l20" resp="#Y-3.12-reviewer">An i is written above the a-region of baseline Malueram, which remains visible without a securely cancelled letter. The left-margin debuerat and the crossing stroke at uerbis are retained. Small preceding upright/point-like marks are now encoded with unspecified function; they do not establish an earlier reading.</note>
+<note xml:id="Y-3.12-note-21" n="21" type="observation" target="#Y-3.12-l21" resp="#Y-3.12-reviewer">Independent enlarged-source reading confirms the following evidence: The n of nos is dark. Scilla is preserved with its source spelling.</note>
+<note xml:id="Y-3.12-note-22" n="22" type="uncertainty" target="#Y-3.12-l22" resp="#Y-3.12-reviewer">Independent enlarged-source reading confirms the following evidence: A slender stroke crosses the premit/rapidos boundary. It does not securely cancel either word.</note>
+<note xml:id="Y-3.12-note-24" n="24" type="uncertainty" target="#Y-3.12-l24" resp="#Y-3.12-reviewer">Independent enlarged-source reading confirms the following evidence: The source reads Victor abantia desultat. A short horizontal mark follows abantia and a vertical stroke crosses desultat; no normalized replacement is supplied.</note>
+<note xml:id="Y-3.12-note-25" n="25" type="uncertainty" target="#Y-3.12-l25" resp="#Y-3.12-reviewer">Independent enlarged-source reading confirms the following evidence: The source name appears tityon. A slender terminal stroke has unspecified function.</note>
+<note xml:id="Y-3.12-note-26" n="26" type="observation" target="#Y-3.12-l26" resp="#Y-3.12-reviewer">Independent enlarged-source reading confirms the following evidence: The source writes uipero without a separate e after r. That r is darker. The spelling is retained.</note>
+<note xml:id="Y-3.12-note-27" n="27" type="uncertainty" target="#Y-3.12-l27" resp="#Y-3.12-reviewer">The new page begins Fecimus enceladum iaculantem mille lacertis. Paired oblique strokes beside 27, 29, 31, 32, 36 and 37 were independently checked in a continuous left-margin crop and are now encoded at each corresponding row. They remain unspecified manuscript marks, without a textual interpretation.</note>
+<note xml:id="Y-3.12-note-29" n="29" type="uncertainty" target="#Y-3.12-l29" resp="#Y-3.12-reviewer">The unusual initial group remains tentatively Adiol; no familiar name is substituted. The following it of ithacis is darker. The paired marginal strokes are now represented schematically.</note>
+<note xml:id="Y-3.12-note-30" n="30" type="observation" target="#Y-3.12-l30" resp="#Y-3.12-reviewer">Independent enlarged-source reading confirms the following evidence: The initial source word is Proditor, retained without normalization.</note>
+<note xml:id="Y-3.12-note-31" n="31" type="uncertainty" target="#Y-3.12-l31" resp="#Y-3.12-reviewer">The final m of niobem is crossed by a clear horizontal cancellation stroke. The following single f with a point remains an abbreviation with only a tentative fecimus expansion; the later fecimus is written out. Paired marginal strokes are now explicit.</note>
+<note xml:id="Y-3.12-note-32" n="32" type="uncertainty" target="#Y-3.12-l32" resp="#Y-3.12-reviewer">The barred Conci plus dark t supports the explicit Concinit expansion. The unusual otrisium cecropi salesitum sequence remains as read, without reconstructed names. The ot opening and the s/i region of salesitum are darker; darker-ink markup is extended to the visible s as well as i. The horizontal and crossing strokes and paired left-margin marks are retained, without assigning their function.</note>
+<note xml:id="Y-3.12-note-33" n="33" type="observation" target="#Y-3.12-l33" resp="#Y-3.12-reviewer">Independent enlarged-source reading confirms the following evidence: The au of aues is dark. Source aues is retained; no former letters are supplied.</note>
+<note xml:id="Y-3.12-note-35" n="35" type="uncertainty" target="#Y-3.12-l35" resp="#Y-3.12-reviewer">Independent enlarged-source reading confirms the following evidence: A vertical stroke follows referam. The final dentes has dark overlapping letters, so its current reading remains qualified without supplying an earlier word.</note>
+<note xml:id="Y-3.12-note-36" n="36" type="observation" target="#Y-3.12-l36" resp="#Y-3.12-reviewer">The actual word is bobes, with darker initial b. Final i of Qui, uom of uomerent and e of ore are also darker. The source wording remains unchanged; paired left-margin strokes are now encoded.</note>
+<note xml:id="Y-3.12-note-37" n="37" type="uncertainty" target="#Y-3.12-l37" resp="#Y-3.12-reviewer">The baseline reads Flere genus electra tuas aurora sorores. Ga is above the ending region of aurora, without secure cancellation of its baseline letters. The addition is retained without manufacturing a normalized replacement name; paired marginal strokes are now explicit.</note>
+<note xml:id="Y-3.12-note-38" n="38" type="uncertainty" target="#Y-3.12-l38" resp="#Y-3.12-reviewer">Independent enlarged-source reading confirms the following evidence: The initial word is Quaeq followed by a point, with no distinct terminal que sign. It is retained without inventing an expansion mark.</note>
+<note xml:id="Y-3.12-note-39" n="39" type="uncertainty" target="#Y-3.12-l39" resp="#Y-3.12-reviewer">Independent enlarged-source reading confirms the following evidence: Final s of mensis is dark and followed by horizontal marks over a pale space. The visible current word and marks are retained without asserting erasure or reconstructing missing letters. The source writes furalibus.</note>
+<note xml:id="Y-3.12-note-41" n="41" type="uncertainty" target="#Y-3.12-l41" resp="#Y-3.12-reviewer">Independent enlarged-source reading confirms the following evidence: Fac followed by a short stroke is written above iucunda. It is encoded as an unexpanded abbreviation; its intended full word and relationship to the baseline adjective are not assumed.</note>
+<note xml:id="Y-3.12-note-42" n="42" type="observation" target="#Y-3.12-l42" resp="#Y-3.12-reviewer">Independent enlarged-source reading confirms the following evidence: The source reads Obligat historica nec sua uerba fide. Its word order is retained.</note>
+<note xml:id="Y-3.12-note-44" n="44" type="observation" target="#Y-3.12-l44" resp="#Y-3.12-reviewer">Independent enlarged-source reading confirms the following evidence: A point follows Faemina. The et ending of nocet is a ligature; a colon-like sign and terminal stroke separate the next poem, whose initial C begins below.</note>
+</div></back></text></TEI>

@@ -1,0 +1,335 @@
+{
+  "witness": "O",
+  "poem": "3.10",
+  "date": "2026-09-09",
+  "author_agent": "/root",
+  "reviewer_agent": "/root/review_y",
+  "reviewer": "OpenAI Codex independent review_y agent",
+  "review_type": "independent-second-agent-image-and-encoding-review",
+  "human_approved": false,
+  "line_coverage": {
+    "count": 48,
+    "ranges": [
+      {
+        "image": 110,
+        "printed_page": 62,
+        "page_position": "printed page 62",
+        "start": 1,
+        "end": 20
+      },
+      {
+        "image": 111,
+        "printed_page": 63,
+        "page_position": "printed page 63",
+        "start": 21,
+        "end": 48
+      }
+    ]
+  },
+  "line_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48
+  ],
+  "counts": {
+    "resolved": 18,
+    "documented-uncertainty": 0,
+    "escalate": 0
+  },
+  "previous_note_count": 17,
+  "notes": [
+    {
+      "note_id": "O-3.10-note-1",
+      "line": 1,
+      "target": "#O-3.10-l1",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0114.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 62",
+        "assessment": "Heading X. precedes Annua; all actual even-line starts are inset on both full source pages."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.10-note-3",
+      "line": 3,
+      "target": "#O-3.10-l3",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0114.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 62",
+        "assessment": "Commas follow Flava, Ceres and capillos; the candidate matches."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.10-note-5",
+      "line": 5,
+      "target": "#O-3.10-l5",
+      "status": "resolved",
+      "previous_type": null,
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0114.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 62",
+        "assessment": "The printed word is ubiquaque: the qua syllable is clear between ubi and que. Corrected first-pass ubique."
+      },
+      "change": "Corrected ubique to ubiquaque and added evidence note."
+    },
+    {
+      "note_id": "O-3.10-note-9",
+      "line": 9,
+      "target": "#O-3.10-l9",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0114.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 62",
+        "assessment": "Oracula prima has a comma on each side and ferebant ends with a colon."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.10-note-12",
+      "line": 12,
+      "target": "#O-3.10-l12",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0114.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 62",
+        "assessment": "Subsecuitque12 and revellit14 are clear source forms and retained."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.10-note-15",
+      "line": 15,
+      "target": "#O-3.10-l15",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0114.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 62",
+        "assessment": "Amantum15 and secubituque16 agree with the print."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.10-note-19",
+      "line": 19,
+      "target": "#O-3.10-l19",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0114.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 62",
+        "assessment": "A parenthesis opens after testes; at19, runs across the page break, and closes immediately after alumno23. Source punctuation is retained."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.10-note-20",
+      "line": 20,
+      "target": "#O-3.10-l20",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0114.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 62",
+        "assessment": "Crete and Iove are printed without supplied final n or other normalization; a colon closes20."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.10-note-25",
+      "line": 25,
+      "target": "#O-3.10-l25",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0115.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 63",
+        "assessment": "The source reads Iasium Cretaea diva sub Ida; confirmed directly."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.10-note-28",
+      "line": 28,
+      "target": "#O-3.10-l28",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0115.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 63",
+        "assessment": "Hinc pudor has a comma; amor has a colon. Both retained."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.10-note-29",
+      "line": 29,
+      "target": "#O-3.10-l29",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0115.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 63",
+        "assessment": "The full stop after pudor is followed by lowercase sulcos. The candidate preserves it."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.10-note-31",
+      "line": 31,
+      "target": "#O-3.10-l31",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0115.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 63",
+        "assessment": "Pulsarant is the actual contracted printed verb; no expansion is required."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.10-note-34",
+      "line": 34,
+      "target": "#O-3.10-l34",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0115.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 63",
+        "assessment": "Inrita is printed with nr; retained."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.10-note-36",
+      "line": 36,
+      "target": "#O-3.10-l36",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0115.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 63",
+        "assessment": "Deciderant longae spicea serta comae. matches the source, including final period."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.10-note-39",
+      "line": 39,
+      "target": "#O-3.10-l39",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0115.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 63",
+        "assessment": "Canebat is clear, as is final Idae followed by a comma; no lexical substitution made."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.10-note-42",
+      "line": 42,
+      "target": "#O-3.10-l42",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0115.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 63",
+        "assessment": "A comma follows Optavit, and Cereris longus ut esset amor follows in that order with final period."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.10-note-45",
+      "line": 45,
+      "target": "#O-3.10-l45",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0115.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 63",
+        "assessment": "Square brackets enclose the entire couplet45–46, with the question mark inside the closing bracket; retained as printed editorial enclosure."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.10-note-48",
+      "line": 48,
+      "target": "#O-3.10-l48",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0115.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 63",
+        "assessment": "The final period belongs to deos. A separate irregular spot nearby is not a second punctuation character. Heading XI. and Multa diuque establish the following boundary."
+      },
+      "change": "Independently checked and retained."
+    }
+  ],
+  "validation": {
+    "schema": "docs/schema/tei_all-4.12.0.rng",
+    "schema_result": "passed xmllint Relax NG",
+    "verse_lines": 48,
+    "facsimile_zones": 48,
+    "unique_ids": true,
+    "local_references_resolve": true
+  },
+  "layout_evidence": {
+    "assessment": "Both full pages show actual alternate-line inset; retained."
+  },
+  "reviewed_candidate_sha256": "e99fdb7402fde18d989bce54c91b1e7112accd6d3ce26c74d4a0f0c2c443e75a",
+  "review_report_sha256": "cab670fcfdc09db140df5d776ce9421a0f509ab9623ca510e72f24d4df4a0f1a",
+  "reviewed_xml_sha256": "fdc014fade968ac839834cf3d58c8519e7cbefeb30cc0f2afa2f936a745bf014"
+}

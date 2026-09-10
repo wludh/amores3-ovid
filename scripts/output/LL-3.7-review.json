@@ -38,5 +38,16 @@
     "source_normalization": "HTML entities decoded; whitespace collapsed. No changes to punctuation, case or spelling."
   },
   "reviewed_xml_sha256": "bc80fe01d587638ede7153115d23bdc847d3adcc00d55db9ef1f83dbb8831f23",
-  "review_report_sha256": "9a761505cdb33f8d316eebd052086f47826eed6b1ff9e40a98f95fdd3302533b"
+  "review_report_sha256": "9a761505cdb33f8d316eebd052086f47826eed6b1ff9e40a98f95fdd3302533b",
+  "author_agent": "/root",
+  "reviewer_agent": "/root/encode_s",
+  "reviewed_candidate_sha256": "b77538b7e13513feaec9cfb855c09d59c4bb3bfb61a12fc6b81f035f1b6620c3",
+  "provenance_migration": {
+    "date": "2026-09-10",
+    "scope": "Identity and raw-candidate seal migration only; no new source reading or XML/report edits.",
+    "evidence": "Original root task explicitly released the LL 3.7 first-pass candidate to encode_s for independent live Latin Library comparison; encode_s completed all 84 lines as recorded in LL-3.7-second-pass.md.",
+    "verification": "Standalone candidate canonical XML equals both the prior reviewed_xml_sha256 seal and the currently integrated poem TEI; the existing independent report hash also matches.",
+    "previous_integrated_path": "docs/data/witness-LL.xml",
+    "candidate_path": "scripts/output/LL-3.7.xml"
+  }
 }

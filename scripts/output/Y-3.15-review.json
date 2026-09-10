@@ -1,0 +1,254 @@
+{
+  "witness": "Y",
+  "poem": "3.15",
+  "date": "2026-09-10",
+  "author_agent": "/root/review_y",
+  "reviewer_agent": "/root/encode_p",
+  "reviewer": "OpenAI Codex independent encode_p agent",
+  "review_type": "independent-second-agent-image-and-encoding-review",
+  "status": "second-pass-complete",
+  "human_approved": false,
+  "line_coverage": {
+    "count": 20,
+    "ranges": [
+      {
+        "page": "68v",
+        "start": 1,
+        "end": 16
+      },
+      {
+        "page": "69r",
+        "start": 17,
+        "end": 20
+      }
+    ],
+    "absent_ranges": []
+  },
+  "line_order": [
+    "Y-3.15-l1",
+    "Y-3.15-l2",
+    "Y-3.15-l3",
+    "Y-3.15-l4",
+    "Y-3.15-l5",
+    "Y-3.15-l6",
+    "Y-3.15-l7",
+    "Y-3.15-l8",
+    "Y-3.15-l9",
+    "Y-3.15-l10",
+    "Y-3.15-l11",
+    "Y-3.15-l12",
+    "Y-3.15-l13",
+    "Y-3.15-l14",
+    "Y-3.15-l15",
+    "Y-3.15-l16",
+    "Y-3.15-l17",
+    "Y-3.15-l18",
+    "Y-3.15-l19",
+    "Y-3.15-l20"
+  ],
+  "notes": [
+    {
+      "note_id": "Y-3.15-note-1",
+      "target": "#Y-3.15-l1",
+      "line": 1,
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "68v",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0140/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/140.jpg",
+        "assessment": "The full pages show an enlarged Q, twenty actual verse rows and a separate subscription after verse 20; no absent verse is inferred from annotation metadata."
+      }
+    },
+    {
+      "note_id": "Y-3.15-note-4",
+      "target": "#Y-3.15-l4",
+      "line": 4,
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "68v",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0140/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/140.jpg",
+        "assessment": "The dark e in deliciae and source spelling dedecuere are legible in the full line."
+      }
+    },
+    {
+      "note_id": "Y-3.15-note-7",
+      "target": "#Y-3.15-l7",
+      "line": 7,
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "68v",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0140/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/140.jpg",
+        "assessment": "The r of uirgilio and the gaudet ligature are visible; the final a-region of uerona remains heavily disturbed, so its unclear status is preserved."
+      }
+    },
+    {
+      "note_id": "Y-3.15-note-9",
+      "target": "#Y-3.15-l9",
+      "line": 9,
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "68v",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0140/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/140.jpg",
+        "assessment": "The enlarged line has ad onesta without an h ascender, now corrected. The overwritten eg group remains locally unclear; the final stroke is visible without a secure function."
+      }
+    },
+    {
+      "note_id": "Y-3.15-note-12",
+      "target": "#Y-3.15-l12",
+      "line": 12,
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "68v",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0140/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/140.jpg",
+        "assessment": "The small shape above campi is consistent with s but remains qualified. The dark final a of iugera and source tenent are legible."
+      }
+    },
+    {
+      "note_id": "Y-3.15-note-13",
+      "target": "#Y-3.15-l13",
+      "line": 13,
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "68v",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0140/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/140.jpg",
+        "assessment": "The et ligature closing dicet and dark final tis of potuistis are directly visible in the enlargement."
+      }
+    },
+    {
+      "note_id": "Y-3.15-note-14",
+      "target": "#Y-3.15-l14",
+      "line": 14,
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "68v",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0140/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/140.jpg",
+        "assessment": "A dark spot interrupts the initial of nos; enough shape survives for tentative n, but not for removal of the uncertainty."
+      }
+    },
+    {
+      "note_id": "Y-3.15-note-15",
+      "target": "#Y-3.15-l15",
+      "line": 15,
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "68v",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0140/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/140.jpg",
+        "assessment": "The dark and crossed middle of amathusia remains disturbed. The qualified th does not imply recovery of an earlier name or a deleted group."
+      }
+    },
+    {
+      "note_id": "Y-3.15-note-16",
+      "target": "#Y-3.15-l16",
+      "line": 16,
+      "previous_type": "observation",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "68v",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0140/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/140.jpg",
+        "assessment": "The added l above baseline uelite is legible. The small mark below that region does not have a securely established function."
+      }
+    },
+    {
+      "note_id": "Y-3.15-note-17",
+      "target": "#Y-3.15-l17",
+      "line": 17,
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "69r",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0141/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/141.jpg",
+        "assessment": "The stained initial in of increpuit remains qualified; the rest of the line and source spelling lyeus are readable."
+      }
+    },
+    {
+      "note_id": "Y-3.15-note-18",
+      "target": "#Y-3.15-l18",
+      "line": 18,
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "69r",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0141/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/141.jpg",
+        "assessment": "The first-pass area is corrected to arca: the medial letter is an open c without an e crossbar in the independent enlargement. Stained Pulsanda a remains unclear, and the small terminal point is retained."
+      }
+    },
+    {
+      "note_id": "Y-3.15-note-19",
+      "target": "#Y-3.15-l19",
+      "line": 19,
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "69r",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0141/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/141.jpg",
+        "assessment": "The current words genialis musa and the adjacent stain are directly visible; the stain does not establish textual cancellation."
+      }
+    },
+    {
+      "note_id": "Y-3.15-note-20",
+      "target": "#Y-3.15-l20",
+      "line": 20,
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "69r",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0141/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/141.jpg",
+        "assessment": "The separate capital subscription, EXPLIC with terminal suspension bar, barred LIB and III are confirmed against the full final page and enlarged strip. The qualified expansion of EXPLIC is retained; it is not another verse."
+      }
+    }
+  ],
+  "counts": {
+    "resolved": 4,
+    "documented-uncertainty": 9,
+    "escalate": 0
+  },
+  "humanActions": [],
+  "zone_corrections": [],
+  "validation": {
+    "rng": "tei_all-4.12.0.rng",
+    "passed": true,
+    "extantLineCount": 20,
+    "zoneCount": 20,
+    "coordinate_rectangles_unchanged": true,
+    "source_order_preserved": true,
+    "changed_verse_ids": [
+      9,
+      10,
+      11,
+      18
+    ],
+    "mixed_content_whitespace_preserved": true,
+    "humanReviewNotes": 0
+  },
+  "first_pass_sha256": "1ac89a642159e939e3425c59f795b3be643b2cf26e4aa35546905ad08adbacd7",
+  "reviewed_candidate_sha256": "2ba80423164348eda7b6f6f72ba419fae371730ff3c3d7d5fdfc0d695f065ac1",
+  "review_report_sha256": "8cb5f1dc1f98c0cdba92c8ad30c5656e7ffc62f771c2914dc7aef0b87b134ac7",
+  "integration_disposition_check": {
+    "reviewer_agent": "/root",
+    "date": "2026-09-10",
+    "line": 16,
+    "evidence": "Actual source detail315-close16.png rechecked; note type aligned with existing independent disposition, without changing verse markup.",
+    "prior_candidate_sha256": "569e557c5c23a7a8d297df1db74cdcad949c318a86ea09a94a38e8be4f2574aa"
+  },
+  "reviewed_xml_sha256": "e7d711dab8ed72cf25af21fb0d9f423c7e1c9d9c1f75d194981f8d7445c69115"
+}

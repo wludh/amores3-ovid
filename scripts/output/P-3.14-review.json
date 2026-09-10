@@ -1,0 +1,731 @@
+{
+  "witness": "P",
+  "poem": "3.14",
+  "date": "2026-09-09",
+  "reviewer": "OpenAI Codex independent encode_s agent",
+  "author_agent": "/root/encode_p",
+  "reviewer_agent": "/root/encode_s",
+  "review_type": "independent-second-agent-image-and-encoding-review",
+  "human_approved": false,
+  "line_coverage": {
+    "count": 48,
+    "ranges": [
+      {
+        "page": "98 right",
+        "start": 3,
+        "end": 30
+      },
+      {
+        "page": "99 left",
+        "start": 31,
+        "end": 50
+      }
+    ]
+  },
+  "line_order": [
+    "P-3.14-l3",
+    "P-3.14-l4",
+    "P-3.14-l5",
+    "P-3.14-l6",
+    "P-3.14-l7",
+    "P-3.14-l8",
+    "P-3.14-l9",
+    "P-3.14-l10",
+    "P-3.14-l11",
+    "P-3.14-l12",
+    "P-3.14-l13",
+    "P-3.14-l14",
+    "P-3.14-l15",
+    "P-3.14-l16",
+    "P-3.14-l17",
+    "P-3.14-l18",
+    "P-3.14-l19",
+    "P-3.14-l20",
+    "P-3.14-l21",
+    "P-3.14-l22",
+    "P-3.14-l23",
+    "P-3.14-l24",
+    "P-3.14-l25",
+    "P-3.14-l26",
+    "P-3.14-l27",
+    "P-3.14-l28",
+    "P-3.14-l29",
+    "P-3.14-l30",
+    "P-3.14-l31",
+    "P-3.14-l32",
+    "P-3.14-l33",
+    "P-3.14-l34",
+    "P-3.14-l35",
+    "P-3.14-l36",
+    "P-3.14-l37",
+    "P-3.14-l38",
+    "P-3.14-l39",
+    "P-3.14-l40",
+    "P-3.14-l41",
+    "P-3.14-l42",
+    "P-3.14-l43",
+    "P-3.14-l44",
+    "P-3.14-l45",
+    "P-3.14-l46",
+    "P-3.14-l47",
+    "P-3.14-l48",
+    "P-3.14-l49",
+    "P-3.14-l50"
+  ],
+  "counts": {
+    "resolved": 12,
+    "documented-uncertainty": 30,
+    "escalate": 0
+  },
+  "notes": [
+    {
+      "note_id": "P-3.14-note-1",
+      "line": 1,
+      "target": "#P-3.14-initial-gap",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "98 right",
+        "image": "/tmp/amores-p-corpus/f98.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f98/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-001.png",
+        "assessment": "Full images 97–98 and the direct Chatelain manuscript description independently confirm resumption at 3.14.3 after the lacuna. Opening 1–2 are not transmitted; the two overlapping original rectangles remain unused provenance. The reference is plate XCI notice 1, printed introductory II,1, PDF fifth page (zero-based 4). No original leaf count or historical cause is inferred."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    },
+    {
+      "note_id": "P-3.14-note-3",
+      "line": 3,
+      "target": "#P-3.14-l3",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "98 right",
+        "image": "/tmp/amores-p-corpus/f98.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f98/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-003.png",
+        "assessment": "The annotated opening surviving position remains wholly blackened. No defensible letters or indent can be recovered from the full page and enlarged upper strip."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    },
+    {
+      "note_id": "P-3.14-note-4",
+      "line": 4,
+      "target": "#P-3.14-l4",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "98 right",
+        "image": "/tmp/amores-p-corpus/f98.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f98/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-004.png",
+        "assessment": "The second surviving position is obscured throughout its assigned row. The full-line illegibility gap and unchanged source zone remain appropriate."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    },
+    {
+      "note_id": "P-3.14-note-5",
+      "line": 5,
+      "target": "#P-3.14-l5",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "98 right",
+        "image": "/tmp/amores-p-corpus/f98.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f98/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-005.png",
+        "assessment": "The assigned row is blackened; no complete defensible word is established by the enlarged source. Its gap is retained."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    },
+    {
+      "note_id": "P-3.14-note-6",
+      "line": 6,
+      "target": "#P-3.14-l6",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "98 right",
+        "image": "/tmp/amores-p-corpus/f98.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f98/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-006.png",
+        "assessment": "The lower edge of the upper stain permits the tentative group famosam. The rest remains obscured; no wording is reconstructed."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    },
+    {
+      "note_id": "P-3.14-note-7",
+      "line": 7,
+      "target": "#P-3.14-l7",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "98 right",
+        "image": "/tmp/amores-p-corpus/f98.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f98/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-007.png",
+        "assessment": "The tentative group que nocte latent is compatible with the surviving pale strokes. Surrounding text remains masked by blackening."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    },
+    {
+      "note_id": "P-3.14-note-8",
+      "line": 8,
+      "target": "#P-3.14-l8",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "98 right",
+        "image": "/tmp/amores-p-corpus/f98.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f98/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-008.png",
+        "assessment": "Clam facias facta referre can be followed in the photograph; the pale opening Et que and final palam remain qualified."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    },
+    {
+      "note_id": "P-3.14-note-9",
+      "line": 9,
+      "target": "#P-3.14-l9",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "98 right",
+        "image": "/tmp/amores-p-corpus/f98.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f98/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-009.png",
+        "assessment": "The central terra corpus iunctura quiriti is supported by the source. Ignoto remains pale and qualified. The unusual terra is not replaced from an edition."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    },
+    {
+      "note_id": "P-3.14-note-10",
+      "line": 10,
+      "target": "#P-3.14-l10",
+      "previous_type": "observation",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "98 right",
+        "image": "/tmp/amores-p-corpus/f98.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f98/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-010.png",
+        "assessment": "The leftmost Nonne sit is faint and less secure than the first pass claimed. It is now explicitly unclear. Populum mouit ante fera is visible; no alternative opening is supplied."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    },
+    {
+      "note_id": "P-3.14-note-11",
+      "line": 11,
+      "target": "#P-3.14-l11",
+      "previous_type": "uncertainty",
+      "status": "resolved",
+      "evidence": {
+        "page": "98 right",
+        "image": "/tmp/amores-p-corpus/f98.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f98/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-011.png",
+        "assessment": "The enlarged middle row supports profiteris, including its terminal sequence; the former uncertainty is removed. The surrounding source wording Tu que and fame peccata sinistre remains unchanged."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    },
+    {
+      "note_id": "P-3.14-note-12",
+      "line": 12,
+      "target": "#P-3.14-l12",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "98 right",
+        "image": "/tmp/amores-p-corpus/f98.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f98/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-012.png",
+        "assessment": "The opening doubled-minim sequence remains compatible with tentative Commisi. Its uncertainty is retained; perages indiciumque tui can be followed."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    },
+    {
+      "note_id": "P-3.14-note-13",
+      "line": 13,
+      "target": "#P-3.14-l13",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "98 right",
+        "image": "/tmp/amores-p-corpus/f98.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f98/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-013.png",
+        "assessment": "Si tibi mens melior saltemue imitare pudicas is visible, including saltemue and imitare. No normalized substitution is warranted."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    },
+    {
+      "note_id": "P-3.14-note-14",
+      "line": 14,
+      "target": "#P-3.14-l14",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "98 right",
+        "image": "/tmp/amores-p-corpus/f98.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f98/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-014.png",
+        "assessment": "The clearly written non eris is preserved in the full row Teque probam quamuis non eris esse putem."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    },
+    {
+      "note_id": "P-3.14-note-15",
+      "line": 15,
+      "target": "#P-3.14-l15",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "98 right",
+        "image": "/tmp/amores-p-corpus/f98.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f98/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-015.png",
+        "assessment": "The pale initial group Que facis hec facito remains qualified. Tantum fecisse negato is legible."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    },
+    {
+      "note_id": "P-3.14-note-16",
+      "line": 16,
+      "target": "#P-3.14-l16",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "98 right",
+        "image": "/tmp/amores-p-corpus/f98.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f98/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-016.png",
+        "assessment": "A dark spot interrupts the coram region. The provisional letters remain local uncertainty; the mark does not establish deletion or an earlier textual state."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    },
+    {
+      "note_id": "P-3.14-note-17",
+      "line": 17,
+      "target": "#P-3.14-l17",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "98 right",
+        "image": "/tmp/amores-p-corpus/f98.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f98/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-017.png",
+        "assessment": "The middle minim sequence in nequitiam is less distinct than adjacent Est qui and locus exigat omnibus illum. The original local qualification remains justified."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    },
+    {
+      "note_id": "P-3.14-note-18",
+      "line": 18,
+      "target": "#P-3.14-l18",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "98 right",
+        "image": "/tmp/amores-p-corpus/f98.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f98/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-018.png",
+        "assessment": "The enlarged row visibly continues after inple with a t-shaped stroke and rounded final o before procul. The tentative group is corrected to Deliciis inpleto; the rest procul inde pudor remains clear."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    },
+    {
+      "note_id": "P-3.14-note-20",
+      "line": 20,
+      "target": "#P-3.14-l20",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "98 right",
+        "image": "/tmp/amores-p-corpus/f98.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f98/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-020.png",
+        "assessment": "The source has the compact et ligature after Absit. Its declared schematic glyph and expansion preserve the written form and defensible meaning."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    },
+    {
+      "note_id": "P-3.14-note-24",
+      "line": 24,
+      "target": "#P-3.14-l24",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "98 right",
+        "image": "/tmp/amores-p-corpus/f98.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f98/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-024.png",
+        "assessment": "The source sequence Inque modos uenerem mille figuret amor is readable, with manuscript spelling unchanged."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    },
+    {
+      "note_id": "P-3.14-note-25",
+      "line": 25,
+      "target": "#P-3.14-l25",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "98 right",
+        "image": "/tmp/amores-p-corpus/f98.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f98/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-025.png",
+        "assessment": "The pale row Illic nec uoces nec uerba iuuantia cessent remains legible in enlarged context. No modern punctuation is inserted."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    },
+    {
+      "note_id": "P-3.14-note-27",
+      "line": 27,
+      "target": "#P-3.14-l27",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "98 right",
+        "image": "/tmp/amores-p-corpus/f98.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f98/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-027.png",
+        "assessment": "The source supports Indue cum tunicis metuentem crimina uultum in the lower-page enlargement, despite weaker initial ink."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    },
+    {
+      "note_id": "P-3.14-note-30",
+      "line": 30,
+      "target": "#P-3.14-l30",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "98 right",
+        "image": "/tmp/amores-p-corpus/f98.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f98/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-030.png",
+        "assessment": "The last row on image 98 supports Et liceat stulta credulitate frui. The next full photograph begins the canonical 31–50 portion."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    },
+    {
+      "note_id": "P-3.14-note-31",
+      "line": 31,
+      "target": "#P-3.14-l31",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "99 left",
+        "image": "/tmp/amores-p-corpus/f99.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f99/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-031.png",
+        "assessment": "The top left-page stain on image 99 obscures this assigned row. A whole-line illegibility gap is retained without assumed initial, indent or punctuation."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    },
+    {
+      "note_id": "P-3.14-note-32",
+      "line": 32,
+      "target": "#P-3.14-l32",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "99 left",
+        "image": "/tmp/amores-p-corpus/f99.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f99/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-032.png",
+        "assessment": "No defensible continuous reading emerges from the second blackened row. The original zone and whole-line gap remain unchanged."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    },
+    {
+      "note_id": "P-3.14-note-33",
+      "line": 33,
+      "target": "#P-3.14-l33",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "99 left",
+        "image": "/tmp/amores-p-corpus/f99.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f99/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-033.png",
+        "assessment": "Only the right-hand capillos is tentatively distinguishable beneath the darkening. No complete opening is supplied."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    },
+    {
+      "note_id": "P-3.14-note-34",
+      "line": 34,
+      "target": "#P-3.14-l34",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "99 left",
+        "image": "/tmp/amores-p-corpus/f99.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f99/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-034.png",
+        "assessment": "Habere notam is readable to the right of the diagonal obstruction. Earlier strokes remain too merged with damage for a reliable word sequence."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    },
+    {
+      "note_id": "P-3.14-note-35",
+      "line": 35,
+      "target": "#P-3.14-l35",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "99 left",
+        "image": "/tmp/amores-p-corpus/f99.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f99/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-035.png",
+        "assessment": "The oculos group remains tentative within the mottled row. The diagonal intrusion is not encoded as a scribal cancellation."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    },
+    {
+      "note_id": "P-3.14-note-36",
+      "line": 36,
+      "target": "#P-3.14-l36",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "99 left",
+        "image": "/tmp/amores-p-corpus/f99.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f99/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-036.png",
+        "assessment": "The final mihi remains tentative; the preceding writing is too entangled with stain and crossing strokes for a defensible reconstruction."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    },
+    {
+      "note_id": "P-3.14-note-37",
+      "line": 37,
+      "target": "#P-3.14-l37",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "99 left",
+        "image": "/tmp/amores-p-corpus/f99.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f99/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-037.png",
+        "assessment": "Peccasse fateris remains a qualified terminal group. Additional preceding strokes are visible but do not warrant an expanded continuous transcription."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    },
+    {
+      "note_id": "P-3.14-note-38",
+      "line": 38,
+      "target": "#P-3.14-l38",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "99 left",
+        "image": "/tmp/amores-p-corpus/f99.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f99/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-038.png",
+        "assessment": "Perque meos artus frigida gutta fluit can be followed below the darkest portion. Its actual inset is visible in full-page context."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    },
+    {
+      "note_id": "P-3.14-note-39",
+      "line": 39,
+      "target": "#P-3.14-l39",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "99 left",
+        "image": "/tmp/amores-p-corpus/f99.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f99/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-039.png",
+        "assessment": "The enlarged F-like lexical T at the opening is visible, followed by unc amo tunc odi frustra quod amare necesse est. Large-initial markup is retained without inventing a correcting hand or overwritten letter."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    },
+    {
+      "note_id": "P-3.14-note-40",
+      "line": 40,
+      "target": "#P-3.14-l40",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "99 left",
+        "image": "/tmp/amores-p-corpus/f99.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f99/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-040.png",
+        "assessment": "The row supports Tunc ego sed tecum mortuus esse uelim in this order. Its inset is source-supported."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    },
+    {
+      "note_id": "P-3.14-note-41",
+      "line": 41,
+      "target": "#P-3.14-l41",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "99 left",
+        "image": "/tmp/amores-p-corpus/f99.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f99/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-041.png",
+        "assessment": "The weak equidem inquiram region and unusual terminal turpabis remain uncertain on direct enlargement. The darker stroke near the terminal opening does not justify reconstructing an earlier letter or removing the qualification."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    },
+    {
+      "note_id": "P-3.14-note-42",
+      "line": 42,
+      "target": "#P-3.14-l42",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "99 left",
+        "image": "/tmp/amores-p-corpus/f99.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f99/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-042.png",
+        "assessment": "Lisque is followed by a pale incomplete span. Falsi muneris instar erit remains readable; the intervening gap is retained."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    },
+    {
+      "note_id": "P-3.14-note-43",
+      "line": 43,
+      "target": "#P-3.14-l43",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "99 left",
+        "image": "/tmp/amores-p-corpus/f99.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f99/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-043.png",
+        "assessment": "Before deprensa tenebere culpa, the enlarged photograph supports tentative manifesta. That fragment is added after the remaining initial gap; a complete opening is not reconstructed."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    },
+    {
+      "note_id": "P-3.14-note-44",
+      "line": 44,
+      "target": "#P-3.14-l44",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "99 left",
+        "image": "/tmp/amores-p-corpus/f99.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f99/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-044.png",
+        "assessment": "The beginning Et fuerint remains weak and qualified. Oculis probra uidenda meis can be followed in the photograph."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    },
+    {
+      "note_id": "P-3.14-note-45",
+      "line": 45,
+      "target": "#P-3.14-l45",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "99 left",
+        "image": "/tmp/amores-p-corpus/f99.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f99/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-045.png",
+        "assessment": "The surviving uisa mihi fuerint group and tentative Que and bene uisa negato are retained. The initial interruption remains a gap."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    },
+    {
+      "note_id": "P-3.14-note-46",
+      "line": 46,
+      "target": "#P-3.14-l46",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "99 left",
+        "image": "/tmp/amores-p-corpus/f99.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f99/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-046.png",
+        "assessment": "The right-hand sequence separates as lumina followed by tentative nostra tuis, not the first-pass nostris. Concedant remains qualified and the intervening text remains a gap."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    },
+    {
+      "note_id": "P-3.14-note-47",
+      "line": 47,
+      "target": "#P-3.14-l47",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "99 left",
+        "image": "/tmp/amores-p-corpus/f99.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f99/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-047.png",
+        "assessment": "Prona and uincere are faint but compatible with the source. No further wording is added from the weak surrounding strokes."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    },
+    {
+      "note_id": "P-3.14-note-48",
+      "line": 48,
+      "target": "#P-3.14-l48",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "99 left",
+        "image": "/tmp/amores-p-corpus/f99.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f99/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-048.png",
+        "assessment": "Et modo non and terminal amor remain tentative. The pale middle is not reconstructed."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    },
+    {
+      "note_id": "P-3.14-note-49",
+      "line": 49,
+      "target": "#P-3.14-l49",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "99 left",
+        "image": "/tmp/amores-p-corpus/f99.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f99/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-049.png",
+        "assessment": "The final lower portion is very faint and partly darkened. Only tentative Cum is retained rather than completing the row from familiar wording."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    },
+    {
+      "note_id": "P-3.14-note-50",
+      "line": 50,
+      "target": "#P-3.14-l50",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "99 left",
+        "image": "/tmp/amores-p-corpus/f99.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f99/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p314/line-050.png",
+        "assessment": "After visible Et, the enlargement supports tentative lingua before the stain. This limited fragment is added; the remaining text stays illegible. The following large Q belongs to 3.15."
+      },
+      "change": "Source reading, qualification or retained feature independently assessed; see evidence."
+    }
+  ],
+  "absent_lines": [
+    1,
+    2
+  ],
+  "absence_evidence": {
+    "assessment": "Full images 97–98 and the direct Chatelain manuscript description independently confirm resumption at 3.14.3 after the lacuna. Opening 1–2 are not transmitted; the two overlapping original rectangles remain unused provenance. The reference is plate XCI notice 1, printed introductory II,1, PDF fifth page (zero-based 4). No original leaf count or historical cause is inferred.",
+    "catalogue": {
+      "url": "https://libsysdigi.library.illinois.edu/ilharvest/OtherCDM/chatem0001paldes/chatem0001paldes_v00002/chatem0001paldes_v00002_opt.pdf",
+      "bibliography": "Émile Chatelain, Paléographie des classiques latins, deuxième partie (1894–1900), plate XCI, notice1, printed introductory page II,1 (PDF fifth page, zero-based4).",
+      "local_file": "/tmp/amores-p312-review/chatelain.pdf",
+      "sha256": "fb3b153a93021eba0ca1491de11c3f52d35ea1f255fc254a842b7d637b4f1833",
+      "endpoint": "3.12.26",
+      "resumption": "3.14.3",
+      "assessment": "The direct manuscript description explicitly records the discontinuity and blank paper marking a lacuna. This corroborates the actual photographed sequence."
+    }
+  },
+  "reviewed_candidate_sha256": "ac258374530eddd8866f1b1025117c56ec33dc16a03f06be4d31356ef77809ba",
+  "review_report_sha256": "08293386405e2f53ec72382464b92ad622b948fc73ba35b9ee223f37b87a5f9d",
+  "reviewed_xml_sha256": "63f694e9b6e7fad1c0a0330dfba6fd857fd9eb9a1bd155547b2b5f098e3d5890"
+}

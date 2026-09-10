@@ -1,0 +1,241 @@
+{
+  "witness": "S",
+  "poem": "3.9",
+  "date": "2026-09-09",
+  "reviewer": "OpenAI Codex primary agent, independent second source reader",
+  "author_agent": "/root/encode_s",
+  "reviewer_agent": "/root",
+  "review_type": "independent-second-agent-source-absence-review",
+  "human_approved": false,
+  "line_coverage": {
+    "count": 0,
+    "ranges": []
+  },
+  "line_order": [],
+  "absent_lines": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68
+  ],
+  "absence_evidence": {
+    "assessment": "The independent reviewer read the primary catalogue Amores entry directly: its explicit endpoint is III.7.74 and it identifies the remaining eight elegies as missing. The actual whole page 396 and an enlarged crop of its final six verses confirm the ending at Molliter admota sollicitare manu (3.7.74), with no later column or text below it. Whole-page images 397, 398, 399, 400, 401, 402, 403 and 404 are blank apart from pagination, stains and physical marks. Page 405 contains a distinct poetic fragment in a different presentation, identified as Metamorphoses by the primary catalogue. Page 406 has heavily worn residual writing and is not blank; no Amores continuation is identified there. The rear pastedown contains binding scraps with short remnants, and the back cover is an external binding surface. The review does not claim to decipher all residual writing or assign a historical cause to the Amores truncation.",
+    "catalogue": {
+      "url": "https://www.e-codices.unifr.ch/xml/tei_published/csg-0864.xml",
+      "bibliography": "Scherrer1875 pp297–298",
+      "local_file": "/tmp/amores-s-absence/catalogue.xml",
+      "sha256": "73f1bd59da1476ab96ff8f4e89a1a0ac785c304fd21898f25354b63f581148bf",
+      "endpoint": "III.7.74",
+      "explicit_absence": "Ten remaining verses ofIII.7 and remaining eight elegies ofBookIII"
+    },
+    "manifest": {
+      "url": "https://www.e-codices.unifr.ch/metadata/iiif/csg-0864/manifest.json",
+      "local_file": "/tmp/amores-s-absence/live-manifest.json",
+      "sha256": "1f58da82b59a6847c136058974474b72911e487ba7d6085d6609f1e7b3ca9fb0"
+    },
+    "image_evidence": [
+      {
+        "viewer_index": 396,
+        "source_label": "396",
+        "source_url": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_396.jp2/full/full/0/default/jpg",
+        "image": "/tmp/amores-s-absence/396.jpg",
+        "preview": "/tmp/amores-s-absence/preview-396.jpg",
+        "sha256": "46d35a61b64c9848ad2195556d94ae53942f5c98c3dd1bc0a90df8d506a06a15",
+        "observation": "Amores ends at3.7.74; no further text column."
+      },
+      {
+        "viewer_index": 397,
+        "source_label": "397",
+        "source_url": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_397.jp2/full/full/0/default/jpg",
+        "image": "/tmp/amores-s-absence/397.jpg",
+        "preview": "/tmp/amores-s-absence/preview-397.jpg",
+        "sha256": "92b6afe93531b2b9ef72b2eb4b107b554a453309485009b3b5a3140d18f2aad4",
+        "observation": "Blank apart from pagination and incidental surface marks/defects."
+      },
+      {
+        "viewer_index": 398,
+        "source_label": "398",
+        "source_url": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_398.jp2/full/full/0/default/jpg",
+        "image": "/tmp/amores-s-absence/398.jpg",
+        "preview": "/tmp/amores-s-absence/preview-398.jpg",
+        "sha256": "e21aa659d0e4494fb15cebff28b6f95fee929f0e2a55a52cf79a04ed278465c1",
+        "observation": "Blank apart from pagination and incidental surface marks/defects."
+      },
+      {
+        "viewer_index": 399,
+        "source_label": "399",
+        "source_url": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_399.jp2/full/full/0/default/jpg",
+        "image": "/tmp/amores-s-absence/399.jpg",
+        "preview": "/tmp/amores-s-absence/preview-399.jpg",
+        "sha256": "b0b4824162995f92d991575716fce12bfcba2b8fd4517c047a86396eb7687344",
+        "observation": "Blank apart from pagination and incidental surface marks/defects."
+      },
+      {
+        "viewer_index": 400,
+        "source_label": "400",
+        "source_url": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_400.jp2/full/full/0/default/jpg",
+        "image": "/tmp/amores-s-absence/400.jpg",
+        "preview": "/tmp/amores-s-absence/preview-400.jpg",
+        "sha256": "28882eedfa60ef27c0643c74bb2ac49c0b52ca8bd2378e5d8e41ba794f88d81e",
+        "observation": "Blank apart from pagination and incidental surface marks/defects."
+      },
+      {
+        "viewer_index": 401,
+        "source_label": "401",
+        "source_url": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_401.jp2/full/full/0/default/jpg",
+        "image": "/tmp/amores-s-absence/401.jpg",
+        "preview": "/tmp/amores-s-absence/preview-401.jpg",
+        "sha256": "00230ed775ff975dace69ae0b41d86d2d8e30c44fff1ce2d284ad6007508cb4f",
+        "observation": "Blank apart from pagination and incidental surface marks/defects."
+      },
+      {
+        "viewer_index": 402,
+        "source_label": "402",
+        "source_url": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_402.jp2/full/full/0/default/jpg",
+        "image": "/tmp/amores-s-absence/402.jpg",
+        "preview": "/tmp/amores-s-absence/preview-402.jpg",
+        "sha256": "e0a749ddd72c040661f5ead9e94a0c3d885f1a8c8b4c7023fd106c6ab5f0fc82",
+        "observation": "Blank apart from pagination and incidental surface marks/defects."
+      },
+      {
+        "viewer_index": 403,
+        "source_label": "403",
+        "source_url": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_403.jp2/full/full/0/default/jpg",
+        "image": "/tmp/amores-s-absence/403.jpg",
+        "preview": "/tmp/amores-s-absence/preview-403.jpg",
+        "sha256": "3429b57a1511c39d61a26fa977e90a22a50f71b3b44733ac1ef093eee286a00d",
+        "observation": "Blank apart from pagination and incidental surface marks/defects."
+      },
+      {
+        "viewer_index": 404,
+        "source_label": "404",
+        "source_url": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_404.jp2/full/full/0/default/jpg",
+        "image": "/tmp/amores-s-absence/404.jpg",
+        "preview": "/tmp/amores-s-absence/preview-404.jpg",
+        "sha256": "1d8b8ba1d32f04e14dabbd8732f8ffc8fe02cbee3060bd57b0c37ea12a016828",
+        "observation": "Blank apart from pagination and incidental surface marks/defects."
+      },
+      {
+        "viewer_index": 405,
+        "source_label": "405",
+        "source_url": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_405.jp2/full/full/0/default/jpg",
+        "image": "/tmp/amores-s-absence/405.jpg",
+        "preview": "/tmp/amores-s-absence/preview-405.jpg",
+        "sha256": "2b6eef58bda1f4da8c93cacfa7a716e75fa7add086fa8c24db826382ec39815f",
+        "observation": "Separate poetic fragment identified by primary catalogue as Metamorphoses."
+      },
+      {
+        "viewer_index": 406,
+        "source_label": "406",
+        "source_url": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_406.jp2/full/full/0/default/jpg",
+        "image": "/tmp/amores-s-absence/406.jpg",
+        "preview": "/tmp/amores-s-absence/preview-406.jpg",
+        "sha256": "9a746f88fe488e3cc262e20dfb9e6837acd096bf0f93761e775530d81bceed54",
+        "observation": "Worn reverse leaf with faint residual writing; not blank, no identified Amores continuation."
+      },
+      {
+        "viewer_index": 407,
+        "source_label": "Rear paste-down",
+        "source_url": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_e006.jp2/full/full/0/default/jpg",
+        "image": "/tmp/amores-s-absence/Rear_paste-down.jpg",
+        "preview": "/tmp/amores-s-absence/preview-Rear_paste-down.jpg",
+        "sha256": "828abcefb7ea982be52cf3c654b20053ef7c8708625261a8227ebd468d5f61d5",
+        "observation": "Binding and reused scraps; no Amores continuation."
+      },
+      {
+        "viewer_index": 408,
+        "source_label": "Back cover",
+        "source_url": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_e003.jp2/full/full/0/default/jpg",
+        "image": "/tmp/amores-s-absence/Back_cover.jpg",
+        "preview": "/tmp/amores-s-absence/preview-Back_cover.jpg",
+        "sha256": "1ade53b3e959d0680c8352934be71105e198eb9cd5f74fa966f558c0ab3750c2",
+        "observation": "External binding."
+      }
+    ],
+    "shared_report": "scripts/output/S-3.8-3.15-second-source-absence-audit.md",
+    "shared_report_sha256": "4f1536ed793f1264687883d8d15dbd88dccf3d68a30a429f58c649e4e76cc250"
+  },
+  "notes": [
+    {
+      "note_id": "S-3.9-note-absence",
+      "target": "#S-3.9-gap",
+      "status": "resolved",
+      "evidence": {
+        "assessment": "The independent reviewer read the primary catalogue Amores entry directly: its explicit endpoint is III.7.74 and it identifies the remaining eight elegies as missing. The actual whole page 396 and an enlarged crop of its final six verses confirm the ending at Molliter admota sollicitare manu (3.7.74), with no later column or text below it. Whole-page images 397, 398, 399, 400, 401, 402, 403 and 404 are blank apart from pagination, stains and physical marks. Page 405 contains a distinct poetic fragment in a different presentation, identified as Metamorphoses by the primary catalogue. Page 406 has heavily worn residual writing and is not blank; no Amores continuation is identified there. The rear pastedown contains binding scraps with short remnants, and the back cover is an external binding surface. The review does not claim to decipher all residual writing or assign a historical cause to the Amores truncation.",
+        "source": "https://www.e-codices.unifr.ch/xml/tei_published/csg-0864.xml"
+      }
+    }
+  ],
+  "counts": {
+    "resolved": 1,
+    "documented-uncertainty": 0,
+    "escalate": 0
+  },
+  "reviewed_candidate_sha256": "54853e68e5e27e42e641f4a250a9c3a0affc59301b1fa9291fb0bd939406d1ba",
+  "review_report_sha256": "4af50c4589ec2fc2dc5dcc7379b3c296891b2fb237acccad7a99088166673e3e",
+  "reviewed_xml_sha256": "85bfb782b79e8e7162d04f1672c3c5be7c5ee88846496d93727771ef28f6814e"
+}

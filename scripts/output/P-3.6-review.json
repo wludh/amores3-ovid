@@ -1090,5 +1090,6 @@
     "local_references_resolve": true
   },
   "reviewed_candidate_sha256": "b0d4e361e373d55e146b54c2bd8341eb8e846d1eda27554bf01cc587ac5742de",
-  "review_report_sha256": "760549109b0f5983311d43d921e5c27c0d111869a9988df94d5f4adc94e12462"
+  "review_report_sha256": "760549109b0f5983311d43d921e5c27c0d111869a9988df94d5f4adc94e12462",
+  "reviewed_xml_sha256": "f67e2b6dd49039f1b8e6b5312b1a5bdcff79da0bae70d7e7dcb761f30df9d086"
 }

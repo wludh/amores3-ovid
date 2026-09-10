@@ -1,0 +1,542 @@
+{
+  "witness": "S",
+  "poem": "3.5",
+  "date": "2026-09-09",
+  "reviewer": "OpenAI Codex primary agent, independent second source reader",
+  "author_agent": "/root/encode_s",
+  "reviewer_agent": "/root",
+  "review_type": "independent-second-agent-image-and-encoding-review",
+  "human_approved": false,
+  "line_coverage": {
+    "count": 46,
+    "ranges": [
+      {
+        "manuscript_page": "390",
+        "viewer_page": 391,
+        "start": 1,
+        "end": 11
+      },
+      {
+        "manuscript_page": "392",
+        "viewer_page": 392,
+        "start": 12,
+        "end": 46
+      }
+    ]
+  },
+  "line_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "absent_lines": [],
+  "notes": [
+    {
+      "note_id": "S-3.5-note-1",
+      "target": "#S-3.5-l1",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_390.jp2/full/full/0/default/jpg",
+        "verse": 1,
+        "assessment": "The independent image reading confirms the small isolated n and wide blank before ox erat, with the opening couplet inset on full page390. The pale sōnꝰ and abbreviated right-margin ad sōniū suū remain qualified or unexpanded. No completed large capital or lost decoration is supplied."
+      }
+    },
+    {
+      "note_id": "S-3.5-note-2",
+      "target": "#S-3.5-l2",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_390.jp2/full/full/0/default/jpg",
+        "verse": 2,
+        "assessment": "Animū and meū have visible nasal bars and the verse ends in a point. Full-page context confirms this opening verse is inset, unlike the regularly aligned subsequent verse initials; its indentation is retained."
+      }
+    },
+    {
+      "note_id": "S-3.5-note-3",
+      "target": "#S-3.5-l3",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_390.jp2/full/full/0/default/jpg",
+        "verse": 3,
+        "assessment": "The image supports Colle sub aprico, creberrim with a raised us sign, ilice lucus and the final point. The complete verse and its normal column alignment were checked."
+      }
+    },
+    {
+      "note_id": "S-3.5-note-4",
+      "target": "#S-3.5-l4",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_390.jp2/full/full/0/default/jpg",
+        "verse": 4,
+        "assessment": "Stabat, the et sign and in ramis multa latebat auis are supported. The paired terminal points are retained. The full page places this initial with the regular column, so the imposed alternating inset is removed."
+      }
+    },
+    {
+      "note_id": "S-3.5-note-5",
+      "target": "#S-3.5-l5",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_390.jp2/full/full/0/default/jpg",
+        "verse": 5,
+        "assessment": "The enlarged verse supports Area gramineo suberat uiridissima prato. Only a single terminal point is visible after prato; this corrects the first-pass colon."
+      }
+    },
+    {
+      "note_id": "S-3.5-note-6",
+      "target": "#S-3.5-l6",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_390.jp2/full/full/0/default/jpg",
+        "verse": 6,
+        "assessment": "The source supports humida de guttis lene and aquę. The ending of sonantis remains locally unclear where a high darker stroke meets the crowded letters. The image does not establish an earlier erased reading or a separate historical hand."
+      }
+    },
+    {
+      "note_id": "S-3.5-note-7",
+      "target": "#S-3.5-l7",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_390.jp2/full/full/0/default/jpg",
+        "verse": 7,
+        "assessment": "The visible source forms uitabā, frondibꝰ and estū retain their bars or suspension and separate expansions. Ipse sub arboreis is clear. No additional initial a is written in estū."
+      }
+    },
+    {
+      "note_id": "S-3.5-note-8",
+      "target": "#S-3.5-l8",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_390.jp2/full/full/0/default/jpg",
+        "verse": 8,
+        "assessment": "The sed-like sign has point-like marks to its right rather than a horizontal bar. It is now represented tentatively s; with its qualified expansion preserved. Fronde sub arborea, tamē, the estus suspension and final erat are supported."
+      }
+    },
+    {
+      "note_id": "S-3.5-note-9",
+      "target": "#S-3.5-l9",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_390.jp2/full/full/0/default/jpg",
+        "verse": 9,
+        "assessment": "The complete enlarged line supports Ecce petens uariis immixtas floribꝰ herbas. The raised us sign is retained; no letters are supplied from another witness."
+      }
+    },
+    {
+      "note_id": "S-3.5-note-11",
+      "target": "#S-3.5-l11",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_390.jp2/full/full/0/default/jpg",
+        "verse": 11,
+        "assessment": "The separate barred tū and cū are visible, supporting tum cum. Niuibꝰ, cecidere recentes and the paired terminal points agree with the source. The next manifest canvas continues directly with verse12."
+      }
+    },
+    {
+      "note_id": "S-3.5-note-12",
+      "target": "#S-3.5-l12",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_392.jp2/full/full/0/default/jpg",
+        "verse": 12,
+        "assessment": "On page392 the source reads In liquidas n̄dū quas, followed by mo and disturbed baseline strokes provisionally r with a above. The baseline a-like area in uertat and its separate high i are also visible. The image does not securely establish the canceled states or the function of every stroke, so local uncertainty and the separate annotation remain; no conjectural deletion is supplied."
+      }
+    },
+    {
+      "note_id": "S-3.5-note-13",
+      "target": "#S-3.5-l13",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_392.jp2/full/full/0/default/jpg",
+        "verse": 13,
+        "assessment": "The enlarged source supports spumis, the crossed qd sign, adhuc and stridentibꝰ albet. Its word forms and raised suspension are retained."
+      }
+    },
+    {
+      "note_id": "S-3.5-note-14",
+      "target": "#S-3.5-l14",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_392.jp2/full/full/0/default/jpg",
+        "verse": 14,
+        "assessment": "The short form after Et is an m with high o, whose modo expansion remains qualified. Siccatā, the compact reliq̄t and ouē preserve their visible abbreviation marks. No fully written letters are substituted into the source display."
+      }
+    },
+    {
+      "note_id": "S-3.5-note-15",
+      "target": "#S-3.5-l15",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_392.jp2/full/full/0/default/jpg",
+        "verse": 15,
+        "assessment": "The stained and crowded ending after felic remains a marked abbreviation, represented tentatively felic̄ and left unexpanded. The source clearly supports Taurus erat comes huic, ille and the raised ending of maritus."
+      }
+    },
+    {
+      "note_id": "S-3.5-note-16",
+      "target": "#S-3.5-l16",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_392.jp2/full/full/0/default/jpg",
+        "verse": 16,
+        "assessment": "The bars in Cūq, tenerū, cōiuge, p̄ssit and humū are visible. Sua is followed by the next word without a canceled m. The verse agrees with its source, including the terminal point."
+      }
+    },
+    {
+      "note_id": "S-3.5-note-17",
+      "target": "#S-3.5-l17",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_392.jp2/full/full/0/default/jpg",
+        "verse": 17,
+        "assessment": "The image supports Dūq iacet lente reuocatas ruminat herbas. Dumque remains an explicit expansion of the abbreviated opening. There is no separate et sign between iacet and lente."
+      }
+    },
+    {
+      "note_id": "S-3.5-note-18",
+      "target": "#S-3.5-l18",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_392.jp2/full/full/0/default/jpg",
+        "verse": 18,
+        "assessment": "The enlarged source supports pasto, with visible p and long s, followed by pascitur ante cibo. The Atq and iterū abbreviations and final point are retained."
+      }
+    },
+    {
+      "note_id": "S-3.5-note-19",
+      "target": "#S-3.5-l19",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_392.jp2/full/full/0/default/jpg",
+        "verse": 19,
+        "assessment": "The enlarged ending clearly includes the final a-like letter, supporting ferentia and allowing removal of the first-pass uncertainty on a. The source bars in sōno and adimēte remain explicit. The reading is retained without normalization."
+      }
+    },
+    {
+      "note_id": "S-3.5-note-20",
+      "target": "#S-3.5-l20",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_392.jp2/full/full/0/default/jpg",
+        "verse": 20,
+        "assessment": "The source supports Cornigerū, t̄ra, deposuisse and marked cap̄. Their explicit abbreviations and the final point agree with the image."
+      }
+    },
+    {
+      "note_id": "S-3.5-note-21",
+      "target": "#S-3.5-l21",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_392.jp2/full/full/0/default/jpg",
+        "verse": 21,
+        "assessment": "The complete verse supports Huc leuibꝰ cornix pēnis delapsa, the crossed-p sign and auras. The pennis and per expansions remain separate from their source forms."
+      }
+    },
+    {
+      "note_id": "S-3.5-note-22",
+      "target": "#S-3.5-l22",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_392.jp2/full/full/0/default/jpg",
+        "verse": 22,
+        "assessment": "The faint marked opening remains tentatively Vēn with a qualified Venit expansion. The enlarged following words clearly support the et sign, in uiridi garrula sedit humo and final point. No canceled ending is inferred."
+      }
+    },
+    {
+      "note_id": "S-3.5-note-23",
+      "target": "#S-3.5-l23",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_392.jp2/full/full/0/default/jpg",
+        "verse": 23,
+        "assessment": "The source supports bouis niueę petulantia pectora rostro, including the descending cauda at niueę. The abbreviated Terq opening is retained. No case form is normalized."
+      }
+    },
+    {
+      "note_id": "S-3.5-note-25",
+      "target": "#S-3.5-l25",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_392.jp2/full/full/0/default/jpg",
+        "verse": 25,
+        "assessment": "The image supports Illa locū taurūq diu cunctata reliq̄t. The nasal bars and compact final abbreviation are represented separately from their expansions."
+      }
+    },
+    {
+      "note_id": "S-3.5-note-26",
+      "target": "#S-3.5-l26",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_392.jp2/full/full/0/default/jpg",
+        "verse": 26,
+        "assessment": "The opening S has point-like marks beside it rather than a supported overhead bar; its schematic form is corrected to S; with the Sed expansion retained. The source clearly reads niger in uaccę pectore liuor erat."
+      }
+    },
+    {
+      "note_id": "S-3.5-note-27",
+      "target": "#S-3.5-l27",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_392.jp2/full/full/0/default/jpg",
+        "verse": 27,
+        "assessment": "The source supports Utq, the pro abbreviation before cul, uid̄ and carpentes pabula tauros. All three abbreviated forms retain explicit expansions."
+      }
+    },
+    {
+      "note_id": "S-3.5-note-28",
+      "target": "#S-3.5-l28",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_392.jp2/full/full/0/default/jpg",
+        "verse": 28,
+        "assessment": "Carpebant tauri pabula lęta and the abbreviated procul are visible. The e caudata and final point are retained. The initial shares the regular source margin."
+      }
+    },
+    {
+      "note_id": "S-3.5-note-29",
+      "target": "#S-3.5-l29",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_392.jp2/full/full/0/default/jpg",
+        "verse": 29,
+        "assessment": "The initial minims of the word after gregibꝰq remain crowded, so the tentative im in immiscuit remains locally unclear. Illuc se rapuit, the gregibusque suspension, illis and paired terminal points are supported."
+      }
+    },
+    {
+      "note_id": "S-3.5-note-30",
+      "target": "#S-3.5-l30",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_392.jp2/full/full/0/default/jpg",
+        "verse": 30,
+        "assessment": "The image supports Et petiit herbę fertilioris humū. The e caudata, nasal bar and final point are visible; no separate surface-damage claim is needed here."
+      }
+    },
+    {
+      "note_id": "S-3.5-note-31",
+      "target": "#S-3.5-l31",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_392.jp2/full/full/0/default/jpg",
+        "verse": 31,
+        "assessment": "The enlarged marked group following nocturnę remains tentatively qcūq: its first strokes and joined forms are not securely separable. The quicumque expansion stays qualified. Dic age, es imaginis augur and the caudata are supported."
+      }
+    },
+    {
+      "note_id": "S-3.5-note-32",
+      "target": "#S-3.5-l32",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_392.jp2/full/full/0/default/jpg",
+        "verse": 32,
+        "assessment": "The two qd abbreviations and habent ueri uisa ista ferant are visible. Both quid expansions remain explicit and the source order is retained."
+      }
+    },
+    {
+      "note_id": "S-3.5-note-33",
+      "target": "#S-3.5-l33",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_392.jp2/full/full/0/default/jpg",
+        "verse": 33,
+        "assessment": "The source supports Sic ego nocturnę sic dixit imaginis augur. Ego has no supplied r. The e caudata and paired terminal points are retained."
+      }
+    },
+    {
+      "note_id": "S-3.5-note-35",
+      "target": "#S-3.5-l35",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_392.jp2/full/full/0/default/jpg",
+        "verse": 35,
+        "assessment": "The image supports Quē tu mobilibꝰ foliis uitare uolebas. The quem bar and raised us suspension are retained and the whole verse is present."
+      }
+    },
+    {
+      "note_id": "S-3.5-note-36",
+      "target": "#S-3.5-l36",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_392.jp2/full/full/0/default/jpg",
+        "verse": 36,
+        "assessment": "The sed sign has point-like marks beside S rather than an overhead bar, corrected consistently with verse26. Male uitabas estus amoris erat is supported in the source spelling."
+      }
+    },
+    {
+      "note_id": "S-3.5-note-37",
+      "target": "#S-3.5-l37",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_392.jp2/full/full/0/default/jpg",
+        "verse": 37,
+        "assessment": "The source supports Vacca puella tua, barred ē, aptꝰ color ille puellę. The caudata and terminal low point are retained, with the latter represented schematically as a comma."
+      }
+    },
+    {
+      "note_id": "S-3.5-note-38",
+      "target": "#S-3.5-l38",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_392.jp2/full/full/0/default/jpg",
+        "verse": 38,
+        "assessment": "Tu uir, the et sign, in uacca compare taurus eras and the paired terminal points are visible. The ending e in compare is retained."
+      }
+    },
+    {
+      "note_id": "S-3.5-note-39",
+      "target": "#S-3.5-l39",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_392.jp2/full/full/0/default/jpg",
+        "verse": 39,
+        "assessment": "The crossed qd sign is visible between Pectora and rostro. Cornix fodiebat acuto agrees with the source; no alternative reading is supplied."
+      }
+    },
+    {
+      "note_id": "S-3.5-note-40",
+      "target": "#S-3.5-l40",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_392.jp2/full/full/0/default/jpg",
+        "verse": 40,
+        "assessment": "Ingeniū and dn̄ę have visible marks; lena has no secure descending cauda. Mouebat anus and paired terminal points agree with the source."
+      }
+    },
+    {
+      "note_id": "S-3.5-note-41",
+      "target": "#S-3.5-l41",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_392.jp2/full/full/0/default/jpg",
+        "verse": 41,
+        "assessment": "The crossed qd opening, cunctata diu taurū sua uacca and compact reliq̄t are supported. Their explicit expansions are retained without changing the written source forms."
+      }
+    },
+    {
+      "note_id": "S-3.5-note-42",
+      "target": "#S-3.5-l42",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_392.jp2/full/full/0/default/jpg",
+        "verse": 42,
+        "assessment": "The source supports the raised ending of Frigidus and in uacuo destituere thoro. The final point is visible. Its initial is aligned with adjacent regular verses, not alternately inset."
+      }
+    },
+    {
+      "note_id": "S-3.5-note-43",
+      "target": "#S-3.5-l43",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_392.jp2/full/full/0/default/jpg",
+        "verse": 43,
+        "assessment": "Liuor, the et sign, aduerso maculę sub pectore nigrę are visible. Both e caudata forms remain as written."
+      }
+    },
+    {
+      "note_id": "S-3.5-note-45",
+      "target": "#S-3.5-l45",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_392.jp2/full/full/0/default/jpg",
+        "verse": 45,
+        "assessment": "After gelido the small m has a high upright i-like mark, not a supported horizontal bar. It is now represented as m with a raised tentative i and remains unexpanded. The interpres contraction and sanguis ab ore are supported. No expansion is imported from another witness."
+      }
+    },
+    {
+      "note_id": "S-3.5-note-46",
+      "target": "#S-3.5-l46",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_392.jp2/full/full/0/default/jpg",
+        "verse": 46,
+        "assessment": "The marked opening remains tentatively Fuḡ with a qualified Fugit expansion. The following point, et sign and ante oculos nox stetit alta meos with paired final points are supported. Full page392 shows the next poem opening below this verse; all46 positions are present. Its inset beginning is boundary evidence only."
+      }
+    }
+  ],
+  "counts": {
+    "resolved": 31,
+    "documented-uncertainty": 11,
+    "escalate": 0
+  },
+  "layout_review": {
+    "reviewer_agent": "/root",
+    "date": "2026-09-09",
+    "source_pages": [
+      "390",
+      "392"
+    ],
+    "removed_indents": [
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28,
+      30,
+      32,
+      34,
+      36,
+      38,
+      40,
+      42,
+      44,
+      46
+    ],
+    "retained_indents": [
+      2
+    ],
+    "evidence": "Actual full-page photographs show regular initials aligned, with the opening couplet inset."
+  },
+  "reviewed_candidate_sha256": "dfa962c0f405d42d29cfc373835152ca729bb43608be57a453f35ea275f594ac",
+  "review_report_sha256": "46d3fc15d0fdf5ac435bca820f6d1614d2bad93c9d37d89bb5a6d3b2d8a4207d",
+  "reviewed_xml_sha256": "501caef6193e2c1da5e6ba227de942145e662de991a2d8d2b777705d36f04009"
+}

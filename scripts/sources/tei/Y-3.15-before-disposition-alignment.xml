@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../docs/schema/tei_all-4.12.0.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Y-3.15-document" n="Y">
+<teiHeader xml:lang="en"><fileDesc><titleStmt><title>Ovid, Amores 3.15: witness Y — independently reviewed source transcription</title><author>Publius Ovidius Naso</author><respStmt xml:id="Y-3.15-encoder"><resp>First manuscript-image transcription and encoding; pending a separate source review</resp><name>OpenAI Codex, first reader</name></respStmt><respStmt xml:id="Y-3.15-reviewer"><resp>Independent second reading of every source verse and reconciliation of all first-pass evidence notes</resp><name>OpenAI Codex independent encode_p agent</name></respStmt></titleStmt><publicationStmt><p>Amores Project working transcription, independently reviewed by a different agent on 10 September 2026. Not human-approved.</p></publicationStmt><sourceDesc><msDesc xml:id="Y-3.15-manuscript"><msIdentifier><settlement>Berlin</settlement><repository>Staatsbibliothek zu Berlin — Preußischer Kulturbesitz</repository><idno>Ms. Ham. 471</idno></msIdentifier><msContents><msItem><locus from="68v" to="69r">68v–69r</locus><title>Amores 3.15</title></msItem></msContents><physDesc><handDesc><handNote>Brown main writing and darker interventions are visible. Ink differences are recorded without assigning historical hands.</handNote></handDesc></physDesc><history><origin><p>The supplied library manifest dates the manuscript to the 10th/11th century; this does not date individual interventions.</p></origin></history><additional><surrogates><p><ref target="https://resolver.staatsbibliothek-berlin.de/SBB00034ABB00000000">Library digital facsimile, PPN1844735508</ref>. The supplied manifest identifies the images as Public Domain Mark 1.0. Every verse in folios 68v, 69r was inspected for this first pass.</p></surrogates></additional></msDesc></sourceDesc></fileDesc>
+<encodingDesc><projectDesc><p>Source-grounded first pass of all 20 manuscript verses. No other witness or normalized edition was used as transcription input. Existing annotation coordinates provide navigation, not text. There are 20 original annotation rows for 20 distinct source verses, without duplicates. All20 original rectangles were inspected and remain unchanged. Some include adjacent text; the last includes the separate subscription, also checked in the full page. sourceWitness=LL and panelId are provenance only; no other witness text was used.</p></projectDesc><editorialDecl><correction><p>Uncertain letters are marked unclear and unreadable text gap. Darker ink is hi, not proof of erasure or a distinct hand. Actual additions use add; deletion or substitution is asserted only with visible evidence and qualified where needed. No unattested earlier reading is supplied.</p></correction><normalization><p>Single source-oriented display. Ordinary allographs and long s are represented with standard Latin characters. Source spelling is preserved; word spacing and couplet layout are editorial. Explicit abbreviation expansions remain in TEI choices. Punctuation and unusual signs are schematic typographic equivalents, not exact pen-shape replicas.</p></normalization><punctuation><p>Visible significant punctuation and separation or insertion marks are retained. No modern sentence punctuation is supplied.</p></punctuation><segmentation><p>Each l is one verse and one physical source line. Full-page inspection of folios68v and69r shows alternate physical verse lines inset; even-verse rend attributes record that visible layout. The separate subscription is not a verse. The lg groups are editorial elegiac couplets. Each verse has a stable ID and an existing facsimile rectangle. The rectangles may include neighbouring text and need not enclose marginal inscriptions.</p></segmentation><interpretation><p>A different agent independently read all 20 source verses and investigated all 13 first-pass evidence notes. Source-supported decisions were reconciled directly; remaining uncertainty is documented without human-review assignments. The hash-bound review ledger records every note disposition. Independent agent review is not human scholarly approval.</p></interpretation></editorialDecl><charDecl><char xml:id="Y-3.15-et"><desc>ET LIGATURE, SCHEMATIC</desc><mapping type="display">&amp;</mapping><mapping type="expansion">et</mapping></char><char xml:id="Y-3.15-question"><desc>QUESTION-LIKE SIGN, SCHEMATIC</desc><mapping type="display">⸮</mapping></char></charDecl></encodingDesc><revisionDesc status="reviewed"><change when="2026-09-10" who="#Y-3.15-encoder">First source pass covering all 20 verses and visible interventions in folios 68v, 69r; awaiting a different agent's independent reading.</change><change when="2026-09-10" who="#Y-3.15-reviewer">Independent source review of all 20 verses and 13 notes completed. Removed unsupported h letters in verse 9 ad onesta and verse 11 ospes after direct enlargement; corrected the uncertain area of verse 18 to the readable source arca; retained visible terminal points in verses 10 and 18. Preserved the locally stained and overwritten letters, above-line additions and qualified closing-subscription expansion. Original zones and source-supported layout remain unchanged; zero human escalations.</change></revisionDesc></teiHeader>
+<facsimile>
+<surface xml:id="Y-3.15-s140" n="68v" ulx="0" uly="0" lrx="1941" lry="3363"><graphic url="https://content.staatsbibliothek-berlin.de/dc/1844735508-0140/full/full/0/default.jpg" />
+<zone xml:id="Y-3.15-zone-1" ulx="293" uly="1791" lrx="1824" lry="1962" />
+<zone xml:id="Y-3.15-zone-2" ulx="295" uly="1879" lrx="1716" lry="2031" />
+<zone xml:id="Y-3.15-zone-3" ulx="331" uly="1953" lrx="1676" lry="2092" />
+<zone xml:id="Y-3.15-zone-4" ulx="318" uly="2031" lrx="1593" lry="2148" />
+<zone xml:id="Y-3.15-zone-5" ulx="327" uly="2084" lrx="1821" lry="2224" />
+<zone xml:id="Y-3.15-zone-6" ulx="307" uly="2152" lrx="1721" lry="2292" />
+<zone xml:id="Y-3.15-zone-7" ulx="318" uly="2211" lrx="1627" lry="2358" />
+<zone xml:id="Y-3.15-zone-8" ulx="298" uly="2269" lrx="1537" lry="2420" />
+<zone xml:id="Y-3.15-zone-9" ulx="314" uly="2339" lrx="1677" lry="2483" />
+<zone xml:id="Y-3.15-zone-10" ulx="319" uly="2398" lrx="1649" lry="2541" />
+<zone xml:id="Y-3.15-zone-11" ulx="335" uly="2463" lrx="1749" lry="2626" />
+<zone xml:id="Y-3.15-zone-12" ulx="302" uly="2525" lrx="1662" lry="2676" />
+<zone xml:id="Y-3.15-zone-13" ulx="327" uly="2605" lrx="1692" lry="2747" />
+<zone xml:id="Y-3.15-zone-14" ulx="310" uly="2662" lrx="1704" lry="2796" />
+<zone xml:id="Y-3.15-zone-15" ulx="321" uly="2721" lrx="1783" lry="2888" />
+<zone xml:id="Y-3.15-zone-16" ulx="308" uly="2803" lrx="1642" lry="2945" />
+</surface>
+<surface xml:id="Y-3.15-s141" n="69r" ulx="0" uly="0" lrx="1930" lry="3363"><graphic url="https://content.staatsbibliothek-berlin.de/dc/1844735508-0141/full/full/0/default.jpg" />
+<zone xml:id="Y-3.15-zone-17" ulx="179" uly="218" lrx="1541" lry="342" />
+<zone xml:id="Y-3.15-zone-18" ulx="186" uly="283" lrx="1484" lry="403" />
+<zone xml:id="Y-3.15-zone-19" ulx="190" uly="336" lrx="1448" lry="470" />
+<zone xml:id="Y-3.15-zone-20" ulx="186" uly="390" lrx="1510" lry="588" />
+</surface>
+</facsimile><text xml:lang="la"><body><div type="poem" n="3.15" xml:id="Y-3.15" resp="#Y-3.15-encoder">
+<pb n="68v" facs="#Y-3.15-s140" />
+<lg type="couplet" n="1">
+<l n="1" xml:id="Y-3.15-l1" facs="#Y-3.15-zone-1"><hi rend="large-initial">Q</hi>uaere nouum uatem tenerorum mater amorum</l>
+<l n="2" xml:id="Y-3.15-l2" facs="#Y-3.15-zone-2" rend="indent">Traditur haec elegis ultima meta meis</l>
+</lg>
+<lg type="couplet" n="2">
+<l n="3" xml:id="Y-3.15-l3" facs="#Y-3.15-zone-3">Quos ego composui peligni ruris alumnos</l>
+<l n="4" xml:id="Y-3.15-l4" facs="#Y-3.15-zone-4" rend="indent">Nec me d<hi rend="darker-ink">e</hi>liciae dedecuere meae</l>
+</lg>
+<lg type="couplet" n="3">
+<l n="5" xml:id="Y-3.15-l5" facs="#Y-3.15-zone-5">Si quid id est usque a proauis uetus ordinis heres</l>
+<l n="6" xml:id="Y-3.15-l6" facs="#Y-3.15-zone-6" rend="indent">Non modo militiae turbine factus eques</l>
+</lg>
+<lg type="couplet" n="4">
+<l n="7" xml:id="Y-3.15-l7" facs="#Y-3.15-zone-7">Mantua ui<hi rend="darker-ink">r</hi>gilio gaud<choice><abbr><g ref="#Y-3.15-et">&amp;</g></abbr><expan>et</expan></choice> ueron<unclear reason="overwriting">a</unclear> catullo</l>
+<l n="8" xml:id="Y-3.15-l8" facs="#Y-3.15-zone-8" rend="indent">Paelignae dicar gloria gentis ego</l>
+</lg>
+<lg type="couplet" n="5">
+<l n="9" xml:id="Y-3.15-l9" facs="#Y-3.15-zone-9">Quem sua libertas ad onesta co<hi rend="darker-ink"><unclear>eg</unclear></hi>erat arma<metamark function="unspecified">|</metamark></l>
+<l n="10" xml:id="Y-3.15-l10" facs="#Y-3.15-zone-10" rend="indent">Cum timuit socias anxia roma manus <pc>.</pc></l>
+</lg>
+<lg type="couplet" n="6">
+<l n="11" xml:id="Y-3.15-l11" facs="#Y-3.15-zone-11">Atque aliquis spectans ospes sulmonis aquosi</l>
+<l n="12" xml:id="Y-3.15-l12" facs="#Y-3.15-zone-12" rend="indent">Moeniaque campi<add place="above"><unclear>s</unclear></add> iuger<hi rend="darker-ink">a</hi> pauca tenent</l>
+</lg>
+<lg type="couplet" n="7">
+<l n="13" xml:id="Y-3.15-l13" facs="#Y-3.15-zone-13">Quae tantum dic<choice><abbr><g ref="#Y-3.15-et">&amp;</g></abbr><expan>et</expan></choice> potuis<hi rend="darker-ink">tis</hi> ferre poetam</l>
+<l n="14" xml:id="Y-3.15-l14" facs="#Y-3.15-zone-14" rend="indent">Quantulacumque estis <unclear reason="stained">n</unclear>os ego magna uoco <pc>.</pc></l>
+</lg>
+<lg type="couplet" n="8">
+<l n="15" xml:id="Y-3.15-l15" facs="#Y-3.15-zone-15">Culte puer puerique parens ama<unclear reason="overwriting">th</unclear>usia culti</l>
+<l n="16" xml:id="Y-3.15-l16" facs="#Y-3.15-zone-16" rend="indent">Aurea de campo uel<add place="above">l</add>ite signa meo</l>
+</lg>
+<pb n="69r" facs="#Y-3.15-s141" />
+<lg type="couplet" n="9">
+<l n="17" xml:id="Y-3.15-l17" facs="#Y-3.15-zone-17">Corniger <unclear reason="stained">in</unclear>crepuit thyrso grauiore lyeus</l>
+<l n="18" xml:id="Y-3.15-l18" facs="#Y-3.15-zone-18" rend="indent">Pulsand<unclear reason="stained">a</unclear> est magnis arca maior equis <pc>.</pc></l>
+</lg>
+<lg type="couplet" n="10">
+<l n="19" xml:id="Y-3.15-l19" facs="#Y-3.15-zone-19">Imbelles elegi genialis musa ualete</l>
+<l n="20" xml:id="Y-3.15-l20" facs="#Y-3.15-zone-20" rend="indent">Post mea mansurum fata superstes opus <pc>.</pc></l>
+</lg>
+<trailer facs="#Y-3.15-s141"><choice><abbr>P<pc>.</pc></abbr><expan>Publii</expan></choice> OUIDI NASONIS AMORUM <choice><abbr>EXPLIC̄</abbr><expan cert="low">EXPLICIT</expan></choice> <choice><abbr>LIB̄</abbr><expan>LIBER</expan></choice> <num value="3">III</num><pc>.</pc></trailer></div></body><back><div type="editorial-notes" xml:lang="en"><head>Source evidence after independent review</head>
+<note xml:id="Y-3.15-note-1" n="1" type="observation" target="#Y-3.15-l1">A large Q opens the poem. All twenty verses are present in the source, followed by a separate book-ending subscription.</note>
+<note xml:id="Y-3.15-note-4" n="4" type="observation" target="#Y-3.15-l4">The e after d in deliciae is dark. The source reads dedecuere; its spelling is retained.</note>
+<note xml:id="Y-3.15-note-7" n="7" type="uncertainty" target="#Y-3.15-l7">The r of uirgilio is dark; gaudet closes with an et ligature. Final a of uerona is heavily disturbed and remains unclear. No earlier reading or erasure is reconstructed.</note>
+<note xml:id="Y-3.15-note-9" n="9" type="uncertainty" target="#Y-3.15-l9">The eg-region of coegerat is dark and overlapped, remaining unclear locally. A slender stroke follows arma. Independent full-resolution review confirms ad onesta, with no h ascender between d and o; the first-pass h is removed. No letters are restored from another text.</note>
+<note xml:id="Y-3.15-note-12" n="12" type="uncertainty" target="#Y-3.15-l12">A small s-like shape is written above after campi. Its attachment is plausible but its letter form remains qualified. The final a of iugera is dark. Source tenent is retained.</note>
+<note xml:id="Y-3.15-note-13" n="13" type="observation" target="#Y-3.15-l13">Dicet closes with an et ligature. The ending tis of potuistis is dark and remains readable.</note>
+<note xml:id="Y-3.15-note-14" n="14" type="uncertainty" target="#Y-3.15-l14">A dark spot partly covers the initial n of nos after estis. The surviving shape is retained as unclear; it is not an editorial supplied letter.</note>
+<note xml:id="Y-3.15-note-15" n="15" type="uncertainty" target="#Y-3.15-l15">The middle th-region of amathusia has dark overlapping and horizontal strokes. The current letters remain qualified; no erased name or deleted group is inferred.</note>
+<note xml:id="Y-3.15-note-16" n="16" type="observation" target="#Y-3.15-l16">A small l is written above after baseline l in uelite, yielding uellite when additions are read. A slender mark beneath that region has uncertain function.</note>
+<note xml:id="Y-3.15-note-17" n="17" type="uncertainty" target="#Y-3.15-l17">A vertical pale stain crosses the initial in of increpuit. The letters are tentatively readable and retained as unclear; the source name is lyeus.</note>
+<note xml:id="Y-3.15-note-18" n="18" type="uncertainty" target="#Y-3.15-l18">The vertical stain affects final a of Pulsanda, which remains unclear. Independent enlargement shows an open c in arca, without the medial bar of e; the first-pass uncertain area is corrected to the readable source arca. A small terminal point follows equis.</note>
+<note xml:id="Y-3.15-note-19" n="19" type="observation" target="#Y-3.15-l19">A dark stain lies in the space near genialis/musa and extends toward the following verse. It does not prevent reading the current words or establish a textual cancellation.</note>
+<note xml:id="Y-3.15-note-20" n="20" type="uncertainty" target="#Y-3.15-l20">The verse is followed by a separate subscription in capitals: P. OUIDI NASONIS AMORUM EXPLIC with a final suspension bar, LIB with a suspension bar, and III. These are encoded as trailer with explicit tentative expansion of EXPLIC and expansion of LIB. It is not counted as a twenty-first poem verse. No historical hand is assigned from its larger lettering.</note>
+</div></back></text></TEI>

@@ -1,0 +1,1001 @@
+{
+  "witness": "S",
+  "poem": "3.6",
+  "date": "2026-09-09",
+  "author_agent": "/root/encode_s",
+  "reviewer_agent": "/root/review_y",
+  "reviewer": "OpenAI Codex independent review_y agent",
+  "review_type": "independent-second-agent-image-and-encoding-review",
+  "human_approved": false,
+  "line_coverage": {
+    "count": 106,
+    "ranges": [
+      {
+        "image": 392,
+        "page_position": "manuscript page392",
+        "start": 1,
+        "end": 8
+      },
+      {
+        "image": 393,
+        "page_position": "manuscript page393",
+        "start": 9,
+        "end": 51
+      },
+      {
+        "image": 394,
+        "page_position": "manuscript page394",
+        "start": 52,
+        "end": 94
+      },
+      {
+        "image": 395,
+        "page_position": "manuscript page395",
+        "start": 95,
+        "end": 106
+      }
+    ]
+  },
+  "line_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106
+  ],
+  "previous_note_count": 58,
+  "counts": {
+    "resolved": 36,
+    "documented-uncertainty": 28,
+    "escalate": 0
+  },
+  "notes": [
+    {
+      "note_id": "S-3.6-note-1",
+      "line": 1,
+      "target": "#S-3.6-l1",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_392.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page392",
+        "assessment": "All four full pages confirm aligned regular initials without alternate-line inset. A small a is visible at the left of uninscribed initial space; only the opening two lines are physically inset. The candidate represents that space without inventing an inscribed decorated letter."
+      },
+      "change": "All four full pages confirm aligned regular initials without alternate-line inset. A small a is visible at the left of uninscribed initial space; only the opening two lines are physically inset. The candidate represents that space without inventing an inscribed decorated letter."
+    },
+    {
+      "note_id": "S-3.6-note-2",
+      "line": 2,
+      "target": "#S-3.6-l2",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_392.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page392",
+        "assessment": "The second line shares the reserved-initial inset. The barred dominam abbreviation, looped p in propero, and parū plus crossed p are visible and explicitly expanded."
+      },
+      "change": "The second line shares the reserved-initial inset. The barred dominam abbreviation, looped p in propero, and parū plus crossed p are visible and explicitly expanded."
+    },
+    {
+      "note_id": "S-3.6-note-3",
+      "line": 3,
+      "target": "#S-3.6-l3",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_392.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page392",
+        "assessment": "Raised i on t and barred s with t support the tibi and sunt expansions. The ending quę has the source e caudata. No extra que or tibi letters are presented as written out."
+      },
+      "change": "Raised i on t and barred s with t support the tibi and sunt expansions. The ending quę has the source e caudata. No extra que or tibi letters are presented as written out."
+    },
+    {
+      "note_id": "S-3.6-note-4",
+      "line": 4,
+      "target": "#S-3.6-l4",
+      "status": "resolved",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_392.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page392",
+        "assessment": "The enlarged crop shows a final e in rudente. Removed the unnecessary unclear while preserving the barred cȳba abbreviation and its cymba expansion."
+      },
+      "change": "The enlarged crop shows a final e in rudente. Removed the unnecessary unclear while preserving the barred cȳba abbreviation and its cymba expansion."
+    },
+    {
+      "note_id": "S-3.6-note-7",
+      "line": 7,
+      "target": "#S-3.6-l7",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_392.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page392",
+        "assessment": "The c belongs to preceding N̄c, not to the following word. The next written word is ruis, corrected from first-pass creuis. Appositis nubibus and solutus remain source readings."
+      },
+      "change": "The c belongs to preceding N̄c, not to the following word. The next written word is ruis, corrected from first-pass creuis. Appositis nubibus and solutus remain source readings."
+    },
+    {
+      "note_id": "S-3.6-note-11",
+      "line": 11,
+      "target": "#S-3.6-l11",
+      "status": "resolved",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_393.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page393",
+        "assessment": "Separate enlarged inspection identifies initial S, followed by tamē and later standū. Replaced tentative Stabū and flauiū with S and explicit tamen/standum abbreviation choices. No i is silently supplied after initial S."
+      },
+      "change": "Separate enlarged inspection identifies initial S, followed by tamē and later standū. Replaced tentative Stabū and flauiū with S and explicit tamen/standum abbreviation choices. No i is silently supplied after initial S."
+    },
+    {
+      "note_id": "S-3.6-note-12",
+      "line": 12,
+      "target": "#S-3.6-l12",
+      "status": "resolved",
+      "previous_type": null,
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_393.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page393",
+        "assessment": "The short form between Ulterius and ripa is n̄ro, with a bar and an r-shaped middle letter. Corrected first-pass noto to the explicit nostro contraction; petenda die remains the source wording."
+      },
+      "change": "The short form between Ulterius and ripa is n̄ro, with a bar and an r-shaped middle letter. Corrected first-pass noto to the explicit nostro contraction; petenda die remains the source wording."
+    },
+    {
+      "note_id": "S-3.6-note-13",
+      "line": 13,
+      "target": "#S-3.6-l13",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_393.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page393",
+        "assessment": "The source reads pennas danaeus heros; all three words and the initial Nunc contraction are confirmed."
+      },
+      "change": "The source reads pennas danaeus heros; all three words and the initial Nunc contraction are confirmed."
+    },
+    {
+      "note_id": "S-3.6-note-14",
+      "line": 14,
+      "target": "#S-3.6-l14",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_393.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page393",
+        "assessment": "Terribile, barred densū and cū, and the suspended cap form are visible. Retained the explicit densum/cum/caput expansions and source singular-looking Terribile."
+      },
+      "change": "Terribile, barred densū and cū, and the suspended cap form are visible. Retained the explicit densum/cum/caput expansions and source singular-looking Terribile."
+    },
+    {
+      "note_id": "S-3.6-note-15",
+      "line": 15,
+      "target": "#S-3.6-l15",
+      "status": "resolved",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_393.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page393",
+        "assessment": "The middle e of cerealia is readable in the enlarged source. Removed its unnecessary local unclear; no overwritten earlier reading is inferred."
+      },
+      "change": "The middle e of cerealia is readable in the enlarged source. Removed its unnecessary local unclear; no overwritten earlier reading is inferred."
+    },
+    {
+      "note_id": "S-3.6-note-20",
+      "line": 20,
+      "target": "#S-3.6-l20",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_393.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page393",
+        "assessment": "The contracted form has e caudata, suspension strokes and a us-like ending. The exact distribution of omitted letters is not certain; the existing qualified eternus expansion remains a documented abbreviation uncertainty."
+      },
+      "change": "The contracted form has e caudata, suspension strokes and a us-like ending. The exact distribution of omitted letters is not certain; the existing qualified eternus expansion remains a documented abbreviation uncertainty."
+    },
+    {
+      "note_id": "S-3.6-note-21",
+      "line": 21,
+      "target": "#S-3.6-l21",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_393.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page393",
+        "assessment": "The compact m and raised mark remain difficult to distinguish precisely. Retained the unexpanded unclear abbreviation rather than claiming a fully written mihi; the source seruilę remains visible."
+      },
+      "change": "The compact m and raised mark remain difficult to distinguish precisely. Retained the unexpanded unclear abbreviation rather than claiming a fully written mihi; the source seruilę remains visible."
+    },
+    {
+      "note_id": "S-3.6-note-25",
+      "line": 25,
+      "target": "#S-3.6-l25",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_393.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page393",
+        "assessment": "In melię bithinide pallidus esse is visible; spelling and editorial word division are retained."
+      },
+      "change": "In melię bithinide pallidus esse is visible; spelling and editorial word division are retained."
+    },
+    {
+      "note_id": "S-3.6-note-26",
+      "line": 26,
+      "target": "#S-3.6-l26",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_393.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page393",
+        "assessment": "The suspended Dict form and adjacent et glyph are clear. Dicitur remains a qualified conventional expansion, with the actual contracted source form preserved."
+      },
+      "change": "The suspended Dict form and adjacent et glyph are clear. Dicitur remains a qualified conventional expansion, with the actual contracted source form preserved."
+    },
+    {
+      "note_id": "S-3.6-note-28",
+      "line": 28,
+      "target": "#S-3.6-l28",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_393.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page393",
+        "assessment": "The names xante neera are legible. No extra vowel or h is added."
+      },
+      "change": "The names xante neera are legible. No extra vowel or h is added."
+    },
+    {
+      "note_id": "S-3.6-note-29",
+      "line": 29,
+      "target": "#S-3.6-l29",
+      "status": "resolved",
+      "previous_type": null,
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_393.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page393",
+        "assessment": "A suspension bar is visible over the contracted diu-sis group. Added a choice retaining diūsis with explicit diuersis expansion; the source text is not presented as written out."
+      },
+      "change": "A suspension bar is visible over the contracted diu-sis group. Added a choice retaining diūsis with explicit diuersis expansion; the source text is not presented as written out."
+    },
+    {
+      "note_id": "S-3.6-note-30",
+      "line": 30,
+      "target": "#S-3.6-l30",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_393.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page393",
+        "assessment": "The compact place-name still permits more than one reading in its middle. Retained qualified arethausę without borrowing an expected name."
+      },
+      "change": "The compact place-name still permits more than one reading in its middle. Retained qualified arethausę without borrowing an expected name."
+    },
+    {
+      "note_id": "S-3.6-note-31",
+      "line": 31,
+      "target": "#S-3.6-l31",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_393.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page393",
+        "assessment": "The dark spot overlaps the bs-region of obstruante. The local stained uncertainty is appropriate; no physical deletion or hand assignment follows from the spot."
+      },
+      "change": "The dark spot overlaps the bs-region of obstruante. The local stained uncertainty is appropriate; no physical deletion or hand assignment follows from the spot."
+    },
+    {
+      "note_id": "S-3.6-note-32",
+      "line": 32,
+      "target": "#S-3.6-l32",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_393.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page393",
+        "assessment": "Pethia and occuluisse are legible; the suspended fer form remains expanded fertur. Both source spelling and contraction are retained."
+      },
+      "change": "Pethia and occuluisse are legible; the suspended fer form remains expanded fertur. Both source spelling and contraction are retained."
+    },
+    {
+      "note_id": "S-3.6-note-33",
+      "line": 33,
+      "target": "#S-3.6-l33",
+      "status": "resolved",
+      "previous_type": null,
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_393.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page393",
+        "assessment": "The source proper name has an ascender after p, giving asophon. Added the visible h omitted in the first-pass asopon."
+      },
+      "change": "The source proper name has an ascender after p, giving asophon. Added the visible h omitted in the first-pass asopon."
+    },
+    {
+      "note_id": "S-3.6-note-34",
+      "line": 34,
+      "target": "#S-3.6-l34",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_393.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page393",
+        "assessment": "The compact form contains more strokes than qns, tentatively qinq followed by a suspension sign. Revised the schematic abbreviation to unclear qinqꝫ and added qualified quinque expansion. The exact abbreviated letter shapes remain uncertain."
+      },
+      "change": "The compact form contains more strokes than qns, tentatively qinq followed by a suspension sign. Revised the schematic abbreviation to unclear qinqꝫ and added qualified quinque expansion. The exact abbreviated letter shapes remain uncertain."
+    },
+    {
+      "note_id": "S-3.6-note-35",
+      "line": 35,
+      "target": "#S-3.6-l35",
+      "status": "documented-uncertainty",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_393.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page393",
+        "assessment": "Enlargement supports sint and the final reqrā contraction, corrected from licet and referā. The short barred word before sint appears n̄c and is tentatively expanded nunc; the compact forms remain qualified. Acheloe is retained."
+      },
+      "change": "Enlargement supports sint and the final reqrā contraction, corrected from licet and referā. The short barred word before sint appears n̄c and is tentatively expanded nunc; the compact forms remain qualified. Acheloe is retained."
+    },
+    {
+      "note_id": "S-3.6-note-38",
+      "line": 38,
+      "target": "#S-3.6-l38",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_393.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page393",
+        "assessment": "The large internal gap after fuit before tanti is visible. Its explicit space is retained, without metrical indentation."
+      },
+      "change": "The large internal gap after fuit before tanti is visible. Its explicit space is retained, without metrical indentation."
+    },
+    {
+      "note_id": "S-3.6-note-40",
+      "line": 40,
+      "target": "#S-3.6-l40",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_393.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page393",
+        "assessment": "Both tantę and barred tā are visible before bene. Neither word is omitted."
+      },
+      "change": "Both tantę and barred tā are visible before bene. Neither word is omitted."
+    },
+    {
+      "note_id": "S-3.6-note-41",
+      "line": 41,
+      "target": "#S-3.6-l41",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_393.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page393",
+        "assessment": "The first group begins in before a name tentatively ebantę; corrected the mistaken initial m in mebantę and divided words editorially. Ebantę and metopide remain unclear because their compact letter sequences are not fully secure."
+      },
+      "change": "The first group begins in before a name tentatively ebantę; corrected the mistaken initial m in mebantę and divided words editorially. Ebantę and metopide remain unclear because their compact letter sequences are not fully secure."
+    },
+    {
+      "note_id": "S-3.6-note-45",
+      "line": 45,
+      "target": "#S-3.6-l45",
+      "status": "resolved",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_393.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page393",
+        "assessment": "The word after te is the barred pretereo contraction, not the proposed proper name spergeo. Corrected the abbreviation to p̄tereo with explicit pretereo expansion. The following qui, crossed-p per and uolutꝰ are retained."
+      },
+      "change": "The word after te is the barred pretereo contraction, not the proposed proper name spergeo. Corrected the abbreviation to p̄tereo with explicit pretereo expansion. The following qui, crossed-p per and uolutꝰ are retained."
+    },
+    {
+      "note_id": "S-3.6-note-46",
+      "line": 46,
+      "target": "#S-3.6-l46",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_393.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page393",
+        "assessment": "The argiu-ending has a darker a-like form and overlapping strokes. Retained local unclear within dark ink; the image does not establish recoverable earlier letters or correction direction."
+      },
+      "change": "The argiu-ending has a darker a-like form and overlapping strokes. Retained local unclear within dark ink; the image does not establish recoverable earlier letters or correction direction."
+    },
+    {
+      "note_id": "S-3.6-note-47",
+      "line": 47,
+      "target": "#S-3.6-l47",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_393.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page393",
+        "assessment": "The dark spot affects cui. Current cui remains qualified because the local surface obscures part of the letters."
+      },
+      "change": "The dark spot affects cui. Current cui remains qualified because the local surface obscures part of the letters."
+    },
+    {
+      "note_id": "S-3.6-note-48",
+      "line": 48,
+      "target": "#S-3.6-l48",
+      "status": "resolved",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_393.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page393",
+        "assessment": "Notata is readable on enlargement. Removed its unclear; source comis and the second phrase lauata genas are retained."
+      },
+      "change": "Notata is readable on enlargement. Removed its unclear; source comis and the second phrase lauata genas are retained."
+    },
+    {
+      "note_id": "S-3.6-note-49",
+      "line": 49,
+      "target": "#S-3.6-l49",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_393.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page393",
+        "assessment": "The first word after Illa is gemens, corrected from genitoris. The group after patruique appears nefas rather than iniustas and is revised but remains unclear. Final marta remains tentative; no familiar verse is substituted wholesale."
+      },
+      "change": "The first word after Illa is gemens, corrected from genitoris. The group after patruique appears nefas rather than iniustas and is revised but remains unclear. Final marta remains tentative; no familiar verse is substituted wholesale."
+    },
+    {
+      "note_id": "S-3.6-note-51",
+      "line": 51,
+      "target": "#S-3.6-l51",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_393.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page393",
+        "assessment": "The baseline word after Hanc remains unreadable under the brown disturbed patch; the dark amnis beneath is visible. Retained the gap and below-line addition separately, without inventing an erased word or a historical hand."
+      },
+      "change": "The baseline word after Hanc remains unreadable under the brown disturbed patch; the dark amnis beneath is visible. Retained the gap and below-line addition separately, without inventing an erased word or a historical hand."
+    },
+    {
+      "note_id": "S-3.6-note-53",
+      "line": 53,
+      "target": "#S-3.6-l53",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_394.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page394",
+        "assessment": "The source nostras contraction and phrase teris anxia ripas remain visible. The candidate retains those forms without grammatical normalization."
+      },
+      "change": "The source nostras contraction and phrase teris anxia ripas remain visible. The candidate retains those forms without grammatical normalization."
+    },
+    {
+      "note_id": "S-3.6-note-54",
+      "line": 54,
+      "target": "#S-3.6-l54",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_394.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page394",
+        "assessment": "Ab ideo laomedonte genus is the visible sequence. No name is normalized."
+      },
+      "change": "Ab ideo laomedonte genus is the visible sequence. No name is normalized."
+    },
+    {
+      "note_id": "S-3.6-note-57",
+      "line": 57,
+      "target": "#S-3.6-l57",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_394.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page394",
+        "assessment": "The barred cōrumpis source form is clear, while the precise conventional expansion remains qualified. The contraction is retained rather than presented as written out."
+      },
+      "change": "The barred cōrumpis source form is clear, while the precise conventional expansion remains qualified. The contraction is retained rather than presented as written out."
+    },
+    {
+      "note_id": "S-3.6-note-62",
+      "line": 62,
+      "target": "#S-3.6-l62",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_394.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page394",
+        "assessment": "The barred short form after colent has a compact terminal sign whose pen form is not fully secure. Retained the schematic abbreviation and low-certainty omnes expansion; no assumed amnes reading is substituted."
+      },
+      "change": "The barred short form after colent has a compact terminal sign whose pen form is not fully secure. Retained the schematic abbreviation and low-certainty omnes expansion; no assumed amnes reading is substituted."
+    },
+    {
+      "note_id": "S-3.6-note-64",
+      "line": 64,
+      "target": "#S-3.6-l64",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_394.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page394",
+        "assessment": "The source has flumina n̄ra tenent. The abbreviation and phrase are retained exactly."
+      },
+      "change": "The source has flumina n̄ra tenent. The abbreviation and phrase are retained exactly."
+    },
+    {
+      "note_id": "S-3.6-note-65",
+      "line": 65,
+      "target": "#S-3.6-l65",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_394.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page394",
+        "assessment": "The initial N of Nec is darker/crowded, without secure evidence of an erased earlier reading. Precor and propago retain their abbreviations; romana is preserved."
+      },
+      "change": "The initial N of Nec is darker/crowded, without secure evidence of an erased earlier reading. Precor and propago retain their abbreviations; romana is preserved."
+    },
+    {
+      "note_id": "S-3.6-note-66",
+      "line": 66,
+      "target": "#S-3.6-l66",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_394.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page394",
+        "assessment": "The enlarged word after promissis reads uberiora, with b and the following eri sequence visible. Corrected first-pass altiora. The source abbreviation promissis remains unchanged."
+      },
+      "change": "The enlarged word after promissis reads uberiora, with b and the following eri sequence visible. Corrected first-pass altiora. The source abbreviation promissis remains unchanged."
+    },
+    {
+      "note_id": "S-3.6-note-69",
+      "line": 69,
+      "target": "#S-3.6-l69",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_394.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page394",
+        "assessment": "The short barred tē after fugā remains unexpanded. The sign alone does not securely determine its intended completion."
+      },
+      "change": "The short barred tē after fugā remains unexpanded. The sign alone does not securely determine its intended completion."
+    },
+    {
+      "note_id": "S-3.6-note-70",
+      "line": 70,
+      "target": "#S-3.6-l70",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_394.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page394",
+        "assessment": "Currentia and eripiente metu are legible. The middle short group appears uirēs rather than uitū, but its compact ending and bar remain uncertain; it is revised within unclear and left unexpanded."
+      },
+      "change": "Currentia and eripiente metu are legible. The middle short group appears uirēs rather than uitū, but its compact ending and bar remain uncertain; it is revised within unclear and left unexpanded."
+    },
+    {
+      "note_id": "S-3.6-note-72",
+      "line": 72,
+      "target": "#S-3.6-l72",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_394.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page394",
+        "assessment": "A dark E is visible to the left of the ordinary initial position, where the baseline initial is disturbed and unreadable. Retained separate add and gap, with no reconstruction of a prior character or erasure mechanism."
+      },
+      "change": "A dark E is visible to the left of the ordinary initial position, where the baseline initial is disturbed and unreadable. Retained separate add and gap, with no reconstruction of a prior character or erasure mechanism."
+    },
+    {
+      "note_id": "S-3.6-note-73",
+      "line": 73,
+      "target": "#S-3.6-l73",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_394.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page394",
+        "assessment": "The enlarged baseline reads mea tecta forent patrioqꝫ sepulchro. Corrected first-pass detecta sorte pateatqꝫ; retained the visible -que contraction and explicit patrioque expansion."
+      },
+      "change": "The enlarged baseline reads mea tecta forent patrioqꝫ sepulchro. Corrected first-pass detecta sorte pateatqꝫ; retained the visible -que contraction and explicit patrioque expansion."
+    },
+    {
+      "note_id": "S-3.6-note-74",
+      "line": 74,
+      "target": "#S-3.6-l74",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_394.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page394",
+        "assessment": "The final legi is tentatively visible beside brown and dark staining. Retained the localized unclear without asserting additional lost words."
+      },
+      "change": "The final legi is tentatively visible beside brown and dark staining. Retained the localized unclear without asserting additional lost words."
+    },
+    {
+      "note_id": "S-3.6-note-75",
+      "line": 75,
+      "target": "#S-3.6-l75",
+      "status": "resolved",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_394.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page394",
+        "assessment": "The m with raised o supports conventional modo expansion, now explicit. Source uestales tedas, inuitor and abbreviated adustus remain unchanged."
+      },
+      "change": "The m with raised o supports conventional modo expansion, now explicit. Source uestales tedas, inuitor and abbreviated adustus remain unchanged."
+    },
+    {
+      "note_id": "S-3.6-note-77",
+      "line": 77,
+      "target": "#S-3.6-l77",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_394.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page394",
+        "assessment": "The written adultā has a contraction bar. Added a qualified adultera expansion while preserving the actual abbreviation; the completion remains explicitly uncertain."
+      },
+      "change": "The written adultā has a contraction bar. Added a qualified adultera expansion while preserving the actual abbreviation; the completion remains explicitly uncertain."
+    },
+    {
+      "note_id": "S-3.6-note-78",
+      "line": 78,
+      "target": "#S-3.6-l78",
+      "status": "resolved",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_394.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page394",
+        "assessment": "The ending of famosus is readable in the enlarged crop. Removed its unclear and retained the separate source words que natet."
+      },
+      "change": "The ending of famosus is readable in the enlarged crop. Removed its unclear and retained the separate source words que natet."
+    },
+    {
+      "note_id": "S-3.6-note-80",
+      "line": 80,
+      "target": "#S-3.6-l80",
+      "status": "resolved",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_394.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page394",
+        "assessment": "The middle bi of turbidis is visible on enlarged inspection. Removed unnecessary unclear while preserving crossed-p perdita and the source ending aquis."
+      },
+      "change": "The middle bi of turbidis is visible on enlarged inspection. Removed unnecessary unclear while preserving crossed-p perdita and the source ending aquis."
+    },
+    {
+      "note_id": "S-3.6-note-82",
+      "line": 82,
+      "target": "#S-3.6-l82",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_394.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page394",
+        "assessment": "The suspended Dict form repeats verse 26. Retained the explicit qualified Dicitur expansion and source thori."
+      },
+      "change": "The suspended Dict form repeats verse 26. Retained the explicit qualified Dicitur expansion and source thori."
+    },
+    {
+      "note_id": "S-3.6-note-84",
+      "line": 84,
+      "target": "#S-3.6-l84",
+      "status": "resolved",
+      "previous_type": null,
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_394.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page394",
+        "assessment": "A visible contraction bar occurs over the short u-ra form. Added a choice for ūra expanded uestra, preserving its abbreviated status."
+      },
+      "change": "A visible contraction bar occurs over the short u-ra form. Added a choice for ūra expanded uestra, preserving its abbreviated status."
+    },
+    {
+      "note_id": "S-3.6-note-85",
+      "line": 85,
+      "target": "#S-3.6-l85",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_394.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page394",
+        "assessment": "The source reads latis spatiosus in undis. No additional i or other normalized wording is supplied."
+      },
+      "change": "The source reads latis spatiosus in undis. No additional i or other normalized wording is supplied."
+    },
+    {
+      "note_id": "S-3.6-note-86",
+      "line": 86,
+      "target": "#S-3.6-l86",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_394.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page394",
+        "assessment": "The barred alt form is clearly abbreviated; added a qualified altus expansion, preserving the contracted source. The ending remains editorially uncertain, not a written-out source word."
+      },
+      "change": "The barred alt form is clearly abbreviated; added a qualified altus expansion, preserving the contracted source. The ending remains editorially uncertain, not a written-out source word."
+    },
+    {
+      "note_id": "S-3.6-note-89",
+      "line": 89,
+      "target": "#S-3.6-l89",
+      "status": "resolved",
+      "previous_type": null,
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_394.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page394",
+        "assessment": "The source has a separate si before nobile, with an s-shaped initial and following i. Corrected first-pass ignobile to si nobile; source legitimum and flumen contractions remain."
+      },
+      "change": "The source has a separate si before nobile, with an s-shaped initial and following i. Corrected first-pass ignobile to si nobile; source legitimum and flumen contractions remain."
+    },
+    {
+      "note_id": "S-3.6-note-91",
+      "line": 91,
+      "target": "#S-3.6-l91",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_394.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page394",
+        "assessment": "The opening contraction Nōm is visible. Its Nomen expansion remains explicitly qualified, without pretending all letters are written."
+      },
+      "change": "The opening contraction Nōm is visible. Its Nomen expansion remains explicitly qualified, without pretending all letters are written."
+    },
+    {
+      "note_id": "S-3.6-note-93",
+      "line": 93,
+      "target": "#S-3.6-l93",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_394.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page394",
+        "assessment": "The pluuiamque and niuesque contractions and final solutos agree with the source. Retained."
+      },
+      "change": "The pluuiamque and niuesque contractions and final solutos agree with the source. Retained."
+    },
+    {
+      "note_id": "S-3.6-note-94",
+      "line": 94,
+      "target": "#S-3.6-l94",
+      "status": "resolved",
+      "previous_type": null,
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_394.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page394",
+        "assessment": "The visible sequence after diuitias is pigra ministrat, with final a on pigra before the next word. Corrected the first-pass misdivision and reading piger administrat."
+      },
+      "change": "The visible sequence after diuitias is pigra ministrat, with final a on pigra before the next word. Corrected the first-pass misdivision and reading piger administrat."
+    },
+    {
+      "note_id": "S-3.6-note-95",
+      "line": 95,
+      "target": "#S-3.6-l95",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_395.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page395",
+        "assessment": "The last word still has uncertain middle letter shapes and remains tentative curtis. Brumale pectore is visibly written and is not normalized."
+      },
+      "change": "The last word still has uncertain middle letter shapes and remains tentative curtis. Brumale pectore is visibly written and is not normalized."
+    },
+    {
+      "note_id": "S-3.6-note-96",
+      "line": 96,
+      "target": "#S-3.6-l96",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_395.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page395",
+        "assessment": "The short barred form appears p̄mis, tentatively expanded premis. The following contracted word appears arētē, tentatively expanded arentem; revised the first-pass p̄nus/attritā while retaining local uncertainty around these compact shapes."
+      },
+      "change": "The short barred form appears p̄mis, tentatively expanded premis. The following contracted word appears arētē, tentatively expanded arentem; revised the first-pass p̄nus/attritā while retaining local uncertainty around these compact shapes."
+    },
+    {
+      "note_id": "S-3.6-note-97",
+      "line": 97,
+      "target": "#S-3.6-l97",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_395.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page395",
+        "assessment": "The et-like dark group and following barred u-like form remain uncertain. No expanded word can be established securely from these shapes; both remain explicitly qualified."
+      },
+      "change": "The et-like dark group and following barred u-like form remain uncertain. No expanded word can be established securely from these shapes; both remain explicitly qualified."
+    },
+    {
+      "note_id": "S-3.6-note-99",
+      "line": 99,
+      "target": "#S-3.6-l99",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_395.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page395",
+        "assessment": "The marked opening Dānosis and final is ending are visible. The Damnosis expansion is retained without changing the source vowel."
+      },
+      "change": "The marked opening Dānosis and final is ending are visible. The Damnosis expansion is retained without changing the source vowel."
+    },
+    {
+      "note_id": "S-3.6-note-100",
+      "line": 100,
+      "target": "#S-3.6-l100",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_395.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page395",
+        "assessment": "The middle consonant in Fortitan still has an ambiguous crossed shape. Retained local uncertainty rather than silently normalizing to Forsitan."
+      },
+      "change": "The middle consonant in Fortitan still has an ambiguous crossed shape. Retained local uncertainty rather than silently normalizing to Forsitan."
+    },
+    {
+      "note_id": "S-3.6-note-101",
+      "line": 101,
+      "target": "#S-3.6-l101",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_395.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page395",
+        "assessment": "The short barred t after ego remains unexpanded. Narrabam, fluminum and amores remain source readings, with their contractions retained."
+      },
+      "change": "The short barred t after ego remains unexpanded. Narrabam, fluminum and amores remain source readings, with their contractions retained."
+    },
+    {
+      "note_id": "S-3.6-note-103",
+      "line": 103,
+      "target": "#S-3.6-l103",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_395.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page395",
+        "assessment": "Sic spectans, acheloon and inachon remain the source reading. The final amnem contraction is retained; no imported proper-name spelling is substituted."
+      },
+      "change": "Sic spectans, acheloon and inachon remain the source reading. The final amnem contraction is retained; no imported proper-name spelling is substituted."
+    },
+    {
+      "note_id": "S-3.6-note-104",
+      "line": 104,
+      "target": "#S-3.6-l104",
+      "status": "documented-uncertainty",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_395.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page395",
+        "assessment": "The short word after nomen has one tall l and small preceding strokes, appearing nile rather than uelle. Revised it to unclear nile; the initial minims remain a documented uncertainty rather than a confident normalization."
+      },
+      "change": "The short word after nomen has one tall l and small preceding strokes, appearing nile rather than uelle. Revised it to unclear nile; the initial minims remain a documented uncertainty rather than a confident normalization."
+    },
+    {
+      "note_id": "S-3.6-note-106",
+      "line": 106,
+      "target": "#S-3.6-l106",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_395.jp2/full/full/0/default/jpg",
+        "page_position": "manuscript page395",
+        "assessment": "Semper and hiemps are abbreviated; the opening reserved-initial area of 3.7 below confirms the end after106. All 106 actual positions are covered."
+      },
+      "change": "Semper and hiemps are abbreviated; the opening reserved-initial area of 3.7 below confirms the end after106. All 106 actual positions are covered."
+    }
+  ],
+  "validation": {
+    "schema": "docs/schema/tei_all-4.12.0.rng",
+    "schema_result": "passed xmllint Relax NG",
+    "verse_lines": 106,
+    "facsimile_zones": 106,
+    "unique_ids": true,
+    "local_references_resolve": true
+  },
+  "layout_evidence": {
+    "assessment": "Actual regular initials align on all four full pages. Only the opening couplet is inset beside reserved initial space; no alternating indentation."
+  },
+  "reviewed_candidate_sha256": "706f94bcce93cb7f5726b8f036f190e3106f45f57addb342b44f7ff173149883",
+  "review_report_sha256": "1ed1447a2bc862dfd941ec16cb8ab2facaa9ccc25ebff4b6dbd59baef072962f",
+  "reviewed_xml_sha256": "8338c0191cdb8b30c400ddd29178cbe3dca3e1f6cbb79a891160dc78542b50a7"
+}

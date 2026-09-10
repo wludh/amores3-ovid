@@ -1,0 +1,334 @@
+{
+  "witness": "O",
+  "poem": "3.8",
+  "date": "2026-09-09",
+  "author_agent": "/root",
+  "reviewer_agent": "/root/review_y",
+  "reviewer": "OpenAI Codex independent review_y agent",
+  "review_type": "independent-second-agent-image-and-encoding-review",
+  "human_approved": false,
+  "line_coverage": {
+    "count": 66,
+    "ranges": [
+      {
+        "image": 106,
+        "printed_page": 58,
+        "page_position": "printed page58",
+        "start": 1,
+        "end": 8
+      },
+      {
+        "image": 107,
+        "printed_page": 59,
+        "page_position": "printed page59",
+        "start": 9,
+        "end": 45
+      },
+      {
+        "image": 108,
+        "printed_page": 60,
+        "page_position": "printed page60",
+        "start": 46,
+        "end": 66
+      }
+    ]
+  },
+  "line_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66
+  ],
+  "counts": {
+    "resolved": 16,
+    "documented-uncertainty": 0,
+    "escalate": 0
+  },
+  "previous_note_count": 16,
+  "notes": [
+    {
+      "note_id": "O-3.8-note-1",
+      "line": 1,
+      "target": "#O-3.8-l1",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0110.jp2/full/max/0/default.jpg",
+        "page_position": "printed page58",
+        "assessment": "Printed VIII. starts the poem after3.7; etiamnunc is one word. The first two lines and their inset agree."
+      },
+      "change": "Independently checked and retained source text and note."
+    },
+    {
+      "note_id": "O-3.8-note-4",
+      "line": 4,
+      "target": "#O-3.8-l4",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0110.jp2/full/max/0/default.jpg",
+        "page_position": "printed page58",
+        "assessment": "Barbariast is printed as a contraction, and grandis is followed by a comma. Both are retained."
+      },
+      "change": "Independently checked and retained source text and note."
+    },
+    {
+      "note_id": "O-3.8-note-7",
+      "line": 7,
+      "target": "#O-3.8-l7",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0110.jp2/full/max/0/default.jpg",
+        "page_position": "printed page58",
+        "assessment": "Clausast is printed here and55. No expansion to clausa est is supplied."
+      },
+      "change": "Independently checked and retained source text and note."
+    },
+    {
+      "note_id": "O-3.8-note-9",
+      "line": 9,
+      "target": "#O-3.8-l9",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0111.jp2/full/max/0/default.jpg",
+        "page_position": "printed page59",
+        "assessment": "The source reads parto per vulnera censu and continues sanguine pastus eques on10; the candidate agrees."
+      },
+      "change": "Independently checked and retained source text and note."
+    },
+    {
+      "note_id": "O-3.8-note-11",
+      "line": 11,
+      "target": "#O-3.8-l11",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0111.jp2/full/max/0/default.jpg",
+        "page_position": "printed page59",
+        "assessment": "Vita is enclosed by commas on both11and12, matching the printed punctuation."
+      },
+      "change": "Independently checked and retained source text and note."
+    },
+    {
+      "note_id": "O-3.8-note-20",
+      "line": 20,
+      "target": "#O-3.8-l20",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0111.jp2/full/max/0/default.jpg",
+        "page_position": "printed page59",
+        "assessment": "Quaesitumst and quidquid agree exactly with the printed forms."
+      },
+      "change": "Independently checked and retained source text and note."
+    },
+    {
+      "note_id": "O-3.8-note-22",
+      "line": 22,
+      "target": "#O-3.8-l22",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0111.jp2/full/max/0/default.jpg",
+        "page_position": "printed page59",
+        "assessment": "Indicet is followed by an exclamation mark; the verse ends with a colon. Confirmed in the source."
+      },
+      "change": "Independently checked and retained source text and note."
+    },
+    {
+      "note_id": "O-3.8-note-27",
+      "line": 27,
+      "target": "#O-3.8-l27",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0111.jp2/full/max/0/default.jpg",
+        "page_position": "printed page59",
+        "assessment": "Primum deducite pilum! is the printed phrase, including the final exclamation mark."
+      },
+      "change": "Independently checked and retained source text and note."
+    },
+    {
+      "note_id": "O-3.8-note-38",
+      "line": 38,
+      "target": "#O-3.8-l38",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0111.jp2/full/max/0/default.jpg",
+        "page_position": "printed page59",
+        "assessment": "The source clearly prints admorat, preserved without expansion or modernization."
+      },
+      "change": "Independently checked and retained source text and note."
+    },
+    {
+      "note_id": "O-3.8-note-43",
+      "line": 43,
+      "target": "#O-3.8-l43",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0111.jp2/full/max/0/default.jpg",
+        "page_position": "printed page59",
+        "assessment": "Demisso and eruta are clear in the source; retained."
+      },
+      "change": "Independently checked and retained source text and note."
+    },
+    {
+      "note_id": "O-3.8-note-51",
+      "line": 51,
+      "target": "#O-3.8-l51",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0112.jp2/full/max/0/default.jpg",
+        "page_position": "printed page60",
+        "assessment": "A square bracket opens51and closes after the full stop of52. Both printed verses are retained; the punctuation is not falsely encoded as manuscript cancellation."
+      },
+      "change": "Independently checked and retained source text and note."
+    },
+    {
+      "note_id": "O-3.8-note-55",
+      "line": 55,
+      "target": "#O-3.8-l55",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0112.jp2/full/max/0/default.jpg",
+        "page_position": "printed page60",
+        "assessment": "The mark after clausast has the lower comma stroke of a semicolon. Corrected the candidate colon to semicolon and corrected its note. The final mark after honores is a colon."
+      },
+      "change": "Corrected colon after clausast to semicolon and updated note."
+    },
+    {
+      "note_id": "O-3.8-note-57",
+      "line": 57,
+      "target": "#O-3.8-l57",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0112.jp2/full/max/0/default.jpg",
+        "page_position": "printed page60",
+        "assessment": "Campusque has initial capital C in the source; preserved."
+      },
+      "change": "Independently checked and retained source text and note."
+    },
+    {
+      "note_id": "O-3.8-note-60",
+      "line": 60,
+      "target": "#O-3.8-l60",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0112.jp2/full/max/0/default.jpg",
+        "page_position": "printed page60",
+        "assessment": "The parentheses enclose only satis est. The final exclamation mark and surrounding text agree."
+      },
+      "change": "Independently checked and retained source text and note."
+    },
+    {
+      "note_id": "O-3.8-note-65",
+      "line": 65,
+      "target": "#O-3.8-l65",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0112.jp2/full/max/0/default.jpg",
+        "page_position": "printed page60",
+        "assessment": "The printed word is neclecti. Its unusual spelling is preserved."
+      },
+      "change": "Independently checked and retained source text and note."
+    },
+    {
+      "note_id": "O-3.8-note-66",
+      "line": 66,
+      "target": "#O-3.8-l66",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0112.jp2/full/max/0/default.jpg",
+        "page_position": "printed page60",
+        "assessment": "The verse ends with opes! and is followed by the separate VIIII. heading and3.9opening. The66verse boundary is confirmed."
+      },
+      "change": "Independently checked and retained source text and note."
+    }
+  ],
+  "validation": {
+    "schema": "docs/schema/tei_all-4.12.0.rng",
+    "schema_result": "passed xmllint Relax NG",
+    "verse_lines": 66,
+    "facsimile_zones": 66,
+    "unique_ids": true,
+    "local_references_resolve": true
+  },
+  "layout_evidence": {
+    "assessment": "Actual printed second lines are inset on all three source pages; retained source-based even-line indentation."
+  },
+  "reviewed_candidate_sha256": "3aab856efa2884010907039ac2cd2c415ce1e99913f1328a3a91b7e093bb5930",
+  "review_report_sha256": "8268ec293b8f8e303de29032ebd8f19344c6af3e3096c79f2557a28b7576a68d",
+  "reviewed_xml_sha256": "6a5d142131ec848024338b122277b052b80134ee4e1c94c062ed130ccff11545"
+}

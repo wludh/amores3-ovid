@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../docs/schema/tei_all-4.12.0.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="P" xml:id="P">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title>Ovid, Amores 3.14: witness P — independently source-reviewed</title>
+        <author>Publius Ovidius Naso</author>
+        <respStmt xml:id="P-3.14-encoder">
+          <resp>First-pass image transcription and TEI encoding</resp>
+          <name>OpenAI Codex</name>
+        </respStmt>
+      <respStmt xml:id="P-3.14-reviewer"><resp>Independent second reading of every source position, layout and evidence note</resp><name>OpenAI Codex independent encode_s agent</name></respStmt></titleStmt>
+      <publicationStmt>
+        <p>Amores Project local working transcription, 9 September 2026. Independently reviewed by a second source reader; not human-approved.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="P-3.14-manuscript">
+          <msIdentifier>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France, Département des Manuscrits</repository>
+            <idno>Latin 8242</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus>Gallica digital images 98, 99; left/right positions identify physical pages in the photographed openings, not asserted medieval foliation.</locus>
+              <title>Amores 3.14</title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <handDesc>
+              <handNote>Main text and any darker interventions are distinguished where observed. No individual historical correcting hands are inferred from tonal contrast in monochrome photographs.</handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <p>The supplied BnF IIIF manifest dates the manuscript to 1001–1100. The catalogue dating is not a date assigned to individual interventions.</p>
+            </origin>
+          </history>
+          <additional>
+            <surrogates>
+              <p><ref target="https://gallica.bnf.fr/ark:/12148/btv1b9066797j">BnF Gallica Latin 8242</ref></p>
+              <p>The original full-resolution digital images and enlarged crops were inspected for this first pass. Gallica source reuse conditions apply. No text was populated from LL or another witness.</p>
+            <p><ref target="https://libsysdigi.library.illinois.edu/ilharvest/OtherCDM/chatem0001paldes/chatem0001paldes_v00002/chatem0001paldes_v00002_opt.pdf">Émile Chatelain, Paléographie des classiques latins II, plate XCI notice, PDF fifth page (zero-based 4): surviving Amores 3.12.26 followed by 3.14.3; used for coverage corroboration, not verse text.</ref></p></surrogates>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Source-grounded first reading of the 48 surviving canonical positions 3–50, including local source illegibility. The missing opening positions 1–2 are a source-confirmed gap, not verse containers; their old overlapping rectangles remain provenance only. Every surviving source position and evidence note has received an independent second reading.</p>
+      </projectDesc>
+      <editorialDecl>
+        <correction>
+          <p>No silent emendation from an edition or another witness. Local uncertain letters use unclear, irrecoverable text or signs use gap. Observed above-line letters use add. Tonal distinctions use hi without an invented underlying erased text or historical hand. Manuscript annotations use note type manuscript, distinct from editorial evidence notes.</p>
+        </correction>
+        <normalization>
+          <p>One source-oriented display. Ordinary allographs, long s, and capitals are represented in legible Latin types. Word boundaries are editorially segmented; no indentation whitespace is inserted inside verse mixed content. Selected ligatures and abbreviation signs are declared typographic approximations; explicit expansions remain in TEI rather than a separate reading mode. This is not a facsimile-perfect inventory of every minute stroke.</p>
+        </normalization>
+        <punctuation>
+          <p>Significant observed punctuation is retained schematically, without adding systematic modern sentence punctuation.</p>
+        </punctuation>
+        <segmentation>
+          <p>Each l is a surviving canonical verse position3–50; blackened positions use illegibility gaps without claiming recoverable words. Opening positions 1–2 are not transmitted, corroborated by full-page source inspection and Chatelain’s manuscript description. Saved rectangles 1–2 remain unused facsimile provenance. Other zones are unchanged. Couplets are editorial grouping. Only source-supported visible line offsets carry indent; none is assigned automatically from parity. Mixed-content word boundaries contain no formatting newlines.</p>
+        </segmentation>
+        <interpretation>
+          <p>Every evidence note has an independent disposition in the companion ledger. Documented image uncertainty remains local and is not a human-review assignment.</p>
+        </interpretation>
+      </editorialDecl>
+      <charDecl>
+        <char xml:id="P-3.14-et">
+          <desc>ET LIGATURE, SCHEMATIC TYPE REPRESENTATION</desc>
+          <mapping type="display">&amp;</mapping>
+          <mapping type="expansion">et</mapping>
+        </char>
+      </charDecl>
+    </encodingDesc>
+    <revisionDesc status="agent-reviewed"><change when="2026-09-09" who="#P-3.14-reviewer">Independently inspected full images 97–99, every surviving position 3–50 in enlarged strips, all 42 notes and targeted details. Corrected limited source fragments and uncertainty, confirmed source indentation and opening absence against Chatelain. Original zones remain unchanged.</change>
+      <change when="2026-09-09" who="#P-3.14-encoder">Completed first reading from source images and enlarged crops, with line coverage and evidence notes. Independent second reading not yet performed.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="image 97" xml:id="P-3.14-image-97" ulx="0" uly="0" lrx="5810" lry="3969"><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f97/full/full/0/native.jpg" /></surface><surface n="image 98" xml:id="P-3.14-image-98" ulx="0" uly="0" lrx="5809" lry="3969">
+      <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f98/full/full/0/native.jpg" />
+      <zone xml:id="P-3.14-zone-1" ulx="3015" uly="313" lrx="5343" lry="545" />
+      <zone xml:id="P-3.14-zone-2" ulx="3047" uly="284" lrx="5335" lry="530" />
+      <zone xml:id="P-3.14-zone-3" ulx="3030" uly="374" lrx="5300" lry="607" />
+      <zone xml:id="P-3.14-zone-4" ulx="3036" uly="497" lrx="4619" lry="687" />
+      <zone xml:id="P-3.14-zone-5" ulx="2991" uly="619" lrx="4674" lry="774" />
+      <zone xml:id="P-3.14-zone-6" ulx="2977" uly="672" lrx="4635" lry="874" />
+      <zone xml:id="P-3.14-zone-7" ulx="2993" uly="788" lrx="4680" lry="957" />
+      <zone xml:id="P-3.14-zone-8" ulx="2996" uly="888" lrx="4439" lry="1061" />
+      <zone xml:id="P-3.14-zone-9" ulx="2985" uly="1004" lrx="4529" lry="1173" />
+      <zone xml:id="P-3.14-zone-10" ulx="2990" uly="1107" lrx="4434" lry="1279" />
+      <zone xml:id="P-3.14-zone-11" ulx="2962" uly="1216" lrx="4567" lry="1386" />
+      <zone xml:id="P-3.14-zone-12" ulx="3000" uly="1303" lrx="4564" lry="1480" />
+      <zone xml:id="P-3.14-zone-13" ulx="2983" uly="1417" lrx="4759" lry="1577" />
+      <zone xml:id="P-3.14-zone-14" ulx="2979" uly="1526" lrx="4734" lry="1674" />
+      <zone xml:id="P-3.14-zone-15" ulx="2969" uly="1622" lrx="4584" lry="1822" />
+      <zone xml:id="P-3.14-zone-16" ulx="2980" uly="1748" lrx="4658" lry="1897" />
+      <zone xml:id="P-3.14-zone-17" ulx="2969" uly="1866" lrx="4804" lry="2047" />
+      <zone xml:id="P-3.14-zone-18" ulx="2975" uly="1957" lrx="4637" lry="2097" />
+      <zone xml:id="P-3.14-zone-19" ulx="3010" uly="2042" lrx="4696" lry="2219" />
+      <zone xml:id="P-3.14-zone-20" ulx="3032" uly="2154" lrx="4578" lry="2324" />
+      <zone xml:id="P-3.14-zone-21" ulx="3014" uly="2256" lrx="4566" lry="2461" />
+      <zone xml:id="P-3.14-zone-22" ulx="3037" uly="2366" lrx="4611" lry="2556" />
+      <zone xml:id="P-3.14-zone-23" ulx="3011" uly="2485" lrx="4736" lry="2688" />
+      <zone xml:id="P-3.14-zone-24" ulx="3035" uly="2586" lrx="4803" lry="2771" />
+      <zone xml:id="P-3.14-zone-25" ulx="3037" uly="2710" lrx="4788" lry="2921" />
+      <zone xml:id="P-3.14-zone-26" ulx="3048" uly="2796" lrx="4597" lry="3028" />
+      <zone xml:id="P-3.14-zone-27" ulx="3077" uly="2926" lrx="4915" lry="3138" />
+      <zone xml:id="P-3.14-zone-28" ulx="3070" uly="3024" lrx="4711" lry="3175" />
+      <zone xml:id="P-3.14-zone-29" ulx="3092" uly="3139" lrx="4830" lry="3301" />
+      <zone xml:id="P-3.14-zone-30" ulx="3092" uly="3236" lrx="4571" lry="3434" />
+    </surface>
+    <surface n="image 99" xml:id="P-3.14-image-99" ulx="0" uly="0" lrx="5814" lry="3969">
+      <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f99/full/full/0/native.jpg" />
+      <zone xml:id="P-3.14-zone-31" ulx="689" uly="307" lrx="2298" lry="503" />
+      <zone xml:id="P-3.14-zone-32" ulx="689" uly="401" lrx="2271" lry="615" />
+      <zone xml:id="P-3.14-zone-33" ulx="679" uly="484" lrx="2310" lry="725" />
+      <zone xml:id="P-3.14-zone-34" ulx="702" uly="578" lrx="2275" lry="827" />
+      <zone xml:id="P-3.14-zone-35" ulx="663" uly="662" lrx="2277" lry="934" />
+      <zone xml:id="P-3.14-zone-36" ulx="690" uly="796" lrx="2218" lry="1038" />
+      <zone xml:id="P-3.14-zone-37" ulx="610" uly="868" lrx="2340" lry="1151" />
+      <zone xml:id="P-3.14-zone-38" ulx="617" uly="985" lrx="2403" lry="1270" />
+      <zone xml:id="P-3.14-zone-39" ulx="625" uly="1101" lrx="2467" lry="1388" />
+      <zone xml:id="P-3.14-zone-40" ulx="615" uly="1217" lrx="2409" lry="1472" />
+      <zone xml:id="P-3.14-zone-41" ulx="610" uly="1327" lrx="2251" lry="1584" />
+      <zone xml:id="P-3.14-zone-42" ulx="616" uly="1419" lrx="2281" lry="1674" />
+      <zone xml:id="P-3.14-zone-43" ulx="596" uly="1530" lrx="2360" lry="1802" />
+      <zone xml:id="P-3.14-zone-44" ulx="624" uly="1626" lrx="2226" lry="1909" />
+      <zone xml:id="P-3.14-zone-45" ulx="535" uly="1712" lrx="2309" lry="2009" />
+      <zone xml:id="P-3.14-zone-46" ulx="583" uly="1825" lrx="2189" lry="2100" />
+      <zone xml:id="P-3.14-zone-47" ulx="561" uly="1961" lrx="2344" lry="2259" />
+      <zone xml:id="P-3.14-zone-48" ulx="580" uly="2064" lrx="2134" lry="2330" />
+      <zone xml:id="P-3.14-zone-49" ulx="541" uly="2152" lrx="2304" lry="2450" />
+      <zone xml:id="P-3.14-zone-50" ulx="549" uly="2279" lrx="2098" lry="2511" />
+    </surface>
+  </facsimile>
+  <text xml:lang="la">
+    <body>
+      <div type="poem" n="3.14" xml:id="P-3.14">
+        <gap reason="not-transmitted" quantity="2" unit="line" facs="#P-3.14-image-97 #P-3.14-image-98" xml:id="P-3.14-initial-gap"><desc>Canonical positions 1–2 are not transmitted at the source discontinuity. Full images 97–98 and Chatelain’s plate XCI notice establish resumption at 3.14.3. Their saved overlapping annotation rectangles are retained only as provenance and do not establish additional written verses.</desc></gap><lg type="couplet" n="2">
+          <pb n="image 98, right" facs="#P-3.14-image-98" />
+          <l n="3" xml:id="P-3.14-l3" facs="#P-3.14-zone-3"><gap reason="illegible" quantity="1" unit="line" /></l>
+          <l n="4" xml:id="P-3.14-l4" facs="#P-3.14-zone-4"><gap reason="illegible" quantity="1" unit="line" /></l>
+        </lg>
+        <lg type="couplet" n="3">
+          <l n="5" xml:id="P-3.14-l5" facs="#P-3.14-zone-5"><gap reason="illegible" quantity="1" unit="line" /></l>
+          <l n="6" xml:id="P-3.14-l6" facs="#P-3.14-zone-6"><gap reason="illegible" extent="unknown" unit="character" /> <unclear>famosam</unclear> <gap reason="illegible" extent="unknown" unit="character" /></l>
+        </lg>
+        <lg type="couplet" n="4">
+          <l n="7" xml:id="P-3.14-l7" facs="#P-3.14-zone-7"><gap reason="illegible" extent="unknown" unit="character" /> <unclear>que nocte latent</unclear> <gap reason="illegible" extent="unknown" unit="character" /></l>
+          <l n="8" xml:id="P-3.14-l8" facs="#P-3.14-zone-8" rend="indent"><unclear>Et que</unclear> clam facias facta referre <unclear>palam</unclear></l>
+        </lg>
+        <lg type="couplet" n="5">
+          <l n="9" xml:id="P-3.14-l9" facs="#P-3.14-zone-9"><unclear>Ignoto</unclear> terra corpus iunctura quiriti</l>
+          <l n="10" xml:id="P-3.14-l10" facs="#P-3.14-zone-10" rend="indent"><unclear>Nonne sit</unclear> populum mouit ante fera</l>
+        </lg>
+        <lg type="couplet" n="6">
+          <l n="11" xml:id="P-3.14-l11" facs="#P-3.14-zone-11">Tu que profiteris fame peccata sinistre</l>
+          <l n="12" xml:id="P-3.14-l12" facs="#P-3.14-zone-12" rend="indent"><unclear>Commisi</unclear> perages indiciumque tui</l>
+        </lg>
+        <lg type="couplet" n="7">
+          <l n="13" xml:id="P-3.14-l13" facs="#P-3.14-zone-13">Si tibi mens melior saltemue imitare pudicas</l>
+          <l n="14" xml:id="P-3.14-l14" facs="#P-3.14-zone-14" rend="indent">Teque probam quamuis non eris esse putem</l>
+        </lg>
+        <lg type="couplet" n="8">
+          <l n="15" xml:id="P-3.14-l15" facs="#P-3.14-zone-15"><unclear>Que facis hec facito</unclear> tantum fecisse negato</l>
+          <l n="16" xml:id="P-3.14-l16" facs="#P-3.14-zone-16" rend="indent">Nec pudeat <unclear>coram</unclear> uerba modesta loqui</l>
+        </lg>
+        <lg type="couplet" n="9">
+          <l n="17" xml:id="P-3.14-l17" facs="#P-3.14-zone-17">Est qui <unclear>nequitiam</unclear> locus exigat omnibus illum</l>
+          <l n="18" xml:id="P-3.14-l18" facs="#P-3.14-zone-18" rend="indent"><unclear>Deliciis inpleto</unclear> procul inde pudor</l>
+        </lg>
+        <lg type="couplet" n="10">
+          <l n="19" xml:id="P-3.14-l19" facs="#P-3.14-zone-19">Hinc simul exieris lasciuia protinus omnis</l>
+          <l n="20" xml:id="P-3.14-l20" facs="#P-3.14-zone-20" rend="indent">Absit <choice><abbr><g ref="#P-3.14-et">&amp;</g></abbr><expan>et</expan></choice> in lecto crimina pone tuo</l>
+        </lg>
+        <lg type="couplet" n="11">
+          <l n="21" xml:id="P-3.14-l21" facs="#P-3.14-zone-21">Illic nec tunicam tibi sit posuisse pudori</l>
+          <l n="22" xml:id="P-3.14-l22" facs="#P-3.14-zone-22" rend="indent">Nec femori inpositum sustinuisse femur</l>
+        </lg>
+        <lg type="couplet" n="12">
+          <l n="23" xml:id="P-3.14-l23" facs="#P-3.14-zone-23">Illic purpureis condatur lingua labellis</l>
+          <l n="24" xml:id="P-3.14-l24" facs="#P-3.14-zone-24" rend="indent">Inque modos uenerem mille figuret amor</l>
+        </lg>
+        <lg type="couplet" n="13">
+          <l n="25" xml:id="P-3.14-l25" facs="#P-3.14-zone-25">Illic nec uoces nec uerba iuuantia cessent</l>
+          <l n="26" xml:id="P-3.14-l26" facs="#P-3.14-zone-26" rend="indent">Spondaque lasciua mobilitate tremat</l>
+        </lg>
+        <lg type="couplet" n="14">
+          <l n="27" xml:id="P-3.14-l27" facs="#P-3.14-zone-27">Indue cum tunicis metuentem crimina uultum</l>
+          <l n="28" xml:id="P-3.14-l28" facs="#P-3.14-zone-28" rend="indent">Et pudor obscenum diffiteatur opus</l>
+        </lg>
+        <lg type="couplet" n="15">
+          <l n="29" xml:id="P-3.14-l29" facs="#P-3.14-zone-29">Da populo da uerba mihi sine nescius errem</l>
+          <l n="30" xml:id="P-3.14-l30" facs="#P-3.14-zone-30" rend="indent">Et liceat stulta credulitate frui</l>
+        </lg>
+        <lg type="couplet" n="16">
+          <pb n="image 99, left" facs="#P-3.14-image-99" />
+          <l n="31" xml:id="P-3.14-l31" facs="#P-3.14-zone-31"><gap reason="illegible" quantity="1" unit="line" /></l>
+          <l n="32" xml:id="P-3.14-l32" facs="#P-3.14-zone-32"><gap reason="illegible" quantity="1" unit="line" /></l>
+        </lg>
+        <lg type="couplet" n="17">
+          <l n="33" xml:id="P-3.14-l33" facs="#P-3.14-zone-33"><gap reason="illegible" extent="unknown" unit="character" /> <unclear>capillos</unclear></l>
+          <l n="34" xml:id="P-3.14-l34" facs="#P-3.14-zone-34"><gap reason="illegible" extent="unknown" unit="character" /> habere notam</l>
+        </lg>
+        <lg type="couplet" n="18">
+          <l n="35" xml:id="P-3.14-l35" facs="#P-3.14-zone-35"><gap reason="illegible" extent="unknown" unit="character" /> <unclear>oculos</unclear> <gap reason="illegible" extent="unknown" unit="character" /></l>
+          <l n="36" xml:id="P-3.14-l36" facs="#P-3.14-zone-36"><gap reason="illegible" extent="unknown" unit="character" /> <unclear>mihi</unclear></l>
+        </lg>
+        <lg type="couplet" n="19">
+          <l n="37" xml:id="P-3.14-l37" facs="#P-3.14-zone-37"><gap reason="illegible" extent="unknown" unit="character" /> <unclear>peccasse fateris</unclear></l>
+          <l n="38" xml:id="P-3.14-l38" facs="#P-3.14-zone-38" rend="indent">Perque meos artus frigida gutta fluit</l>
+        </lg>
+        <lg type="couplet" n="20">
+          <l n="39" xml:id="P-3.14-l39" facs="#P-3.14-zone-39"><hi rend="large-initial">T</hi>unc amo tunc odi frustra quod amare necesse est</l>
+          <l n="40" xml:id="P-3.14-l40" facs="#P-3.14-zone-40" rend="indent">Tunc ego sed tecum mortuus esse uelim</l>
+        </lg>
+        <lg type="couplet" n="21">
+          <l n="41" xml:id="P-3.14-l41" facs="#P-3.14-zone-41">Nil <unclear>equidem inquiram</unclear> neque te <unclear>turpabis</unclear></l>
+          <l n="42" xml:id="P-3.14-l42" facs="#P-3.14-zone-42" rend="indent">Lisque <gap reason="illegible" extent="unknown" unit="character" /> falsi muneris instar erit</l>
+        </lg>
+        <lg type="couplet" n="22">
+          <l n="43" xml:id="P-3.14-l43" facs="#P-3.14-zone-43"><gap reason="illegible" extent="unknown" unit="character" /> <unclear>manifesta</unclear> deprensa tenebere culpa</l>
+          <l n="44" xml:id="P-3.14-l44" facs="#P-3.14-zone-44" rend="indent"><unclear>Et fuerint</unclear> oculis probra uidenda meis</l>
+        </lg>
+        <lg type="couplet" n="23">
+          <l n="45" xml:id="P-3.14-l45" facs="#P-3.14-zone-45"><unclear>Que</unclear> <gap reason="illegible" extent="unknown" unit="character" /> uisa mihi fuerint <unclear>bene uisa negato</unclear></l>
+          <l n="46" xml:id="P-3.14-l46" facs="#P-3.14-zone-46" rend="indent"><unclear>Concedant</unclear> <gap reason="illegible" extent="unknown" unit="character" /> lumina <unclear>nostra tuis</unclear></l>
+        </lg>
+        <lg type="couplet" n="24">
+          <l n="47" xml:id="P-3.14-l47" facs="#P-3.14-zone-47"><unclear>Prona</unclear> <gap reason="illegible" extent="unknown" unit="character" /> <unclear>uincere</unclear> <gap reason="illegible" extent="unknown" unit="character" /></l>
+          <l n="48" xml:id="P-3.14-l48" facs="#P-3.14-zone-48" rend="indent"><unclear>Et modo non</unclear> <gap reason="illegible" extent="unknown" unit="character" /> <unclear>amor</unclear></l>
+        </lg>
+        <lg type="couplet" n="25">
+          <l n="49" xml:id="P-3.14-l49" facs="#P-3.14-zone-49"><unclear>Cum</unclear> <gap reason="illegible" extent="unknown" unit="character" /></l>
+          <l n="50" xml:id="P-3.14-l50" facs="#P-3.14-zone-50">Et <unclear>lingua</unclear> <gap reason="illegible" extent="unknown" unit="character" /></l>
+        </lg>
+      </div>
+    </body>
+    <back>
+      <div type="editorial-notes">
+        <head>Independently reviewed source notes</head>
+        <note xml:id="P-3.14-note-1" n="1" type="observation" target="#P-3.14-initial-gap" resp="#P-3.14-reviewer">Full images 97–98 and the direct Chatelain manuscript description independently confirm resumption at 3.14.3 after the lacuna. Opening 1–2 are not transmitted; the two overlapping original rectangles remain unused provenance. The reference is plate XCI notice 1, printed introductory II,1, PDF fifth page (zero-based 4). No original leaf count or historical cause is inferred.</note>
+        <note xml:id="P-3.14-note-3" n="3" type="uncertainty" target="#P-3.14-l3" resp="#P-3.14-reviewer">The annotated opening surviving position remains wholly blackened. No defensible letters or indent can be recovered from the full page and enlarged upper strip.</note>
+        <note xml:id="P-3.14-note-4" n="4" type="uncertainty" target="#P-3.14-l4" resp="#P-3.14-reviewer">The second surviving position is obscured throughout its assigned row. The full-line illegibility gap and unchanged source zone remain appropriate.</note>
+        <note xml:id="P-3.14-note-5" n="5" type="uncertainty" target="#P-3.14-l5" resp="#P-3.14-reviewer">The assigned row is blackened; no complete defensible word is established by the enlarged source. Its gap is retained.</note>
+        <note xml:id="P-3.14-note-6" n="6" type="uncertainty" target="#P-3.14-l6" resp="#P-3.14-reviewer">The lower edge of the upper stain permits the tentative group famosam. The rest remains obscured; no wording is reconstructed.</note>
+        <note xml:id="P-3.14-note-7" n="7" type="uncertainty" target="#P-3.14-l7" resp="#P-3.14-reviewer">The tentative group que nocte latent is compatible with the surviving pale strokes. Surrounding text remains masked by blackening.</note>
+        <note xml:id="P-3.14-note-8" n="8" type="uncertainty" target="#P-3.14-l8" resp="#P-3.14-reviewer">Clam facias facta referre can be followed in the photograph; the pale opening Et que and final palam remain qualified.</note>
+        <note xml:id="P-3.14-note-9" n="9" type="uncertainty" target="#P-3.14-l9" resp="#P-3.14-reviewer">The central terra corpus iunctura quiriti is supported by the source. Ignoto remains pale and qualified. The unusual terra is not replaced from an edition.</note>
+        <note xml:id="P-3.14-note-10" n="10" type="uncertainty" target="#P-3.14-l10" resp="#P-3.14-reviewer">The leftmost Nonne sit is faint and less secure than the first pass claimed. It is now explicitly unclear. Populum mouit ante fera is visible; no alternative opening is supplied.</note>
+        <note xml:id="P-3.14-note-11" n="11" type="observation" target="#P-3.14-l11" resp="#P-3.14-reviewer">The enlarged middle row supports profiteris, including its terminal sequence; the former uncertainty is removed. The surrounding source wording Tu que and fame peccata sinistre remains unchanged.</note>
+        <note xml:id="P-3.14-note-12" n="12" type="uncertainty" target="#P-3.14-l12" resp="#P-3.14-reviewer">The opening doubled-minim sequence remains compatible with tentative Commisi. Its uncertainty is retained; perages indiciumque tui can be followed.</note>
+        <note xml:id="P-3.14-note-13" n="13" type="observation" target="#P-3.14-l13" resp="#P-3.14-reviewer">Si tibi mens melior saltemue imitare pudicas is visible, including saltemue and imitare. No normalized substitution is warranted.</note>
+        <note xml:id="P-3.14-note-14" n="14" type="observation" target="#P-3.14-l14" resp="#P-3.14-reviewer">The clearly written non eris is preserved in the full row Teque probam quamuis non eris esse putem.</note>
+        <note xml:id="P-3.14-note-15" n="15" type="uncertainty" target="#P-3.14-l15" resp="#P-3.14-reviewer">The pale initial group Que facis hec facito remains qualified. Tantum fecisse negato is legible.</note>
+        <note xml:id="P-3.14-note-16" n="16" type="uncertainty" target="#P-3.14-l16" resp="#P-3.14-reviewer">A dark spot interrupts the coram region. The provisional letters remain local uncertainty; the mark does not establish deletion or an earlier textual state.</note>
+        <note xml:id="P-3.14-note-17" n="17" type="uncertainty" target="#P-3.14-l17" resp="#P-3.14-reviewer">The middle minim sequence in nequitiam is less distinct than adjacent Est qui and locus exigat omnibus illum. The original local qualification remains justified.</note>
+        <note xml:id="P-3.14-note-18" n="18" type="uncertainty" target="#P-3.14-l18" resp="#P-3.14-reviewer">The enlarged row visibly continues after inple with a t-shaped stroke and rounded final o before procul. The tentative group is corrected to Deliciis inpleto; the rest procul inde pudor remains clear.</note>
+        <note xml:id="P-3.14-note-20" n="20" type="observation" target="#P-3.14-l20" resp="#P-3.14-reviewer">The source has the compact et ligature after Absit. Its declared schematic glyph and expansion preserve the written form and defensible meaning.</note>
+        <note xml:id="P-3.14-note-24" n="24" type="observation" target="#P-3.14-l24" resp="#P-3.14-reviewer">The source sequence Inque modos uenerem mille figuret amor is readable, with manuscript spelling unchanged.</note>
+        <note xml:id="P-3.14-note-25" n="25" type="observation" target="#P-3.14-l25" resp="#P-3.14-reviewer">The pale row Illic nec uoces nec uerba iuuantia cessent remains legible in enlarged context. No modern punctuation is inserted.</note>
+        <note xml:id="P-3.14-note-27" n="27" type="observation" target="#P-3.14-l27" resp="#P-3.14-reviewer">The source supports Indue cum tunicis metuentem crimina uultum in the lower-page enlargement, despite weaker initial ink.</note>
+        <note xml:id="P-3.14-note-30" n="30" type="observation" target="#P-3.14-l30" resp="#P-3.14-reviewer">The last row on image 98 supports Et liceat stulta credulitate frui. The next full photograph begins the canonical 31–50 portion.</note>
+        <note xml:id="P-3.14-note-31" n="31" type="uncertainty" target="#P-3.14-l31" resp="#P-3.14-reviewer">The top left-page stain on image 99 obscures this assigned row. A whole-line illegibility gap is retained without assumed initial, indent or punctuation.</note>
+        <note xml:id="P-3.14-note-32" n="32" type="uncertainty" target="#P-3.14-l32" resp="#P-3.14-reviewer">No defensible continuous reading emerges from the second blackened row. The original zone and whole-line gap remain unchanged.</note>
+        <note xml:id="P-3.14-note-33" n="33" type="uncertainty" target="#P-3.14-l33" resp="#P-3.14-reviewer">Only the right-hand capillos is tentatively distinguishable beneath the darkening. No complete opening is supplied.</note>
+        <note xml:id="P-3.14-note-34" n="34" type="uncertainty" target="#P-3.14-l34" resp="#P-3.14-reviewer">Habere notam is readable to the right of the diagonal obstruction. Earlier strokes remain too merged with damage for a reliable word sequence.</note>
+        <note xml:id="P-3.14-note-35" n="35" type="uncertainty" target="#P-3.14-l35" resp="#P-3.14-reviewer">The oculos group remains tentative within the mottled row. The diagonal intrusion is not encoded as a scribal cancellation.</note>
+        <note xml:id="P-3.14-note-36" n="36" type="uncertainty" target="#P-3.14-l36" resp="#P-3.14-reviewer">The final mihi remains tentative; the preceding writing is too entangled with stain and crossing strokes for a defensible reconstruction.</note>
+        <note xml:id="P-3.14-note-37" n="37" type="uncertainty" target="#P-3.14-l37" resp="#P-3.14-reviewer">Peccasse fateris remains a qualified terminal group. Additional preceding strokes are visible but do not warrant an expanded continuous transcription.</note>
+        <note xml:id="P-3.14-note-38" n="38" type="observation" target="#P-3.14-l38" resp="#P-3.14-reviewer">Perque meos artus frigida gutta fluit can be followed below the darkest portion. Its actual inset is visible in full-page context.</note>
+        <note xml:id="P-3.14-note-39" n="39" type="observation" target="#P-3.14-l39" resp="#P-3.14-reviewer">The enlarged F-like lexical T at the opening is visible, followed by unc amo tunc odi frustra quod amare necesse est. Large-initial markup is retained without inventing a correcting hand or overwritten letter.</note>
+        <note xml:id="P-3.14-note-40" n="40" type="observation" target="#P-3.14-l40" resp="#P-3.14-reviewer">The row supports Tunc ego sed tecum mortuus esse uelim in this order. Its inset is source-supported.</note>
+        <note xml:id="P-3.14-note-41" n="41" type="uncertainty" target="#P-3.14-l41" resp="#P-3.14-reviewer">The weak equidem inquiram region and unusual terminal turpabis remain uncertain on direct enlargement. The darker stroke near the terminal opening does not justify reconstructing an earlier letter or removing the qualification.</note>
+        <note xml:id="P-3.14-note-42" n="42" type="uncertainty" target="#P-3.14-l42" resp="#P-3.14-reviewer">Lisque is followed by a pale incomplete span. Falsi muneris instar erit remains readable; the intervening gap is retained.</note>
+        <note xml:id="P-3.14-note-43" n="43" type="uncertainty" target="#P-3.14-l43" resp="#P-3.14-reviewer">Before deprensa tenebere culpa, the enlarged photograph supports tentative manifesta. That fragment is added after the remaining initial gap; a complete opening is not reconstructed.</note>
+        <note xml:id="P-3.14-note-44" n="44" type="uncertainty" target="#P-3.14-l44" resp="#P-3.14-reviewer">The beginning Et fuerint remains weak and qualified. Oculis probra uidenda meis can be followed in the photograph.</note>
+        <note xml:id="P-3.14-note-45" n="45" type="uncertainty" target="#P-3.14-l45" resp="#P-3.14-reviewer">The surviving uisa mihi fuerint group and tentative Que and bene uisa negato are retained. The initial interruption remains a gap.</note>
+        <note xml:id="P-3.14-note-46" n="46" type="uncertainty" target="#P-3.14-l46" resp="#P-3.14-reviewer">The right-hand sequence separates as lumina followed by tentative nostra tuis, not the first-pass nostris. Concedant remains qualified and the intervening text remains a gap.</note>
+        <note xml:id="P-3.14-note-47" n="47" type="uncertainty" target="#P-3.14-l47" resp="#P-3.14-reviewer">Prona and uincere are faint but compatible with the source. No further wording is added from the weak surrounding strokes.</note>
+        <note xml:id="P-3.14-note-48" n="48" type="uncertainty" target="#P-3.14-l48" resp="#P-3.14-reviewer">Et modo non and terminal amor remain tentative. The pale middle is not reconstructed.</note>
+        <note xml:id="P-3.14-note-49" n="49" type="uncertainty" target="#P-3.14-l49" resp="#P-3.14-reviewer">The final lower portion is very faint and partly darkened. Only tentative Cum is retained rather than completing the row from familiar wording.</note>
+        <note xml:id="P-3.14-note-50" n="50" type="uncertainty" target="#P-3.14-l50" resp="#P-3.14-reviewer">After visible Et, the enlargement supports tentative lingua before the stain. This limited fragment is added; the remaining text stays illegible. The following large Q belongs to 3.15.</note>
+      </div>
+    </back>
+  </text>
+</TEI>

@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="S" xml:id="S">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title>Ovid, Amores 3.7: witness S — manuscript transcription trial</title>
+        <author>Publius Ovidius Naso</author>
+        <respStmt xml:id="S-trial-encoder">
+          <resp>First-pass image inspection and TEI encoding</resp>
+          <name>OpenAI Codex</name>
+        </respStmt>
+      <respStmt xml:id="S-second-reader"><resp>Independent second image reading of all extant lines and first-pass notes</resp><name>OpenAI Codex, independent review agent</name></respStmt></titleStmt>
+      <publicationStmt>
+        <p>Amores Project working trial, 8 September 2026. Not an approved critical edition.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="S-manuscript">
+          <msIdentifier>
+            <settlement>St. Gallen</settlement>
+            <repository>Stiftsbibliothek</repository>
+            <idno>Cod. Sang. 864</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus from="395" to="396">Pages 395–396</locus>
+              <title>Amores 3.7, verses 1–74; the witness breaks off after verse 74</title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <handDesc>
+              <handNote>The main text is written in brown ink. A distinctly dark intervention occurs in verse 3; the underlying letters cannot be securely recovered. No historical hand attribution is inferred from ink colour.</handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <p>The IIIF catalogue dates this composite manuscript to the 11th and 12th centuries. The catalogue describes the Amores portion as incomplete at the end.</p>
+            </origin>
+          </history>
+          <additional>
+            <surrogates>
+              <p>Full-resolution digital images of pages 395, 396 and the following blank page 397 were inspected. <ref target="https://www.e-codices.unifr.ch/metadata/iiif/csg-0864/manifest.json">e-codices source manifest</ref>
+              </p>
+            </surrogates>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Main verse text of all 74 extant lines of this poem, with visible abbreviations, significant punctuation and interventions. Page 396 ends with verse 74 and the next page, 397, is blank. A gap records the ten remaining canonical verse positions without manufacturing a continuation. All verse readings derive from witness S images; witness Y supplied only the document structure.</p>
+      </projectDesc>
+      <editorialDecl>
+        <correction>
+          <p>No reading is silently emended from a modern edition. Localized uncertain letters are marked unclear; dark ink alone is hi, without claiming that an underlying erased reading can be recovered. A visible cancellation at verse 61 is marked del.</p>
+        </correction>
+        <normalization>
+          <p>Ordinary letter allographs and long s are represented by Latin characters; u/v follows the visible main-text form as far as practicable. Word segmentation is editorial. E caudata is represented by ę. Abbreviation signs use combining macrons and schematic medieval glyphs, paired with explicit expansions in choice. These signs represent abbreviation classes, not facsimile drawings. The initial guide-letter a is retained at verse 1 with the visible separation before t.</p>
+        </normalization>
+        <punctuation>
+          <p>Visible significant stops are retained using schematic dots and colons. Modern sentence punctuation is not supplied. There is no second normalized reading mode.</p>
+        </punctuation>
+        <segmentation>
+          <p>Verse numbering follows canonical poem positions. Each extant verse points to an existing line-annotation rectangle reproduced unmodified in facsimile. The unusually tall final rectangle is retained as source metadata. Couplets are logical groups; the page break after verse 31 lies within a couplet. The gap after verse 74 is not ten fabricated line elements.</p>
+        </segmentation>
+        <interpretation>
+          <p>An independent second reader has reconciled the first-pass notes against all 74 extant lines and following blank page. Remaining unclear forms express localized source uncertainty and do not automatically assign tasks to the human editor. The cause and date of the missing continuation remain unasserted.</p>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <change when="2026-09-08" who="#S-trial-encoder">First pass completed against pages 395–396; checked following blank page 397; encoded source-supported terminal gap. Independent second reading pending.</change>
+    <change when="2026-09-08" who="#S-second-reader">Independent second pass reviewed all 74 extant lines, original notes and following blank page. Revised lines 3, 39, 41, 48 and 61 from image evidence; retained localized source uncertainty without a human task queue.</change></revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="395" ulx="0" uly="0" lrx="4872" lry="6496" xml:id="S-395">
+      <graphic url="https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_395.jp2/full/full/0/default/jpg" />
+      <zone ulx="122" uly="1908" lrx="2506" lry="2126" xml:id="S-3.7-zone-1" />
+      <zone ulx="356" uly="2036" lrx="2510" lry="2271" xml:id="S-3.7-zone-2" />
+      <zone ulx="336" uly="2171" lrx="2585" lry="2426" xml:id="S-3.7-zone-3" />
+      <zone ulx="332" uly="2299" lrx="2470" lry="2542" xml:id="S-3.7-zone-4" />
+      <zone ulx="336" uly="2412" lrx="2470" lry="2634" xml:id="S-3.7-zone-5" />
+      <zone ulx="324" uly="2530" lrx="2588" lry="2783" xml:id="S-3.7-zone-6" />
+      <zone ulx="359" uly="2677" lrx="2502" lry="2910" xml:id="S-3.7-zone-7" />
+      <zone ulx="356" uly="2843" lrx="2635" lry="3030" xml:id="S-3.7-zone-8" />
+      <zone ulx="342" uly="2913" lrx="2535" lry="3182" xml:id="S-3.7-zone-9" />
+      <zone ulx="324" uly="3036" lrx="2375" lry="3292" xml:id="S-3.7-zone-10" />
+      <zone ulx="324" uly="3152" lrx="2346" lry="3370" xml:id="S-3.7-zone-11" />
+      <zone ulx="332" uly="3273" lrx="2171" lry="3536" xml:id="S-3.7-zone-12" />
+      <zone ulx="322" uly="3399" lrx="2514" lry="3660" xml:id="S-3.7-zone-13" />
+      <zone ulx="355" uly="3521" lrx="2301" lry="3739" xml:id="S-3.7-zone-14" />
+      <zone ulx="347" uly="3632" lrx="2371" lry="3875" xml:id="S-3.7-zone-15" />
+      <zone ulx="344" uly="3729" lrx="2296" lry="3991" xml:id="S-3.7-zone-16" />
+      <zone ulx="362" uly="3863" lrx="2363" lry="4096" xml:id="S-3.7-zone-17" />
+      <zone ulx="375" uly="4010" lrx="2176" lry="4245" xml:id="S-3.7-zone-18" />
+      <zone ulx="365" uly="4092" lrx="2421" lry="4343" xml:id="S-3.7-zone-19" />
+      <zone ulx="389" uly="4222" lrx="2432" lry="4484" xml:id="S-3.7-zone-20" />
+      <zone ulx="382" uly="4357" lrx="2372" lry="4611" xml:id="S-3.7-zone-21" />
+      <zone ulx="400" uly="4497" lrx="2390" lry="4745" xml:id="S-3.7-zone-22" />
+      <zone ulx="380" uly="4601" lrx="2386" lry="4849" xml:id="S-3.7-zone-23" />
+      <zone ulx="340" uly="4699" lrx="2355" lry="4961" xml:id="S-3.7-zone-24" />
+      <zone ulx="373" uly="4846" lrx="2550" lry="5087" xml:id="S-3.7-zone-25" />
+      <zone ulx="376" uly="4943" lrx="2599" lry="5194" xml:id="S-3.7-zone-26" />
+      <zone ulx="380" uly="5080" lrx="2544" lry="5300" xml:id="S-3.7-zone-27" />
+      <zone ulx="384" uly="5202" lrx="2609" lry="5460" xml:id="S-3.7-zone-28" />
+      <zone ulx="367" uly="5332" lrx="2594" lry="5565" xml:id="S-3.7-zone-29" />
+      <zone ulx="382" uly="5442" lrx="2554" lry="5642" xml:id="S-3.7-zone-30" />
+      <zone ulx="359" uly="5526" lrx="2670" lry="5845" xml:id="S-3.7-zone-31" />
+    </surface>
+    <surface n="396" ulx="0" uly="0" lrx="4872" lry="6496" xml:id="S-396">
+      <graphic url="https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_396.jp2/full/full/0/default/jpg" />
+      <zone ulx="1549" uly="601" lrx="3725" lry="818" xml:id="S-3.7-zone-32" />
+      <zone ulx="1529" uly="719" lrx="3709" lry="929" xml:id="S-3.7-zone-33" />
+      <zone ulx="1535" uly="842" lrx="3697" lry="1011" xml:id="S-3.7-zone-34" />
+      <zone ulx="1510" uly="925" lrx="3756" lry="1144" xml:id="S-3.7-zone-35" />
+      <zone ulx="1535" uly="1114" lrx="3533" lry="1283" xml:id="S-3.7-zone-36" />
+      <zone ulx="1534" uly="1165" lrx="3787" lry="1393" xml:id="S-3.7-zone-37" />
+      <zone ulx="1522" uly="1276" lrx="3642" lry="1503" xml:id="S-3.7-zone-38" />
+      <zone ulx="1543" uly="1389" lrx="3609" lry="1588" xml:id="S-3.7-zone-39" />
+      <zone ulx="1519" uly="1512" lrx="3666" lry="1705" xml:id="S-3.7-zone-40" />
+      <zone ulx="1528" uly="1640" lrx="3614" lry="1836" xml:id="S-3.7-zone-41" />
+      <zone ulx="1516" uly="1766" lrx="3534" lry="1983" xml:id="S-3.7-zone-42" />
+      <zone ulx="1507" uly="1874" lrx="3457" lry="2116" xml:id="S-3.7-zone-43" />
+      <zone ulx="1506" uly="2000" lrx="3553" lry="2228" xml:id="S-3.7-zone-44" />
+      <zone ulx="1532" uly="2128" lrx="3573" lry="2339" xml:id="S-3.7-zone-45" />
+      <zone ulx="1511" uly="2267" lrx="3664" lry="2462" xml:id="S-3.7-zone-46" />
+      <zone ulx="1506" uly="2367" lrx="3642" lry="2579" xml:id="S-3.7-zone-47" />
+      <zone ulx="1485" uly="2501" lrx="3556" lry="2700" xml:id="S-3.7-zone-48" />
+      <zone ulx="1498" uly="2627" lrx="3684" lry="2837" xml:id="S-3.7-zone-49" />
+      <zone ulx="1508" uly="2741" lrx="3700" lry="2970" xml:id="S-3.7-zone-50" />
+      <zone ulx="1513" uly="2888" lrx="3662" lry="3084" xml:id="S-3.7-zone-51" />
+      <zone ulx="1500" uly="3014" lrx="3661" lry="3213" xml:id="S-3.7-zone-52" />
+      <zone ulx="1506" uly="3123" lrx="3662" lry="3345" xml:id="S-3.7-zone-53" />
+      <zone ulx="1512" uly="3233" lrx="3618" lry="3480" xml:id="S-3.7-zone-54" />
+      <zone ulx="1500" uly="3389" lrx="3755" lry="3584" xml:id="S-3.7-zone-55" />
+      <zone ulx="1517" uly="3478" lrx="3752" lry="3681" xml:id="S-3.7-zone-56" />
+      <zone ulx="1506" uly="3615" lrx="3816" lry="3829" xml:id="S-3.7-zone-57" />
+      <zone ulx="1510" uly="3744" lrx="3798" lry="3932" xml:id="S-3.7-zone-58" />
+      <zone ulx="1497" uly="3798" lrx="3721" lry="4064" xml:id="S-3.7-zone-59" />
+      <zone ulx="1477" uly="3939" lrx="3657" lry="4180" xml:id="S-3.7-zone-60" />
+      <zone ulx="1496" uly="4084" lrx="3720" lry="4294" xml:id="S-3.7-zone-61" />
+      <zone ulx="1514" uly="4188" lrx="3688" lry="4396" xml:id="S-3.7-zone-62" />
+      <zone ulx="1501" uly="4301" lrx="3803" lry="4545" xml:id="S-3.7-zone-63" />
+      <zone ulx="1498" uly="4424" lrx="3623" lry="4607" xml:id="S-3.7-zone-64" />
+      <zone ulx="1505" uly="4541" lrx="3728" lry="4769" xml:id="S-3.7-zone-65" />
+      <zone ulx="1514" uly="4720" lrx="3925" lry="4899" xml:id="S-3.7-zone-66" />
+      <zone ulx="1521" uly="4799" lrx="3782" lry="4990" xml:id="S-3.7-zone-67" />
+      <zone ulx="1525" uly="4930" lrx="3695" lry="5089" xml:id="S-3.7-zone-68" />
+      <zone ulx="1514" uly="5029" lrx="3821" lry="5231" xml:id="S-3.7-zone-69" />
+      <zone ulx="1524" uly="5186" lrx="3730" lry="5364" xml:id="S-3.7-zone-70" />
+      <zone ulx="1514" uly="5292" lrx="3902" lry="5451" xml:id="S-3.7-zone-71" />
+      <zone ulx="1529" uly="5404" lrx="3795" lry="5580" xml:id="S-3.7-zone-72" />
+      <zone ulx="1500" uly="5504" lrx="3744" lry="5692" xml:id="S-3.7-zone-73" />
+      <zone ulx="1472" uly="5639" lrx="3764" lry="6237" xml:id="S-3.7-zone-74" />
+    </surface>
+    <surface n="397" ulx="0" uly="0" lrx="4872" lry="6496" xml:id="S-397">
+      <graphic url="https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_397.jp2/full/full/0/default/jpg" />
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="poem" n="3.7" xml:id="S-3.7">
+        <head>Amores 3.7 — S</head>
+        <pb n="395" facs="#S-395" />
+        <lg type="couplet">
+          <l n="1" xml:id="S-3.7-l1" facs="#S-3.7-zone-1">
+            <hi rend="small-initial">a</hi>
+            <space dim="horizontal" quantity="2" unit="character" />t <choice>
+              <abbr>n̄</abbr>
+              <expan>non</expan>
+            </choice> formosa <choice>
+              <abbr>ē</abbr>
+              <expan>est</expan>
+            </choice> at <choice>
+              <abbr>n̄</abbr>
+              <expan>non</expan>
+            </choice> bene culta puella</l>
+          <l n="2" xml:id="S-3.7-l2" facs="#S-3.7-zone-2" rend="indent">At puto <choice>
+              <abbr>n̄</abbr>
+              <expan>non</expan>
+            </choice> uotis sepe petita meis:</l>
+        </lg>
+        <lg type="couplet">
+          <l n="3" xml:id="S-3.7-l3" facs="#S-3.7-zone-3">Hanc <choice>
+              <abbr>tam̄</abbr>
+              <expan>tamen</expan>
+            </choice>
+            <hi rend="darker-ink">in <unclear reason="overwriting" cert="medium">nullos</unclear>
+            </hi> tenui male <choice>
+              <abbr>languidꝰ</abbr>
+              <expan>languidus</expan>
+            </choice> ulnis:</l>
+          <l n="4" xml:id="S-3.7-l4" facs="#S-3.7-zone-4" rend="indent">Si iaceo pigro <choice>
+              <abbr>crim̄</abbr>
+              <expan>crimen</expan>
+            </choice>
+            <choice>
+              <abbr>onusqꝫ</abbr>
+              <expan>onusque</expan>
+            </choice> thoro.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="5" xml:id="S-3.7-l5" facs="#S-3.7-zone-5">Nec potui cupiens <choice>
+              <abbr>parit̄</abbr>
+              <expan>pariter</expan>
+            </choice> cupiente puella</l>
+          <l n="6" xml:id="S-3.7-l6" facs="#S-3.7-zone-6" rend="indent">Inguinis effeti parte iuuante frui.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="7" xml:id="S-3.7-l7" facs="#S-3.7-zone-7">Illa <choice>
+              <abbr>qd̄e</abbr>
+              <expan>quidem</expan>
+            </choice>
+            <choice>
+              <abbr>nr̄o</abbr>
+              <expan>nostro</expan>
+            </choice> subiecit eburnea collo</l>
+          <l n="8" xml:id="S-3.7-l8" facs="#S-3.7-zone-8" rend="indent">Brachia sithonia candidiora niue</l>
+        </lg>
+        <lg type="couplet">
+          <l n="9" xml:id="S-3.7-l9" facs="#S-3.7-zone-9">
+            <choice>
+              <abbr>Osculaqꝫ</abbr>
+              <expan>Osculaque</expan>
+            </choice> inseruit cupide luctantia linguis:</l>
+          <l n="10" xml:id="S-3.7-l10" facs="#S-3.7-zone-10" rend="indent">
+            <choice>
+              <abbr>Lasciuū</abbr>
+              <expan>Lasciuum</expan>
+            </choice> femori <choice>
+              <abbr>subposuitqꝫ</abbr>
+              <expan>subposuitque</expan>
+            </choice> femur.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="11" xml:id="S-3.7-l11" facs="#S-3.7-zone-11">Et <choice>
+              <abbr>ṁ</abbr>
+              <expan>mihi</expan>
+            </choice> blanditias dixit <choice>
+              <abbr>dn̄mqꝫ</abbr>
+              <expan>dominumque</expan>
+            </choice>
+            <choice>
+              <abbr>uocaū</abbr>
+              <expan>uocauit</expan>
+            </choice>.</l>
+          <l n="12" xml:id="S-3.7-l12" facs="#S-3.7-zone-12" rend="indent">Et quę <choice>
+              <abbr>p̄t̄ea</abbr>
+              <expan>preterea</expan>
+            </choice> publica <choice>
+              <abbr>ub̄a</abbr>
+              <expan>uerba</expan>
+            </choice> iuuant</l>
+        </lg>
+        <lg type="couplet">
+          <l n="13" xml:id="S-3.7-l13" facs="#S-3.7-zone-13">Tacta <choice>
+              <abbr>tam̄</abbr>
+              <expan>tamen</expan>
+            </choice> ueluti gelida mea <choice>
+              <abbr>m̄bra</abbr>
+              <expan>membra</expan>
+            </choice> cicuta</l>
+          <l n="14" xml:id="S-3.7-l14" facs="#S-3.7-zone-14" rend="indent">Segnia <choice>
+              <abbr>p̄positū</abbr>
+              <expan>propositum</expan>
+            </choice> destituere <choice>
+              <abbr>meū</abbr>
+              <expan>meum</expan>
+            </choice>.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="15" xml:id="S-3.7-l15" facs="#S-3.7-zone-15">
+            <choice>
+              <abbr>Truncꝰ</abbr>
+              <expan>Truncus</expan>
+            </choice> iners iacui species <choice>
+              <abbr>&amp;</abbr>
+              <expan>et</expan>
+            </choice> inutile pondus.</l>
+          <l n="16" xml:id="S-3.7-l16" facs="#S-3.7-zone-16" rend="indent">Et <choice>
+              <abbr>n̄</abbr>
+              <expan>non</expan>
+            </choice>
+            <choice>
+              <abbr>exactū</abbr>
+              <expan>exactum</expan>
+            </choice>
+            <choice>
+              <abbr>corpꝰ</abbr>
+              <expan>corpus</expan>
+            </choice> an <choice>
+              <abbr>ūbra</abbr>
+              <expan>umbra</expan>
+            </choice>
+            <choice>
+              <abbr>forē</abbr>
+              <expan>forem</expan>
+            </choice>.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="17" xml:id="S-3.7-l17" facs="#S-3.7-zone-17">Quę <choice>
+              <abbr>ṁ</abbr>
+              <expan>mihi</expan>
+            </choice> uentura est siquidem <choice>
+              <abbr>uentūra</abbr>
+              <expan>uentura</expan>
+            </choice>
+            <choice>
+              <abbr>senectꝰ</abbr>
+              <expan>senectus</expan>
+            </choice>:</l>
+          <l n="18" xml:id="S-3.7-l18" facs="#S-3.7-zone-18" rend="indent">
+            <choice>
+              <abbr>Cū</abbr>
+              <expan>Cum</expan>
+            </choice> desit numeris ipsa iuuenta suis:</l>
+        </lg>
+        <lg type="couplet">
+          <l n="19" xml:id="S-3.7-l19" facs="#S-3.7-zone-19">At <choice>
+              <abbr>pudꝫ</abbr>
+              <expan>pudet</expan>
+            </choice>
+            <choice>
+              <abbr>annorū</abbr>
+              <expan>annorum</expan>
+            </choice>
+            <choice>
+              <abbr>q̄</abbr>
+              <expan>quod</expan>
+            </choice> me <choice>
+              <abbr>iuuenēqꝫ</abbr>
+              <expan>iuuenemque</expan>
+            </choice>
+            <choice>
+              <abbr>uirūqꝫ</abbr>
+              <expan>uirumque</expan>
+            </choice>
+          </l>
+          <l n="20" xml:id="S-3.7-l20" facs="#S-3.7-zone-20" rend="indent">Nec <choice>
+              <abbr>iuuenē</abbr>
+              <expan>iuuenem</expan>
+            </choice> nec me sensit amata <choice>
+              <abbr>uirū</abbr>
+              <expan>uirum</expan>
+            </choice>
+          </l>
+        </lg>
+        <lg type="couplet">
+          <l n="21" xml:id="S-3.7-l21" facs="#S-3.7-zone-21">Sic <choice>
+              <abbr>flāmīs</abbr>
+              <expan>flammis</expan>
+            </choice> aditura piis <choice>
+              <abbr>ętr̄na</abbr>
+              <expan>eterna</expan>
+            </choice> sacerdos</l>
+          <l n="22" xml:id="S-3.7-l22" facs="#S-3.7-zone-22" rend="indent">Surgit <choice>
+              <abbr>&amp;</abbr>
+              <expan>et</expan>
+            </choice> a caro <choice>
+              <abbr>fr̄e</abbr>
+              <expan>fratre</expan>
+            </choice> uerenda soror:</l>
+        </lg>
+        <lg type="couplet">
+          <l n="23" xml:id="S-3.7-l23" facs="#S-3.7-zone-23">At nuper bis flaua chide <choice>
+              <abbr>t̄</abbr>
+              <expan>ter</expan>
+            </choice> candida phito</l>
+          <l n="24" xml:id="S-3.7-l24" facs="#S-3.7-zone-24" rend="indent">Ter libas officio <choice>
+              <abbr>cōtinuata</abbr>
+              <expan>continuata</expan>
+            </choice>
+            <choice>
+              <abbr>meo ē</abbr>
+              <expan>meo est</expan>
+            </choice>.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="25" xml:id="S-3.7-l25" facs="#S-3.7-zone-25">Exigere a nobis angusta nocte <choice>
+              <abbr>corinā</abbr>
+              <expan>corinam</expan>
+            </choice>
+          </l>
+          <l n="26" xml:id="S-3.7-l26" facs="#S-3.7-zone-26" rend="indent">Me memini numeros sustinuisse <choice>
+              <abbr>nouē</abbr>
+              <expan>nouem</expan>
+            </choice>.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="27" xml:id="S-3.7-l27" facs="#S-3.7-zone-27">N<unclear reason="faded" cert="low">u</unclear> mea tessalico languent <choice>
+              <abbr>deuōta</abbr>
+              <expan>deuota</expan>
+            </choice> ueneno</l>
+          <l n="28" xml:id="S-3.7-l28" facs="#S-3.7-zone-28" rend="indent">C<unclear reason="stain">or</unclear>pora <choice>
+              <abbr>nū</abbr>
+              <expan>num</expan>
+            </choice> misero <choice>
+              <abbr>carmē</abbr>
+              <expan>carmen</expan>
+            </choice> an herba nocent</l>
+        </lg>
+        <lg type="couplet">
+          <l n="29" xml:id="S-3.7-l29" facs="#S-3.7-zone-29">S<unclear reason="stain">ag</unclear>a ue sanguinea defixit nomina cera.</l>
+          <l n="30" xml:id="S-3.7-l30" facs="#S-3.7-zone-30" rend="indent">Et <choice>
+              <abbr>mediū</abbr>
+              <expan>medium</expan>
+            </choice> tenuis in iecur egit acus.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="31" xml:id="S-3.7-l31" facs="#S-3.7-zone-31">Carmine lesa ceres sterile uanescit in herbam</l>
+          <pb n="396" facs="#S-396" />
+          <l n="32" xml:id="S-3.7-l32" facs="#S-3.7-zone-32" rend="indent">Deficiunt lesi carmine fontis aquę:</l>
+        </lg>
+        <lg type="couplet">
+          <l n="33" xml:id="S-3.7-l33" facs="#S-3.7-zone-33">Ilicibus glandes <choice>
+              <abbr>cantataqꝫ</abbr>
+              <expan>cantataque</expan>
+            </choice> uitibus uua</l>
+          <l n="34" xml:id="S-3.7-l34" facs="#S-3.7-zone-34" rend="indent">Decidit <choice>
+              <abbr>&amp;</abbr>
+              <expan>et</expan>
+            </choice> nullo poma mouente fluunt.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="35" xml:id="S-3.7-l35" facs="#S-3.7-zone-35">Quid uetat <choice>
+              <abbr>&amp;</abbr>
+              <expan>et</expan>
+            </choice> neruos magicas torpere <choice>
+              <abbr>p̄</abbr>
+              <expan>per</expan>
+            </choice> artes:</l>
+          <l n="36" xml:id="S-3.7-l36" facs="#S-3.7-zone-36" rend="indent">Forsitan inpatiens sit latus inde meo</l>
+        </lg>
+        <lg type="couplet">
+          <l n="37" xml:id="S-3.7-l37" facs="#S-3.7-zone-37">Huc pudor accessit. facti pudor ipse nocebat.</l>
+          <l n="38" xml:id="S-3.7-l38" facs="#S-3.7-zone-38" rend="indent">Ille fuit uicii causa secunda mei.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="39" xml:id="S-3.7-l39" facs="#S-3.7-zone-39">At <choice>
+              <abbr>qualē</abbr>
+              <expan>qualem</expan>
+            </choice>
+            uidi
+            <choice>
+              <abbr>tantū</abbr>
+              <expan>tantum</expan>
+            </choice>
+            <choice>
+              <abbr>tetigiqꝫ</abbr>
+              <expan>tetigique</expan>
+            </choice> puella</l>
+          <l n="40" xml:id="S-3.7-l40" facs="#S-3.7-zone-40" rend="indent">Sic etiam tunica tangitur illa sua.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="41" xml:id="S-3.7-l41" facs="#S-3.7-zone-41">Illius ad tactum pylius iuuenescere possit</l>
+          <l n="42" xml:id="S-3.7-l42" facs="#S-3.7-zone-42" rend="indent">
+            <choice>
+              <abbr>Tithonꝰqꝫ</abbr>
+              <expan>Tithonusque</expan>
+            </choice> annis fortior <choice>
+              <abbr>ē</abbr>
+              <expan>est</expan>
+            </choice> suis:</l>
+        </lg>
+        <lg type="couplet">
+          <l n="43" xml:id="S-3.7-l43" facs="#S-3.7-zone-43">Hęc <choice>
+              <abbr>ṁ</abbr>
+              <expan>mihi</expan>
+            </choice> contigerat sed uir <choice>
+              <abbr>n̄</abbr>
+              <expan>non</expan>
+            </choice>
+            <choice>
+              <abbr>cōtiḡ</abbr>
+              <expan>contigit</expan>
+            </choice> illi.</l>
+          <l n="44" xml:id="S-3.7-l44" facs="#S-3.7-zone-44" rend="indent">Quas <choice>
+              <abbr>nūc</abbr>
+              <expan>nunc</expan>
+            </choice>
+            <choice>
+              <abbr>cōcēpī</abbr>
+              <expan>concepi</expan>
+            </choice> per uia uota <choice>
+              <abbr>precū</abbr>
+              <expan>precum</expan>
+            </choice>.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="45" xml:id="S-3.7-l45" facs="#S-3.7-zone-45">Credo <choice>
+              <abbr>&amp;</abbr>
+              <expan>et</expan>
+            </choice> magnos <choice>
+              <abbr>q̄</abbr>
+              <expan>quod</expan>
+            </choice>
+            <choice>
+              <abbr>sū</abbr>
+              <expan>sum</expan>
+            </choice>
+            <choice>
+              <abbr>tā</abbr>
+              <expan>tam</expan>
+            </choice>
+            <choice>
+              <abbr>t̄pit̄</abbr>
+              <expan>turpiter</expan>
+            </choice> usus</l>
+          <l n="46" xml:id="S-3.7-l46" facs="#S-3.7-zone-46" rend="indent">Muneris oblati penituisse deos:</l>
+        </lg>
+        <lg type="couplet">
+          <l n="47" xml:id="S-3.7-l47" facs="#S-3.7-zone-47">
+            <choice>
+              <abbr>Optabā</abbr>
+              <expan>Optabam</expan>
+            </choice> certe recipi <choice>
+              <abbr>sū</abbr>
+              <expan>sum</expan>
+            </choice>
+            <choice>
+              <abbr>n̄pe</abbr>
+              <expan>nempe</expan>
+            </choice> receptus.</l>
+          <l n="48" xml:id="S-3.7-l48" facs="#S-3.7-zone-48" rend="indent">Oscula ferre tuli. <choice>
+              <abbr>proxīꝰ</abbr>
+              <expan>proximus</expan>
+            </choice> et fui.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="49" xml:id="S-3.7-l49" facs="#S-3.7-zone-49">Quid <choice>
+              <abbr>ṁ</abbr>
+              <expan>mihi</expan>
+            </choice> fortunę <choice>
+              <abbr>tantū</abbr>
+              <expan>tantum</expan>
+            </choice>
+            <choice>
+              <abbr>q̄</abbr>
+              <expan>quod</expan>
+            </choice> regna sine usu</l>
+          <l n="50" xml:id="S-3.7-l50" facs="#S-3.7-zone-50" rend="indent">Quid <choice>
+              <abbr>n̄</abbr>
+              <expan>non</expan>
+            </choice> pollicitis diues auarus opes.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="51" xml:id="S-3.7-l51" facs="#S-3.7-zone-51">Sic aret mediis tacta uulgator in undis:</l>
+          <l n="52" xml:id="S-3.7-l52" facs="#S-3.7-zone-52" rend="indent">
+            <choice>
+              <abbr>Pomaqꝫ</abbr>
+              <expan>Pomaque</expan>
+            </choice> quę nullo <choice>
+              <abbr>tēpore</abbr>
+              <expan>tempore</expan>
+            </choice> tangit habet.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="53" xml:id="S-3.7-l53" facs="#S-3.7-zone-53">A tenera <choice>
+              <abbr>quisquā</abbr>
+              <expan>quisquam</expan>
+            </choice> sic <choice>
+              <abbr>sur̄git</abbr>
+              <expan>surgit</expan>
+            </choice> mane puella</l>
+          <l n="54" xml:id="S-3.7-l54" facs="#S-3.7-zone-54" rend="indent">
+            <choice>
+              <abbr>Ptinꝰ</abbr>
+              <expan>Protinus</expan>
+            </choice> ut <choice>
+              <abbr>s̄cōs</abbr>
+              <expan>sanctos</expan>
+            </choice> possit adire deos.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="55" xml:id="S-3.7-l55" facs="#S-3.7-zone-55">Sic puto <choice>
+              <abbr>n̄</abbr>
+              <expan>non</expan>
+            </choice> blanda <choice>
+              <abbr>n̄</abbr>
+              <expan>non</expan>
+            </choice> optima perdidit in me</l>
+          <l n="56" xml:id="S-3.7-l56" facs="#S-3.7-zone-56" rend="indent">Oscula <choice>
+              <abbr>n̄</abbr>
+              <expan>non</expan>
+            </choice> omni <choice>
+              <abbr>sollicitā</abbr>
+              <expan>sollicitauit</expan>
+            </choice> ope</l>
+        </lg>
+        <lg type="couplet">
+          <l n="57" xml:id="S-3.7-l57" facs="#S-3.7-zone-57">Illa graues potuit quercus adamanta <choice>
+              <abbr>qꝫ durū</abbr>
+              <expan>que durum</expan>
+            </choice>
+          </l>
+          <l n="58" xml:id="S-3.7-l58" facs="#S-3.7-zone-58" rend="indent">
+            <choice>
+              <abbr>Surdaqꝫ</abbr>
+              <expan>Surdaque</expan>
+            </choice> blanditiis saxa mouere suis:</l>
+        </lg>
+        <lg type="couplet">
+          <l n="59" xml:id="S-3.7-l59" facs="#S-3.7-zone-59">Digna mouere fuit <choice>
+              <abbr>c̄e</abbr>
+              <expan>certe</expan>
+            </choice>
+            <choice>
+              <abbr>uiuosqꝫ</abbr>
+              <expan>uiuosque</expan>
+            </choice> uirosque</l>
+          <l n="60" xml:id="S-3.7-l60" facs="#S-3.7-zone-60" rend="indent">Sed <choice>
+              <abbr>n̄</abbr>
+              <expan>non</expan>
+            </choice> uiri nec uiuus ut ante fui.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="61" xml:id="S-3.7-l61" facs="#S-3.7-zone-61">Quid iuuat ad sur<subst cert="low"><del rend="strikethrough"><unclear reason="cancellation">dis</unclear></del><add place="below"><unclear>a</unclear></add></subst> si cantet <choice><abbr><unclear cert="low">psaltꝛ</unclear></abbr><expan cert="low">psalter</expan></choice> aures:</l>
+          <l n="62" xml:id="S-3.7-l62" facs="#S-3.7-zone-62" rend="indent">Quid <choice>
+              <abbr>miserū</abbr>
+              <expan>miserum</expan>
+            </choice> tacita picta tabella iuuat</l>
+        </lg>
+        <lg type="couplet">
+          <l n="63" xml:id="S-3.7-l63" facs="#S-3.7-zone-63">
+            <choice>
+              <abbr>Atqꝫ</abbr>
+              <expan>Atque</expan>
+            </choice> ego <choice>
+              <abbr>n̄c</abbr>
+              <expan>nunc</expan>
+            </choice> tanta formaui gaudia <choice>
+              <abbr>mēte</abbr>
+              <expan>mente</expan>
+            </choice>
+          </l>
+          <l n="64" xml:id="S-3.7-l64" facs="#S-3.7-zone-64" rend="indent">Quas ego <choice>
+              <abbr>n̄</abbr>
+              <expan>non</expan>
+            </choice> positu disposuique modos:</l>
+        </lg>
+        <lg type="couplet">
+          <l n="65" xml:id="S-3.7-l65" facs="#S-3.7-zone-65">
+            <choice>
+              <abbr>Nr̄a</abbr>
+              <expan>Nostra</expan>
+            </choice>
+            <choice>
+              <abbr>tam̄</abbr>
+              <expan>tamen</expan>
+            </choice> iacuere uelut premortua <choice>
+              <abbr>mēbra</abbr>
+              <expan>membra</expan>
+            </choice>.</l>
+          <l n="66" xml:id="S-3.7-l66" facs="#S-3.7-zone-66" rend="indent">
+            <choice>
+              <abbr>Turpit̄</abbr>
+              <expan>Turpiter</expan>
+            </choice> hesterna languidiora rosa.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="67" xml:id="S-3.7-l67" facs="#S-3.7-zone-67">Quę <choice>
+              <abbr>nū</abbr>
+              <expan>nunc</expan>
+            </choice> ecce uiget <choice>
+              <abbr>intēpestiua</abbr>
+              <expan>intempestiua</expan>
+            </choice>
+            <choice>
+              <abbr>ualetqꝫ</abbr>
+              <expan>ualetque</expan>
+            </choice>
+          </l>
+          <l n="68" xml:id="S-3.7-l68" facs="#S-3.7-zone-68" rend="indent">
+            <choice>
+              <abbr>N̄c</abbr>
+              <expan>Nunc</expan>
+            </choice>
+            <choice>
+              <abbr>opꝰ</abbr>
+              <expan>opus</expan>
+            </choice>
+            <choice>
+              <abbr>exposcīt</abbr>
+              <expan cert="low">exposcit</expan>
+            </choice>
+            <choice>
+              <abbr>miliciāqꝫ</abbr>
+              <expan>miliciamque</expan>
+            </choice>
+            <choice>
+              <abbr>suā</abbr>
+              <expan>suam</expan>
+            </choice>
+          </l>
+        </lg>
+        <lg type="couplet">
+          <l n="69" xml:id="S-3.7-l69" facs="#S-3.7-zone-69">Quid habes pudibunda iaces pars pessima <choice>
+              <abbr>nr̄i</abbr>
+              <expan>nostri</expan>
+            </choice>
+          </l>
+          <l n="70" xml:id="S-3.7-l70" facs="#S-3.7-zone-70" rend="indent">Sic <choice>
+              <abbr>sū</abbr>
+              <expan>sum</expan>
+            </choice> pollicitis <choice>
+              <abbr>captꝰ</abbr>
+              <expan>captus</expan>
+            </choice>
+            <choice>
+              <abbr>&amp;</abbr>
+              <expan>et</expan>
+            </choice> ante tuis.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="71" xml:id="S-3.7-l71" facs="#S-3.7-zone-71">Tu <choice>
+              <abbr>dn̄m</abbr>
+              <expan>dominum</expan>
+            </choice> fallis per te <choice>
+              <abbr>dep̄nsus</abbr>
+              <expan>deprensus</expan>
+            </choice> inermis</l>
+          <l n="72" xml:id="S-3.7-l72" facs="#S-3.7-zone-72" rend="indent">Tristia <choice>
+              <abbr>cū</abbr>
+              <expan>cum</expan>
+            </choice> magno damna pudore tuli.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="73" xml:id="S-3.7-l73" facs="#S-3.7-zone-73">Hanc etiam <choice>
+              <abbr>n̄</abbr>
+              <expan>non</expan>
+            </choice>
+            <choice>
+              <abbr>ē</abbr>
+              <expan>est</expan>
+            </choice> mea dedignata puella.</l>
+          <l n="74" xml:id="S-3.7-l74" facs="#S-3.7-zone-74" rend="indent">Molliter admota sollicitare manu.</l>
+        </lg>
+        <p>
+          <gap reason="not-transmitted" quantity="10" unit="line" facs="#S-396 #S-397" xml:id="S-3.7-terminal-gap">
+            <desc>Canonical verses 75–84 are not transmitted in the extant continuation. The source ends after verse 74 at the foot of page 396; the immediately following page 397 is blank. No missing text is supplied.</desc>
+          </gap>
+        </p>
+      </div>
+    </body>
+    <back>
+      <div type="editorial-notes">
+        <head>Encoding observations</head>
+        <note n="1" type="observation" target="#S-3.7-l1" xml:id="S-3.7-note-1">A small a appears at the left beside the first verse, with a large unfilled space before t. Encoded as the visible guide letter and space rather than inventing a decorated initial.</note>
+        <note n="3" type="uncertainty" target="#S-3.7-l3" resp="#S-second-reader" xml:id="S-3.7-note-3">Independent second reading corrects the first-pass in molli to in nullos: the ending is visibly s-like and the tall paired shafts support ll. The dense middle of nullos remains uncertain. No hidden earlier reading or historical hand is asserted.</note>
+        <note n="23" type="observation" target="#S-3.7-l23" xml:id="S-3.7-note-23">The visible names read chide and phito in this witness; they have not been silently regularized to forms from another witness.</note>
+        <note n="27" type="uncertainty" target="#S-3.7-l27" resp="#S-second-reader" xml:id="S-3.7-note-27">Second reading confirms that the post-N trace is faint and u-shaped; no additional ending or contraction mark can be securely recovered. The local unclear is retained rather than normalizing to num.</note>
+        <note n="28" type="uncertainty" target="#S-3.7-l28" resp="#S-second-reader" xml:id="S-3.7-note-28">Second reading confirms the dark stain on or in Corpora. The neighbouring letters support the word, but the obscured traces remain locally unclear.</note>
+        <note n="29" type="uncertainty" target="#S-3.7-l29" resp="#S-second-reader" xml:id="S-3.7-note-29">Second reading confirms staining on ag in Saga. The retained local unclear records the physical limitation and does not create an editorial task.</note>
+        <note n="39" type="observation" target="#S-3.7-l39" resp="#S-second-reader" xml:id="S-3.7-note-39">Enlarged independent inspection resolves uidi, so the first-pass unclear was removed. The final puella is retained without supplying final m.</note>
+        <note n="61" type="uncertainty" target="#S-3.7-l61" resp="#S-second-reader" xml:id="S-3.7-note-61">Independent inspection finds cancellation of the ending after sur and a small a below. The encoded dis/a records visible traces without manufacturing an additional written das. The final word before aures is abbreviated, tentatively psaltꝛ/psalter; the initial sequence and sign remain uncertain. Its identification as an instrument is not asserted.</note>
+        <note n="67" type="observation" target="#S-3.7-l67" xml:id="S-3.7-note-67">The crowded sequence after uiget is read intēpestiua, with the contraction expanded as intempestiua. Enlarged inspection resolves this without a human-review action.</note>
+        <note n="74" type="observation" target="#S-3.7-l74" xml:id="S-3.7-note-74">This is the last written verse at the foot of page 396. The next manifest canvas, page 397, is blank. Together with the catalogue statement that Amores is incomplete at the end, this supports an explicit terminal gap for canonical verses 75–84. It does not establish when or how the text ceased to be transmitted.</note>
+      <note n="41" target="#S-3.7-l41" type="observation" resp="#S-second-reader" xml:id="S-3.7-note-41">Independent inspection reads the final word as written possit, with a clear i and terminal t. First-pass possēt/posset was corrected; no suspension is asserted.</note><note n="48" target="#S-3.7-l48" type="observation" resp="#S-second-reader" xml:id="S-3.7-note-48">Independent inspection reads the sign before fui as joined e+t. The first-pass barred-e abbreviation was replaced with written et.</note><note n="68" target="#S-3.7-l68" type="uncertainty" resp="#S-second-reader" xml:id="S-3.7-note-68">The displayed exposcīt abbreviation is retained; its first-pass expansion exposcit is marked low-certainty because the supralinear stroke may imply an omitted nasal. No normalized plural has been silently inserted.</note></div>
+    </back>
+  </text>
+</TEI>

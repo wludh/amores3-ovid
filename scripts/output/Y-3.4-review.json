@@ -760,5 +760,6 @@
     }
   ],
   "reviewed_candidate_sha256": "066d4d396f3e4416d7f28c07754a9fc6dba9f865c2147b92ff85b7b33b80ae42",
-  "review_report_sha256": "c5f14bededd33d709c9b0ef286f761b1cd6975720e39649add0a55783c5fe2a2"
+  "review_report_sha256": "c5f14bededd33d709c9b0ef286f761b1cd6975720e39649add0a55783c5fe2a2",
+  "reviewed_xml_sha256": "7764c3ec230a7ac10e773a8c9729a56dfc6b0bdc8253f761e6968e6a139bc701"
 }

@@ -37,6 +37,14 @@ function applyReviewedNavigation(annotation, witness, poem, lineId) {
   return { ...annotation, ...correction.corrected };
 }
 
+function getReviewedSurfaceNavigation(witness, poem, lineId) {
+  const entry = teiCorpus?.records.find(item => item.witness === witness && item.poem === poem);
+  if (entry?.status !== 'reviewed') return undefined;
+  const location = entry.surface_navigation?.find(item => item.lineId === String(lineId));
+  if (!location || !Number.isInteger(location.page) || location.page < 1) return undefined;
+  return { witness, poem, lineId: String(lineId), page: location.page, unlocated: true };
+}
+
 const companionData = {
   '3.1': { commentary: '' },
   '3.2': { commentary: '' },

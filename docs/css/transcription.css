@@ -53,12 +53,14 @@ body.dark-mode .tei-edition {
 .tei-edition tei-teiheader, .tei-edition tei-facsimile, .tei-edition tei-back { display: none; }
 .tei-edition tei-text, .tei-edition tei-body, .tei-edition tei-div, .tei-edition tei-lg { display: block; }
 .tei-edition tei-lg { margin: 0; }
+.tei-edition tei-lg[rend~="section-break"] { margin-top: 1.4em; }
 .text-content .tei-edition tei-l {
   display: block; position: relative; width: max-content; min-width: 100%;
   white-space: nowrap; padding: .18em 2.2em .18em 2.3em; margin: .1em 0;
   line-height: 2.05; border-radius: 3px; outline-offset: -2px;
 }
-.text-content .tei-edition tei-l[rend~="indent"] { margin-left: 0; padding-left: 3.55em; }
+.text-content .tei-edition tei-l[rend~="indent"] { margin-left: 0; padding-left: calc(2.3em + var(--source-line-indent, 1.25em)); }
+.text-content .tei-edition[data-witness="P"] { --source-line-indent: .65em; }
 .text-content .tei-edition tei-l::before { display: block; content: attr(n); left: 0; top: .65em; width: 1.6rem; padding: 0; color: var(--quiet); font: .7rem/1.5 system-ui, sans-serif; text-align: right; }
 .text-content .tei-edition tei-l.clickable-line:hover { background: color-mix(in srgb, var(--ink) 6%, transparent); text-decoration: none; }
 .text-content .tei-edition tei-l:focus-visible { outline: 2px solid var(--review); }

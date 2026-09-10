@@ -1,0 +1,312 @@
+{
+  "witness": "Y",
+  "poem": "3.11",
+  "date": "2026-09-09",
+  "stage": "first-pass",
+  "independently_reviewed": false,
+  "human_approved": false,
+  "coverage": [
+    {
+      "page": 136,
+      "folio": "66v",
+      "start": 1,
+      "end": 38,
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0136/full/full/0/default.jpg"
+    },
+    {
+      "page": 137,
+      "folio": "67r",
+      "start": 39,
+      "end": 52,
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0137/full/full/0/default.jpg"
+    }
+  ],
+  "line_count": 52,
+  "annotation_policy": "There are 104 annotation rows for 52 distinct source verses. Each duplicate pair has identical page and bounds. The last existing row per verse was selected and every resulting rectangle was inspected. All original bounds remain unchanged; some regions include neighbouring text or exclude additions. sourceWitness=LL and panelId are provenance only, not transcription input.",
+  "notes": [
+    {
+      "note_id": "Y-3.11-note-1",
+      "line": 1,
+      "type": "observation",
+      "evidence": "An ornamental M opens the poem. The t of patientia is darker; no former letter is supplied."
+    },
+    {
+      "note_id": "Y-3.11-note-2",
+      "line": 2,
+      "type": "uncertainty",
+      "evidence": "A short dark horizontal stroke crosses the pecto/re interval. Its function is unspecified; the readable word is retained."
+    },
+    {
+      "note_id": "Y-3.11-note-3",
+      "line": 3,
+      "type": "observation",
+      "evidence": "The et ligature closes Scilicet. Source adserui is retained."
+    },
+    {
+      "note_id": "Y-3.11-note-4",
+      "line": 4,
+      "type": "observation",
+      "evidence": "The source writes que with e rather than an expanded ae spelling. The final et of pudet is a ligature."
+    },
+    {
+      "note_id": "Y-3.11-note-5",
+      "line": 5,
+      "type": "observation",
+      "evidence": "The source verb is calcimus. No u or other correction is supplied."
+    },
+    {
+      "note_id": "Y-3.11-note-6",
+      "line": 6,
+      "type": "observation",
+      "evidence": "An i is added above between p and t in capti, with a small caret beneath. The physical addition is retained separately."
+    },
+    {
+      "note_id": "Y-3.11-note-7",
+      "line": 7,
+      "type": "uncertainty",
+      "evidence": "The t at the end of et and d of proderit are darker. A vertical mark crosses the Perfer/et boundary; its function is unspecified. Word separation is editorial."
+    },
+    {
+      "note_id": "Y-3.11-note-9",
+      "line": 9,
+      "type": "uncertainty",
+      "evidence": "A vertical stroke crosses the tam/saepe boundary. It is retained without asserting cancellation of either word."
+    },
+    {
+      "note_id": "Y-3.11-note-10",
+      "line": 10,
+      "type": "observation",
+      "evidence": "A question-like sign closes the line."
+    },
+    {
+      "note_id": "Y-3.11-note-11",
+      "line": 11,
+      "type": "observation",
+      "evidence": "The visible sequence is nescio cui quem tu complexa tenebas; the word separation is editorial."
+    },
+    {
+      "note_id": "Y-3.11-note-12",
+      "line": 12,
+      "type": "observation",
+      "evidence": "The source reads seruus followed by an et ligature. Ut is written above the ligature and again in the right margin. All three written components are preserved without asserting cancellation of the ligature."
+    },
+    {
+      "note_id": "Y-3.11-note-13",
+      "line": 13,
+      "type": "observation",
+      "evidence": "The final i of Vidi and initial l of lassus are dark. No earlier letters are reconstructed."
+    },
+    {
+      "note_id": "Y-3.11-note-17",
+      "line": 17,
+      "type": "observation",
+      "evidence": "The source reads adesi. The t of patienter is dark; a question-like sign closes the line."
+    },
+    {
+      "note_id": "Y-3.11-note-18",
+      "line": 18,
+      "type": "observation",
+      "evidence": "The baseline tuis has a dot below i and u above it. This expunction/substitution is retained. Points divide the three clauses."
+    },
+    {
+      "note_id": "Y-3.11-note-19",
+      "line": 19,
+      "type": "observation",
+      "evidence": "Et ligatures close Scilicet and supply the following conjunction."
+    },
+    {
+      "note_id": "Y-3.11-note-20",
+      "line": 20,
+      "type": "observation",
+      "evidence": "The o-region of amori is dark. The visible ending is retained without adding a final s."
+    },
+    {
+      "note_id": "Y-3.11-note-21",
+      "line": 21,
+      "type": "uncertainty",
+      "evidence": "A tall dark stroke crosses the mendacia/linguae boundary. It is an unspecified mark, not an asserted cancellation."
+    },
+    {
+      "note_id": "Y-3.11-note-22",
+      "line": 22,
+      "type": "uncertainty",
+      "evidence": "A short horizontal stroke appears below the r-region of periuratos. It is recorded schematically; dampna is preserved as written."
+    },
+    {
+      "note_id": "Y-3.11-note-24",
+      "line": 24,
+      "type": "observation",
+      "evidence": "Dis simulata has editorial word separation; the visible letters and terminal question-like sign are retained."
+    },
+    {
+      "note_id": "Y-3.11-note-25",
+      "line": 25,
+      "type": "observation",
+      "evidence": "Egr in egra is dark. The source has egra here and aegra in the following verse; the differing spelling is retained."
+    },
+    {
+      "note_id": "Y-3.11-note-26",
+      "line": 26,
+      "type": "uncertainty",
+      "evidence": "The visible sequence is Venet ri uali, with an et ligature and a vertical stroke at that boundary. It is retained without normalizing it to a familiar reading. The a of erat is dark."
+    },
+    {
+      "note_id": "Y-3.11-note-27",
+      "line": 27,
+      "type": "observation",
+      "evidence": "Et is written with separate dark letters here. Que and duraui are retained as visible."
+    },
+    {
+      "note_id": "Y-3.11-note-28",
+      "line": 28,
+      "type": "uncertainty",
+      "evidence": "The source has qui ista pati with a dark mark over the i-area and a caret beneath that boundary. Velit is added above to the right. The exact function of the small internal mark is uncertain; no baseline letters are declared cancelled."
+    },
+    {
+      "note_id": "Y-3.11-note-29",
+      "line": 29,
+      "type": "observation",
+      "evidence": "The i of redimita is dark. Its preceding d is retained as visible, without inferring an erased earlier word."
+    },
+    {
+      "note_id": "Y-3.11-note-30",
+      "line": 30,
+      "type": "observation",
+      "evidence": "The e of tumescentis is dark. No erased state is reconstructed."
+    },
+    {
+      "note_id": "Y-3.11-note-31",
+      "line": 31,
+      "type": "observation",
+      "evidence": "Source condam is retained, and the et conjunction is a ligature."
+    },
+    {
+      "note_id": "Y-3.11-note-32",
+      "line": 32,
+      "type": "uncertainty",
+      "evidence": "A vertical stroke follows Perdere. Ut on the baseline is dark and another ut appears in the right margin; both are preserved without asserting a link to another verse."
+    },
+    {
+      "note_id": "Y-3.11-note-35",
+      "line": 35,
+      "type": "observation",
+      "evidence": "A larger O and a conspicuous left-margin mark introduce this couplet within the transmitted sequence. The source verses remain continuous; no modern poem boundary is imposed."
+    },
+    {
+      "note_id": "Y-3.11-note-36",
+      "line": 36,
+      "type": "observation",
+      "evidence": "The source has hodit with initial h. The final et of habet is a ligature."
+    },
+    {
+      "note_id": "Y-3.11-note-37",
+      "line": 37,
+      "type": "observation",
+      "evidence": "The ending io of fugio is dark. Reducet ends with an et ligature, and it is added above that ending. The source layers are retained without declaring the ligature cancelled."
+    },
+    {
+      "note_id": "Y-3.11-note-39",
+      "line": 39,
+      "type": "uncertainty",
+      "evidence": "A vertical stroke crosses the sine/te boundary. Its function is unspecified."
+    },
+    {
+      "note_id": "Y-3.11-note-41",
+      "line": 41,
+      "type": "uncertainty",
+      "evidence": "The s-region of formosa has horizontal and dotted dark marks. The current s remains qualified rather than assigning a recoverable prior letter or definite cancellation. Initial m of the first minus is dark."
+    },
+    {
+      "note_id": "Y-3.11-note-42",
+      "line": 42,
+      "type": "observation",
+      "evidence": "The visible verb is fact, without a separate i. Final s of mores and initial t of tam are dark. No silent correction to expected grammar is supplied."
+    },
+    {
+      "note_id": "Y-3.11-note-45",
+      "line": 45,
+      "type": "observation",
+      "evidence": "Precor is contracted as barred p plus cor, with darker cor; the expansion is explicit. Socialia is dark and remains readable."
+    },
+    {
+      "note_id": "Y-3.11-note-47",
+      "line": 47,
+      "type": "uncertainty",
+      "evidence": "A slender stroke follows instar. It is retained as an unspecified metamark."
+    },
+    {
+      "note_id": "Y-3.11-note-49",
+      "line": 49,
+      "type": "observation",
+      "evidence": "The first Quid has a dot below d and c above, encoded as a substitution. Ui is dark with s raised above its end; initial e and g of elige are dark. All visible components are retained without assigning hands."
+    },
+    {
+      "note_id": "Y-3.11-note-50",
+      "line": 50,
+      "type": "observation",
+      "evidence": "Initial u of uelle and a of amem are darker. No earlier state is supplied."
+    },
+    {
+      "note_id": "Y-3.11-note-52",
+      "line": 52,
+      "type": "uncertainty",
+      "evidence": "A compact barred group above Ut qui appears q with a bar followed by qudm. It remains an unclear unexpanded abbreviation. The baseline Ut qui si nolim is retained. Tamen is dark; a terminal colon-like mark and stroke precede the ornamental Q opening3.12."
+    }
+  ],
+  "author_agent": "/root/review_y",
+  "line_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52
+  ],
+  "candidate_sha256": "1c7e18ed9b8d97fd0ffb0013f3774ec53b1e78a228ff86ea33c4356ee50d68a8"
+}

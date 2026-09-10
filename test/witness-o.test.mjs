@@ -76,3 +76,20 @@ test('line navigation waits for the target image before positioning its rectangl
   context.zoomViewerToAnnotation({}, 'O', annotation);
   assert.deepEqual(calls.slice(1), [['fit', annotation], ['highlight']]);
 });
+
+test('an unlocated verse opens the whole source page without a fabricated highlight', async () => {
+  const source = await readFile(new URL('docs/js/script.js', root), 'utf8');
+  const fn = source.slice(source.indexOf('function zoomViewerToAnnotation('), source.indexOf('function zoomAllViewersToLine('));
+  let currentPage = 0;
+  const calls = [];
+  const viewer = { currentPage: () => currentPage, goToPage: page => calls.push(['navigate', page]), viewport: { goHome: () => calls.push(['whole-page']), fitBounds: () => assert.fail('No rectangle may be fitted') } };
+  const overlay = { appendChild: el => calls.push(['label', el.textContent]), classList: { add: () => {} } };
+  const context = vm.createContext({ getAnnotationViewer: () => viewer, getAnnotationOverlay: () => overlay, clearCurrentAnnotationMarkers: () => calls.push(['clear-highlight']), document: { createElement: () => ({}) }, showFocusedAnnotation: () => assert.fail('No rectangle may be highlighted') });
+  vm.runInContext(fn, context);
+  const target = { page: 97, lineId: '23', unlocated: true };
+  context.zoomViewerToAnnotation({}, 'P', target);
+  assert.deepEqual(calls, [['clear-highlight'], ['navigate', 96]]);
+  currentPage = 96;
+  context.zoomViewerToAnnotation({}, 'P', target);
+  assert.deepEqual(calls.slice(2), [['clear-highlight'], ['whole-page'], ['label', 'Verse location unverified']]);
+});

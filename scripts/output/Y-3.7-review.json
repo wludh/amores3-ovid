@@ -1,7 +1,7 @@
 {
   "witness": "Y",
   "poem": "3.7",
-  "date": "2026-09-08",
+  "date": "2026-09-10",
   "reviewer": "OpenAI Codex independent review_y agent",
   "review_type": "independent-second-agent-image-and-encoding-review",
   "human_approved": false,
@@ -27,14 +27,14 @@
   },
   "counts": {
     "resolved": 26,
-    "documented-uncertainty": 26,
-    "escalate": 3
+    "documented-uncertainty": 29,
+    "escalate": 0
   },
   "previous_review_note_count": 37,
   "previous_review_note_dispositions": {
-    "documented-uncertainty": 26,
     "resolved": 8,
-    "escalate": 3
+    "documented-uncertainty": 29,
+    "escalate": 0
   },
   "guidelines": [
     "https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-unclear.html",
@@ -125,13 +125,13 @@
       "line": 10,
       "target": "#Y-3.7-l10",
       "previous_type": "review",
-      "status": "escalate",
+      "status": "documented-uncertainty",
       "evidence": {
         "folio": "63r",
         "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0129/full/full/0/default.jpg",
-        "assessment": "The u above Lascium and t in posuique are supported by 63r. The separate supralinear cluster before posuique is retained as uncertain sup. Whether it is an abbreviation, a gloss, or an instruction is unresolved; a confident interpretation would change how this intervention is encoded."
+        "assessment": "The u above Lascium and t in posuique are visible on 63r. The separate supralinear cluster before posuique remains tentatively read sup, without a secure expansion or identifiable function. It is retained as a low-certainty unclear addition. Its possible abbreviation or annotation function is documented as uncertainty; no choice between unsupported interpretations is needed for this source transcription."
       },
-      "change": "Reviewed against image; retained editorial escalation."
+      "change": "Renewed source inspection; reclassified former escalation as documented uncertainty. Conservative verse markup unchanged."
     },
     {
       "note_id": "Y-3.7-note-11",
@@ -450,13 +450,13 @@
       "line": 51,
       "target": "#Y-3.7-l51",
       "previous_type": "review",
-      "status": "escalate",
+      "status": "documented-uncertainty",
       "evidence": {
         "folio": "63v",
         "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0130/full/full/0/default.jpg",
-        "assessment": "The correction cluster includes a crossed c in Siccar&, an added c above the baseline t in taticis, and marks beneath letters. Their full sequence and relationship remain unresolved. The left marginal word securely begins ta but its remaining letters are not sufficiently legible to assert the earlier taciti transcription; the rest is now encoded as illegible. A reading that reconstructs the final corrected verse would require editorial adjudication."
+        "assessment": "Renewed inspection confirms crossing strokes at the second c in Siccar&, an added c above the baseline t in taticis, and marks beneath letters. The qualified deletion and substitution markup records these visible interventions without asserting their full sequence. The left marginal annotation remains partly legible as ta followed by uncertain joined strokes; the rest remains an illegible gap. Neither a complete marginal word nor a final reconstructed corrected verse is established. These are documented source uncertainties rather than a required editorial decision."
       },
-      "change": "Retained unresolved cluster; reduced conjectural marginal taciti to uncertain ta followed by an illegible gap."
+      "change": "Renewed source inspection; reclassified former escalation as documented uncertainty. Conservative verse markup unchanged."
     },
     {
       "note_id": "Y-3.7-note-52",
@@ -489,13 +489,13 @@
       "line": 55,
       "target": "#Y-3.7-l55",
       "previous_type": "review",
-      "status": "escalate",
+      "status": "documented-uncertainty",
       "evidence": {
         "folio": "63v",
         "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0130/full/full/0/default.jpg",
-        "assessment": "The image supports non blanda, a small supralinear e-like character with an adjoining stroke, and then non optima. The addition remains uncertain and unexpanded: whether it is e, a fuller abbreviation such as est, or another intervention would materially change its interpretation. The unsupported extra non from the old transcription remains removed."
+        "assessment": "The source shows non blanda, a small supralinear e-like sign with an adjoining raised stroke, a lower insertion mark, and then non optima. The exact reading and any expansion of the raised sign remain uncertain. The low-certainty unclear addition and insertion mark are retained without supplying est or another conjectured expansion. This image limitation does not require a user to choose an unsupported reading."
       },
-      "change": "Reviewed against image; retained editorial escalation."
+      "change": "Renewed source inspection; reclassified former escalation as documented uncertainty. Conservative verse markup unchanged."
     },
     {
       "note_id": "Y-3.7-note-57",
@@ -766,6 +766,180 @@
     "unique_ids": true,
     "local_references_resolve": true
   },
-  "reviewed_xml_sha256": "a1e7ebc9a0cbb2599f920225cd0121956e7ce583ea9b981fb9b925d4b2959836",
-  "review_report_sha256": "6bad8715cfdab23d3f49bbed6f3d631d9fa69e8c513fa3a4d4603383c9ac61ad"
+  "review_report_sha256": "99556ba9813497e8b635c33134011034594d2f647ecc72c6b6bf88775f939e75",
+  "review_history": [
+    {
+      "date": "2026-09-08",
+      "scope": "Original complete independent source pass",
+      "counts": {
+        "resolved": 26,
+        "documented-uncertainty": 26,
+        "escalate": 3
+      },
+      "previous_review_note_dispositions": {
+        "documented-uncertainty": 26,
+        "resolved": 8,
+        "escalate": 3
+      },
+      "reviewed_xml_sha256": "a1e7ebc9a0cbb2599f920225cd0121956e7ce583ea9b981fb9b925d4b2959836",
+      "review_report_sha256": "6bad8715cfdab23d3f49bbed6f3d631d9fa69e8c513fa3a4d4603383c9ac61ad",
+      "superseded_note_dispositions": [
+        {
+          "note_id": "Y-3.7-note-10",
+          "line": 10,
+          "target": "#Y-3.7-l10",
+          "previous_type": "review",
+          "status": "documented-uncertainty",
+          "evidence": {
+            "folio": "63r",
+            "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0129/full/full/0/default.jpg",
+            "assessment": "The u above Lascium and t in posuique are visible on 63r. The separate supralinear cluster before posuique remains tentatively read sup, without a secure expansion or identifiable function. It is retained as a low-certainty unclear addition. Its possible abbreviation or annotation function is documented as uncertainty; no choice between unsupported interpretations is needed for this source transcription."
+          },
+          "change": "Renewed source inspection; reclassified former escalation as documented uncertainty. Conservative verse markup unchanged."
+        },
+        {
+          "note_id": "Y-3.7-note-51",
+          "line": 51,
+          "target": "#Y-3.7-l51",
+          "previous_type": "review",
+          "status": "documented-uncertainty",
+          "evidence": {
+            "folio": "63v",
+            "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0130/full/full/0/default.jpg",
+            "assessment": "Renewed inspection confirms crossing strokes at the second c in Siccar&, an added c above the baseline t in taticis, and marks beneath letters. The qualified deletion and substitution markup records these visible interventions without asserting their full sequence. The left marginal annotation remains partly legible as ta followed by uncertain joined strokes; the rest remains an illegible gap. Neither a complete marginal word nor a final reconstructed corrected verse is established. These are documented source uncertainties rather than a required editorial decision."
+          },
+          "change": "Renewed source inspection; reclassified former escalation as documented uncertainty. Conservative verse markup unchanged."
+        },
+        {
+          "note_id": "Y-3.7-note-55",
+          "line": 55,
+          "target": "#Y-3.7-l55",
+          "previous_type": "review",
+          "status": "documented-uncertainty",
+          "evidence": {
+            "folio": "63v",
+            "image": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0130/full/full/0/default.jpg",
+            "assessment": "The source shows non blanda, a small supralinear e-like sign with an adjoining raised stroke, a lower insertion mark, and then non optima. The exact reading and any expansion of the raised sign remain uncertain. The low-certainty unclear addition and insertion mark are retained without supplying est or another conjectured expansion. This image limitation does not require a user to choose an unsupported reading."
+          },
+          "change": "Renewed source inspection; reclassified former escalation as documented uncertainty. Conservative verse markup unchanged."
+        }
+      ]
+    }
+  ],
+  "reviewer_agent": "/root/review_y",
+  "author_agent": "/root",
+  "line_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84
+  ],
+  "renewed_review": {
+    "date": "2026-09-10",
+    "scope": "Focused renewed source reading of former escalations; original full 84-line review retained",
+    "lines": [
+      10,
+      51,
+      55
+    ],
+    "all_other_line_evidence": "Complete independent source review of 8 September 2026, preserved above and in historical report",
+    "verse_markup_unchanged": true,
+    "original_zones_unchanged": true,
+    "images_inspected": [
+      "/tmp/amores-y37-review/63r.jpg",
+      "/tmp/amores-y37-review/63v.jpg",
+      "/tmp/amores-y37-review/63r-2.png",
+      "/tmp/amores-y37-review/detail-51.png",
+      "/tmp/amores-y37-review/marginal-51.png",
+      "/tmp/amores-y37-review/detail-55.png"
+    ]
+  },
+  "reviewed_candidate_sha256": "5bde881b48c979a0ff2582b80cbe7d270e8882e76c1037b75840c80d21141317",
+  "author_provenance": {
+    "author_agent": "/root",
+    "evidence": "Root confirmed the original task record: /root created build_tei.py at 2026-09-08 21:07:19 UTC and built witness-Y.xml before spawning review_y at 21:21:21 UTC.",
+    "reviewer_agent": "/root/review_y",
+    "reviewer_evidence": "Original independent review respStmt and report identify review_y; this same reviewer performed the focused renewed source inspection."
+  },
+  "reviewed_xml_sha256": "0592734a1023639d197973dea5dee1c21994edd8e3ba49a3b7bc9ebd0ab534c9"
 }

@@ -1,7 +1,7 @@
 {
   "witness": "P",
   "poem": "3.7",
-  "date": "2026-09-08",
+  "date": "2026-09-10",
   "reviewer": "OpenAI Codex independent review_y agent",
   "review_type": "independent-second-agent-image-and-encoding-review",
   "human_approved": false,
@@ -35,14 +35,15 @@
     ]
   },
   "counts": {
-    "documented-uncertainty": 8,
-    "escalate": 2,
-    "resolved": 5
+    "resolved": 5,
+    "documented-uncertainty": 10,
+    "escalate": 0
   },
   "previous_review_note_count": 4,
   "previous_review_note_dispositions": {
-    "documented-uncertainty": 2,
-    "escalate": 2
+    "resolved": 0,
+    "documented-uncertainty": 4,
+    "escalate": 0
   },
   "notes": [
     {
@@ -100,14 +101,14 @@
     {
       "note_id": "P-3.7-note-23",
       "line": 23,
-      "status": "escalate",
+      "status": "documented-uncertainty",
       "previous_type": "review",
       "evidence": {
         "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f91/full/full/0/native.jpg",
         "page_position": "right",
-        "assessment": "The added h after c is visible, but the baseline sequence and the small higher marks before candida remain difficult. The provisional lidetis has not been normalized to an expected name and numeral. The exact letters, possible second supralinear intervention, and word division remain a consequential unresolved cluster."
+        "assessment": "The added h after c is visible. The baseline sequence after c and the smaller higher marks before candida remain difficult to distinguish; lidetis is retained as a provisional unclear group, with uncertain word division. The image does not securely establish a second supralinear intervention or an expanded name-and-numeral reading. These limits are documented without reconstructing the missing certainty or requiring a user decision."
       },
-      "change": "Independently reviewed note and recorded its evidence-based disposition.",
+      "change": "Renewed source inspection; reclassified former escalation as documented uncertainty. Conservative verse markup unchanged.",
       "target": "#P-3.7-l23"
     },
     {
@@ -126,14 +127,14 @@
     {
       "note_id": "P-3.7-note-36",
       "line": 36,
-      "status": "escalate",
+      "status": "documented-uncertainty",
       "previous_type": "review",
       "evidence": {
         "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f91/full/full/0/native.jpg",
         "page_position": "right",
-        "assessment": "The enlarged line supports a qualified beginning Forsitan impatiens, followed by sit and latus; the final recognizable group is meum. This replaces unsupported first-pass Cor stupet iners sic lassi demtam. The intervening i-like stroke and darker joined signs remain partly illegible and are not silently reconstructed as a complete phrase. The right-margin iis-like mark is retained separately. A secure complete reading remains unresolved."
+        "assessment": "Renewed inspection supports the qualified partial reading Forsitan impatiens, followed by sit, uncertain latus, a partly illegible group beginning with an i-like stroke, and uncertain meum. The darker joined signs do not establish a secure complete phrase. The right-margin iis-like mark remains separately uncertain, with no asserted relationship to the baseline. The existing unclear elements and illegible gap retain this image limitation; a complete reconstructed reading is not required for the source transcription."
       },
-      "change": "Replaced unsupported word groups with qualified partial reading and illegible gap.",
+      "change": "Renewed source inspection; reclassified former escalation as documented uncertainty. Conservative verse markup unchanged.",
       "target": "#P-3.7-l36"
     },
     {
@@ -249,6 +250,165 @@
     "unique_ids": true,
     "local_references_resolve": true
   },
-  "reviewed_xml_sha256": "fa860eb82a15ed4b68791421974f0bf6c511fcfb9c97e8c4a3ec6b22c7d83705",
-  "review_report_sha256": "bbc766fe62b373e61d56b502a152e0a006ff7c660541aa8f9cc650b110f86582"
+  "review_report_sha256": "9130fa9142f1cadd489dab312e80cdfd2d09a1d7aa4112b083749d8ad8e67667",
+  "review_history": [
+    {
+      "date": "2026-09-08",
+      "scope": "Original complete independent source pass",
+      "counts": {
+        "documented-uncertainty": 8,
+        "escalate": 2,
+        "resolved": 5
+      },
+      "previous_review_note_dispositions": {
+        "documented-uncertainty": 2,
+        "escalate": 2
+      },
+      "reviewed_xml_sha256": "fa860eb82a15ed4b68791421974f0bf6c511fcfb9c97e8c4a3ec6b22c7d83705",
+      "review_report_sha256": "bbc766fe62b373e61d56b502a152e0a006ff7c660541aa8f9cc650b110f86582",
+      "superseded_note_dispositions": [
+        {
+          "note_id": "P-3.7-note-23",
+          "line": 23,
+          "status": "documented-uncertainty",
+          "previous_type": "review",
+          "evidence": {
+            "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f91/full/full/0/native.jpg",
+            "page_position": "right",
+            "assessment": "The added h after c is visible. The baseline sequence after c and the smaller higher marks before candida remain difficult to distinguish; lidetis is retained as a provisional unclear group, with uncertain word division. The image does not securely establish a second supralinear intervention or an expanded name-and-numeral reading. These limits are documented without reconstructing the missing certainty or requiring a user decision."
+          },
+          "change": "Renewed source inspection; reclassified former escalation as documented uncertainty. Conservative verse markup unchanged.",
+          "target": "#P-3.7-l23"
+        },
+        {
+          "note_id": "P-3.7-note-36",
+          "line": 36,
+          "status": "documented-uncertainty",
+          "previous_type": "review",
+          "evidence": {
+            "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f91/full/full/0/native.jpg",
+            "page_position": "right",
+            "assessment": "Renewed inspection supports the qualified partial reading Forsitan impatiens, followed by sit, uncertain latus, a partly illegible group beginning with an i-like stroke, and uncertain meum. The darker joined signs do not establish a secure complete phrase. The right-margin iis-like mark remains separately uncertain, with no asserted relationship to the baseline. The existing unclear elements and illegible gap retain this image limitation; a complete reconstructed reading is not required for the source transcription."
+          },
+          "change": "Renewed source inspection; reclassified former escalation as documented uncertainty. Conservative verse markup unchanged.",
+          "target": "#P-3.7-l36"
+        }
+      ]
+    }
+  ],
+  "reviewer_agent": "/root/review_y",
+  "author_agent": "/root/encode_p",
+  "line_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84
+  ],
+  "renewed_review": {
+    "date": "2026-09-10",
+    "scope": "Focused renewed source reading of former escalations; original full 84-line review retained",
+    "lines": [
+      23,
+      36
+    ],
+    "all_other_line_evidence": "Complete independent source review of 8 September 2026, preserved above and in historical report",
+    "verse_markup_unchanged": true,
+    "original_zones_unchanged": true,
+    "images_inspected": [
+      "/tmp/amores-p37/f91.jpg",
+      "/tmp/amores-p37/line-23.png",
+      "/tmp/amores-p37/p23-name.png",
+      "/tmp/amores-p37/line-36.png",
+      "/tmp/amores-p37/p36-first.png",
+      "/tmp/amores-p37/p36-last.png"
+    ]
+  },
+  "reviewed_candidate_sha256": "e48cd1f55b6e2200c0537aef0db75a4fc74b39b3abd25c52080c2474ed7debc0",
+  "author_provenance": {
+    "author_agent": "/root/encode_p",
+    "evidence": "The encode_p agent confirmed original first-pass authorship directly from its preserved task history on 10 September 2026; root also confirmed the handoff to review_y.",
+    "reviewer_agent": "/root/review_y",
+    "reviewer_evidence": "Original independent review respStmt and report identify review_y; this same reviewer performed the focused renewed source inspection."
+  },
+  "reviewed_xml_sha256": "763d0a4e8f977e94337897617d84a4388e2d8720eb59487d37e0fbb9173d356f"
 }

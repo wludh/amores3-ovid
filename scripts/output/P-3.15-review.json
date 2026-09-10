@@ -1,0 +1,230 @@
+{
+  "witness": "P",
+  "poem": "3.15",
+  "date": "2026-09-10",
+  "reviewer": "OpenAI Codex independent encode_s agent",
+  "author_agent": "/root/encode_p",
+  "reviewer_agent": "/root/encode_s",
+  "review_type": "independent-second-agent-image-and-encoding-review",
+  "human_approved": false,
+  "line_coverage": {
+    "count": 8,
+    "ranges": [
+      {
+        "page": "99 left",
+        "start": 1,
+        "end": 8
+      }
+    ]
+  },
+  "line_order": [
+    "P-3.15-l1",
+    "P-3.15-l2",
+    "P-3.15-l3",
+    "P-3.15-l4",
+    "P-3.15-l5",
+    "P-3.15-l6",
+    "P-3.15-l7",
+    "P-3.15-l8"
+  ],
+  "counts": {
+    "resolved": 1,
+    "documented-uncertainty": 8,
+    "escalate": 0
+  },
+  "notes": [
+    {
+      "note_id": "P-3.15-note-1",
+      "line": 1,
+      "target": "#P-3.15-l1",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "99 left",
+        "image": "/tmp/amores-p-corpus/f99.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f99/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p315/line-001.png",
+        "assessment": "The large Q establishes the new poem below 3.14.50. The stained uere nouum uatem group and pale mater amorum remain qualified; tenerorum can be followed. The full page supports eight written rows through the final Peligna row."
+      },
+      "change": "Retained after independent source reading; evidence and final disposition documented."
+    },
+    {
+      "note_id": "P-3.15-note-2",
+      "line": 2,
+      "target": "#P-3.15-l2",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "99 left",
+        "image": "/tmp/amores-p-corpus/f99.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f99/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p315/line-002.png",
+        "assessment": "The opening Raditur hic elegis remains tentative beneath the stain and crossing marks. Ultima meta meis is supported. The actual start is modestly inset in full-page context."
+      },
+      "change": "Retained after independent source reading; evidence and final disposition documented."
+    },
+    {
+      "note_id": "P-3.15-note-3",
+      "line": 3,
+      "target": "#P-3.15-l3",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "99 left",
+        "image": "/tmp/amores-p-corpus/f99.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f99/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p315/line-003.png",
+        "assessment": "The source supports only provisional Quos ego conposui and natus aquosis around the obscured middle. No place-name can be securely recovered; the central gap remains."
+      },
+      "change": "Retained after independent source reading; evidence and final disposition documented."
+    },
+    {
+      "note_id": "P-3.15-note-4",
+      "line": 4,
+      "target": "#P-3.15-l4",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "99 left",
+        "image": "/tmp/amores-p-corpus/f99.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f99/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p315/line-004.png",
+        "assessment": "Ille ego and naso poeta mee remain tentative groups on either side of heavy obscuration. The middle is not reconstructed, and the visible start supports its inset."
+      },
+      "change": "Retained after independent source reading; evidence and final disposition documented."
+    },
+    {
+      "note_id": "P-3.15-note-5",
+      "line": 5,
+      "target": "#P-3.15-l5",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "99 left",
+        "image": "/tmp/amores-p-corpus/f99.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f99/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p315/line-005.png",
+        "assessment": "The large S and Si quid id est are visible. Usque a proauis remains a qualified reading; the pale ending is not defensibly recoverable. No additional text is supplied."
+      },
+      "change": "Retained after independent source reading; evidence and final disposition documented."
+    },
+    {
+      "note_id": "P-3.15-note-6",
+      "line": 6,
+      "target": "#P-3.15-l6",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "99 left",
+        "image": "/tmp/amores-p-corpus/f99.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f99/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p315/line-006.png",
+        "assessment": "Non is visible before the obscured span. Turbine remains tentative; factus eques is supported. The source inset is visible despite damage after the opening."
+      },
+      "change": "Retained after independent source reading; evidence and final disposition documented."
+    },
+    {
+      "note_id": "P-3.15-note-7",
+      "line": 7,
+      "target": "#P-3.15-l7",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "99 left",
+        "image": "/tmp/amores-p-corpus/f99.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f99/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p315/line-007.png",
+        "assessment": "The photograph supports uirgilio gaudet. Mantua and uerona catullo remain weaker and qualified; no normalization of those source spellings is made."
+      },
+      "change": "Retained after independent source reading; evidence and final disposition documented."
+    },
+    {
+      "note_id": "P-3.15-note-8",
+      "line": 8,
+      "target": "#P-3.15-l8",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "99 left",
+        "image": "/tmp/amores-p-corpus/f99.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f99/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p315/line-008.png",
+        "assessment": "The eighth and final verse is very pale; Peligna dicar gloria gentis ego remains wholly qualified. The later bottom inscription has clear Desunt aliquot and a compact uersus ending whose final strokes do not securely distinguish ordinary small letters from contraction; its local uncertainty is retained. Full image 99 right contains later scholarly notes, image 100 French prose and blank binding material, and image 101 the FIN card. No further continuous Amores verse text is present. Chatelain plate XCI notice 1 independently records endpoint 3.15.8.",
+        "following_images": [
+          "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f100/full/full/0/native.jpg",
+          "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f101/full/full/0/native.jpg"
+        ],
+        "manuscript_description": "https://libsysdigi.library.illinois.edu/ilharvest/OtherCDM/chatem0001paldes/chatem0001paldes_v00002/chatem0001paldes_v00002_opt.pdf"
+      },
+      "change": "Retained after independent source reading; evidence and final disposition documented."
+    },
+    {
+      "note_id": "P-3.15-note-9",
+      "line": 9,
+      "target": "#P-3.15-terminal-gap",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "99 left",
+        "image": "/tmp/amores-p-corpus/f99.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f99/full/full/0/native.jpg",
+        "crop": "/tmp/amores-p315/line-009.png",
+        "assessment": "The twelve original rectangles 9–20 repeatedly encompass the bottom inscription and surrounding blank space; they do not identify twelve further verse rows. The actual eight-row endpoint, following photographed material through the manifest final canvas 101, and Chatelain’s explicit 3.15.8 endpoint independently establish canonical absence 9–20. Original rectangles remain unchanged and unused; no replacement zones, missing wording, original leaf count, cause or date of loss are invented.",
+        "following_images": [
+          "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f100/full/full/0/native.jpg",
+          "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f101/full/full/0/native.jpg"
+        ],
+        "manuscript_description": "https://libsysdigi.library.illinois.edu/ilharvest/OtherCDM/chatem0001paldes/chatem0001paldes_v00002/chatem0001paldes_v00002_opt.pdf"
+      },
+      "change": "Retained after independent source reading; evidence and final disposition documented."
+    }
+  ],
+  "absent_lines": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "absence_evidence": {
+    "assessment": "The twelve original rectangles 9–20 repeatedly encompass the bottom inscription and surrounding blank space; they do not identify twelve further verse rows. The actual eight-row endpoint, following photographed material through the manifest final canvas 101, and Chatelain’s explicit 3.15.8 endpoint independently establish canonical absence 9–20. Original rectangles remain unchanged and unused; no replacement zones, missing wording, original leaf count, cause or date of loss are invented.",
+    "catalogue": {
+      "url": "https://libsysdigi.library.illinois.edu/ilharvest/OtherCDM/chatem0001paldes/chatem0001paldes_v00002/chatem0001paldes_v00002_opt.pdf",
+      "bibliography": "Émile Chatelain, Paléographie des classiques latins, deuxième partie (1894–1900), plate XCI, notice1, printed introductory page II,1 (PDF fifth page, zero-based4).",
+      "local_file": "/tmp/amores-p312-review/chatelain.pdf",
+      "sha256": "fb3b153a93021eba0ca1491de11c3f52d35ea1f255fc254a842b7d637b4f1833",
+      "endpoint": "3.15.8",
+      "assessment": "The directly inspected plate XCI notice explicitly ends the surviving Amores sequence at III,15,8, corroborating the photographed terminal boundary."
+    },
+    "image_evidence": [
+      {
+        "viewer_index": 99,
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f99/full/full/0/native.jpg",
+        "image": "/tmp/amores-p-corpus/f99.jpg",
+        "sha256": "398820f7d0162dfcfe9fff4582ce36cf9d7e72ac21afd6e0a35ce23a70250a19"
+      },
+      {
+        "viewer_index": 100,
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f100/full/full/0/native.jpg",
+        "image": "/tmp/amores-p-corpus/f100.jpg",
+        "sha256": "29c2a41a6057abd9c4ff885db2f22faf1dfcdf44f933e22f9fea1aabb32c1cf1"
+      },
+      {
+        "viewer_index": 101,
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f101/full/full/0/native.jpg",
+        "image": "/tmp/amores-p-corpus/f101.jpg",
+        "sha256": "b4886d8eef7cf5a64777522e8e20c472f4f52af93ee13b4755b8bb09c80adb5c"
+      }
+    ]
+  },
+  "reviewed_candidate_sha256": "9a3e695c20b4bf23c177f874e15bf995ff53ad7a0b04cb89957f00227b24c4fe",
+  "review_report_sha256": "50527161bea95993795e6f949cb97fae94e8b94d28770aa3f3ac1ee92c1fa9d9",
+  "reviewed_xml_sha256": "f35722ec53f0ced7d8e90b28ae9b3f0d4acec2864f3d4b18df258729f7e92465"
+}

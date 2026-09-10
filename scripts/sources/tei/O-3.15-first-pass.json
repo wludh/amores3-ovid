@@ -1,0 +1,21 @@
+{
+  "headings":{"1":"XV."},
+  "page_headers":{"116":"AMORUM","117":"III, XIIII, 21 — XV, 20."},
+  "indented_lines":[2,4,6,8,10,12,14,16,18,20],
+  "marks":{"9":[{"position":"before","place":"left","text":"*"}]},
+  "notes":{
+    "1":"The source heading is XV. Both full pages show the explicitly recorded alternating insets. A colon follows Amorum.",
+    "3":"The source spelling is conposui, with the proper name Paeligni.",
+    "4":"The complete printed verse is enclosed in parentheses and has no additional terminal punctuation.",
+    "5":"The source prints Siquid as one word and proavis in full.",
+    "7":"The source has a comma after Vergilio and a semicolon after Catullo.",
+    "9":"A printed asterisk precedes Quam; its function is left unspecified. The verb is coegerat, not replaced from another witness.",
+    "13":"The printed quotation is interrupted by dicat outside the quotation. Both pairs of quotation marks across13–14 are represented schematically with curly single quotes.",
+    "14":"The source word is Quantulacumque. The full stop follows voco before the closing quotation mark.",
+    "15":"The source prints Amathusia culti, retained as read in the enlarged image.",
+    "17":"The printed proper name is Lyaeus, followed by a colon.",
+    "18":"The printed contraction Pulsandast is retained without expansion.",
+    "19":"The source spelling is Inbelles. Commas follow elegi, Musa and valete.",
+    "20":"The poem ends with an exclamation mark after opus. The full source page has a short horizontal closing rule and blank space below the final verse; no further poem text follows on this page."
+  }
+}

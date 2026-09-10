@@ -8,6 +8,7 @@ import subprocess
 import tempfile
 import xml.etree.ElementTree as ET
 import argparse
+import re
 from urllib.parse import unquote, urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -35,6 +36,12 @@ def image_identity(url):
     return parsed.netloc.removeprefix('www.') + parsed.path.split('/full/')[0]
 
 
+def surface_navigation_from_ledger(ledger):
+    """Export page-only navigation after verify_image_provenance has checked it."""
+    return [{'lineId': str(item['line']), 'page': item['viewer_page']}
+            for item in ledger.get('unlocated_lines', [])]
+
+
 def verify_image_provenance(root, witness, poem, lines, by_id, ledger):
     annotations = json.loads((ROOT / 'docs/data/annotations.json').read_text(encoding='utf-8-sig'))
     manifest = json.loads((ROOT / f'docs/data/iiif-manifests/witness-{witness}.json').read_text())
@@ -46,9 +53,37 @@ def verify_image_provenance(root, witness, poem, lines, by_id, ledger):
     corrections = {str(c['line']): c for c in ledger.get('zone_corrections', [])}
     assert len(corrections) == len(ledger.get('zone_corrections', [])), 'Duplicate zone correction'
     assert set(corrections) <= {line.get('n') for line in lines}, 'Zone correction lacks a verse'
+    unlocated = {str(item['line']): item for item in ledger.get('unlocated_lines', [])}
+    assert len(unlocated) == len(ledger.get('unlocated_lines', [])), 'Duplicate unlocated position'
+    assert set(unlocated) <= {line.get('n') for line in lines}, 'Unlocated position lacks an alignment container'
+    assert not set(unlocated) & set(corrections), 'Unlocated position cannot also claim a corrected rectangle'
     navigation_overrides = []
+    preserved_numbers = set()
+    checked_zones = set()
     for line in lines:
-        zone = by_id[line.get('facs')[1:]]
+        zone = by_id.get(line.get('facs', '')[1:])
+        assert zone is not None, 'Missing verse facsimile target'
+        if line.get('n') in unlocated:
+            item = unlocated[line.get('n')]
+            assert item.get('status') == 'illegible_unlocated' and item.get('evidence'), 'Unlocated position lacks independent evidence'
+            assert item.get('target') == line.get(ID) and item.get('facs') == line.get('facs'), 'Unlocated position differs from reviewed target'
+            assert zone.tag == '{%s}surface' % NS, 'Unlocated position must link to a whole surface'
+            assert not any(a.get('witness') == witness and a.get('poem') == poem and str(a.get('lineId')) == line.get('n') for a in annotations), 'Unlocated position cannot bypass original annotation provenance'
+            children = list(line)
+            assert len(children) == 1 and children[0].tag == '{%s}gap' % NS, 'Unlocated position must contain only an illegibility gap'
+            gap = children[0]
+            assert not (line.text or '').strip() and not (gap.tail or '').strip(), 'Unlocated position cannot supply readable verse text'
+            assert gap.get('reason') == 'illegible' and gap.get('unit') == 'line' and gap.get('quantity') == '1', 'Unlocated position must preserve one illegible alignment position'
+            desc = gap.find('{%s}desc' % NS)
+            assert desc is not None and ''.join(desc.itertext()).strip(), 'Unlocated position needs an explanation'
+            note = by_id.get(item.get('note_id'))
+            assert note is not None and note.tag == '{%s}note' % NS and note.get('type') == 'uncertainty' and line.get(ID) in note.get('target', '').replace('#', '').split(), 'Unlocated position needs a targeted uncertainty note'
+            graphic = zone.find('{%s}graphic' % NS)
+            assert graphic is not None and item.get('source_graphic') and image_identity(graphic.get('url')) == image_identity(item['source_graphic']), 'Unlocated source image differs from review'
+            pages = [i + 1 for i, canvas in enumerate(canvases) if canvas_image(canvas) == image_identity(item['source_graphic'])]
+            assert len(pages) == 1 and item.get('viewer_page') == pages[0], 'Unlocated source page differs from manifest'
+            continue
+        assert zone.tag == '{%s}zone' % NS, 'Surface-level verse links require independent unlocated evidence'
         correction = corrections.get(line.get('n'))
         if correction:
             assert correction.get('reason') and correction.get('evidence'), 'Zone correction lacks independent evidence'
@@ -93,7 +128,74 @@ def verify_image_provenance(root, witness, poem, lines, by_id, ledger):
                 resource = canvas['items'][0]['items'][0]['body']
             images.append(image_identity(resource.get('id') or resource['@id']))
         assert image_identity(graphic.get('url')) in images, f'Line {line.get("n")}: source image does not match the annotation canvas'
+        preserved_numbers.add(line.get('n'))
+        checked_zones.add(zone.get(ID))
+        if correction:
+            checked_zones.add(correction['corrected_facs'][1:])
+    manifest_images = {canvas_image(canvas) for canvas in canvases}
+    for surface in root.iter('{%s}surface' % NS):
+        graphics = list(surface.iter('{%s}graphic' % NS))
+        assert graphics, 'Evidence surface lacks a source image'
+        assert all(image_identity(g.get('url', '')) in manifest_images for g in graphics), 'Evidence surface image is outside the witness manifest'
+    original_annotations = [a for a in annotations if a.get('witness') == witness and a.get('poem') == poem]
+    for zone in root.iter('{%s}zone' % NS):
+        if zone.get(ID) in checked_zones:
+            continue
+        # Unused original rectangles remain evidence even where their former
+        # verse assignments proved absent. Their stable IDs preserve that link.
+        match = re.search(r'-zone-(\d+)$', zone.get(ID, ''))
+        assert match, 'Unused zone lacks a stable original annotation identity'
+        number = match.group(1)
+        surface = parents[zone]
+        while surface.tag != '{%s}surface' % NS:
+            surface = parents[surface]
+        graphic = surface.find('{%s}graphic' % NS)
+        bounds = tuple(float(zone.get(k)) for k in ('ulx', 'uly', 'lrx', 'lry'))
+        matching = [a for a in original_annotations if str(a['lineId']) == number
+                    and (a['x'], a['y'], a['x'] + a['width'], a['y'] + a['height']) == bounds
+                    and canvas_image(canvases[a['page'] - 1]) == image_identity(graphic.get('url'))]
+        assert matching, f'Unused zone {number}: original annotation provenance changed'
+        preserved_numbers.add(number)
+    expected_originals = {str(a['lineId']) for a in original_annotations}
+    assert expected_originals <= preserved_numbers, 'Missing preserved original annotation zone'
     return navigation_overrides
+
+
+def verify_absent_spans(root, lines, canonical, absent, ledger):
+    """Bind every absence gap to its actual place in the source sequence."""
+    elements = list(root.iter())
+    positions = {element: index for index, element in enumerate(elements)}
+    parents = {child: parent for parent in elements for child in parent}
+    gaps = [e for e in elements if e.tag == '{%s}gap' % NS and e.get('reason') == 'not-transmitted']
+    represented = {int(line.get('n')) for line in lines}
+    covered = set()
+    for gap in gaps:
+        ancestor = parents.get(gap)
+        while ancestor is not None and ancestor.tag != '{%s}div' % NS:
+            assert ancestor.tag != '{%s}l' % NS, 'Canonical absence gap cannot sit inside a represented verse'
+            ancestor = parents.get(ancestor)
+        assert ancestor is not None and ancestor.get('type') == 'poem', 'Canonical absence gap must belong to the poem'
+        assert gap.get('unit') == 'line', 'Canonical absence must use line units'
+        quantity = int(gap.get('quantity', '0'))
+        assert quantity > 0, 'Absent span needs a positive extent'
+        desc = gap.find('{%s}desc' % NS)
+        assert desc is not None and ''.join(desc.itertext()).strip(), 'Missing source-absence explanation'
+        before = [line for line in lines if positions[line] < positions[gap]]
+        after = [line for line in lines if positions[line] > positions[gap]]
+        start = int(before[-1].get('n')) + 1 if before else int(after[0].get('n')) - quantity if after else 1
+        end = start + quantity - 1
+        if gap.get('n'):
+            explicit = re.fullmatch(r'(\d+)(?:[–-](\d+))?', gap.get('n'))
+            assert explicit and (int(explicit[1]), int(explicit[2] or explicit[1])) == (start, end), 'Absent span label differs from its source position'
+        span = set(range(start, end + 1))
+        assert span <= canonical and span <= absent and not span & represented, 'Absent span differs from canonical absence inventory'
+        assert not covered & span, 'Overlapping absent spans'
+        if after:
+            assert int(after[0].get('n')) == end + 1, 'Absent span does not meet the next surviving verse'
+        covered.update(span)
+    assert covered == absent, 'Absent spans do not cover the complete absence inventory'
+    if absent:
+        assert set(ledger.get('absent_lines', [])) == absent and ledger.get('absence_evidence'), 'Absence needs independent source evidence'
 
 
 def validate(witness, poem='3.7', record=None):
@@ -106,10 +208,9 @@ def validate(witness, poem='3.7', record=None):
     assert ledger['reviewed_xml_sha256'] == xml_digest(root), 'XML changed since independent review; re-review required'
     assert ledger['review_report_sha256'] == hashlib.sha256(report.read_bytes()).hexdigest(), 'Review report changed since seal'
     assert ledger['reviewer'] and ledger['witness'] == witness and ledger['poem'] == poem
-    if poem != '3.7':
-        assert ledger.get('author_agent') and ledger.get('reviewer_agent') and ledger['author_agent'] != ledger['reviewer_agent'], 'Review must be by a different source-reading agent'
-        assert ledger.get('review_type', '').startswith('independent-second'), 'Missing independent source review'
-        assert ledger.get('reviewed_candidate_sha256') == hashlib.sha256((ROOT / 'docs' / record['path']).read_bytes()).hexdigest(), 'Integrated candidate differs from the independent review'
+    assert ledger.get('author_agent') and ledger.get('reviewer_agent') and ledger['author_agent'] != ledger['reviewer_agent'], 'Review must be by a different source-reading agent'
+    assert ledger.get('review_type', '').startswith('independent-second'), 'Missing independent source review'
+    assert ledger.get('reviewed_candidate_sha256') == hashlib.sha256((ROOT / 'docs' / record['path']).read_bytes()).hexdigest(), 'Integrated candidate differs from the independent review'
     with tempfile.NamedTemporaryFile(suffix='.xml') as tmp:
         tmp.write(ET.tostring(root, encoding='utf-8', xml_declaration=True)); tmp.flush()
         result = subprocess.run(['xmllint', '--noout', '--relaxng', str(ROOT / 'docs/schema/tei_all-4.12.0.rng'), tmp.name], capture_output=True, text=True)
@@ -123,6 +224,7 @@ def validate(witness, poem='3.7', record=None):
             for ref in el.get(attr, '').split():
                 assert not ref.startswith('#') or ref[1:] in by_id, f'Broken {attr}: {ref}'
     lines = list(root.iter('{%s}l' % NS))
+    assert all('\n' not in ''.join(line.itertext()) for line in lines), 'Formatting newline inside verse mixed content'
     canonical = set(range(1, record['canonical_line_count'] + 1))
     absent = set(record['absent_lines'])
     assert absent <= canonical, 'Invalid absent-line inventory'
@@ -142,16 +244,13 @@ def validate(witness, poem='3.7', record=None):
     if witness != 'LL':
         for line in lines:
             zone = by_id.get(line.get('facs', '')[1:])
-            assert zone is not None and zone.tag == '{%s}zone' % NS, 'Missing verse image zone'
-            assert float(zone.get('lrx')) > float(zone.get('ulx')) and float(zone.get('lry')) > float(zone.get('uly')), 'Invalid zone geometry'
+            assert zone is not None, 'Missing verse image target'
+            if zone.tag == '{%s}zone' % NS:
+                assert float(zone.get('lrx')) > float(zone.get('ulx')) and float(zone.get('lry')) > float(zone.get('uly')), 'Invalid zone geometry'
         overrides = verify_image_provenance(root, witness, poem, lines, by_id, ledger)
         assert record.get('navigation_overrides', []) == overrides, 'Published navigation differs from reviewed TEI zones'
-    if absent:
-        gaps = [g for g in root.iter('{%s}gap' % NS) if g.get('unit') == 'line' and g.get('reason') == 'not-transmitted']
-        assert sum(int(g.get('quantity', '0')) for g in gaps) == len(absent), 'Missing explicit absent extent'
-        assert all(g.find('{%s}desc' % NS) is not None for g in gaps), 'Missing source-absence explanation'
-        if poem != '3.7':
-            assert set(ledger.get('absent_lines', [])) == absent and ledger.get('absence_evidence'), 'Absence needs independent source evidence'
+        assert record.get('surface_navigation', []) == surface_navigation_from_ledger(ledger), 'Published page-only navigation differs from independent review'
+    verify_absent_spans(root, lines, canonical, absent, ledger)
     notes = [e for e in elements if e.tag == '{%s}note' % NS and e.get('type') in ('review', 'uncertainty', 'observation')]
     dispositions = {n['note_id']: n for n in ledger['notes']}
     assert len(dispositions) == len(ledger['notes']), 'Duplicate review dispositions'
@@ -182,16 +281,18 @@ def main():
         assert record['status'] in ('pending', 'first-pass', 'in-review', 'reviewed'), 'Unknown review state'
         if record['status'] != 'reviewed':
             incomplete.append(f'{w} {poem}')
-            rows.append(f'| {poem} | {w} | {record["status"]} | — | — |')
+            rows.append(f'| {poem} | {w} | {record["status"]} | — | — | — | — |')
             continue
         count, counts, remaining = validate(w, poem, record)
-        rows.append(f'| {poem} | {w} | reviewed | {count} | {counts["escalate"]} |')
+        unlocated_count = len(json.loads((ROOT / record['review_path']).read_text()).get('unlocated_lines', []))
+        rows.append(f'| {poem} | {w} | reviewed | {count} | {len(record["absent_lines"])} | {unlocated_count} | {counts["escalate"]} |')
         questions.extend(f'- **{w} {poem}, line {n}:** {text}' for n, text in remaining)
-        print(f'{w} {poem}: schema, coverage, references, review dispositions and seal passed ({count} verses)', flush=True)
+        print(f'{w} {poem}: schema, coverage, references, review dispositions and seal passed ({count} verse positions; {unlocated_count} unlocated)', flush=True)
     output = '# Amores III — corpus audit status\n\nGenerated by `npm run validate:tei`. Scope: all 15 poems × all five witnesses.\n\n'
     output += f'**{75-len(incomplete)} / 75 slots independently reviewed and structurally verified; {len(incomplete)} incomplete.** Human scholarly approval is not implied.\n\n'
-    output += '| Poem | Witness | State | Extant verses reviewed | Editorial questions |\n| --- | --- | --- | ---: | ---: |\n' + '\n'.join(rows)
-    output += '\n\n## Remaining editorial questions\n\n' + '\n'.join(questions) + '\n'
+    output += 'Represented verse positions may be wholly illegible; their count does not imply recovered wording. Individually unlocated positions and source-confirmed absent spans are distinguished below.\n\n'
+    output += '| Poem | Witness | State | Represented verse positions | Absent positions | Unlocated positions | Editorial questions |\n| --- | --- | --- | ---: | ---: | ---: | ---: |\n' + '\n'.join(rows)
+    output += '\n\n## Remaining editorial questions\n\n' + ('\n'.join(questions) or 'None. Image uncertainty remains documented in the reviewed TEI and ledgers.') + '\n'
     (ROOT / 'scripts/output/corpus-review-status.md').write_text(output)
     print(f'Corpus coverage: {75-len(incomplete)}/75 reviewed; {len(incomplete)} incomplete.')
     if args.require_complete and incomplete:

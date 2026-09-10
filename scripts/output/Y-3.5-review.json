@@ -1,0 +1,639 @@
+{
+  "witness": "Y",
+  "poem": "3.5",
+  "date": "2026-09-09",
+  "reviewer": "OpenAI Codex independent encode_s agent",
+  "author_agent": "/root/review_y",
+  "reviewer_agent": "/root/encode_s",
+  "review_type": "independent-second-agent-image-and-encoding-review",
+  "human_approved": false,
+  "line_coverage": {
+    "count": 46,
+    "ranges": [
+      {
+        "page": "61r",
+        "start": 1,
+        "end": 16
+      },
+      {
+        "page": "61v",
+        "start": 17,
+        "end": 46
+      }
+    ]
+  },
+  "line_order": [
+    "Y-3.5-l1",
+    "Y-3.5-l2",
+    "Y-3.5-l3",
+    "Y-3.5-l4",
+    "Y-3.5-l5",
+    "Y-3.5-l6",
+    "Y-3.5-l7",
+    "Y-3.5-l8",
+    "Y-3.5-l9",
+    "Y-3.5-l10",
+    "Y-3.5-l11",
+    "Y-3.5-l12",
+    "Y-3.5-l13",
+    "Y-3.5-l14",
+    "Y-3.5-l15",
+    "Y-3.5-l16",
+    "Y-3.5-l17",
+    "Y-3.5-l18",
+    "Y-3.5-l19",
+    "Y-3.5-l20",
+    "Y-3.5-l21",
+    "Y-3.5-l22",
+    "Y-3.5-l23",
+    "Y-3.5-l24",
+    "Y-3.5-l25",
+    "Y-3.5-l26",
+    "Y-3.5-l27",
+    "Y-3.5-l28",
+    "Y-3.5-l29",
+    "Y-3.5-l30",
+    "Y-3.5-l31",
+    "Y-3.5-l32",
+    "Y-3.5-l33",
+    "Y-3.5-l34",
+    "Y-3.5-l35",
+    "Y-3.5-l36",
+    "Y-3.5-l37",
+    "Y-3.5-l38",
+    "Y-3.5-l39",
+    "Y-3.5-l40",
+    "Y-3.5-l41",
+    "Y-3.5-l42",
+    "Y-3.5-l43",
+    "Y-3.5-l44",
+    "Y-3.5-l45",
+    "Y-3.5-l46"
+  ],
+  "counts": {
+    "resolved": 27,
+    "documented-uncertainty": 10,
+    "escalate": 0
+  },
+  "previous_review_note_count": 0,
+  "notes": [
+    {
+      "note_id": "Y-3.5-note-1",
+      "line": 1,
+      "target": "#Y-3.5-l1",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "61r",
+        "assessment": "A large decorated N begins the poem and extends beside the first couplet. The source reading submissit is retained. Et ligatures throughout are represented schematically with explicit expansions.",
+        "image": "/tmp/amores-y31-33/125.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0125/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.5-01.png"
+      },
+      "change": "Confirmed or corrected the visible source feature described in the evidence."
+    },
+    {
+      "note_id": "Y-3.5-note-2",
+      "line": 2,
+      "target": "#Y-3.5-l2",
+      "previous_type": "second-pass-addition",
+      "status": "resolved",
+      "evidence": {
+        "page": "61r",
+        "assessment": "The complete source verse was checked independently. Its visible terminal point, omitted in the first pass, is now retained.",
+        "image": "/tmp/amores-y31-33/125.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0125/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.5-02.png"
+      },
+      "change": "Confirmed or corrected the visible source feature described in the evidence."
+    },
+    {
+      "note_id": "Y-3.5-note-3",
+      "line": 3,
+      "target": "#Y-3.5-l3",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "61r",
+        "assessment": "The b of creberrimus, initial i of ilice and u of lucus are darker. All remain legible; no earlier letters or separate hands are inferred.",
+        "image": "/tmp/amores-y31-33/125.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0125/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.5-03.png"
+      },
+      "change": "Confirmed or corrected the visible source feature described in the evidence."
+    },
+    {
+      "note_id": "Y-3.5-note-4",
+      "line": 4,
+      "target": "#Y-3.5-l4",
+      "previous_type": "second-pass-addition",
+      "status": "resolved",
+      "evidence": {
+        "page": "61r",
+        "assessment": "The complete source verse was checked independently. Its visible terminal point, omitted in the first pass, is now retained.",
+        "image": "/tmp/amores-y31-33/125.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0125/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.5-04.png"
+      },
+      "change": "Confirmed or corrected the visible source feature described in the evidence."
+    },
+    {
+      "note_id": "Y-3.5-note-5",
+      "line": 5,
+      "target": "#Y-3.5-l5",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "61r",
+        "assessment": "The eo ending of gramineo is darker; the word remains legible.",
+        "image": "/tmp/amores-y31-33/125.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0125/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.5-05.png"
+      },
+      "change": "Confirmed or corrected the visible source feature described in the evidence."
+    },
+    {
+      "note_id": "Y-3.5-note-6",
+      "line": 6,
+      "target": "#Y-3.5-l6",
+      "previous_type": "second-pass-addition",
+      "status": "resolved",
+      "evidence": {
+        "page": "61r",
+        "assessment": "The complete source verse was checked independently. Its visible terminal point, omitted in the first pass, is now retained.",
+        "image": "/tmp/amores-y31-33/125.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0125/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.5-06.png"
+      },
+      "change": "Confirmed or corrected the visible source feature described in the evidence."
+    },
+    {
+      "note_id": "Y-3.5-note-8",
+      "line": 8,
+      "target": "#Y-3.5-l8",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "61r",
+        "assessment": "A small brown e-like loop lies between arbor and the dark a-like ending. Both are retained locally as uncertain, giving tentative arborea rather than omitting that intervening trace. The initial s of sed is dark. No erased earlier reading is reconstructed.",
+        "image": "/tmp/amores-y31-33/125.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0125/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.5-08.png"
+      },
+      "change": "Retained local uncertainty after enlarged source inspection; no unsupported earlier reading or human task."
+    },
+    {
+      "note_id": "Y-3.5-note-10",
+      "line": 10,
+      "target": "#Y-3.5-l10",
+      "previous_type": "second-pass-addition",
+      "status": "resolved",
+      "evidence": {
+        "page": "61r",
+        "assessment": "The complete source verse was checked independently. Its visible terminal point, omitted in the first pass, is now retained.",
+        "image": "/tmp/amores-y31-33/125.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0125/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.5-10.png"
+      },
+      "change": "Confirmed or corrected the visible source feature described in the evidence."
+    },
+    {
+      "note_id": "Y-3.5-note-11",
+      "line": 11,
+      "target": "#Y-3.5-l11",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "61r",
+        "assessment": "The source reads tunc cum, with a visible n before c, rather than tum cum.",
+        "image": "/tmp/amores-y31-33/125.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0125/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.5-11.png"
+      },
+      "change": "Confirmed or corrected the visible source feature described in the evidence."
+    },
+    {
+      "note_id": "Y-3.5-note-12",
+      "line": 12,
+      "target": "#Y-3.5-l12",
+      "previous_type": "second-pass-addition",
+      "status": "resolved",
+      "evidence": {
+        "page": "61r",
+        "assessment": "The complete source verse was checked independently. Its visible terminal point, omitted in the first pass, is now retained.",
+        "image": "/tmp/amores-y31-33/125.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0125/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.5-12.png"
+      },
+      "change": "Confirmed or corrected the visible source feature described in the evidence."
+    },
+    {
+      "note_id": "Y-3.5-note-13",
+      "line": 13,
+      "target": "#Y-3.5-l13",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "61r",
+        "assessment": "The baseline reads sumpsit; spumis and three dots appear in the right margin. Both inscriptions remain, without assuming an exact substitution or cancellation sequence. The stridentibus ending and the final et ligature of albet are explicitly encoded.",
+        "image": "/tmp/amores-y31-33/125.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0125/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.5-13.png"
+      },
+      "change": "Retained local uncertainty after enlarged source inspection; no unsupported earlier reading or human task."
+    },
+    {
+      "note_id": "Y-3.5-note-16",
+      "line": 16,
+      "target": "#Y-3.5-l16",
+      "previous_type": "uncertainty",
+      "status": "resolved",
+      "evidence": {
+        "page": "61r",
+        "assessment": "The m after sua is visibly crossed through horizontally and is encoded as deletion. The initial C is dark; the fine initial h of humum is legible on enlargement. The source retains tenerum and pressit. No text is supplied from another witness. The visible terminal point is retained.",
+        "image": "/tmp/amores-y31-33/125.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0125/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.5-16.png"
+      },
+      "change": "Confirmed or corrected the visible source feature described in the evidence."
+    },
+    {
+      "note_id": "Y-3.5-note-17",
+      "line": 17,
+      "target": "#Y-3.5-l17",
+      "previous_type": "second-pass-addition",
+      "status": "resolved",
+      "evidence": {
+        "page": "61v",
+        "assessment": "The final et of iacet is a ligature, followed by a separate et sign; both are encoded explicitly.",
+        "image": "/tmp/amores-y31-33/126.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0126/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.5-17.png"
+      },
+      "change": "Confirmed or corrected the visible source feature described in the evidence."
+    },
+    {
+      "note_id": "Y-3.5-note-18",
+      "line": 18,
+      "target": "#Y-3.5-l18",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "61v",
+        "assessment": "The source word after iterum reads facto, which is preserved without normalization.",
+        "image": "/tmp/amores-y31-33/126.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0126/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.5-18.png"
+      },
+      "change": "Confirmed or corrected the visible source feature described in the evidence."
+    },
+    {
+      "note_id": "Y-3.5-note-19",
+      "line": 19,
+      "target": "#Y-3.5-l19",
+      "previous_type": "observation",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "61v",
+        "assessment": "The complete verse reads Visus erat somno uires adimente ferenti. Two dots stand in the left margin at this verse level; their function is not established.",
+        "image": "/tmp/amores-y31-33/126.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0126/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.5-19.png"
+      },
+      "change": "Retained local uncertainty after enlarged source inspection; no unsupported earlier reading or human task."
+    },
+    {
+      "note_id": "Y-3.5-note-20",
+      "line": 20,
+      "target": "#Y-3.5-l20",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "61v",
+        "assessment": "The word is disposuisse in the photograph; no normalized substitute is used. The visible terminal point is retained.",
+        "image": "/tmp/amores-y31-33/126.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0126/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.5-20.png"
+      },
+      "change": "Confirmed or corrected the visible source feature described in the evidence."
+    },
+    {
+      "note_id": "Y-3.5-note-21",
+      "line": 21,
+      "target": "#Y-3.5-l21",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "61v",
+        "assessment": "The final a of delapsa is darker. The source remains legible.",
+        "image": "/tmp/amores-y31-33/126.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0126/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.5-21.png"
+      },
+      "change": "Confirmed or corrected the visible source feature described in the evidence."
+    },
+    {
+      "note_id": "Y-3.5-note-22",
+      "line": 22,
+      "target": "#Y-3.5-l22",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "61v",
+        "assessment": "After garrula a brown t-like ending is crossed by a dark vertical stroke and has a dark point below. It is retained as a canceled uncertain t, rather than rendered as modern exclamation punctuation. The following word reads sedet. The pair of oblique strokes in the right margin remains without an assigned function.",
+        "image": "/tmp/amores-y31-33/126.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0126/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.5-22.png"
+      },
+      "change": "Retained local uncertainty after enlarged source inspection; no unsupported earlier reading or human task."
+    },
+    {
+      "note_id": "Y-3.5-note-23",
+      "line": 23,
+      "target": "#Y-3.5-l23",
+      "previous_type": "observation",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "61v",
+        "assessment": "The source clearly reads uobis niueo. Three dots occur in the left margin at this verse level; they are recorded without asserting a textual or correction function.",
+        "image": "/tmp/amores-y31-33/126.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0126/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.5-23.png"
+      },
+      "change": "Retained local uncertainty after enlarged source inspection; no unsupported earlier reading or human task."
+    },
+    {
+      "note_id": "Y-3.5-note-24",
+      "line": 24,
+      "target": "#Y-3.5-l24",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "61v",
+        "assessment": "The b of albentes is darker. The et sign is encoded with its expansion.",
+        "image": "/tmp/amores-y31-33/126.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0126/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.5-24.png"
+      },
+      "change": "Confirmed or corrected the visible source feature described in the evidence."
+    },
+    {
+      "note_id": "Y-3.5-note-25",
+      "line": 25,
+      "target": "#Y-3.5-l25",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "61v",
+        "assessment": "The final t of reliquit is darker. Small accent-like strokes above the middle of the line do not securely establish additional letters. The visible terminal point is retained.",
+        "image": "/tmp/amores-y31-33/126.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0126/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.5-25.png"
+      },
+      "change": "Confirmed or corrected the visible source feature described in the evidence."
+    },
+    {
+      "note_id": "Y-3.5-note-26",
+      "line": 26,
+      "target": "#Y-3.5-l26",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "61v",
+        "assessment": "Sed nihil is clearly written and retained. The u in liuor is darker; no earlier reading is recoverable from that ink difference.",
+        "image": "/tmp/amores-y31-33/126.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0126/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.5-26.png"
+      },
+      "change": "Confirmed or corrected the visible source feature described in the evidence."
+    },
+    {
+      "note_id": "Y-3.5-note-27",
+      "line": 27,
+      "target": "#Y-3.5-l27",
+      "previous_type": "observation",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "61v",
+        "assessment": "The o of tauros is dark. A separate oblique stroke follows the verse; it is encoded as a mark of unknown function.",
+        "image": "/tmp/amores-y31-33/126.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0126/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.5-27.png"
+      },
+      "change": "Retained local uncertainty after enlarged source inspection; no unsupported earlier reading or human task."
+    },
+    {
+      "note_id": "Y-3.5-note-28",
+      "line": 28,
+      "target": "#Y-3.5-l28",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "61v",
+        "assessment": "The full verse Carpebant tauri pabula laeta procul is clearly present at this physical position.",
+        "image": "/tmp/amores-y31-33/126.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0126/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.5-28.png"
+      },
+      "change": "Confirmed or corrected the visible source feature described in the evidence."
+    },
+    {
+      "note_id": "Y-3.5-note-29",
+      "line": 29,
+      "target": "#Y-3.5-l29",
+      "previous_type": "second-pass-addition",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "61v",
+        "assessment": "A short dark oblique stroke follows rapuit; its function is not established. The complete source wording remains intact.",
+        "image": "/tmp/amores-y31-33/126.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0126/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.5-29.png"
+      },
+      "change": "Retained local uncertainty after enlarged source inspection; no unsupported earlier reading or human task."
+    },
+    {
+      "note_id": "Y-3.5-note-30",
+      "line": 30,
+      "target": "#Y-3.5-l30",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "61v",
+        "assessment": "A small stain crosses the beginning of fertilioris. Fert is retained tentatively and the remaining ilioris is clear. Herbe preserves the source spelling. The visible terminal point is retained.",
+        "image": "/tmp/amores-y31-33/126.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0126/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.5-30.png"
+      },
+      "change": "Retained local uncertainty after enlarged source inspection; no unsupported earlier reading or human task."
+    },
+    {
+      "note_id": "Y-3.5-note-31",
+      "line": 31,
+      "target": "#Y-3.5-l31",
+      "previous_type": "uncertainty",
+      "status": "resolved",
+      "evidence": {
+        "page": "61v",
+        "assessment": "The baseline o of augor has a clear dark deletion dot directly beneath it and a dark u above. The two are encoded as an underdotted substitution. The remaining verse is legible.",
+        "image": "/tmp/amores-y31-33/126.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0126/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.5-31.png"
+      },
+      "change": "Confirmed or corrected the visible source feature described in the evidence."
+    },
+    {
+      "note_id": "Y-3.5-note-32",
+      "line": 32,
+      "target": "#Y-3.5-l32",
+      "previous_type": "second-pass-addition",
+      "status": "resolved",
+      "evidence": {
+        "page": "61v",
+        "assessment": "The complete source verse was checked independently. Its visible terminal point, omitted in the first pass, is now retained.",
+        "image": "/tmp/amores-y31-33/126.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0126/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.5-32.png"
+      },
+      "change": "Confirmed or corrected the visible source feature described in the evidence."
+    },
+    {
+      "note_id": "Y-3.5-note-33",
+      "line": 33,
+      "target": "#Y-3.5-l33",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "61v",
+        "assessment": "The baseline reads Sic ergo nocturne sic dixit imaginis augur. A fine dark stroke crosses the initial e of ergo and ends in a point below; a dark loop and fine trailing stroke touch the final e of nocturne. These visible marks are retained schematically without claiming recovered replacement letters or a secure function. The point after ergo is retained.",
+        "image": "/tmp/amores-y31-33/126.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0126/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.5-33.png"
+      },
+      "change": "Retained local uncertainty after enlarged source inspection; no unsupported earlier reading or human task."
+    },
+    {
+      "note_id": "Y-3.5-note-35",
+      "line": 35,
+      "target": "#Y-3.5-l35",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "61v",
+        "assessment": "Quem tu mobilibus foliis uitare uolebas is the complete visible source verse. It is not replaced with a different version of this physical position.",
+        "image": "/tmp/amores-y31-33/126.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0126/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.5-35.png"
+      },
+      "change": "Confirmed or corrected the visible source feature described in the evidence."
+    },
+    {
+      "note_id": "Y-3.5-note-36",
+      "line": 36,
+      "target": "#Y-3.5-l36",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "61v",
+        "assessment": "The uit sequence of uitabas and t of estus are darker; no erased earlier reading is claimed. Estus retains the source spelling.",
+        "image": "/tmp/amores-y31-33/126.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0126/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.5-36.png"
+      },
+      "change": "Confirmed or corrected the visible source feature described in the evidence."
+    },
+    {
+      "note_id": "Y-3.5-note-38",
+      "line": 38,
+      "target": "#Y-3.5-l38",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "61v",
+        "assessment": "The main line reads Tu uir and compare, with the final e visibly present. The final s of eras is darker. These source forms are preserved. The visible terminal point is retained.",
+        "image": "/tmp/amores-y31-33/126.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0126/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.5-38.png"
+      },
+      "change": "Confirmed or corrected the visible source feature described in the evidence."
+    },
+    {
+      "note_id": "Y-3.5-note-40",
+      "line": 40,
+      "target": "#Y-3.5-l40",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "61v",
+        "assessment": "The e of lęna has a visible descending cauda, now retained. The selected last annotation rectangle encloses the complete verse, including anus and the terminal point. The visible terminal point is retained.",
+        "image": "/tmp/amores-y31-33/126.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0126/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.5-40.png"
+      },
+      "change": "Confirmed or corrected the visible source feature described in the evidence."
+    },
+    {
+      "note_id": "Y-3.5-note-41",
+      "line": 41,
+      "target": "#Y-3.5-l41",
+      "previous_type": "second-pass-addition",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "61v",
+        "assessment": "A fine oblique stroke follows reliquit; its function is uncertain. No additional letters are supplied.",
+        "image": "/tmp/amores-y31-33/126.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0126/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.5-41.png"
+      },
+      "change": "Retained local uncertainty after enlarged source inspection; no unsupported earlier reading or human task."
+    },
+    {
+      "note_id": "Y-3.5-note-42",
+      "line": 42,
+      "target": "#Y-3.5-l42",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "61v",
+        "assessment": "Inuiduo is the source sequence and is not normalized. Destituere and the final toro remain legible. The visible terminal point is retained.",
+        "image": "/tmp/amores-y31-33/126.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0126/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.5-42.png"
+      },
+      "change": "Confirmed or corrected the visible source feature described in the evidence."
+    },
+    {
+      "note_id": "Y-3.5-note-44",
+      "line": 44,
+      "target": "#Y-3.5-l44",
+      "previous_type": "second-pass-addition",
+      "status": "resolved",
+      "evidence": {
+        "page": "61v",
+        "assessment": "The complete source verse was checked independently. Its visible terminal point, omitted in the first pass, is now retained.",
+        "image": "/tmp/amores-y31-33/126.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0126/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.5-44.png"
+      },
+      "change": "Confirmed or corrected the visible source feature described in the evidence."
+    },
+    {
+      "note_id": "Y-3.5-note-46",
+      "line": 46,
+      "target": "#Y-3.5-l46",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "61v",
+        "assessment": "Two vertically separated points and a wavy separator follow meos. Both are retained. The decorated A below begins the next poem and is outside this transcription.",
+        "image": "/tmp/amores-y31-33/126.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0126/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.5-46.png"
+      },
+      "change": "Confirmed or corrected the visible source feature described in the evidence."
+    }
+  ],
+  "reviewed_candidate_sha256": "19f294c812985c5eb47d3ded9968e855f0ec81e7781aa605bbd3f794a9137ea4",
+  "review_report_sha256": "bedfb4eff7aa0d5fb057c91fc1caa87c5dbfe4a8f6fe346bc6581ee486ae3ee2",
+  "reviewed_xml_sha256": "d2906f52645e34104184e3185097f864795bd800b8181e0e406cd74f585dafb6"
+}

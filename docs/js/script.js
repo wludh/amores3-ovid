@@ -1364,7 +1364,9 @@ function getAnnotationForViewer(panel, lineId, witness, poem) {
     annotation.witness === witness &&
     (annotation.poem ? annotation.poem === poem : poem == null)
   );
-  return applyReviewedNavigation(annotation, witness, poem, lineId);
+  // A scholar's rectangle takes precedence over a reviewed page-only fallback.
+  return annotation ? applyReviewedNavigation(annotation, witness, poem, lineId)
+    : getReviewedSurfaceNavigation(witness, poem, lineId);
 }
 
 function getViewerViewportRectFromImageRect(osdViewer, imageRect) {
@@ -1384,6 +1386,23 @@ function zoomViewerToAnnotation(panel, witness, annotation) {
   if (!osdViewer) return;
 
   const pageIndex = Math.max(0, annotation.page - 1);
+  if (annotation.unlocated) {
+    const overlay = getAnnotationOverlay(panel, witness);
+    if (overlay) clearCurrentAnnotationMarkers(overlay);
+    if (osdViewer.currentPage() !== pageIndex) {
+      osdViewer.goToPage(pageIndex);
+    } else {
+      osdViewer.viewport.goHome(true);
+      if (overlay) {
+        const label = document.createElement('span');
+        label.className = 'annotation-focus-label';
+        label.textContent = 'Verse location unverified';
+        overlay.appendChild(label);
+        overlay.classList.add('hidden-rects');
+      }
+    }
+    return;
+  }
   const fitBounds = () => {
     const fitRectangle = getViewerViewportRectFromImageRect(osdViewer, annotation);
     if (fitRectangle.width <= 0 || fitRectangle.height <= 0) return;
@@ -1576,7 +1595,7 @@ function positionFocusedAnnotation(panel, witness) {
 
   const annotation = getAnnotationForViewer(panel, lineId, witness, poem);
   const rect = overlay.querySelector('.annotation-rect.current-annotation');
-  if (!annotation || !rect || osdViewer.currentPage() !== annotation.page - 1) return;
+  if (!annotation || annotation.unlocated || !rect || osdViewer.currentPage() !== annotation.page - 1) return;
 
   const overlayRect = getOverlayRectFromImageRect(osdViewer, annotation);
   rect.style.left = `${overlayRect.left}px`;

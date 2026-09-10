@@ -1,0 +1,375 @@
+{
+  "witness": "Y",
+  "poem": "3.8",
+  "date": "2026-09-09",
+  "stage": "first-pass",
+  "independently_reviewed": false,
+  "human_approved": false,
+  "coverage": [
+    {
+      "page": 131,
+      "folio": "64r",
+      "start": 1,
+      "end": 20,
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0131/full/full/0/default.jpg"
+    },
+    {
+      "page": 132,
+      "folio": "64v",
+      "start": 21,
+      "end": 60,
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0132/full/full/0/default.jpg"
+    },
+    {
+      "page": 133,
+      "folio": "65r",
+      "start": 61,
+      "end": 66,
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0133/full/full/0/default.jpg"
+    }
+  ],
+  "line_count": 66,
+  "annotation_policy": "There are 66 annotation rows for 66 distinct verses, one original rectangle per verse. Every existing rectangle was inspected and contains the corresponding source verse. All original bounds are retained, including neighbouring text where present. The annotation sourceWitness/panelId fields are provenance, not a source for transcription; no LL text was consulted.",
+  "notes": [
+    {
+      "note_id": "Y-3.8-note-1",
+      "line": 1,
+      "type": "observation",
+      "evidence": "An enlarged E opens the poem. The et ligature is written within etiamnunc and is expanded in place; no word is silently added."
+    },
+    {
+      "note_id": "Y-3.8-note-4",
+      "line": 4,
+      "type": "observation",
+      "evidence": "The manuscript has barbaria est; that source spelling is retained."
+    },
+    {
+      "note_id": "Y-3.8-note-5",
+      "line": 5,
+      "type": "observation",
+      "evidence": "The b within libelli is darker; no earlier state is reconstructed."
+    },
+    {
+      "note_id": "Y-3.8-note-7",
+      "line": 7,
+      "type": "uncertainty",
+      "evidence": "The u of laudauit is dark and has small strokes above it. Current u is readable; the upper strokes do not establish a separately legible addition or recoverable earlier letter."
+    },
+    {
+      "note_id": "Y-3.8-note-8",
+      "line": 8,
+      "type": "observation",
+      "evidence": "The initial i of illuc is dark. No cancelled reading is inferred."
+    },
+    {
+      "note_id": "Y-3.8-note-10",
+      "line": 10,
+      "type": "observation",
+      "evidence": "Darker re in Prefertur and the dark word factus are visible. Their current readings are preserved without alleging erasure or identifying a historical hand."
+    },
+    {
+      "note_id": "Y-3.8-note-11",
+      "line": 11,
+      "type": "uncertainty",
+      "evidence": "The end tis of lacertis is dark. Two dots below formosis and dots above its middle appear to relate to a right-margin word tentatively sculta; that word is retained as an uncertain marginal addition. The marks do not cancel all of formosis, and no precise linking mechanism is asserted."
+    },
+    {
+      "note_id": "Y-3.8-note-12",
+      "line": 12,
+      "type": "observation",
+      "evidence": "The visible ending of amplexus is s; it is preserved rather than normalized."
+    },
+    {
+      "note_id": "Y-3.8-note-13",
+      "line": 13,
+      "type": "observation",
+      "evidence": "The final ut of caput and initial h of hoc are dark. Only the current letters are encoded."
+    },
+    {
+      "note_id": "Y-3.8-note-16",
+      "line": 16,
+      "type": "uncertainty",
+      "evidence": "A slender vertical stroke sits at the dextram/tange boundary. It is retained schematically as a metamark of unspecified function, not read as an extra letter."
+    },
+    {
+      "note_id": "Y-3.8-note-17",
+      "line": 17,
+      "type": "uncertainty",
+      "evidence": "After main-line Qua, a dark q with a que-like sign is added at and below the baseline; que is a tentative expansion. The right margin reads abbreviated aliter followed by a compact group tentatively qsq with a raised abbreviation sign, left unexpanded. Paired small dots are visible near Qua. They do not securely establish which main letters, if any, were cancelled."
+    },
+    {
+      "note_id": "Y-3.8-note-18",
+      "line": 18,
+      "type": "uncertainty",
+      "evidence": "A small dark s-like shape appears above the end of Heu. Its letter value is uncertain; it is retained as an unclear supralinear addition without normalizing the whole opening."
+    },
+    {
+      "note_id": "Y-3.8-note-20",
+      "line": 20,
+      "type": "observation",
+      "evidence": "The final o of illo has a dot beneath it and i immediately above: a visible expunction and replacement are encoded together. The final d of quitquid is dark; the preceding source t is retained."
+    },
+    {
+      "note_id": "Y-3.8-note-21",
+      "line": 21,
+      "type": "observation",
+      "evidence": "Quoties has a bar over e and is explicitly expanded quotiens."
+    },
+    {
+      "note_id": "Y-3.8-note-22",
+      "line": 22,
+      "type": "observation",
+      "evidence": "The opening In and second a of fassas are darker. The punctus after Indicet is retained."
+    },
+    {
+      "note_id": "Y-3.8-note-24",
+      "line": 24,
+      "type": "observation",
+      "evidence": "The d of Ad is darker, without a recoverable earlier reading."
+    },
+    {
+      "note_id": "Y-3.8-note-25",
+      "line": 25,
+      "type": "observation",
+      "evidence": "The final s of nos is dark. The source has que, retained without normalization to quae."
+    },
+    {
+      "note_id": "Y-3.8-note-26",
+      "line": 26,
+      "type": "observation",
+      "evidence": "The d of Sed is darker; no deletion is inferred."
+    },
+    {
+      "note_id": "Y-3.8-note-27",
+      "line": 27,
+      "type": "observation",
+      "evidence": "The main-line word reads deducite. A dark ere stands above its ending. Both layers are retained, with no deletion of ite claimed."
+    },
+    {
+      "note_id": "Y-3.8-note-28",
+      "line": 28,
+      "type": "observation",
+      "evidence": "The initial word reads Hic; the source reading is preserved."
+    },
+    {
+      "note_id": "Y-3.8-note-31",
+      "line": 31,
+      "type": "observation",
+      "evidence": "The visible verb reads aberant, including n before t; it is not silently changed."
+    },
+    {
+      "note_id": "Y-3.8-note-32",
+      "line": 32,
+      "type": "observation",
+      "evidence": "The source opens Erati. Its E and the final s of postes are darker. No initial A is supplied."
+    },
+    {
+      "note_id": "Y-3.8-note-34",
+      "line": 34,
+      "type": "observation",
+      "evidence": "The i-region of sinus is darker; its present reading is retained."
+    },
+    {
+      "note_id": "Y-3.8-note-36",
+      "line": 36,
+      "type": "observation",
+      "evidence": "The source reads Omnem lucrum and altae. Both forms are preserved despite their unusual agreement."
+    },
+    {
+      "note_id": "Y-3.8-note-38",
+      "line": 38,
+      "type": "observation",
+      "evidence": "The manuscript reads admorat; a second u is not supplied. Nullaque is divided editorially from massa."
+    },
+    {
+      "note_id": "Y-3.8-note-39",
+      "line": 39,
+      "type": "observation",
+      "evidence": "The final o of curuo is dark; no erased letter is inferred."
+    },
+    {
+      "note_id": "Y-3.8-note-41",
+      "line": 41,
+      "type": "observation",
+      "evidence": "Terra has a nasal bar over final a and is explicitly expanded terram."
+    },
+    {
+      "note_id": "Y-3.8-note-42",
+      "line": 42,
+      "type": "uncertainty",
+      "evidence": "The baseline reads mesor. A small dark n-like shape stands above the e/s interval and is encoded as an uncertain addition. It is not silently flattened into a confident mensor."
+    },
+    {
+      "note_id": "Y-3.8-note-43",
+      "line": 43,
+      "type": "observation",
+      "evidence": "The final o of demisso and the word eruta are darker. Both current readings remain visible; no erasure or historical hand is asserted."
+    },
+    {
+      "note_id": "Y-3.8-note-44",
+      "line": 44,
+      "type": "uncertainty",
+      "evidence": "A vertical dark stroke at the mortali/tum boundary is retained as an unspecified metamark. It is not treated as a letter."
+    },
+    {
+      "note_id": "Y-3.8-note-45",
+      "line": 45,
+      "type": "uncertainty",
+      "evidence": "A slender stroke crosses the space after Contra. A separate bracket-like mark in the left margin runs beside approximately verses 45–50; its extent is visible but its function is unknown. The inline stroke is retained as an unspecified metamark, and the marginal mark is documented here without attributing a hand or purpose."
+    },
+    {
+      "note_id": "Y-3.8-note-47",
+      "line": 47,
+      "type": "uncertainty",
+      "evidence": "The compact moenibus word has a nasal bar and a terminal abbreviation sign beside a dark b. The schematic abbreviation moēibꝰ and tentative expansion moenibus preserve its contracted status; the digital characters are not exact reproductions of the pen shapes. The line ends with a question-like sign."
+    },
+    {
+      "note_id": "Y-3.8-note-48",
+      "line": 48,
+      "type": "observation",
+      "evidence": "A question-like sign closes the line. The written sequence addere in arma is preserved."
+    },
+    {
+      "note_id": "Y-3.8-note-50",
+      "line": 50,
+      "type": "observation",
+      "evidence": "Regna petis is written above dona facis. The main words remain readable and are not declared deleted; both source layers are retained."
+    },
+    {
+      "note_id": "Y-3.8-note-51",
+      "line": 51,
+      "type": "uncertainty",
+      "evidence": "The final name appears quirrinus in the source. The closely packed r/i strokes remain uncertain, so this reading is qualified instead of normalized to a familiar name."
+    },
+    {
+      "note_id": "Y-3.8-note-53",
+      "line": 53,
+      "type": "observation",
+      "evidence": "Initial E and the first o of solidum are darker; no erased readings are supplied."
+    },
+    {
+      "note_id": "Y-3.8-note-55",
+      "line": 55,
+      "type": "observation",
+      "evidence": "Initial C and the first o of honores are darker. The source has clausa est, with editorial word separation."
+    },
+    {
+      "note_id": "Y-3.8-note-58",
+      "line": 58,
+      "type": "observation",
+      "evidence": "The ui at the centre of Seruiat and following at are darker; the whole dark segment is recorded without assigning a hand."
+    },
+    {
+      "note_id": "Y-3.8-note-59",
+      "line": 59,
+      "type": "uncertainty",
+      "evidence": "Final s of nostros and e of liceantur are dark. A left-margin inscription tentatively Licetor is preserved as unclear; its small final strokes and exact lexical form remain uncertain."
+    },
+    {
+      "note_id": "Y-3.8-note-60",
+      "line": 60,
+      "type": "uncertainty",
+      "evidence": "A compact dark addition above final id of aliquid looks am. The final stroke may belong to the letter form or an abbreviation; the group remains unclear and unexpanded, while main-line aliquid remains visible."
+    },
+    {
+      "note_id": "Y-3.8-note-61",
+      "line": 61,
+      "type": "uncertainty",
+      "evidence": "The compact glyph before equet resembles the manuscript et ligature, but its lexical value here is uncertain. It is preserved as a glyph without imposing an et expansion or normalizing the word to aequet. Darker letters occur at final t of equet, final s of tetricas, and final a of illa."
+    },
+    {
+      "note_id": "Y-3.8-note-62",
+      "line": 62,
+      "type": "observation",
+      "evidence": "The source reads Imperat ut capte and ends with a question-like sign. No grammatical normalization is imposed."
+    },
+    {
+      "note_id": "Y-3.8-note-64",
+      "line": 64,
+      "type": "uncertainty",
+      "evidence": "The i of Si and final a of tota are darker. A slender vertical mark between dederim and tota is preserved as a metamark of unspecified function."
+    },
+    {
+      "note_id": "Y-3.8-note-65",
+      "line": 65,
+      "type": "observation",
+      "evidence": "The g of neglecti is dark. After quisquam, the separate em is crossed by a horizontal stroke and retained as cancelled text. No earlier reading is invented."
+    },
+    {
+      "note_id": "Y-3.8-note-66",
+      "line": 66,
+      "type": "observation",
+      "evidence": "The e of male is darker. The source spelling quesitas is retained. A trailing separator marks the end of the poem before the enlarged M opening 3.9."
+    }
+  ],
+  "author_agent": "/root/review_y",
+  "line_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66
+  ],
+  "candidate_sha256": "c7d103a94387fb17912a753bf9d4f64914895a0720e2fded7a25ecc346ac10f3"
+}

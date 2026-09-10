@@ -1,0 +1,334 @@
+{
+  "witness": "O",
+  "poem": "3.11",
+  "date": "2026-09-09",
+  "reviewer": "OpenAI Codex independent encode_s agent",
+  "author_agent": "/root",
+  "reviewer_agent": "/root/encode_s",
+  "review_type": "independent-second-agent-image-and-encoding-review",
+  "human_approved": false,
+  "line_coverage": {
+    "count": 52,
+    "ranges": [
+      {
+        "page": "63",
+        "start": 1,
+        "end": 8
+      },
+      {
+        "page": "64",
+        "start": 9,
+        "end": 44
+      },
+      {
+        "page": "65",
+        "start": 45,
+        "end": 52
+      }
+    ]
+  },
+  "line_order": [
+    "O-3.11-l1",
+    "O-3.11-l2",
+    "O-3.11-l3",
+    "O-3.11-l4",
+    "O-3.11-l5",
+    "O-3.11-l6",
+    "O-3.11-l7",
+    "O-3.11-l8",
+    "O-3.11-l9",
+    "O-3.11-l10",
+    "O-3.11-l11",
+    "O-3.11-l12",
+    "O-3.11-l13",
+    "O-3.11-l14",
+    "O-3.11-l15",
+    "O-3.11-l16",
+    "O-3.11-l17",
+    "O-3.11-l18",
+    "O-3.11-l19",
+    "O-3.11-l20",
+    "O-3.11-l21",
+    "O-3.11-l22",
+    "O-3.11-l23",
+    "O-3.11-l24",
+    "O-3.11-l25",
+    "O-3.11-l26",
+    "O-3.11-l27",
+    "O-3.11-l28",
+    "O-3.11-l29",
+    "O-3.11-l30",
+    "O-3.11-l31",
+    "O-3.11-l32",
+    "O-3.11-l33",
+    "O-3.11-l34",
+    "O-3.11-l35",
+    "O-3.11-l36",
+    "O-3.11-l37",
+    "O-3.11-l38",
+    "O-3.11-l39",
+    "O-3.11-l40",
+    "O-3.11-l41",
+    "O-3.11-l42",
+    "O-3.11-l43",
+    "O-3.11-l44",
+    "O-3.11-l45",
+    "O-3.11-l46",
+    "O-3.11-l47",
+    "O-3.11-l48",
+    "O-3.11-l49",
+    "O-3.11-l50",
+    "O-3.11-l51",
+    "O-3.11-l52"
+  ],
+  "counts": {
+    "resolved": 16,
+    "documented-uncertainty": 0,
+    "escalate": 0
+  },
+  "notes": [
+    {
+      "note_id": "O-3.11-note-1",
+      "line": 1,
+      "target": "#O-3.11-l1",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "63",
+        "viewer_page": 111,
+        "image": "/tmp/amores-o-corpus/111.jpg",
+        "source_url": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0115.jp2/full/max/0/default.jpg",
+        "assessment": "Independent image reading confirms: The source heading is XI. and the printed contraction is victast. Full pages63–65 show the alternate verse insets retained here."
+      },
+      "change": "Confirmed source reading or layout; no text correction and no user action."
+    },
+    {
+      "note_id": "O-3.11-note-3",
+      "line": 3,
+      "target": "#O-3.11-l3",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "63",
+        "viewer_page": 111,
+        "image": "/tmp/amores-o-corpus/111.jpg",
+        "source_url": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0115.jp2/full/max/0/default.jpg",
+        "assessment": "Independent image reading confirms: The printed spelling is adserui, retained as written."
+      },
+      "change": "Confirmed source reading or layout; no text correction and no user action."
+    },
+    {
+      "note_id": "O-3.11-note-7",
+      "line": 7,
+      "target": "#O-3.11-l7",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "63",
+        "viewer_page": 111,
+        "image": "/tmp/amores-o-corpus/111.jpg",
+        "source_url": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0115.jp2/full/max/0/default.jpg",
+        "assessment": "Independent image reading confirms: Obdura is followed by an exclamation mark; dolor begins with lowercase d."
+      },
+      "change": "Confirmed source reading or layout; no text correction and no user action."
+    },
+    {
+      "note_id": "O-3.11-note-8",
+      "line": 8,
+      "target": "#O-3.11-l8",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "63",
+        "viewer_page": 111,
+        "image": "/tmp/amores-o-corpus/111.jpg",
+        "source_url": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0115.jp2/full/max/0/default.jpg",
+        "assessment": "Independent image reading confirms: The source prints sucus with one c, retained without normalization."
+      },
+      "change": "Confirmed source reading or layout; no text correction and no user action."
+    },
+    {
+      "note_id": "O-3.11-note-11",
+      "line": 11,
+      "target": "#O-3.11-l11",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "64",
+        "viewer_page": 112,
+        "image": "/tmp/amores-o-corpus/112.jpg",
+        "source_url": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0116.jp2/full/max/0/default.jpg",
+        "assessment": "Independent image reading confirms: The source spelling is conplexa. The next verse sets servus ut between commas."
+      },
+      "change": "Confirmed source reading or layout; no text correction and no user action."
+    },
+    {
+      "note_id": "O-3.11-note-20",
+      "line": 20,
+      "target": "#O-3.11-l20",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "64",
+        "viewer_page": 112,
+        "image": "/tmp/amores-o-corpus/112.jpg",
+        "source_url": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0116.jp2/full/max/0/default.jpg",
+        "assessment": "Independent image reading confirms: The printed sequence is noster amoris amor, retained as written."
+      },
+      "change": "Confirmed source reading or layout; no text correction and no user action."
+    },
+    {
+      "note_id": "O-3.11-note-24",
+      "line": 24,
+      "target": "#O-3.11-l24",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "64",
+        "viewer_page": 112,
+        "image": "/tmp/amores-o-corpus/112.jpg",
+        "source_url": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0116.jp2/full/max/0/default.jpg",
+        "assessment": "Independent image reading confirms: The source spells conpositis, retained without normalization."
+      },
+      "change": "Confirmed source reading or layout; no text correction and no user action."
+    },
+    {
+      "note_id": "O-3.11-note-25",
+      "line": 25,
+      "target": "#O-3.11-l25",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "64",
+        "viewer_page": 112,
+        "image": "/tmp/amores-o-corpus/112.jpg",
+        "source_url": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0116.jp2/full/max/0/default.jpg",
+        "assessment": "Independent image reading confirms: A colon follows mihi and a semicolon ends the verse. The next verse has a comma after Veni."
+      },
+      "change": "Confirmed source reading or layout; no text correction and no user action."
+    },
+    {
+      "note_id": "O-3.11-note-30",
+      "line": 30,
+      "target": "#O-3.11-l30",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "64",
+        "viewer_page": 112,
+        "image": "/tmp/amores-o-corpus/112.jpg",
+        "source_url": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0116.jp2/full/max/0/default.jpg",
+        "assessment": "Independent image reading confirms: The printed verb is audit, not a supplied replacement."
+      },
+      "change": "Confirmed source reading or layout; no text correction and no user action."
+    },
+    {
+      "note_id": "O-3.11-note-33",
+      "line": 33,
+      "target": "#O-3.11-l33",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "64",
+        "viewer_page": 112,
+        "image": "/tmp/amores-o-corpus/112.jpg",
+        "source_url": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0116.jp2/full/max/0/default.jpg",
+        "assessment": "Independent image reading confirms: A visible extra vertical space precedes this verse, with XIb. at its right. The source gives this section a second marginal count:5 beside37,10 beside42,15 beside47 and20 beside52. The source label and secondary numbers are encoded separately from the stable corpus verse IDs1–52; no verse is omitted or renumbered."
+      },
+      "change": "Confirmed source reading or layout; no text correction and no user action."
+    },
+    {
+      "note_id": "O-3.11-note-34",
+      "line": 34,
+      "target": "#O-3.11-l34",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "64",
+        "viewer_page": 112,
+        "image": "/tmp/amores-o-corpus/112.jpg",
+        "source_url": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0116.jp2/full/max/0/default.jpg",
+        "assessment": "Independent image reading confirms: The phrase sed, puto, is set off by commas, but no comma separates Hac amor from hac odium."
+      },
+      "change": "Confirmed source reading or layout; no text correction and no user action."
+    },
+    {
+      "note_id": "O-3.11-note-41",
+      "line": 41,
+      "target": "#O-3.11-l41",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "64",
+        "viewer_page": 112,
+        "image": "/tmp/amores-o-corpus/112.jpg",
+        "source_url": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0116.jp2/full/max/0/default.jpg",
+        "assessment": "Independent image reading confirms: The printed form is inproba, retained as written."
+      },
+      "change": "Confirmed source reading or layout; no text correction and no user action."
+    },
+    {
+      "note_id": "O-3.11-note-43",
+      "line": 43,
+      "target": "#O-3.11-l43",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "64",
+        "viewer_page": 112,
+        "image": "/tmp/amores-o-corpus/112.jpg",
+        "source_url": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0116.jp2/full/max/0/default.jpg",
+        "assessment": "Independent image reading confirms: The source reads Facta merent odium, facies exorat amorem: with a terminal colon."
+      },
+      "change": "Confirmed source reading or layout; no text correction and no user action."
+    },
+    {
+      "note_id": "O-3.11-note-45",
+      "line": 45,
+      "target": "#O-3.11-l45",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "65",
+        "viewer_page": 113,
+        "image": "/tmp/amores-o-corpus/113.jpg",
+        "source_url": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0117.jp2/full/max/0/default.jpg",
+        "assessment": "Independent image reading confirms: The printed form is omnis, followed by a comma; no alternate ending is supplied."
+      },
+      "change": "Confirmed source reading or layout; no text correction and no user action."
+    },
+    {
+      "note_id": "O-3.11-note-49",
+      "line": 49,
+      "target": "#O-3.11-l49",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "65",
+        "viewer_page": 113,
+        "image": "/tmp/amores-o-corpus/113.jpg",
+        "source_url": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0117.jp2/full/max/0/default.jpg",
+        "assessment": "Independent image reading confirms: The spelling Quidquid and the colon after the second eris are retained."
+      },
+      "change": "Confirmed source reading or layout; no text correction and no user action."
+    },
+    {
+      "note_id": "O-3.11-note-52",
+      "line": 52,
+      "target": "#O-3.11-l52",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "65",
+        "viewer_page": 113,
+        "image": "/tmp/amores-o-corpus/113.jpg",
+        "source_url": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0117.jp2/full/max/0/default.jpg",
+        "assessment": "Independent image reading confirms: The final verse has commas after Ut, nolim and amare, and a period after velim. Heading XII. starts the next poem below; the secondary right-margin20 corresponds to corpus verse52."
+      },
+      "change": "Confirmed source reading or layout; no text correction and no user action."
+    }
+  ],
+  "reviewed_candidate_sha256": "b719bf7ff6ab39630ec4b9d59bbd7dfce946b4bc44a937998c32a4f49bb1ffea",
+  "review_report_sha256": "b3767f55f73f6882a5587cab0af16c3ae5fa8cf81be309aa9c70796c4c51763a",
+  "reviewed_xml_sha256": "fb725d1d08d56ee4b9076f294a8d79beccab4349a61e0db9010309d62646125f"
+}

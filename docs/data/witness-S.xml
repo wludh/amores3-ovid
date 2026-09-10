@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <witness n="S">
-  <poem n="3.1"><TEI/></poem>
-  <poem n="3.2"><TEI/></poem>
-  <poem n="3.3"><TEI/></poem>
-  <poem n="3.4"><TEI/></poem>
-  <poem n="3.5"><TEI/></poem>
-  <poem n="3.6"><TEI/></poem>
+  <poem n="3.1"><TEI /></poem>
+  <poem n="3.2"><TEI /></poem>
+  <poem n="3.3"><TEI /></poem>
+  <poem n="3.4"><TEI /></poem>
+  <poem n="3.5"><TEI /></poem>
+  <poem n="3.6"><TEI /></poem>
   <poem n="3.7"><TEI xmlns="http://www.tei-c.org/ns/1.0" n="S" xml:id="S">
   <teiHeader xml:lang="en">
     <fileDesc>
@@ -16,7 +16,7 @@
           <resp>First-pass image inspection and TEI encoding</resp>
           <name>OpenAI Codex</name>
         </respStmt>
-      <respStmt xml:id="S-second-reader"><resp>Independent second image reading of all extant lines and first-pass notes</resp><name>OpenAI Codex, independent review agent</name></respStmt></titleStmt>
+      <respStmt xml:id="S-second-reader"><resp>Independent second image reading of all extant lines and first-pass notes</resp><name>OpenAI Codex, independent review agent</name></respStmt><respStmt xml:id="S-3.7-layout-reviewer"><resp>Independent full-page review of verse indentation</resp><name>OpenAI Codex primary agent</name></respStmt></titleStmt>
       <publicationStmt>
         <p>Amores Project working trial, 8 September 2026. Not an approved critical edition.</p>
       </publicationStmt>
@@ -68,7 +68,7 @@
         </punctuation>
         <segmentation>
           <p>Verse numbering follows canonical poem positions. Each extant verse points to an existing line-annotation rectangle reproduced unmodified in facsimile. The unusually tall final rectangle is retained as source metadata. Couplets are logical groups; the page break after verse 31 lies within a couplet. The gap after verse 74 is not ten fabricated line elements.</p>
-        </segmentation>
+        <p>Full-page source inspection shows aligned regular verse initials, without systematic alternate-line indentation. Only the visibly inset second opening verse retains rend=indent; explicit initial spaces remain separate.</p></segmentation>
         <interpretation>
           <p>An independent second reader has reconciled the first-pass notes against all 74 extant lines and following blank page. Remaining unclear forms express localized source uncertainty and do not automatically assign tasks to the human editor. The cause and date of the missing continuation remain unasserted.</p>
         </interpretation>
@@ -76,7 +76,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <change when="2026-09-08" who="#S-trial-encoder">First pass completed against pages 395–396; checked following blank page 397; encoded source-supported terminal gap. Independent second reading pending.</change>
-    <change when="2026-09-08" who="#S-second-reader">Independent second pass reviewed all 74 extant lines, original notes and following blank page. Revised lines 3, 39, 41, 48 and 61 from image evidence; retained localized source uncertainty without a human task queue.</change></revisionDesc>
+    <change when="2026-09-08" who="#S-second-reader">Independent second pass reviewed all 74 extant lines, original notes and following blank page. Revised lines 3, 39, 41, 48 and 61 from image evidence; retained localized source uncertainty without a human task queue.</change><change when="2026-09-09" who="#S-3.7-layout-reviewer">Removed editorial even-verse insets after independent full-page layout review. Verse text, notes, source zones and locally recorded initial spaces are unchanged.</change></revisionDesc>
   </teiHeader>
   <facsimile>
     <surface n="395" ulx="0" uly="0" lrx="4872" lry="6496" xml:id="S-395">
@@ -196,7 +196,7 @@
               <abbr>languidꝰ</abbr>
               <expan>languidus</expan>
             </choice> ulnis:</l>
-          <l n="4" xml:id="S-3.7-l4" facs="#S-3.7-zone-4" rend="indent">Si iaceo pigro <choice>
+          <l n="4" xml:id="S-3.7-l4" facs="#S-3.7-zone-4">Si iaceo pigro <choice>
               <abbr>crim̄</abbr>
               <expan>crimen</expan>
             </choice>
@@ -210,7 +210,7 @@
               <abbr>parit̄</abbr>
               <expan>pariter</expan>
             </choice> cupiente puella</l>
-          <l n="6" xml:id="S-3.7-l6" facs="#S-3.7-zone-6" rend="indent">Inguinis effeti parte iuuante frui.</l>
+          <l n="6" xml:id="S-3.7-l6" facs="#S-3.7-zone-6">Inguinis effeti parte iuuante frui.</l>
         </lg>
         <lg type="couplet">
           <l n="7" xml:id="S-3.7-l7" facs="#S-3.7-zone-7">Illa <choice>
@@ -221,7 +221,7 @@
               <abbr>nr̄o</abbr>
               <expan>nostro</expan>
             </choice> subiecit eburnea collo</l>
-          <l n="8" xml:id="S-3.7-l8" facs="#S-3.7-zone-8" rend="indent">Brachia sithonia candidiora niue</l>
+          <l n="8" xml:id="S-3.7-l8" facs="#S-3.7-zone-8">Brachia sithonia candidiora niue</l>
         </lg>
         <lg type="couplet">
           <l n="9" xml:id="S-3.7-l9" facs="#S-3.7-zone-9">
@@ -229,7 +229,7 @@
               <abbr>Osculaqꝫ</abbr>
               <expan>Osculaque</expan>
             </choice> inseruit cupide luctantia linguis:</l>
-          <l n="10" xml:id="S-3.7-l10" facs="#S-3.7-zone-10" rend="indent">
+          <l n="10" xml:id="S-3.7-l10" facs="#S-3.7-zone-10">
             <choice>
               <abbr>Lasciuū</abbr>
               <expan>Lasciuum</expan>
@@ -250,7 +250,7 @@
               <abbr>uocaū</abbr>
               <expan>uocauit</expan>
             </choice>.</l>
-          <l n="12" xml:id="S-3.7-l12" facs="#S-3.7-zone-12" rend="indent">Et quę <choice>
+          <l n="12" xml:id="S-3.7-l12" facs="#S-3.7-zone-12">Et quę <choice>
               <abbr>p̄t̄ea</abbr>
               <expan>preterea</expan>
             </choice> publica <choice>
@@ -266,7 +266,7 @@
               <abbr>m̄bra</abbr>
               <expan>membra</expan>
             </choice> cicuta</l>
-          <l n="14" xml:id="S-3.7-l14" facs="#S-3.7-zone-14" rend="indent">Segnia <choice>
+          <l n="14" xml:id="S-3.7-l14" facs="#S-3.7-zone-14">Segnia <choice>
               <abbr>p̄positū</abbr>
               <expan>propositum</expan>
             </choice> destituere <choice>
@@ -283,7 +283,7 @@
               <abbr>&amp;</abbr>
               <expan>et</expan>
             </choice> inutile pondus.</l>
-          <l n="16" xml:id="S-3.7-l16" facs="#S-3.7-zone-16" rend="indent">Et <choice>
+          <l n="16" xml:id="S-3.7-l16" facs="#S-3.7-zone-16">Et <choice>
               <abbr>n̄</abbr>
               <expan>non</expan>
             </choice>
@@ -315,7 +315,7 @@
               <abbr>senectꝰ</abbr>
               <expan>senectus</expan>
             </choice>:</l>
-          <l n="18" xml:id="S-3.7-l18" facs="#S-3.7-zone-18" rend="indent">
+          <l n="18" xml:id="S-3.7-l18" facs="#S-3.7-zone-18">
             <choice>
               <abbr>Cū</abbr>
               <expan>Cum</expan>
@@ -342,7 +342,7 @@
               <expan>uirumque</expan>
             </choice>
           </l>
-          <l n="20" xml:id="S-3.7-l20" facs="#S-3.7-zone-20" rend="indent">Nec <choice>
+          <l n="20" xml:id="S-3.7-l20" facs="#S-3.7-zone-20">Nec <choice>
               <abbr>iuuenē</abbr>
               <expan>iuuenem</expan>
             </choice> nec me sensit amata <choice>
@@ -359,7 +359,7 @@
               <abbr>ętr̄na</abbr>
               <expan>eterna</expan>
             </choice> sacerdos</l>
-          <l n="22" xml:id="S-3.7-l22" facs="#S-3.7-zone-22" rend="indent">Surgit <choice>
+          <l n="22" xml:id="S-3.7-l22" facs="#S-3.7-zone-22">Surgit <choice>
               <abbr>&amp;</abbr>
               <expan>et</expan>
             </choice> a caro <choice>
@@ -372,7 +372,7 @@
               <abbr>t̄</abbr>
               <expan>ter</expan>
             </choice> candida phito</l>
-          <l n="24" xml:id="S-3.7-l24" facs="#S-3.7-zone-24" rend="indent">Ter libas officio <choice>
+          <l n="24" xml:id="S-3.7-l24" facs="#S-3.7-zone-24">Ter libas officio <choice>
               <abbr>cōtinuata</abbr>
               <expan>continuata</expan>
             </choice>
@@ -387,7 +387,7 @@
               <expan>corinam</expan>
             </choice>
           </l>
-          <l n="26" xml:id="S-3.7-l26" facs="#S-3.7-zone-26" rend="indent">Me memini numeros sustinuisse <choice>
+          <l n="26" xml:id="S-3.7-l26" facs="#S-3.7-zone-26">Me memini numeros sustinuisse <choice>
               <abbr>nouē</abbr>
               <expan>nouem</expan>
             </choice>.</l>
@@ -397,7 +397,7 @@
               <abbr>deuōta</abbr>
               <expan>deuota</expan>
             </choice> ueneno</l>
-          <l n="28" xml:id="S-3.7-l28" facs="#S-3.7-zone-28" rend="indent">C<unclear reason="stain">or</unclear>pora <choice>
+          <l n="28" xml:id="S-3.7-l28" facs="#S-3.7-zone-28">C<unclear reason="stain">or</unclear>pora <choice>
               <abbr>nū</abbr>
               <expan>num</expan>
             </choice> misero <choice>
@@ -407,7 +407,7 @@
         </lg>
         <lg type="couplet">
           <l n="29" xml:id="S-3.7-l29" facs="#S-3.7-zone-29">S<unclear reason="stain">ag</unclear>a ue sanguinea defixit nomina cera.</l>
-          <l n="30" xml:id="S-3.7-l30" facs="#S-3.7-zone-30" rend="indent">Et <choice>
+          <l n="30" xml:id="S-3.7-l30" facs="#S-3.7-zone-30">Et <choice>
               <abbr>mediū</abbr>
               <expan>medium</expan>
             </choice> tenuis in iecur egit acus.</l>
@@ -415,14 +415,14 @@
         <lg type="couplet">
           <l n="31" xml:id="S-3.7-l31" facs="#S-3.7-zone-31">Carmine lesa ceres sterile uanescit in herbam</l>
           <pb n="396" facs="#S-396" />
-          <l n="32" xml:id="S-3.7-l32" facs="#S-3.7-zone-32" rend="indent">Deficiunt lesi carmine fontis aquę:</l>
+          <l n="32" xml:id="S-3.7-l32" facs="#S-3.7-zone-32">Deficiunt lesi carmine fontis aquę:</l>
         </lg>
         <lg type="couplet">
           <l n="33" xml:id="S-3.7-l33" facs="#S-3.7-zone-33">Ilicibus glandes <choice>
               <abbr>cantataqꝫ</abbr>
               <expan>cantataque</expan>
             </choice> uitibus uua</l>
-          <l n="34" xml:id="S-3.7-l34" facs="#S-3.7-zone-34" rend="indent">Decidit <choice>
+          <l n="34" xml:id="S-3.7-l34" facs="#S-3.7-zone-34">Decidit <choice>
               <abbr>&amp;</abbr>
               <expan>et</expan>
             </choice> nullo poma mouente fluunt.</l>
@@ -435,11 +435,11 @@
               <abbr>p̄</abbr>
               <expan>per</expan>
             </choice> artes:</l>
-          <l n="36" xml:id="S-3.7-l36" facs="#S-3.7-zone-36" rend="indent">Forsitan inpatiens sit latus inde meo</l>
+          <l n="36" xml:id="S-3.7-l36" facs="#S-3.7-zone-36">Forsitan inpatiens sit latus inde meo</l>
         </lg>
         <lg type="couplet">
           <l n="37" xml:id="S-3.7-l37" facs="#S-3.7-zone-37">Huc pudor accessit. facti pudor ipse nocebat.</l>
-          <l n="38" xml:id="S-3.7-l38" facs="#S-3.7-zone-38" rend="indent">Ille fuit uicii causa secunda mei.</l>
+          <l n="38" xml:id="S-3.7-l38" facs="#S-3.7-zone-38">Ille fuit uicii causa secunda mei.</l>
         </lg>
         <lg type="couplet">
           <l n="39" xml:id="S-3.7-l39" facs="#S-3.7-zone-39">At <choice>
@@ -455,11 +455,11 @@
               <abbr>tetigiqꝫ</abbr>
               <expan>tetigique</expan>
             </choice> puella</l>
-          <l n="40" xml:id="S-3.7-l40" facs="#S-3.7-zone-40" rend="indent">Sic etiam tunica tangitur illa sua.</l>
+          <l n="40" xml:id="S-3.7-l40" facs="#S-3.7-zone-40">Sic etiam tunica tangitur illa sua.</l>
         </lg>
         <lg type="couplet">
           <l n="41" xml:id="S-3.7-l41" facs="#S-3.7-zone-41">Illius ad tactum pylius iuuenescere possit</l>
-          <l n="42" xml:id="S-3.7-l42" facs="#S-3.7-zone-42" rend="indent">
+          <l n="42" xml:id="S-3.7-l42" facs="#S-3.7-zone-42">
             <choice>
               <abbr>Tithonꝰqꝫ</abbr>
               <expan>Tithonusque</expan>
@@ -480,7 +480,7 @@
               <abbr>cōtiḡ</abbr>
               <expan>contigit</expan>
             </choice> illi.</l>
-          <l n="44" xml:id="S-3.7-l44" facs="#S-3.7-zone-44" rend="indent">Quas <choice>
+          <l n="44" xml:id="S-3.7-l44" facs="#S-3.7-zone-44">Quas <choice>
               <abbr>nūc</abbr>
               <expan>nunc</expan>
             </choice>
@@ -512,7 +512,7 @@
               <abbr>t̄pit̄</abbr>
               <expan>turpiter</expan>
             </choice> usus</l>
-          <l n="46" xml:id="S-3.7-l46" facs="#S-3.7-zone-46" rend="indent">Muneris oblati penituisse deos:</l>
+          <l n="46" xml:id="S-3.7-l46" facs="#S-3.7-zone-46">Muneris oblati penituisse deos:</l>
         </lg>
         <lg type="couplet">
           <l n="47" xml:id="S-3.7-l47" facs="#S-3.7-zone-47">
@@ -527,7 +527,7 @@
               <abbr>n̄pe</abbr>
               <expan>nempe</expan>
             </choice> receptus.</l>
-          <l n="48" xml:id="S-3.7-l48" facs="#S-3.7-zone-48" rend="indent">Oscula ferre tuli. <choice>
+          <l n="48" xml:id="S-3.7-l48" facs="#S-3.7-zone-48">Oscula ferre tuli. <choice>
               <abbr>proxīꝰ</abbr>
               <expan>proximus</expan>
             </choice> et fui.</l>
@@ -544,14 +544,14 @@
               <abbr>q̄</abbr>
               <expan>quod</expan>
             </choice> regna sine usu</l>
-          <l n="50" xml:id="S-3.7-l50" facs="#S-3.7-zone-50" rend="indent">Quid <choice>
+          <l n="50" xml:id="S-3.7-l50" facs="#S-3.7-zone-50">Quid <choice>
               <abbr>n̄</abbr>
               <expan>non</expan>
             </choice> pollicitis diues auarus opes.</l>
         </lg>
         <lg type="couplet">
           <l n="51" xml:id="S-3.7-l51" facs="#S-3.7-zone-51">Sic aret mediis tacta uulgator in undis:</l>
-          <l n="52" xml:id="S-3.7-l52" facs="#S-3.7-zone-52" rend="indent">
+          <l n="52" xml:id="S-3.7-l52" facs="#S-3.7-zone-52">
             <choice>
               <abbr>Pomaqꝫ</abbr>
               <expan>Pomaque</expan>
@@ -568,7 +568,7 @@
               <abbr>sur̄git</abbr>
               <expan>surgit</expan>
             </choice> mane puella</l>
-          <l n="54" xml:id="S-3.7-l54" facs="#S-3.7-zone-54" rend="indent">
+          <l n="54" xml:id="S-3.7-l54" facs="#S-3.7-zone-54">
             <choice>
               <abbr>Ptinꝰ</abbr>
               <expan>Protinus</expan>
@@ -585,7 +585,7 @@
               <abbr>n̄</abbr>
               <expan>non</expan>
             </choice> optima perdidit in me</l>
-          <l n="56" xml:id="S-3.7-l56" facs="#S-3.7-zone-56" rend="indent">Oscula <choice>
+          <l n="56" xml:id="S-3.7-l56" facs="#S-3.7-zone-56">Oscula <choice>
               <abbr>n̄</abbr>
               <expan>non</expan>
             </choice> omni <choice>
@@ -599,7 +599,7 @@
               <expan>que durum</expan>
             </choice>
           </l>
-          <l n="58" xml:id="S-3.7-l58" facs="#S-3.7-zone-58" rend="indent">
+          <l n="58" xml:id="S-3.7-l58" facs="#S-3.7-zone-58">
             <choice>
               <abbr>Surdaqꝫ</abbr>
               <expan>Surdaque</expan>
@@ -614,14 +614,14 @@
               <abbr>uiuosqꝫ</abbr>
               <expan>uiuosque</expan>
             </choice> uirosque</l>
-          <l n="60" xml:id="S-3.7-l60" facs="#S-3.7-zone-60" rend="indent">Sed <choice>
+          <l n="60" xml:id="S-3.7-l60" facs="#S-3.7-zone-60">Sed <choice>
               <abbr>n̄</abbr>
               <expan>non</expan>
             </choice> uiri nec uiuus ut ante fui.</l>
         </lg>
         <lg type="couplet">
           <l n="61" xml:id="S-3.7-l61" facs="#S-3.7-zone-61">Quid iuuat ad sur<subst cert="low"><del rend="strikethrough"><unclear reason="cancellation">dis</unclear></del><add place="below"><unclear>a</unclear></add></subst> si cantet <choice><abbr><unclear cert="low">psaltꝛ</unclear></abbr><expan cert="low">psalter</expan></choice> aures:</l>
-          <l n="62" xml:id="S-3.7-l62" facs="#S-3.7-zone-62" rend="indent">Quid <choice>
+          <l n="62" xml:id="S-3.7-l62" facs="#S-3.7-zone-62">Quid <choice>
               <abbr>miserū</abbr>
               <expan>miserum</expan>
             </choice> tacita picta tabella iuuat</l>
@@ -639,7 +639,7 @@
               <expan>mente</expan>
             </choice>
           </l>
-          <l n="64" xml:id="S-3.7-l64" facs="#S-3.7-zone-64" rend="indent">Quas ego <choice>
+          <l n="64" xml:id="S-3.7-l64" facs="#S-3.7-zone-64">Quas ego <choice>
               <abbr>n̄</abbr>
               <expan>non</expan>
             </choice> positu disposuique modos:</l>
@@ -657,7 +657,7 @@
               <abbr>mēbra</abbr>
               <expan>membra</expan>
             </choice>.</l>
-          <l n="66" xml:id="S-3.7-l66" facs="#S-3.7-zone-66" rend="indent">
+          <l n="66" xml:id="S-3.7-l66" facs="#S-3.7-zone-66">
             <choice>
               <abbr>Turpit̄</abbr>
               <expan>Turpiter</expan>
@@ -676,7 +676,7 @@
               <expan>ualetque</expan>
             </choice>
           </l>
-          <l n="68" xml:id="S-3.7-l68" facs="#S-3.7-zone-68" rend="indent">
+          <l n="68" xml:id="S-3.7-l68" facs="#S-3.7-zone-68">
             <choice>
               <abbr>N̄c</abbr>
               <expan>Nunc</expan>
@@ -705,7 +705,7 @@
               <expan>nostri</expan>
             </choice>
           </l>
-          <l n="70" xml:id="S-3.7-l70" facs="#S-3.7-zone-70" rend="indent">Sic <choice>
+          <l n="70" xml:id="S-3.7-l70" facs="#S-3.7-zone-70">Sic <choice>
               <abbr>sū</abbr>
               <expan>sum</expan>
             </choice> pollicitis <choice>
@@ -725,7 +725,7 @@
               <abbr>dep̄nsus</abbr>
               <expan>deprensus</expan>
             </choice> inermis</l>
-          <l n="72" xml:id="S-3.7-l72" facs="#S-3.7-zone-72" rend="indent">Tristia <choice>
+          <l n="72" xml:id="S-3.7-l72" facs="#S-3.7-zone-72">Tristia <choice>
               <abbr>cū</abbr>
               <expan>cum</expan>
             </choice> magno damna pudore tuli.</l>
@@ -739,7 +739,7 @@
               <abbr>ē</abbr>
               <expan>est</expan>
             </choice> mea dedignata puella.</l>
-          <l n="74" xml:id="S-3.7-l74" facs="#S-3.7-zone-74" rend="indent">Molliter admota sollicitare manu.</l>
+          <l n="74" xml:id="S-3.7-l74" facs="#S-3.7-zone-74">Molliter admota sollicitare manu.</l>
         </lg>
         <p>
           <gap reason="not-transmitted" quantity="10" unit="line" facs="#S-396 #S-397" xml:id="S-3.7-terminal-gap">
@@ -765,12 +765,12 @@
     </back>
   </text>
 </TEI></poem>
-  <poem n="3.8"><TEI/></poem>
-  <poem n="3.9"><TEI/></poem>
-  <poem n="3.10"><TEI/></poem>
-  <poem n="3.11"><TEI/></poem>
-  <poem n="3.12"><TEI/></poem>
-  <poem n="3.13"><TEI/></poem>
-  <poem n="3.14"><TEI/></poem>
-  <poem n="3.15"><TEI/></poem>
-</witness> 
+  <poem n="3.8"><TEI /></poem>
+  <poem n="3.9"><TEI /></poem>
+  <poem n="3.10"><TEI /></poem>
+  <poem n="3.11"><TEI /></poem>
+  <poem n="3.12"><TEI /></poem>
+  <poem n="3.13"><TEI /></poem>
+  <poem n="3.14"><TEI /></poem>
+  <poem n="3.15"><TEI /></poem>
+</witness>

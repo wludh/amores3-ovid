@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../docs/schema/tei_all-4.12.0.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="P" xml:id="P">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title>Ovid, Amores 3.12: witness P — independently source-reviewed</title>
+        <author>Publius Ovidius Naso</author>
+        <respStmt xml:id="P-3.12-encoder">
+          <resp>First-pass image transcription and TEI encoding</resp>
+          <name>OpenAI Codex</name>
+        </respStmt>
+      <respStmt xml:id="P-3.12-reviewer"><resp>Independent second source review and manuscript-description boundary audit</resp><name>OpenAI Codex independent encode_s agent</name></respStmt></titleStmt>
+      <publicationStmt>
+        <p>Amores Project local working transcription, 9 September 2026. Independently source-reviewed by a second agent; not human-approved.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="P-3.12-manuscript">
+          <msIdentifier>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France, Département des Manuscrits</repository>
+            <idno>Latin 8242</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus>Gallica digital images 97, 98; left/right positions identify physical pages in the photographed openings, not asserted medieval foliation.</locus>
+              <title>Amores 3.12</title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <handDesc>
+              <handNote>Main text and any darker interventions are distinguished where observed. No individual historical correcting hands are inferred from tonal contrast in monochrome photographs.</handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <p>The supplied BnF IIIF manifest dates the manuscript to 1001–1100. The catalogue dating is not a date assigned to individual interventions.</p>
+            </origin>
+          </history>
+          <additional>
+            <surrogates>
+              <p><ref target="https://gallica.bnf.fr/ark:/12148/btv1b9066797j">BnF Gallica Latin 8242</ref></p>
+              <p>The original full-resolution digital images and enlarged crops were inspected for this first pass. Gallica source reuse conditions apply. No text was populated from LL or another witness.</p>
+            <p><ref target="https://libsysdigi.library.illinois.edu/ilharvest/OtherCDM/chatem0001paldes/chatem0001paldes_v00002/chatem0001paldes_v00002_opt.pdf">Émile Chatelain, Paléographie des classiques latins II, plate XCI notice1 (printed II,1; PDF fifth page)</ref>: the direct manuscript description records Amores through3.12.26, resuming3.14.3, and blank paper marking a lacuna. This boundary evidence was independently checked alongside the photographs.</p></surrogates>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Source-grounded first reading of 23 annotated verse positions and inspection of three unlocated canonical alignment positions, with manuscript-specific spellings and observed interventions. The source photographs and exact boundary have received an independent second review.</p>
+      </projectDesc>
+      <editorialDecl>
+        <correction>
+          <p>No silent emendation from an edition or another witness. Local uncertain letters use unclear, irrecoverable text or signs use gap. Observed above-line letters use add. Tonal distinctions use hi without an invented underlying erased text or historical hand. Manuscript annotations use note type manuscript, distinct from editorial evidence notes.</p>
+        </correction>
+        <normalization>
+          <p>One source-oriented display. Ordinary allographs, long s, and capitals are represented in legible Latin types. Word boundaries are editorially segmented; no indentation whitespace is inserted inside verse mixed content. Selected ligatures and abbreviation signs are declared typographic approximations; explicit expansions remain in TEI rather than a separate reading mode. This is not a facsimile-perfect inventory of every minute stroke.</p>
+        </normalization>
+        <punctuation>
+          <p>Significant observed punctuation is retained schematically, without adding systematic modern sentence punctuation.</p>
+        </punctuation>
+        <segmentation>
+          <p>Each l is a canonical alignment container. Twenty-three retain original individual rectangles; positions 23–25 lack individual rectangles and point only to image 97. Those three locations and their written contents are unverified: no rectangle was fabricated and missing annotations were not treated as source absence. Extensive blackening prevents textual readings at most positions. A separate terminal gap describes the observed discontinuity before the surviving text of 3.14. Elegiac couplets are editorial grouping. Indentation is encoded only where the inspected source layout supports an offset; it is not inferred automatically from verse parity. Page breaks follow the photographed left/right physical pages. Facsimile zones reproduce the existing annotation rectangles unchanged; they may include neighbouring ink and exclude marginal annotations.</p>
+        </segmentation>
+        <interpretation>
+          <p>Every source position and note has received an independent second reading. The companion ledger records resolved boundary evidence and documented image uncertainty; the latter is not a user task.</p>
+        </interpretation>
+      </editorialDecl>
+      <charDecl>
+        <char xml:id="P-3.12-et">
+          <desc>ET LIGATURE, SCHEMATIC TYPE REPRESENTATION</desc>
+          <mapping type="display">&amp;</mapping>
+          <mapping type="expansion">et</mapping>
+        </char>
+      </charDecl>
+    </encodingDesc>
+    <revisionDesc status="agent-reviewed"><change when="2026-09-09" who="#P-3.12-reviewer">Independent inspection of full images97–98, all continuous source strips and original annotation crops, and every evidence note. Verified the3.12.26 to3.14.3 discontinuity against Chatelain’s direct manuscript description. Retained source uncertainty and original coordinates; no text supplied from another witness.</change>
+      <change when="2026-09-09" who="#P-3.12-encoder">Completed first reading from source images and enlarged crops, with line coverage and evidence notes. Independent second reading not yet performed.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="image 97" xml:id="P-3.12-image-97" ulx="0" uly="0" lrx="5810" lry="3969">
+      <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f97/full/full/0/native.jpg" />
+      <zone xml:id="P-3.12-zone-1" ulx="681" uly="531" lrx="2432" lry="756" />
+      <zone xml:id="P-3.12-zone-2" ulx="691" uly="754" lrx="2351" lry="922" />
+      <zone xml:id="P-3.12-zone-3" ulx="665" uly="879" lrx="2460" lry="1050" />
+      <zone xml:id="P-3.12-zone-4" ulx="632" uly="996" lrx="2380" lry="1140" />
+      <zone xml:id="P-3.12-zone-5" ulx="631" uly="1118" lrx="2440" lry="1240" />
+      <zone xml:id="P-3.12-zone-6" ulx="601" uly="1187" lrx="2314" lry="1358" />
+      <zone xml:id="P-3.12-zone-7" ulx="654" uly="1308" lrx="2414" lry="1476" />
+      <zone xml:id="P-3.12-zone-8" ulx="667" uly="1416" lrx="2337" lry="1588" />
+      <zone xml:id="P-3.12-zone-9" ulx="675" uly="1518" lrx="2334" lry="1687" />
+      <zone xml:id="P-3.12-zone-10" ulx="679" uly="1618" lrx="2327" lry="1787" />
+      <zone xml:id="P-3.12-zone-11" ulx="657" uly="1717" lrx="2289" lry="1909" />
+      <zone xml:id="P-3.12-zone-12" ulx="663" uly="1833" lrx="2259" lry="1997" />
+      <zone xml:id="P-3.12-zone-13" ulx="655" uly="1933" lrx="2333" lry="2127" />
+      <zone xml:id="P-3.12-zone-14" ulx="689" uly="2068" lrx="2322" lry="2231" />
+      <zone xml:id="P-3.12-zone-15" ulx="660" uly="2154" lrx="2401" lry="2333" />
+      <zone xml:id="P-3.12-zone-16" ulx="654" uly="2262" lrx="2325" lry="2430" />
+      <zone xml:id="P-3.12-zone-17" ulx="643" uly="2357" lrx="2354" lry="2536" />
+      <zone xml:id="P-3.12-zone-18" ulx="614" uly="2484" lrx="2329" lry="2648" />
+      <zone xml:id="P-3.12-zone-19" ulx="599" uly="2549" lrx="2412" lry="2729" />
+      <zone xml:id="P-3.12-zone-20" ulx="648" uly="2674" lrx="2403" lry="2834" />
+      <zone xml:id="P-3.12-zone-21" ulx="646" uly="2747" lrx="2465" lry="2961" />
+      <zone xml:id="P-3.12-zone-22" ulx="600" uly="2902" lrx="2483" lry="3141" />
+      <zone xml:id="P-3.12-zone-26" ulx="710" uly="3276" lrx="2331" lry="3449" />
+    </surface>
+    <surface n="image 98" xml:id="P-3.12-image-98" ulx="0" uly="0" lrx="5809" lry="3969">
+      <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f98/full/full/0/native.jpg" />
+    </surface>
+  </facsimile>
+  <text xml:lang="la">
+    <body>
+      <div type="poem" n="3.12" xml:id="P-3.12">
+        <lg type="couplet" n="1">
+          <pb n="image 97, left" facs="#P-3.12-image-97" />
+          <l n="1" xml:id="P-3.12-l1" facs="#P-3.12-zone-1"><gap reason="illegible" quantity="1" unit="line" /></l>
+          <l n="2" xml:id="P-3.12-l2" facs="#P-3.12-zone-2"><gap reason="illegible" quantity="1" unit="line" /></l>
+        </lg>
+        <lg type="couplet" n="2">
+          <l n="3" xml:id="P-3.12-l3" facs="#P-3.12-zone-3"><gap reason="illegible" quantity="1" unit="line" /></l>
+          <l n="4" xml:id="P-3.12-l4" facs="#P-3.12-zone-4"><gap reason="illegible" quantity="1" unit="line" /></l>
+        </lg>
+        <lg type="couplet" n="3">
+          <l n="5" xml:id="P-3.12-l5" facs="#P-3.12-zone-5"><gap reason="illegible" quantity="1" unit="line" /></l>
+          <l n="6" xml:id="P-3.12-l6" facs="#P-3.12-zone-6"><gap reason="illegible" quantity="1" unit="line" /></l>
+        </lg>
+        <lg type="couplet" n="4">
+          <l n="7" xml:id="P-3.12-l7" facs="#P-3.12-zone-7"><gap reason="illegible" extent="unknown" unit="character" /> <unclear>nostris innotuit illa</unclear> <gap reason="illegible" extent="unknown" unit="character" /></l>
+          <l n="8" xml:id="P-3.12-l8" facs="#P-3.12-zone-8"><gap reason="illegible" extent="unknown" unit="character" /> <unclear>prostitit illa meo</unclear></l>
+        </lg>
+        <lg type="couplet" n="5">
+          <l n="9" xml:id="P-3.12-l9" facs="#P-3.12-zone-9"><gap reason="illegible" extent="unknown" unit="character" /> <unclear>quid enim</unclear> <gap reason="illegible" extent="unknown" unit="character" /> <unclear>preconia feci</unclear></l>
+          <l n="10" xml:id="P-3.12-l10" facs="#P-3.12-zone-10"><gap reason="illegible" extent="unknown" unit="character" /> culpa <gap reason="illegible" extent="unknown" unit="character" /></l>
+        </lg>
+        <lg type="couplet" n="6">
+          <l n="11" xml:id="P-3.12-l11" facs="#P-3.12-zone-11"><gap reason="illegible" extent="unknown" unit="character" /> placet <gap reason="illegible" extent="unknown" unit="character" /></l>
+          <l n="12" xml:id="P-3.12-l12" facs="#P-3.12-zone-12"><unclear>Ianua per nostras</unclear> <gap reason="illegible" extent="unknown" unit="character" /></l>
+        </lg>
+        <lg type="couplet" n="7">
+          <l n="13" xml:id="P-3.12-l13" facs="#P-3.12-zone-13"><gap reason="illegible" quantity="1" unit="line" /></l>
+          <l n="14" xml:id="P-3.12-l14" facs="#P-3.12-zone-14"><gap reason="illegible" quantity="1" unit="line" /></l>
+        </lg>
+        <lg type="couplet" n="8">
+          <l n="15" xml:id="P-3.12-l15" facs="#P-3.12-zone-15"><gap reason="illegible" quantity="1" unit="line" /></l>
+          <l n="16" xml:id="P-3.12-l16" facs="#P-3.12-zone-16"><gap reason="illegible" quantity="1" unit="line" /></l>
+        </lg>
+        <lg type="couplet" n="9">
+          <l n="17" xml:id="P-3.12-l17" facs="#P-3.12-zone-17"><gap reason="illegible" quantity="1" unit="line" /></l>
+          <l n="18" xml:id="P-3.12-l18" facs="#P-3.12-zone-18"><gap reason="illegible" quantity="1" unit="line" /></l>
+        </lg>
+        <lg type="couplet" n="10">
+          <l n="19" xml:id="P-3.12-l19" facs="#P-3.12-zone-19"><gap reason="illegible" quantity="1" unit="line" /></l>
+          <l n="20" xml:id="P-3.12-l20" facs="#P-3.12-zone-20"><gap reason="illegible" quantity="1" unit="line" /></l>
+        </lg>
+        <lg type="couplet" n="11">
+          <l n="21" xml:id="P-3.12-l21" facs="#P-3.12-zone-21"><gap reason="illegible" quantity="1" unit="line" /></l>
+          <l n="22" xml:id="P-3.12-l22" facs="#P-3.12-zone-22"><gap reason="illegible" quantity="1" unit="line" /></l>
+        </lg>
+        <lg type="couplet" n="12">
+          <l n="23" xml:id="P-3.12-l23" facs="#P-3.12-image-97"><gap reason="illegible" quantity="1" unit="line"><desc>Canonical position 23 has no original rectangle. The full blackened lower-page interval was independently inspected, but its individual position and text cannot be located. This surface-linked alignment container records illegibility, not textual absence; no rectangle or wording is invented.</desc></gap></l>
+          <l n="24" xml:id="P-3.12-l24" facs="#P-3.12-image-97"><gap reason="illegible" quantity="1" unit="line"><desc>Canonical position 24 has no original rectangle. The full blackened lower-page interval was independently inspected, but its individual position and text cannot be located. This surface-linked alignment container records illegibility, not textual absence; no rectangle or wording is invented.</desc></gap></l>
+        </lg>
+        <lg type="couplet" n="13">
+          <l n="25" xml:id="P-3.12-l25" facs="#P-3.12-image-97"><gap reason="illegible" quantity="1" unit="line"><desc>Canonical position 25 has no original rectangle. The full blackened lower-page interval was independently inspected, but its individual position and text cannot be located. This surface-linked alignment container records illegibility, not textual absence; no rectangle or wording is invented.</desc></gap></l>
+          <l n="26" xml:id="P-3.12-l26" facs="#P-3.12-zone-26"><gap reason="illegible" quantity="1" unit="line" /></l>
+        </lg>
+        <gap reason="not-transmitted" quantity="18" unit="line" facs="#P-3.12-image-97 #P-3.12-image-98" xml:id="P-3.12-terminal-gap">
+          <desc>Canonical positions27–44 are not transmitted in the surviving sequence. Independent image review and Chatelain’s direct manuscript description establish the boundary3.12.26 to3.14.3. The 18 positions are canonical extent; no missing wording, exact physical line count, original leaf count or historical cause is supplied.</desc>
+        </gap>
+      </div>
+    </body>
+    <back>
+      <div type="editorial-notes">
+        <head>First-pass evidence notes</head>
+        <note xml:id="P-3.12-note-1" n="1" type="uncertainty" target="#P-3.12-l1" resp="#P-3.12-reviewer">Independent inspection of annotated position 1 in full image 97 and continuous enlarged source strips does not permit a defensible reading through the blackening. The line gap preserves the original alignment and zone; it does not claim independently readable letters or verified written content. No indentation, initial or punctuation is inferred.</note>
+        <note xml:id="P-3.12-note-2" n="2" type="uncertainty" target="#P-3.12-l2" resp="#P-3.12-reviewer">Independent inspection of annotated position 2 in full image 97 and continuous enlarged source strips does not permit a defensible reading through the blackening. The line gap preserves the original alignment and zone; it does not claim independently readable letters or verified written content. No indentation, initial or punctuation is inferred.</note>
+        <note xml:id="P-3.12-note-3" n="3" type="uncertainty" target="#P-3.12-l3" resp="#P-3.12-reviewer">Independent inspection of annotated position 3 in full image 97 and continuous enlarged source strips does not permit a defensible reading through the blackening. The line gap preserves the original alignment and zone; it does not claim independently readable letters or verified written content. No indentation, initial or punctuation is inferred.</note>
+        <note xml:id="P-3.12-note-4" n="4" type="uncertainty" target="#P-3.12-l4" resp="#P-3.12-reviewer">Independent inspection of annotated position 4 in full image 97 and continuous enlarged source strips does not permit a defensible reading through the blackening. The line gap preserves the original alignment and zone; it does not claim independently readable letters or verified written content. No indentation, initial or punctuation is inferred.</note>
+        <note xml:id="P-3.12-note-5" n="5" type="uncertainty" target="#P-3.12-l5" resp="#P-3.12-reviewer">Independent inspection of annotated position 5 in full image 97 and continuous enlarged source strips does not permit a defensible reading through the blackening. The line gap preserves the original alignment and zone; it does not claim independently readable letters or verified written content. No indentation, initial or punctuation is inferred.</note>
+        <note xml:id="P-3.12-note-6" n="6" type="uncertainty" target="#P-3.12-l6" resp="#P-3.12-reviewer">Independent inspection of annotated position 6 in full image 97 and continuous enlarged source strips does not permit a defensible reading through the blackening. The line gap preserves the original alignment and zone; it does not claim independently readable letters or verified written content. No indentation, initial or punctuation is inferred.</note>
+        <note xml:id="P-3.12-note-7" n="7" type="uncertainty" target="#P-3.12-l7" resp="#P-3.12-reviewer">The remaining strokes support only tentative nostris innotuit illa; blackening obscures both ends. No additional words are supplied.</note>
+        <note xml:id="P-3.12-note-8" n="8" type="uncertainty" target="#P-3.12-l8" resp="#P-3.12-reviewer">Prostitit illa meo remains tentative in the damaged band. A pale patch and blackening obscure the opening; no complete phrase is reconstructed.</note>
+        <note xml:id="P-3.12-note-9" n="9" type="uncertainty" target="#P-3.12-l9" resp="#P-3.12-reviewer">Quid enim and preconia feci remain tentative isolated groups. Intervening blackening and a diagonal scratch do not support a continuous verse.</note>
+        <note xml:id="P-3.12-note-10" n="10" type="uncertainty" target="#P-3.12-l10" resp="#P-3.12-reviewer">Culpa is readable in the surviving band. The surrounding writing remains obscured and is retained as gaps.</note>
+        <note xml:id="P-3.12-note-11" n="11" type="uncertainty" target="#P-3.12-l11" resp="#P-3.12-reviewer">Placet is visible in the surviving row; adjacent strokes merge with blackening and do not establish complete words.</note>
+        <note xml:id="P-3.12-note-12" n="12" type="uncertainty" target="#P-3.12-l12" resp="#P-3.12-reviewer">Ianua per nostras remains a tentative source reading. The right side is obscured, so the remainder stays a gap.</note>
+        <note xml:id="P-3.12-note-13" n="13" type="uncertainty" target="#P-3.12-l13" resp="#P-3.12-reviewer">Independent inspection of annotated position 13 in full image 97 and continuous enlarged source strips does not permit a defensible reading through the blackening. The line gap preserves the original alignment and zone; it does not claim independently readable letters or verified written content. No indentation, initial or punctuation is inferred.</note>
+        <note xml:id="P-3.12-note-14" n="14" type="uncertainty" target="#P-3.12-l14" resp="#P-3.12-reviewer">Independent inspection of annotated position 14 in full image 97 and continuous enlarged source strips does not permit a defensible reading through the blackening. The line gap preserves the original alignment and zone; it does not claim independently readable letters or verified written content. No indentation, initial or punctuation is inferred.</note>
+        <note xml:id="P-3.12-note-15" n="15" type="uncertainty" target="#P-3.12-l15" resp="#P-3.12-reviewer">Independent inspection of annotated position 15 in full image 97 and continuous enlarged source strips does not permit a defensible reading through the blackening. The line gap preserves the original alignment and zone; it does not claim independently readable letters or verified written content. No indentation, initial or punctuation is inferred.</note>
+        <note xml:id="P-3.12-note-16" n="16" type="uncertainty" target="#P-3.12-l16" resp="#P-3.12-reviewer">Independent inspection of annotated position 16 in full image 97 and continuous enlarged source strips does not permit a defensible reading through the blackening. The line gap preserves the original alignment and zone; it does not claim independently readable letters or verified written content. No indentation, initial or punctuation is inferred.</note>
+        <note xml:id="P-3.12-note-17" n="17" type="uncertainty" target="#P-3.12-l17" resp="#P-3.12-reviewer">Independent inspection of annotated position 17 in full image 97 and continuous enlarged source strips does not permit a defensible reading through the blackening. The line gap preserves the original alignment and zone; it does not claim independently readable letters or verified written content. No indentation, initial or punctuation is inferred.</note>
+        <note xml:id="P-3.12-note-18" n="18" type="uncertainty" target="#P-3.12-l18" resp="#P-3.12-reviewer">Independent inspection of annotated position 18 in full image 97 and continuous enlarged source strips does not permit a defensible reading through the blackening. The line gap preserves the original alignment and zone; it does not claim independently readable letters or verified written content. No indentation, initial or punctuation is inferred.</note>
+        <note xml:id="P-3.12-note-19" n="19" type="uncertainty" target="#P-3.12-l19" resp="#P-3.12-reviewer">Independent inspection of annotated position 19 in full image 97 and continuous enlarged source strips does not permit a defensible reading through the blackening. The line gap preserves the original alignment and zone; it does not claim independently readable letters or verified written content. No indentation, initial or punctuation is inferred.</note>
+        <note xml:id="P-3.12-note-20" n="20" type="uncertainty" target="#P-3.12-l20" resp="#P-3.12-reviewer">Independent inspection of annotated position 20 in full image 97 and continuous enlarged source strips does not permit a defensible reading through the blackening. The line gap preserves the original alignment and zone; it does not claim independently readable letters or verified written content. No indentation, initial or punctuation is inferred.</note>
+        <note xml:id="P-3.12-note-21" n="21" type="uncertainty" target="#P-3.12-l21" resp="#P-3.12-reviewer">Independent inspection of annotated position 21 in full image 97 and continuous enlarged source strips does not permit a defensible reading through the blackening. The line gap preserves the original alignment and zone; it does not claim independently readable letters or verified written content. No indentation, initial or punctuation is inferred.</note>
+        <note xml:id="P-3.12-note-22" n="22" type="uncertainty" target="#P-3.12-l22" resp="#P-3.12-reviewer">Independent inspection of annotated position 22 in full image 97 and continuous enlarged source strips does not permit a defensible reading through the blackening. The line gap preserves the original alignment and zone; it does not claim independently readable letters or verified written content. No indentation, initial or punctuation is inferred.</note>
+        <note xml:id="P-3.12-note-23" n="23" type="uncertainty" target="#P-3.12-l23" resp="#P-3.12-reviewer">Canonical position 23 has no original rectangle. The full blackened lower-page interval was independently inspected, but its individual position and text cannot be located. This surface-linked alignment container records illegibility, not textual absence; no rectangle or wording is invented.</note>
+        <note xml:id="P-3.12-note-24" n="24" type="uncertainty" target="#P-3.12-l24" resp="#P-3.12-reviewer">Canonical position 24 has no original rectangle. The full blackened lower-page interval was independently inspected, but its individual position and text cannot be located. This surface-linked alignment container records illegibility, not textual absence; no rectangle or wording is invented.</note>
+        <note xml:id="P-3.12-note-25" n="25" type="uncertainty" target="#P-3.12-l25" resp="#P-3.12-reviewer">Canonical position 25 has no original rectangle. The full blackened lower-page interval was independently inspected, but its individual position and text cannot be located. This surface-linked alignment container records illegibility, not textual absence; no rectangle or wording is invented.</note>
+        <note xml:id="P-3.12-note-26" n="26" type="uncertainty" target="#P-3.12-l26" resp="#P-3.12-reviewer">Independent inspection of annotated position 26 in full image 97 and continuous enlarged source strips does not permit a defensible reading through the blackening. The line gap preserves the original alignment and zone; it does not claim independently readable letters or verified written content. No indentation, initial or punctuation is inferred. The exact later discontinuity is corroborated by the separately cited manuscript description; that evidence does not recover the text under this stain.</note>
+      </div>
+    <note xml:id="P-3.12-note-absence" n="27–44" type="observation" target="#P-3.12-terminal-gap" resp="#P-3.12-reviewer">Independent inspection of full images 97 and 98 and continuous enlarged strips shows a blackened page carrying the surviving 3.12 region, an intervening blank support leaf with Desunt hic quaedam, and the next surviving verse text on image 98. Readable rows there include crimina pone tuo, identifying 3.14; the later Ex XIII. eleg. label does not override that identification. Chatelain’s manuscript description explicitly lists transmission through 3.12.26 and resumption at 3.14.3, independently supporting the exact canonical boundary. Neither the number of originally lost leaves nor a historical cause is inferred. The absent alignment extent is 27–44, separate from the unlocated but obscured positions23–25.</note>
+</back>
+  </text>
+</TEI>

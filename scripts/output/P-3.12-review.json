@@ -1,0 +1,550 @@
+{
+  "witness": "P",
+  "poem": "3.12",
+  "date": "2026-09-09",
+  "reviewer": "OpenAI Codex independent encode_s agent",
+  "author_agent": "/root/encode_p",
+  "reviewer_agent": "/root/encode_s",
+  "review_type": "independent-second-agent-image-and-source-absence-review",
+  "human_approved": false,
+  "line_coverage": {
+    "count": 26,
+    "ranges": [
+      {
+        "page": "97 left (canonical positions; most obscured)",
+        "start": 1,
+        "end": 26
+      }
+    ],
+    "partially_readable_positions": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "line_order": [
+    "P-3.12-l1",
+    "P-3.12-l2",
+    "P-3.12-l3",
+    "P-3.12-l4",
+    "P-3.12-l5",
+    "P-3.12-l6",
+    "P-3.12-l7",
+    "P-3.12-l8",
+    "P-3.12-l9",
+    "P-3.12-l10",
+    "P-3.12-l11",
+    "P-3.12-l12",
+    "P-3.12-l13",
+    "P-3.12-l14",
+    "P-3.12-l15",
+    "P-3.12-l16",
+    "P-3.12-l17",
+    "P-3.12-l18",
+    "P-3.12-l19",
+    "P-3.12-l20",
+    "P-3.12-l21",
+    "P-3.12-l22",
+    "P-3.12-l23",
+    "P-3.12-l24",
+    "P-3.12-l25",
+    "P-3.12-l26"
+  ],
+  "counts": {
+    "resolved": 1,
+    "documented-uncertainty": 26,
+    "escalate": 0
+  },
+  "notes": [
+    {
+      "note_id": "P-3.12-note-1",
+      "line": 1,
+      "target": "#P-3.12-l1",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "97 left",
+        "image": "/tmp/amores-p-corpus/f97.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f97/full/full/0/native.jpg",
+        "assessment": "Independent inspection of annotated position 1 in full image 97 and continuous enlarged source strips does not permit a defensible reading through the blackening. The line gap preserves the original alignment and zone; it does not claim independently readable letters or verified written content. No indentation, initial or punctuation is inferred.",
+        "crop": "/tmp/amores-p312/line-001.png"
+      },
+      "change": "Independent source evidence and disposition recorded; local uncertainty preserved."
+    },
+    {
+      "note_id": "P-3.12-note-2",
+      "line": 2,
+      "target": "#P-3.12-l2",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "97 left",
+        "image": "/tmp/amores-p-corpus/f97.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f97/full/full/0/native.jpg",
+        "assessment": "Independent inspection of annotated position 2 in full image 97 and continuous enlarged source strips does not permit a defensible reading through the blackening. The line gap preserves the original alignment and zone; it does not claim independently readable letters or verified written content. No indentation, initial or punctuation is inferred.",
+        "crop": "/tmp/amores-p312/line-002.png"
+      },
+      "change": "Independent source evidence and disposition recorded; local uncertainty preserved."
+    },
+    {
+      "note_id": "P-3.12-note-3",
+      "line": 3,
+      "target": "#P-3.12-l3",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "97 left",
+        "image": "/tmp/amores-p-corpus/f97.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f97/full/full/0/native.jpg",
+        "assessment": "Independent inspection of annotated position 3 in full image 97 and continuous enlarged source strips does not permit a defensible reading through the blackening. The line gap preserves the original alignment and zone; it does not claim independently readable letters or verified written content. No indentation, initial or punctuation is inferred.",
+        "crop": "/tmp/amores-p312/line-003.png"
+      },
+      "change": "Independent source evidence and disposition recorded; local uncertainty preserved."
+    },
+    {
+      "note_id": "P-3.12-note-4",
+      "line": 4,
+      "target": "#P-3.12-l4",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "97 left",
+        "image": "/tmp/amores-p-corpus/f97.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f97/full/full/0/native.jpg",
+        "assessment": "Independent inspection of annotated position 4 in full image 97 and continuous enlarged source strips does not permit a defensible reading through the blackening. The line gap preserves the original alignment and zone; it does not claim independently readable letters or verified written content. No indentation, initial or punctuation is inferred.",
+        "crop": "/tmp/amores-p312/line-004.png"
+      },
+      "change": "Independent source evidence and disposition recorded; local uncertainty preserved."
+    },
+    {
+      "note_id": "P-3.12-note-5",
+      "line": 5,
+      "target": "#P-3.12-l5",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "97 left",
+        "image": "/tmp/amores-p-corpus/f97.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f97/full/full/0/native.jpg",
+        "assessment": "Independent inspection of annotated position 5 in full image 97 and continuous enlarged source strips does not permit a defensible reading through the blackening. The line gap preserves the original alignment and zone; it does not claim independently readable letters or verified written content. No indentation, initial or punctuation is inferred.",
+        "crop": "/tmp/amores-p312/line-005.png"
+      },
+      "change": "Independent source evidence and disposition recorded; local uncertainty preserved."
+    },
+    {
+      "note_id": "P-3.12-note-6",
+      "line": 6,
+      "target": "#P-3.12-l6",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "97 left",
+        "image": "/tmp/amores-p-corpus/f97.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f97/full/full/0/native.jpg",
+        "assessment": "Independent inspection of annotated position 6 in full image 97 and continuous enlarged source strips does not permit a defensible reading through the blackening. The line gap preserves the original alignment and zone; it does not claim independently readable letters or verified written content. No indentation, initial or punctuation is inferred.",
+        "crop": "/tmp/amores-p312/line-006.png"
+      },
+      "change": "Independent source evidence and disposition recorded; local uncertainty preserved."
+    },
+    {
+      "note_id": "P-3.12-note-7",
+      "line": 7,
+      "target": "#P-3.12-l7",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "97 left",
+        "image": "/tmp/amores-p-corpus/f97.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f97/full/full/0/native.jpg",
+        "assessment": "The remaining strokes support only tentative nostris innotuit illa; blackening obscures both ends. No additional words are supplied.",
+        "crop": "/tmp/amores-p312/line-007.png"
+      },
+      "change": "Independent source evidence and disposition recorded; local uncertainty preserved."
+    },
+    {
+      "note_id": "P-3.12-note-8",
+      "line": 8,
+      "target": "#P-3.12-l8",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "97 left",
+        "image": "/tmp/amores-p-corpus/f97.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f97/full/full/0/native.jpg",
+        "assessment": "Prostitit illa meo remains tentative in the damaged band. A pale patch and blackening obscure the opening; no complete phrase is reconstructed.",
+        "crop": "/tmp/amores-p312/line-008.png"
+      },
+      "change": "Independent source evidence and disposition recorded; local uncertainty preserved."
+    },
+    {
+      "note_id": "P-3.12-note-9",
+      "line": 9,
+      "target": "#P-3.12-l9",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "97 left",
+        "image": "/tmp/amores-p-corpus/f97.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f97/full/full/0/native.jpg",
+        "assessment": "Quid enim and preconia feci remain tentative isolated groups. Intervening blackening and a diagonal scratch do not support a continuous verse.",
+        "crop": "/tmp/amores-p312/line-009.png"
+      },
+      "change": "Independent source evidence and disposition recorded; local uncertainty preserved."
+    },
+    {
+      "note_id": "P-3.12-note-10",
+      "line": 10,
+      "target": "#P-3.12-l10",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "97 left",
+        "image": "/tmp/amores-p-corpus/f97.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f97/full/full/0/native.jpg",
+        "assessment": "Culpa is readable in the surviving band. The surrounding writing remains obscured and is retained as gaps.",
+        "crop": "/tmp/amores-p312/line-010.png"
+      },
+      "change": "Independent source evidence and disposition recorded; local uncertainty preserved."
+    },
+    {
+      "note_id": "P-3.12-note-11",
+      "line": 11,
+      "target": "#P-3.12-l11",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "97 left",
+        "image": "/tmp/amores-p-corpus/f97.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f97/full/full/0/native.jpg",
+        "assessment": "Placet is visible in the surviving row; adjacent strokes merge with blackening and do not establish complete words.",
+        "crop": "/tmp/amores-p312/line-011.png"
+      },
+      "change": "Independent source evidence and disposition recorded; local uncertainty preserved."
+    },
+    {
+      "note_id": "P-3.12-note-12",
+      "line": 12,
+      "target": "#P-3.12-l12",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "97 left",
+        "image": "/tmp/amores-p-corpus/f97.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f97/full/full/0/native.jpg",
+        "assessment": "Ianua per nostras remains a tentative source reading. The right side is obscured, so the remainder stays a gap.",
+        "crop": "/tmp/amores-p312/line-012.png"
+      },
+      "change": "Independent source evidence and disposition recorded; local uncertainty preserved."
+    },
+    {
+      "note_id": "P-3.12-note-13",
+      "line": 13,
+      "target": "#P-3.12-l13",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "97 left",
+        "image": "/tmp/amores-p-corpus/f97.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f97/full/full/0/native.jpg",
+        "assessment": "Independent inspection of annotated position 13 in full image 97 and continuous enlarged source strips does not permit a defensible reading through the blackening. The line gap preserves the original alignment and zone; it does not claim independently readable letters or verified written content. No indentation, initial or punctuation is inferred.",
+        "crop": "/tmp/amores-p312/line-013.png"
+      },
+      "change": "Independent source evidence and disposition recorded; local uncertainty preserved."
+    },
+    {
+      "note_id": "P-3.12-note-14",
+      "line": 14,
+      "target": "#P-3.12-l14",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "97 left",
+        "image": "/tmp/amores-p-corpus/f97.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f97/full/full/0/native.jpg",
+        "assessment": "Independent inspection of annotated position 14 in full image 97 and continuous enlarged source strips does not permit a defensible reading through the blackening. The line gap preserves the original alignment and zone; it does not claim independently readable letters or verified written content. No indentation, initial or punctuation is inferred.",
+        "crop": "/tmp/amores-p312/line-014.png"
+      },
+      "change": "Independent source evidence and disposition recorded; local uncertainty preserved."
+    },
+    {
+      "note_id": "P-3.12-note-15",
+      "line": 15,
+      "target": "#P-3.12-l15",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "97 left",
+        "image": "/tmp/amores-p-corpus/f97.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f97/full/full/0/native.jpg",
+        "assessment": "Independent inspection of annotated position 15 in full image 97 and continuous enlarged source strips does not permit a defensible reading through the blackening. The line gap preserves the original alignment and zone; it does not claim independently readable letters or verified written content. No indentation, initial or punctuation is inferred.",
+        "crop": "/tmp/amores-p312/line-015.png"
+      },
+      "change": "Independent source evidence and disposition recorded; local uncertainty preserved."
+    },
+    {
+      "note_id": "P-3.12-note-16",
+      "line": 16,
+      "target": "#P-3.12-l16",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "97 left",
+        "image": "/tmp/amores-p-corpus/f97.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f97/full/full/0/native.jpg",
+        "assessment": "Independent inspection of annotated position 16 in full image 97 and continuous enlarged source strips does not permit a defensible reading through the blackening. The line gap preserves the original alignment and zone; it does not claim independently readable letters or verified written content. No indentation, initial or punctuation is inferred.",
+        "crop": "/tmp/amores-p312/line-016.png"
+      },
+      "change": "Independent source evidence and disposition recorded; local uncertainty preserved."
+    },
+    {
+      "note_id": "P-3.12-note-17",
+      "line": 17,
+      "target": "#P-3.12-l17",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "97 left",
+        "image": "/tmp/amores-p-corpus/f97.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f97/full/full/0/native.jpg",
+        "assessment": "Independent inspection of annotated position 17 in full image 97 and continuous enlarged source strips does not permit a defensible reading through the blackening. The line gap preserves the original alignment and zone; it does not claim independently readable letters or verified written content. No indentation, initial or punctuation is inferred.",
+        "crop": "/tmp/amores-p312/line-017.png"
+      },
+      "change": "Independent source evidence and disposition recorded; local uncertainty preserved."
+    },
+    {
+      "note_id": "P-3.12-note-18",
+      "line": 18,
+      "target": "#P-3.12-l18",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "97 left",
+        "image": "/tmp/amores-p-corpus/f97.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f97/full/full/0/native.jpg",
+        "assessment": "Independent inspection of annotated position 18 in full image 97 and continuous enlarged source strips does not permit a defensible reading through the blackening. The line gap preserves the original alignment and zone; it does not claim independently readable letters or verified written content. No indentation, initial or punctuation is inferred.",
+        "crop": "/tmp/amores-p312/line-018.png"
+      },
+      "change": "Independent source evidence and disposition recorded; local uncertainty preserved."
+    },
+    {
+      "note_id": "P-3.12-note-19",
+      "line": 19,
+      "target": "#P-3.12-l19",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "97 left",
+        "image": "/tmp/amores-p-corpus/f97.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f97/full/full/0/native.jpg",
+        "assessment": "Independent inspection of annotated position 19 in full image 97 and continuous enlarged source strips does not permit a defensible reading through the blackening. The line gap preserves the original alignment and zone; it does not claim independently readable letters or verified written content. No indentation, initial or punctuation is inferred.",
+        "crop": "/tmp/amores-p312/line-019.png"
+      },
+      "change": "Independent source evidence and disposition recorded; local uncertainty preserved."
+    },
+    {
+      "note_id": "P-3.12-note-20",
+      "line": 20,
+      "target": "#P-3.12-l20",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "97 left",
+        "image": "/tmp/amores-p-corpus/f97.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f97/full/full/0/native.jpg",
+        "assessment": "Independent inspection of annotated position 20 in full image 97 and continuous enlarged source strips does not permit a defensible reading through the blackening. The line gap preserves the original alignment and zone; it does not claim independently readable letters or verified written content. No indentation, initial or punctuation is inferred.",
+        "crop": "/tmp/amores-p312/line-020.png"
+      },
+      "change": "Independent source evidence and disposition recorded; local uncertainty preserved."
+    },
+    {
+      "note_id": "P-3.12-note-21",
+      "line": 21,
+      "target": "#P-3.12-l21",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "97 left",
+        "image": "/tmp/amores-p-corpus/f97.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f97/full/full/0/native.jpg",
+        "assessment": "Independent inspection of annotated position 21 in full image 97 and continuous enlarged source strips does not permit a defensible reading through the blackening. The line gap preserves the original alignment and zone; it does not claim independently readable letters or verified written content. No indentation, initial or punctuation is inferred.",
+        "crop": "/tmp/amores-p312/line-021.png"
+      },
+      "change": "Independent source evidence and disposition recorded; local uncertainty preserved."
+    },
+    {
+      "note_id": "P-3.12-note-22",
+      "line": 22,
+      "target": "#P-3.12-l22",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "97 left",
+        "image": "/tmp/amores-p-corpus/f97.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f97/full/full/0/native.jpg",
+        "assessment": "Independent inspection of annotated position 22 in full image 97 and continuous enlarged source strips does not permit a defensible reading through the blackening. The line gap preserves the original alignment and zone; it does not claim independently readable letters or verified written content. No indentation, initial or punctuation is inferred.",
+        "crop": "/tmp/amores-p312/line-022.png"
+      },
+      "change": "Independent source evidence and disposition recorded; local uncertainty preserved."
+    },
+    {
+      "note_id": "P-3.12-note-23",
+      "line": 23,
+      "target": "#P-3.12-l23",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "97 left",
+        "image": "/tmp/amores-p-corpus/f97.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f97/full/full/0/native.jpg",
+        "assessment": "Canonical position 23 has no original rectangle. The full blackened lower-page interval was independently inspected, but its individual position and text cannot be located. This surface-linked alignment container records illegibility, not textual absence; no rectangle or wording is invented."
+      },
+      "change": "Independent source evidence and disposition recorded; local uncertainty preserved."
+    },
+    {
+      "note_id": "P-3.12-note-24",
+      "line": 24,
+      "target": "#P-3.12-l24",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "97 left",
+        "image": "/tmp/amores-p-corpus/f97.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f97/full/full/0/native.jpg",
+        "assessment": "Canonical position 24 has no original rectangle. The full blackened lower-page interval was independently inspected, but its individual position and text cannot be located. This surface-linked alignment container records illegibility, not textual absence; no rectangle or wording is invented."
+      },
+      "change": "Independent source evidence and disposition recorded; local uncertainty preserved."
+    },
+    {
+      "note_id": "P-3.12-note-25",
+      "line": 25,
+      "target": "#P-3.12-l25",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "97 left",
+        "image": "/tmp/amores-p-corpus/f97.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f97/full/full/0/native.jpg",
+        "assessment": "Canonical position 25 has no original rectangle. The full blackened lower-page interval was independently inspected, but its individual position and text cannot be located. This surface-linked alignment container records illegibility, not textual absence; no rectangle or wording is invented."
+      },
+      "change": "Independent source evidence and disposition recorded; local uncertainty preserved."
+    },
+    {
+      "note_id": "P-3.12-note-26",
+      "line": 26,
+      "target": "#P-3.12-l26",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "97 left",
+        "image": "/tmp/amores-p-corpus/f97.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f97/full/full/0/native.jpg",
+        "assessment": "Independent inspection of annotated position 26 in full image 97 and continuous enlarged source strips does not permit a defensible reading through the blackening. The line gap preserves the original alignment and zone; it does not claim independently readable letters or verified written content. No indentation, initial or punctuation is inferred. The exact later discontinuity is corroborated by the separately cited manuscript description; that evidence does not recover the text under this stain.",
+        "crop": "/tmp/amores-p312/line-026.png"
+      },
+      "change": "Independent source evidence and disposition recorded; local uncertainty preserved."
+    },
+    {
+      "note_id": "P-3.12-note-absence",
+      "line": "27–44",
+      "target": "#P-3.12-terminal-gap",
+      "previous_type": "second-pass-addition",
+      "status": "resolved",
+      "evidence": {
+        "page": "97–98",
+        "image": "/tmp/amores-p-corpus/f97.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f97/full/full/0/native.jpg",
+        "assessment": "Independent inspection of full images 97 and 98 and continuous enlarged strips shows a blackened page carrying the surviving 3.12 region, an intervening blank support leaf with Desunt hic quaedam, and the next surviving verse text on image 98. Readable rows there include crimina pone tuo, identifying 3.14; the later Ex XIII. eleg. label does not override that identification. Chatelain’s manuscript description explicitly lists transmission through 3.12.26 and resumption at 3.14.3, independently supporting the exact canonical boundary. Neither the number of originally lost leaves nor a historical cause is inferred. The absent alignment extent is 27–44, separate from the unlocated but obscured positions23–25.",
+        "additional_image": "/tmp/amores-p-corpus/f98.jpg",
+        "additional_source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f98/full/full/0/native.jpg",
+        "manuscript_description": "https://libsysdigi.library.illinois.edu/ilharvest/OtherCDM/chatem0001paldes/chatem0001paldes_v00002/chatem0001paldes_v00002_opt.pdf"
+      },
+      "change": "Independent source evidence and disposition recorded; local uncertainty preserved."
+    }
+  ],
+  "absent_lines": [
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44
+  ],
+  "absence_evidence": {
+    "assessment": "Independent inspection of full images 97 and 98 and continuous enlarged strips shows a blackened page carrying the surviving 3.12 region, an intervening blank support leaf with Desunt hic quaedam, and the next surviving verse text on image 98. Readable rows there include crimina pone tuo, identifying 3.14; the later Ex XIII. eleg. label does not override that identification. Chatelain’s manuscript description explicitly lists transmission through 3.12.26 and resumption at 3.14.3, independently supporting the exact canonical boundary. Neither the number of originally lost leaves nor a historical cause is inferred.",
+    "catalogue": {
+      "url": "https://libsysdigi.library.illinois.edu/ilharvest/OtherCDM/chatem0001paldes/chatem0001paldes_v00002/chatem0001paldes_v00002_opt.pdf",
+      "bibliography": "Émile Chatelain, Paléographie des classiques latins, deuxième partie (1894–1900), plate XCI, notice1, printed introductory page II,1 (PDF fifth page, zero-based4).",
+      "local_file": "/tmp/amores-p312-review/chatelain.pdf",
+      "sha256": "fb3b153a93021eba0ca1491de11c3f52d35ea1f255fc254a842b7d637b4f1833",
+      "endpoint": "3.12.26",
+      "resumption": "3.14.3",
+      "assessment": "The direct manuscript description explicitly records the discontinuity and blank paper marking a lacuna. This corroborates the actual photographed sequence."
+    },
+    "image_evidence": [
+      {
+        "viewer_index": 97,
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f97/full/full/0/native.jpg",
+        "image": "/tmp/amores-p-corpus/f97.jpg",
+        "sha256": "fb02d2294a899a1f5c6bd1255c6a676c92a4fc4fbe4a0586cc3c1df530c0a78d",
+        "observation": "Blackened3.12 region at left; blank support leaf with later gap inscription at right."
+      },
+      {
+        "viewer_index": 98,
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f98/full/full/0/native.jpg",
+        "image": "/tmp/amores-p-corpus/f98.jpg",
+        "sha256": "79e8165e1cf6a09c48f9f59b6e5fbd1563eff42c3e811efec2a3430dc64751df",
+        "observation": "Blank support surface at left; next surviving text at right, with readable3.14 rows below blackening."
+      }
+    ]
+  },
+  "unlocated_lines": [
+    {
+      "line": 23,
+      "target": "P-3.12-l23",
+      "facs": "#P-3.12-image-97",
+      "status": "illegible_unlocated",
+      "evidence": "Canonical position 23 has no original rectangle. The full blackened lower-page interval was independently inspected, but its individual position and text cannot be located. This surface-linked alignment container records illegibility, not textual absence; no rectangle or wording is invented.",
+      "note_id": "P-3.12-note-23",
+      "source_graphic": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f97/full/full/0/native.jpg",
+      "viewer_page": 97
+    },
+    {
+      "line": 24,
+      "target": "P-3.12-l24",
+      "facs": "#P-3.12-image-97",
+      "status": "illegible_unlocated",
+      "evidence": "Canonical position 24 has no original rectangle. The full blackened lower-page interval was independently inspected, but its individual position and text cannot be located. This surface-linked alignment container records illegibility, not textual absence; no rectangle or wording is invented.",
+      "note_id": "P-3.12-note-24",
+      "source_graphic": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f97/full/full/0/native.jpg",
+      "viewer_page": 97
+    },
+    {
+      "line": 25,
+      "target": "P-3.12-l25",
+      "facs": "#P-3.12-image-97",
+      "status": "illegible_unlocated",
+      "evidence": "Canonical position 25 has no original rectangle. The full blackened lower-page interval was independently inspected, but its individual position and text cannot be located. This surface-linked alignment container records illegibility, not textual absence; no rectangle or wording is invented.",
+      "note_id": "P-3.12-note-25",
+      "source_graphic": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f97/full/full/0/native.jpg",
+      "viewer_page": 97
+    }
+  ],
+  "reviewed_candidate_sha256": "c355bbc3ebc5a5f1600e69f3490b83bde14b8ee841414a871a0327637cd618dd",
+  "review_report_sha256": "89a4a531f39c737e7f4755acecc430e280374839d69902edc80626df26db2732",
+  "reviewed_xml_sha256": "bdf9a87cc4f3b31fd93ca4fa7ecccabc467c41997212392d679af8209431945f"
+}

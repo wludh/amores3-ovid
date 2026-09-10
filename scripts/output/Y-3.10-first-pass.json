@@ -1,0 +1,273 @@
+{
+  "witness": "Y",
+  "poem": "3.10",
+  "date": "2026-09-09",
+  "stage": "first-pass",
+  "independently_reviewed": false,
+  "human_approved": false,
+  "coverage": [
+    {
+      "page": 134,
+      "folio": "65v",
+      "start": 1,
+      "end": 6,
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0134/full/full/0/default.jpg"
+    },
+    {
+      "page": 135,
+      "folio": "66r",
+      "start": 7,
+      "end": 46,
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0135/full/full/0/default.jpg"
+    },
+    {
+      "page": 136,
+      "folio": "66v",
+      "start": 47,
+      "end": 48,
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0136/full/full/0/default.jpg"
+    }
+  ],
+  "line_count": 48,
+  "annotation_policy": "There are 96 original annotation rows for 48 distinct source verses. Twenty-seven duplicate pairs differ in bounds. The last existing row per verse was selected consistently; every selected rectangle was inspected against its source line. This selection preserves an existing rectangle rather than creating a replacement. Every original rectangle was inspected and all original bounds are retained. Some rectangles include neighbouring text, while additions can extend outside the navigation rectangle. sourceWitness=LL and panelId record annotation provenance only; no LL text was consulted.",
+  "notes": [
+    {
+      "note_id": "Y-3.10-note-1",
+      "line": 1,
+      "type": "observation",
+      "evidence": "An ornamental A extends beside the opening couplet. The source writes cerealis; its spelling is retained."
+    },
+    {
+      "note_id": "Y-3.10-note-4",
+      "line": 4,
+      "type": "observation",
+      "evidence": "The b of inhibes is dark. No earlier letter or separate historical hand is inferred."
+    },
+    {
+      "note_id": "Y-3.10-note-5",
+      "line": 5,
+      "type": "observation",
+      "evidence": "The baseline reads ubiquaque, with abbreviated cunq and a terminal que sign above the qua area. The raised cunque is encoded as an addition with explicit expansion; no cancellation of the baseline is securely visible."
+    },
+    {
+      "note_id": "Y-3.10-note-10",
+      "line": 10,
+      "type": "observation",
+      "evidence": "Cibus is written above erat, and torus above the final cibus. Both baseline words are retained because full cancellation is not established. The et ligature between erat and teneri is retained."
+    },
+    {
+      "note_id": "Y-3.10-note-15",
+      "line": 15,
+      "type": "observation",
+      "evidence": "The final i of laetari is darker, without evidence supporting a recoverable earlier letter."
+    },
+    {
+      "note_id": "Y-3.10-note-16",
+      "line": 16,
+      "type": "observation",
+      "evidence": "A question-like sign closes the verse; its typographic form is schematic."
+    },
+    {
+      "note_id": "Y-3.10-note-17",
+      "line": 17,
+      "type": "uncertainty",
+      "evidence": "The source appears agrosam before the et ligature and illa feraces. The connected ending is retained as written, without normalizing the phrase."
+    },
+    {
+      "note_id": "Y-3.10-note-18",
+      "line": 18,
+      "type": "uncertainty",
+      "evidence": "The initial h of hamoris is crossed and has a dot beneath; a small h is added above before abet. These visible components are encoded separately. The dark final et of abet is overlapped and remains unclear; no erased former reading is reconstructed."
+    },
+    {
+      "note_id": "Y-3.10-note-19",
+      "line": 19,
+      "type": "observation",
+      "evidence": "The baseline has ne, with c added above before the dark initial f of fingunt. A small x-like right-margin mark has unspecified function and is documented here."
+    },
+    {
+      "note_id": "Y-3.10-note-20",
+      "line": 20,
+      "type": "uncertainty",
+      "evidence": "A slender vertical stroke crosses the nutrito/terra boundary. It is retained schematically as an unspecified metamark, not a letter."
+    },
+    {
+      "note_id": "Y-3.10-note-23",
+      "line": 23,
+      "type": "observation",
+      "evidence": "The source main word testes has a dot below its second e and i above it. The expunction and replacement are encoded as a substitution. Three faint curved marks in the right margin have unspecified function."
+    },
+    {
+      "note_id": "Y-3.10-note-24",
+      "line": 24,
+      "type": "observation",
+      "evidence": "The a of Fassuram is darker. The preceding ss is retained as visible, without normalization."
+    },
+    {
+      "note_id": "Y-3.10-note-25",
+      "line": 25,
+      "type": "uncertainty",
+      "evidence": "The source reads iasium crete adua fub ida. Initial f of fub is dark; the form is retained without changing it to sub. A vertical stroke crosses the end of Viderat, and another mark falls below the adua area. No cancellation is asserted from those strokes. A right-margin x is documented."
+    },
+    {
+      "note_id": "Y-3.10-note-26",
+      "line": 26,
+      "type": "observation",
+      "evidence": "Er in certa and g in terga are dark. Current letters remain readable and do not establish an erased earlier word."
+    },
+    {
+      "note_id": "Y-3.10-note-28",
+      "line": 28,
+      "type": "observation",
+      "evidence": "The visible initial word is Hinc, followed by pudor and an et ligature. It is not normalized to a different demonstrative."
+    },
+    {
+      "note_id": "Y-3.10-note-29",
+      "line": 29,
+      "type": "observation",
+      "evidence": "The o of sulcos is darker. In ardere, d is crossed horizontally and has a dot below; it is retained as del. The uncancelled letters therefore yield arere, with no additional letter supplied."
+    },
+    {
+      "note_id": "Y-3.10-note-30",
+      "line": 30,
+      "type": "uncertainty",
+      "evidence": "A dark right-margin abbreviation appears Redir with a suspension mark followed by a compact barred group. Its letter sequence is uncertain and retained unexpanded as unclear abbr; no intended phrase is invented."
+    },
+    {
+      "note_id": "Y-3.10-note-31",
+      "line": 31,
+      "type": "observation",
+      "evidence": "In pulsarent, a dot below e and a raised a support an expunction/substitution. Both letters remain in the TEI."
+    },
+    {
+      "note_id": "Y-3.10-note-32",
+      "line": 32,
+      "type": "uncertainty",
+      "evidence": "A dark raised group after Ruperat appears nt. Its first letter overlaps a small dark spot, so the group remains unclear. No deletion of the baseline final t is asserted."
+    },
+    {
+      "note_id": "Y-3.10-note-33",
+      "line": 33,
+      "type": "uncertainty",
+      "evidence": "A short dark horizontal mark lies after in lato. The following word appears fierant, but its opening tall strokes are ambiguous and remain unclear. The source ends equaliter agros; no correction from expected syntax is supplied."
+    },
+    {
+      "note_id": "Y-3.10-note-36",
+      "line": 36,
+      "type": "observation",
+      "evidence": "The initial s of serta is dark and joined to a long stroke; no earlier letter is reconstructed."
+    },
+    {
+      "note_id": "Y-3.10-note-37",
+      "line": 37,
+      "type": "observation",
+      "evidence": "Fuit is written above after Sola, with a small insertion caret beneath that boundary. The source main line is preserved with the raised insertion. A right-margin cross has unspecified function."
+    },
+    {
+      "note_id": "Y-3.10-note-38",
+      "line": 38,
+      "type": "observation",
+      "evidence": "The visible wording is Omnia qua tulerat se dea messis erat, with a point after se. Word separation is editorial."
+    },
+    {
+      "note_id": "Y-3.10-note-39",
+      "line": 39,
+      "type": "observation",
+      "evidence": "The source reads canebat. It is preserved without replacing the initial consonant from another text."
+    },
+    {
+      "note_id": "Y-3.10-note-40",
+      "line": 40,
+      "type": "observation",
+      "evidence": "The first a of farra is dark. No erased form is inferred."
+    },
+    {
+      "note_id": "Y-3.10-note-42",
+      "line": 42,
+      "type": "observation",
+      "evidence": "Et ligatures close both Optasset and esset. Both are represented with explicit choices and expansions."
+    },
+    {
+      "note_id": "Y-3.10-note-43",
+      "line": 43,
+      "type": "uncertainty",
+      "evidence": "A slender vertical mark crosses Qui. The end of flaua is darker and followed by two near-horizontal strokes in the space before fuissent. These are recorded without claiming an erased word or recoverable lost letters. A large x-like right-margin mark lies near verses43–44."
+    },
+    {
+      "note_id": "Y-3.10-note-45",
+      "line": 45,
+      "type": "observation",
+      "evidence": "A question-like sign closes the source verse."
+    },
+    {
+      "note_id": "Y-3.10-note-46",
+      "line": 46,
+      "type": "uncertainty",
+      "evidence": "The q-region in quaequam is dark. A compact two-part abbreviation is added below that word; its exact letters and expansion are uncertain, so it remains unclear and unexpanded. The baseline quaequam is retained."
+    },
+    {
+      "note_id": "Y-3.10-note-47",
+      "line": 47,
+      "type": "observation",
+      "evidence": "Barred cerere is written above the uenerem region and explicitly expanded cererem. Uenerem is retained without asserting cancellation."
+    },
+    {
+      "note_id": "Y-3.10-note-48",
+      "line": 48,
+      "type": "observation",
+      "evidence": "A colon-like mark and long terminal stroke separate the poem from the large ornamental M beginning3.11 below. The following source line is not a heading."
+    }
+  ],
+  "author_agent": "/root/review_y",
+  "line_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48
+  ],
+  "candidate_sha256": "c44cb48df15233fd850205d283b1d289d84259035209a82187a31023e9e377be"
+}

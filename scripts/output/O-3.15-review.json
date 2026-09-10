@@ -1,0 +1,242 @@
+{
+  "witness": "O",
+  "poem": "3.15",
+  "date": "2026-09-10",
+  "author_agent": "/root",
+  "reviewer_agent": "/root/review_y",
+  "reviewer": "OpenAI Codex independent review_y agent",
+  "review_type": "independent-second-agent-image-and-encoding-review",
+  "human_approved": false,
+  "line_coverage": {
+    "count": 20,
+    "ranges": [
+      {
+        "image": 116,
+        "printed_page": 68,
+        "page_position": "printed page 68",
+        "start": 1,
+        "end": 6
+      },
+      {
+        "image": 117,
+        "printed_page": 69,
+        "page_position": "printed page 69",
+        "start": 7,
+        "end": 20
+      }
+    ]
+  },
+  "line_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "counts": {
+    "resolved": 13,
+    "documented-uncertainty": 0,
+    "escalate": 0
+  },
+  "previous_note_count": 13,
+  "notes": [
+    {
+      "note_id": "O-3.15-note-1",
+      "line": 1,
+      "target": "#O-3.15-l1",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0120.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 68",
+        "assessment": "Heading XV. stands left of Quaere. Amorum has a colon. The actual alternating insets are visible across both pages."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.15-note-3",
+      "line": 3,
+      "target": "#O-3.15-l3",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0120.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 68",
+        "assessment": "Conposui visibly uses n before p; Paeligni begins with Pae and capital P."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.15-note-4",
+      "line": 4,
+      "target": "#O-3.15-l4",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0120.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 68",
+        "assessment": "The complete verse from Nec to meae is enclosed in parentheses; no additional final punctuation is printed."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.15-note-5",
+      "line": 5,
+      "target": "#O-3.15-l5",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0120.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 68",
+        "assessment": "Siquid is joined; proavis is printed in full, with final comma after heres."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.15-note-7",
+      "line": 7,
+      "target": "#O-3.15-l7",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0121.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 69",
+        "assessment": "Vergilio has a comma and Catullo a semicolon."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.15-note-9",
+      "line": 9,
+      "target": "#O-3.15-l9",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0121.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 69",
+        "assessment": "A clear printed asterisk stands left of Quam. Coegerat is the visible verb; the mark's critical function is left unspecified."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.15-note-13",
+      "line": 13,
+      "target": "#O-3.15-l13",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0121.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 69",
+        "assessment": "The source quotes Quae tantum, closes before dicat, then opens again before potuistis and closes after voco14. The two speech segments are retained."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.15-note-14",
+      "line": 14,
+      "target": "#O-3.15-l14",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0121.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 69",
+        "assessment": "Quantulacumque matches the source; the period after voco precedes the closing quotation sign."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.15-note-15",
+      "line": 15,
+      "target": "#O-3.15-l15",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0121.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 69",
+        "assessment": "Amathusia culti is clear at the verse end, with comma."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.15-note-17",
+      "line": 17,
+      "target": "#O-3.15-l17",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0121.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 69",
+        "assessment": "Lyaeus is the source name, followed by colon; thyrso graviore precedes it."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.15-note-18",
+      "line": 18,
+      "target": "#O-3.15-l18",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0121.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 69",
+        "assessment": "Pulsandast is one contracted printed word; area maior equis follows with final period."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.15-note-19",
+      "line": 19,
+      "target": "#O-3.15-l19",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0121.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 69",
+        "assessment": "Inbelles has n before b. Commas follow elegi, Musa and valete."
+      },
+      "change": "Independently checked and retained."
+    },
+    {
+      "note_id": "O-3.15-note-20",
+      "line": 20,
+      "target": "#O-3.15-l20",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0121.jp2/full/max/0/default.jpg",
+        "page_position": "printed page 69",
+        "assessment": "Opus has exclamation mark. Full-page inspection shows a separate short horizontal rule and an otherwise blank lower page, confirming that no further poem text appears here."
+      },
+      "change": "Independently checked and retained."
+    }
+  ],
+  "validation": {
+    "schema": "docs/schema/tei_all-4.12.0.rng",
+    "schema_result": "passed xmllint Relax NG",
+    "verse_lines": 20,
+    "facsimile_zones": 20,
+    "unique_ids": true,
+    "local_references_resolve": true
+  },
+  "layout_evidence": {
+    "assessment": "Both full pages show the actual alternating insets. The heading XV. is separate, the asterisk9 stands left of Quam, and a short closing horizontal rule precedes the blank lower portion of the final page."
+  },
+  "reviewed_candidate_sha256": "5cffe789cc96680a9a6ac50bcb1fbd7163f5121018b00a40ce833d55b4c94443",
+  "review_report_sha256": "af56f371b436d9e3321b8c322848043c1c1d79783e04977fc288103bfb951193",
+  "reviewed_xml_sha256": "3870dad2a666a312f9399d83701ca3dde465c6d9d45599653fd0aec9207c8b49"
+}

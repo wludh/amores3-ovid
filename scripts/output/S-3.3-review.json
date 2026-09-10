@@ -392,7 +392,43 @@
     "documented-uncertainty": 16,
     "escalate": 0
   },
-  "reviewed_candidate_sha256": "6f9fdcc0ac89d520518a618cc8d52e96589e3c9c354b58e4b04fb567cc0c44aa",
-  "review_report_sha256": "51476721698c37ce6d8b685025f4dba998f26a9e402b4a859dcb824291670b25",
-  "reviewed_xml_sha256": "22381ac40f62d675ba79d701b48c96c1f56c72300e7bf7d64de4de76375a92a9"
+  "reviewed_candidate_sha256": "cf344617d25f5d8cc877e198d67413c99e9927500ba8027b963e4d4e4a4a6a7c",
+  "review_report_sha256": "edfd585f560d1bd8926454ab94a9c9155d525409342255af9fdc9d57001c32ce",
+  "reviewed_xml_sha256": "e5404722939bd196c299b1e985f9609f815a5b11bdb439af8802b987bf4a3307",
+  "layout_review": {
+    "reviewer_agent": "/root",
+    "date": "2026-09-09",
+    "source_pages": [
+      388,
+      389
+    ],
+    "removed_indents": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28,
+      30,
+      32,
+      34,
+      36,
+      38,
+      40,
+      42,
+      44,
+      46,
+      48
+    ],
+    "retained_indents": [],
+    "evidence": "Full-page source inspection shows aligned regular verse initials, without systematic alternate-line indentation. The explicit space and smaller writing at the opening remain separate."
+  }
 }

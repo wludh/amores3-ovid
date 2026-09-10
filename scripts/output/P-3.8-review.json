@@ -1,0 +1,555 @@
+{
+  "witness": "P",
+  "poem": "3.8",
+  "date": "2026-09-09",
+  "author_agent": "/root/encode_p",
+  "reviewer_agent": "/root/review_y",
+  "reviewer": "OpenAI Codex independent review_y agent",
+  "review_type": "independent-second-agent-image-and-encoding-review",
+  "human_approved": false,
+  "line_coverage": {
+    "count": 66,
+    "ranges": [
+      {
+        "image": 92,
+        "page_position": "right",
+        "start": 1,
+        "end": 8
+      },
+      {
+        "image": 93,
+        "page_position": "left",
+        "start": 9,
+        "end": 36
+      },
+      {
+        "image": 93,
+        "page_position": "right",
+        "start": 37,
+        "end": 64
+      },
+      {
+        "image": 94,
+        "page_position": "left",
+        "start": 65,
+        "end": 66
+      }
+    ]
+  },
+  "line_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66
+  ],
+  "counts": {
+    "resolved": 9,
+    "documented-uncertainty": 24,
+    "escalate": 0
+  },
+  "previous_note_count": 33,
+  "notes": [
+    {
+      "note_id": "P-3.8-note-1",
+      "line": 1,
+      "target": "#P-3.8-l1",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f92/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The large E and three short marginal lines were inspected in the page and enlarged heading. AD is distinguishable; EAM and IS EST remain tentative. The remaining capitals cannot safely supply a complete title, and their gaps remain."
+      },
+      "change": "Independent reading completed; conservative source reading retained with final evidence assessment."
+    },
+    {
+      "note_id": "P-3.8-note-2",
+      "line": 2,
+      "target": "#P-3.8-l2",
+      "status": "resolved",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f92/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The individual enlargement supports tenerum with distinguishable letters. Its unclear element is removed and the note is now an observation."
+      },
+      "change": "Source-supported transcription revision and completed source assessment."
+    },
+    {
+      "note_id": "P-3.8-note-5",
+      "line": 5,
+      "target": "#P-3.8-l5",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f92/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The image supports pulchre domine. The source spelling is retained without regularizing the two endings."
+      },
+      "change": "Independent reading completed; conservative source reading retained with final evidence assessment."
+    },
+    {
+      "note_id": "P-3.8-note-8",
+      "line": 8,
+      "target": "#P-3.8-l8",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f92/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "Turpiter is compatible with the faint opening. The other words are clearer, and the local qualification remains appropriate."
+      },
+      "change": "Independent reading completed; conservative source reading retained with final evidence assessment."
+    },
+    {
+      "note_id": "P-3.8-note-9",
+      "line": 9,
+      "target": "#P-3.8-l9",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f93/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "Image 93 left begins this verse. Ecce recens is pale but compatible with the source; the local uncertainty is retained."
+      },
+      "change": "Independent reading completed; conservative source reading retained with final evidence assessment."
+    },
+    {
+      "note_id": "P-3.8-note-17",
+      "line": 17,
+      "target": "#P-3.8-l17",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f93/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "Qua periit aliquis remains compatible with the visible sequence. No expected variant is substituted."
+      },
+      "change": "Independent reading completed; conservative source reading retained with final evidence assessment."
+    },
+    {
+      "note_id": "P-3.8-note-19",
+      "line": 19,
+      "target": "#P-3.8-l19",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f93/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The final pugne is visibly written with e. Its source spelling is retained."
+      },
+      "change": "Independent reading completed; conservative source reading retained with final evidence assessment."
+    },
+    {
+      "note_id": "P-3.8-note-24",
+      "line": 24,
+      "target": "#P-3.8-l24",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f93/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The men of carmen is conspicuously darker and the terminal point is visible. Neither the shade nor the thickened strokes proves an erased prior state or a historical hand."
+      },
+      "change": "Independent reading completed; conservative source reading retained with final evidence assessment."
+    },
+    {
+      "note_id": "P-3.8-note-27",
+      "line": 27,
+      "target": "#P-3.8-l27",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f93/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The terminal pilum is faint but remains compatible with the enlarged traces. Its unclear element is retained."
+      },
+      "change": "Independent reading completed; conservative source reading retained with final evidence assessment."
+    },
+    {
+      "note_id": "P-3.8-note-29",
+      "line": 29,
+      "target": "#P-3.8-l29",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f93/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The initial double-m sequence of ammonitus is visible. The source form is retained."
+      },
+      "change": "Independent reading completed; conservative source reading retained with final evidence assessment."
+    },
+    {
+      "note_id": "P-3.8-note-32",
+      "line": 32,
+      "target": "#P-3.8-l32",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f93/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The pale opening remains compatible with Erati postes. No unattested initial vowel or grammatical correction is inserted."
+      },
+      "change": "Independent reading completed; conservative source reading retained with final evidence assessment."
+    },
+    {
+      "note_id": "P-3.8-note-33",
+      "line": 33,
+      "target": "#P-3.8-l33",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f93/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The central sapiens in munere remains plausible but markedly faded. Its local uncertainty remains; the line is not reconstructed from an expected reading."
+      },
+      "change": "Independent reading completed; conservative source reading retained with final evidence assessment."
+    },
+    {
+      "note_id": "P-3.8-note-35",
+      "line": 35,
+      "target": "#P-3.8-l35",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f93/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The image supports celi saturnus in that order. The manuscript spelling is retained."
+      },
+      "change": "Independent reading completed; conservative source reading retained with final evidence assessment."
+    },
+    {
+      "note_id": "P-3.8-note-36",
+      "line": 36,
+      "target": "#P-3.8-l36",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f93/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The entire bottom-left verse was inspected. It remains compatible with Omne lucrum tenebris alta premebat humus, but its low contrast warrants retaining the complete-line unclear element."
+      },
+      "change": "Independent reading completed; conservative source reading retained with final evidence assessment."
+    },
+    {
+      "note_id": "P-3.8-note-37",
+      "line": 37,
+      "target": "#P-3.8-l37",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f93/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The final word on the upper-right verse has only pale and disturbed traces. A complete word cannot be independently established, so its gap remains."
+      },
+      "change": "Independent reading completed; conservative source reading retained with final evidence assessment."
+    },
+    {
+      "note_id": "P-3.8-note-38",
+      "line": 38,
+      "target": "#P-3.8-l38",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f93/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The visible sequence nulla que is retained with editorial spacing. No reconstruction of a different inflection is imposed."
+      },
+      "change": "Independent reading completed; conservative source reading retained with final evidence assessment."
+    },
+    {
+      "note_id": "P-3.8-note-39",
+      "line": 39,
+      "target": "#P-3.8-l39",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f93/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The enlargement shows a longer sequence with sine distinctly present before uomere; absque does not fit those letters. It is corrected to tentative arua sine, preserving local uncertainty in the crowded first word."
+      },
+      "change": "Source-supported transcription revision and completed source assessment."
+    },
+    {
+      "note_id": "P-3.8-note-43",
+      "line": 43,
+      "target": "#P-3.8-l43",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f93/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The short word before remo remains ambiguous at low contrast. The tentative eruta is retained without replacing it with a familiar reading."
+      },
+      "change": "Independent reading completed; conservative source reading retained with final evidence assessment."
+    },
+    {
+      "note_id": "P-3.8-note-49",
+      "line": 49,
+      "target": "#P-3.8-l49",
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f93/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The dark patch reaches the ending, but fuisses remains readable. The patch does not justify an inferred cancellation."
+      },
+      "change": "Independent reading completed; conservative source reading retained with final evidence assessment."
+    },
+    {
+      "note_id": "P-3.8-note-51",
+      "line": 51,
+      "target": "#P-3.8-l51",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f93/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The final name is crossed by a disturbed dark area. Quirinus remains a tentative decipherment, with no assertion about earlier letters, deletion, or hand."
+      },
+      "change": "Independent reading completed; conservative source reading retained with final evidence assessment."
+    },
+    {
+      "note_id": "P-3.8-note-52",
+      "line": 52,
+      "target": "#P-3.8-l52",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f93/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The opening Liber et alcides remains pale but compatible with the transcription. The subsequent separate et ligature is visible and its declared expansion is retained."
+      },
+      "change": "Independent reading completed; conservative source reading retained with final evidence assessment."
+    },
+    {
+      "note_id": "P-3.8-note-55",
+      "line": 55,
+      "target": "#P-3.8-l55",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f93/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "Curia pauperibus remains faint; the later clausa est dat census honores is clearer. Existing local uncertainty is retained."
+      },
+      "change": "Independent reading completed; conservative source reading retained with final evidence assessment."
+    },
+    {
+      "note_id": "P-3.8-note-56",
+      "line": 56,
+      "target": "#P-3.8-l56",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f93/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The full verse was independently inspected. The pale Inde grauis iudex inde seuerus eques remains compatible with the source and stays qualified."
+      },
+      "change": "Independent reading completed; conservative source reading retained with final evidence assessment."
+    },
+    {
+      "note_id": "P-3.8-note-57",
+      "line": 57,
+      "target": "#P-3.8-l57",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f93/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "A dark patch crosses the latter portion of forumque. The tentative word is retained under unclear without reconstructing a prior state."
+      },
+      "change": "Independent reading completed; conservative source reading retained with final evidence assessment."
+    },
+    {
+      "note_id": "P-3.8-note-58",
+      "line": 58,
+      "target": "#P-3.8-l58",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f93/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "Seruiat hi pacem is compatible with the pale opening. Crudaque bella gerent remains clearer. No normalization is made."
+      },
+      "change": "Independent reading completed; conservative source reading retained with final evidence assessment."
+    },
+    {
+      "note_id": "P-3.8-note-59",
+      "line": 59,
+      "target": "#P-3.8-l59",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f93/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The lower-right area is heavily faded and locally stained. Auidi and amoris remain the defensible tentative fragments; the incomplete ending and other spans remain gaps."
+      },
+      "change": "Independent reading completed; conservative source reading retained with final evidence assessment."
+    },
+    {
+      "note_id": "P-3.8-note-60",
+      "line": 60,
+      "target": "#P-3.8-l60",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f93/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The enlarged ending supports tentative esse sinant after pauperis. These two words are recovered under unclear; the faded opening remains a gap."
+      },
+      "change": "Source-supported transcription revision and completed source assessment."
+    },
+    {
+      "note_id": "P-3.8-note-61",
+      "line": 61,
+      "target": "#P-3.8-l61",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f93/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "The full physical line was enlarged. Ille remains a defensible tentative fragment, but the adjoining pale groups cannot safely establish additional complete words."
+      },
+      "change": "Independent reading completed; conservative source reading retained with final evidence assessment."
+    },
+    {
+      "note_id": "P-3.8-note-62",
+      "line": 62,
+      "target": "#P-3.8-l62",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f93/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "After multa, the final letters support tentative potest, now retained in place of the final gap. The preceding faded region remains unreadable."
+      },
+      "change": "Source-supported transcription revision and completed source assessment."
+    },
+    {
+      "note_id": "P-3.8-note-63",
+      "line": 63,
+      "target": "#P-3.8-l63",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f93/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "Custos and maritum remain tentative with clearer illa between them. The intervening traces do not securely distinguish a full word, and its gap remains."
+      },
+      "change": "Independent reading completed; conservative source reading retained with final evidence assessment."
+    },
+    {
+      "note_id": "P-3.8-note-64",
+      "line": 64,
+      "target": "#P-3.8-l64",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f93/full/full/0/native.jpg",
+        "page_position": "right",
+        "assessment": "Cede and final domo remain compatible with the image. Other surviving strokes are not completed into a phrase; the gaps remain photographic illegibility, not source omission."
+      },
+      "change": "Independent reading completed; conservative source reading retained with final evidence assessment."
+    },
+    {
+      "note_id": "P-3.8-note-65",
+      "line": 65,
+      "target": "#P-3.8-l65",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The final couplet begins image 94 left and is followed by the next large initial. Si modo quisquam and amantes remain tentative; the source does not justify an unqualified complete reading."
+      },
+      "change": "Independent reading completed; conservative source reading retained with final evidence assessment."
+    },
+    {
+      "note_id": "P-3.8-note-66",
+      "line": 66,
+      "target": "#P-3.8-l66",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
+      "evidence": {
+        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "page_position": "left",
+        "assessment": "The enlarged middle remains compatible with the tentative segmentation puluere mutet. No preposition or further ending is imported from another text; the uncertainty is retained."
+      },
+      "change": "Independent reading completed; conservative source reading retained with final evidence assessment."
+    }
+  ],
+  "validation": {
+    "schema": "docs/schema/tei_all-4.12.0.rng",
+    "schema_result": "passed xmllint Relax NG",
+    "verse_lines": 66,
+    "facsimile_zones": 66,
+    "unique_ids": true,
+    "local_references_resolve": true
+  },
+  "reviewed_candidate_sha256": "43f623f31de927c399f2e8fc4ca932e5f5093bcdd240cf400ae09efb7c35e16a",
+  "review_report_sha256": "ad92d930b4223a7b3aecfdf8f15ba6732a85ae13973d67a823137102404e32a3",
+  "reviewed_xml_sha256": "8a4ef5f9e4c169d797bb13d71e2e3246654b1200d76776a0e22764d64214071c"
+}

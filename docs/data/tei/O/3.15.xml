@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="O" xml:id="O-3.15">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title>Ovid, Amores 3.15 — O, Teubner 1888</title>
+        <author>Publius Ovidius Naso</author>
+        <respStmt xml:id="O-3.15-encoder">
+          <resp>First source-image reading and TEI encoding</resp>
+          <name>OpenAI Codex primary agent</name>
+        </respStmt>
+      <respStmt xml:id="O-3.15-reviewer"><resp>Independent second-agent reading of all 20 actual source verses and every evidence note; not human approval</resp><name>OpenAI Codex review_y agent</name></respStmt></titleStmt>
+      <publicationStmt>
+        <p>Amores Project working transcription, September 2026; independently reviewed by a different agent; no human scholarly approval implied.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>P. Ovidius Naso</author>
+          <title>Amores</title>
+          <editor>R. Ehwald</editor>
+          <respStmt>
+            <resp>Recension</resp>
+            <name>R. Merkel</name>
+          </respStmt>
+          <pubPlace>Lipsiae</pubPlace>
+          <publisher>B. G. Teubner</publisher>
+          <date when="1888">1888</date>
+          <biblScope unit="page" from="68" to="69">68–69</biblScope>
+          <ref target="https://archive.org/details/operaovid03oviduoft">Internet Archive scan operaovid03oviduoft</ref>
+          <note>The scanned title identifies Tom. I despite the archive catalogue volume label. One-based viewer pages 116–117 have been inspected; source links are recorded in the facsimile.</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <normalization>
+          <p>Source wording, capitalization, contracted forms and punctuation retained. Typographic ligatures use constituent letters; quotation marks are represented schematically by curly quotes. OCR locates text but does not determine readings.</p>
+        </normalization>
+        <segmentation>
+          <p>Each l corresponds to a printed verse; n preserves the corpus verse identifier. Verses follow the source order, including any transposed couplets, rather than being silently reordered. Each line links to its existing annotation rectangle. Page breaks may occur within couplets. Source headings and running titles are encoded separately.</p>
+        </segmentation>
+        <correction>
+          <p>Source readings are not silently replaced by a modern edition. Distinctive features are explained in notes for independent checking.</p>
+        </correction>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="independently-reviewed"><change when="2026-09-10" who="#O-3.15-reviewer">Independently inspected all 20 actual source verses and every author note. Confirmed source wording, punctuation, marks, page boundaries and actual alternating inset. No human approval implied.</change>
+      <change when="2026-09-09" who="#O-3.15-encoder">Read all 20 verses from enlarged source images and prepared first-pass encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="O-3.15-p68" n="68" ulx="0" uly="0" lrx="1690" lry="2656">
+      <graphic url="https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0120.jp2/full/max/0/default.jpg" />
+      <zone xml:id="O-3.15-zone-1" ulx="116" uly="2014" lrx="1476" lry="2081" />
+      <zone xml:id="O-3.15-zone-2" ulx="279" uly="2073" lrx="1219" lry="2140" />
+      <zone xml:id="O-3.15-zone-3" ulx="221" uly="2130" lrx="1331" lry="2197" />
+      <zone xml:id="O-3.15-zone-4" ulx="281" uly="2188" lrx="1135" lry="2254" />
+      <zone xml:id="O-3.15-zone-5" ulx="185" uly="2246" lrx="1510" lry="2314" />
+      <zone xml:id="O-3.15-zone-6" ulx="279" uly="2304" lrx="1298" lry="2372" />
+    </surface>
+    <surface xml:id="O-3.15-p69" n="69" ulx="0" uly="0" lrx="1674" lry="2662">
+      <graphic url="https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0121.jp2/full/max/0/default.jpg" />
+      <zone xml:id="O-3.15-zone-7" ulx="113" uly="265" lrx="1154" lry="332" />
+      <zone xml:id="O-3.15-zone-8" ulx="169" uly="325" lrx="1030" lry="390" />
+      <zone xml:id="O-3.15-zone-9" ulx="77" uly="383" lrx="1265" lry="448" />
+      <zone xml:id="O-3.15-zone-10" ulx="60" uly="440" lrx="1152" lry="492" />
+      <zone xml:id="O-3.15-zone-11" ulx="111" uly="498" lrx="1294" lry="563" />
+      <zone xml:id="O-3.15-zone-12" ulx="169" uly="557" lrx="1215" lry="622" />
+      <zone xml:id="O-3.15-zone-13" ulx="111" uly="614" lrx="1226" lry="680" />
+      <zone xml:id="O-3.15-zone-14" ulx="170" uly="672" lrx="1297" lry="738" />
+      <zone xml:id="O-3.15-zone-15" ulx="59" uly="730" lrx="1241" lry="796" />
+      <zone xml:id="O-3.15-zone-16" ulx="168" uly="789" lrx="1056" lry="854" />
+      <zone xml:id="O-3.15-zone-17" ulx="111" uly="846" lrx="1192" lry="912" />
+      <zone xml:id="O-3.15-zone-18" ulx="168" uly="906" lrx="1091" lry="970" />
+      <zone xml:id="O-3.15-zone-19" ulx="109" uly="963" lrx="1034" lry="1029" />
+      <zone xml:id="O-3.15-zone-20" ulx="58" uly="1021" lrx="1210" lry="1086" />
+    </surface>
+  </facsimile>
+  <text xml:lang="la">
+    <body>
+      <div type="poem" n="3.15" xml:id="O-3.15-poem">
+        <lg type="couplet">
+          <pb n="68" facs="#O-3.15-p68" />
+          <fw type="header" place="top">AMORUM</fw>
+          <fw type="pageNum" place="top">68</fw>
+          <label type="source-heading">XV.</label>
+          <l n="1" xml:id="O-3.15-l1" facs="#O-3.15-zone-1">Quaere novum vatem, tenerorum mater Amorum:</l>
+          <l n="2" xml:id="O-3.15-l2" facs="#O-3.15-zone-2" rend="indent">Raditur hic elegis ultima meta meis;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="3" xml:id="O-3.15-l3" facs="#O-3.15-zone-3">Quos ego conposui, Paeligni ruris alumnus,</l>
+          <l n="4" xml:id="O-3.15-l4" facs="#O-3.15-zone-4" rend="indent">(Nec me deliciae dedecuere meae)</l>
+        </lg>
+        <lg type="couplet">
+          <l n="5" xml:id="O-3.15-l5" facs="#O-3.15-zone-5">Siquid id est, usque a proavis vetus ordinis heres,</l>
+          <l n="6" xml:id="O-3.15-l6" facs="#O-3.15-zone-6" rend="indent">Non modo militiae turbine factus eques.</l>
+        </lg>
+        <lg type="couplet">
+          <pb n="69" facs="#O-3.15-p69" />
+          <fw type="header" place="top">III, XIIII, 21 — XV, 20.</fw>
+          <fw type="pageNum" place="top">69</fw>
+          <l n="7" xml:id="O-3.15-l7" facs="#O-3.15-zone-7">Mantua Vergilio, gaudet Verona Catullo;</l>
+          <l n="8" xml:id="O-3.15-l8" facs="#O-3.15-zone-8" rend="indent">Paelignae dicar gloria gentis ego,</l>
+        </lg>
+        <lg type="couplet">
+          <l n="9" xml:id="O-3.15-l9" facs="#O-3.15-zone-9"><metamark xml:id="O-3.15-mark-9-1" function="unspecified" place="left">*</metamark> Quam sua libertas ad honesta coegerat arma,</l>
+          <l n="10" xml:id="O-3.15-l10" facs="#O-3.15-zone-10" rend="indent">Cum timuit socias anxia Roma manus.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="11" xml:id="O-3.15-l11" facs="#O-3.15-zone-11">Atque aliquis spectans hospes Sulmonis aquosi</l>
+          <l n="12" xml:id="O-3.15-l12" facs="#O-3.15-zone-12" rend="indent">Moenia, quae campi iugera pauca tenent,</l>
+        </lg>
+        <lg type="couplet">
+          <l n="13" xml:id="O-3.15-l13" facs="#O-3.15-zone-13">‘Quae tantum’ dicat ‘potuistis ferre poetam,</l>
+          <l n="14" xml:id="O-3.15-l14" facs="#O-3.15-zone-14" rend="indent">Quantulacumque estis, vos ego magna voco.’</l>
+        </lg>
+        <lg type="couplet">
+          <l n="15" xml:id="O-3.15-l15" facs="#O-3.15-zone-15">Culte puer puerique parens Amathusia culti,</l>
+          <l n="16" xml:id="O-3.15-l16" facs="#O-3.15-zone-16" rend="indent">Aurea de campo vellite signa meo!</l>
+        </lg>
+        <lg type="couplet">
+          <l n="17" xml:id="O-3.15-l17" facs="#O-3.15-zone-17">Corniger increpuit thyrso graviore Lyaeus:</l>
+          <l n="18" xml:id="O-3.15-l18" facs="#O-3.15-zone-18" rend="indent">Pulsandast magnis area maior equis.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="19" xml:id="O-3.15-l19" facs="#O-3.15-zone-19">Inbelles elegi, genialis Musa, valete,</l>
+          <l n="20" xml:id="O-3.15-l20" facs="#O-3.15-zone-20" rend="indent">Post mea mansurum fata superstes opus!</l>
+        </lg>
+      </div>
+    </body>
+    <back>
+      <div type="editorial-notes">
+        <head>Transcription notes</head>
+        <note xml:id="O-3.15-note-1" n="1" type="observation" target="#O-3.15-l1" resp="#O-3.15-reviewer">The source heading is XV. Both full pages show the explicitly recorded alternating insets. A colon follows Amorum.</note>
+        <note xml:id="O-3.15-note-3" n="3" type="observation" target="#O-3.15-l3" resp="#O-3.15-reviewer">The source spelling is conposui, with the proper name Paeligni.</note>
+        <note xml:id="O-3.15-note-4" n="4" type="observation" target="#O-3.15-l4" resp="#O-3.15-reviewer">The complete printed verse is enclosed in parentheses and has no additional terminal punctuation.</note>
+        <note xml:id="O-3.15-note-5" n="5" type="observation" target="#O-3.15-l5" resp="#O-3.15-reviewer">The source prints Siquid as one word and proavis in full.</note>
+        <note xml:id="O-3.15-note-7" n="7" type="observation" target="#O-3.15-l7" resp="#O-3.15-reviewer">The source has a comma after Vergilio and a semicolon after Catullo.</note>
+        <note xml:id="O-3.15-note-9" n="9" type="observation" target="#O-3.15-l9" resp="#O-3.15-reviewer">A printed asterisk precedes Quam; its function is left unspecified. The verb is coegerat, not replaced from another witness.</note>
+        <note xml:id="O-3.15-note-13" n="13" type="observation" target="#O-3.15-l13" resp="#O-3.15-reviewer">The printed quotation is interrupted by dicat outside the quotation. Both pairs of quotation marks across13–14 are represented schematically with curly single quotes.</note>
+        <note xml:id="O-3.15-note-14" n="14" type="observation" target="#O-3.15-l14" resp="#O-3.15-reviewer">The source word is Quantulacumque. The full stop follows voco before the closing quotation mark.</note>
+        <note xml:id="O-3.15-note-15" n="15" type="observation" target="#O-3.15-l15" resp="#O-3.15-reviewer">The source prints Amathusia culti, retained as read in the enlarged image.</note>
+        <note xml:id="O-3.15-note-17" n="17" type="observation" target="#O-3.15-l17" resp="#O-3.15-reviewer">The printed proper name is Lyaeus, followed by a colon.</note>
+        <note xml:id="O-3.15-note-18" n="18" type="observation" target="#O-3.15-l18" resp="#O-3.15-reviewer">The printed contraction Pulsandast is retained without expansion.</note>
+        <note xml:id="O-3.15-note-19" n="19" type="observation" target="#O-3.15-l19" resp="#O-3.15-reviewer">The source spelling is Inbelles. Commas follow elegi, Musa and valete.</note>
+        <note xml:id="O-3.15-note-20" n="20" type="observation" target="#O-3.15-l20" resp="#O-3.15-reviewer">The poem ends with an exclamation mark after opus. The full source page has a short horizontal closing rule and blank space below the final verse; no further poem text follows on this page.</note>
+      </div>
+    </back>
+  </text>
+</TEI>

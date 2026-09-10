@@ -1,6 +1,16 @@
 /* The XML is the source of readings and notes; this file only renders them. */
 const TEI_NS = 'http://www.tei-c.org/ns/1.0';
 
+function transmissionGapLabel(gap, lines) {
+  if (!lines.length) return 'This poem is not transmitted in this witness.';
+  const explicitRange = gap.getAttribute('n');
+  const quantity = Number(gap.getAttribute('quantity'));
+  const before = lines.filter(line => line.compareDocumentPosition(gap) & Node.DOCUMENT_POSITION_FOLLOWING).at(-1);
+  const after = lines.find(line => gap.compareDocumentPosition(line) & Node.DOCUMENT_POSITION_FOLLOWING);
+  const start = before ? Number(before.getAttribute('n')) + 1 : Number(after.getAttribute('n')) - quantity;
+  return `Lines ${explicitRange || `${start}–${start + quantity - 1}`} are not transmitted in this witness.`;
+}
+
 function selectTeiPoem(xmlDoc, poem) {
   if (xmlDoc.documentElement.namespaceURI !== TEI_NS) {
     return xmlDoc.querySelector(`poem[n="${poem}"] > TEI`);
@@ -37,7 +47,7 @@ function renderTrialEdition(fragment, xml, panel, witness, poem) {
   const scroll = document.createElement('div');
   scroll.className = 'edition-scroll';
   scroll.tabIndex = 0;
-  scroll.setAttribute('aria-label', 'Verse text; scroll horizontally for full manuscript lines');
+  scroll.setAttribute('aria-label', lines.length ? 'Verse text; scroll horizontally for full manuscript lines' : 'Source coverage');
   // Keep metadata in the downloadable XML. Do not instantiate hidden image viewers.
   fragment.querySelectorAll('tei-teiheader, tei-facsimile, tei-back').forEach(el => el.remove());
   scroll.appendChild(fragment);
@@ -105,7 +115,10 @@ function renderTrialEdition(fragment, xml, panel, witness, poem) {
     item.tabIndex = -1;
     const n = note.getAttribute('n');
     const label = document.createElement('strong');
-    label.textContent = note.getAttribute('target')?.includes('lower-margin') ? 'Lower margin' : `Line ${n}`;
+    const targetId = note.getAttribute('target')?.split(/\s+/)[0]?.replace(/^#/, '');
+    const sourceTarget = byId.get(targetId);
+    const absenceNote = sourceTarget?.localName === 'gap' && sourceTarget.getAttribute('reason') === 'not-transmitted';
+    label.textContent = absenceNote ? 'Source coverage' : note.getAttribute('target')?.includes('lower-margin') ? 'Lower margin' : `Line ${n}`;
     item.appendChild(label);
     if (note.getAttribute('type') === 'review') {
       const tag = document.createElement('span');
@@ -118,11 +131,12 @@ function renderTrialEdition(fragment, xml, panel, witness, poem) {
     item.appendChild(text);
     const back = document.createElement('a');
     const sourceLine = lines.find(line => line.getAttribute('n') === n);
-    back.href = `#${panel.id}-${sourceLine?.getAttribute('xml:id') || ''}`;
-    back.textContent = `Return to line ${n}`;
+    const returnId = sourceLine?.getAttribute('xml:id') || targetId;
+    back.href = `#${panel.id}-${returnId || ''}`;
+    back.textContent = absenceNote ? 'Return to source coverage' : `Return to line ${n}`;
     back.addEventListener('click', event => {
       event.preventDefault();
-      const line = scroll.querySelector(`tei-l[n="${n}"]`);
+      const line = Array.from(scroll.querySelectorAll('[id]')).find(el => el.id === `${panel.id}-${returnId}`);
       line?.scrollIntoView({ block: 'center' });
       line?.focus({ preventScroll: true });
     });
@@ -174,15 +188,15 @@ function renderTrialEdition(fragment, xml, panel, witness, poem) {
     const inline = Boolean(gap.closest('tei-l, tei-note'));
     label.className = inline ? 'inline-gap' : 'transcription-gap';
     const quantity = Number(gap.getAttribute('quantity'));
-    const lastLine = Number(lines.at(-1)?.getAttribute('n'));
-    label.textContent = inline ? '[…]' : gap.getAttribute('reason') === 'not-transmitted' && quantity && lastLine
-      ? `Lines ${lastLine + 1}–${lastLine + quantity} are not transmitted in this witness.`
+    label.textContent = inline ? '[…]' : gap.getAttribute('reason') === 'not-transmitted'
+      ? transmissionGapLabel(gap, Array.from(scroll.querySelectorAll('tei-l')))
       : gap.getAttribute('n') || `${quantity || ''} ${gap.getAttribute('unit') || 'text'} unavailable in this witness`;
     label.title = gap.querySelector('tei-desc')?.textContent || `Gap: ${gap.getAttribute('reason') || 'unspecified'}`;
     gap.appendChild(label);
+    if (!inline) gap.tabIndex = -1;
   });
   if (!notes.length) details.hidden = true;
-  addAlterationFinder(edition, scroll, header);
+  if (lines.length) addAlterationFinder(edition, scroll, header);
   return edition;
 }
 

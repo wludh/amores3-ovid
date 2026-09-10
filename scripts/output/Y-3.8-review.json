@@ -1,0 +1,978 @@
+{
+  "witness": "Y",
+  "poem": "3.8",
+  "date": "2026-09-09",
+  "reviewer": "OpenAI Codex independent encode_s agent",
+  "author_agent": "/root/review_y",
+  "reviewer_agent": "/root/encode_s",
+  "review_type": "independent-second-agent-image-and-encoding-review",
+  "human_approved": false,
+  "line_coverage": {
+    "count": 66,
+    "ranges": [
+      {
+        "page": "64r",
+        "start": 1,
+        "end": 20
+      },
+      {
+        "page": "64v",
+        "start": 21,
+        "end": 60
+      },
+      {
+        "page": "65r",
+        "start": 61,
+        "end": 66
+      }
+    ]
+  },
+  "line_order": [
+    "Y-3.8-l1",
+    "Y-3.8-l2",
+    "Y-3.8-l3",
+    "Y-3.8-l4",
+    "Y-3.8-l5",
+    "Y-3.8-l6",
+    "Y-3.8-l7",
+    "Y-3.8-l8",
+    "Y-3.8-l9",
+    "Y-3.8-l10",
+    "Y-3.8-l11",
+    "Y-3.8-l12",
+    "Y-3.8-l13",
+    "Y-3.8-l14",
+    "Y-3.8-l15",
+    "Y-3.8-l16",
+    "Y-3.8-l17",
+    "Y-3.8-l18",
+    "Y-3.8-l19",
+    "Y-3.8-l20",
+    "Y-3.8-l21",
+    "Y-3.8-l22",
+    "Y-3.8-l23",
+    "Y-3.8-l24",
+    "Y-3.8-l25",
+    "Y-3.8-l26",
+    "Y-3.8-l27",
+    "Y-3.8-l28",
+    "Y-3.8-l29",
+    "Y-3.8-l30",
+    "Y-3.8-l31",
+    "Y-3.8-l32",
+    "Y-3.8-l33",
+    "Y-3.8-l34",
+    "Y-3.8-l35",
+    "Y-3.8-l36",
+    "Y-3.8-l37",
+    "Y-3.8-l38",
+    "Y-3.8-l39",
+    "Y-3.8-l40",
+    "Y-3.8-l41",
+    "Y-3.8-l42",
+    "Y-3.8-l43",
+    "Y-3.8-l44",
+    "Y-3.8-l45",
+    "Y-3.8-l46",
+    "Y-3.8-l47",
+    "Y-3.8-l48",
+    "Y-3.8-l49",
+    "Y-3.8-l50",
+    "Y-3.8-l51",
+    "Y-3.8-l52",
+    "Y-3.8-l53",
+    "Y-3.8-l54",
+    "Y-3.8-l55",
+    "Y-3.8-l56",
+    "Y-3.8-l57",
+    "Y-3.8-l58",
+    "Y-3.8-l59",
+    "Y-3.8-l60",
+    "Y-3.8-l61",
+    "Y-3.8-l62",
+    "Y-3.8-l63",
+    "Y-3.8-l64",
+    "Y-3.8-l65",
+    "Y-3.8-l66"
+  ],
+  "counts": {
+    "resolved": 33,
+    "documented-uncertainty": 25,
+    "escalate": 0
+  },
+  "notes": [
+    {
+      "note_id": "Y-3.8-note-1",
+      "line": 1,
+      "target": "#Y-3.8-l1",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "64r",
+        "image": "/tmp/amores-y31-33/131.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0131/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-001.png",
+        "assessment": "The enlarged E and the et ligature within etiamnunc are clear. The ligature is retained with its explicit expansion."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-4",
+      "line": 4,
+      "target": "#Y-3.8-l4",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "64r",
+        "image": "/tmp/amores-y31-33/131.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0131/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-004.png",
+        "assessment": "The source reads barbaria est. Its spelling is retained."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-5",
+      "line": 5,
+      "target": "#Y-3.8-l5",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "64r",
+        "image": "/tmp/amores-y31-33/131.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0131/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-005.png",
+        "assessment": "The b of libelli is visibly darker; no earlier state or historical hand is recoverable from that contrast."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-6",
+      "line": 6,
+      "target": "#Y-3.8-l6",
+      "previous_type": "second-pass-addition",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "64r",
+        "image": "/tmp/amores-y31-33/131.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0131/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-006.png",
+        "assessment": "A slender division-like stroke follows libris, and a small cross-like sign stands in the far right margin. Both are retained schematically with unspecified function; the final punctus is clear."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-7",
+      "line": 7,
+      "target": "#Y-3.8-l7",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "64r",
+        "image": "/tmp/amores-y31-33/131.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0131/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-007.png",
+        "assessment": "The dark u of laudauit is readable. The tiny upper strokes do not securely supply a separate letter or a recoverable cancelled reading."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-8",
+      "line": 8,
+      "target": "#Y-3.8-l8",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "64r",
+        "image": "/tmp/amores-y31-33/131.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0131/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-008.png",
+        "assessment": "The initial i of illuc is darker. A small terminal punctus, omitted in the first pass, is retained."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-10",
+      "line": 10,
+      "target": "#Y-3.8-l10",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "64r",
+        "image": "/tmp/amores-y31-33/131.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0131/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-010.png",
+        "assessment": "The re of Prefertur and factus are darker. A descending comma-like terminal stroke is also visible; no erased text is reconstructed."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-11",
+      "line": 11,
+      "target": "#Y-3.8-l11",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "64r",
+        "image": "/tmp/amores-y31-33/131.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0131/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-011.png",
+        "assessment": "The marginal word is legible as sculta. Dots above it and around formosis are retained, together with a slender stroke at uita/lacertis and darker tis. Their precise relationship does not establish deletion of formosis or a secure substitution."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-12",
+      "line": 12,
+      "target": "#Y-3.8-l12",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "64r",
+        "image": "/tmp/amores-y31-33/131.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0131/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-012.png",
+        "assessment": "The ending of amplexus is a visible long s. No normalization to another ending is made."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-13",
+      "line": 13,
+      "target": "#Y-3.8-l13",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "64r",
+        "image": "/tmp/amores-y31-33/131.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0131/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-013.png",
+        "assessment": "The ending ut of caput and initial h of hoc are dark but readable; no prior letters are inferred."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-16",
+      "line": 16,
+      "target": "#Y-3.8-l16",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "64r",
+        "image": "/tmp/amores-y31-33/131.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0131/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-016.png",
+        "assessment": "A narrow vertical stroke crosses the dextram/tange boundary. Its function remains unspecified; cruenta and the final punctus are readable."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-17",
+      "line": 17,
+      "target": "#Y-3.8-l17",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "64r",
+        "image": "/tmp/amores-y31-33/131.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0131/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-017.png",
+        "assessment": "The dark q and its descending que-like sign follow Qua; the expansion remains tentative. The marginal aliter abbreviation and compact qsq-like abbreviation remain distinct. Three nearby upper dots are retained without asserting a cancelled baseline reading."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-18",
+      "line": 18,
+      "target": "#Y-3.8-l18",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "64r",
+        "image": "/tmp/amores-y31-33/131.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0131/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-018.png",
+        "assessment": "A small s-like shape is visibly raised above the end of Heu. Its letter value remains tentative; it is not used to normalize the opening."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-19",
+      "line": 19,
+      "target": "#Y-3.8-l19",
+      "previous_type": "second-pass-addition",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "64r",
+        "image": "/tmp/amores-y31-33/131.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0131/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-019.png",
+        "assessment": "A small dark oblique stroke occurs above the final part of cicatrices. Its function is unknown and no extra letter is supplied."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-20",
+      "line": 20,
+      "target": "#Y-3.8-l20",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "64r",
+        "image": "/tmp/amores-y31-33/131.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0131/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-020.png",
+        "assessment": "The o of illo has a distinct dot below and an i above, supporting the encoded substitution. The source spelling quitquid and dark final d are retained."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-21",
+      "line": 21,
+      "target": "#Y-3.8-l21",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "64v",
+        "image": "/tmp/amores-y31-33/132.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0132/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-021.png",
+        "assessment": "The bar over e in quoties supports the explicit quotiens expansion. The preceding et ligature is retained."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-22",
+      "line": 22,
+      "target": "#Y-3.8-l22",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "64v",
+        "image": "/tmp/amores-y31-33/132.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0132/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-022.png",
+        "assessment": "Initial In and the second a of fassas are darker. The punctus following Indicet is clear."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-24",
+      "line": 24,
+      "target": "#Y-3.8-l24",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "64v",
+        "image": "/tmp/amores-y31-33/132.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0132/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-024.png",
+        "assessment": "The d of Ad is darker. The terminal punctus has been added from the image."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-25",
+      "line": 25,
+      "target": "#Y-3.8-l25",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "64v",
+        "image": "/tmp/amores-y31-33/132.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0132/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-025.png",
+        "assessment": "Final s of nos is darker. The written que remains unnormalized."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-26",
+      "line": 26,
+      "target": "#Y-3.8-l26",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "64v",
+        "image": "/tmp/amores-y31-33/132.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0132/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-026.png",
+        "assessment": "The d of Sed is darker; the et ligature is explicit. A small terminal stop is retained."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-27",
+      "line": 27,
+      "target": "#Y-3.8-l27",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "64v",
+        "image": "/tmp/amores-y31-33/132.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0132/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-027.png",
+        "assessment": "The baseline reads deducite, with ere above its ending. The visible baseline remains readable without cancellation marks, so both layers are preserved as an addition."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-28",
+      "line": 28,
+      "target": "#Y-3.8-l28",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "64v",
+        "image": "/tmp/amores-y31-33/132.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0132/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-028.png",
+        "assessment": "The opening reads Hic and the line has a small terminal punctus. No alteration to a familiar alternative is made."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-29",
+      "line": 29,
+      "target": "#Y-3.8-l29",
+      "previous_type": "second-pass-addition",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "64v",
+        "image": "/tmp/amores-y31-33/132.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0132/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-029.png",
+        "assessment": "A slender vertical mark crosses the nil/esse boundary. It is retained with unspecified function."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-30",
+      "line": 30,
+      "target": "#Y-3.8-l30",
+      "previous_type": "second-pass-addition",
+      "status": "resolved",
+      "evidence": {
+        "page": "64v",
+        "image": "/tmp/amores-y31-33/132.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0132/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-030.png",
+        "assessment": "A clear terminal punctus follows fuit; it was omitted in the first pass."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-31",
+      "line": 31,
+      "target": "#Y-3.8-l31",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "64v",
+        "image": "/tmp/amores-y31-33/132.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0132/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-031.png",
+        "assessment": "The written aberant includes n before the final t. The source form is preserved."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-32",
+      "line": 32,
+      "target": "#Y-3.8-l32",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "64v",
+        "image": "/tmp/amores-y31-33/132.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0132/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-032.png",
+        "assessment": "The opening reads Erati, with a darker E. The final s of postes is darker. The terminal punctus is retained; no initial A is supplied."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-33",
+      "line": 33,
+      "target": "#Y-3.8-l33",
+      "previous_type": "second-pass-addition",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "64v",
+        "image": "/tmp/amores-y31-33/132.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0132/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-033.png",
+        "assessment": "The source spelling is adhulter, including a visible h after d; the first-pass adulter is corrected. A vertical stroke at munera/uenit is retained with unspecified function."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-34",
+      "line": 34,
+      "target": "#Y-3.8-l34",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "64v",
+        "image": "/tmp/amores-y31-33/132.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0132/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-034.png",
+        "assessment": "The i-region of sinus is darker. The et ligature and terminal stop are preserved."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-36",
+      "line": 36,
+      "target": "#Y-3.8-l36",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "64v",
+        "image": "/tmp/amores-y31-33/132.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0132/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-036.png",
+        "assessment": "The source has Omnem lucrum and altae; unusual agreement is retained without normalization."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-38",
+      "line": 38,
+      "target": "#Y-3.8-l38",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "64v",
+        "image": "/tmp/amores-y31-33/132.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0132/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-038.png",
+        "assessment": "The manuscript reads admorat, without an additional u. A small punctus after it is preserved. Word separation in nullaque massa is editorial."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-39",
+      "line": 39,
+      "target": "#Y-3.8-l39",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "64v",
+        "image": "/tmp/amores-y31-33/132.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0132/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-039.png",
+        "assessment": "The final o of curuo is distinctly darker but legible. No earlier letter is inferred."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-40",
+      "line": 40,
+      "target": "#Y-3.8-l40",
+      "previous_type": "second-pass-addition",
+      "status": "resolved",
+      "evidence": {
+        "page": "64v",
+        "image": "/tmp/amores-y31-33/132.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0132/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-040.png",
+        "assessment": "The et ligature and terminal punctus after caua are visible; the omitted terminal mark is restored."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-41",
+      "line": 41,
+      "target": "#Y-3.8-l41",
+      "previous_type": "observation",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "64v",
+        "image": "/tmp/amores-y31-33/132.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0132/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-041.png",
+        "assessment": "The bar on terra supports terram. A slender stroke at Nec/ualido is retained with unspecified function."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-42",
+      "line": 42,
+      "target": "#Y-3.8-l42",
+      "previous_type": "uncertainty",
+      "status": "resolved",
+      "evidence": {
+        "page": "64v",
+        "image": "/tmp/amores-y31-33/132.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0132/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-042.png",
+        "assessment": "The enlarged source shows baseline mensor with n dotted below and r added above. The first-pass mesor plus uncertain n addition is corrected to the visible n-to-r substitution; the resulting written layers are preserved without grammatical normalization."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-43",
+      "line": 43,
+      "target": "#Y-3.8-l43",
+      "previous_type": "observation",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "64v",
+        "image": "/tmp/amores-y31-33/132.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0132/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-043.png",
+        "assessment": "The final o of demisso and eruta are darker. A slender stroke at eruta/remo is retained with unspecified function; no erased text is inferred."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-44",
+      "line": 44,
+      "target": "#Y-3.8-l44",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "64v",
+        "image": "/tmp/amores-y31-33/132.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0132/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-044.png",
+        "assessment": "A vertical stroke crosses the mortali/tum boundary. Its function remains unknown. The terminal punctus is preserved."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-45",
+      "line": 45,
+      "target": "#Y-3.8-l45",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "64v",
+        "image": "/tmp/amores-y31-33/132.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0132/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-045.png",
+        "assessment": "The vertical stroke after Contra and a bracket-like left-margin mark beside approximately verses 45–50 are visible. The inline stroke is retained and the marginal extent documented without asserting purpose or hand."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-46",
+      "line": 46,
+      "target": "#Y-3.8-l46",
+      "previous_type": "second-pass-addition",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "64v",
+        "image": "/tmp/amores-y31-33/132.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0132/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-046.png",
+        "assessment": "A slender stroke crosses the damnis/ingeniosa boundary. The terminal punctus is retained; the internal mark has unspecified function."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-47",
+      "line": 47,
+      "target": "#Y-3.8-l47",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "64v",
+        "image": "/tmp/amores-y31-33/132.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0132/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-047.png",
+        "assessment": "The contracted word has a bar over its i-region and a dark b with a terminal hooked abbreviation sign. The schematic form moeībꝰ replaces moēibꝰ; moenibus remains a tentative expansion. The question-like terminal sign is clear."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-48",
+      "line": 48,
+      "target": "#Y-3.8-l48",
+      "previous_type": "observation",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "64v",
+        "image": "/tmp/amores-y31-33/132.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0132/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-048.png",
+        "assessment": "A vertical mark crosses dis/cordes and a horizontal stroke crosses the ad/dere boundary. Both are retained without asserting cancellation; the written addere in arma and question-like terminal sign remain."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-49",
+      "line": 49,
+      "target": "#Y-3.8-l49",
+      "previous_type": "second-pass-addition",
+      "status": "resolved",
+      "evidence": {
+        "page": "64v",
+        "image": "/tmp/amores-y31-33/132.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0132/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-049.png",
+        "assessment": "A small punctus separates pelago and terra. It is restored from the source image."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-50",
+      "line": 50,
+      "target": "#Y-3.8-l50",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "64v",
+        "image": "/tmp/amores-y31-33/132.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0132/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-050.png",
+        "assessment": "Regna petis is clearly written above dona facis. The baseline remains visible and has no secure cancellation, so the addition is retained without deleting it."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-51",
+      "line": 51,
+      "target": "#Y-3.8-l51",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "64v",
+        "image": "/tmp/amores-y31-33/132.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0132/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-051.png",
+        "assessment": "The compact final name still appears quirrinus, with closely packed r/i strokes, and remains qualified. A narrow stroke at Qua/licet is retained with unspecified function."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-52",
+      "line": 52,
+      "target": "#Y-3.8-l52",
+      "previous_type": "second-pass-addition",
+      "status": "resolved",
+      "evidence": {
+        "page": "64v",
+        "image": "/tmp/amores-y31-33/132.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0132/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-052.png",
+        "assessment": "Both et ligatures and the final punctus after habent are visible; the omitted stop is retained."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-53",
+      "line": 53,
+      "target": "#Y-3.8-l53",
+      "previous_type": "observation",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "64v",
+        "image": "/tmp/amores-y31-33/132.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0132/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-053.png",
+        "assessment": "Initial E and the first o of solidum are darker. A vertical stroke at terra/solidum has unspecified function."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-54",
+      "line": 54,
+      "target": "#Y-3.8-l54",
+      "previous_type": "second-pass-addition",
+      "status": "resolved",
+      "evidence": {
+        "page": "64v",
+        "image": "/tmp/amores-y31-33/132.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0132/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-054.png",
+        "assessment": "The image shows a terminal punctus after opes; it is retained."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-55",
+      "line": 55,
+      "target": "#Y-3.8-l55",
+      "previous_type": "observation",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "64v",
+        "image": "/tmp/amores-y31-33/132.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0132/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-055.png",
+        "assessment": "Initial C and the n-region of honores are dark; the first o is brown, correcting the first-pass localization. Small strokes below the dark n-region are retained schematically without assigning letters or cancellation. A punctus after clausa est is retained."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-56",
+      "line": 56,
+      "target": "#Y-3.8-l56",
+      "previous_type": "second-pass-addition",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "64v",
+        "image": "/tmp/amores-y31-33/132.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0132/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-056.png",
+        "assessment": "A narrow stroke crosses the iudex/inde boundary. Its function is unspecified; a terminal punctus is retained."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-57",
+      "line": 57,
+      "target": "#Y-3.8-l57",
+      "previous_type": "second-pass-addition",
+      "status": "resolved",
+      "evidence": {
+        "page": "64v",
+        "image": "/tmp/amores-y31-33/132.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0132/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-057.png",
+        "assessment": "A small punctus follows possideant. It is retained without changing the verse wording."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-58",
+      "line": 58,
+      "target": "#Y-3.8-l58",
+      "previous_type": "observation",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "64v",
+        "image": "/tmp/amores-y31-33/132.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0132/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-058.png",
+        "assessment": "The ui and at within Seruiat are dark. A slender boundary stroke before hi is retained with unspecified function, together with the terminal stop."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-59",
+      "line": 59,
+      "target": "#Y-3.8-l59",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "64v",
+        "image": "/tmp/amores-y31-33/132.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0132/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-059.png",
+        "assessment": "The s of nostros and e of liceantur are dark. The left-margin word remains tentatively Licetor; the compact final strokes do not justify a more confident lexical reading."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-60",
+      "line": 60,
+      "target": "#Y-3.8-l60",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "64v",
+        "image": "/tmp/amores-y31-33/132.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0132/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-060.png",
+        "assessment": "A compact am-like group stands over final id of aliquid. Its last stroke may belong to a letter or abbreviation and remains unclear, while the readable baseline is retained. A punctus after est is restored."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-61",
+      "line": 61,
+      "target": "#Y-3.8-l61",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "65r",
+        "image": "/tmp/amores-y31-33/133.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0133/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-061.png",
+        "assessment": "The glyph before equet resembles the et ligature, but no lexical expansion is imposed. Dark ink falls on final t of equet, a of tetricas, and final a of illa; the first-pass dark final s of tetricas is corrected."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-62",
+      "line": 62,
+      "target": "#Y-3.8-l62",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "65r",
+        "image": "/tmp/amores-y31-33/133.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0133/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-062.png",
+        "assessment": "The source reads Imperat ut capte and ends with a question-like sign. These written forms remain unnormalized."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-63",
+      "line": 63,
+      "target": "#Y-3.8-l63",
+      "previous_type": "second-pass-addition",
+      "status": "resolved",
+      "evidence": {
+        "page": "65r",
+        "image": "/tmp/amores-y31-33/133.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0133/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-063.png",
+        "assessment": "A punctus follows custos; it is restored from the image."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-64",
+      "line": 64,
+      "target": "#Y-3.8-l64",
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "65r",
+        "image": "/tmp/amores-y31-33/133.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0133/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-064.png",
+        "assessment": "The i of Si and final a of tota are dark. The narrow mark between dederim and tota is retained with unspecified function."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-65",
+      "line": 65,
+      "target": "#Y-3.8-l65",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "65r",
+        "image": "/tmp/amores-y31-33/133.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0133/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-065.png",
+        "assessment": "The g of neglecti is dark. Separate em after quisquam has both a horizontal cancellation stroke and dots below, now encoded together. No additional cancelled letters are supplied."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    },
+    {
+      "note_id": "Y-3.8-note-66",
+      "line": 66,
+      "target": "#Y-3.8-l66",
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "65r",
+        "image": "/tmp/amores-y31-33/133.jpg",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0133/full/full/0/default.jpg",
+        "crop": "/tmp/amores-y31-33/3.8-066.png",
+        "assessment": "The e of male is darker and quesitas is the source spelling. Two terminal dots precede the curved separator before the enlarged M of 3.9; the punctuation is represented schematically as a colon plus separator."
+      },
+      "change": "Second-pass source correction or documentation; see assessment and final TEI."
+    }
+  ],
+  "reviewed_candidate_sha256": "caf58c4e5b4ac3fa26eff77c3011e74ea37c7dea10068ea13b895b40329fc52a",
+  "review_report_sha256": "7133a820e8cbd40199a61352bf5ff8b12e8e062446ff9007e4982d6d1e07afff",
+  "reviewed_xml_sha256": "216d4c5a494f3dafffa73c4418285a95bc25ac4ad6c0d4350e0ac235a615a076"
+}

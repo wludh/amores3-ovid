@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="O" xml:id="O-3.14">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title>Ovid, Amores 3.14 — O, Teubner 1888</title>
+        <author>Publius Ovidius Naso</author>
+        <respStmt xml:id="O-3.14-encoder">
+          <resp>First source-image reading and TEI encoding</resp>
+          <name>OpenAI Codex primary agent</name>
+        </respStmt>
+      <respStmt xml:id="O-3.14-reviewer"><resp>Independent second-agent reading of all 50 actual source verses and every evidence note; not human approval</resp><name>OpenAI Codex review_y agent</name></respStmt></titleStmt>
+      <publicationStmt>
+        <p>Amores Project working transcription, September 2026; independently reviewed by a different agent; no human scholarly approval implied.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>P. Ovidius Naso</author>
+          <title>Amores</title>
+          <editor>R. Ehwald</editor>
+          <respStmt>
+            <resp>Recension</resp>
+            <name>R. Merkel</name>
+          </respStmt>
+          <pubPlace>Lipsiae</pubPlace>
+          <publisher>B. G. Teubner</publisher>
+          <date when="1888">1888</date>
+          <biblScope unit="page" from="67" to="68">67–68</biblScope>
+          <ref target="https://archive.org/details/operaovid03oviduoft">Internet Archive scan operaovid03oviduoft</ref>
+          <note>The scanned title identifies Tom. I despite the archive catalogue volume label. One-based viewer pages 115–116 have been inspected; source links are recorded in the facsimile.</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <normalization>
+          <p>Source wording, capitalization, contracted forms and punctuation retained. Typographic ligatures use constituent letters; quotation marks are represented schematically by curly quotes. OCR locates text but does not determine readings.</p>
+        </normalization>
+        <segmentation>
+          <p>Each l corresponds to a printed verse; n preserves the corpus verse identifier. Verses follow the source order, including any transposed couplets, rather than being silently reordered. Each line links to its existing annotation rectangle. Page breaks may occur within couplets. Source headings and running titles are encoded separately.</p>
+        </segmentation>
+        <correction>
+          <p>Source readings are not silently replaced by a modern edition. Distinctive features are explained in notes for independent checking.</p>
+        </correction>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="independently-reviewed"><change when="2026-09-10" who="#O-3.14-reviewer">Independently inspected all 50 actual source verses and every author note. Confirmed source wording, punctuation, marks, page boundaries and actual alternating inset. No human approval implied.</change>
+      <change when="2026-09-09" who="#O-3.14-encoder">Read all 50 verses from enlarged source images and prepared first-pass encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="O-3.14-p67" n="67" ulx="0" uly="0" lrx="1674" lry="2662">
+      <graphic url="https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0119.jp2/full/max/0/default.jpg" />
+      <zone xml:id="O-3.14-zone-1" ulx="26" uly="1204" lrx="1319" lry="1270" />
+      <zone xml:id="O-3.14-zone-2" ulx="208" uly="1262" lrx="1194" lry="1326" />
+      <zone xml:id="O-3.14-zone-3" ulx="146" uly="1320" lrx="1229" lry="1385" />
+      <zone xml:id="O-3.14-zone-4" ulx="206" uly="1378" lrx="1267" lry="1443" />
+      <zone xml:id="O-3.14-zone-5" ulx="111" uly="1436" lrx="1380" lry="1501" />
+      <zone xml:id="O-3.14-zone-6" ulx="205" uly="1494" lrx="1163" lry="1560" />
+      <zone xml:id="O-3.14-zone-7" ulx="146" uly="1552" lrx="1360" lry="1618" />
+      <zone xml:id="O-3.14-zone-8" ulx="204" uly="1611" lrx="1280" lry="1676" />
+      <zone xml:id="O-3.14-zone-9" ulx="146" uly="1669" lrx="1148" lry="1734" />
+      <zone xml:id="O-3.14-zone-10" ulx="95" uly="1727" lrx="1199" lry="1792" />
+      <zone xml:id="O-3.14-zone-11" ulx="145" uly="1785" lrx="1192" lry="1850" />
+      <zone xml:id="O-3.14-zone-12" ulx="204" uly="1842" lrx="1093" lry="1909" />
+      <zone xml:id="O-3.14-zone-13" ulx="146" uly="1900" lrx="1341" lry="1966" />
+      <zone xml:id="O-3.14-zone-14" ulx="202" uly="1959" lrx="1371" lry="2024" />
+      <zone xml:id="O-3.14-zone-15" ulx="93" uly="2016" lrx="1325" lry="2083" />
+      <zone xml:id="O-3.14-zone-16" ulx="201" uly="2074" lrx="1207" lry="2139" />
+      <zone xml:id="O-3.14-zone-17" ulx="144" uly="2132" lrx="1329" lry="2199" />
+      <zone xml:id="O-3.14-zone-18" ulx="202" uly="2190" lrx="1158" lry="2256" />
+      <zone xml:id="O-3.14-zone-19" ulx="143" uly="2247" lrx="1225" lry="2314" />
+      <zone xml:id="O-3.14-zone-20" ulx="93" uly="2306" lrx="1119" lry="2372" />
+    </surface>
+    <surface xml:id="O-3.14-p68" n="68" ulx="0" uly="0" lrx="1690" lry="2656">
+      <graphic url="https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0120.jp2/full/max/0/default.jpg" />
+      <zone xml:id="O-3.14-zone-21" ulx="224" uly="208" lrx="1270" lry="273" />
+      <zone xml:id="O-3.14-zone-22" ulx="284" uly="267" lrx="1312" lry="332" />
+      <zone xml:id="O-3.14-zone-23" ulx="224" uly="325" lrx="1225" lry="391" />
+      <zone xml:id="O-3.14-zone-24" ulx="285" uly="382" lrx="1361" lry="449" />
+      <zone xml:id="O-3.14-zone-25" ulx="172" uly="442" lrx="1298" lry="507" />
+      <zone xml:id="O-3.14-zone-26" ulx="286" uly="500" lrx="1219" lry="565" />
+      <zone xml:id="O-3.14-zone-27" ulx="224" uly="558" lrx="1407" lry="622" />
+      <zone xml:id="O-3.14-zone-28" ulx="282" uly="617" lrx="1205" lry="682" />
+      <zone xml:id="O-3.14-zone-29" ulx="224" uly="675" lrx="1436" lry="740" />
+      <zone xml:id="O-3.14-zone-30" ulx="171" uly="733" lrx="1094" lry="785" />
+      <zone xml:id="O-3.14-zone-31" ulx="225" uly="790" lrx="1295" lry="856" />
+      <zone xml:id="O-3.14-zone-32" ulx="283" uly="848" lrx="1294" lry="915" />
+      <zone xml:id="O-3.14-zone-33" ulx="224" uly="907" lrx="1355" lry="973" />
+      <zone xml:id="O-3.14-zone-34" ulx="283" uly="966" lrx="1317" lry="1031" />
+      <zone xml:id="O-3.14-zone-35" ulx="169" uly="1025" lrx="1364" lry="1090" />
+      <zone xml:id="O-3.14-zone-36" ulx="282" uly="1082" lrx="1243" lry="1148" />
+      <zone xml:id="O-3.14-zone-37" ulx="221" uly="1141" lrx="1416" lry="1206" />
+      <zone xml:id="O-3.14-zone-38" ulx="279" uly="1200" lrx="1241" lry="1265" />
+      <zone xml:id="O-3.14-zone-39" ulx="223" uly="1258" lrx="1573" lry="1324" />
+      <zone xml:id="O-3.14-zone-40" ulx="167" uly="1316" lrx="1375" lry="1381" />
+      <zone xml:id="O-3.14-zone-41" ulx="221" uly="1373" lrx="1451" lry="1439" />
+      <zone xml:id="O-3.14-zone-42" ulx="279" uly="1433" lrx="1226" lry="1497" />
+      <zone xml:id="O-3.14-zone-43" ulx="224" uly="1490" lrx="1345" lry="1557" />
+      <zone xml:id="O-3.14-zone-44" ulx="280" uly="1549" lrx="1262" lry="1614" />
+      <zone xml:id="O-3.14-zone-45" ulx="167" uly="1607" lrx="1421" lry="1673" />
+      <zone xml:id="O-3.14-zone-46" ulx="281" uly="1665" lrx="1207" lry="1717" />
+      <zone xml:id="O-3.14-zone-47" ulx="220" uly="1723" lrx="1335" lry="1789" />
+      <zone xml:id="O-3.14-zone-48" ulx="281" uly="1782" lrx="1339" lry="1847" />
+      <zone xml:id="O-3.14-zone-49" ulx="221" uly="1839" lrx="1328" lry="1907" />
+      <zone xml:id="O-3.14-zone-50" ulx="168" uly="1899" lrx="1124" lry="1965" />
+    </surface>
+  </facsimile>
+  <text xml:lang="la">
+    <body>
+      <div type="poem" n="3.14" xml:id="O-3.14-poem">
+        <lg type="couplet">
+          <pb n="67" facs="#O-3.14-p67" />
+          <fw type="header" place="top">III, XII, 29 — XIIII, 20.</fw>
+          <fw type="pageNum" place="top">67</fw>
+          <label type="source-heading">XIIII.</label>
+          <l n="1" xml:id="O-3.14-l1" facs="#O-3.14-zone-1">Non ego, ne pecces, cum sis formosa, recuso,</l>
+          <l n="2" xml:id="O-3.14-l2" facs="#O-3.14-zone-2" rend="indent">Sed ne sit misero scire necesse mihi,<metamark xml:id="O-3.14-mark-2-1" function="unspecified" place="right">*</metamark></l>
+        </lg>
+        <lg type="couplet">
+          <l n="3" xml:id="O-3.14-l3" facs="#O-3.14-zone-3">Nec te nostra iubet fieri censura pudicam,</l>
+          <l n="4" xml:id="O-3.14-l4" facs="#O-3.14-zone-4" rend="indent">Sed tamen, ut temptes dissimulare, rogat.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="5" xml:id="O-3.14-l5" facs="#O-3.14-zone-5">Non peccat, quaecumque potest peccasse negare,</l>
+          <l n="6" xml:id="O-3.14-l6" facs="#O-3.14-zone-6" rend="indent">Solaque famosam culpa professa facit.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="7" xml:id="O-3.14-l7" facs="#O-3.14-zone-7">Quis furor est, quae nocte latent, in luce fateri</l>
+          <l n="8" xml:id="O-3.14-l8" facs="#O-3.14-zone-8" rend="indent">Et, quae clam facias, facta referre palam?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="9" xml:id="O-3.14-l9" facs="#O-3.14-zone-9">Ignoto meretrix corpus iunctura Quiriti</l>
+          <l n="10" xml:id="O-3.14-l10" facs="#O-3.14-zone-10" rend="indent">Opposita populum summovet ante sera:</l>
+        </lg>
+        <lg type="couplet">
+          <l n="11" xml:id="O-3.14-l11" facs="#O-3.14-zone-11">Tu tua prostitues famae peccata sinistrae</l>
+          <l n="12" xml:id="O-3.14-l12" facs="#O-3.14-zone-12" rend="indent">Commissi perages indiciumque tui?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="13" xml:id="O-3.14-l13" facs="#O-3.14-zone-13">Sit tibi mens melior, saltemve imitare pudicas,</l>
+          <l n="14" xml:id="O-3.14-l14" facs="#O-3.14-zone-14" rend="indent">Teque probam, quamvis non eris, esse putem!</l>
+        </lg>
+        <lg type="couplet">
+          <l n="15" xml:id="O-3.14-l15" facs="#O-3.14-zone-15">Quae facis, haec facito; tantum fecisse negato,</l>
+          <l n="16" xml:id="O-3.14-l16" facs="#O-3.14-zone-16" rend="indent">Nec pudeat coram verba modesta loqui!</l>
+        </lg>
+        <lg type="couplet">
+          <l n="17" xml:id="O-3.14-l17" facs="#O-3.14-zone-17">Est qui nequitiam locus exigat: omnibus illum</l>
+          <l n="18" xml:id="O-3.14-l18" facs="#O-3.14-zone-18" rend="indent">Deliciis inple, stet procul inde pudor!</l>
+        </lg>
+        <lg type="couplet">
+          <l n="19" xml:id="O-3.14-l19" facs="#O-3.14-zone-19">Hinc simul exieris, lascivia protinus omnis</l>
+          <l n="20" xml:id="O-3.14-l20" facs="#O-3.14-zone-20" rend="indent">Absit, et in lecto crimina pone tuo!</l>
+          <fw type="sig" place="bottom">5*</fw>
+        </lg>
+        <lg type="couplet">
+          <pb n="68" facs="#O-3.14-p68" />
+          <fw type="header" place="top">AMORUM</fw>
+          <fw type="pageNum" place="top">68</fw>
+          <l n="21" xml:id="O-3.14-l21" facs="#O-3.14-zone-21">Illic nec tunicam tibi sit posuisse pudori</l>
+          <l n="22" xml:id="O-3.14-l22" facs="#O-3.14-zone-22" rend="indent">Nec femori inpositum sustinuisse femur;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="23" xml:id="O-3.14-l23" facs="#O-3.14-zone-23">Illic purpureis condatur lingua labellis,</l>
+          <l n="24" xml:id="O-3.14-l24" facs="#O-3.14-zone-24" rend="indent">Inque modos Venerem mille figuret amor;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="25" xml:id="O-3.14-l25" facs="#O-3.14-zone-25">Illic nec voces nec verba iuvantia cessent,</l>
+          <l n="26" xml:id="O-3.14-l26" facs="#O-3.14-zone-26" rend="indent">Spondaque lasciva mobilitate tremat!</l>
+        </lg>
+        <lg type="couplet">
+          <l n="27" xml:id="O-3.14-l27" facs="#O-3.14-zone-27">Indue cum tunicis metuentem crimina vultum,</l>
+          <l n="28" xml:id="O-3.14-l28" facs="#O-3.14-zone-28" rend="indent">Et pudor obscenum diffiteatur opus;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="29" xml:id="O-3.14-l29" facs="#O-3.14-zone-29">Da populo, da verba mihi; sine, nescius errem,</l>
+          <l n="30" xml:id="O-3.14-l30" facs="#O-3.14-zone-30" rend="indent">Et liceat stulta credulitate frui!</l>
+        </lg>
+        <lg type="couplet">
+          <l n="31" xml:id="O-3.14-l31" facs="#O-3.14-zone-31">Cur totiens video mitti recipique tabellas?</l>
+          <l n="32" xml:id="O-3.14-l32" facs="#O-3.14-zone-32" rend="indent">Cur pressus prior est interiorque torus?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="33" xml:id="O-3.14-l33" facs="#O-3.14-zone-33">Cur plus quam somno turbatos esse capillos</l>
+          <l n="34" xml:id="O-3.14-l34" facs="#O-3.14-zone-34" rend="indent">Collaque conspicio dentis habere notam?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="35" xml:id="O-3.14-l35" facs="#O-3.14-zone-35">Tantum non oculos crimen deducis ad ipsos;</l>
+          <l n="36" xml:id="O-3.14-l36" facs="#O-3.14-zone-36" rend="indent">Si dubitas famae parcere, parce mihi!</l>
+        </lg>
+        <lg type="couplet">
+          <l n="37" xml:id="O-3.14-l37" facs="#O-3.14-zone-37">Mens abit et morior, quotiens peccasse fateris,</l>
+          <l n="38" xml:id="O-3.14-l38" facs="#O-3.14-zone-38" rend="indent">Perque meos artus frigida gutta fluit.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="39" xml:id="O-3.14-l39" facs="#O-3.14-zone-39">[Tunc amo, tunc odi frustra, quod amare necessest;</l>
+          <l n="40" xml:id="O-3.14-l40" facs="#O-3.14-zone-40" rend="indent">Tunc ego, sed tecum, mortuus esse velim.]</l>
+        </lg>
+        <lg type="couplet">
+          <l n="41" xml:id="O-3.14-l41" facs="#O-3.14-zone-41">Nil equidem inquiram: nec, quae celare parabis,</l>
+          <l n="42" xml:id="O-3.14-l42" facs="#O-3.14-zone-42" rend="indent">Insequar, et falli muneris instar erit;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="43" xml:id="O-3.14-l43" facs="#O-3.14-zone-43">Si tamen in media deprensa tenebere culpa,</l>
+          <l n="44" xml:id="O-3.14-l44" facs="#O-3.14-zone-44" rend="indent">Et fuerint oculis probra videnda meis,</l>
+        </lg>
+        <lg type="couplet">
+          <l n="45" xml:id="O-3.14-l45" facs="#O-3.14-zone-45">Quae bene visa mihi fuerint, bene visa negato:</l>
+          <l n="46" xml:id="O-3.14-l46" facs="#O-3.14-zone-46" rend="indent">Concedent verbis lumina nostra tuis.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="47" xml:id="O-3.14-l47" facs="#O-3.14-zone-47">Prona tibi vinci cupientem vincere palmast,</l>
+          <l n="48" xml:id="O-3.14-l48" facs="#O-3.14-zone-48" rend="indent">Sit modo ‘non feci’ dicere lingua memor:</l>
+        </lg>
+        <lg type="couplet">
+          <l n="49" xml:id="O-3.14-l49" facs="#O-3.14-zone-49">Cum tibi contingat verbis superare duobus,</l>
+          <l n="50" xml:id="O-3.14-l50" facs="#O-3.14-zone-50" rend="indent">Etsi non causa, iudice vince tuo!</l>
+        </lg>
+      </div>
+    </body>
+    <back>
+      <div type="editorial-notes">
+        <head>Transcription notes</head>
+        <note xml:id="O-3.14-note-1" n="1" type="observation" target="#O-3.14-l1" resp="#O-3.14-reviewer">The source heading is XIIII., using additive Roman numerals. Actual full-page starts on both pages establish the explicit alternating insets.</note>
+        <note xml:id="O-3.14-note-2" n="2" type="observation" target="#O-3.14-l2" resp="#O-3.14-reviewer">The source prints a comma after mihi followed by an asterisk. The asterisk is retained as a source mark with unspecified function; it is not assigned an inferred critical meaning.</note>
+        <note xml:id="O-3.14-note-10" n="10" type="observation" target="#O-3.14-l10" resp="#O-3.14-reviewer">The source prints summovet and a terminal colon after sera.</note>
+        <note xml:id="O-3.14-note-15" n="15" type="observation" target="#O-3.14-l15" resp="#O-3.14-reviewer">The punctuation is a semicolon after facito and a comma after negato.</note>
+        <note xml:id="O-3.14-note-17" n="17" type="observation" target="#O-3.14-l17" resp="#O-3.14-reviewer">The source has a colon after exigat and no terminal punctuation.</note>
+        <note xml:id="O-3.14-note-18" n="18" type="observation" target="#O-3.14-l18" resp="#O-3.14-reviewer">The source spelling is inple, with an exclamation mark after pudor.</note>
+        <note xml:id="O-3.14-note-19" n="19" type="observation" target="#O-3.14-l19" resp="#O-3.14-reviewer">The printed ending is omnis, retained without an imported replacement.</note>
+        <note xml:id="O-3.14-note-20" n="20" type="observation" target="#O-3.14-l20" resp="#O-3.14-reviewer">The page ends after tuo! and carries the printer's signature 5* in the footer; the signature is encoded separately from verse wording.</note>
+        <note xml:id="O-3.14-note-22" n="22" type="observation" target="#O-3.14-l22" resp="#O-3.14-reviewer">The spelling inpositum and the final semicolon are retained.</note>
+        <note xml:id="O-3.14-note-23" n="23" type="observation" target="#O-3.14-l23" resp="#O-3.14-reviewer">The printed verb is condatur, retained as read on the source image.</note>
+        <note xml:id="O-3.14-note-28" n="28" type="observation" target="#O-3.14-l28" resp="#O-3.14-reviewer">The source prints diffiteatur, ending the verse with a semicolon.</note>
+        <note xml:id="O-3.14-note-31" n="31" type="observation" target="#O-3.14-l31" resp="#O-3.14-reviewer">The spellings totiens and recipique are retained, with a final question mark.</note>
+        <note xml:id="O-3.14-note-34" n="34" type="observation" target="#O-3.14-l34" resp="#O-3.14-reviewer">The source prints dentis, with a final question mark.</note>
+        <note xml:id="O-3.14-note-39" n="39" type="observation" target="#O-3.14-l39" resp="#O-3.14-reviewer">Verses39–40 are enclosed in literal printed square brackets. These reproduce the edition's brackets without asserting a scribal deletion. The contraction necessest is retained, followed by a semicolon.</note>
+        <note xml:id="O-3.14-note-41" n="41" type="observation" target="#O-3.14-l41" resp="#O-3.14-reviewer">The source has a colon after inquiram and a comma after parabis.</note>
+        <note xml:id="O-3.14-note-45" n="45" type="observation" target="#O-3.14-l45" resp="#O-3.14-reviewer">The repeated bene visa is printed in both clauses; a colon ends the verse.</note>
+        <note xml:id="O-3.14-note-47" n="47" type="observation" target="#O-3.14-l47" resp="#O-3.14-reviewer">The source contraction palmast is retained, followed by a comma.</note>
+        <note xml:id="O-3.14-note-48" n="48" type="observation" target="#O-3.14-l48" resp="#O-3.14-reviewer">The phrase non feci is enclosed in quotation marks, represented schematically by curly single quotes. A colon follows memor.</note>
+        <note xml:id="O-3.14-note-50" n="50" type="observation" target="#O-3.14-l50" resp="#O-3.14-reviewer">The poem ends with a comma after causa and an exclamation mark after tuo; the next source heading is XV.</note>
+      </div>
+    </back>
+  </text>
+</TEI>

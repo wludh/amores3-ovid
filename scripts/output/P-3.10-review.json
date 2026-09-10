@@ -1,0 +1,384 @@
+{
+  "witness": "P",
+  "poem": "3.10",
+  "date": "2026-09-09",
+  "reviewer": "OpenAI Codex primary agent, independent second source reader",
+  "author_agent": "/root/encode_p",
+  "reviewer_agent": "/root",
+  "review_type": "independent-second-agent-image-and-encoding-review",
+  "human_approved": false,
+  "line_coverage": {
+    "count": 48,
+    "ranges": [
+      {
+        "viewer_page": 95,
+        "position": "left",
+        "start": 1,
+        "end": 14
+      },
+      {
+        "viewer_page": 95,
+        "position": "right",
+        "start": 15,
+        "end": 42
+      },
+      {
+        "viewer_page": 96,
+        "position": "left",
+        "start": 43,
+        "end": 48
+      }
+    ]
+  },
+  "line_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48
+  ],
+  "absent_lines": [],
+  "notes": [
+    {
+      "note_id": "P-3.10-note-1",
+      "target": "#P-3.10-l1",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+        "verse": 1,
+        "assessment": "Independent full-opening and verse inspection confirms Annua uenerunt and Secubat as this poem’s first couplet, not a heading. The flourished A spans its opening area. All48 extant verses are present; full images95 and96 support the modest alternating insets recorded in the XML."
+      }
+    },
+    {
+      "note_id": "P-3.10-note-3",
+      "target": "#P-3.10-l3",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+        "verse": 3,
+        "assessment": "The source supports Flaua ceres tenues spicis redimita capillos. Small darker marks near and below the end of redimita remain documented as visible marks; their function and any earlier deleted letter are not established. No historical hand is inferred."
+      }
+    },
+    {
+      "note_id": "P-3.10-note-5",
+      "target": "#P-3.10-l5",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "source": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+        "verse": 5,
+        "assessment": "The marked and crowded group after Te dea remains tentatively munificam. Enlargements do not securely separate all its minims or establish the function of the small adjacent marks. Gentes ubique loquuntur is supported; the uncertainty stays local."
+      }
+    },
+    {
+      "note_id": "P-3.10-note-7",
+      "target": "#P-3.10-l7",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+        "verse": 7,
+        "assessment": "The enlarged line supports Ante nec hirsutis ornabat farra colonis. These source endings and the written verb are retained without substituting a different edition’s wording."
+      }
+    },
+    {
+      "note_id": "P-3.10-note-8",
+      "target": "#P-3.10-l8",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "source": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+        "verse": 8,
+        "assessment": "The faint minim sequence after Nec remains tentatively notum. Terris area nomen erat is supported. Enlarging the source does not justify removing the local uncertainty."
+      }
+    },
+    {
+      "note_id": "P-3.10-note-9",
+      "target": "#P-3.10-l9",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "source": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+        "verse": 9,
+        "assessment": "The source has a protruding G followed by a faint sequence provisionally landiferas. Its complete spelling remains uncertain. Quercus oracula prima ferebant is supported; the source does not justify replacing the pale opening with a familiar phrase."
+      }
+    },
+    {
+      "note_id": "P-3.10-note-10",
+      "target": "#P-3.10-l10",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+        "verse": 10,
+        "assessment": "The source supports Hoc erat, the et ligature and teneri cespitis herba cibus. The glyph and explicit expansion retain the visible sign; Hoc and cespitis are not normalized."
+      }
+    },
+    {
+      "note_id": "P-3.10-note-12",
+      "target": "#P-3.10-l12",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "source": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+        "verse": 12,
+        "assessment": "The faint opening shows an ascender and alce-like sequence, tentatively Falce, rather than the first-pass Prima. The corrected opening remains locally unclear because of fading. Coloratas subsecuitque comas is supported."
+      }
+    },
+    {
+      "note_id": "P-3.10-note-13",
+      "target": "#P-3.10-l13",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "source": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+        "verse": 13,
+        "assessment": "The bottom-left verse remains faded, with iugis and supponere colla coegit provisional. Prima and tauros are more legible. The entire source position survives; no missing letters are supplied from another witness."
+      }
+    },
+    {
+      "note_id": "P-3.10-note-14",
+      "target": "#P-3.10-l14",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "source": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+        "verse": 14,
+        "assessment": "The faint central phrase ueterem curuo dente remains locally unclear. The initial Et and final reuellit humum are supported. Fading alone is not encoded as an erasure."
+      }
+    },
+    {
+      "note_id": "P-3.10-note-15",
+      "target": "#P-3.10-l15",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "source": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+        "verse": 15,
+        "assessment": "The first right-page verse supports Hanc quisquam lacrimis and the et sign. The subsequent tentative tristitia and illegible ending remain conservative: the photograph does not establish a complete phrase. The gap describes illegible ink within this surviving verse, not source absence."
+      }
+    },
+    {
+      "note_id": "P-3.10-note-17",
+      "target": "#P-3.10-l17",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+        "verse": 17,
+        "assessment": "A visible nasal bar marks quā before the written uis, supporting the separate quam expansion. Nec tamen est and agros amet illa feraces agree with the source."
+      }
+    },
+    {
+      "note_id": "P-3.10-note-19",
+      "target": "#P-3.10-l19",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+        "verse": 19,
+        "assessment": "Both cretes forms are visible. After fingunt the source reads omnes, including the final s, correcting first-pass omnia. The next verse begins Crete and ends ioui; these source forms are retained."
+      }
+    },
+    {
+      "note_id": "P-3.10-note-23",
+      "target": "#P-3.10-l23",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+        "verse": 23,
+        "assessment": "Magna fides testi testis laudatur alumno is visible, including the repeated testi testis. No second word is removed or supplied."
+      }
+    },
+    {
+      "note_id": "P-3.10-note-25",
+      "target": "#P-3.10-l25",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "source": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+        "verse": 25,
+        "assessment": "The name after Viderat remains tentatively iasium because its pale initial strokes cannot all be securely separated. Cretea diua sub ida is supported in the manuscript’s spelling."
+      }
+    },
+    {
+      "note_id": "P-3.10-note-27",
+      "target": "#P-3.10-l27",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+        "verse": 27,
+        "assessment": "The source supports the et sign, ut tenere flammam rapuere medulle. The plain-e endings remain as written; nearby mottling does not establish a recoverable cancellation."
+      }
+    },
+    {
+      "note_id": "P-3.10-note-28",
+      "target": "#P-3.10-l28",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+        "verse": 28,
+        "assessment": "The source supports Hinc pudor ex illa parte trahebat amor. The following verse visibly reads ardere, retained without normalization."
+      }
+    },
+    {
+      "note_id": "P-3.10-note-31",
+      "target": "#P-3.10-l31",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "source": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+        "verse": 31,
+        "assessment": "Cum bene iactatos is supported; the marked and mottled verb remains tentatively pulsarant. Arua ligones is legible. The uncertain verb is not expanded or replaced from another witness."
+      }
+    },
+    {
+      "note_id": "P-3.10-note-32",
+      "target": "#P-3.10-l32",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+        "verse": 32,
+        "assessment": "The source reads duram, with the a before m visible, correcting first-pass durum. Ruperat, the et sign, uomer aduncus humum agree with the source."
+      }
+    },
+    {
+      "note_id": "P-3.10-note-34",
+      "target": "#P-3.10-l34",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "source": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+        "verse": 34,
+        "assessment": "The pale opening Irrita decepti remains tentative. Uota colentis erant is supported. The local uncertainty is retained after enlargement."
+      }
+    },
+    {
+      "note_id": "P-3.10-note-36",
+      "target": "#P-3.10-l36",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+        "verse": 36,
+        "assessment": "The source supports Deciderant longe spicea serta come. Plain-e forms remain as written, and the source initial follows the observed modest inset."
+      }
+    },
+    {
+      "note_id": "P-3.10-note-37",
+      "target": "#P-3.10-l37",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "source": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+        "verse": 37,
+        "assessment": "The pale opening remains tentatively Sola crete; no omitted expected word is asserted. Fertilis also remains uncertain. The separate darker high sign is c-like rather than the first-pass t-like form, now represented as tentative c. Its relation to the baseline and the nearby point is unresolved; no substitution sequence is invented."
+      }
+    },
+    {
+      "note_id": "P-3.10-note-38",
+      "target": "#P-3.10-l38",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+        "verse": 38,
+        "assessment": "The complete source verse supports Omnia qua tulerat se dea messis erat. No normalized spelling or alternate wording is supplied."
+      }
+    },
+    {
+      "note_id": "P-3.10-note-39",
+      "target": "#P-3.10-l39",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "source": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+        "verse": 39,
+        "assessment": "The final letter of the opening is pale and e-like, represented as Ips with a tentative e rather than the first-pass definite Ipsa. Locus nemorum canebat frugibus ide is supported. The uncertain letter is kept local."
+      }
+    },
+    {
+      "note_id": "P-3.10-note-41",
+      "target": "#P-3.10-l41",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "source": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+        "verse": 41,
+        "assessment": "The opening remains tentatively Optauit. The enlarged later sequence visibly reads legifer annos, including the tall f, correcting the first-pass legis in annos. Minos similes sibi is supported. Only the unresolved opening remains unclear."
+      }
+    },
+    {
+      "note_id": "P-3.10-note-42",
+      "target": "#P-3.10-l42",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "source": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+        "verse": 42,
+        "assessment": "The final right-page line is very faded. Its tentative Optasset cereris longus ut esset amor remains wholly qualified; the photograph does not establish all its letters securely. No stronger reading is supplied from a different witness."
+      }
+    },
+    {
+      "note_id": "P-3.10-note-43",
+      "target": "#P-3.10-l43",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "source": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f96/full/full/0/native.jpg",
+        "verse": 43,
+        "assessment": "The opening is a large Q with a separate high o-like sign, now encoded as a source abbreviation with qualified Quod expansion rather than four conjectured baseline letters. Tibi secubitus tristes dea flaua fuissent is supported. The raised sign itself remains locally unclear."
+      }
+    },
+    {
+      "note_id": "P-3.10-note-44",
+      "target": "#P-3.10-l44",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "source": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f96/full/full/0/native.jpg",
+        "verse": 44,
+        "assessment": "The enlarged source supports sacris nunc and the ending ferre tuis. The faint opening is now provisionally Hoc cogor and the short group after nunc provisionally ego, both locally unclear. This corrects the unsupported first-pass segmentation Hoc ego cur and ending cogor inesse; no full certainty is claimed for the pale words."
+      }
+    },
+    {
+      "note_id": "P-3.10-note-48",
+      "target": "#P-3.10-l48",
+      "status": "resolved",
+      "evidence": {
+        "source": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f96/full/full/0/native.jpg",
+        "verse": 48,
+        "assessment": "Hec decet ad dominos munera ferre deos is visible. The following large M and separate marginal annotation belong to the next poem. All48 positions and the final boundary were checked; original rectangles are unchanged."
+      }
+    }
+  ],
+  "counts": {
+    "resolved": 13,
+    "documented-uncertainty": 16,
+    "escalate": 0
+  },
+  "reviewed_candidate_sha256": "bf1d251613a35cbd29b558436bd319945c8fc264b410ad092ac2c54c50361eb0",
+  "review_report_sha256": "57701bfa518031ecca9e61bebbc441dbc18439de472bebf91991533d90e3280a",
+  "reviewed_xml_sha256": "ab922b1f9a0e980896d8270f65d9fbdbc08fa8fee3e40616d93db089b4cdc69e"
+}

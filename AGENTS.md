@@ -8,5 +8,6 @@ For every new poem–witness transcription, complete both source passes before p
 4. Only consequential editorial decisions belong in the user review queue. Ordinary observations and irrecoverable image uncertainty remain documentation. There is no artificial target or cap for unresolved questions.
 5. Integrate the reviewed XML, record its canonical SHA-256 and the review report SHA-256 in the review ledger, and run `npm run validate:tei` plus appropriate site tests. Later XML edits invalidate that review seal and require another review of the changed evidence before resealing.
 6. Check the actual rendered witness, source-image navigation, notes, TEI download and Back to poem link. Use the single source-oriented transcription display and minimal TEI toolbar.
+7. Check indentation against actual full-page line starts. Do not assign an indent solely because a verse number is even. Retain source-specific opening spaces and other exceptional insets, and use a readable approximation of their size.
 
 Keep existing annotation rectangles and unrelated poems intact unless the task explicitly requires their correction. Do not publish or commit merely because a local trial is ready.

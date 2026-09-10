@@ -2,6 +2,8 @@
 
 The XML is the source of readings, editorial decisions and notes. The browser renders one source-oriented view; expansions remain available in the TEI and abbreviation tooltips. Layout is a readable approximation of the document, not a typographic facsimile. Line numbers and couplet grouping are editorial. Manuscript and printed/web witnesses retain their own spellings and punctuation.
 
+Verse indentation follows the source, not verse parity. Add `rend="indent"` only after inspecting the actual line starts in full-page context; enlarged crops with different origins can misleadingly suggest an inset. S generally aligns its initials, with exceptional opening-line spacing retained separately. P has a modest inset, rendered narrower than the printed edition's indentation; Y and O have visible alternating insets. These observed patterns are starting evidence, not permission to assign indentation automatically to unread pages. Record local exceptions during both source passes.
+
 ## Two source passes
 
 The first reader transcribes from each source and records evidence. A different agent reads every extant verse from the source and investigates the notes before handoff. It makes supported corrections directly and records a disposition for every note:
@@ -16,6 +18,8 @@ The corpus index, `docs/data/tei-corpus.json`, tracks all 75 poem–witness slot
 
 ## TEI conventions
 
+Every slot, including the original 3.7 trial, must carry distinct first-reader and second-reader identities and the exact candidate and report hashes. The audit also checks source images on gap-only evidence pages, preserves original zones even when no verse uses them, and binds each not-transmitted gap to its precise canonical span. A matching total alone is insufficient. Formatting newlines are forbidden inside verse mixed content; preserve intended word boundaries when formatting XML.
+
 The trial validates against the pinned official TEI P5 4.12.0 `tei_all` Relax NG schema. This is a full TEI schema, not a project ODD customization. Read the applicable sections and element definitions when adding a feature:
 
 - [Header](https://tei-c.org/release/doc/tei-p5-doc/en/html/HD.html): source identification, responsibility, editorial policy and revisions.
@@ -29,6 +33,8 @@ The trial validates against the pinned official TEI P5 4.12.0 `tei_all` Relax NG
 Source-image coordinates reproduce the existing annotation rectangles. Each extant verse has a stable XML ID and, for image witnesses, a facsimile zone. Missing text is explicitly described with `gap`, never supplied from LL. Local editorial notes target the relevant verse or manuscript inscription. Full source links remain in the XML even when metadata is hidden in the reading panel.
 
 If source inspection establishes that an original rectangle targets the wrong text, preserve that original zone and add a separate corrected zone. The independent reviewer must record both sets of bounds, the correct image, and the reason and visual evidence in `zone_corrections`. Promotion verifies the original annotation provenance and exports only the reviewed navigation correction. The browser applies it only to the exact original rectangle, preserving subsequent scholar edits. `python3 scripts/test-tei-provenance.py` checks this preservation and rejection of unreviewed changes.
+
+If a canonical position is wholly illegible and has no original rectangle, its numbered `l` may serve as an alignment container linked to the supporting full-page `surface`. It must contain only an explicit one-line illegibility gap and an explanation; this does not claim that the individual verse has been physically located. A different source reader must record each position in `unlocated_lines`, with its target, surface link, source image, one-based manifest page, targeted uncertainty note and independent evidence. The validator rejects unsupported surface links, invented readable text and any attempt to bypass an existing original rectangle. Page-only navigation opens the whole supporting page and identifies the location as unverified. A later scholar-created rectangle takes precedence. Missing annotations never establish that a verse is absent from the witness.
 
 Uninscribed space is displayed as blank space; illegible writing retains an ellipsis. Explicit large spaces and smaller script receive a readable layout approximation. Qualified expansions remain identified as tentative in tooltips, while the written abbreviation is displayed.
 

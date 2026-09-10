@@ -1,0 +1,28 @@
+{
+  "headings":{"1":"XIIII."},
+  "page_headers":{"115":"III, XII, 29 — XIIII, 20.","116":"AMORUM"},
+  "indented_lines":[2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40,42,44,46,48,50],
+  "marks":{"2":[{"position":"after","place":"right","text":"*"}]},
+  "footers":{"20":[{"type":"sig","text":"5*"}]},
+  "notes":{
+    "1":"The source heading is XIIII., using additive Roman numerals. Actual full-page starts on both pages establish the explicit alternating insets.",
+    "2":"The source prints a comma after mihi followed by an asterisk. The asterisk is retained as a source mark with unspecified function; it is not assigned an inferred critical meaning.",
+    "10":"The source prints summovet and a terminal colon after sera.",
+    "15":"The punctuation is a semicolon after facito and a comma after negato.",
+    "17":"The source has a colon after exigat and no terminal punctuation.",
+    "18":"The source spelling is inple, with an exclamation mark after pudor.",
+    "19":"The printed ending is omnis, retained without an imported replacement.",
+    "20":"The page ends after tuo! and carries the printer's signature 5* in the footer; the signature is encoded separately from verse wording.",
+    "22":"The spelling inpositum and the final semicolon are retained.",
+    "23":"The printed verb is condatur, retained as read on the source image.",
+    "28":"The source prints diffiteatur, ending the verse with a semicolon.",
+    "31":"The spellings totiens and recipique are retained, with a final question mark.",
+    "34":"The source prints dentis, with a final question mark.",
+    "39":"Verses39–40 are enclosed in literal printed square brackets. These reproduce the edition's brackets without asserting a scribal deletion. The contraction necessest is retained, followed by a semicolon.",
+    "41":"The source has a colon after inquiram and a comma after parabis.",
+    "45":"The repeated bene visa is printed in both clauses; a colon ends the verse.",
+    "47":"The source contraction palmast is retained, followed by a comma.",
+    "48":"The phrase non feci is enclosed in quotation marks, represented schematically by curly single quotes. A colon follows memor.",
+    "50":"The poem ends with a comma after causa and an exclamation mark after tuo; the next source heading is XV."
+  }
+}

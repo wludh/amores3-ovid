@@ -676,7 +676,63 @@
     "documented-uncertainty": 21,
     "escalate": 0
   },
-  "reviewed_candidate_sha256": "115e03a310c299c778bf7914fa11dae3045e93d1e339a25ab1e861eb73322053",
-  "review_report_sha256": "422d0bd40ac619e95f8f5fc1ce268ec6c7728f49d7763eb96e129d1b7c07034f",
-  "reviewed_xml_sha256": "3b46fac69aa69d5a402615e026871f3fef7fac1cf50b469f3b95308b32f69b91"
+  "reviewed_candidate_sha256": "7c2e9cf92571cfaac9e346f22611bf1cbfc156f160bc629f16b547d445f86a17",
+  "review_report_sha256": "7f36ae1ce4372c632ab1a1256d9b1b5717c586dcfad331b77b4aa6f180a0345e",
+  "reviewed_xml_sha256": "ae933e02a04e55afe7ef010a5512a1f0c114cdcbe213a854b36dac249cdd6bce",
+  "layout_review": {
+    "reviewer_agent": "/root",
+    "date": "2026-09-09",
+    "source_pages": [
+      386,
+      387,
+      388
+    ],
+    "removed_indents": [
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28,
+      30,
+      32,
+      34,
+      36,
+      38,
+      40,
+      42,
+      44,
+      46,
+      48,
+      50,
+      52,
+      54,
+      56,
+      58,
+      60,
+      62,
+      64,
+      66,
+      68,
+      70,
+      72,
+      74,
+      76,
+      78,
+      80,
+      82,
+      84
+    ],
+    "retained_indents": [
+      2
+    ],
+    "evidence": "Full-page source inspection shows aligned regular verse initials, without systematic alternate-line indentation. Only the visibly inset second opening verse retains rend=indent; explicit initial spaces remain separate."
+  }
 }

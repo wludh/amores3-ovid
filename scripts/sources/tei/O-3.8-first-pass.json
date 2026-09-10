@@ -1,0 +1,28 @@
+{
+  "headings": {
+    "1": "VIII."
+  },
+  "page_headers": {
+    "106": "AMORUM",
+    "107": "III, VII, 57 — VIII, 45.",
+    "108": "AMORUM"
+  },
+  "notes": {
+    "1": "The source heading is VIII. The spelling etiamnunc is a single printed word.",
+    "4": "The printed contraction barbariast is retained, including the following comma after grandis.",
+    "7": "The printed contraction clausast is retained here and at55.",
+    "9": "The printed reading is parto per vulnera censu, followed by sanguine pastus eques at10.",
+    "11": "The vocative vita is set off by commas here and at12.",
+    "20": "The printed contraction Quaesitumst and spelling quidquid are retained.",
+    "22": "The printed punctuation after Indicet is an exclamation mark; the colon at the end is also retained.",
+    "27": "The source reads primum deducite pilum!, not a supplied replacement.",
+    "38": "The printed form is admorat; it is not expanded or normalized.",
+    "43": "The source prints demisso and eruta, retained as written.",
+    "51": "The printed edition encloses verses51–52 in square brackets. Both verses and brackets are retained; this printed editorial enclosure is not encoded as a physical manuscript cancellation or inferred erasure.",
+    "55": "The source has a colon after both clausast and honores.",
+    "57": "Campusque begins with a capital in the source.",
+    "60": "Only satis est is enclosed in parentheses; the rest of the line is outside.",
+    "65": "The source spelling is neclecti, retained without correction.",
+    "66": "The following poem begins below this verse with heading VIIII.; its text is boundary evidence only."
+  }
+}

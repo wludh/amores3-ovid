@@ -1,0 +1,130 @@
+{
+  "witness": "Y",
+  "poem": "3.15",
+  "date": "2026-09-10",
+  "stage": "first-pass",
+  "independently_reviewed": false,
+  "human_approved": false,
+  "coverage": [
+    {
+      "page": 140,
+      "folio": "68v",
+      "start": 1,
+      "end": 16,
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0140/full/full/0/default.jpg"
+    },
+    {
+      "page": 141,
+      "folio": "69r",
+      "start": 17,
+      "end": 20,
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0141/full/full/0/default.jpg"
+    }
+  ],
+  "line_count": 20,
+  "annotation_policy": "There are 20 original annotation rows for 20 distinct source verses, without duplicates. All20 original rectangles were inspected and remain unchanged. Some include adjacent text; the last includes the separate subscription, also checked in the full page. sourceWitness=LL and panelId are provenance only; no other witness text was used.",
+  "notes": [
+    {
+      "note_id": "Y-3.15-note-1",
+      "line": 1,
+      "type": "observation",
+      "evidence": "A large Q opens the poem. All twenty verses are present in the source, followed by a separate book-ending subscription."
+    },
+    {
+      "note_id": "Y-3.15-note-4",
+      "line": 4,
+      "type": "observation",
+      "evidence": "The e after d in deliciae is dark. The source reads dedecuere; its spelling is retained."
+    },
+    {
+      "note_id": "Y-3.15-note-7",
+      "line": 7,
+      "type": "uncertainty",
+      "evidence": "The r of uirgilio is dark; gaudet closes with an et ligature. Final a of uerona is heavily disturbed and remains unclear. No earlier reading or erasure is reconstructed."
+    },
+    {
+      "note_id": "Y-3.15-note-9",
+      "line": 9,
+      "type": "uncertainty",
+      "evidence": "The eg-region of coegerat is dark and overlapped, remaining unclear locally. A slender stroke follows arma. No source letters are reconstructed from a familiar reading."
+    },
+    {
+      "note_id": "Y-3.15-note-12",
+      "line": 12,
+      "type": "uncertainty",
+      "evidence": "A small s-like shape is written above after campi. Its attachment is plausible but its letter form remains qualified. The final a of iugera is dark. Source tenent is retained."
+    },
+    {
+      "note_id": "Y-3.15-note-13",
+      "line": 13,
+      "type": "observation",
+      "evidence": "Dicet closes with an et ligature. The ending tis of potuistis is dark and remains readable."
+    },
+    {
+      "note_id": "Y-3.15-note-14",
+      "line": 14,
+      "type": "uncertainty",
+      "evidence": "A dark spot partly covers the initial n of nos after estis. The surviving shape is retained as unclear; it is not an editorial supplied letter."
+    },
+    {
+      "note_id": "Y-3.15-note-15",
+      "line": 15,
+      "type": "uncertainty",
+      "evidence": "The middle th-region of amathusia has dark overlapping and horizontal strokes. The current letters remain qualified; no erased name or deleted group is inferred."
+    },
+    {
+      "note_id": "Y-3.15-note-16",
+      "line": 16,
+      "type": "observation",
+      "evidence": "A small l is written above after baseline l in uelite, yielding uellite when additions are read. A slender mark beneath that region has uncertain function."
+    },
+    {
+      "note_id": "Y-3.15-note-17",
+      "line": 17,
+      "type": "uncertainty",
+      "evidence": "A vertical pale stain crosses the initial in of increpuit. The letters are tentatively readable and retained as unclear; the source name is lyeus."
+    },
+    {
+      "note_id": "Y-3.15-note-18",
+      "line": 18,
+      "type": "uncertainty",
+      "evidence": "The same vertical stain affects final a of Pulsanda, which remains unclear. The medial letter of the following area/arca-like word is ambiguous; area remains qualified."
+    },
+    {
+      "note_id": "Y-3.15-note-19",
+      "line": 19,
+      "type": "observation",
+      "evidence": "A dark stain lies in the space near genialis/musa and extends toward the following verse. It does not prevent reading the current words or establish a textual cancellation."
+    },
+    {
+      "note_id": "Y-3.15-note-20",
+      "line": 20,
+      "type": "uncertainty",
+      "evidence": "The verse is followed by a separate subscription in capitals: P. OUIDI NASONIS AMORUM EXPLIC with a final suspension bar, LIB with a suspension bar, and III. These are encoded as trailer with explicit tentative expansion of EXPLIC and expansion of LIB. It is not counted as a twenty-first poem verse. No historical hand is assigned from its larger lettering."
+    }
+  ],
+  "author_agent": "/root/review_y",
+  "line_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "candidate_sha256": "1ac89a642159e939e3425c59f795b3be643b2cf26e4aa35546905ad08adbacd7"
+}

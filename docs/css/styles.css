@@ -912,6 +912,7 @@ tei-l::before {
 #witness-buttons,
 .witness-buttons {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 16px;
     margin: 16px 0 12px 0;

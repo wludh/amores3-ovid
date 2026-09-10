@@ -1,0 +1,268 @@
+{
+  "witness": "Y",
+  "poem": "3.12",
+  "date": "2026-09-09",
+  "stage": "first-pass",
+  "independently_reviewed": false,
+  "human_approved": false,
+  "coverage": [
+    {
+      "page": 137,
+      "folio": "67r",
+      "start": 1,
+      "end": 26,
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0137/full/full/0/default.jpg"
+    },
+    {
+      "page": 138,
+      "folio": "67v",
+      "start": 27,
+      "end": 44,
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0138/full/full/0/default.jpg"
+    }
+  ],
+  "line_count": 44,
+  "annotation_policy": "There are 44 original annotation rows for 44 distinct source verses, without duplicate selection. All44 original rectangles were inspected and retained. Neighbouring text can fall inside a rectangle, while marginal additions may lie outside. sourceWitness=LL and panelId are annotation provenance only; no LL text was consulted.",
+  "notes": [
+    {
+      "note_id": "Y-3.12-note-1",
+      "line": 1,
+      "type": "observation",
+      "evidence": "A large ornamental Q opens the poem. The first two verses remain source lines, not a prose heading."
+    },
+    {
+      "note_id": "Y-3.12-note-2",
+      "line": 2,
+      "type": "uncertainty",
+      "evidence": "The n of Omina is darker. A dark horizontal stroke lies between concinuistis and aues, with a crossing upright near the next word. These do not establish an erased recoverable word. A question-like sign closes the verse."
+    },
+    {
+      "note_id": "Y-3.12-note-3",
+      "line": 3,
+      "type": "observation",
+      "evidence": "The ending ere of occurrere is darker. Source occurrence and spelling are retained without reconstructing an earlier state."
+    },
+    {
+      "note_id": "Y-3.12-note-4",
+      "line": 4,
+      "type": "observation",
+      "evidence": "The b of bella is dark; the current word is readable."
+    },
+    {
+      "note_id": "Y-3.12-note-6",
+      "line": 6,
+      "type": "uncertainty",
+      "evidence": "A long rising stroke after mihi extends into the right margin. It is retained schematically with unspecified function."
+    },
+    {
+      "note_id": "Y-3.12-note-8",
+      "line": 8,
+      "type": "observation",
+      "evidence": "The a of erat is dark. The source verb prostitit is retained without normalization."
+    },
+    {
+      "note_id": "Y-3.12-note-9",
+      "line": 9,
+      "type": "uncertainty",
+      "evidence": "The compact dark group after quid appears enim, though overlapping strokes make its exact division uncertain. It remains unclear. A small right-margin cross has unspecified function."
+    },
+    {
+      "note_id": "Y-3.12-note-11",
+      "line": 11,
+      "type": "uncertainty",
+      "evidence": "A slender vertical mark crosses Me. It is recorded without cancelling the letters. The et ending of placet is a ligature."
+    },
+    {
+      "note_id": "Y-3.12-note-15",
+      "line": 15,
+      "type": "uncertainty",
+      "evidence": "Slender vertical strokes follow thebe, the et ligature of foret, and acta, with another near the cum/thebe interval. The principal boundary marks are recorded schematically; the text remains uncancelled."
+    },
+    {
+      "note_id": "Y-3.12-note-16",
+      "line": 16,
+      "type": "observation",
+      "evidence": "Final it of mouit is darker. A small terminal vertical mark is recorded with unspecified function."
+    },
+    {
+      "note_id": "Y-3.12-note-17",
+      "line": 17,
+      "type": "observation",
+      "evidence": "The source reads Auersis. Its ordinary letter forms are represented with standard characters, not normalized to a different opening."
+    },
+    {
+      "note_id": "Y-3.12-note-18",
+      "line": 18,
+      "type": "uncertainty",
+      "evidence": "The ending of destituisse is followed by a short dark stroke and a wide space before opus. The readable word is retained without reconstructing an erased ending."
+    },
+    {
+      "note_id": "Y-3.12-note-20",
+      "line": 20,
+      "type": "uncertainty",
+      "evidence": "An i is written above the a-region of main-line Malueram; the baseline remains visible and no complete cancellation is asserted. Debuerat is written in the left margin, preceded by small marks of uncertain function. A vertical stroke crosses uerbis."
+    },
+    {
+      "note_id": "Y-3.12-note-21",
+      "line": 21,
+      "type": "observation",
+      "evidence": "The n of nos is dark. Scilla is preserved with its source spelling."
+    },
+    {
+      "note_id": "Y-3.12-note-22",
+      "line": 22,
+      "type": "uncertainty",
+      "evidence": "A slender stroke crosses the premit/rapidos boundary. It does not securely cancel either word."
+    },
+    {
+      "note_id": "Y-3.12-note-24",
+      "line": 24,
+      "type": "uncertainty",
+      "evidence": "The source reads Victor abantia desultat. A short horizontal mark follows abantia and a vertical stroke crosses desultat; no normalized replacement is supplied."
+    },
+    {
+      "note_id": "Y-3.12-note-25",
+      "line": 25,
+      "type": "uncertainty",
+      "evidence": "The source name appears tityon. A slender terminal stroke has unspecified function."
+    },
+    {
+      "note_id": "Y-3.12-note-26",
+      "line": 26,
+      "type": "observation",
+      "evidence": "The source writes uipero without a separate e after r. That r is darker. The spelling is retained."
+    },
+    {
+      "note_id": "Y-3.12-note-27",
+      "line": 27,
+      "type": "observation",
+      "evidence": "The verse opens the new page with Fecimus. Paired oblique left-margin strokes also recur beside verses29,31,32,36 and37; they are documented as marginal marks without assigning them a textual function."
+    },
+    {
+      "note_id": "Y-3.12-note-29",
+      "line": 29,
+      "type": "uncertainty",
+      "evidence": "The opening group appears Adiol and remains unclear; the following it of ithacis is dark. No familiar name is substituted for the visible source sequence."
+    },
+    {
+      "note_id": "Y-3.12-note-30",
+      "line": 30,
+      "type": "observation",
+      "evidence": "The initial source word is Proditor, retained without normalization."
+    },
+    {
+      "note_id": "Y-3.12-note-31",
+      "line": 31,
+      "type": "uncertainty",
+      "evidence": "The final m of niobem is crossed horizontally and retained as del. A single f followed by a point stands after silicem; fecimus is an explicitly tentative expansion. The later fecimus is written out."
+    },
+    {
+      "note_id": "Y-3.12-note-32",
+      "line": 32,
+      "type": "uncertainty",
+      "evidence": "Concit has a bar and dark t, explicitly expanded Concinit. The following dark ot begins otrisium. After cecropi there is a horizontal stroke and then salesitum, with a crossing stroke and dark i-region. This unusual source sequence is retained without restoring an expected name or word."
+    },
+    {
+      "note_id": "Y-3.12-note-33",
+      "line": 33,
+      "type": "observation",
+      "evidence": "The au of aues is dark. Source aues is retained; no former letters are supplied."
+    },
+    {
+      "note_id": "Y-3.12-note-35",
+      "line": 35,
+      "type": "uncertainty",
+      "evidence": "A vertical stroke follows referam. The final dentes has dark overlapping letters, so its current reading remains qualified without supplying an earlier word."
+    },
+    {
+      "note_id": "Y-3.12-note-36",
+      "line": 36,
+      "type": "observation",
+      "evidence": "Final i of Qui, uom of uomerent, e of ore and initial b of bobes are darker. Bobes is retained without normalizing its consonant."
+    },
+    {
+      "note_id": "Y-3.12-note-37",
+      "line": 37,
+      "type": "observation",
+      "evidence": "The source reads Flere genus electra tuas aurora sorores. Ga is added above the ending area of aurora. The baseline is retained without claiming cancellation or silently creating a normalized name."
+    },
+    {
+      "note_id": "Y-3.12-note-38",
+      "line": 38,
+      "type": "uncertainty",
+      "evidence": "The initial word is Quaeq followed by a point, with no distinct terminal que sign. It is retained without inventing an expansion mark."
+    },
+    {
+      "note_id": "Y-3.12-note-39",
+      "line": 39,
+      "type": "uncertainty",
+      "evidence": "Final s of mensis is dark and followed by horizontal marks over a pale space. The visible current word and marks are retained without asserting erasure or reconstructing missing letters. The source writes furalibus."
+    },
+    {
+      "note_id": "Y-3.12-note-41",
+      "line": 41,
+      "type": "uncertainty",
+      "evidence": "Fac followed by a short stroke is written above iucunda. It is encoded as an unexpanded abbreviation; its intended full word and relationship to the baseline adjective are not assumed."
+    },
+    {
+      "note_id": "Y-3.12-note-42",
+      "line": 42,
+      "type": "observation",
+      "evidence": "The source reads Obligat historica nec sua uerba fide. Its word order is retained."
+    },
+    {
+      "note_id": "Y-3.12-note-44",
+      "line": 44,
+      "type": "observation",
+      "evidence": "A point follows Faemina. The et ending of nocet is a ligature; a colon-like sign and terminal stroke separate the next poem, whose initial C begins below."
+    }
+  ],
+  "author_agent": "/root/review_y",
+  "line_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44
+  ],
+  "candidate_sha256": "bf07b67ed181d99ff0b1b7ebe057adca49f09cf595f4b10e193f2e1a8ced5e14"
+}

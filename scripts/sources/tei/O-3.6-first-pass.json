@@ -1,0 +1,35 @@
+{
+  "headings": {
+    "1": "VI."
+  },
+  "page_headers": {
+    "101": "III, IIII, 38 — VI, 15.",
+    "102": "AMORUM",
+    "103": "III, VI, 16 — VI, 89.",
+    "104": "AMORUM"
+  },
+  "notes": {
+    "1": "The printed heading is VI. The opening spelling harundinibus and adjective obsite are retained.",
+    "7": "The source prints adposito, without silently regularizing its consonants.",
+    "11": "The printed contraction standumst is retained without expansion.",
+    "13": "The source name is Danaeius, with no diaeresis added; pinnas is retained.",
+    "20": "The printed parenthesis encloses Sic aeternus eas! only; labere fine tuo! follows outside it.",
+    "25": "The source prints Melie Bithynide. These names are retained exactly.",
+    "29": "The question mark follows Quid before non Alpheon; the name and punctuation are retained.",
+    "31": "The source names Xutho, Penee, Creusam and Phthiotum in the following verse are retained.",
+    "41": "The source reads Euanthe and Inopide, and verse43 Salmonida and Enipeus; no normalized name forms are substituted.",
+    "46": "The source prints Tiburis Argei. Verse51 has Anien.",
+    "53": "The printed speech opens at quid nostras, closes before dixit, and reopens at teris. It continues through66. The source53–54 wording and name Laumedonte are retained.",
+    "56": "The source prints inpedit, with n.",
+    "61": "The repeated Ilia, pone metus! appears in61 and62 and is retained.",
+    "71": "The source reads Sera tamen, not a supplied alternative.",
+    "73": "A new quoted speech opens before O utinam and closes after pudor! at78. Lecta forent and the subsequent wording are retained.",
+    "83": "The printed contraction credibilest is retained without expansion.",
+    "94": "The printed spelling hiemps occurs here and at106.",
+    "97": "The source reads tum potuit, retained without adjustment.",
+    "98": "Only perennis eas is enclosed in quotation marks; the question mark follows the closing quote.",
+    "101": "The source punctuation is Huic ego vae! demens ... amores!, with both exclamation marks retained.",
+    "103": "The source has Nescio quem hunc spectans Acheloon et Inachon amnem. No alternative words or names are supplied.",
+    "106": "The poem ends here; VII. begins below on the same printed page and is boundary evidence only."
+  }
+}

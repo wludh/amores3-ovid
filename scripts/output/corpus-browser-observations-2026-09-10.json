@@ -1,0 +1,34 @@
+{
+  "method": "Actual CUA browser interaction with all 75 unique slots at http://127.0.0.1:4173. Each row records rendered verse containers, rendered notes and the source page reached from the final represented verse. All rows passed the matching TEI heading, download filename, displayed XML verse count and Back to poem route assertions. Every slot with notes passed a note-to-text focus round trip. Null pages mean LL web text or a wholly absent poem.",
+  "poems": ["3.1","3.2","3.3","3.4","3.5","3.6","3.7","3.8","3.9","3.10","3.11","3.12","3.13","3.14","3.15"],
+  "P": {
+    "lines": [70,84,48,48,46,106,84,66,68,48,52,26,0,48,8],
+    "notes": [16,17,12,16,31,71,15,33,35,29,41,27,3,42,9],
+    "lastVerse": [70,84,48,48,46,106,84,66,68,48,52,26,null,50,8],
+    "sourcePage": [85,86,87,88,89,91,92,94,95,96,97,97,null,99,99]
+  },
+  "Y": {
+    "lines": [70,84,48,48,46,106,84,66,68,48,52,44,36,50,20],
+    "notes": [41,39,28,44,37,63,55,58,43,32,40,32,23,36,13],
+    "lastVerse": [70,84,48,48,46,106,84,66,68,48,52,44,36,50,20],
+    "sourcePage": [121,123,124,125,126,129,131,133,134,136,137,138,139,140,141]
+  },
+  "S": {
+    "lines": [70,84,48,48,46,106,74,0,0,0,0,0,0,0,0],
+    "notes": [15,46,31,36,42,64,13,1,1,1,1,1,1,1,1],
+    "lastVerse": [70,84,48,48,46,106,74,null,null,null,null,null,null,null,null],
+    "sourcePage": [387,389,390,391,392,395,396,null,null,null,null,null,null,null,null]
+  },
+  "O": {
+    "lines": [70,84,48,48,46,106,84,66,68,48,52,44,36,50,20],
+    "notes": [7,11,10,11,12,22,6,16,19,18,16,17,17,19,13],
+    "lastVerse": [70,84,48,48,46,106,84,66,68,48,52,44,36,50,20],
+    "sourcePage": [95,97,98,100,101,104,106,108,110,111,113,114,115,116,117]
+  },
+  "LL": {
+    "lines": [70,84,48,48,46,106,84,66,68,48,52,44,36,50,20],
+    "notes": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+    "lastVerse": [70,84,48,48,46,106,84,66,68,48,52,44,36,50,20],
+    "sourcePage": [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]
+  }
+}

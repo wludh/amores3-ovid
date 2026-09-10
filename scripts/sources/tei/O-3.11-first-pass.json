@@ -1,0 +1,29 @@
+{
+  "headings": {"1": "XI."},
+  "page_headers": {"111": "III, VIIII, 53 — XI, 8.", "112": "AMORUM", "113": "III, XI, 9 — XII, 28."},
+  "marginalia": {
+    "33": [{"type": "sectionNum", "place": "right", "text": "XIb."}],
+    "37": [{"type": "lineNum", "place": "right", "text": "5"}],
+    "42": [{"type": "lineNum", "place": "right", "text": "10"}],
+    "47": [{"type": "lineNum", "place": "right", "text": "15"}],
+    "52": [{"type": "lineNum", "place": "right", "text": "20"}]
+  },
+  "notes": {
+    "1": "The source heading is XI. and the printed contraction is victast. Full pages63–65 show the alternate verse insets retained here.",
+    "3": "The printed spelling is adserui, retained as written.",
+    "7": "Obdura is followed by an exclamation mark; dolor begins with lowercase d.",
+    "8": "The source prints sucus with one c, retained without normalization.",
+    "11": "The source spelling is conplexa. The next verse sets servus ut between commas.",
+    "20": "The printed sequence is noster amoris amor, retained as written.",
+    "24": "The source spells conpositis, retained without normalization.",
+    "25": "A colon follows mihi and a semicolon ends the verse. The next verse has a comma after Veni.",
+    "30": "The printed verb is audit, not a supplied replacement.",
+    "33": "A visible extra vertical space precedes this verse, with XIb. at its right. The source gives this section a second marginal count:5 beside37,10 beside42,15 beside47 and20 beside52. The source label and secondary numbers are encoded separately from the stable corpus verse IDs1–52; no verse is omitted or renumbered.",
+    "34": "The phrase sed, puto, is set off by commas, but no comma separates Hac amor from hac odium.",
+    "41": "The printed form is inproba, retained as written.",
+    "43": "The source reads Facta merent odium, facies exorat amorem: with a terminal colon.",
+    "45": "The printed form is omnis, followed by a comma; no alternate ending is supplied.",
+    "49": "The spelling Quidquid and the colon after the second eris are retained.",
+    "52": "The final verse has commas after Ut, nolim and amare, and a period after velim. Heading XII. starts the next poem below; the secondary right-margin20 corresponds to corpus verse52."
+  }
+}

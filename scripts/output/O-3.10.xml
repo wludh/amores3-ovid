@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="O" xml:id="O-3.10">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title>Ovid, Amores 3.10 — O, Teubner 1888</title>
+        <author>Publius Ovidius Naso</author>
+        <respStmt xml:id="O-3.10-encoder">
+          <resp>First source-image reading and TEI encoding</resp>
+          <name>OpenAI Codex primary agent</name>
+        </respStmt>
+      <respStmt xml:id="O-3.10-reviewer"><resp>Independent second-agent reading of all 48 actual source verses and every evidence note; not human approval</resp><name>OpenAI Codex review_y agent</name></respStmt></titleStmt>
+      <publicationStmt>
+        <p>Amores Project working transcription, September 2026; independently reviewed by a different agent; no human scholarly approval implied.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>P. Ovidius Naso</author>
+          <title>Amores</title>
+          <editor>R. Ehwald</editor>
+          <respStmt>
+            <resp>Recension</resp>
+            <name>R. Merkel</name>
+          </respStmt>
+          <pubPlace>Lipsiae</pubPlace>
+          <publisher>B. G. Teubner</publisher>
+          <date when="1888">1888</date>
+          <biblScope unit="page" from="62" to="63">62–63</biblScope>
+          <ref target="https://archive.org/details/operaovid03oviduoft">Internet Archive scan operaovid03oviduoft</ref>
+          <note>The scanned title identifies Tom. I despite the archive catalogue volume label. One-based viewer pages 110–111 have been inspected; source links are recorded in the facsimile.</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <normalization>
+          <p>Source wording, capitalization, contracted forms and punctuation retained. Typographic ligatures use constituent letters; quotation marks are represented schematically by curly quotes. OCR locates text but does not determine readings.</p>
+        </normalization>
+        <segmentation>
+          <p>Each l corresponds to a printed verse; n preserves the corpus verse identifier. Verses follow the source order, including any transposed couplets, rather than being silently reordered. Each line links to its existing annotation rectangle. Page breaks may occur within couplets. Source headings and running titles are encoded separately. Full-page images110–111 show the alternating insets retained in this poem; the layout is based on inspected source line starts.</p>
+        </segmentation>
+        <correction>
+          <p>Source readings are not silently replaced by a modern edition. Distinctive features are explained in notes for independent checking.</p>
+        </correction>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="independently-reviewed"><change when="2026-09-09" who="#O-3.10-reviewer">Independently inspected all 48 source verses and all 17 author notes. Corrected ubique to printed ubiquaque at verse 5 and added an evidence note. Confirmed actual printed alternating inset. No human approval implied.</change>
+      <change when="2026-09-09" who="#O-3.10-encoder">Read all 48 verses from enlarged source images and prepared first-pass encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="O-3.10-p62" n="62" ulx="0" uly="0" lrx="1690" lry="2656">
+      <graphic url="https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0114.jp2/full/max/0/default.jpg" />
+      <zone xml:id="O-3.10-zone-1" ulx="154" uly="1238" lrx="1222" lry="1304" />
+      <zone xml:id="O-3.10-zone-2" ulx="273" uly="1296" lrx="1142" lry="1362" />
+      <zone xml:id="O-3.10-zone-3" ulx="212" uly="1355" lrx="1332" lry="1422" />
+      <zone xml:id="O-3.10-zone-4" ulx="272" uly="1412" lrx="1313" lry="1466" />
+      <zone xml:id="O-3.10-zone-5" ulx="177" uly="1471" lrx="1444" lry="1538" />
+      <zone xml:id="O-3.10-zone-6" ulx="270" uly="1528" lrx="1250" lry="1582" />
+      <zone xml:id="O-3.10-zone-7" ulx="212" uly="1587" lrx="1220" lry="1653" />
+      <zone xml:id="O-3.10-zone-8" ulx="271" uly="1644" lrx="1166" lry="1711" />
+      <zone xml:id="O-3.10-zone-9" ulx="215" uly="1702" lrx="1400" lry="1770" />
+      <zone xml:id="O-3.10-zone-10" ulx="161" uly="1761" lrx="1329" lry="1828" />
+      <zone xml:id="O-3.10-zone-11" ulx="211" uly="1818" lrx="1372" lry="1887" />
+      <zone xml:id="O-3.10-zone-12" ulx="270" uly="1877" lrx="1181" lry="1944" />
+      <zone xml:id="O-3.10-zone-13" ulx="211" uly="1934" lrx="1274" lry="2002" />
+      <zone xml:id="O-3.10-zone-14" ulx="271" uly="1993" lrx="1292" lry="2046" />
+      <zone xml:id="O-3.10-zone-15" ulx="161" uly="2050" lrx="1415" lry="2115" />
+      <zone xml:id="O-3.10-zone-16" ulx="270" uly="2108" lrx="1188" lry="2175" />
+      <zone xml:id="O-3.10-zone-17" ulx="210" uly="2166" lrx="1443" lry="2234" />
+      <zone xml:id="O-3.10-zone-18" ulx="269" uly="2224" lrx="1312" lry="2291" />
+      <zone xml:id="O-3.10-zone-19" ulx="213" uly="2281" lrx="1404" lry="2350" />
+      <zone xml:id="O-3.10-zone-20" ulx="160" uly="2339" lrx="1111" lry="2406" />
+    </surface>
+    <surface xml:id="O-3.10-p63" n="63" ulx="0" uly="0" lrx="1674" lry="2662">
+      <graphic url="https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0115.jp2/full/max/0/default.jpg" />
+      <zone xml:id="O-3.10-zone-21" ulx="101" uly="244" lrx="1178" lry="309" />
+      <zone xml:id="O-3.10-zone-22" ulx="159" uly="302" lrx="1041" lry="367" />
+      <zone xml:id="O-3.10-zone-23" ulx="100" uly="359" lrx="1158" lry="425" />
+      <zone xml:id="O-3.10-zone-24" ulx="159" uly="416" lrx="1165" lry="483" />
+      <zone xml:id="O-3.10-zone-25" ulx="48" uly="475" lrx="1035" lry="528" />
+      <zone xml:id="O-3.10-zone-26" ulx="158" uly="533" lrx="1040" lry="599" />
+      <zone xml:id="O-3.10-zone-27" ulx="99" uly="591" lrx="1314" lry="658" />
+      <zone xml:id="O-3.10-zone-28" ulx="158" uly="649" lrx="1199" lry="715" />
+      <zone xml:id="O-3.10-zone-29" ulx="101" uly="707" lrx="1139" lry="772" />
+      <zone xml:id="O-3.10-zone-30" ulx="48" uly="765" lrx="1122" lry="830" />
+      <zone xml:id="O-3.10-zone-31" ulx="100" uly="822" lrx="1137" lry="889" />
+      <zone xml:id="O-3.10-zone-32" ulx="157" uly="881" lrx="1234" lry="947" />
+      <zone xml:id="O-3.10-zone-33" ulx="101" uly="938" lrx="1192" lry="1005" />
+      <zone xml:id="O-3.10-zone-34" ulx="157" uly="997" lrx="1007" lry="1061" />
+      <zone xml:id="O-3.10-zone-35" ulx="46" uly="1055" lrx="1209" lry="1121" />
+      <zone xml:id="O-3.10-zone-36" ulx="156" uly="1113" lrx="1114" lry="1178" />
+      <zone xml:id="O-3.10-zone-37" ulx="100" uly="1170" lrx="1036" lry="1223" />
+      <zone xml:id="O-3.10-zone-38" ulx="158" uly="1228" lrx="1163" lry="1294" />
+      <zone xml:id="O-3.10-zone-39" ulx="98" uly="1287" lrx="1195" lry="1352" />
+      <zone xml:id="O-3.10-zone-40" ulx="45" uly="1344" lrx="1103" lry="1410" />
+      <zone xml:id="O-3.10-zone-41" ulx="100" uly="1402" lrx="1129" lry="1468" />
+      <zone xml:id="O-3.10-zone-42" ulx="158" uly="1458" lrx="1124" lry="1526" />
+      <zone xml:id="O-3.10-zone-43" ulx="99" uly="1517" lrx="1281" lry="1583" />
+      <zone xml:id="O-3.10-zone-44" ulx="157" uly="1576" lrx="1110" lry="1641" />
+      <zone xml:id="O-3.10-zone-45" ulx="46" uly="1633" lrx="1281" lry="1699" />
+      <zone xml:id="O-3.10-zone-46" ulx="156" uly="1691" lrx="1236" lry="1757" />
+      <zone xml:id="O-3.10-zone-47" ulx="98" uly="1750" lrx="1393" lry="1814" />
+      <zone xml:id="O-3.10-zone-48" ulx="157" uly="1808" lrx="1248" lry="1861" />
+    </surface>
+  </facsimile>
+  <text xml:lang="la">
+    <body>
+      <div type="poem" n="3.10" xml:id="O-3.10-poem">
+        <lg type="couplet">
+          <pb n="62" facs="#O-3.10-p62" />
+          <fw type="header" place="top">AMORUM</fw>
+          <fw type="pageNum" place="top">62</fw>
+          <label type="source-heading">X.</label>
+          <l n="1" xml:id="O-3.10-l1" facs="#O-3.10-zone-1">Annua venerunt Cerealis tempora sacri:</l>
+          <l n="2" xml:id="O-3.10-l2" facs="#O-3.10-zone-2" rend="indent">Secubat in vacuo sola puella toro.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="3" xml:id="O-3.10-l3" facs="#O-3.10-zone-3">Flava, Ceres, tenues spicis redimita capillos,</l>
+          <l n="4" xml:id="O-3.10-l4" facs="#O-3.10-zone-4" rend="indent">Cur inhibes sacris commoda nostra tuis?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="5" xml:id="O-3.10-l5" facs="#O-3.10-zone-5">Te, dea, munificam gentes ubiquaque loquuntur,</l>
+          <l n="6" xml:id="O-3.10-l6" facs="#O-3.10-zone-6" rend="indent">Nec minus humanis invidet ulla bonis.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="7" xml:id="O-3.10-l7" facs="#O-3.10-zone-7">Ante nec hirsuti torrebant farra coloni,</l>
+          <l n="8" xml:id="O-3.10-l8" facs="#O-3.10-zone-8" rend="indent">Nec notum terris area nomen erat,</l>
+        </lg>
+        <lg type="couplet">
+          <l n="9" xml:id="O-3.10-l9" facs="#O-3.10-zone-9">Sed glandem quercus, oracula prima, ferebant:</l>
+          <l n="10" xml:id="O-3.10-l10" facs="#O-3.10-zone-10" rend="indent">Haec erat et teneri caespitis herba cibus;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="11" xml:id="O-3.10-l11" facs="#O-3.10-zone-11">Prima Ceres docuit turgescere semen in agris</l>
+          <l n="12" xml:id="O-3.10-l12" facs="#O-3.10-zone-12" rend="indent">Falce coloratas subsecuitque comas,</l>
+        </lg>
+        <lg type="couplet">
+          <l n="13" xml:id="O-3.10-l13" facs="#O-3.10-zone-13">Prima iugis tauros supponere colla coegit</l>
+          <l n="14" xml:id="O-3.10-l14" facs="#O-3.10-zone-14" rend="indent">Et veterem curvo dente revellit humum.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="15" xml:id="O-3.10-l15" facs="#O-3.10-zone-15">Hanc quisquam lacrimis laetari credit amantum</l>
+          <l n="16" xml:id="O-3.10-l16" facs="#O-3.10-zone-16" rend="indent">Et bene tormentis secubituque coli?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="17" xml:id="O-3.10-l17" facs="#O-3.10-zone-17">Nec tamen est, quamvis agros amet illa feraces,</l>
+          <l n="18" xml:id="O-3.10-l18" facs="#O-3.10-zone-18" rend="indent">Rustica nec viduum pectus amoris habet.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="19" xml:id="O-3.10-l19" facs="#O-3.10-zone-19">Cretes erunt testes; (nec fingunt omnia Cretes;</l>
+          <l n="20" xml:id="O-3.10-l20" facs="#O-3.10-zone-20" rend="indent">Crete nutrito terra superba Iove:</l>
+        </lg>
+        <lg type="couplet">
+          <pb n="63" facs="#O-3.10-p63" />
+          <fw type="header" place="top">III, VIIII, 53 — XI, 8.</fw>
+          <fw type="pageNum" place="top">63</fw>
+          <l n="21" xml:id="O-3.10-l21" facs="#O-3.10-zone-21">Illic, sideream mundi qui temperat arcem,</l>
+          <l n="22" xml:id="O-3.10-l22" facs="#O-3.10-zone-22" rend="indent">Exiguus tenero lac bibit ore puer;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="23" xml:id="O-3.10-l23" facs="#O-3.10-zone-23">Magna fides testi: testis laudatur alumno)</l>
+          <l n="24" xml:id="O-3.10-l24" facs="#O-3.10-zone-24" rend="indent">Fassuram Cererem crimina nostra puto.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="25" xml:id="O-3.10-l25" facs="#O-3.10-zone-25">Viderat Iasium Cretaea diva sub Ida</l>
+          <l n="26" xml:id="O-3.10-l26" facs="#O-3.10-zone-26" rend="indent">Figentem certa terga ferina manu;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="27" xml:id="O-3.10-l27" facs="#O-3.10-zone-27">Vidit, et ut tenerae flammam rapuere medullae,</l>
+          <l n="28" xml:id="O-3.10-l28" facs="#O-3.10-zone-28" rend="indent">Hinc pudor, ex illa parte trahebat amor:</l>
+        </lg>
+        <lg type="couplet">
+          <l n="29" xml:id="O-3.10-l29" facs="#O-3.10-zone-29">Victus amore pudor. sulcos arere videres</l>
+          <l n="30" xml:id="O-3.10-l30" facs="#O-3.10-zone-30" rend="indent">Et sata cum minima parte redire sui:</l>
+        </lg>
+        <lg type="couplet">
+          <l n="31" xml:id="O-3.10-l31" facs="#O-3.10-zone-31">Cum bene iactati pulsarant arva ligones,</l>
+          <l n="32" xml:id="O-3.10-l32" facs="#O-3.10-zone-32" rend="indent">Ruperat et duram vomer aduncus humum,</l>
+        </lg>
+        <lg type="couplet">
+          <l n="33" xml:id="O-3.10-l33" facs="#O-3.10-zone-33">Seminaque in latos ierant aequaliter agros,</l>
+          <l n="34" xml:id="O-3.10-l34" facs="#O-3.10-zone-34" rend="indent">Inrita decepti vota colentis erant.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="35" xml:id="O-3.10-l35" facs="#O-3.10-zone-35">Diva potens frugum silvis cessabat in altis;</l>
+          <l n="36" xml:id="O-3.10-l36" facs="#O-3.10-zone-36" rend="indent">Deciderant longae spicea serta comae.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="37" xml:id="O-3.10-l37" facs="#O-3.10-zone-37">Sola fuit Crete fecundo fertilis anno:</l>
+          <l n="38" xml:id="O-3.10-l38" facs="#O-3.10-zone-38" rend="indent">Omnia, qua tulerat se dea, messis erat;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="39" xml:id="O-3.10-l39" facs="#O-3.10-zone-39">Ipse locus nemorum canebat frugibus Idae,</l>
+          <l n="40" xml:id="O-3.10-l40" facs="#O-3.10-zone-40" rend="indent">Et ferus in silva farra metebat aper;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="41" xml:id="O-3.10-l41" facs="#O-3.10-zone-41">Optavit Minos similes sibi legifer annos,</l>
+          <l n="42" xml:id="O-3.10-l42" facs="#O-3.10-zone-42" rend="indent">Optavit, Cereris longus ut esset amor.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="43" xml:id="O-3.10-l43" facs="#O-3.10-zone-43">Quod tibi secubitus tristes, dea flava, fuissent,</l>
+          <l n="44" xml:id="O-3.10-l44" facs="#O-3.10-zone-44" rend="indent">Hoc cogor sacris nunc ego ferre tuis.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="45" xml:id="O-3.10-l45" facs="#O-3.10-zone-45">[Cur ego sim tristis, cum sit tibi nata reperta</l>
+          <l n="46" xml:id="O-3.10-l46" facs="#O-3.10-zone-46" rend="indent">Regnaque quam Iuno sorte minore regat?]</l>
+        </lg>
+        <lg type="couplet">
+          <l n="47" xml:id="O-3.10-l47" facs="#O-3.10-zone-47">Festa dies Veneremque vocat cantusque merumque:</l>
+          <l n="48" xml:id="O-3.10-l48" facs="#O-3.10-zone-48" rend="indent">Haec decet ad dominos munera ferre deos.</l>
+        </lg>
+      </div>
+    </body>
+    <back>
+      <div type="editorial-notes">
+        <head>Transcription notes</head>
+        <note xml:id="O-3.10-note-1" n="1" type="observation" target="#O-3.10-l1" resp="#O-3.10-reviewer">The source heading is X. The complete printed pages62–63 show alternating verse insets, retained after actual line-start inspection.</note>
+        <note xml:id="O-3.10-note-3" n="3" type="observation" target="#O-3.10-l3" resp="#O-3.10-reviewer">The source prints commas after Flava and Ceres and at the end of the verse.</note>
+        <note xml:id="O-3.10-note-5" n="5" type="observation" target="#O-3.10-l5" resp="#O-3.10-reviewer">Independent source inspection establishes ubiquaque, including qua after ubi. The first-pass ubique was corrected to this printed form.</note>
+        <note xml:id="O-3.10-note-9" n="9" type="observation" target="#O-3.10-l9" resp="#O-3.10-reviewer">Oracula prima is set off with commas, and the verse ends with a colon.</note>
+        <note xml:id="O-3.10-note-12" n="12" type="observation" target="#O-3.10-l12" resp="#O-3.10-reviewer">The printed reading is subsecuitque; at14 it is revellit. These source forms are retained.</note>
+        <note xml:id="O-3.10-note-15" n="15" type="observation" target="#O-3.10-l15" resp="#O-3.10-reviewer">The source prints amantum; the next verse has secubituque.</note>
+        <note xml:id="O-3.10-note-19" n="19" type="observation" target="#O-3.10-l19" resp="#O-3.10-reviewer">The parenthesis opens after the semicolon and continues across the page break through alumno at23. It is preserved as printed punctuation rather than a physical alteration.</note>
+        <note xml:id="O-3.10-note-20" n="20" type="observation" target="#O-3.10-l20" resp="#O-3.10-reviewer">The source names Crete and Iove, with a terminal colon; no letter is supplied to modernize the names.</note>
+        <note xml:id="O-3.10-note-25" n="25" type="observation" target="#O-3.10-l25" resp="#O-3.10-reviewer">The printed name is Iasium, followed by Cretaea diva sub Ida.</note>
+        <note xml:id="O-3.10-note-28" n="28" type="observation" target="#O-3.10-l28" resp="#O-3.10-reviewer">The source has Hinc pudor, ex illa parte trahebat amor: with a terminal colon.</note>
+        <note xml:id="O-3.10-note-29" n="29" type="observation" target="#O-3.10-l29" resp="#O-3.10-reviewer">There is a period after pudor followed by lowercase sulcos, retained as printed.</note>
+        <note xml:id="O-3.10-note-31" n="31" type="observation" target="#O-3.10-l31" resp="#O-3.10-reviewer">The contracted printed form is pulsarant, not an expanded spelling.</note>
+        <note xml:id="O-3.10-note-34" n="34" type="observation" target="#O-3.10-l34" resp="#O-3.10-reviewer">The source spelling is Inrita, retained without normalization.</note>
+        <note xml:id="O-3.10-note-36" n="36" type="observation" target="#O-3.10-l36" resp="#O-3.10-reviewer">The source reads Deciderant longae spicea serta comae.</note>
+        <note xml:id="O-3.10-note-39" n="39" type="observation" target="#O-3.10-l39" resp="#O-3.10-reviewer">The printed form is canebat, retained as written, with Idae at the end.</note>
+        <note xml:id="O-3.10-note-42" n="42" type="observation" target="#O-3.10-l42" resp="#O-3.10-reviewer">The comma follows Optavit. Cereris longus ut esset amor is retained in source order.</note>
+        <note xml:id="O-3.10-note-45" n="45" type="observation" target="#O-3.10-l45" resp="#O-3.10-reviewer">The printed edition encloses45–46 in square brackets, including the question mark at46. This is printed editorial enclosure, not manuscript cancellation or erasure.</note>
+        <note xml:id="O-3.10-note-48" n="48" type="observation" target="#O-3.10-l48" resp="#O-3.10-reviewer">A period follows deos; the small nearby uneven dark spot is not treated as a separate printed punctuation sign. Heading XI. and the next poem begin below48 on printed page63.</note>
+      </div>
+    </back>
+  </text>
+</TEI>

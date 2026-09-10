@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../docs/schema/tei_all-4.12.0.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="P" xml:id="P">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title>Ovid, Amores 3.10: witness P — manuscript first pass</title>
+        <author>Publius Ovidius Naso</author>
+        <respStmt xml:id="P-3.10-encoder">
+          <resp>First-pass image transcription and TEI encoding; independent second reading pending</resp>
+          <name>OpenAI Codex</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Amores Project local working transcription, 9 September 2026. Draft; not a scholarly approved edition.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="P-3.10-manuscript">
+          <msIdentifier>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France, Département des Manuscrits</repository>
+            <idno>Latin 8242</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus>Gallica digital images 95, 96; left/right positions identify physical pages in the photographed openings, not asserted medieval foliation.</locus>
+              <title>Amores 3.10</title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <handDesc>
+              <handNote>Main text and any darker interventions are distinguished where observed. No individual historical correcting hands are inferred from tonal contrast in monochrome photographs.</handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <p>The supplied BnF IIIF manifest dates the manuscript to 1001–1100. The catalogue dating is not a date assigned to individual interventions.</p>
+            </origin>
+          </history>
+          <additional>
+            <surrogates>
+              <p><ref target="https://gallica.bnf.fr/ark:/12148/btv1b9066797j">BnF Gallica Latin 8242</ref></p>
+              <p>The original full-resolution digital images and enlarged crops were inspected for this first pass. Gallica source reuse conditions apply. No text was populated from LL or another witness.</p>
+            </surrogates>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Source-grounded first reading of all 48 annotated verse positions, with manuscript-specific spellings and observed interventions. Independent second reading is required before integration as reviewed.</p>
+      </projectDesc>
+      <editorialDecl>
+        <correction>
+          <p>No silent emendation from an edition or another witness. Local uncertain letters use unclear, irrecoverable text or signs use gap. Observed above-line letters use add. Tonal distinctions use hi without an invented underlying erased text or historical hand. Manuscript annotations use note type manuscript, distinct from editorial evidence notes.</p>
+        </correction>
+        <normalization>
+          <p>One source-oriented display. Ordinary allographs, long s, and capitals are represented in legible Latin types. Word boundaries are editorially segmented; no indentation whitespace is inserted inside verse mixed content. Selected ligatures and abbreviation signs are declared typographic approximations; explicit expansions remain in TEI rather than a separate reading mode. This is not a facsimile-perfect inventory of every minute stroke.</p>
+        </normalization>
+        <punctuation>
+          <p>Significant observed punctuation is retained schematically, without adding systematic modern sentence punctuation.</p>
+        </punctuation>
+        <segmentation>
+          <p>Each l represents a verse and physical written line at its canonical poem position. Elegiac couplets are editorial grouping. Indentation is encoded only where the inspected source layout supports an offset; it is not inferred automatically from verse parity. Page breaks follow the photographed left/right physical pages. Facsimile zones reproduce the existing annotation rectangles unchanged; they may include neighbouring ink and exclude marginal annotations.</p>
+        </segmentation>
+        <interpretation>
+          <p>First-pass evidence notes are a working queue for an independent agent, not assignments for the human editor. Genuine source uncertainty remains local; consequential unresolved interpretation is distinguished from ordinary observation.</p>
+        </interpretation>
+      </editorialDecl>
+      <charDecl>
+        <char xml:id="P-3.10-et">
+          <desc>ET LIGATURE, SCHEMATIC TYPE REPRESENTATION</desc>
+          <mapping type="display">&amp;</mapping>
+          <mapping type="expansion">et</mapping>
+        </char>
+      </charDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <change when="2026-09-09" who="#P-3.10-encoder">Completed first reading from source images and enlarged crops, with line coverage and evidence notes. Independent second reading not yet performed.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="image 95" xml:id="P-3.10-image-95" ulx="0" uly="0" lrx="5813" lry="3967">
+      <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg" />
+      <zone xml:id="P-3.10-zone-1" ulx="595" uly="1889" lrx="2419" lry="2129" />
+      <zone xml:id="P-3.10-zone-2" ulx="618" uly="2003" lrx="2329" lry="2196" />
+      <zone xml:id="P-3.10-zone-3" ulx="677" uly="2130" lrx="2402" lry="2320" />
+      <zone xml:id="P-3.10-zone-4" ulx="703" uly="2214" lrx="2412" lry="2409" />
+      <zone xml:id="P-3.10-zone-5" ulx="683" uly="2331" lrx="2542" lry="2506" />
+      <zone xml:id="P-3.10-zone-6" ulx="713" uly="2438" lrx="2377" lry="2639" />
+      <zone xml:id="P-3.10-zone-7" ulx="705" uly="2541" lrx="2356" lry="2744" />
+      <zone xml:id="P-3.10-zone-8" ulx="686" uly="2672" lrx="2351" lry="2831" />
+      <zone xml:id="P-3.10-zone-9" ulx="672" uly="2765" lrx="2558" lry="2940" />
+      <zone xml:id="P-3.10-zone-10" ulx="673" uly="2861" lrx="2413" lry="3067" />
+      <zone xml:id="P-3.10-zone-11" ulx="697" uly="2985" lrx="2609" lry="3164" />
+      <zone xml:id="P-3.10-zone-12" ulx="666" uly="3099" lrx="2466" lry="3256" />
+      <zone xml:id="P-3.10-zone-13" ulx="645" uly="3225" lrx="2577" lry="3363" />
+      <zone xml:id="P-3.10-zone-14" ulx="780" uly="3325" lrx="2513" lry="3509" />
+      <zone xml:id="P-3.10-zone-15" ulx="2871" uly="397" lrx="4634" lry="595" />
+      <zone xml:id="P-3.10-zone-16" ulx="2899" uly="514" lrx="4470" lry="693" />
+      <zone xml:id="P-3.10-zone-17" ulx="2900" uly="639" lrx="4597" lry="843" />
+      <zone xml:id="P-3.10-zone-18" ulx="2886" uly="731" lrx="4443" lry="907" />
+      <zone xml:id="P-3.10-zone-19" ulx="2876" uly="858" lrx="4603" lry="1024" />
+      <zone xml:id="P-3.10-zone-20" ulx="2896" uly="966" lrx="4442" lry="1125" />
+      <zone xml:id="P-3.10-zone-21" ulx="2866" uly="1059" lrx="4644" lry="1225" />
+      <zone xml:id="P-3.10-zone-22" ulx="2885" uly="1182" lrx="4378" lry="1345" />
+      <zone xml:id="P-3.10-zone-23" ulx="2857" uly="1266" lrx="4568" lry="1447" />
+      <zone xml:id="P-3.10-zone-24" ulx="2868" uly="1392" lrx="4510" lry="1542" />
+      <zone xml:id="P-3.10-zone-25" ulx="2862" uly="1486" lrx="4364" lry="1656" />
+      <zone xml:id="P-3.10-zone-26" ulx="2872" uly="1612" lrx="4461" lry="1769" />
+      <zone xml:id="P-3.10-zone-27" ulx="2860" uly="1697" lrx="4617" lry="1875" />
+      <zone xml:id="P-3.10-zone-28" ulx="2870" uly="1822" lrx="4552" lry="1985" />
+      <zone xml:id="P-3.10-zone-29" ulx="2873" uly="1920" lrx="4602" lry="2097" />
+      <zone xml:id="P-3.10-zone-30" ulx="2865" uly="2003" lrx="4328" lry="2207" />
+      <zone xml:id="P-3.10-zone-31" ulx="2869" uly="2127" lrx="4488" lry="2294" />
+      <zone xml:id="P-3.10-zone-32" ulx="2868" uly="2239" lrx="4430" lry="2394" />
+      <zone xml:id="P-3.10-zone-33" ulx="2859" uly="2340" lrx="4573" lry="2512" />
+      <zone xml:id="P-3.10-zone-34" ulx="2865" uly="2446" lrx="4469" lry="2640" />
+      <zone xml:id="P-3.10-zone-35" ulx="2857" uly="2560" lrx="4488" lry="2735" />
+      <zone xml:id="P-3.10-zone-36" ulx="2870" uly="2693" lrx="4307" lry="2846" />
+      <zone xml:id="P-3.10-zone-37" ulx="2858" uly="2775" lrx="5353" lry="2956" />
+      <zone xml:id="P-3.10-zone-38" ulx="2874" uly="2884" lrx="4499" lry="3043" />
+      <zone xml:id="P-3.10-zone-39" ulx="2882" uly="2986" lrx="4591" lry="3173" />
+      <zone xml:id="P-3.10-zone-40" ulx="2879" uly="3110" lrx="4443" lry="3266" />
+      <zone xml:id="P-3.10-zone-41" ulx="2886" uly="3192" lrx="4505" lry="3372" />
+      <zone xml:id="P-3.10-zone-42" ulx="2858" uly="3303" lrx="4616" lry="3495" />
+    </surface>
+    <surface n="image 96" xml:id="P-3.10-image-96" ulx="0" uly="0" lrx="5811" lry="3967">
+      <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f96/full/full/0/native.jpg" />
+      <zone xml:id="P-3.10-zone-43" ulx="633" uly="417" lrx="2349" lry="591" />
+      <zone xml:id="P-3.10-zone-44" ulx="657" uly="516" lrx="2203" lry="668" />
+      <zone xml:id="P-3.10-zone-45" ulx="662" uly="618" lrx="2357" lry="801" />
+      <zone xml:id="P-3.10-zone-46" ulx="666" uly="723" lrx="2399" lry="901" />
+      <zone xml:id="P-3.10-zone-47" ulx="678" uly="845" lrx="2563" lry="1021" />
+      <zone xml:id="P-3.10-zone-48" ulx="674" uly="922" lrx="2445" lry="1126" />
+    </surface>
+  </facsimile>
+  <text xml:lang="la">
+    <body>
+      <div type="poem" n="3.10" xml:id="P-3.10">
+        <lg type="couplet" n="1">
+          <pb n="image 95, left" facs="#P-3.10-image-95" />
+          <l n="1" xml:id="P-3.10-l1" facs="#P-3.10-zone-1"><hi rend="large-initial">A</hi>nnua uenerunt cerealis tempora sacri</l>
+          <l n="2" xml:id="P-3.10-l2" facs="#P-3.10-zone-2" rend="indent">Secubat in uacuo sola puella toro</l>
+        </lg>
+        <lg type="couplet" n="2">
+          <l n="3" xml:id="P-3.10-l3" facs="#P-3.10-zone-3">Flaua ceres tenues spicis redimita capillos</l>
+          <l n="4" xml:id="P-3.10-l4" facs="#P-3.10-zone-4" rend="indent">Cur inhibes sacris commoda nostra tuis</l>
+        </lg>
+        <lg type="couplet" n="3">
+          <l n="5" xml:id="P-3.10-l5" facs="#P-3.10-zone-5">Te dea <unclear>munificam</unclear> gentes ubique loquuntur</l>
+          <l n="6" xml:id="P-3.10-l6" facs="#P-3.10-zone-6" rend="indent">Nec minus humanis inuidet illa bonis</l>
+        </lg>
+        <lg type="couplet" n="4">
+          <l n="7" xml:id="P-3.10-l7" facs="#P-3.10-zone-7">Ante nec hirsutis ornabat farra colonis</l>
+          <l n="8" xml:id="P-3.10-l8" facs="#P-3.10-zone-8" rend="indent">Nec <unclear>notum</unclear> terris area nomen erat</l>
+        </lg>
+        <lg type="couplet" n="5">
+          <l n="9" xml:id="P-3.10-l9" facs="#P-3.10-zone-9"><hi rend="large-initial">G</hi><unclear>landiferas</unclear> quercus oracula prima ferebant</l>
+          <l n="10" xml:id="P-3.10-l10" facs="#P-3.10-zone-10" rend="indent">Hoc erat <choice><abbr><g ref="#P-3.10-et">&amp;</g></abbr><expan>et</expan></choice> teneri cespitis herba cibus</l>
+        </lg>
+        <lg type="couplet" n="6">
+          <l n="11" xml:id="P-3.10-l11" facs="#P-3.10-zone-11">Prima ceres docuit turgescere semen in agris</l>
+          <l n="12" xml:id="P-3.10-l12" facs="#P-3.10-zone-12" rend="indent">Prima coloratas subsecuitque comas</l>
+        </lg>
+        <lg type="couplet" n="7">
+          <l n="13" xml:id="P-3.10-l13" facs="#P-3.10-zone-13">Prima <unclear>iugis</unclear> tauros <unclear>supponere colla coegit</unclear></l>
+          <l n="14" xml:id="P-3.10-l14" facs="#P-3.10-zone-14" rend="indent">Et <unclear>ueterem curuo dente</unclear> reuellit humum</l>
+        </lg>
+        <lg type="couplet" n="8">
+          <pb n="image 95, right" facs="#P-3.10-image-95" />
+          <l n="15" xml:id="P-3.10-l15" facs="#P-3.10-zone-15">Hanc quisquam lacrimis <choice><abbr><g ref="#P-3.10-et">&amp;</g></abbr><expan>et</expan></choice> <unclear>tristitia</unclear> <gap reason="illegible" extent="unknown" unit="character" /></l>
+          <l n="16" xml:id="P-3.10-l16" facs="#P-3.10-zone-16" rend="indent">Et bene tormentis secubituque coli</l>
+        </lg>
+        <lg type="couplet" n="9">
+          <l n="17" xml:id="P-3.10-l17" facs="#P-3.10-zone-17">Nec tamen est <choice><abbr>quā</abbr><expan>quam</expan></choice>uis agros amet illa feraces</l>
+          <l n="18" xml:id="P-3.10-l18" facs="#P-3.10-zone-18" rend="indent">Rustica nec uiduum pectus amoris habet</l>
+        </lg>
+        <lg type="couplet" n="10">
+          <l n="19" xml:id="P-3.10-l19" facs="#P-3.10-zone-19">Cretes erunt testes nec fingunt omnia cretes</l>
+          <l n="20" xml:id="P-3.10-l20" facs="#P-3.10-zone-20" rend="indent">Crete nutrito terra superba ioui</l>
+        </lg>
+        <lg type="couplet" n="11">
+          <l n="21" xml:id="P-3.10-l21" facs="#P-3.10-zone-21">Illic sideream mundi qui temperat arcem</l>
+          <l n="22" xml:id="P-3.10-l22" facs="#P-3.10-zone-22" rend="indent">Exiguus tenero lac bibit ore puer</l>
+        </lg>
+        <lg type="couplet" n="12">
+          <l n="23" xml:id="P-3.10-l23" facs="#P-3.10-zone-23">Magna fides testi testis laudatur alumno</l>
+          <l n="24" xml:id="P-3.10-l24" facs="#P-3.10-zone-24" rend="indent">Fassuram cererem crimina nostra puto</l>
+        </lg>
+        <lg type="couplet" n="13">
+          <l n="25" xml:id="P-3.10-l25" facs="#P-3.10-zone-25">Viderat <unclear>iasium</unclear> cretea diua sub ida</l>
+          <l n="26" xml:id="P-3.10-l26" facs="#P-3.10-zone-26" rend="indent">Figentem certa terga ferina manu</l>
+        </lg>
+        <lg type="couplet" n="14">
+          <l n="27" xml:id="P-3.10-l27" facs="#P-3.10-zone-27">Vidit <choice><abbr><g ref="#P-3.10-et">&amp;</g></abbr><expan>et</expan></choice> ut tenere flammam rapuere medulle</l>
+          <l n="28" xml:id="P-3.10-l28" facs="#P-3.10-zone-28" rend="indent">Hinc pudor ex illa parte trahebat amor</l>
+        </lg>
+        <lg type="couplet" n="15">
+          <l n="29" xml:id="P-3.10-l29" facs="#P-3.10-zone-29">Victus amore pudor sulcos ardere uideres</l>
+          <l n="30" xml:id="P-3.10-l30" facs="#P-3.10-zone-30" rend="indent">Et sata cum minima parte redire sui</l>
+        </lg>
+        <lg type="couplet" n="16">
+          <l n="31" xml:id="P-3.10-l31" facs="#P-3.10-zone-31">Cum bene iactatos <unclear>pulsarant</unclear> arua ligones</l>
+          <l n="32" xml:id="P-3.10-l32" facs="#P-3.10-zone-32" rend="indent">Ruperat <choice><abbr><g ref="#P-3.10-et">&amp;</g></abbr><expan>et</expan></choice> durum uomer aduncus humum</l>
+        </lg>
+        <lg type="couplet" n="17">
+          <l n="33" xml:id="P-3.10-l33" facs="#P-3.10-zone-33">Seminaque in latos ierant equaliter agros</l>
+          <l n="34" xml:id="P-3.10-l34" facs="#P-3.10-zone-34" rend="indent"><unclear>Irrita decepti</unclear> uota colentis erant</l>
+        </lg>
+        <lg type="couplet" n="18">
+          <l n="35" xml:id="P-3.10-l35" facs="#P-3.10-zone-35">Diua potens frugum siluis cessabat in altis</l>
+          <l n="36" xml:id="P-3.10-l36" facs="#P-3.10-zone-36" rend="indent">Deciderant longe spicea serta come</l>
+        </lg>
+        <lg type="couplet" n="19">
+          <l n="37" xml:id="P-3.10-l37" facs="#P-3.10-zone-37"><unclear>Sola crete</unclear> fecundo <unclear>fertilis</unclear><note type="manuscript" place="above"><unclear>t</unclear></note> anno</l>
+          <l n="38" xml:id="P-3.10-l38" facs="#P-3.10-zone-38" rend="indent">Omnia qua tulerat se dea messis erat</l>
+        </lg>
+        <lg type="couplet" n="20">
+          <l n="39" xml:id="P-3.10-l39" facs="#P-3.10-zone-39">Ipsa locus nemorum canebat frugibus ide</l>
+          <l n="40" xml:id="P-3.10-l40" facs="#P-3.10-zone-40" rend="indent">Et ferus in silua farra metebat aper</l>
+        </lg>
+        <lg type="couplet" n="21">
+          <l n="41" xml:id="P-3.10-l41" facs="#P-3.10-zone-41"><unclear>Optauit</unclear> minos similes sibi <unclear>legis</unclear> in annos</l>
+          <l n="42" xml:id="P-3.10-l42" facs="#P-3.10-zone-42" rend="indent"><unclear>Optasset cereris longus ut esset amor</unclear></l>
+        </lg>
+        <lg type="couplet" n="22">
+          <pb n="image 96, left" facs="#P-3.10-image-96" />
+          <l n="43" xml:id="P-3.10-l43" facs="#P-3.10-zone-43"><unclear>Quod</unclear> tibi secubitus tristes dea flaua fuissent</l>
+          <l n="44" xml:id="P-3.10-l44" facs="#P-3.10-zone-44" rend="indent">Hoc ego <unclear>cur</unclear> sacris nunc cogor inesse tuis</l>
+        </lg>
+        <lg type="couplet" n="23">
+          <l n="45" xml:id="P-3.10-l45" facs="#P-3.10-zone-45">Cur ego sim tristis cum sit tibi nata reperta</l>
+          <l n="46" xml:id="P-3.10-l46" facs="#P-3.10-zone-46" rend="indent">Regnaque quam iuno sorte minore regat</l>
+        </lg>
+        <lg type="couplet" n="24">
+          <l n="47" xml:id="P-3.10-l47" facs="#P-3.10-zone-47">Festa dies ueneremque uocat cantusque merumque</l>
+          <l n="48" xml:id="P-3.10-l48" facs="#P-3.10-zone-48" rend="indent">Hec decet ad dominos munera ferre deos</l>
+        </lg>
+      </div>
+    </body>
+    <back>
+      <div type="editorial-notes">
+        <head>First-pass evidence notes</head>
+        <note xml:id="P-3.10-note-1" n="1" type="observation" target="#P-3.10-l1" resp="#P-3.10-encoder">The first two written lines after3.9 are the opening couplet of3.10, not a heading. The large flourished A begins Annua. All48canonical verses are present. Full opening images95and96 show a modest alternating offset, with protruding odd-verse initials and later even-verse starts; indentation here records that observed layout rather than an automatic rule from verse parity.</note>
+        <note xml:id="P-3.10-note-3" n="3" type="observation" target="#P-3.10-l3" resp="#P-3.10-encoder">The manuscript writes ceres with initial c and redimita in the opening address. Small darker marks below the latter word are visible, but no erased letter or historical hand is inferred.</note>
+        <note xml:id="P-3.10-note-5" n="5" type="uncertainty" target="#P-3.10-l5" resp="#P-3.10-encoder">Munificam is faded and compressed, with small marks above the initial part. The provisional reading is kept local in unclear.</note>
+        <note xml:id="P-3.10-note-8" n="8" type="uncertainty" target="#P-3.10-l8" resp="#P-3.10-encoder">The word after Nec is provisionally notum; its internal minims are faded. The remainder terris area nomen erat is legible.</note>
+        <note xml:id="P-3.10-note-9" n="9" type="uncertainty" target="#P-3.10-l9" resp="#P-3.10-encoder">The enlarged G is offset into the margin and slightly above its line. The following landiferas is faint; the provisional combined reading Glandiferas remains uncertain locally. Quercus oracula prima ferebant follows in that order.</note>
+        <note xml:id="P-3.10-note-10" n="10" type="observation" target="#P-3.10-l10" resp="#P-3.10-encoder">The et ligature is encoded with a schematic glyph and explicit expansion. Cespitis is retained without normalization.</note>
+        <note xml:id="P-3.10-note-12" n="12" type="observation" target="#P-3.10-l12" resp="#P-3.10-encoder">The visible wording is Prima coloratas subsecuitque comas.</note>
+        <note xml:id="P-3.10-note-13" n="13" type="uncertainty" target="#P-3.10-l13" resp="#P-3.10-encoder">The lower part of image95 left is faded. Iugis and supponere colla coegit are provisional readings; no letters are supplied from a different witness.</note>
+        <note xml:id="P-3.10-note-14" n="14" type="uncertainty" target="#P-3.10-l14" resp="#P-3.10-encoder">The middle phrase ueterem curuo dente is faint. Reuellit humum is clearer at the line end and retained with that ending.</note>
+        <note xml:id="P-3.10-note-15" n="15" type="uncertainty" target="#P-3.10-l15" resp="#P-3.10-encoder">Image95 right starts Hanc quisquam lacrimis with an et ligature. Tristitia is tentative and the line ending is too faint for a secure reading. The local gap denotes illegible ink within this surviving verse, not manuscript absence.</note>
+        <note xml:id="P-3.10-note-17" n="17" type="observation" target="#P-3.10-l17" resp="#P-3.10-encoder">A horizontal stroke abbreviates the nasal in quamuis. The visible qua with stroke is expanded quam before the separately written uis portion.</note>
+        <note xml:id="P-3.10-note-19" n="19" type="observation" target="#P-3.10-l19" resp="#P-3.10-encoder">Cretes appears twice in the verse; the following line begins Crete. These source forms are retained.</note>
+        <note xml:id="P-3.10-note-23" n="23" type="observation" target="#P-3.10-l23" resp="#P-3.10-encoder">The source repeats testi testis and ends laudatur alumno.</note>
+        <note xml:id="P-3.10-note-25" n="25" type="uncertainty" target="#P-3.10-l25" resp="#P-3.10-encoder">The name after Viderat is provisionally iasium; its initial and medial strokes are faded. Cretea diua sub ida is more legible and is not normalized to another spelling.</note>
+        <note xml:id="P-3.10-note-27" n="27" type="observation" target="#P-3.10-l27" resp="#P-3.10-encoder">The source uses plain-e forms tenere and medulle in the visible text. No ae is supplied.</note>
+        <note xml:id="P-3.10-note-28" n="28" type="observation" target="#P-3.10-l28" resp="#P-3.10-encoder">The visible phrase is Hinc pudor ex illa parte trahebat amor.</note>
+        <note xml:id="P-3.10-note-31" n="31" type="uncertainty" target="#P-3.10-l31" resp="#P-3.10-encoder">The verb is provisionally pulsarant. Surface mottling crosses its internal letters, so the form remains unclear locally.</note>
+        <note xml:id="P-3.10-note-34" n="34" type="uncertainty" target="#P-3.10-l34" resp="#P-3.10-encoder">The opening Irrita decepti is faded; the remainder uota colentis erant is more legible.</note>
+        <note xml:id="P-3.10-note-36" n="36" type="observation" target="#P-3.10-l36" resp="#P-3.10-encoder">Spicea serta come is retained with plain e in the final word.</note>
+        <note xml:id="P-3.10-note-37" n="37" type="uncertainty" target="#P-3.10-l37" resp="#P-3.10-encoder">The faded opening appears Sola crete; its complete letter sequence is uncertain and the encoding does not assert a demonstrable omission of any expected word. Fertilis is also uncertain. A darker above-line sign resembling t is separately recorded as a manuscript annotation because its exact relationship to the base letters is not secure.</note>
+        <note xml:id="P-3.10-note-38" n="38" type="observation" target="#P-3.10-l38" resp="#P-3.10-encoder">The visible sequence is Omnia qua tulerat se dea messis erat.</note>
+        <note xml:id="P-3.10-note-39" n="39" type="observation" target="#P-3.10-l39" resp="#P-3.10-encoder">The manuscript reads Ipsa locus nemorum canebat frugibus ide. The visible place-name form ide is retained.</note>
+        <note xml:id="P-3.10-note-41" n="41" type="uncertainty" target="#P-3.10-l41" resp="#P-3.10-encoder">The opening is provisionally Optauit. The word between sibi and in annos appears legis but is faint; no normalized alternative is imposed.</note>
+        <note xml:id="P-3.10-note-42" n="42" type="uncertainty" target="#P-3.10-l42" resp="#P-3.10-encoder">The entire last line on image95 right is very faded. Optasset cereris longus ut esset amor is only a provisional reading and remains unclear.</note>
+        <note xml:id="P-3.10-note-43" n="43" type="uncertainty" target="#P-3.10-l43" resp="#P-3.10-encoder">Image96 left continues with an uncertain opening form Quod and the legible tibi secubitus tristes dea flaua fuissent. A small mark over the opening is visible, but its abbreviation function is not asserted.</note>
+        <note xml:id="P-3.10-note-44" n="44" type="uncertainty" target="#P-3.10-l44" resp="#P-3.10-encoder">The short word provisionally read cur in the opening Hoc ego cur is faint. The remainder sacris nunc cogor inesse tuis is legible.</note>
+        <note xml:id="P-3.10-note-48" n="48" type="observation" target="#P-3.10-l48" resp="#P-3.10-encoder">The poem ends with Hec decet ad dominos munera ferre deos. The next large M and its separate marginal annotation mark the following poem, outside the48verses of3.10.</note>
+      </div>
+    </back>
+  </text>
+</TEI>

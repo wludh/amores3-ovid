@@ -1,0 +1,244 @@
+{
+  "witness": "O",
+  "poem": "3.4",
+  "author_agent": "/root",
+  "reviewer_agent": "/root/encode_p",
+  "reviewer": "OpenAI Codex independent encode_p agent",
+  "date": "2026-09-09",
+  "status": "second-pass-complete",
+  "review_type": "independent-second-agent-image-and-encoding-review",
+  "human_approved": false,
+  "line_coverage": {
+    "count": 48,
+    "ranges": [
+      {
+        "page": 51,
+        "start": 1,
+        "end": 37
+      },
+      {
+        "page": 52,
+        "start": 38,
+        "end": 48
+      }
+    ],
+    "absent_ranges": []
+  },
+  "line_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48
+  ],
+  "previous_review_note_count": 0,
+  "notes": [
+    {
+      "note_id": "O-3.4-note-1",
+      "target": "#O-3.4-l1",
+      "line": 1,
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "page": 51,
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0103.jp2/full/max/0/default.jpg",
+        "local_image": "/tmp/amores-o-corpus/99.jpg",
+        "assessment": "Full viewer99 margin confirms four-stroke IIII. heading; verse1 distinctly reads inposito."
+      }
+    },
+    {
+      "note_id": "O-3.4-note-2",
+      "target": "#O-3.4-l2",
+      "line": 2,
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "page": 51,
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0103.jp2/full/max/0/default.jpg",
+        "local_image": "/tmp/amores-o-corpus/99.jpg",
+        "assessment": "Viewer99 opening strip shows ingeniost as one printed word."
+      }
+    },
+    {
+      "note_id": "O-3.4-note-3",
+      "target": "#O-3.4-l3",
+      "line": 3,
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "page": 51,
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0103.jp2/full/max/0/default.jpg",
+        "local_image": "/tmp/amores-o-corpus/99.jpg",
+        "assessment": "Both contracted castast forms are clear in viewer99 opening strip."
+      }
+    },
+    {
+      "note_id": "O-3.4-note-6",
+      "target": "#O-3.4-l6",
+      "line": 6,
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "page": 51,
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0103.jp2/full/max/0/default.jpg",
+        "local_image": "/tmp/amores-o-corpus/99.jpg",
+        "assessment": "Verse6 ends with a visible comma, distinct from the semicolon at7."
+      }
+    },
+    {
+      "note_id": "O-3.4-note-11",
+      "target": "#O-3.4-l11",
+      "line": 11,
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "page": 51,
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0103.jp2/full/max/0/default.jpg",
+        "local_image": "/tmp/amores-o-corpus/99.jpg",
+        "assessment": "Read inritare at11 and inminet at18 from separate enlarged strips99-0 and99-1."
+      }
+    },
+    {
+      "note_id": "O-3.4-note-32",
+      "target": "#O-3.4-l32",
+      "line": 32,
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "page": 51,
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0103.jp2/full/max/0/default.jpg",
+        "local_image": "/tmp/amores-o-corpus/99.jpg",
+        "assessment": "Enlarged strip99-2 shows opening and closing marks enclosing timeo only."
+      }
+    },
+    {
+      "note_id": "O-3.4-note-35",
+      "target": "#O-3.4-l35",
+      "line": 35,
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "page": 51,
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0103.jp2/full/max/0/default.jpg",
+        "local_image": "/tmp/amores-o-corpus/99.jpg",
+        "assessment": "Strip99-2 confirms separately quoted ego and feci, with dicere outside; strip99-3 shows the question ending at36."
+      }
+    },
+    {
+      "note_id": "O-3.4-note-37",
+      "target": "#O-3.4-l37",
+      "line": 37,
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "page": 51,
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0103.jp2/full/max/0/default.jpg",
+        "local_image": "/tmp/amores-o-corpus/99.jpg",
+        "assessment": "Full page99 and footer strip99-3 show signature4* below37; continuation38 begins viewer100."
+      }
+    },
+    {
+      "note_id": "O-3.4-note-38",
+      "target": "#O-3.4-l38",
+      "line": 38,
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "page": 52,
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0104.jp2/full/max/0/default.jpg",
+        "local_image": "/tmp/amores-o-corpus/100.jpg",
+        "assessment": "Strip100-0 confirms capital Urbis and Martigenae in the next verse."
+      }
+    },
+    {
+      "note_id": "O-3.4-note-40",
+      "target": "#O-3.4-l40",
+      "line": 40,
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "page": 52,
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0104.jp2/full/max/0/default.jpg",
+        "local_image": "/tmp/amores-o-corpus/100.jpg",
+        "assessment": "Strip100-0 distinctly prints Iliades Iliadesque without correction."
+      }
+    },
+    {
+      "note_id": "O-3.4-note-45",
+      "target": "#O-3.4-l45",
+      "line": 45,
+      "status": "resolved",
+      "previous_type": "observation",
+      "evidence": {
+        "page": 52,
+        "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0104.jp2/full/max/0/default.jpg",
+        "local_image": "/tmp/amores-o-corpus/100.jpg",
+        "assessment": "Strip100-0 confirms multos dabit in parentheses, commas after cole and uxor, and the final colon."
+      }
+    }
+  ],
+  "counts": {
+    "resolved": 11,
+    "documented-uncertainty": 0,
+    "escalate": 0
+  },
+  "humanActions": [],
+  "validation": {
+    "rng": "tei_all-4.12.0.rng",
+    "passed": true,
+    "extantLineCount": 48,
+    "zoneCount": 48,
+    "resolved_facs_links": 48,
+    "source_order_preserved": true,
+    "changed_verse_ids": [],
+    "coordinate_rectangles_unchanged": true,
+    "humanReviewNotes": 0
+  },
+  "first_pass_sha256": "623f00b89068b7879c8a03a0fe01b1a00459466ae3a500914dd303338717dcd9",
+  "reviewed_candidate_sha256": "08f593ccb4f62bc594949338b342102b08b63817e5ff1abd37d010898f98f7e7",
+  "review_report_sha256": "ee9e9842c925db7177231d0e0c439dd69301535dad5a2cab138d555c57e396ed",
+  "reviewed_xml_sha256": "334d02c3bb7f209509912cb7fe4255f666fa448b10e34bbff42a7c9f5384d191"
+}

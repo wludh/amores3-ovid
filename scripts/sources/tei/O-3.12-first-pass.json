@@ -1,0 +1,26 @@
+{
+  "headings": {"1":"XII."},
+  "page_headers": {"113":"III, XI, 9 — XII, 28.","114":"AMORUM"},
+  "indented_lines":[2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40,42,44],
+  "marks":{"27":[{"position":"before","place":"left","text":"*"}]},
+  "footers":{"28":[{"type":"footer","text":"OVID. I."},{"type":"sig","text":"5"}]},
+  "notes":{
+    "1":"Heading XII. appears to the left of the opening verse. Both full printed pages show the alternating insets recorded explicitly here.",
+    "2":"There is no comma after Omina; the verse ends with a question mark.",
+    "5":"The printed contraction meast is retained, here and in verse10.",
+    "8":"The source prints prostitit and a colon after erit. No alternative wording is supplied.",
+    "9":"An exclamation mark follows merito; quid starts with lowercase q.",
+    "13":"Commas surround dubium and a colon ends the verse.",
+    "15":"The source proper-name forms are Thebe, Troia and Caesaris; they are retained.",
+    "19":"The enlarged source shows a semicolon after poetas, not a colon; the next verse ends with a period.",
+    "24":"The source spelling is Abantiades, retained as printed.",
+    "25":"The source has Tityon with final n, followed later by porreximus ingens and a comma.",
+    "27":"A printed asterisk stands to the left of Fecimus. It is retained as a separate metamark with unspecified function; the visible mark alone is not treated as a manuscript deletion or a reconstructed critical apparatus. The source name is Enceladon.",
+    "28":"The verse ends in a semicolon. Below it the page carries OVID. I. and a separate signature5; these are encoded as forme work and do not become verse text.",
+    "29":"The new page begins Aeolios Ithacis inclusimus utribus Euros; all proper-name spelling and the final semicolon are retained.",
+    "32":"The source prints Odrysium Cecropis ales Ityn; no name or case ending is normalized.",
+    "34":"The spelling inposita is retained with n before p.",
+    "35":"A comma precedes dentes and a semicolon ends the verse. The next three verses end with commas; the final question mark occurs at40.",
+    "44":"The final verse prints Femina: with a colon and credulitas with lowercase c; a period follows nocet. The next source heading XIII. establishes the boundary."
+  }
+}

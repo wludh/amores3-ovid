@@ -34,6 +34,7 @@ try:
         by_id = {el.get(validation.ID): el for el in root.iter() if el.get(validation.ID)}
         proposed['navigation_overrides'] = validation.verify_image_provenance(root, args.witness, args.poem,
             list(root.iter('{%s}l' % validation.NS)), by_id, ledger)
+        proposed['surface_navigation'] = validation.surface_navigation_from_ledger(ledger)
     validation.validate(args.witness, args.poem, proposed)
 except BaseException:
     ledger_path.write_bytes(original_ledger)
@@ -46,6 +47,10 @@ if proposed.get('navigation_overrides'):
     record['navigation_overrides'] = proposed['navigation_overrides']
 else:
     record.pop('navigation_overrides', None)
+if proposed.get('surface_navigation'):
+    record['surface_navigation'] = proposed['surface_navigation']
+else:
+    record.pop('surface_navigation', None)
 record.pop('candidate_path', None)
 index.write_text(json.dumps(corpus, indent=2) + '\n')
 print(f'Integrated reviewed {args.witness} {args.poem}; complete-corpus audit remains required.')

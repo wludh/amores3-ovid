@@ -44,3 +44,27 @@ test('reviewed navigation repairs the original rectangle without changing schola
   context.annotation = original;
   assert.equal(vm.runInContext("applyReviewedNavigation(annotation, 'Y', '3.2', '67')", context), original);
 });
+
+test('only reviewed unlocated positions offer page-only navigation', async () => {
+  const { context } = runtime({ records: [
+    { witness: 'P', poem: '3.12', status: 'reviewed', surface_navigation: [{ lineId: '23', page: 97 }] },
+    { witness: 'P', poem: '3.13', status: 'in-review', surface_navigation: [{ lineId: '23', page: 97 }] }
+  ] });
+  await vm.runInContext('loadTeiCorpus()', context);
+  const result = vm.runInContext("getReviewedSurfaceNavigation('P', '3.12', '23')", context);
+  assert.deepEqual(JSON.parse(JSON.stringify(result)), { witness: 'P', poem: '3.12', lineId: '23', page: 97, unlocated: true });
+  assert.equal(vm.runInContext("getReviewedSurfaceNavigation('P', '3.12', '24')", context), undefined);
+  assert.equal(vm.runInContext("getReviewedSurfaceNavigation('P', '3.13', '23')", context), undefined);
+});
+
+test('a scholar-added rectangle supersedes page-only navigation', async () => {
+  const source = await readFile(new URL('docs/js/script.js', root), 'utf8');
+  const fn = source.slice(source.indexOf('function getAnnotationForViewer('), source.indexOf('function getViewerViewportRectFromImageRect('));
+  const annotation = { witness: 'P', poem: '3.12', lineId: '23', page: 97, x: 1, y: 2, width: 3, height: 4 };
+  const fallback = { witness: 'P', poem: '3.12', lineId: '23', page: 97, unlocated: true };
+  const context = vm.createContext({ annotationState: { annotations: [annotation] }, applyReviewedNavigation: item => item, getReviewedSurfaceNavigation: () => fallback });
+  vm.runInContext(fn, context);
+  assert.equal(context.getAnnotationForViewer({}, '23', 'P', '3.12'), annotation);
+  context.annotationState.annotations = [];
+  assert.equal(context.getAnnotationForViewer({}, '23', 'P', '3.12'), fallback);
+});

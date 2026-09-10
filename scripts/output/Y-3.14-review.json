@@ -1,0 +1,577 @@
+{
+  "witness": "Y",
+  "poem": "3.14",
+  "date": "2026-09-10",
+  "author_agent": "/root/review_y",
+  "reviewer_agent": "/root/encode_p",
+  "reviewer": "OpenAI Codex independent encode_p agent",
+  "review_type": "independent-second-agent-image-and-encoding-review",
+  "status": "second-pass-complete",
+  "human_approved": false,
+  "line_coverage": {
+    "count": 50,
+    "ranges": [
+      {
+        "page": "68r",
+        "start": 1,
+        "end": 26
+      },
+      {
+        "page": "68v",
+        "start": 27,
+        "end": 50
+      }
+    ],
+    "absent_ranges": []
+  },
+  "line_order": [
+    "Y-3.14-l1",
+    "Y-3.14-l2",
+    "Y-3.14-l3",
+    "Y-3.14-l4",
+    "Y-3.14-l5",
+    "Y-3.14-l6",
+    "Y-3.14-l7",
+    "Y-3.14-l8",
+    "Y-3.14-l9",
+    "Y-3.14-l10",
+    "Y-3.14-l11",
+    "Y-3.14-l12",
+    "Y-3.14-l13",
+    "Y-3.14-l14",
+    "Y-3.14-l15",
+    "Y-3.14-l16",
+    "Y-3.14-l17",
+    "Y-3.14-l18",
+    "Y-3.14-l19",
+    "Y-3.14-l20",
+    "Y-3.14-l21",
+    "Y-3.14-l22",
+    "Y-3.14-l23",
+    "Y-3.14-l24",
+    "Y-3.14-l25",
+    "Y-3.14-l26",
+    "Y-3.14-l27",
+    "Y-3.14-l28",
+    "Y-3.14-l29",
+    "Y-3.14-l30",
+    "Y-3.14-l31",
+    "Y-3.14-l32",
+    "Y-3.14-l33",
+    "Y-3.14-l34",
+    "Y-3.14-l35",
+    "Y-3.14-l36",
+    "Y-3.14-l37",
+    "Y-3.14-l38",
+    "Y-3.14-l39",
+    "Y-3.14-l40",
+    "Y-3.14-l41",
+    "Y-3.14-l42",
+    "Y-3.14-l43",
+    "Y-3.14-l44",
+    "Y-3.14-l45",
+    "Y-3.14-l46",
+    "Y-3.14-l47",
+    "Y-3.14-l48",
+    "Y-3.14-l49",
+    "Y-3.14-l50"
+  ],
+  "notes": [
+    {
+      "note_id": "Y-3.14-note-1",
+      "target": "#Y-3.14-l1",
+      "line": 1,
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "68r",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0139/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/139.jpg",
+        "assessment": "The full line and enlarged initial confirm ornamental N and formonsa; no normalized vowel sequence was substituted."
+      }
+    },
+    {
+      "note_id": "Y-3.14-note-2",
+      "target": "#Y-3.14-l2",
+      "line": 2,
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "68r",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0139/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/139.jpg",
+        "assessment": "The d of Sed is visibly dark while the remaining wording is legible; no preceding state is identifiable."
+      }
+    },
+    {
+      "note_id": "Y-3.14-note-3",
+      "target": "#Y-3.14-l3",
+      "line": 3,
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "68r",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0139/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/139.jpg",
+        "assessment": "The two slender boundary strokes are present and have no secure cancellation function; the closing et ligature in iubet is legible."
+      }
+    },
+    {
+      "note_id": "Y-3.14-note-4",
+      "target": "#Y-3.14-l4",
+      "line": 4,
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "68r",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0139/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/139.jpg",
+        "assessment": "The current dark word rogo is readable and is retained without an inferred earlier word."
+      }
+    },
+    {
+      "note_id": "Y-3.14-note-5",
+      "target": "#Y-3.14-l5",
+      "line": 5,
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "68r",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0139/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/139.jpg",
+        "assessment": "The two dark s letters in peccasse and final e of negare are visible; quae cumque preserves the source letters with editorial spacing."
+      }
+    },
+    {
+      "note_id": "Y-3.14-note-6",
+      "target": "#Y-3.14-l6",
+      "line": 6,
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "68r",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0139/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/139.jpg",
+        "assessment": "The crossed dark a remains legible in famosam; its earlier form cannot be recovered from this image."
+      }
+    },
+    {
+      "note_id": "Y-3.14-note-7",
+      "target": "#Y-3.14-l7",
+      "line": 7,
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "68r",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0139/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/139.jpg",
+        "assessment": "Both dark furor ending and barred e are visible, with est a defensible expansion. The right zigzag and farther strokes remain functionally uncertain."
+      }
+    },
+    {
+      "note_id": "Y-3.14-note-8",
+      "target": "#Y-3.14-l8",
+      "line": 8,
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "68r",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0139/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/139.jpg",
+        "assessment": "A vertical stroke after facias and the long right sign are visible; neither proves a text deletion or a precise punctuation value."
+      }
+    },
+    {
+      "note_id": "Y-3.14-note-10",
+      "target": "#Y-3.14-l10",
+      "line": 10,
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "68r",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0139/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/139.jpg",
+        "assessment": "The nasal bars in populum and summouet, et ligature and darker initial of sera are visible in the independent enlargement."
+      }
+    },
+    {
+      "note_id": "Y-3.14-note-11",
+      "target": "#Y-3.14-l11",
+      "line": 11,
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "68r",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0139/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/139.jpg",
+        "assessment": "The full-width crop independently reveals u following the tall T, giving Tu tua; the missing letter is restored. The terminal stroke remains unexplained."
+      }
+    },
+    {
+      "note_id": "Y-3.14-note-12",
+      "target": "#Y-3.14-l12",
+      "line": 12,
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "68r",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0139/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/139.jpg",
+        "assessment": "Commisi is the readable baseline. The raised mark near its ending does not securely yield an added letter; the thin indiciumque stroke remains unspecified."
+      }
+    },
+    {
+      "note_id": "Y-3.14-note-13",
+      "target": "#Y-3.14-l13",
+      "line": 13,
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "68r",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0139/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/139.jpg",
+        "assessment": "The baseline ue and raised q with que sign are distinct. No secure cancellation of ue is visible; the added abbreviation and boundary stroke remain separate."
+      }
+    },
+    {
+      "note_id": "Y-3.14-note-17",
+      "target": "#Y-3.14-l17",
+      "line": 17,
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "68r",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0139/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/139.jpg",
+        "assessment": "The nasal bar over the last a in nequitiam is visible; Est qui and the dark locus opening are confirmed directly."
+      }
+    },
+    {
+      "note_id": "Y-3.14-note-18",
+      "target": "#Y-3.14-l18",
+      "line": 18,
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "68r",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0139/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/139.jpg",
+        "assessment": "The dark final region of Deliciis, dark sit and point after imple are legible. The margin x has no securely established textual function."
+      }
+    },
+    {
+      "note_id": "Y-3.14-note-19",
+      "target": "#Y-3.14-l19",
+      "line": 19,
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "68r",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0139/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/139.jpg",
+        "assessment": "The baseline reads lasciua and the slender exieris boundary stroke is visible without proof of cancellation."
+      }
+    },
+    {
+      "note_id": "Y-3.14-note-20",
+      "target": "#Y-3.14-l20",
+      "line": 20,
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "68r",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0139/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/139.jpg",
+        "assessment": "The Absit stroke and following et ligature are visible. The stroke remains unspecified."
+      }
+    },
+    {
+      "note_id": "Y-3.14-note-21",
+      "target": "#Y-3.14-l21",
+      "line": 21,
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "68r",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0139/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/139.jpg",
+        "assessment": "The source vowel after p is o, confirming podori rather than a normalized pudori."
+      }
+    },
+    {
+      "note_id": "Y-3.14-note-22",
+      "target": "#Y-3.14-l22",
+      "line": 22,
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "68r",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0139/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/139.jpg",
+        "assessment": "The close crop shows a point directly below final e and i above: the first-pass simple addition is corrected to an expunction substitution preserving both e and i."
+      }
+    },
+    {
+      "note_id": "Y-3.14-note-24",
+      "target": "#Y-3.14-l24",
+      "line": 24,
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "68r",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0139/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/139.jpg",
+        "assessment": "The dark point following uenerem cannot securely be called cancellation. The et ligature at the end of figuret is independently confirmed and now explicitly encoded."
+      }
+    },
+    {
+      "note_id": "Y-3.14-note-25",
+      "target": "#Y-3.14-l25",
+      "line": 25,
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "68r",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0139/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/139.jpg",
+        "assessment": "The darker vowel is the e of uoces and the full line remains legible."
+      }
+    },
+    {
+      "note_id": "Y-3.14-note-27",
+      "target": "#Y-3.14-l27",
+      "line": 27,
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "68v",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0140/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/140.jpg",
+        "assessment": "The first source line on image 140 reads metuentem, confirmed against the full page and numbered strip."
+      }
+    },
+    {
+      "note_id": "Y-3.14-note-28",
+      "target": "#Y-3.14-l28",
+      "line": 28,
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "68v",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0140/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/140.jpg",
+        "assessment": "The darker fitea group is readable in diffiteatur; no preceding wording is asserted."
+      }
+    },
+    {
+      "note_id": "Y-3.14-note-31",
+      "target": "#Y-3.14-l31",
+      "line": 31,
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "68v",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0140/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/140.jpg",
+        "assessment": "The dark ti and p are distinct from the short stroke crossing the re/ci region. The latter does not securely establish deletion."
+      }
+    },
+    {
+      "note_id": "Y-3.14-note-32",
+      "target": "#Y-3.14-l32",
+      "line": 32,
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "68v",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0140/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/140.jpg",
+        "assessment": "The enlarged pressus middle remains pale and disturbed, so ss stays unclear. The inserted r above pior and boundary after est are directly visible."
+      }
+    },
+    {
+      "note_id": "Y-3.14-note-33",
+      "target": "#Y-3.14-l33",
+      "line": 33,
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "68v",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0140/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/140.jpg",
+        "assessment": "The dark o in turbatos is legible without recoverable earlier letters."
+      }
+    },
+    {
+      "note_id": "Y-3.14-note-36",
+      "target": "#Y-3.14-l36",
+      "line": 36,
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "68v",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0140/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/140.jpg",
+        "assessment": "Fame and the darker r of parcere are legible. The following thin stroke has no secure editorial function."
+      }
+    },
+    {
+      "note_id": "Y-3.14-note-37",
+      "target": "#Y-3.14-l37",
+      "line": 37,
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "68v",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0140/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/140.jpg",
+        "assessment": "The enlargement confirms baseline heb with et ligature, above-line abit, an oblique stroke and the following separate et. Cancellation of the entire first ligature is not secure."
+      }
+    },
+    {
+      "note_id": "Y-3.14-note-40",
+      "target": "#Y-3.14-l40",
+      "line": 40,
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "68v",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0140/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/140.jpg",
+        "assessment": "The line reads sed tecum and uelem; the unusual source wording is preserved without importing familiar alternatives."
+      }
+    },
+    {
+      "note_id": "Y-3.14-note-41",
+      "target": "#Y-3.14-l41",
+      "line": 41,
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "68v",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0140/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/140.jpg",
+        "assessment": "The pale and marked group after equidem remains consistent with tentative irquitam, not a secure full reading. Added c, baseline ne que and the two marks are preserved separately."
+      }
+    },
+    {
+      "note_id": "Y-3.14-note-42",
+      "target": "#Y-3.14-l42",
+      "line": 42,
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "68v",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0140/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/140.jpg",
+        "assessment": "The baseline group remains tentatively muneris while criminis above is clear; the small marks below do not securely define a cancellation extent."
+      }
+    },
+    {
+      "note_id": "Y-3.14-note-43",
+      "target": "#Y-3.14-l43",
+      "line": 43,
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "68v",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0140/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/140.jpg",
+        "assessment": "The current in media deprensa can be followed through the surface marks, but an earlier phrase or hand cannot be identified."
+      }
+    },
+    {
+      "note_id": "Y-3.14-note-44",
+      "target": "#Y-3.14-l44",
+      "line": 44,
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "68v",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0140/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/140.jpg",
+        "assessment": "The r stands above the b/a boundary in baseline proba, supporting the existing insertion encoding."
+      }
+    },
+    {
+      "note_id": "Y-3.14-note-45",
+      "target": "#Y-3.14-l45",
+      "line": 45,
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "68v",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0140/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/140.jpg",
+        "assessment": "The thin stroke after fuerint is present and remains unspecified."
+      }
+    },
+    {
+      "note_id": "Y-3.14-note-46",
+      "target": "#Y-3.14-l46",
+      "line": 46,
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": "68v",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0140/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/140.jpg",
+        "assessment": "The dark initial l and source Concedunt are independently confirmed."
+      }
+    },
+    {
+      "note_id": "Y-3.14-note-49",
+      "target": "#Y-3.14-l49",
+      "line": 49,
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "68v",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0140/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/140.jpg",
+        "assessment": "The terminal thin stroke after duobus is visible but its function remains unassigned."
+      }
+    },
+    {
+      "note_id": "Y-3.14-note-50",
+      "target": "#Y-3.14-l50",
+      "line": 50,
+      "previous_type": "uncertainty",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": "68v",
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0140/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/140.jpg",
+        "assessment": "The source ends with the causa boundary mark and colon-like separator plus long stroke; the enlarged Q below begins poem 3.15."
+      }
+    }
+  ],
+  "counts": {
+    "resolved": 16,
+    "documented-uncertainty": 20,
+    "escalate": 0
+  },
+  "humanActions": [],
+  "zone_corrections": [],
+  "validation": {
+    "rng": "tei_all-4.12.0.rng",
+    "passed": true,
+    "extantLineCount": 50,
+    "zoneCount": 50,
+    "coordinate_rectangles_unchanged": true,
+    "source_order_preserved": true,
+    "changed_verse_ids": [
+      11,
+      16,
+      22,
+      24,
+      26
+    ],
+    "mixed_content_whitespace_preserved": true,
+    "humanReviewNotes": 0
+  },
+  "first_pass_sha256": "c7ab5275fa1f57588eb9c90cd9bf3004d50c1ca2f332f06c03f3b44c4321df23",
+  "reviewed_candidate_sha256": "bc6eaab22d84bba05eec6daf4b8b437c7d86bd88bacb850f8fa6fb91b1ebc897",
+  "review_report_sha256": "ef23abeb25c178c50eda875455a89e1a55d5bbbf99d06c8f03c50422b4bed8fc",
+  "reviewed_xml_sha256": "7e46f188cfcbfcacf500651571d655526c50cfa3f5e1ec39a6aae1ab9fb6f24a"
+}

@@ -118,5 +118,16 @@
     "resolved_facs_links": 84
   },
   "reviewed_xml_sha256": "05a78183c0f74d9addee0b63fa488660a2b2d5e9f0c8e574ff979823c4d3e493",
-  "review_report_sha256": "477f26dbe45345b7e51caa2bc15adc55df905ceb611ee7c858163b010f853a6c"
+  "review_report_sha256": "477f26dbe45345b7e51caa2bc15adc55df905ceb611ee7c858163b010f853a6c",
+  "author_agent": "/root",
+  "reviewer_agent": "/root/encode_s",
+  "reviewed_candidate_sha256": "f9b5abf8a638f4ed42eecc7e6e647b381bd3652b1f2be372df5656734348ba86",
+  "provenance_migration": {
+    "date": "2026-09-10",
+    "scope": "Identity and raw-candidate seal migration only; no new source reading or XML/report edits.",
+    "evidence": "Original root task explicitly released the O 3.7 first-pass candidate to encode_s after root authored and validated it; encode_s completed the independent all-84-line image review recorded in O-3.7-second-pass.md.",
+    "verification": "Standalone candidate canonical XML equals both the prior reviewed_xml_sha256 seal and the currently integrated poem TEI; the existing independent report hash also matches.",
+    "previous_integrated_path": "docs/data/witness-O.xml",
+    "candidate_path": "scripts/output/O-3.7.xml"
+  }
 }

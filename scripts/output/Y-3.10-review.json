@@ -1,0 +1,552 @@
+{
+  "witness": "Y",
+  "poem": "3.10",
+  "date": "2026-09-10",
+  "reviewer": "OpenAI Codex primary agent",
+  "author_agent": "/root/review_y",
+  "reviewer_agent": "/root",
+  "review_type": "independent-second-agent-image-and-encoding-review",
+  "human_approved": false,
+  "line_coverage": {
+    "count": 48,
+    "ranges": [
+      {
+        "page": "65v",
+        "start": 1,
+        "end": 6
+      },
+      {
+        "page": "66r",
+        "start": 7,
+        "end": 46
+      },
+      {
+        "page": "66v",
+        "start": 47,
+        "end": 48
+      }
+    ]
+  },
+  "line_order": [
+    "Y-3.10-l1",
+    "Y-3.10-l2",
+    "Y-3.10-l3",
+    "Y-3.10-l4",
+    "Y-3.10-l5",
+    "Y-3.10-l6",
+    "Y-3.10-l7",
+    "Y-3.10-l8",
+    "Y-3.10-l9",
+    "Y-3.10-l10",
+    "Y-3.10-l11",
+    "Y-3.10-l12",
+    "Y-3.10-l13",
+    "Y-3.10-l14",
+    "Y-3.10-l15",
+    "Y-3.10-l16",
+    "Y-3.10-l17",
+    "Y-3.10-l18",
+    "Y-3.10-l19",
+    "Y-3.10-l20",
+    "Y-3.10-l21",
+    "Y-3.10-l22",
+    "Y-3.10-l23",
+    "Y-3.10-l24",
+    "Y-3.10-l25",
+    "Y-3.10-l26",
+    "Y-3.10-l27",
+    "Y-3.10-l28",
+    "Y-3.10-l29",
+    "Y-3.10-l30",
+    "Y-3.10-l31",
+    "Y-3.10-l32",
+    "Y-3.10-l33",
+    "Y-3.10-l34",
+    "Y-3.10-l35",
+    "Y-3.10-l36",
+    "Y-3.10-l37",
+    "Y-3.10-l38",
+    "Y-3.10-l39",
+    "Y-3.10-l40",
+    "Y-3.10-l41",
+    "Y-3.10-l42",
+    "Y-3.10-l43",
+    "Y-3.10-l44",
+    "Y-3.10-l45",
+    "Y-3.10-l46",
+    "Y-3.10-l47",
+    "Y-3.10-l48"
+  ],
+  "counts": {
+    "resolved": 23,
+    "documented-uncertainty": 9,
+    "escalate": 0
+  },
+  "notes": [
+    {
+      "note_id": "Y-3.10-note-1",
+      "line": 1,
+      "target": "#Y-3.10-l1",
+      "status": "resolved",
+      "evidence": {
+        "page": 134,
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0134/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/134.jpg",
+        "crop": "/tmp/amores-y31-33/3.10-001.png",
+        "assessment": "The ornamental A extends alongside the opening couplet. The source reads cerealis. Full-page starts on images134–136 confirm the recorded alternating insets, including the opening S beside the ornamental A."
+      },
+      "change": "See independently checked assessment and final XML."
+    },
+    {
+      "note_id": "Y-3.10-note-4",
+      "line": 4,
+      "target": "#Y-3.10-l4",
+      "status": "resolved",
+      "evidence": {
+        "page": 134,
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0134/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/134.jpg",
+        "crop": "/tmp/amores-y31-33/3.10-004.png",
+        "assessment": "The b of inhibes is visibly dark; it remains readable, and neither an earlier letter nor a historical hand is established."
+      },
+      "change": "See independently checked assessment and final XML."
+    },
+    {
+      "note_id": "Y-3.10-note-5",
+      "line": 5,
+      "target": "#Y-3.10-l5",
+      "status": "resolved",
+      "evidence": {
+        "page": 134,
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0134/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/134.jpg",
+        "crop": "/tmp/amores-y31-33/3.10-005.png",
+        "assessment": "The enlarged source has baseline ubiquaeque, including e after qua; the first-pass ubiquaque omitted that letter and is corrected. Raised cunq with a terminal que sign remains an explicit addition and defensible cunque expansion. No baseline cancellation is securely visible."
+      },
+      "change": "See independently checked assessment and final XML."
+    },
+    {
+      "note_id": "Y-3.10-note-7",
+      "line": 7,
+      "target": "#Y-3.10-l7",
+      "status": "resolved",
+      "evidence": {
+        "page": 135,
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0135/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/135.jpg",
+        "crop": "/tmp/amores-y31-33/3.10-007.png",
+        "assessment": "A discrete terminal punctus follows coloni on image135. It is now retained as schematic punctuation; the verse wording is unchanged."
+      },
+      "change": "See independently checked assessment and final XML."
+    },
+    {
+      "note_id": "Y-3.10-note-10",
+      "line": 10,
+      "target": "#Y-3.10-l10",
+      "status": "resolved",
+      "evidence": {
+        "page": 135,
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0135/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/135.jpg",
+        "crop": "/tmp/amores-y31-33/3.10-010.png",
+        "assessment": "The raised words cibus above erat and torus above cibus are supported. The dot follows the raised torus, so it is now within that addition rather than baseline punctuation. Neither baseline word is securely cancelled; the et ligature remains explicit."
+      },
+      "change": "See independently checked assessment and final XML."
+    },
+    {
+      "note_id": "Y-3.10-note-15",
+      "line": 15,
+      "target": "#Y-3.10-l15",
+      "status": "resolved",
+      "evidence": {
+        "page": 135,
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0135/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/135.jpg",
+        "crop": "/tmp/amores-y31-33/3.10-015.png",
+        "assessment": "The terminal i of laetari is distinctly darker. The existing wording remains source-supported; no earlier state is inferred."
+      },
+      "change": "See independently checked assessment and final XML."
+    },
+    {
+      "note_id": "Y-3.10-note-16",
+      "line": 16,
+      "target": "#Y-3.10-l16",
+      "status": "resolved",
+      "evidence": {
+        "page": 135,
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0135/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/135.jpg",
+        "crop": "/tmp/amores-y31-33/3.10-016.png",
+        "assessment": "The terminal question-like sign is visible and remains a schematic glyph."
+      },
+      "change": "See independently checked assessment and final XML."
+    },
+    {
+      "note_id": "Y-3.10-note-17",
+      "line": 17,
+      "target": "#Y-3.10-l17",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": 135,
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0135/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/135.jpg",
+        "crop": "/tmp/amores-y31-33/3.10-017.png",
+        "assessment": "The connected source group appears agrosam before the et ligature and illa feraces. Its exact separation and ending remain uncertain; the group is now locally marked unclear as well as documented in the note."
+      },
+      "change": "See independently checked assessment and final XML."
+    },
+    {
+      "note_id": "Y-3.10-note-18",
+      "line": 18,
+      "target": "#Y-3.10-l18",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": 135,
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0135/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/135.jpg",
+        "crop": "/tmp/amores-y31-33/3.10-018.png",
+        "assessment": "The initial h of hamoris has a crossing stroke and dot beneath; a small h is raised before abet. The overlapped dark ending et remains unclear. These physical components are supported without reconstructing erased lettering."
+      },
+      "change": "See independently checked assessment and final XML."
+    },
+    {
+      "note_id": "Y-3.10-note-19",
+      "line": 19,
+      "target": "#Y-3.10-l19",
+      "status": "resolved",
+      "evidence": {
+        "page": 135,
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0135/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/135.jpg",
+        "crop": "/tmp/amores-y31-33/3.10-019.png",
+        "assessment": "The baseline ne has c above before the darker f of fingunt. The right-margin cross is now explicit metamark with unspecified function, as well as documented in this note."
+      },
+      "change": "See independently checked assessment and final XML."
+    },
+    {
+      "note_id": "Y-3.10-note-20",
+      "line": 20,
+      "target": "#Y-3.10-l20",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": 135,
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0135/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/135.jpg",
+        "crop": "/tmp/amores-y31-33/3.10-020.png",
+        "assessment": "The narrow vertical stroke at the nutrito/terra boundary remains a schematic mark with unspecified function. It does not establish cancellation or an additional letter."
+      },
+      "change": "See independently checked assessment and final XML."
+    },
+    {
+      "note_id": "Y-3.10-note-23",
+      "line": 23,
+      "target": "#Y-3.10-l23",
+      "status": "resolved",
+      "evidence": {
+        "page": 135,
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0135/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/135.jpg",
+        "crop": "/tmp/amores-y31-33/3.10-023.png",
+        "assessment": "A dot beneath the second e in testes and i above support the substitution. Curved faint margin strokes remain documented without a claimed function or recovered text."
+      },
+      "change": "See independently checked assessment and final XML."
+    },
+    {
+      "note_id": "Y-3.10-note-24",
+      "line": 24,
+      "target": "#Y-3.10-l24",
+      "status": "resolved",
+      "evidence": {
+        "page": 135,
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0135/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/135.jpg",
+        "crop": "/tmp/amores-y31-33/3.10-024.png",
+        "assessment": "The a of Fassuram is dark, and ss remains visible in the baseline. The source wording is retained without normalization."
+      },
+      "change": "See independently checked assessment and final XML."
+    },
+    {
+      "note_id": "Y-3.10-note-25",
+      "line": 25,
+      "target": "#Y-3.10-l25",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": 135,
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0135/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/135.jpg",
+        "crop": "/tmp/amores-y31-33/3.10-025.png",
+        "assessment": "The visible source groups are iasium crete adua and dark f-like initial in fub ida. The unusual form is retained; the crossing strokes at Viderat and adua do not establish a deleted word. The right-margin cross is now explicit with unspecified function."
+      },
+      "change": "See independently checked assessment and final XML."
+    },
+    {
+      "note_id": "Y-3.10-note-26",
+      "line": 26,
+      "target": "#Y-3.10-l26",
+      "status": "resolved",
+      "evidence": {
+        "page": 135,
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0135/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/135.jpg",
+        "crop": "/tmp/amores-y31-33/3.10-026.png",
+        "assessment": "Er in certa and g in terga are darker but readable. Their earlier states and historical hands cannot be inferred."
+      },
+      "change": "See independently checked assessment and final XML."
+    },
+    {
+      "note_id": "Y-3.10-note-28",
+      "line": 28,
+      "target": "#Y-3.10-l28",
+      "status": "resolved",
+      "evidence": {
+        "page": 135,
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0135/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/135.jpg",
+        "crop": "/tmp/amores-y31-33/3.10-028.png",
+        "assessment": "The visible initial word is Hinc. The et ligature, pudor and following wording are retained without substituting an expected demonstrative."
+      },
+      "change": "See independently checked assessment and final XML."
+    },
+    {
+      "note_id": "Y-3.10-note-29",
+      "line": 29,
+      "target": "#Y-3.10-l29",
+      "status": "resolved",
+      "evidence": {
+        "page": 135,
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0135/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/135.jpg",
+        "crop": "/tmp/amores-y31-33/3.10-029.png",
+        "assessment": "The o of sulcos is darker. A horizontal crossing and dot below d in ardere support its cancellation; the remaining arere is not supplemented."
+      },
+      "change": "See independently checked assessment and final XML."
+    },
+    {
+      "note_id": "Y-3.10-note-30",
+      "line": 30,
+      "target": "#Y-3.10-l30",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": 135,
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0135/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/135.jpg",
+        "crop": "/tmp/amores-y31-33/3.10-030.png",
+        "assessment": "The right-margin inscription begins tentatively Redir with a suspension mark and a compact barred group. The exact letters and expansion remain uncertain; no normalized phrase is supplied."
+      },
+      "change": "See independently checked assessment and final XML."
+    },
+    {
+      "note_id": "Y-3.10-note-31",
+      "line": 31,
+      "target": "#Y-3.10-l31",
+      "status": "resolved",
+      "evidence": {
+        "page": 135,
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0135/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/135.jpg",
+        "crop": "/tmp/amores-y31-33/3.10-031.png",
+        "assessment": "The dot beneath e and small a above pulsarent support the recorded substitution. Both source letters remain encoded."
+      },
+      "change": "See independently checked assessment and final XML."
+    },
+    {
+      "note_id": "Y-3.10-note-32",
+      "line": 32,
+      "target": "#Y-3.10-l32",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": 135,
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0135/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/135.jpg",
+        "crop": "/tmp/amores-y31-33/3.10-032.png",
+        "assessment": "The raised group after Ruperat remains tentatively nt. Its first component overlaps a dark spot. The final baseline t has no secure cancellation and is retained."
+      },
+      "change": "See independently checked assessment and final XML."
+    },
+    {
+      "note_id": "Y-3.10-note-33",
+      "line": 33,
+      "target": "#Y-3.10-l33",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": 135,
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0135/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/135.jpg",
+        "crop": "/tmp/amores-y31-33/3.10-033.png",
+        "assessment": "The mark after in lato is distinct from the following uncertain tall-stroke group, retained as unclear fierant. Equaliter agros is visible. No grammatical reconstruction replaces the source."
+      },
+      "change": "See independently checked assessment and final XML."
+    },
+    {
+      "note_id": "Y-3.10-note-36",
+      "line": 36,
+      "target": "#Y-3.10-l36",
+      "status": "resolved",
+      "evidence": {
+        "page": 135,
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0135/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/135.jpg",
+        "crop": "/tmp/amores-y31-33/3.10-036.png",
+        "assessment": "The enlarged image places the dark ink on e in spicea and r in serta, with a long stroke from that r. The first-pass localization on initial s was incorrect and is corrected. Earlier letters are not inferred."
+      },
+      "change": "See independently checked assessment and final XML."
+    },
+    {
+      "note_id": "Y-3.10-note-37",
+      "line": 37,
+      "target": "#Y-3.10-l37",
+      "status": "resolved",
+      "evidence": {
+        "page": 135,
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0135/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/135.jpg",
+        "crop": "/tmp/amores-y31-33/3.10-037.png",
+        "assessment": "Fuit is clearly raised at the Sola/crete boundary, with an insertion caret below. Both remain explicit. The separate right-margin cross is now encoded with unspecified function."
+      },
+      "change": "See independently checked assessment and final XML."
+    },
+    {
+      "note_id": "Y-3.10-note-38",
+      "line": 38,
+      "target": "#Y-3.10-l38",
+      "status": "resolved",
+      "evidence": {
+        "page": 135,
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0135/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/135.jpg",
+        "crop": "/tmp/amores-y31-33/3.10-038.png",
+        "assessment": "The source sequence is Omnia qua tulerat se dea messis erat, with a punctus after se and at the end. Editorial word spacing does not replace the source wording."
+      },
+      "change": "See independently checked assessment and final XML."
+    },
+    {
+      "note_id": "Y-3.10-note-39",
+      "line": 39,
+      "target": "#Y-3.10-l39",
+      "status": "resolved",
+      "evidence": {
+        "page": 135,
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0135/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/135.jpg",
+        "crop": "/tmp/amores-y31-33/3.10-039.png",
+        "assessment": "The source clearly reads canebat. The initial consonant is retained without importing another reading."
+      },
+      "change": "See independently checked assessment and final XML."
+    },
+    {
+      "note_id": "Y-3.10-note-40",
+      "line": 40,
+      "target": "#Y-3.10-l40",
+      "status": "resolved",
+      "evidence": {
+        "page": 135,
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0135/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/135.jpg",
+        "crop": "/tmp/amores-y31-33/3.10-040.png",
+        "assessment": "The first a in farra is dark but readable; no erased form is established."
+      },
+      "change": "See independently checked assessment and final XML."
+    },
+    {
+      "note_id": "Y-3.10-note-42",
+      "line": 42,
+      "target": "#Y-3.10-l42",
+      "status": "resolved",
+      "evidence": {
+        "page": 135,
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0135/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/135.jpg",
+        "crop": "/tmp/amores-y31-33/3.10-042.png",
+        "assessment": "The final et groups in both Optasset and esset use the et ligature and retain explicit expansions."
+      },
+      "change": "See independently checked assessment and final XML."
+    },
+    {
+      "note_id": "Y-3.10-note-43",
+      "line": 43,
+      "target": "#Y-3.10-l43",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": 135,
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0135/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/135.jpg",
+        "crop": "/tmp/amores-y31-33/3.10-043.png",
+        "assessment": "A vertical stroke crosses Qui, and the darker end of flaua meets near-horizontal strokes before fuissent. These do not establish an earlier word. The large right-margin cross near43–44 is now an explicit unspecified mark attached to43 for navigation."
+      },
+      "change": "See independently checked assessment and final XML."
+    },
+    {
+      "note_id": "Y-3.10-note-45",
+      "line": 45,
+      "target": "#Y-3.10-l45",
+      "status": "resolved",
+      "evidence": {
+        "page": 135,
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0135/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/135.jpg",
+        "crop": "/tmp/amores-y31-33/3.10-045.png",
+        "assessment": "The terminal question-like sign is clear and retained schematically."
+      },
+      "change": "See independently checked assessment and final XML."
+    },
+    {
+      "note_id": "Y-3.10-note-46",
+      "line": 46,
+      "target": "#Y-3.10-l46",
+      "status": "documented-uncertainty",
+      "evidence": {
+        "page": 135,
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0135/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/135.jpg",
+        "crop": "/tmp/amores-y31-33/3.10-046.png",
+        "assessment": "The q-region of quaequam is dark. The compact two-part group below it cannot be securely expanded; it remains unclear abbreviation rather than a supplied phrase."
+      },
+      "change": "See independently checked assessment and final XML."
+    },
+    {
+      "note_id": "Y-3.10-note-47",
+      "line": 47,
+      "target": "#Y-3.10-l47",
+      "status": "resolved",
+      "evidence": {
+        "page": 136,
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0136/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/136.jpg",
+        "crop": "/tmp/amores-y31-33/3.10-047.png",
+        "assessment": "The barred cerere above uenerem is supported, with defensible cererem expansion. The baseline uenerem remains, since cancellation is not established."
+      },
+      "change": "See independently checked assessment and final XML."
+    },
+    {
+      "note_id": "Y-3.10-note-48",
+      "line": 48,
+      "target": "#Y-3.10-l48",
+      "status": "resolved",
+      "evidence": {
+        "page": 136,
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0136/full/full/0/default.jpg",
+        "image": "/tmp/amores-y31-33/136.jpg",
+        "crop": "/tmp/amores-y31-33/3.10-048.png",
+        "assessment": "The colon-like dots and long curved separator are visible before the next ornamental M. They remain separate from the following poem; Haec decet ad dominos munera ferre deos is supported."
+      },
+      "change": "See independently checked assessment and final XML."
+    }
+  ],
+  "source_images": [
+    {
+      "path": "/tmp/amores-y31-33/134.jpg",
+      "sha256": "c24c50b142075e4de5231c539d5fedd6224af419a744956fc6b444c15f394df1"
+    },
+    {
+      "path": "/tmp/amores-y31-33/135.jpg",
+      "sha256": "75aff504be7f51f114621a4d3e0f736c3273994b9252306d33e48565c75aaa6f"
+    },
+    {
+      "path": "/tmp/amores-y31-33/136.jpg",
+      "sha256": "f34ef3980b81b4cf83236b84460681619784249e4d053e2c3217cfb75fa2b31b"
+    }
+  ],
+  "reviewed_candidate_sha256": "a8944f7154a8b91a681e87622a904216a95a3eb1b8cf2817215b8fc76c8f9de3",
+  "review_report_sha256": "caf11a5b475fa784d1ffe6998adc0be1fa8be6623e40582cdcbcc1987e0283ec",
+  "reviewed_xml_sha256": "8601942a219205bbed1d2165f73c1c0094e4c8f4cf307420f9ff4477b7f2228a"
+}
