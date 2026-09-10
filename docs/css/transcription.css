@@ -46,7 +46,6 @@ body.dark-mode .tei-edition {
 .tei-edition .alteration-hit { background: color-mix(in srgb, var(--review) 13%, transparent); }
 .tei-edition .alteration-current { outline: 2px solid var(--review); outline-offset: 2px; background: color-mix(in srgb, var(--review) 25%, transparent); }
 .tei-edition tei-hi[rend~="diacritics"] { text-emphasis: '\2032'; text-emphasis-position: over; }
-.tei-edition .edition-note p { color: inherit; font: inherit; margin: .3rem 0; }
 .tei-edition tei-add[place="margin-left"]::before { content: '⟵ '; }
 .tei-edition tei-add[place="margin-right"]::before { content: ' ⟶ '; }
 .tei-edition .edition-scroll { overflow-x: auto; padding: .5rem 1rem 1.5rem; }
@@ -84,14 +83,6 @@ body.dark-mode .tei-edition {
 .tei-edition tei-metamark { color: var(--later-ink); font-size: .8em; }
 .tei-edition tei-metamark[place="below"] { position: relative; bottom: -.4em; line-height: 0; }
 .tei-edition tei-metamark[place="above"] { position: relative; top: -.55em; font-size: .7em; line-height: 0; }
-.tei-edition .editorial-note-button { font: .65rem/1 system-ui, sans-serif; border: 1px solid var(--rule); border-radius: 50%; width: 1.2rem; height: 1.2rem; margin-left: .55rem; background: transparent; cursor: pointer; color: var(--quiet); vertical-align: .15em; }
-.tei-edition .editorial-note-button.needs-review { color: var(--review); border-color: currentColor; }
-.tei-edition .edition-notes { border-top: 1px solid var(--rule); padding: 1rem 1.2rem; font: .9rem/1.65 system-ui, sans-serif; }
-.tei-edition .edition-notes summary { cursor: pointer; font-weight: 600; color: var(--later-ink); }
-.tei-edition .edition-note { padding: .75rem 0; border-bottom: 1px solid var(--rule); scroll-margin: 1rem; }
-.tei-edition .edition-note:last-child { border-bottom: 0; }
-.tei-edition .edition-note:focus { outline: 2px solid var(--review); outline-offset: 3px; }
-.tei-edition .edition-note a { color: var(--quiet); text-underline-offset: .15em; }
 .tei-edition .review-tag { color: var(--review); font-size: .8rem; font-weight: 600; margin-left: .5rem; }
 .tei-edition [hidden] { display: none !important; }
 .tei-edition tei-fw { display: none; }
@@ -108,11 +99,10 @@ body.dark-mode .tei-edition[data-witness="O"], body.dark-mode .tei-edition[data-
 }
 @media (max-width: 600px) {
   .tei-edition { font-size: 1.05rem; }
-  .tei-edition .edition-notes { padding: .8rem; }
   .tei-edition .edition-scroll { padding-inline: .5rem; }
 }
 @media print {
-  .tei-edition .edition-toolbar, .tei-edition .editorial-note-button { display: none; }
+  .tei-edition .edition-toolbar { display: none; }
   .tei-edition .edition-scroll { overflow: visible; }
   .tei-edition tei-lg { break-inside: avoid; }
 }

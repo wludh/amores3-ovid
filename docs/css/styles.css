@@ -704,7 +704,7 @@ hi[rend="smallcaps"]    { font-variant: small-caps; }
 /* optional: make <lg> block respect poem margins */
 lg[type="elegiacCouplet"] { display:block; margin: 1em 0; }
 
-/* Single Manuscript Viewer and Companion panel button improvements */
+/* Single Witness Viewer and Companion panel button improvements */
 /* Use arrows for Previous/Next */
 #prev-page::after,
 .prev-page::after {

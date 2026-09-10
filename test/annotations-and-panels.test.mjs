@@ -60,7 +60,7 @@ test('annotations retain their complete schema and known logical coverage', asyn
 test('every fixed panel menu offers both viewer modes', async () => {
   const html = await readFile(indexPath, 'utf8');
   const lineViewerOptions = html.match(/<option value="line-viewer">Line-by-line Viewer<\/option>/g) || [];
-  const standardViewerOptions = html.match(/<option value="viewer"(?: selected)?>Single Manuscript Viewer<\/option>/g) || [];
+  const standardViewerOptions = html.match(/<option value="viewer"(?: selected)?>Single Witness Viewer<\/option>/g) || [];
 
   assert.equal(lineViewerOptions.length, 3);
   assert.equal(standardViewerOptions.length, 3);
@@ -143,7 +143,7 @@ test('the focused line overlay follows OpenSeadragon viewport changes', async ()
   assert.match(source, /addHandler\('resize', scheduleFocusedAnnotationPosition\)/);
 });
 
-test('single manuscript viewers reuse the click-to-focus annotation overlay', async () => {
+test('single witness viewers reuse the click-to-focus annotation overlay', async () => {
   const html = await readFile(indexPath, 'utf8');
   const source = await readFile(scriptPath, 'utf8');
   const styles = await readFile(new URL('../docs/css/styles.css', import.meta.url), 'utf8');

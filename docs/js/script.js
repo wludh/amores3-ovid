@@ -841,7 +841,7 @@ function createPanelHeader(type, title) {
     <span class="drag-handle" title="Drag to reorder">☰</span>
     <select class="panel-type-select">
       <option value="${PANEL_TYPES.TRANSCRIPTION}">Transcription</option>
-      <option value="${PANEL_TYPES.VIEWER}">Single Manuscript Viewer</option>
+      <option value="${PANEL_TYPES.VIEWER}">Single Witness Viewer</option>
       <option value="${PANEL_TYPES.LINE_VIEWER}">Line-by-line Viewer</option>
       <option value="${PANEL_TYPES.COMPANION}">Companion</option>
     </select>

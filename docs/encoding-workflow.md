@@ -42,6 +42,8 @@ For 3.7, S transmits only positions 1–74 on pp. 395–396; the following page 
 
 ## Finding interventions
 
+Machine-generated editorial transcription notes are omitted from the reading interface, including the line-level note buttons. They remain in the reviewed TEI archive and are exported separately to a Word document with explicit OpenAI Codex attribution. Manuscript inscriptions and semantic alteration tags still render as source content; they are distinct from editorial notes and from Professor Dance's commentary.
+
 The collapsed **Find alterations** control reads the TEI semantics directly. Its categories cover substitutions, erasures, other cancellations, additions above/below the line, marginal additions/annotations, darker ink, disturbed surfaces, marks, uncertain readings, gaps and abbreviations. The interface omits occurrence counts and folio labels for a continuous reading view. Categories can overlap: a substitution can contain both a cancellation and an addition. Hidden expansions are excluded. A category without encoded matches is disabled; absence of markup is not proof that the source never had that feature.
 
 Selecting a type highlights its occurrences and navigates through them with their verse context and source image. This is currently a finder for the displayed poem and witness. The underlying semantic markup can support a future corpus-wide index without retagging the sources. Add new categories from actual TEI evidence, not guessed labels.

@@ -1,4 +1,4 @@
-/* The XML is the source of readings and notes; this file only renders them. */
+/* Render source readings and alterations; editorial prose stays in the TEI archive. */
 const TEI_NS = 'http://www.tei-c.org/ns/1.0';
 
 function transmissionGapLabel(gap, lines) {
@@ -33,7 +33,6 @@ function renderTrialEdition(fragment, xml, panel, witness, poem) {
   const sourceElements = Array.from(xml.getElementsByTagNameNS(TEI_NS, '*'));
   const byId = new Map(sourceElements.filter(el => el.hasAttribute('xml:id')).map(el => [el.getAttribute('xml:id'), el]));
   const lines = sourceElements.filter(el => el.localName === 'l');
-  const notes = sourceElements.filter(el => el.localName === 'note' && ['review', 'observation', 'uncertainty'].includes(el.getAttribute('type')));
   const header = document.createElement('div');
   header.className = 'edition-toolbar';
   const teiLink = document.createElement('a');
@@ -70,10 +69,10 @@ function renderTrialEdition(fragment, xml, panel, witness, poem) {
     content.append(...el.childNodes);
     el.appendChild(content);
     const position = el.getAttribute('place') === 'below' ? 'Sublinear' : 'Supralinear';
-    el.title = el.getAttribute('cert') === 'low' ? `Uncertain ${position.toLowerCase()} addition — see transcription note` : `${position} addition`;
+    el.title = el.getAttribute('cert') === 'low' ? `Uncertain ${position.toLowerCase()} addition` : `${position} addition`;
   });
   scroll.querySelectorAll('tei-del').forEach(el => { el.title = `Marked deletion: ${el.getAttribute('rend') || 'method unspecified'}`; });
-  scroll.querySelectorAll('tei-unclear').forEach(el => { el.title = 'Uncertain reading — see transcription note'; });
+  scroll.querySelectorAll('tei-unclear').forEach(el => { el.title = 'Uncertain reading'; });
   scroll.querySelectorAll('tei-hi[rend="darker-ink"]').forEach(el => { el.title = 'Darker ink; earlier letters and hand not inferred'; });
   scroll.querySelectorAll('tei-space').forEach(el => {
     el.style.display = 'inline-block';
@@ -100,70 +99,13 @@ function renderTrialEdition(fragment, xml, panel, witness, poem) {
       return copy;
     };
     el.replaceChildren(document.createTextNode(`${place}: `), ...Array.from(source?.childNodes || [], copySourceNode));
-    el.title = `${uncertain ? 'Uncertain ' : ''}manuscript annotation; see notes and full source`;
+    el.title = `${uncertain ? 'Uncertain ' : ''}manuscript annotation`;
   });
 
-  const details = document.createElement('details');
-  details.className = 'edition-notes';
-  details.innerHTML = '<summary>Transcription notes</summary>';
-  const noteIds = new Map();
-  for (const note of notes) {
-    const id = `${panel.id}-${note.getAttribute('xml:id')}-visible`;
-    const item = document.createElement('div');
-    item.id = id;
-    item.className = 'edition-note';
-    item.tabIndex = -1;
-    const n = note.getAttribute('n');
-    const label = document.createElement('strong');
-    const targetId = note.getAttribute('target')?.split(/\s+/)[0]?.replace(/^#/, '');
-    const sourceTarget = byId.get(targetId);
-    const absenceNote = sourceTarget?.localName === 'gap' && sourceTarget.getAttribute('reason') === 'not-transmitted';
-    label.textContent = absenceNote ? 'Source coverage' : note.getAttribute('target')?.includes('lower-margin') ? 'Lower margin' : `Line ${n}`;
-    item.appendChild(label);
-    if (note.getAttribute('type') === 'review') {
-      const tag = document.createElement('span');
-      tag.className = 'review-tag';
-      tag.textContent = 'Editorial question';
-      item.appendChild(tag);
-    }
-    const text = document.createElement('p');
-    text.textContent = note.textContent;
-    item.appendChild(text);
-    const back = document.createElement('a');
-    const sourceLine = lines.find(line => line.getAttribute('n') === n);
-    const returnId = sourceLine?.getAttribute('xml:id') || targetId;
-    back.href = `#${panel.id}-${returnId || ''}`;
-    back.textContent = absenceNote ? 'Return to source coverage' : `Return to line ${n}`;
-    back.addEventListener('click', event => {
-      event.preventDefault();
-      const line = Array.from(scroll.querySelectorAll('[id]')).find(el => el.id === `${panel.id}-${returnId}`);
-      line?.scrollIntoView({ block: 'center' });
-      line?.focus({ preventScroll: true });
-    });
-    item.appendChild(back);
-    details.appendChild(item);
-    if (!noteIds.has(n)) noteIds.set(n, { id, review: note.getAttribute('type') === 'review' });
-  }
-  edition.appendChild(details);
+  // Editorial transcription notes are exported separately, not shown as commentary.
   for (const line of scroll.querySelectorAll('tei-l')) {
-    const n = line.getAttribute('n');
-    line.dataset.line = n;
+    line.dataset.line = line.getAttribute('n');
     line.tabIndex = 0;
-    const note = noteIds.get(n);
-    if (!note) continue;
-    const button = document.createElement('button');
-    button.type = 'button';
-    button.className = `editorial-note-button${note.review ? ' needs-review' : ''}`;
-    button.textContent = note.review ? '?' : 'i';
-    button.setAttribute('aria-label', `Line ${n}: ${note.review ? 'reading to review' : 'transcription note'}`);
-    button.addEventListener('click', event => {
-      event.stopPropagation();
-      details.open = true;
-      const item = details.querySelector(`[id="${note.id}"]`);
-      item.focus({ preventScroll: true });
-      item.scrollIntoView({ block: 'start' });
-    });
-    line.appendChild(button);
   }
   // Display only the source form; expansions remain available in the TEI and tooltips.
   scroll.querySelectorAll('tei-choice').forEach(choice => {
@@ -195,7 +137,6 @@ function renderTrialEdition(fragment, xml, panel, witness, poem) {
     gap.appendChild(label);
     if (!inline) gap.tabIndex = -1;
   });
-  if (!notes.length) details.hidden = true;
   if (lines.length) addAlterationFinder(edition, scroll, header);
   return edition;
 }
