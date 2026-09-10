@@ -179,7 +179,7 @@
       <div type="poem" n="3.7" xml:id="P-3.7" resp="#P-trial-encoder">
         <pb n="image 91, left" facs="#P-image-91" />
         <lg type="couplet" n="1">
-          <l n="1" xml:id="P-3.7-l1" facs="#P-3.7-zone-1"><hi rend="initial">A</hi>t non formonsa est a<subst cert="low"><del rend="underdot">t</del><add place="above"><unclear>u</unclear></add></subst> non bene culta puella</l>
+          <l n="1" xml:id="P-3.7-l1" facs="#P-3.7-zone-1"><hi rend="initial">A</hi>t non formonsa est a<subst cert="low"><del rend="underdot">d</del><add place="above"><unclear>t</unclear></add></subst> non bene culta puella</l>
           <l n="2" xml:id="P-3.7-l2" facs="#P-3.7-zone-2" rend="indent">At puto non uotis saepe petita meis</l>
         </lg>
         <lg type="couplet" n="2">
