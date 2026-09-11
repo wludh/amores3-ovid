@@ -225,7 +225,7 @@
         </lg>
         <lg type="couplet" n="16">
           <l n="31" xml:id="P-3.1-l31" facs="#P-3.1-zone-31">Hactenus <choice><abbr><g ref="#P-3.1-et">&amp;</g></abbr><expan>et</expan></choice> mouit pictis innixa coturnis</l>
-          <l n="32" xml:id="P-3.1-l32" facs="#P-3.1-zone-32" rend="indent">Densum<note type="manuscript" place="above"><unclear>cæsaries</unclear></note> terque quaterque caput</l>
+          <l n="32" xml:id="P-3.1-l32" facs="#P-3.1-zone-32" rend="indent">Densum.<add place="above"><unclear>.cæsarie</unclear></add> terque quaterque caput</l>
         </lg>
         <lg type="couplet" n="17">
           <l n="33" xml:id="P-3.1-l33" facs="#P-3.1-zone-33">Altera si memini limis subrisit ocellis</l>
