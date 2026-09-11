@@ -86,7 +86,7 @@
 <div type="poem" n="3.1" xml:id="Y-3.1" resp="#Y-3.1-encoder">
 <pb n="58r" facs="#Y-3.1-s119"/>
 <lg type="couplet" n="1">
-<l n="1" xml:id="Y-3.1-l1" facs="#Y-3.1-zone-1"><hi rend="initial">S</hi>tat <hi rend="darker-ink">uetu<add place="above">s</add></hi><choice><abbr><g ref="#Y-3.1-et">&amp;</g></abbr><expan>et</expan></choice> forma deos</l>
+<l n="1" xml:id="Y-3.1-l1" facs="#Y-3.1-zone-1"><hi rend="initial">S</hi>tat <hi rend="darker-ink">uetu<add place="above">s</add></hi> <choice><abbr><g ref="#Y-3.1-et">&amp;</g></abbr><expan>et</expan></choice> multos incaed<hi rend="darker-ink">u</hi>a silua per annos</l>
 <l n="2" xml:id="Y-3.1-l2" facs="#Y-3.1-zone-2" rend="indent">Credibile est illi numen inesse loco</l>
 </lg>
 <lg type="couplet" n="2">
