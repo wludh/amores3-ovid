@@ -84,11 +84,11 @@
 </facsimile><text xml:lang="la"><body><div type="poem" n="3.1" xml:id="Y-3.1" resp="#Y-3.1-encoder">
 <pb n="58r" facs="#Y-3.1-s119"/>
 <lg type="couplet" n="1">
-<l n="1" xml:id="Y-3.1-l1" facs="#Y-3.1-zone-1"><hi rend="initial">S</hi>tat <hi rend="darker-ink">uetus</hi> <choice><abbr><g ref="#Y-3.1-et">&amp;</g></abbr><expan>et</expan></choice> multos incaedua silua per annos</l>
+<l n="1" xml:id="Y-3.1-l1" facs="#Y-3.1-zone-1"><hi rend="initial">S</hi>tat <hi rend="darker-ink">uetu<add place="above">s</add></hi><choice><abbr><g ref="#Y-3.1-et">&amp;</g></abbr><expan>et</expan></choice> multos incaed<hi rend="darker-ink">u</add></hi>a silua per annos</l>
 <l n="2" xml:id="Y-3.1-l2" facs="#Y-3.1-zone-2" rend="indent">Credibile est illi numen inesse loco</l>
 </lg>
 <lg type="couplet" n="2">
-<l n="3" xml:id="Y-3.1-l3" facs="#Y-3.1-zone-3">Fons sacer in medio speluncaque pumice pendens</l>
+<l n="3" xml:id="Y-3.1-l3" facs="#Y-3.1-zone-3">Fons sacer in medio speluncaque pumice pende<hi rend="darker-ink">n</add></hi>s</l>
 <l n="4" xml:id="Y-3.1-l4" facs="#Y-3.1-zone-4" rend="indent">Et latere ex omni dulce queruntur aues</l>
 </lg>
 <lg type="couplet" n="3">
@@ -97,7 +97,7 @@
 </lg>
 <lg type="couplet" n="4">
 <l n="7" xml:id="Y-3.1-l7" facs="#Y-3.1-zone-7">Venit <hi rend="darker-ink">o</hi>doratos elegia nexa capillos</l>
-<l n="8" xml:id="Y-3.1-l8" facs="#Y-3.1-zone-8" rend="indent">Et puto pes illi longior alter erat<pc>·</pc></l>
+<l n="8" xml:id="Y-3.1-l8" facs="#Y-3.1-zone-8" rend="indent">Et puto pe<hi rend="darker-ink">s</add></hi> illi longior alter erat<pc>·</pc></l>
 </lg>
 <lg type="couplet" n="5">
 <l n="9" xml:id="Y-3.1-l9" facs="#Y-3.1-zone-9">Forma decens uestis tenuissima uultus amantis</l>
