@@ -163,19 +163,19 @@
         <lg type="couplet" n="1">
           <pb n="image 84, left" facs="#P-3.1-image-84" />
           <head type="manuscript">INCIPIT LIBER · TERTIUS</head>
-          <l n="1" xml:id="P-3.1-l1" facs="#P-3.1-zone-1"><hi rend="initial">S</hi>tat uetus <choice><abbr><g ref="#P-3.1-et">&amp;</g></abbr><expan>et</expan></choice> multos incedua silua per annos</l>
-          <l n="2" xml:id="P-3.1-l2" facs="#P-3.1-zone-2" rend="indent">Credibile est illa numen inesse loco</l>
+          <l n="1" xml:id="P-3.1-l1" facs="#P-3.1-zone-1"><hi rend="initial">S</hi>tat u<choice><abbr><g ref="#P-3.1-et">&amp;</g></abbr><expan>et</expan></choice>us <choice><abbr><g ref="#P-3.1-et">&amp;</g></abbr><expan>et</expan></choice> multos incedua silua per annos</l>
+          <l n="2" xml:id="P-3.1-l2" facs="#P-3.1-zone-2" rend="indent">Credibile est illi numen inesse loco</l>
         </lg>
         <lg type="couplet" n="2">
           <l n="3" xml:id="P-3.1-l3" facs="#P-3.1-zone-3">Fons sacer in medio speluncaque pumice pendens</l>
-          <l n="4" xml:id="P-3.1-l4" facs="#P-3.1-zone-4" rend="indent">Et latere ex omni dulce queruntur aues</l>
+          <l n="4" xml:id="P-3.1-l4" facs="#P-3.1-zone-4" rend="indent">Et latere ex omni dulce querentur aues</l>
         </lg>
         <lg type="couplet" n="3">
-          <l n="5" xml:id="P-3.1-l5" facs="#P-3.1-zone-5">Hic ego dum <unclear>spator</unclear> tectus nemoralibus umbris</l>
-          <l n="6" xml:id="P-3.1-l6" facs="#P-3.1-zone-6" rend="indent">Quod mea querebam musa moueret opus</l>
+          <l n="5" xml:id="P-3.1-l5" facs="#P-3.1-zone-5">Hic ego dum spatior tectus nemoralibus umbris</l>
+          <l n="6" xml:id="P-3.1-l6" facs="#P-3.1-zone-6" rend="indent">Quod mea querebam musa mouer<choice><abbr><g ref="#P-3.1-et">&amp;</g></abbr><expan>et</expan></choice> opus</l>
         </lg>
         <lg type="couplet" n="4">
-          <l n="7" xml:id="P-3.1-l7" facs="#P-3.1-zone-7">Venit odoratos elegia nexa capillos</l>
+          <l n="7" xml:id="P-3.1-l7" facs="#P-3.1-zone-7">Venit adoratos eleigia nexa capillos</l>
           <l n="8" xml:id="P-3.1-l8" facs="#P-3.1-zone-8" rend="indent">Et puto pes illi longior alter erat</l>
         </lg>
         <lg type="couplet" n="5">
@@ -187,16 +187,16 @@
           <l n="12" xml:id="P-3.1-l12" facs="#P-3.1-zone-12" rend="indent">Fronte come torua palla iacebat humi</l>
         </lg>
         <lg type="couplet" n="7">
-          <l n="13" xml:id="P-3.1-l13" facs="#P-3.1-zone-13">Leua manus sceptrum lato regale mouebat</l>
-          <l n="14" xml:id="P-3.1-l14" facs="#P-3.1-zone-14" rend="indent">Lydius alta pedum uincla coturnus erat</l>
+          <l n="13" xml:id="P-3.1-l13" facs="#P-3.1-zone-13">Leua manus sceptrum late regale mouebat</l>
+          <l n="14" xml:id="P-3.1-l14" facs="#P-3.1-zone-14" rend="indent">Lÿdius alta pedum uincla coturnus erat</l>
         </lg>
         <lg type="couplet" n="8">
           <l n="15" xml:id="P-3.1-l15" facs="#P-3.1-zone-15">Et prior <choice><abbr><g ref="#P-3.1-et">&amp;</g></abbr><expan>et</expan></choice> quis erit dixit tibi finis amandi</l>
-          <l n="16" xml:id="P-3.1-l16" facs="#P-3.1-zone-16" rend="indent">O argumenti lente poeta tui</l>
+          <l n="16" xml:id="P-3.1-l16" facs="#P-3.1-zone-16" rend="indent">O argumenti lente po<choice><abbr><g ref="#P-3.1-et">&amp;</g></abbr><expan>et</expan></choice>a tui</l>
         </lg>
         <lg type="couplet" n="9">
-          <l n="17" xml:id="P-3.1-l17" facs="#P-3.1-zone-17">Nequitiam <unclear reason="faded">uinosa</unclear> tuam conuiuia narrant</l>
-          <l n="18" xml:id="P-3.1-l18" facs="#P-3.1-zone-18" rend="indent">Narrat in multas compita secta uias</l>
+          <l n="17" xml:id="P-3.1-l17" facs="#P-3.1-zone-17">Nequitiam uinosa tuam conuiuia narrant</l>
+          <l n="18" xml:id="P-3.1-l18" facs="#P-3.1-zone-18" rend="indent">Narrant in multas compita secta uias</l>
         </lg>
         <lg type="couplet" n="10">
           <pb n="image 84, right" facs="#P-3.1-image-84" />
@@ -205,15 +205,15 @@
         </lg>
         <lg type="couplet" n="11">
           <l n="21" xml:id="P-3.1-l21" facs="#P-3.1-zone-21">Fabula nec sentis tota iactaris in urbe</l>
-          <l n="22" xml:id="P-3.1-l22" facs="#P-3.1-zone-22" rend="indent">Dum tua preterito fac<add place="above">ta</add> pudore refers</l>
+          <l n="22" xml:id="P-3.1-l22" facs="#P-3.1-zone-22" rend="indent">Dum tua pr<choice><abbr><g ref="#P-3.1-et">&amp;</g></abbr><expan>et</expan></choice>erito fac<add place="above">ta</add> pudore refers</l>
         </lg>
         <lg type="couplet" n="12">
-          <l n="23" xml:id="P-3.1-l23" facs="#P-3.1-zone-23">Tempus erat thirso pulsum grauiore moueri</l>
+          <l n="23" xml:id="P-3.1-l23" facs="#P-3.1-zone-23">Tempus erat th<add place="above">ÿ</add>rso pulsum grauiore moueri</l>
           <l n="24" xml:id="P-3.1-l24" facs="#P-3.1-zone-24" rend="indent">Cessatum satis est incipe maius opus</l>
         </lg>
         <lg type="couplet" n="13">
           <l n="25" xml:id="P-3.1-l25" facs="#P-3.1-zone-25">Materia premis ingenium cane facta uirorum</l>
-          <l n="26" xml:id="P-3.1-l26" facs="#P-3.1-zone-26" rend="indent">Hec animo dices area facta meo est</l>
+          <l n="26" xml:id="P-3.1-l26" facs="#P-3.1-zone-26" rend="indent">Hæc animo dices area facta meo est</l>
         </lg>
         <lg type="couplet" n="14">
           <l n="27" xml:id="P-3.1-l27" facs="#P-3.1-zone-27">Quod tenere cantent lusit tua musa puelle</l>
@@ -221,22 +221,22 @@
         </lg>
         <lg type="couplet" n="15">
           <l n="29" xml:id="P-3.1-l29" facs="#P-3.1-zone-29">Nunc habeam per te romana tragoedia nomen</l>
-          <l n="30" xml:id="P-3.1-l30" facs="#P-3.1-zone-30" rend="indent">Implebit leges spiritus ipse meas</l>
+          <l n="30" xml:id="P-3.1-l30" facs="#P-3.1-zone-30" rend="indent">Implebit leges <choice><abbr>sp̄s</abbr><expan>spiritus</expan></choice> ipse meas</l>
         </lg>
         <lg type="couplet" n="16">
           <l n="31" xml:id="P-3.1-l31" facs="#P-3.1-zone-31">Hactenus <choice><abbr><g ref="#P-3.1-et">&amp;</g></abbr><expan>et</expan></choice> mouit pictis innixa coturnis</l>
-          <l n="32" xml:id="P-3.1-l32" facs="#P-3.1-zone-32" rend="indent">Densum<note type="manuscript" place="above"><unclear>cesaries</unclear></note> terque quaterque caput</l>
+          <l n="32" xml:id="P-3.1-l32" facs="#P-3.1-zone-32" rend="indent">Densum<note type="manuscript" place="above"><unclear>cæsaries</unclear></note> terque quaterque caput</l>
         </lg>
         <lg type="couplet" n="17">
           <l n="33" xml:id="P-3.1-l33" facs="#P-3.1-zone-33">Altera si memini limis subrisit ocellis</l>
-          <l n="34" xml:id="P-3.1-l34" facs="#P-3.1-zone-34" rend="indent">Fallor an in dextra mirtea uirga fuit</l>
+          <l n="34" xml:id="P-3.1-l34" facs="#P-3.1-zone-34" rend="indent">Fallor an in dextra mÿrtea uirga fuit</l>
         </lg>
         <lg type="couplet" n="18">
-          <l n="35" xml:id="P-3.1-l35" facs="#P-3.1-zone-35">Quid grauibus uerbis animosa tragoedia dixit</l>
+          <l n="35" xml:id="P-3.1-l35" facs="#P-3.1-zone-35">Quid <choice><abbr>grauib,</abbr><expan>grauibus</expan></choice> uerbis animosa tragoedia dixit</l>
           <l n="36" xml:id="P-3.1-l36" facs="#P-3.1-zone-36" rend="indent">Me premis an numquam non grauis esse potes</l>
         </lg>
         <lg type="couplet" n="19">
-          <l n="37" xml:id="P-3.1-l37" facs="#P-3.1-zone-37">Inparibus tamen est numeris dignata moueri</l>
+          <l n="37" xml:id="P-3.1-l37" facs="#P-3.1-zone-37"><choice><abbr>Inparib,</abbr><expan>Inparibus</expan></choice> tamen est numeris dignata moueri</l>
           <l n="38" xml:id="P-3.1-l38" facs="#P-3.1-zone-38" rend="indent">In me pugnasti uersibus usa meis</l>
         </lg>
         <lg type="couplet" n="20">
@@ -248,11 +248,11 @@
           <l n="42" xml:id="P-3.1-l42" facs="#P-3.1-zone-42" rend="indent">Non sum materia fortior ipsa mea</l>
         </lg>
         <lg type="couplet" n="22">
-          <l n="43" xml:id="P-3.1-l43" facs="#P-3.1-zone-43">Rustica <hi rend="darker-ink"><unclear>sit</unclear></hi> sine me lasciui mater amoris</l>
-          <l n="44" xml:id="P-3.1-l44" facs="#P-3.1-zone-44" rend="indent">Huic ego proueni lena comesque <unclear reason="faded">deaeque</unclear></l>
+          <l n="43" xml:id="P-3.1-l43" facs="#P-3.1-zone-43">Rustica sit <hi rend="darker-ink"><unclear>sine</unclear></hi> me lasciui mater amoris</l>
+          <l n="44" xml:id="P-3.1-l44" facs="#P-3.1-zone-44" rend="indent">Huic ego proueni lena comesque deaeque</l>
         </lg>
         <lg type="couplet" n="23">
-          <l n="45" xml:id="P-3.1-l45" facs="#P-3.1-zone-45">Quam tu non poteris duro reserare cothurno</l>
+          <l n="45" xml:id="P-3.1-l45" facs="#P-3.1-zone-45"><choice><abbr>Quā</abbr><expan>Quam</expan></choice> tu non poteris duro raserare coturno</l>
           <l n="46" xml:id="P-3.1-l46" facs="#P-3.1-zone-46" rend="indent">Hec est blanditiis ianua laxa meis</l>
         </lg>
         <lg type="couplet" n="24">
@@ -266,30 +266,30 @@
         </lg>
         <lg type="couplet" n="26">
           <l n="51" xml:id="P-3.1-l51" facs="#P-3.1-zone-51">Delabique toro tunica uelata soluta</l>
-          <l n="52" xml:id="P-3.1-l52" facs="#P-3.1-zone-52" rend="indent">Atque in percussos nocte mouere pedes</l>
+          <l n="52" xml:id="P-3.1-l52" facs="#P-3.1-zone-52" rend="indent">Atque impercussos nocte mouere pedes</l>
         </lg>
         <lg type="couplet" n="27">
           <l n="53" xml:id="P-3.1-l53" facs="#P-3.1-zone-53">Vel quotiens foribus duris incisa pependi</l>
-          <l n="54" xml:id="P-3.1-l54" facs="#P-3.1-zone-54" rend="indent">Non uerita a populo pretereunte legi</l>
+          <l n="54" xml:id="P-3.1-l54" facs="#P-3.1-zone-54" rend="indent">Non uerita a populo pr<choice><abbr><g ref="#P-3.1-et">&amp;</g></abbr><expan>et</expan></choice>ereunte legi</l>
         </lg>
         <lg type="couplet" n="28">
-          <l n="55" xml:id="P-3.1-l55" facs="#P-3.1-zone-55">Quin ego me memini dum custos saeuus abiret</l>
-          <l n="56" xml:id="P-3.1-l56" facs="#P-3.1-zone-56" rend="indent">Ancille missam delituisse sinu</l>
+          <l n="55" xml:id="P-3.1-l55" facs="#P-3.1-zone-55">Quin ego me meminit dum custos saeuus abiret</l>
+          <l n="56" xml:id="P-3.1-l56" facs="#P-3.1-zone-56" rend="indent">Ancillę missam delituisse sinu</l>
         </lg>
         <lg type="couplet" n="29">
           <l n="57" xml:id="P-3.1-l57" facs="#P-3.1-zone-57">Quid cum me munus natali mittis ad <unclear>illi</unclear></l>
-          <l n="58" xml:id="P-3.1-l58" facs="#P-3.1-zone-58" rend="indent"><unclear>Rumpit</unclear> <choice><abbr><g ref="#P-3.1-et">&amp;</g></abbr><expan>et</expan></choice> posita barbara mersit aqua</l>
+          <l n="58" xml:id="P-3.1-l58" facs="#P-3.1-zone-58" rend="indent"><unclear>Rumpit</unclear> <choice><abbr><g ref="#P-3.1-et">&amp;</g></abbr><expan>et</expan></choice> at posita barbara mersit aqua</l>
         </lg>
         <lg type="couplet" n="30">
-          <l n="59" xml:id="P-3.1-l59" facs="#P-3.1-zone-59">Prima tuae moui felicia semina mentis</l>
-          <l n="60" xml:id="P-3.1-l60" facs="#P-3.1-zone-60" rend="indent">Munus habes quod te iam petit ista meum</l>
+          <l n="59" xml:id="P-3.1-l59" facs="#P-3.1-zone-59">Prima tuæ moui felicia semina mentis</l>
+          <l n="60" xml:id="P-3.1-l60" facs="#P-3.1-zone-60" rend="indent">Munus hab<choice><abbr><g ref="#P-3.1-et">&amp;</g></abbr><expan>et</expan></choice> quod te iam p<choice><abbr><g ref="#P-3.1-et">&amp;</g></abbr><expan>et</expan></choice>it ista meum</l>
         </lg>
         <lg type="couplet" n="31">
           <l n="61" xml:id="P-3.1-l61" facs="#P-3.1-zone-61">Desierat coepi per uos utramque rogamus</l>
           <l n="62" xml:id="P-3.1-l62" facs="#P-3.1-zone-62" rend="indent">In uacuas aures uerba timentis eant</l>
         </lg>
         <lg type="couplet" n="32">
-          <l n="63" xml:id="P-3.1-l63" facs="#P-3.1-zone-63">Altera me sceptro decoras altoque cothurno</l>
+          <l n="63" xml:id="P-3.1-l63" facs="#P-3.1-zone-63">Altera me sceptro decoras altoque coturno</l>
           <l n="64" xml:id="P-3.1-l64" facs="#P-3.1-zone-64" rend="indent">Iam nunc contracto magnus in ore sonus</l>
         </lg>
         <lg type="couplet" n="33">
@@ -298,11 +298,11 @@
         </lg>
         <lg type="couplet" n="34">
           <l n="67" xml:id="P-3.1-l67" facs="#P-3.1-zone-67">Exiguum uati concede tragoedia tempus</l>
-          <l n="68" xml:id="P-3.1-l68" facs="#P-3.1-zone-68" rend="indent">Tu labor aeternus quod petit illa breue est</l>
+          <l n="68" xml:id="P-3.1-l68" facs="#P-3.1-zone-68" rend="indent">Tu labor <choice><abbr><g ref="#P-3.1-et">&amp;</g></abbr><expan>et</expan></choice>ernus quod p<choice><abbr><g ref="#P-3.1-et">&amp;</g></abbr><expan>et</expan></choice>it illa breue est</l>
         </lg>
         <lg type="couplet" n="35">
           <l n="69" xml:id="P-3.1-l69" facs="#P-3.1-zone-69">Mota dedit ueniam teneri <hi rend="darker-ink">pro</hi>perentur amores</l>
-          <l n="70" xml:id="P-3.1-l70" facs="#P-3.1-zone-70" rend="indent">Dum uacat exigo grandius urget opus</l>
+          <l n="70" xml:id="P-3.1-l70" facs="#P-3.1-zone-70" rend="indent">Dum uocat a tergo grandius urgu<choice><abbr><g ref="#P-3.1-et">&amp;</g></abbr><expan>et</expan></choice> opus</l>
         </lg>
       </div>
     </body>
@@ -313,7 +313,7 @@
         <note xml:id="P-3.1-note-5" n="5" type="uncertainty" target="#P-3.1-l5" resp="#P-3.1-reviewer">The visible sequence after dum is provisionally spator; a distinct i cannot be confidently resolved. The witness is not silently normalized.</note>
         <note xml:id="P-3.1-note-17" n="17" type="uncertainty" target="#P-3.1-l17" resp="#P-3.1-reviewer">The bottom-left page is faded; the word after Nequitiam is provisionally uinosa, retained locally under unclear.</note>
         <note xml:id="P-3.1-note-22" n="22" type="observation" target="#P-3.1-l22" resp="#P-3.1-reviewer">The letters ta stand above fac before pudore. This addition completes facta and is recorded as visible without an assigned historical hand.</note>
-        <note xml:id="P-3.1-note-32" n="32" type="uncertainty" target="#P-3.1-l32" resp="#P-3.1-reviewer">A supralinear annotation above the densum/terque area is provisionally cesaries. Its relationship to the verse and precise spelling are not asserted; it remains a manuscript note rather than an inserted reading.</note>
+        <note xml:id="P-3.1-note-32" n="32" type="uncertainty" target="#P-3.1-l32" resp="#P-3.1-reviewer">A supralinear annotation above the densum/terque area is provisionally cæasaries. Its relationship to the verse and precise spelling are not asserted; it remains a manuscript note rather than an inserted reading.</note>
         <note xml:id="P-3.1-note-39" n="39" type="uncertainty" target="#P-3.1-l39" resp="#P-3.1-reviewer">A small supralinear u-like mark occurs within the contulerim area. It is retained as an uncertain manuscript annotation; no substitution or original erased state is inferred.</note>
         <note xml:id="P-3.1-note-40" n="40" type="observation" target="#P-3.1-l40" resp="#P-3.1-reviewer">The short marked form before fores is represented schematically as urā, expanded uestra; the image remains the evidence for its exact abbreviation shape.</note>
         <note xml:id="P-3.1-note-41" n="41" type="uncertainty" target="#P-3.1-l41" resp="#P-3.1-reviewer">A dark supralinear sign above the cura area cannot be securely read. Its existence and approximate position are recorded with an illegible-sign gap, without a guessed expansion.</note>
