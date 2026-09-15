@@ -1,0 +1,190 @@
+/* A quiet, book-like reading surface for the introduction. */
+.introduction-page .introduction-content {
+  max-width: 900px;
+  margin: clamp(1rem, 4vw, 3.5rem) auto;
+  padding: clamp(1.5rem, 6vw, 5rem);
+  background: var(--panel-bg);
+  border: 1px solid var(--panel-border);
+  border-top: 4px solid var(--wl-blue);
+  box-shadow: 0 8px 32px rgb(0 0 0 / 4%);
+}
+
+.introduction-page .intro-section {
+  margin: 0;
+  scroll-margin-top: 2rem;
+}
+
+.introduction-page .intro-section + .intro-section {
+  margin-top: 3.5rem;
+  padding-top: 3rem;
+  border-top: 1px solid var(--panel-border);
+}
+
+.introduction-page .intro-section h1,
+.introduction-page .intro-section h2,
+.introduction-page .intro-section h3 {
+  font-family: 'Lora', Georgia, serif;
+  color: var(--wl-blue);
+  text-wrap: balance;
+}
+
+.introduction-page .intro-section h1 {
+  max-width: 18ch;
+  margin-bottom: 2rem;
+  font-size: clamp(2.1rem, 4.5vw, 3.2rem);
+  line-height: 1.16;
+  letter-spacing: -0.025em;
+}
+
+.introduction-page .intro-section h2 {
+  margin-bottom: 1.5rem;
+  font-size: clamp(1.65rem, 3vw, 2.1rem);
+  line-height: 1.25;
+  letter-spacing: -0.015em;
+}
+
+.introduction-page .intro-section h3 {
+  margin: 2.5rem 0 1rem;
+  padding-left: 1rem;
+  border-left: 3px solid var(--wl-blue);
+  font-size: 1.45rem;
+  line-height: 1.35;
+}
+
+.introduction-page .intro-section h2 + h3 {
+  margin-top: 1.75rem;
+}
+
+.introduction-page .intro-section p,
+.introduction-page .intro-section ol {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 1.1875rem;
+  line-height: 1.8;
+  color: var(--text-main);
+  margin: 0 0 1.4rem;
+  overflow-wrap: break-word;
+}
+
+.introduction-page .intro-section > :last-child {
+  margin-bottom: 0;
+}
+
+.introduction-page .intro-section ol {
+  padding-left: 1.7em;
+}
+
+.introduction-page .intro-section li {
+  padding-left: 0.35em;
+  margin-bottom: 0.65rem;
+}
+
+.introduction-page .intro-features {
+  list-style-type: decimal;
+}
+
+.introduction-page .intro-features li::marker {
+  content: counter(list-item) ")  ";
+}
+
+.introduction-page .intro-section a {
+  color: var(--wl-blue);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+.introduction-page .intro-section a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.introduction-page a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+}
+
+.introduction-page nav a[aria-current="page"] {
+  text-decoration: underline;
+  text-underline-offset: 0.35em;
+}
+
+.introduction-page .intro-section .intro-note {
+  padding: 1.25rem 1.5rem;
+  border-left: 3px solid var(--panel-border);
+  background: var(--wl-bg);
+  font-size: 1.0625rem;
+}
+
+.introduction-page .intro-section .intro-coming-soon {
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+@media (max-width: 1050px) {
+  .introduction-page header .header-content {
+    flex-wrap: wrap;
+    gap: 0.75rem 1.5rem;
+  }
+
+  .introduction-page header nav ul {
+    width: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .introduction-page header nav {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .introduction-page header {
+    padding: 1rem;
+  }
+
+  .introduction-page header nav a {
+    padding: 0.3rem 0.4rem;
+    font-size: 0.875rem;
+  }
+
+  .introduction-page .introduction-content {
+    margin: 0;
+    border-right: 0;
+    border-left: 0;
+    box-shadow: none;
+    padding: 2rem 1.25rem 3rem;
+  }
+
+  .introduction-page .intro-section p,
+  .introduction-page .intro-section ol {
+    font-size: 1.0625rem;
+    line-height: 1.75;
+  }
+
+  .introduction-page .intro-section + .intro-section {
+    margin-top: 2.5rem;
+    padding-top: 2.25rem;
+  }
+}
+
+@media print {
+  .introduction-page .introduction-content {
+    max-width: none;
+    margin: 0;
+    padding: 1rem 0;
+    border: 0;
+    box-shadow: none;
+  }
+
+  .introduction-page .intro-section h1,
+  .introduction-page .intro-section h2,
+  .introduction-page .intro-section h3 {
+    break-after: avoid;
+  }
+
+  .introduction-page .intro-section p,
+  .introduction-page .intro-section ol {
+    font-size: 11pt;
+    orphans: 3;
+    widows: 3;
+  }
+}

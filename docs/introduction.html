@@ -6,8 +6,9 @@
   <title>Amores — Introduction</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏛️</text></svg>">
   <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/introduction.css" />
 </head>
-<body>
+<body class="introduction-page">
   <!-- Header + Navigation -->
   <header>
     <div class="header-content">
@@ -15,7 +16,7 @@
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="introduction.html">Introduction</a></li>
+          <li><a href="introduction.html" aria-current="page">Introduction</a></li>
           <li><a href="editions.html">Editions</a></li>
           <li><a href="essays.html">Essays</a></li>
           <li><a href="about.html">About</a></li>
@@ -39,46 +40,72 @@
     </div>
   </header>
 
-  <main class="introduction-content">
-    <section class="intro-section main-intro">
-      <h1>Introduction to the Amores Project</h1>
-      <p>[Main introduction paragraph explaining the overall project, its significance, and what readers can expect to find. This section will provide context about the Amores manuscript tradition and the importance of these particular witnesses.]</p>
-      <p>For a detailed guide on how to use the interactive features of this website, please see the <a href="about.html#how-to-use-accordion">'How to Use This Site'</a> section on our About page.</p>
-      <div class="intro-image">
-        <!-- Placeholder for main introduction image -->
-        <img src="images/placeholder.jpg" alt="Main introduction image" style="display: none;">
-        <figcaption>Image caption will be added later</figcaption>
-      </div>
+  <main class="introduction-content" aria-labelledby="introduction-heading">
+    <section class="intro-section main-intro" id="introduction" aria-labelledby="introduction-heading">
+      <h1 id="introduction-heading">Introduction to The Amores Project</h1>
+      <p>The Amores Project is a designed as a “book historical” digital edition of Book 3 of Ovid’s Amores that provides high resolution images of the three earliest handwritten versions (“manuscript witnesses”) of Ovid’s 1st c. CE collection of amatory poems. The project also presents two “modern” versions of the text, one a “digital native” edition of uncited provenance and the other a 19th c. print edition no longer under copyright.</p>
+      <p>Beyond endeavoring to make the content of Amores 3 accessible, the project’s core objective is to invite readers of ancient Latin literature to consider some of the intermediate steps—and intergenerational human labor—that have permitted this work of literature (and many works like it) to survive from antiquity to the present.</p>
+      <p>Appearing alongside the “witnesses” are:</p>
+      <ol class="intro-features">
+        <li>an original grammatical commentary intended for Latinists at the intermediate university level;</li>
+        <li>a running vocabulary of terms that may be unfamiliar to readers at the same level; and</li>
+        <li>computer-assisted transcriptions of the manuscripts.</li>
+      </ol>
+      <p>The website design is intended to facilitate immediate and intuitive exploration. For guidance on the site’s various interactive features, click the “?” on the project’s home page.</p>
+      <p>An essay by Caleb Dance outlining the “book historical” motivations of The Amores Project follows a brief overview of the witnesses included in the project and their role in the textual tradition of Ovid’s collection.</p>
     </section>
 
-    <section class="intro-section witness-intro">
-      <h2>Witness P</h2>
-      <p>[Introduction to Witness P, including its history, significance, and unique characteristics. This section will detail the manuscript's provenance, physical description, and its importance in the transmission of Ovid's Amores.]</p>
-      <div class="intro-image">
-        <!-- Placeholder for Witness P image -->
-        <img src="images/placeholder-p.jpg" alt="Witness P manuscript" style="display: none;">
-        <figcaption>Image caption will be added later</figcaption>
-      </div>
+    <section class="intro-section" id="manuscript-witnesses" aria-labelledby="manuscript-witnesses-heading">
+      <h2 id="manuscript-witnesses-heading">The Manuscript Witnesses</h2>
+      <p>The word “manuscript” describes a hand-written text. All three of the earliest manuscripts of Ovid’s Amores were created long before the invention of the movable-type printing press in the 15th c. CE.</p>
+      <p>A “witness” designates a copy of a text. Every witness is presumed to have “seen” (i.e., been copied from) one or more other witnesses, one of which—tracing the process back over generations—was copied from the original.</p>
+      <p>“Palaeography” refers to the study of writing and writing systems. Palaeographers are often able to draw upon their familiarity with scripts, materials, and other contextual evidence to identify the time and place (with varying degrees of precision) in which a given text was written.</p>
+      <p>A “hand” is an oddly disembodied way of referring to evidence of a scribe’s activity. A text written exclusively by one scribe could be described as showing evidence of “one hand.” Any corrections or annotations by other scribes may be designated “additional hands.” A keen-eyed palaeographer may be able to distinguish between additional hands based upon such idiosyncrasies as the shape of their letters (i.e. “letter forms”), the color of their ink, and where on the page they tend to write.</p>
+      <h3 id="witness-p-heading">Witness P</h3>
+      <p>For many years, Witness P (short for Puteaneus) was believed to be the oldest surviving manuscript containing the text of Book 3 of Ovid’s Amores. The physical manuscript resides in the collections of the Bibliothèque nationale de France in Paris, but high-resolution images in black and white have been made available using the standards of the International Image Interoperability Framework (IIIF).</p>
+      <p>Palaeographers have proposed that the original composition of P took place in the 9th c. CE at Corbie Abbey (a Benedictine monastery) in France. Evidence of later scribal activity (i.e., a “second hand”) appears to date from the 11th c. CE.</p>
+      <p>The script itself is generally legible. The scribe uses few “brevigraphs” (abbreviations) but does demonstrate a propensity for the ligature &amp; for et, even within words. Damage, fading, and limitations to the quality of the scan make some passages difficult to decipher.</p>
+      <p>P is the oldest of the three uetustiores (i.e., “older ones”) containing Amores 3, but damage to some of the final poems means it is not complete.</p>
+      <h3 id="witness-y-heading">Witness Y</h3>
+      <p>Witness Y, long miscatalogued as a 14th c. manuscript, was securely reintroduced to its place earlier in the textual tradition of the Amores (11th c.) by Italian scholar Franco Munari in the 1960s. The manuscript is held in the collections of the Staatsbibliothek zu Berlin, but high-resolution color images have been made available using the standards of the International Image Interoperability Framework (IIIF).</p>
+      <p>The quality of the scan and the clarity of the script make Y the easiest of The Amores Project’s manuscript witnesses to read. Abbreviations are rare, and as with P, the manuscript shows evidence of multiple hands, some several centuries more recent than the original and many contributing valuable emendations.</p>
+      <p>Y is the only manuscript of the uetustiores that contains Amores 3 in its entirety.</p>
+      <h3 id="witness-s-heading">Witness S</h3>
+      <p>Witness S (Sangallensis) is the third of the extant uetustiores containing large portions of Amores 3, and it resides in St. Gallen, Switzerland in a monastic library known as the Stiftsbibliothek. High-resolution color images of it have been made available using the standards of the International Image Interoperability Framework (IIIF).</p>
+      <p>S has been dated to the 11th c., and while the scan’s high quality is such that even the texture of the manuscript can be observed, the liberal use of brevigraphs, especially at the ends of words, makes this manuscript particularly challenging for novice palaeographers. The manuscript lacks the finishing touch of drop-capitals (although the relevant letters often appear in the margin), and because the scribe did not follow the convention of indenting pentameter lines, the verses of couplets are occasionally split across pages.</p>
+      <p>S breaks off at the conclusion of 3.7.74, which coincides with the end of page 396. Blank pages of a lighter color and numbered 397-404 have been pasted into the codex, and when the manuscript resumes on page 404, it is with one page of Ovid’s Metamorphoses containing verses 642-83 of Book 2 in what appears to be a different hand.</p>
     </section>
 
-    <section class="intro-section witness-intro">
-      <h2>Witness Y</h2>
-      <p>[Introduction to Witness Y, including its history, significance, and unique characteristics. This section will explore the manuscript's background, physical attributes, and its role in understanding the medieval transmission of the Amores.]</p>
-      <div class="intro-image">
-        <!-- Placeholder for Witness S image -->
-        <img src="images/placeholder-s.jpg" alt="Witness S manuscript" style="display: none;">
-        <figcaption>Image caption will be added later</figcaption>
-      </div>
+    <section class="intro-section" id="other-witnesses" aria-labelledby="other-witnesses-heading">
+      <h2 id="other-witnesses-heading">Other Witnesses</h2>
+      <h3 id="witness-ll-heading">Witness LL</h3>
+      <p>A text copied from <a href="http://www.thelatinlibrary.com">www.thelatinlibrary.com</a> and designated LL (“Latin Library”) is offered in The Amores Project as the most recent witness to Ovid’s text, albeit with a note of caution: many of the editions of the texts from which “The Latin Library” collection was built are <a href="https://www.thelatinlibrary.com/cred.html">cited</a>, but the text of Ovid’s Amores is not among them. LL was selected for the project because it presents a version of the text frequently and easily consulted by Latin readers in the 21st c.</p>
+      <h3 id="witness-o-heading">Witness O</h3>
+      <p>“Witness O” refers to a late 19th c. print edition of Ovid’s Opera (hence “O”) edited by Rudolf Ehwald, printed by Teubner in 1888, and made available at <a href="https://archive.org/details/operaovid03oviduoft/page/n5/mode/2up">archive.org</a> using the standards of the International Image Interoperability Framework.</p>
+      <p class="intro-note">N.B. The editor E.J. Kenney includes a list of witnesses he consulted in his preparation of a 1961 critical edition (and 1994 revision) of Ovid’s Amores, among which appears a 13th c. manuscript designated Ob. “O” in The Amores Project is an altogether different witness.</p>
     </section>
 
-    <section class="intro-section witness-intro">
-      <h2>Witness S</h2>
-      <p>[Introduction to Witness S, including its history, significance, and unique characteristics. This section will describe the manuscript's origins, physical features, and its contribution to our understanding of the Amores tradition.]</p>
-      <div class="intro-image">
-        <!-- Placeholder for Witness Y image -->
-        <img src="images/placeholder-y.jpg" alt="Witness Y manuscript" style="display: none;">
-        <figcaption>Image caption will be added later</figcaption>
-      </div>
+    <section class="intro-section" id="textual-tradition" aria-labelledby="textual-tradition-heading">
+      <h2 id="textual-tradition-heading">The Textual Tradition</h2>
+      <p>A “textual tradition” describes the relationship between witnesses of the same text. Is one a copy of the other? Are they both copies of a third text? Can a handful of distantly related witnesses be connected through the hypothesized existence of another? The relationships are often illustrated with a “stemma”—a family tree that endeavors to visually represent the various texts’ relationships to others in the tradition.</p>
+      <p>The processes of determining a textual tradition and creating a stemma rely upon the practice of “textual criticism,” a technical term for making informed judgments about a text. For most scholars working with ancient Greek and Roman works, the ultimate objective of textual criticism is determining what the author originally wrote…or some approximation thereof. The reason for the uncertainty is that the literary texts surviving from antiquity are almost all copies of copies. We have, for example, nothing known to have been written in Ovid’s own handwriting, so textual critics preparing an edition of Ovid’s Amores will investigate as many witnesses of the text as possible (a process known as “recension”), consider what errors of transmission may have occurred over the years of the text’s life, compare Ovid’s style known from his other texts, and present in a “critical edition” a text that they believe Ovid was most likely to have written. The activities of a textual critic often require “emendation” (i.e., fixing known or suspected mistakes preserved in surviving witnesses) and sometimes even “conjecture” (i.e., proposing a reading unattested in surviving witnesses).</p>
+      <p>One would be hard pressed to find a clearer and more succinct overview of the textual tradition of The Amores Project’s manuscript witnesses than that <a href="https://books.openedition.org/obp/3060?lang=en">provided by Bart Huelsenbeck for William Turpin’s edition of Book 1 of the Amores for the Dickinson College Commentaries</a>. For readers of Amores 3, the witness known as “R” and referred to throughout Huelsenbeck’s introduction does not contain any poems from the third book (nor from the second nor most of the first), so P, Y, and S are the only relevant uetustiores.</p>
+      <p>Huelsenbeck’s salient conclusions are as follows:</p>
+      <ol>
+        <li>P, our earliest known text of Ovid’s Amores, dates from the middle of the 9th c. CE;</li>
+        <li>P, Y, and S are independent from one another (i.e., no one is a copy of the other), but they share an “ancestor” in a hypothetical witness he refers to as “alpha” (α);</li>
+        <li>more recent manuscript witnesses (recentiores) do not share the ancestor “alpha” or any other easily discerned, shared ancestor; and</li>
+        <li>surviving evidence cannot explain how and when the ancestor of P, Y, and S diverged from the ancestors of the recentiores.</li>
+      </ol>
+      <p>The Amores Project does not yet include any of the recentiores, but it contains two witnesses drawn from the printed history of the Amores: LL (an unattributed digital-born edition) and O (a digitized print edition).</p>
+      <p>Though unattributed, the text of LL closely resembles <a href="https://www.perseus.tufts.edu/hopper/text?doc=Ov.+Am.+3&amp;fromdoc=Perseus%3Atext%3A1999.02.0068">one available through The Perseus Project</a>, where it is cited as Rudolf Ehwald’s 1907 Teubner edition. (A textual critic might draw a connection between the two based on their shared reading of a quotiens at the beginning of Amores 3.1.53.)</p>
+      <p>LL’s lack of attribution invites readers to consider how technologies that permit rapid copying, pasting, and posting enable an electronic textual tradition that parallels some of the same challenges of manuscript and print textual traditions. A key difference, however, is one of time and labor. A new manuscript requires hours (days?) of copying to create a single new witness, while a new print edition might have required hours of typesetting to yield a far greater number of copies. New online texts can be reproduced, seemingly ad infinitum, with just a few keystrokes.</p>
+      <p>If LL is in some way “descended from” (e.g., a digital transcription of) Ehwald’s 1907 Teubner edition, one might expect it to resemble O, another version of Ovid’s Amores edited by Ehwald, but differences between the two witnesses are readily apparent. Prodelisions printed in O (e.g., credibilest at Am. 3.1.2) do not appear in LL (credibile est), and small variations in the Latin text distinguish the two (e.g., O prints Vel quotiens at Amores 3.1.53). A more consequential difference relates to the witnesses original material manifestations: O is a scan of a printed, physical book—a book that can be handled and read without the aid of a computer screen, while LL is an unattributed and disembodied text that was created to be viewed through a computer screen. In other words, material manifestations, even when digitally mediated, communicate different details about a text’s history and the technologies and labor involved in its creation and preservation. Which sets the stage for the following discussion of “book history”…</p>
+    </section>
+
+    <section class="intro-section" id="book-history" aria-labelledby="book-history-heading">
+      <h2 id="book-history-heading">Ovid’s Amores 3 and Book History</h2>
+      <p class="intro-coming-soon">[Essay coming soon]</p>
     </section>
   </main>
 
