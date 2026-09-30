@@ -1221,7 +1221,8 @@ label[for="witness-select"] {
   text-wrap: pretty;
 }
 
-#essay-3-1 .essay-section > p:first-of-type::first-letter {
+#essay-3-1 .essay-section > p:first-of-type::first-letter,
+#essay-3-2 .essay-section > p:first-of-type::first-letter {
   color: var(--wl-blue);
   font-size: 2.85em;
   font-weight: 600;
@@ -1236,6 +1237,25 @@ label[for="witness-select"] {
   background: var(--button-bg);
   font-style: italic;
   white-space: pre-line;
+}
+
+/* Preserve the source's verse breaks and couplet insets on narrow screens. */
+.essay-section .essay-verse {
+  white-space: normal;
+}
+
+.essay-verse .verse-line {
+  display: block;
+}
+
+.essay-verse .verse-indent {
+  padding-left: 1.5em;
+}
+
+.essay-verse .verse-number {
+  float: right;
+  margin-left: 1em;
+  font-size: 0.85em;
 }
 
 .essay-section h3 {
