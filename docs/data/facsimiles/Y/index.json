@@ -1,0 +1,1521 @@
+{
+  "witness": "Y",
+  "shelfmark": "Ms. Ham. 471",
+  "provider": "Staatsbibliothek zu Berlin – Preußischer Kulturbesitz",
+  "sourceManifest": "https://content.staatsbibliothek-berlin.de/dc/1844735508/manifest",
+  "sourceRecord": "https://resolver.staatsbibliothek-berlin.de/SBB00034ABB00000000",
+  "rights": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "description": "Unmodified full-resolution library JPEGs, retained as an availability fallback.",
+  "images": [
+    {
+      "page": 1,
+      "label": " -  [1]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0001/full/full/0/default.jpg",
+      "file": "0001.jpg",
+      "width": 2197,
+      "height": 3621,
+      "bytes": 965284,
+      "sha256": "4cc3539e9e58cb5acb4d2f294479ecdacd64a6fcfeca9ff4d9c7994b9d4115f1"
+    },
+    {
+      "page": 2,
+      "label": " -  [2]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0002/full/full/0/default.jpg",
+      "file": "0002.jpg",
+      "width": 2085,
+      "height": 3621,
+      "bytes": 839797,
+      "sha256": "cc31eff511822024efc591afd91ad295c7554b5c55d8ec4c69bcf3bf6228230d"
+    },
+    {
+      "page": 3,
+      "label": " -  [3]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0003/full/full/0/default.jpg",
+      "file": "0003.jpg",
+      "width": 2064,
+      "height": 3621,
+      "bytes": 802673,
+      "sha256": "89a144ef91bc802d67c37d54132a923cddb75c3f2e07e050179b65c525eb6685"
+    },
+    {
+      "page": 4,
+      "label": " -  [4]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0004/full/full/0/default.jpg",
+      "file": "0004.jpg",
+      "width": 1974,
+      "height": 3363,
+      "bytes": 718361,
+      "sha256": "f8d3761a5e8345ac1edd6c70f77fe73bbf1de4157d606de2dde4ea049d3beba2"
+    },
+    {
+      "page": 5,
+      "label": "1r [5]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0005/full/full/0/default.jpg",
+      "file": "0005.jpg",
+      "width": 1966,
+      "height": 3363,
+      "bytes": 844689,
+      "sha256": "95e5777ae480266b6ed6d43ca1cd3f9d6855e8ed17472d39bb23459404bdde91"
+    },
+    {
+      "page": 6,
+      "label": "1v [6]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0006/full/full/0/default.jpg",
+      "file": "0006.jpg",
+      "width": 1942,
+      "height": 3363,
+      "bytes": 796838,
+      "sha256": "3ee105aacbb0ac4ec3c780d2b66c727909f8726f3c5ec270bea7feabc00622c8"
+    },
+    {
+      "page": 7,
+      "label": "2r [7]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0007/full/full/0/default.jpg",
+      "file": "0007.jpg",
+      "width": 1991,
+      "height": 3363,
+      "bytes": 797051,
+      "sha256": "7307abb0e8d43a923b5a61f29e5b940ade05ea71bd122548975e70ac69a61341"
+    },
+    {
+      "page": 8,
+      "label": "2v [8]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0008/full/full/0/default.jpg",
+      "file": "0008.jpg",
+      "width": 1979,
+      "height": 3363,
+      "bytes": 994333,
+      "sha256": "2dab078b89a18275216717fcd07bc0359af28cc6e15e2df034165215268a6b12"
+    },
+    {
+      "page": 9,
+      "label": "3r [9]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0009/full/full/0/default.jpg",
+      "file": "0009.jpg",
+      "width": 1991,
+      "height": 3363,
+      "bytes": 1012650,
+      "sha256": "45e39ccfb9d04971ae5d88413db3ed6939e64326cbf0956d7ecba9750a020240"
+    },
+    {
+      "page": 10,
+      "label": "3v [10]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0010/full/full/0/default.jpg",
+      "file": "0010.jpg",
+      "width": 1978,
+      "height": 3363,
+      "bytes": 822897,
+      "sha256": "59ccbeca3b3e5d1fdca46fe3751c41c1b629e2a9ffea98ac443fe6380c011adb"
+    },
+    {
+      "page": 11,
+      "label": "4r [11]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0011/full/full/0/default.jpg",
+      "file": "0011.jpg",
+      "width": 1990,
+      "height": 3363,
+      "bytes": 859877,
+      "sha256": "55b748f2c7e11857f53e30b1aab717fe881c9392fd0399d2f7326b832164a692"
+    },
+    {
+      "page": 12,
+      "label": "4v [12]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0012/full/full/0/default.jpg",
+      "file": "0012.jpg",
+      "width": 1979,
+      "height": 3363,
+      "bytes": 929188,
+      "sha256": "b3c98f562b8c8f0fc9a70186e902837a2353cc2feeabecd22b60b8acd49a6343"
+    },
+    {
+      "page": 13,
+      "label": "5r [13]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0013/full/full/0/default.jpg",
+      "file": "0013.jpg",
+      "width": 1990,
+      "height": 3363,
+      "bytes": 982335,
+      "sha256": "2be3b1bc26109003501174b7fe4769cbea9653e95c4423dcace917a541909419"
+    },
+    {
+      "page": 14,
+      "label": "5v [14]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0014/full/full/0/default.jpg",
+      "file": "0014.jpg",
+      "width": 1998,
+      "height": 3363,
+      "bytes": 850788,
+      "sha256": "2a7d0a5780dc3886e7c11ae78b983f6bc23e94a4d085f7e3807294e75f5daf14"
+    },
+    {
+      "page": 15,
+      "label": "6r [15]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0015/full/full/0/default.jpg",
+      "file": "0015.jpg",
+      "width": 1990,
+      "height": 3363,
+      "bytes": 823294,
+      "sha256": "688e7ddba87e986725b9951e59385d3e50f0db7a9ce654366b68b5c0eb0d5534"
+    },
+    {
+      "page": 16,
+      "label": "6v [16]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0016/full/full/0/default.jpg",
+      "file": "0016.jpg",
+      "width": 1990,
+      "height": 3363,
+      "bytes": 985040,
+      "sha256": "8e7ad80fc6ed10ddf0dc6fe8d85f1d36705d48cd263895d12f1638932dc12538"
+    },
+    {
+      "page": 17,
+      "label": "7r [17]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0017/full/full/0/default.jpg",
+      "file": "0017.jpg",
+      "width": 1990,
+      "height": 3363,
+      "bytes": 969366,
+      "sha256": "3bf32c57995f48b24dcd2d8df9777e6b4d1e780023a11e1538157008b32e988b"
+    },
+    {
+      "page": 18,
+      "label": "7v [18]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0018/full/full/0/default.jpg",
+      "file": "0018.jpg",
+      "width": 1977,
+      "height": 3363,
+      "bytes": 824119,
+      "sha256": "329df335a31e844f425583c1a02e059b742e4fdd82d46a7466f0540467e3001c"
+    },
+    {
+      "page": 19,
+      "label": "8r [19]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0019/full/full/0/default.jpg",
+      "file": "0019.jpg",
+      "width": 1990,
+      "height": 3363,
+      "bytes": 869598,
+      "sha256": "fe7ad3cc0d87d5c097b995d8bea6e588e9bec3ce4a818281be0d38979e154821"
+    },
+    {
+      "page": 20,
+      "label": "8v [20]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0020/full/full/0/default.jpg",
+      "file": "0020.jpg",
+      "width": 1940,
+      "height": 3363,
+      "bytes": 966659,
+      "sha256": "f574989d17545b0fa43dcda34690205b688ce7ca53c4396d88947fd1c2c15f71"
+    },
+    {
+      "page": 21,
+      "label": "9r [21]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0021/full/full/0/default.jpg",
+      "file": "0021.jpg",
+      "width": 1971,
+      "height": 3363,
+      "bytes": 1161419,
+      "sha256": "7970340209224d41406f8eb53a33ad8f353db6aa9fc949e3e733ca267556b438"
+    },
+    {
+      "page": 22,
+      "label": "9v [22]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0022/full/full/0/default.jpg",
+      "file": "0022.jpg",
+      "width": 1969,
+      "height": 3363,
+      "bytes": 909179,
+      "sha256": "439861031b6c8c3fa7acd82e6d06fdafecaa51fb187671c634f5cd8256f5bd96"
+    },
+    {
+      "page": 23,
+      "label": "10r [23]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0023/full/full/0/default.jpg",
+      "file": "0023.jpg",
+      "width": 2006,
+      "height": 3363,
+      "bytes": 892818,
+      "sha256": "637bd553370f1be0b3314955ba7d7f36764edd36217b9bd7f92824d236422ee3"
+    },
+    {
+      "page": 24,
+      "label": "10v [24]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0024/full/full/0/default.jpg",
+      "file": "0024.jpg",
+      "width": 1995,
+      "height": 3363,
+      "bytes": 1170707,
+      "sha256": "ad99b4a7b261dbe703540c25b3531eb6cb0ec3690e7594f45237f23a1f1007a8"
+    },
+    {
+      "page": 25,
+      "label": "11r [25]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0025/full/full/0/default.jpg",
+      "file": "0025.jpg",
+      "width": 2006,
+      "height": 3363,
+      "bytes": 1005154,
+      "sha256": "55a56dfdbd12e46eec5276421fe540ed8a2a8afb9daa7d2054378918289c9623"
+    },
+    {
+      "page": 26,
+      "label": "11v [26]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0026/full/full/0/default.jpg",
+      "file": "0026.jpg",
+      "width": 1994,
+      "height": 3363,
+      "bytes": 873694,
+      "sha256": "1a9776f7f467fc8d1563e72bfe14e9b75e3d20ae33fd0989a0a58f9a13b5b125"
+    },
+    {
+      "page": 27,
+      "label": "12r [27]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0027/full/full/0/default.jpg",
+      "file": "0027.jpg",
+      "width": 2006,
+      "height": 3363,
+      "bytes": 826115,
+      "sha256": "e0261bdcc46d76a885ddad0f45a6627dd497e24353a9dcc6240767f21bbcfde9"
+    },
+    {
+      "page": 28,
+      "label": "12v [28]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0028/full/full/0/default.jpg",
+      "file": "0028.jpg",
+      "width": 1994,
+      "height": 3363,
+      "bytes": 893916,
+      "sha256": "5466ca60a17c11272842cf4d492168d5cb451131fcf350e0fa149ddfae67adef"
+    },
+    {
+      "page": 29,
+      "label": "13r [29]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0029/full/full/0/default.jpg",
+      "file": "0029.jpg",
+      "width": 2006,
+      "height": 3363,
+      "bytes": 1131797,
+      "sha256": "01bdf2bb7fd09152f00b36e07e8b29a3533c5f6245aed0a8b8123d2c56793967"
+    },
+    {
+      "page": 30,
+      "label": "13v [30]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0030/full/full/0/default.jpg",
+      "file": "0030.jpg",
+      "width": 1995,
+      "height": 3363,
+      "bytes": 960089,
+      "sha256": "7ce34bd68c78de8b2206073fc8494526029664a51ea0ffd079192c3d1c9126c8"
+    },
+    {
+      "page": 31,
+      "label": "14r [31]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0031/full/full/0/default.jpg",
+      "file": "0031.jpg",
+      "width": 2007,
+      "height": 3363,
+      "bytes": 972861,
+      "sha256": "3eb8ad303daa46d8b58415cd07f6674b6ab7de048d8a1805645bff5c27727718"
+    },
+    {
+      "page": 32,
+      "label": "14v [32]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0032/full/full/0/default.jpg",
+      "file": "0032.jpg",
+      "width": 1971,
+      "height": 3363,
+      "bytes": 1174887,
+      "sha256": "c1884dc5127ca10001243b74557b4fddb67f1713f903f0c29059962710eb22fa"
+    },
+    {
+      "page": 33,
+      "label": "15r [33]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0033/full/full/0/default.jpg",
+      "file": "0033.jpg",
+      "width": 1986,
+      "height": 3363,
+      "bytes": 943346,
+      "sha256": "3faf8a99a882bbf3448b110fd550b0bbe1801db032e850c5ff7c6ea40f2444e7"
+    },
+    {
+      "page": 34,
+      "label": "15v [34]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0034/full/full/0/default.jpg",
+      "file": "0034.jpg",
+      "width": 2009,
+      "height": 3363,
+      "bytes": 927013,
+      "sha256": "d8bda0bfe37964e08d8d06aa1748f0ab7f3dd19fa8f7c31b59605e017ab5b8d8"
+    },
+    {
+      "page": 35,
+      "label": "16r [35]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0035/full/full/0/default.jpg",
+      "file": "0035.jpg",
+      "width": 2013,
+      "height": 3363,
+      "bytes": 977197,
+      "sha256": "0995e8f9dc25e043a0fdc6341d776ccbeda41c584c4f1b3a54512ddf79808a4f"
+    },
+    {
+      "page": 36,
+      "label": "16v [36]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0036/full/full/0/default.jpg",
+      "file": "0036.jpg",
+      "width": 2009,
+      "height": 3363,
+      "bytes": 978780,
+      "sha256": "58555ae554a3945dc4a73e95ab6cf51a0673c7fc4ec5f6eb9d9894d4404cd8d7"
+    },
+    {
+      "page": 37,
+      "label": "17r [37]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0037/full/full/0/default.jpg",
+      "file": "0037.jpg",
+      "width": 2013,
+      "height": 3363,
+      "bytes": 1106175,
+      "sha256": "2ca319d6761feb232515b97cc3e502a9cd5e69026b6c95377c273de171d00b9b"
+    },
+    {
+      "page": 38,
+      "label": "17v [38]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0038/full/full/0/default.jpg",
+      "file": "0038.jpg",
+      "width": 1986,
+      "height": 3363,
+      "bytes": 838518,
+      "sha256": "f4875157d166580d5c22f42b6e581736dbf7aa2458f321c8dac0399b2aadae0d"
+    },
+    {
+      "page": 39,
+      "label": "18r [39]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0039/full/full/0/default.jpg",
+      "file": "0039.jpg",
+      "width": 1990,
+      "height": 3363,
+      "bytes": 868212,
+      "sha256": "c7dddc6c4405dbb58ec9de59c366da8b33ffaf2b228a783bc7fe99528b49cb89"
+    },
+    {
+      "page": 40,
+      "label": "18v [40]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0040/full/full/0/default.jpg",
+      "file": "0040.jpg",
+      "width": 2008,
+      "height": 3363,
+      "bytes": 1178821,
+      "sha256": "0c80aae63dd769e24ae98d4a7e883f856ec74acb6a6eda896112eaddac802179"
+    },
+    {
+      "page": 41,
+      "label": "19r [41]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0041/full/full/0/default.jpg",
+      "file": "0041.jpg",
+      "width": 1991,
+      "height": 3363,
+      "bytes": 1117401,
+      "sha256": "e43d1926122b9b583eb9fdb09c4aeb4b8f8f4d434038036e1692cacf661377d7"
+    },
+    {
+      "page": 42,
+      "label": "19v [42]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0042/full/full/0/default.jpg",
+      "file": "0042.jpg",
+      "width": 2009,
+      "height": 3363,
+      "bytes": 849679,
+      "sha256": "e19c16170add5bbf4fc9a5d528e7d7425e8d4e574a493821ed3f71eb87e9449e"
+    },
+    {
+      "page": 43,
+      "label": "20r [43]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0043/full/full/0/default.jpg",
+      "file": "0043.jpg",
+      "width": 1990,
+      "height": 3363,
+      "bytes": 824098,
+      "sha256": "685d84dd7fed24c254410b71bd6ea44acad7e894abb3b8bee6fe557de5c8da67"
+    },
+    {
+      "page": 44,
+      "label": "20v [44]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0044/full/full/0/default.jpg",
+      "file": "0044.jpg",
+      "width": 2009,
+      "height": 3363,
+      "bytes": 972373,
+      "sha256": "dd7dd6986ebfdd9ee762cc6c51b11e9dfb624cb3cf8de8d25e370102f66daa19"
+    },
+    {
+      "page": 45,
+      "label": "21r [45]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0045/full/full/0/default.jpg",
+      "file": "0045.jpg",
+      "width": 1990,
+      "height": 3363,
+      "bytes": 950781,
+      "sha256": "deebb0ed71331448d1517ca6191f533aa509a7a70dfbc26efbde419c6eacb07a"
+    },
+    {
+      "page": 46,
+      "label": "21v [46]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0046/full/full/0/default.jpg",
+      "file": "0046.jpg",
+      "width": 2004,
+      "height": 3363,
+      "bytes": 832635,
+      "sha256": "2b7b5878e69f7946c8703ea22f25f3629c5b14381530354db7a8b720140e06ca"
+    },
+    {
+      "page": 47,
+      "label": "22r [47]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0047/full/full/0/default.jpg",
+      "file": "0047.jpg",
+      "width": 1990,
+      "height": 3363,
+      "bytes": 849405,
+      "sha256": "a54ce4c5593f7c1b42442d048e3894a422d29af9a2a0d7898aacb32532a3d257"
+    },
+    {
+      "page": 48,
+      "label": "22v [48]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0048/full/full/0/default.jpg",
+      "file": "0048.jpg",
+      "width": 2004,
+      "height": 3363,
+      "bytes": 999259,
+      "sha256": "054b73771084ca9c81b1126a9e7e1ac6e7311c238f2cc285670a1868e302302b"
+    },
+    {
+      "page": 49,
+      "label": "23r [49]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0049/full/full/0/default.jpg",
+      "file": "0049.jpg",
+      "width": 2018,
+      "height": 3363,
+      "bytes": 972316,
+      "sha256": "046f64f577b20aaf768f5297556cc523ef35e083543fef1f04f422aaf91d93b2"
+    },
+    {
+      "page": 50,
+      "label": "23v [50]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0050/full/full/0/default.jpg",
+      "file": "0050.jpg",
+      "width": 2004,
+      "height": 3363,
+      "bytes": 836518,
+      "sha256": "ba0f0bb280aa6530121a80e7b95c8eb2649e087ef63456f11195b92946c9171c"
+    },
+    {
+      "page": 51,
+      "label": "24r [51]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0051/full/full/0/default.jpg",
+      "file": "0051.jpg",
+      "width": 2018,
+      "height": 3363,
+      "bytes": 842124,
+      "sha256": "afe3d00744b52c31659a4e8757e74cbfb8670ff3918206c016d24f7df51f8c40"
+    },
+    {
+      "page": 52,
+      "label": "24v [52]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0052/full/full/0/default.jpg",
+      "file": "0052.jpg",
+      "width": 1998,
+      "height": 3363,
+      "bytes": 962088,
+      "sha256": "27c44608650ea9c428659622849a100fe3d9a57c9a0725f711aec633b67a25ef"
+    },
+    {
+      "page": 53,
+      "label": "25r [53]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0053/full/full/0/default.jpg",
+      "file": "0053.jpg",
+      "width": 2019,
+      "height": 3363,
+      "bytes": 983524,
+      "sha256": "7c3b7d4ac2b0fcc88bd1c209f4ba0ac61cef98f7e414b8efe8923cd50bc77275"
+    },
+    {
+      "page": 54,
+      "label": "25v [54]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0054/full/full/0/default.jpg",
+      "file": "0054.jpg",
+      "width": 1974,
+      "height": 3363,
+      "bytes": 761192,
+      "sha256": "8c52a10bede1e04fce0a90e477560ca0a2e5542c0b58aa1923d6d2b999871ab4"
+    },
+    {
+      "page": 55,
+      "label": "26r [55]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0055/full/full/0/default.jpg",
+      "file": "0055.jpg",
+      "width": 2003,
+      "height": 3363,
+      "bytes": 784393,
+      "sha256": "9cd96e7be9c2c0be063c75f199e3aece3632c9498db5ba693e10af6ab7cfd70b"
+    },
+    {
+      "page": 56,
+      "label": "26v [56]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0056/full/full/0/default.jpg",
+      "file": "0056.jpg",
+      "width": 1989,
+      "height": 3363,
+      "bytes": 953960,
+      "sha256": "8d15a1c09ef1bb9a6419c461ee35c9224150dcfcd8e9a8e41355db4e3bdb2c45"
+    },
+    {
+      "page": 57,
+      "label": "27r [57]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0057/full/full/0/default.jpg",
+      "file": "0057.jpg",
+      "width": 1998,
+      "height": 3363,
+      "bytes": 988616,
+      "sha256": "2691822068e76a43213ddd38b1a4aa4d95464e24392d2235369008ceaf4809e4"
+    },
+    {
+      "page": 58,
+      "label": "27v [58]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0058/full/full/0/default.jpg",
+      "file": "0058.jpg",
+      "width": 1989,
+      "height": 3363,
+      "bytes": 868467,
+      "sha256": "78323f1ab1965c222110e9f629bc5d7491e1a4518568f3c1aea3319ae06a4ec2"
+    },
+    {
+      "page": 59,
+      "label": "28r [59]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0059/full/full/0/default.jpg",
+      "file": "0059.jpg",
+      "width": 1998,
+      "height": 3363,
+      "bytes": 907401,
+      "sha256": "2ee1a1dc2f87b30c110d3d4e1440fd6344bfc7fc03b451fd9def69fe30b334f8"
+    },
+    {
+      "page": 60,
+      "label": "28v [60]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0060/full/full/0/default.jpg",
+      "file": "0060.jpg",
+      "width": 2002,
+      "height": 3363,
+      "bytes": 988118,
+      "sha256": "8bd3eb27e738de31a603c144c2789075c00880e673fcf9564467fc99cce83824"
+    },
+    {
+      "page": 61,
+      "label": "29r [61]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0061/full/full/0/default.jpg",
+      "file": "0061.jpg",
+      "width": 1983,
+      "height": 3363,
+      "bytes": 921159,
+      "sha256": "610dedea633e0cfca78c18def666bee6c1b2b72ae9c5c479fc64830879a2870e"
+    },
+    {
+      "page": 62,
+      "label": "29v [62]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0062/full/full/0/default.jpg",
+      "file": "0062.jpg",
+      "width": 2018,
+      "height": 3363,
+      "bytes": 989861,
+      "sha256": "366feede6e679bf9476d953f3a90e9f467829c55082361ac55b013b3b687bab6"
+    },
+    {
+      "page": 63,
+      "label": "30r [63]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0063/full/full/0/default.jpg",
+      "file": "0063.jpg",
+      "width": 1983,
+      "height": 3363,
+      "bytes": 941174,
+      "sha256": "4688830e61f890dcabfd8759785d3526e75619284ef8809fcf80f3cd026c4ced"
+    },
+    {
+      "page": 64,
+      "label": "30v [64]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0064/full/full/0/default.jpg",
+      "file": "0064.jpg",
+      "width": 1977,
+      "height": 3363,
+      "bytes": 880747,
+      "sha256": "27ee0f3e2f8296219614ba6596649865115f6e5d30f0bde002d3a54966564f55"
+    },
+    {
+      "page": 65,
+      "label": "31r [65]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0065/full/full/0/default.jpg",
+      "file": "0065.jpg",
+      "width": 1998,
+      "height": 3363,
+      "bytes": 930108,
+      "sha256": "57c1547076fe1a02f14d040144ee2a3640e272aa2d823b04b035ce62c0715be3"
+    },
+    {
+      "page": 66,
+      "label": "31v [66]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0066/full/full/0/default.jpg",
+      "file": "0066.jpg",
+      "width": 2014,
+      "height": 3363,
+      "bytes": 850176,
+      "sha256": "f0b91bbb73bc2267ee953ca63688e67d0dd7ffdf427d150bbc45d07c48164fc2"
+    },
+    {
+      "page": 67,
+      "label": "32r [67]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0067/full/full/0/default.jpg",
+      "file": "0067.jpg",
+      "width": 2010,
+      "height": 3363,
+      "bytes": 856139,
+      "sha256": "5989849fe1dcd05b9b328b87d052e6ce901225b171875817ebc7328c939eee75"
+    },
+    {
+      "page": 68,
+      "label": "32v [68]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0068/full/full/0/default.jpg",
+      "file": "0068.jpg",
+      "width": 1994,
+      "height": 3363,
+      "bytes": 992773,
+      "sha256": "072d4cd1836012762a5be2745ca388d616d7555987ebee2a784f122a4332cfb8"
+    },
+    {
+      "page": 69,
+      "label": "33r [69]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0069/full/full/0/default.jpg",
+      "file": "0069.jpg",
+      "width": 2010,
+      "height": 3363,
+      "bytes": 992500,
+      "sha256": "6f8acfb6dff443e89fc833627ffdf3fa3883b1c6ffd899edc36ec77eec4a9d00"
+    },
+    {
+      "page": 70,
+      "label": "33v [70]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0070/full/full/0/default.jpg",
+      "file": "0070.jpg",
+      "width": 1994,
+      "height": 3363,
+      "bytes": 843337,
+      "sha256": "7495e2faeb72848adf9c45a054a046b5fea79a737cdfacaf890ef88ecacbe492"
+    },
+    {
+      "page": 71,
+      "label": "34r [71]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0071/full/full/0/default.jpg",
+      "file": "0071.jpg",
+      "width": 2010,
+      "height": 3363,
+      "bytes": 865011,
+      "sha256": "366bc93c0de6342981aea3d8e9abedd1770ea8a9918c83e46a78fd01c0388373"
+    },
+    {
+      "page": 72,
+      "label": "34v [72]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0072/full/full/0/default.jpg",
+      "file": "0072.jpg",
+      "width": 1994,
+      "height": 3363,
+      "bytes": 947028,
+      "sha256": "b53c709734174accca2980e560792232215bd0864bb484bc5ce37b0fdcff1355"
+    },
+    {
+      "page": 73,
+      "label": "35r [73]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0073/full/full/0/default.jpg",
+      "file": "0073.jpg",
+      "width": 1998,
+      "height": 3363,
+      "bytes": 994979,
+      "sha256": "d3ab7af38a843a1db1bea5679ddd92a1b441697876fcf4eed662590fba7d5d42"
+    },
+    {
+      "page": 74,
+      "label": "35v [74]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0074/full/full/0/default.jpg",
+      "file": "0074.jpg",
+      "width": 1993,
+      "height": 3363,
+      "bytes": 769787,
+      "sha256": "72386444087e4dcafcc2b516b9112fb9442f47a04bf2a9f04c54f6616c89638a"
+    },
+    {
+      "page": 75,
+      "label": "36r [75]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0075/full/full/0/default.jpg",
+      "file": "0075.jpg",
+      "width": 1998,
+      "height": 3363,
+      "bytes": 789041,
+      "sha256": "73fcfa865549432ba7fd7d166ee4879291408884edbdbec51d4bd1681f2c0092"
+    },
+    {
+      "page": 76,
+      "label": "36v [76]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0076/full/full/0/default.jpg",
+      "file": "0076.jpg",
+      "width": 1994,
+      "height": 3363,
+      "bytes": 954081,
+      "sha256": "021cd1527d63087c08caaac1b8746e9a934420aa15553cce0095fb5321e8fddc"
+    },
+    {
+      "page": 77,
+      "label": "37r [77]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0077/full/full/0/default.jpg",
+      "file": "0077.jpg",
+      "width": 1989,
+      "height": 3363,
+      "bytes": 911688,
+      "sha256": "cd46d599f045a21246703fcefb8bd5e125a0bfeadc13a86bddc6a0ac5f9e46a3"
+    },
+    {
+      "page": 78,
+      "label": "37v [78]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0078/full/full/0/default.jpg",
+      "file": "0078.jpg",
+      "width": 1983,
+      "height": 3363,
+      "bytes": 781557,
+      "sha256": "5e74863c42bac703d2b98a522d92ff6c53a5c606d9f9c6dd5d5a7538dda6010e"
+    },
+    {
+      "page": 79,
+      "label": "38r [79]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0079/full/full/0/default.jpg",
+      "file": "0079.jpg",
+      "width": 2009,
+      "height": 3363,
+      "bytes": 784740,
+      "sha256": "cb587d9945e25c9ad88e97b1b99f315e8d2fbd1526f9f7ac7ff07c493ccb4959"
+    },
+    {
+      "page": 80,
+      "label": "38v [80]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0080/full/full/0/default.jpg",
+      "file": "0080.jpg",
+      "width": 1970,
+      "height": 3363,
+      "bytes": 890745,
+      "sha256": "a5c210250cdd7fa2bcfcfbe30a1d6421f48f0db611f1a89af334c901b893e20c"
+    },
+    {
+      "page": 81,
+      "label": "39r [81]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0081/full/full/0/default.jpg",
+      "file": "0081.jpg",
+      "width": 1981,
+      "height": 3363,
+      "bytes": 1044320,
+      "sha256": "a4b9b3786e57eff041c9538f48f31d8974fc8cc26679485ef6f6286600c2c4bc"
+    },
+    {
+      "page": 82,
+      "label": "39v [82]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0082/full/full/0/default.jpg",
+      "file": "0082.jpg",
+      "width": 1974,
+      "height": 3363,
+      "bytes": 820788,
+      "sha256": "46b2643811575d95be2e05dd2fad9830c61ca84b91688051549a9a9d151e0230"
+    },
+    {
+      "page": 83,
+      "label": "40r [83]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0083/full/full/0/default.jpg",
+      "file": "0083.jpg",
+      "width": 2013,
+      "height": 3363,
+      "bytes": 843485,
+      "sha256": "75f0dddcc7b6118a8b2a9e130eace4204410dca9d576bce85d3c2029751b5a69"
+    },
+    {
+      "page": 84,
+      "label": "40v [84]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0084/full/full/0/default.jpg",
+      "file": "0084.jpg",
+      "width": 1974,
+      "height": 3363,
+      "bytes": 1153491,
+      "sha256": "7b464a10dc781a0b8c24681df40983406198ed3768f7bc1bede3e76ba7f2d4e3"
+    },
+    {
+      "page": 85,
+      "label": "41r [85]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0085/full/full/0/default.jpg",
+      "file": "0085.jpg",
+      "width": 2014,
+      "height": 3363,
+      "bytes": 1151239,
+      "sha256": "f5cb63dd7a1b6674ad3c38d9130a41b5db3053e65223677fd387641ae600e59c"
+    },
+    {
+      "page": 86,
+      "label": "41v [86]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0086/full/full/0/default.jpg",
+      "file": "0086.jpg",
+      "width": 1974,
+      "height": 3363,
+      "bytes": 879088,
+      "sha256": "8dfcdcdf48b2678a00d85a195b4fc3e7d91ca834274bb9c02ffae6bfcac6fb79"
+    },
+    {
+      "page": 87,
+      "label": "42r [87]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0087/full/full/0/default.jpg",
+      "file": "0087.jpg",
+      "width": 2013,
+      "height": 3363,
+      "bytes": 862254,
+      "sha256": "5906fc8bdf44712ad9622be7261d8697218f96fdef4468db2bf7302fdb1ca2e1"
+    },
+    {
+      "page": 88,
+      "label": "42v [88]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0088/full/full/0/default.jpg",
+      "file": "0088.jpg",
+      "width": 1974,
+      "height": 3363,
+      "bytes": 1346740,
+      "sha256": "18e0bb26b93c707bf122bbf94f784032ce9eecdcf52f12ee53cbd73fd6b68daf"
+    },
+    {
+      "page": 89,
+      "label": "43r [89]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0089/full/full/0/default.jpg",
+      "file": "0089.jpg",
+      "width": 2001,
+      "height": 3363,
+      "bytes": 1355805,
+      "sha256": "91d9974c1e74ac86f4e5c1211138f24bcd7ce0973ebf2b872d3f73f9dd5767ad"
+    },
+    {
+      "page": 90,
+      "label": "43v [90]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0090/full/full/0/default.jpg",
+      "file": "0090.jpg",
+      "width": 1981,
+      "height": 3363,
+      "bytes": 827958,
+      "sha256": "9179d584927da68caf1ea63dacbaea1d86866bcf6af8e071d5feadb89fdb0659"
+    },
+    {
+      "page": 91,
+      "label": "44r [91]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0091/full/full/0/default.jpg",
+      "file": "0091.jpg",
+      "width": 1981,
+      "height": 3363,
+      "bytes": 844010,
+      "sha256": "9dccad55b46db843c22597a5df5a62087622ccd75451bd5e2eb753b7ae7afa37"
+    },
+    {
+      "page": 92,
+      "label": "44v [92]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0092/full/full/0/default.jpg",
+      "file": "0092.jpg",
+      "width": 1989,
+      "height": 3363,
+      "bytes": 1211050,
+      "sha256": "2e2537305b779a4207d4d55e5f98735e32d9622af2f59d9fc686cdc5b4f890b0"
+    },
+    {
+      "page": 93,
+      "label": "45r [93]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0093/full/full/0/default.jpg",
+      "file": "0093.jpg",
+      "width": 1993,
+      "height": 3363,
+      "bytes": 1181673,
+      "sha256": "685e5f6e1b92cc55683d96a99b4d4d860cab93c0d2d986b8243018c14eba6d6f"
+    },
+    {
+      "page": 94,
+      "label": "45v [94]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0094/full/full/0/default.jpg",
+      "file": "0094.jpg",
+      "width": 1994,
+      "height": 3363,
+      "bytes": 992204,
+      "sha256": "27b307bbbc8197be0e58661c1dcdfb7aaa69c3d28ee4d2e6e0807a7255b35077"
+    },
+    {
+      "page": 95,
+      "label": "46r [95]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0095/full/full/0/default.jpg",
+      "file": "0095.jpg",
+      "width": 1986,
+      "height": 3363,
+      "bytes": 958405,
+      "sha256": "3a0afb50b76719ce36d3fe00ad678d10f4be73affa64781bc15a59a137aa5268"
+    },
+    {
+      "page": 96,
+      "label": "46v [96]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0096/full/full/0/default.jpg",
+      "file": "0096.jpg",
+      "width": 1969,
+      "height": 3363,
+      "bytes": 1090376,
+      "sha256": "b82f1521204d9005375896754e67169c6c28f49163c026dc6709451cf8ad19ee"
+    },
+    {
+      "page": 97,
+      "label": "47r [97]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0097/full/full/0/default.jpg",
+      "file": "0097.jpg",
+      "width": 1989,
+      "height": 3363,
+      "bytes": 1084682,
+      "sha256": "e945c5862989be5593d932899fa6b70484c38a1462e605d3629a70dafa0cb68b"
+    },
+    {
+      "page": 98,
+      "label": "47v [98]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0098/full/full/0/default.jpg",
+      "file": "0098.jpg",
+      "width": 1970,
+      "height": 3363,
+      "bytes": 851818,
+      "sha256": "682d5ac09a5aa43bb648a9cba40aa9b6cd8cd2834bdfbcc3806d9d5cddd781ce"
+    },
+    {
+      "page": 99,
+      "label": "48r [99]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0099/full/full/0/default.jpg",
+      "file": "0099.jpg",
+      "width": 1995,
+      "height": 3363,
+      "bytes": 915045,
+      "sha256": "f155a3d009132eeeb0425ae81447d3336212a413ade31411fab924477d2de9a0"
+    },
+    {
+      "page": 100,
+      "label": "48v [100]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0100/full/full/0/default.jpg",
+      "file": "0100.jpg",
+      "width": 1969,
+      "height": 3363,
+      "bytes": 1044294,
+      "sha256": "f45f3f33c72027a9b94714faa5de57db86fa1eb689efb540078549eace81f6e9"
+    },
+    {
+      "page": 101,
+      "label": "49r [101]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0101/full/full/0/default.jpg",
+      "file": "0101.jpg",
+      "width": 1994,
+      "height": 3363,
+      "bytes": 1006401,
+      "sha256": "5cfb06b7e37f1609ed0d93fb3aad4fa22733b45ddc1abbab001984f5321de4f6"
+    },
+    {
+      "page": 102,
+      "label": "49v [102]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0102/full/full/0/default.jpg",
+      "file": "0102.jpg",
+      "width": 1969,
+      "height": 3363,
+      "bytes": 981185,
+      "sha256": "73a3e8b7b721cf04e7fbfe5e2dd5d8f2e489d93d5cf318256e31e7d0a1bf40dd"
+    },
+    {
+      "page": 103,
+      "label": "50r [103]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0103/full/full/0/default.jpg",
+      "file": "0103.jpg",
+      "width": 1986,
+      "height": 3363,
+      "bytes": 974699,
+      "sha256": "9dbb12aeb97dd8c734895b418612e8d2432d3ec16d1f21ac297ed337366c56dc"
+    },
+    {
+      "page": 104,
+      "label": "50v [104]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0104/full/full/0/default.jpg",
+      "file": "0104.jpg",
+      "width": 1970,
+      "height": 3363,
+      "bytes": 1069746,
+      "sha256": "45d1f62e8ee6ae8ee0de7f555a4e9b56ae053f4dfb8b39667c0c768a2836cac2"
+    },
+    {
+      "page": 105,
+      "label": "51r [105]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0105/full/full/0/default.jpg",
+      "file": "0105.jpg",
+      "width": 1986,
+      "height": 3363,
+      "bytes": 1024274,
+      "sha256": "588bbd72f11ea3624dc3752c99051038c265fd64466fb3a93f842c21bdc92a51"
+    },
+    {
+      "page": 106,
+      "label": "51v [106]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0106/full/full/0/default.jpg",
+      "file": "0106.jpg",
+      "width": 1986,
+      "height": 3363,
+      "bytes": 912497,
+      "sha256": "08f62661652aa9a3d716e6ddc3255550929cf8b2873a8d58846db64a3da90365"
+    },
+    {
+      "page": 107,
+      "label": "52r [107]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0107/full/full/0/default.jpg",
+      "file": "0107.jpg",
+      "width": 1986,
+      "height": 3363,
+      "bytes": 913035,
+      "sha256": "1c6d8c6c268fb82d51939658ee2b59e116551ac0a9d67d6171c9fcbd3cfefa9d"
+    },
+    {
+      "page": 108,
+      "label": "52v [108]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0108/full/full/0/default.jpg",
+      "file": "0108.jpg",
+      "width": 1986,
+      "height": 3363,
+      "bytes": 998014,
+      "sha256": "a08c7c61d3d2653c254c37063dfd833b2662619cdc8caa769ce3cef556efb134"
+    },
+    {
+      "page": 109,
+      "label": "53r [109]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0109/full/full/0/default.jpg",
+      "file": "0109.jpg",
+      "width": 1981,
+      "height": 3363,
+      "bytes": 1075826,
+      "sha256": "beb8701cf5fbe4a0bb89095f51d5bd5fbd0869e49cdd7490bf28c193ce322f93"
+    },
+    {
+      "page": 110,
+      "label": "53v [110]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0110/full/full/0/default.jpg",
+      "file": "0110.jpg",
+      "width": 1986,
+      "height": 3363,
+      "bytes": 904792,
+      "sha256": "c7e34913c963bffa8e2da7b56d9e73b5fd010ba097b9e99e9ece16f73aaf57af"
+    },
+    {
+      "page": 111,
+      "label": "54r [111]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0111/full/full/0/default.jpg",
+      "file": "0111.jpg",
+      "width": 1982,
+      "height": 3363,
+      "bytes": 889579,
+      "sha256": "573151ff6fd117f9a009ffb4a855db80193b22fb340c1754be9292e0dc00d2c5"
+    },
+    {
+      "page": 112,
+      "label": "54v [112]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0112/full/full/0/default.jpg",
+      "file": "0112.jpg",
+      "width": 1950,
+      "height": 3363,
+      "bytes": 1121579,
+      "sha256": "eb621bdc54da7f62a058774c9b44ebd2652c15d7c9e567aa326525f0201cc7bf"
+    },
+    {
+      "page": 113,
+      "label": "55r [113]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0113/full/full/0/default.jpg",
+      "file": "0113.jpg",
+      "width": 1958,
+      "height": 3363,
+      "bytes": 1283090,
+      "sha256": "393aaba1980332c7c3217a671e88ee944f799c8f359131220beaa9e5b0255a72"
+    },
+    {
+      "page": 114,
+      "label": "55v [114]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0114/full/full/0/default.jpg",
+      "file": "0114.jpg",
+      "width": 1970,
+      "height": 3363,
+      "bytes": 908474,
+      "sha256": "a5c66d9e232d07235f214bf37e83f5a8c5dcb3f84d477d4808d443b89e39d009"
+    },
+    {
+      "page": 115,
+      "label": "56r [115]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0115/full/full/0/default.jpg",
+      "file": "0115.jpg",
+      "width": 1958,
+      "height": 3363,
+      "bytes": 889313,
+      "sha256": "caccbcc31df31b028afd61f3820342c1dff05106c596b06267df1275d0da2b53"
+    },
+    {
+      "page": 116,
+      "label": "56v [116]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0116/full/full/0/default.jpg",
+      "file": "0116.jpg",
+      "width": 1970,
+      "height": 3363,
+      "bytes": 1278990,
+      "sha256": "ca921c9550c7b02d57de6115cd98291944eed7655c9df71ff6c86ac5c20f707e"
+    },
+    {
+      "page": 117,
+      "label": "57r [117]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0117/full/full/0/default.jpg",
+      "file": "0117.jpg",
+      "width": 1966,
+      "height": 3363,
+      "bytes": 1272578,
+      "sha256": "b668a0035acb0bd66bf612cc963a3b770b7e7b5655b137196fe1759f399ee6d7"
+    },
+    {
+      "page": 118,
+      "label": "57v [118]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0118/full/full/0/default.jpg",
+      "file": "0118.jpg",
+      "width": 1959,
+      "height": 3363,
+      "bytes": 923032,
+      "sha256": "b94ab22e9e54be4dec5c1b29f0e235440cb1d78469c164077bea37c0b375e357"
+    },
+    {
+      "page": 119,
+      "label": "58r [119]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0119/full/full/0/default.jpg",
+      "file": "0119.jpg",
+      "width": 1965,
+      "height": 3363,
+      "bytes": 877614,
+      "sha256": "f4446919c42b4818ccc2b789397353a851eaca807d31312f038d477a6f3d6da6"
+    },
+    {
+      "page": 120,
+      "label": "58v [120]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0120/full/full/0/default.jpg",
+      "file": "0120.jpg",
+      "width": 1959,
+      "height": 3363,
+      "bytes": 1264425,
+      "sha256": "3dda2598976eb70c2bbbe0a63bd51258d9a2ca0d76937cb0d57a546076a31271"
+    },
+    {
+      "page": 121,
+      "label": "59r [121]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0121/full/full/0/default.jpg",
+      "file": "0121.jpg",
+      "width": 1965,
+      "height": 3363,
+      "bytes": 1277075,
+      "sha256": "9f5add27813dc62e41e2bd3ad3a4548048f1018ab88969c58d17393d5f944a9b"
+    },
+    {
+      "page": 122,
+      "label": "59v [122]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0122/full/full/0/default.jpg",
+      "file": "0122.jpg",
+      "width": 1971,
+      "height": 3363,
+      "bytes": 862828,
+      "sha256": "9ee0daca6d86c8dd6febe17b156890ac562ef0d16c31756b79b3f0b14fc07182"
+    },
+    {
+      "page": 123,
+      "label": "60r [123]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0123/full/full/0/default.jpg",
+      "file": "0123.jpg",
+      "width": 1965,
+      "height": 3363,
+      "bytes": 851849,
+      "sha256": "78fa4071856a61e231669872093984ecda54374e088bb21d813f9ca25c9401a7"
+    },
+    {
+      "page": 124,
+      "label": "60v [124]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0124/full/full/0/default.jpg",
+      "file": "0124.jpg",
+      "width": 1971,
+      "height": 3363,
+      "bytes": 1410525,
+      "sha256": "56c949c27560ac4401bef5e1fa6cd90d31c7b9ee94cd03bc42d9d811be397d7a"
+    },
+    {
+      "page": 125,
+      "label": "61r [125]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0125/full/full/0/default.jpg",
+      "file": "0125.jpg",
+      "width": 1965,
+      "height": 3363,
+      "bytes": 1398244,
+      "sha256": "396c5db22ba40c4a7be2252aab440ce0b97ad08bc9c0abf1f5394395182e1a62"
+    },
+    {
+      "page": 126,
+      "label": "61v [126]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0126/full/full/0/default.jpg",
+      "file": "0126.jpg",
+      "width": 1953,
+      "height": 3363,
+      "bytes": 837112,
+      "sha256": "b2868a9dececdf6d7ee5c5a219e036699e7f50adb95a5774038c0fd52bbf8dee"
+    },
+    {
+      "page": 127,
+      "label": "62r [127]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0127/full/full/0/default.jpg",
+      "file": "0127.jpg",
+      "width": 1946,
+      "height": 3363,
+      "bytes": 863153,
+      "sha256": "15386f0d5a91bc2a02a9c42ea67752f47f6d5a30ca17a3de548037f58038cdf2"
+    },
+    {
+      "page": 128,
+      "label": "62v [128]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0128/full/full/0/default.jpg",
+      "file": "0128.jpg",
+      "width": 1935,
+      "height": 3363,
+      "bytes": 1301844,
+      "sha256": "28d209388c00e2751a2f9270c2fd420b074a6297fbd7568b8ddd5ab081512014"
+    },
+    {
+      "page": 129,
+      "label": "63r [129]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0129/full/full/0/default.jpg",
+      "file": "0129.jpg",
+      "width": 1946,
+      "height": 3363,
+      "bytes": 1084658,
+      "sha256": "dfea5daaa0fcb5ebf635a0a04075026553010e6327952325e2d5c40564d42ba7"
+    },
+    {
+      "page": 130,
+      "label": "63v [130]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0130/full/full/0/default.jpg",
+      "file": "0130.jpg",
+      "width": 1935,
+      "height": 3363,
+      "bytes": 853032,
+      "sha256": "b8e1d91c5522d8086a3ef6fe72b094f42fe4210a38a45589ae51f96eaa914110"
+    },
+    {
+      "page": 131,
+      "label": "64r [131]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0131/full/full/0/default.jpg",
+      "file": "0131.jpg",
+      "width": 1946,
+      "height": 3363,
+      "bytes": 860857,
+      "sha256": "bd0fd79dcc568b2de0dab40eafc3babd475e533299d67f32c4a36b7a48d4c5ac"
+    },
+    {
+      "page": 132,
+      "label": "64v [132]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0132/full/full/0/default.jpg",
+      "file": "0132.jpg",
+      "width": 1935,
+      "height": 3363,
+      "bytes": 1157079,
+      "sha256": "dcbaf6f521c7c8ea31c0b7d2b989d91447bdeacd16e56d47cc877f6f2301163b"
+    },
+    {
+      "page": 133,
+      "label": "65r [133]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0133/full/full/0/default.jpg",
+      "file": "0133.jpg",
+      "width": 1961,
+      "height": 3363,
+      "bytes": 1108401,
+      "sha256": "dec76278cf643518d4c997b17188d13067dd8fc8f62439f77f03306b77bc6381"
+    },
+    {
+      "page": 134,
+      "label": "65v [134]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0134/full/full/0/default.jpg",
+      "file": "0134.jpg",
+      "width": 1965,
+      "height": 3363,
+      "bytes": 849594,
+      "sha256": "c24c50b142075e4de5231c539d5fedd6224af419a744956fc6b444c15f394df1"
+    },
+    {
+      "page": 135,
+      "label": "66r [135]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0135/full/full/0/default.jpg",
+      "file": "0135.jpg",
+      "width": 1961,
+      "height": 3363,
+      "bytes": 828343,
+      "sha256": "75aff504be7f51f114621a4d3e0f736c3273994b9252306d33e48565c75aaa6f"
+    },
+    {
+      "page": 136,
+      "label": "66v [136]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0136/full/full/0/default.jpg",
+      "file": "0136.jpg",
+      "width": 1966,
+      "height": 3363,
+      "bytes": 1068355,
+      "sha256": "f34ef3980b81b4cf83236b84460681619784249e4d053e2c3217cfb75fa2b31b"
+    },
+    {
+      "page": 137,
+      "label": "67r [137]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0137/full/full/0/default.jpg",
+      "file": "0137.jpg",
+      "width": 1961,
+      "height": 3363,
+      "bytes": 1130545,
+      "sha256": "808d1968fd0a2d16ecfb79ee3fe9453a80fbab24071d98716521c7a7042e8095"
+    },
+    {
+      "page": 138,
+      "label": "67v [138]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0138/full/full/0/default.jpg",
+      "file": "0138.jpg",
+      "width": 1966,
+      "height": 3363,
+      "bytes": 842116,
+      "sha256": "e6dfbb17862b7c132e5cb6007425b26bb6c739ef93d58f31098e280f5f1dfe12"
+    },
+    {
+      "page": 139,
+      "label": "68r [139]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0139/full/full/0/default.jpg",
+      "file": "0139.jpg",
+      "width": 1950,
+      "height": 3363,
+      "bytes": 862686,
+      "sha256": "8f8c1ccc9f725202876400d21c3574755df2f882828e8d17f17ac4dca50edc16"
+    },
+    {
+      "page": 140,
+      "label": "68v [140]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0140/full/full/0/default.jpg",
+      "file": "0140.jpg",
+      "width": 1941,
+      "height": 3363,
+      "bytes": 995882,
+      "sha256": "96cdc789ac67cde977f92c942ed968bb9d370fee81e7a262e4bfd040c2b525a8"
+    },
+    {
+      "page": 141,
+      "label": "69r [141]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0141/full/full/0/default.jpg",
+      "file": "0141.jpg",
+      "width": 1930,
+      "height": 3363,
+      "bytes": 486325,
+      "sha256": "b56f55236767b24a93ec2b664fc1b38ca9c9b59c7ad795931e2b4ab3b744c24b"
+    },
+    {
+      "page": 142,
+      "label": "69v [142]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0142/full/full/0/default.jpg",
+      "file": "0142.jpg",
+      "width": 1941,
+      "height": 3363,
+      "bytes": 625791,
+      "sha256": "c084db401c069aef0c61940e61f3f2108c92467de0fe3ecc23a826b73afbe126"
+    },
+    {
+      "page": 143,
+      "label": " -  [143]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0143/full/full/0/default.jpg",
+      "file": "0143.jpg",
+      "width": 1962,
+      "height": 3363,
+      "bytes": 718731,
+      "sha256": "da55c8c59a775a7c4e5676a1b4055ff2e0d296ce5969c81570a47d46225c3b1d"
+    },
+    {
+      "page": 144,
+      "label": " -  [144]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0144/full/full/0/default.jpg",
+      "file": "0144.jpg",
+      "width": 2133,
+      "height": 3621,
+      "bytes": 805961,
+      "sha256": "45edd256f5cf2ea21fd6db1e87ca462788db9054c373d7d6c7cf32e9ad481bc4"
+    },
+    {
+      "page": 145,
+      "label": " -  [145]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0145/full/full/0/default.jpg",
+      "file": "0145.jpg",
+      "width": 2065,
+      "height": 3621,
+      "bytes": 792010,
+      "sha256": "98350613afeadf24da4cc79594ae1ec38e59d29df9f02a3389c78f34c5466b74"
+    },
+    {
+      "page": 146,
+      "label": " -  [146]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0146/full/full/0/default.jpg",
+      "file": "0146.jpg",
+      "width": 2178,
+      "height": 3621,
+      "bytes": 934674,
+      "sha256": "b5ba24b3a659ac2dd677ce71924e32e9dacf0441ee965e3cbb8945950c1813ee"
+    },
+    {
+      "page": 147,
+      "label": " -  [147]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0147/full/full/0/default.jpg",
+      "file": "0147.jpg",
+      "width": 477,
+      "height": 2177,
+      "bytes": 159607,
+      "sha256": "7b8bbd8220e2228946c8d9f55499104c32548c8b7ff58dc75d892a31b3ea8754"
+    },
+    {
+      "page": 148,
+      "label": " -  [148]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0148/full/full/0/default.jpg",
+      "file": "0148.jpg",
+      "width": 471,
+      "height": 2177,
+      "bytes": 169132,
+      "sha256": "278aa91a177b5604596e365357e679916de4dcf084c34a6c47df10416ee26874"
+    },
+    {
+      "page": 149,
+      "label": " -  [149]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0149/full/full/0/default.jpg",
+      "file": "0149.jpg",
+      "width": 434,
+      "height": 3549,
+      "bytes": 218389,
+      "sha256": "78c2b770bec1a1c6bc31b4daa30f8ea0cb317fbaef7af614c18fe8492a26a88b"
+    },
+    {
+      "page": 150,
+      "label": " -  [150]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0150/full/full/0/default.jpg",
+      "file": "0150.jpg",
+      "width": 433,
+      "height": 3549,
+      "bytes": 231154,
+      "sha256": "f26c96244e519f7b26431b274a20a51eb5d73e48c13006cc0a50724b26e593f6"
+    },
+    {
+      "page": 151,
+      "label": " -  [151]",
+      "source": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0151/full/full/0/default.jpg",
+      "file": "0151.jpg",
+      "width": 1962,
+      "height": 3363,
+      "bytes": 846703,
+      "sha256": "7513c4b255b0cde01a8029354d1e891a74b1dab8671b297473cfe61302c360b7"
+    }
+  ]
+}

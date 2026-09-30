@@ -899,6 +899,81 @@ function updateLineViewerUI(panel, witness, currentPage, totalPages) {
   refreshAnnotationOverlayVisibility(panel, witness, currentPage);
 }
 
+// Keep Berlin as the primary source. A failed/slow image switches every Y
+// viewer to the verified, same-resolution backup for the rest of this visit.
+let witnessYBackupActive = false;
+try { witnessYBackupActive = sessionStorage.getItem('amores-y-image-backup-v1') === 'true'; } catch (_) {}
+const witnessYBackupListeners = new Set();
+
+function witnessImageOptions(witness) {
+  return witness === 'Y' ? {
+    imageLoaderLimit: 2,
+    tileRetryMax: 0,
+    timeout: 10000
+  } : {};
+}
+
+function witnessBackupSources(canvases, witness) {
+  return witness === 'Y' ? canvases.map((canvas, index) => ({
+    type: 'image',
+    url: `data/facsimiles/Y/${String(index + 1).padStart(4, '0')}.jpg`,
+    buildPyramid: false
+  })) : null;
+}
+
+function activateWitnessYBackup() {
+  witnessYBackupActive = true;
+  try { sessionStorage.setItem('amores-y-image-backup-v1', 'true'); } catch (_) {}
+  for (const switchToBackup of witnessYBackupListeners) switchToBackup();
+}
+
+function attachWitnessImageRecovery(viewer, viewerEl, witness, backupSources) {
+  if (witness !== 'Y') return;
+  let usingBackup = witnessYBackupActive;
+  const notice = document.createElement('div');
+  notice.className = 'witness-image-recovery';
+  notice.hidden = true;
+  notice.setAttribute('role', 'status');
+  const message = document.createElement('span');
+  message.textContent = 'The backup image could not load. ';
+  const retry = document.createElement('button');
+  retry.type = 'button';
+  retry.textContent = 'Retry image';
+  notice.append(message, retry);
+  viewerEl.appendChild(notice);
+
+  const switchToBackup = () => {
+    if (usingBackup) return;
+    usingBackup = true;
+    const page = viewer.currentPage();
+    const bounds = viewer.world.getItemAt(0) ? viewer.viewport.getBounds() : null;
+    if (bounds) viewer.addOnceHandler('open', () => {
+      if (viewer.currentPage() === page) viewer.viewport.fitBounds(bounds, true);
+    });
+    viewer.open(backupSources, page);
+  };
+  witnessYBackupListeners.add(switchToBackup);
+  viewer.addHandler('before-destroy', () => {
+    witnessYBackupListeners.delete(switchToBackup);
+    notice.remove();
+  });
+  const failed = () => {
+    if (!usingBackup) activateWitnessYBackup();
+    else notice.hidden = false;
+  };
+  viewer.addHandler('open-failed', failed);
+  viewer.addHandler('tile-load-failed', event => {
+    // Ignore late events from the remote page after opening its backup.
+    if (event.tiledImage !== viewer.world.getItemAt(0)) return;
+    failed();
+  });
+  viewer.addHandler('page', () => { notice.hidden = true; });
+  retry.addEventListener('click', () => {
+    notice.hidden = true;
+    viewer.open(backupSources, viewer.currentPage());
+  });
+}
+
 // Load manifest for a specific panel
 async function loadManifest(panel, poem, witness) {
   const viewerEl = getPanelElement(panel, '.viewer');
@@ -994,6 +1069,8 @@ async function loadManifest(panel, poem, witness) {
     return;
   }
   
+  const backupSources = witnessBackupSources(canvases, witness);
+
   // Determine initial page
   let initialPage = 0;
   const poemIndex = parseInt(poem.split('.')[1]) - 1;
@@ -1027,12 +1104,14 @@ async function loadManifest(panel, poem, witness) {
     const osdViewer = OpenSeadragon({
       element: viewerEl,
       prefixUrl: 'https://openseadragon.github.io/openseadragon/images/',
-      tileSources: tileSources,
+      tileSources: witness === 'Y' && witnessYBackupActive ? backupSources : tileSources,
       sequenceMode: true,
       initialPage: initialPage,
-      crossOriginPolicy: 'Anonymous'
+      crossOriginPolicy: 'Anonymous',
+      ...witnessImageOptions(witness)
     });
 
+    attachWitnessImageRecovery(osdViewer, viewerEl, witness, backupSources);
     viewerEl.dataset.poem = poem;
     viewerEl.dataset.witness = witness;
     osdViewers.set(panelId, osdViewer);
@@ -1140,6 +1219,8 @@ async function loadManifestForWitness(panel, poem, witness) {
     return;
   }
   
+  const backupSources = witnessBackupSources(canvases, witness);
+
   // Determine initial page
   let initialPage = 0;
   const poemIndex = parseInt(poem.split('.')[1]) - 1;
@@ -1170,14 +1251,16 @@ async function loadManifestForWitness(panel, poem, witness) {
     const osdViewer = OpenSeadragon({
       element: viewerEl,
       prefixUrl: 'https://openseadragon.github.io/openseadragon/images/',
-      tileSources: tileSources,
+      tileSources: witness === 'Y' && witnessYBackupActive ? backupSources : tileSources,
       sequenceMode: true,
       showNavigationControl: false,
       showSequenceControl: false,
       initialPage: initialPage,
-      crossOriginPolicy: 'Anonymous'
+      crossOriginPolicy: 'Anonymous',
+      ...witnessImageOptions(witness)
     });
     
+    attachWitnessImageRecovery(osdViewer, viewerEl, witness, backupSources);
     viewerEl.dataset.poem = poem;
     osdViewers.set(viewerId, osdViewer);
 

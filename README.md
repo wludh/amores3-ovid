@@ -148,3 +148,34 @@ See [the encoding workflow](docs/encoding-workflow.md), [the independent review 
    ```
 
 Repeat these steps whenever you want to update your project on GitHub. 
+
+## Witness Y image availability
+
+Berlin remains the primary image provider. If a Y tile fails or takes more than
+10 seconds, both viewer modes switch to the full-resolution copies in
+`docs/data/facsimiles/Y/`. The current page and zoom are retained. The choice
+persists in session storage for the rest of that tab's visit, including reloads;
+a new independent visit tries Berlin again. No backup images are prefetched on
+a healthy visit. Page navigation downloads only the requested backup image.
+
+These are unmodified library JPEGs of **Ms. Ham. 471**, provided by
+**Staatsbibliothek zu Berlin – Preußischer Kulturbesitz**. The library manifest
+marks the work **Public Domain Mark 1.0**. Preserve the source credit, public-domain
+notice, and provenance when copying the backup:
+
+- [Library record](https://resolver.staatsbibliothek-berlin.de/SBB00034ABB00000000)
+- [Source manifest](https://content.staatsbibliothek-berlin.de/dc/1844735508/manifest)
+- [Public Domain Mark](https://creativecommons.org/publicdomain/mark/1.0/)
+- `docs/data/facsimiles/Y/index.json`: source URL, original dimensions, byte count,
+  and SHA-256 for every page, in the original 151-canvas order.
+
+Run `python3 scripts/cache-witness-y.py` (requires Pillow) to resume or recreate
+the mirror. It downloads sequentially, pauses between requests, backs off on
+failures, and checks JPEG integrity and dimensions before publishing each file.
+It writes the complete index only after all pages have passed verification.
+Run `npm test` before publishing; it verifies complete backup coverage and hashes
+as well as fallback behavior. An incomplete backup must not be deployed.
+
+This removes Berlin as a dependency after failover, but the site's own hosting
+limits still apply. The backup consumes storage even when unused; its bandwidth
+is consumed only when fallback images are requested.

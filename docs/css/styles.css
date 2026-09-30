@@ -1962,3 +1962,19 @@ body > header nav svg {
   outline: 2px solid #fff;
   outline-offset: -2px;
 }
+
+/* Keep a failed upstream image recoverable without covering the manuscript. */
+.witness-image-recovery {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  right: 8px;
+  z-index: 10;
+  padding: 8px;
+  background: var(--panel-bg, white);
+  color: var(--text-main, #222);
+  border: 1px solid var(--panel-border);
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+.witness-image-recovery[hidden] { display: none; }
