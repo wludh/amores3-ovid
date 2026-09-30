@@ -739,7 +739,7 @@ function createCompanionPanelBody() {
     </select>
     <div class="companion-controls">
       <label><input type="checkbox" data-extra="commentary" checked> Commentary</label>
-      <label hidden><input type="checkbox" data-extra="text-commentary" disabled> Manuscript Commentary</label>
+      <label hidden style="display: none"><input type="checkbox" data-extra="text-commentary" disabled> Manuscript Commentary</label>
       <label><input type="checkbox" data-extra="vocab"> Vocabulary</label>
     </div>
     <div class="extra-content">
