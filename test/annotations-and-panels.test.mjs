@@ -172,8 +172,8 @@ test('companion uses the manuscript commentary label without changing its data k
 
   assert.doesNotMatch(html, /> Text Commentary<\/label>/);
   assert.doesNotMatch(source, /> Text Commentary<\/label>/);
-  assert.match(html, /data-extra="text-commentary"> Manuscript Commentary/);
-  assert.match(source, /data-extra="text-commentary"> Manuscript Commentary/);
+  assert.match(html, /<label hidden><input[^>]*data-extra="text-commentary" disabled> Manuscript Commentary<\/label>/);
+  assert.match(source, /<label hidden><input[^>]*data-extra="text-commentary" disabled> Manuscript Commentary<\/label>/);
 });
 
 test('missing transcriptions offer actionable witness fallbacks', async () => {

@@ -1042,6 +1042,11 @@ label[for="witness-select"] {
   margin-right: 0;
 }
 
+#companion-controls label[hidden],
+.companion-controls label[hidden] {
+  display: none;
+}
+
 /* Styles for color-coding companion data and controls */
 .commentary-color { color: #005A9C; }
 .text-commentary-color { color: #4E6E58; }

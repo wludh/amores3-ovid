@@ -544,7 +544,7 @@ function restorePanelState(panel) {
     }
     state.companionExtras.forEach(extra => {
       const checkbox = getPanelElement(panel, `.companion-controls input[data-extra="${extra}"]`);
-      if (checkbox) checkbox.checked = true;
+      if (checkbox && !checkbox.disabled) checkbox.checked = true;
     });
     updateCompanionPanel(panel);
   }
@@ -739,7 +739,7 @@ function createCompanionPanelBody() {
     </select>
     <div class="companion-controls">
       <label><input type="checkbox" data-extra="commentary" checked> Commentary</label>
-      <label><input type="checkbox" data-extra="text-commentary"> Manuscript Commentary</label>
+      <label hidden><input type="checkbox" data-extra="text-commentary" disabled> Manuscript Commentary</label>
       <label><input type="checkbox" data-extra="vocab"> Vocabulary</label>
     </div>
     <div class="extra-content">
@@ -2007,7 +2007,7 @@ async function updateCompanionPanel(panel) {
   
   const companionCheckboxes = getPanelElements(panel, '.companion-controls input');
   const selectedExtras = Array.from(companionCheckboxes)
-                              .filter(cb => cb.checked)
+                              .filter(cb => cb.checked && !cb.disabled)
                               .map(cb => cb.dataset.extra);
   
   if (selectedExtras.length === 0) {
