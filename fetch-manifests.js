@@ -4,6 +4,7 @@ const path = require('path');
 
 // --- Configuration ---
 const manifests = {
+  'witness-W': 'https://digitalarchive.wlu.edu/node/72383/manifest',
   'witness-O': 'https://iiif.archive.org/iiif/operaovid03oviduoft/manifest.json',
   'witness-P': 'https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/manifest.json',
   'witness-Y': 'https://content.staatsbibliothek-berlin.de/dc/1844735508/manifest',
@@ -59,4 +60,4 @@ async function fetchAndSaveManifests() {
 }
 
 // --- Execute Script ---
-fetchAndSaveManifests(); 
+fetchAndSaveManifests();

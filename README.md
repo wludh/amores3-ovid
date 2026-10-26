@@ -82,6 +82,45 @@ XML is a markup language that uses tags to describe data. It looks similar to HT
 
 ## Updating IIIF Manifests
 
+
+### W — Wetstein 1751 (W&L)
+
+W is the 1751 Amsterdam printed edition published by J. Wetstein, held by
+Washington and Lee University Special Collections (PA6519 .A2 1751),
+[volume 1](https://digitalarchive.wlu.edu/islandora/p-ovidii-nasonis-operum-tomus-primus-volume-1).
+It is available in both image viewers with 870 source-reviewed line regions
+covering all 15 poems of Book III. W is an image witness only; clicking a verse
+in an existing transcription navigates to its corresponding W image.
+A W transcription would require the separate two-pass TEI workflow.
+
+The [native manifest](https://digitalarchive.wlu.edu/node/72383/manifest) has
+296 images. Book III spans viewer images **172–192**, printed pages **128–148**.
+The archive calls these “Page 164” through “Page 184”; those labels are not the
+printed pagination. The supplied `ovid-output.csv` confirms all 296 Volume 1
+node IDs, identifiers, labels and manifest positions; the extracted index and
+its source checksum are in `scripts/sources/witness-W-node-index.json`.
+
+Keep the archive's nested, percent-encoded Cantaloupe service IDs intact.
+Both viewers fetch W's native `info.json` (512-pixel tiles and the advertised
+scale factors), rather than assuming another library's tile configuration.
+The manifest is cached locally; the library serves the images directly with
+CORS enabled. No image proxy is required in the tested configuration.
+
+The source hOCR is alignment evidence, **not** a checked transcription. It
+misclassifies whole verses, splits some rows, and misses several enlarged
+initials and words. Source-reading review corrected these before integration.
+Evidence, exact corrections and review bindings live in `scripts/output/W-*`.
+Run `python3 scripts/annotate-w.py` to rebuild the sealed annotation fragment;
+this does not alter the published array. Existing P/Y/S/O annotations must
+remain unchanged when incorporating W. `npm test` checks coverage, preservation,
+page mappings, dimensions and the source-review hashes.
+
+A single rectangular highlight can overlap adjacent type where an enlarged
+initial extends downwards or the compositor displaces a word. In particular,
+3.9.65's final `(est.` is printed above its main row. The review documents this
+source-layout limitation. W is outside the existing 75-slot TEI corpus audit.
+
+
 Witness **O** is the Teubner 1888 printed edition edited by R. Ehwald from
 R. Merkel's recension, available in the [supplied Internet Archive scan](https://archive.org/details/operaovid03oviduoft/page/44/mode/2up).
 The scanned title page says *Tom. I, Amores*; the archive's volume-3 catalog

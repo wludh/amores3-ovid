@@ -1,6 +1,6 @@
 console.log('script.js loaded – Split is', typeof Split);
 
-const FACSIMILE_WITNESSES = ['P', 'Y', 'S', 'O'];
+const FACSIMILE_WITNESSES = ['P', 'Y', 'S', 'O', 'W'];
 const DEFAULT_LINE_WITNESSES = ['P', 'Y', 'S'];
 
 function getSelectedLineWitnesses(panel) {
@@ -596,6 +596,7 @@ function createViewerPanelBody() {
       <button data-witness="Y">Witness Y</button>
       <button data-witness="S">Witness S</button>
       <button data-witness="O" title="O — Teubner 1888 (printed edition)">Witness O</button>
+      <button data-witness="W" title="W — Wetstein 1751 (printed edition, W&L)">Witness W</button>
     </div>
     <div class="single-viewer-wrapper">
       <div class="viewer"></div>
@@ -675,7 +676,7 @@ function createLineViewerPanelBody() {
 
     <fieldset class="manuscript-checkboxes">
       <legend>Witnesses</legend>
-      ${FACSIMILE_WITNESSES.map(witness => `<label title="${witness === 'O' ? 'O — Teubner 1888 (printed edition)' : `Manuscript ${witness}`}"><input class="manuscript-checkbox" type="checkbox" value="${witness}"${DEFAULT_LINE_WITNESSES.includes(witness) ? ' checked' : ''}> ${witness}</label>`).join('')}
+      ${FACSIMILE_WITNESSES.map(witness => `<label title="${witnessSources[witness]?.label || `Manuscript ${witness}`}"><input class="manuscript-checkbox" type="checkbox" value="${witness}"${DEFAULT_LINE_WITNESSES.includes(witness) ? ' checked' : ''}> ${witness}</label>`).join('')}
     </fieldset>
     <p class="witness-selection-empty" hidden>Select a witness to view its pages.</p>
 
@@ -694,6 +695,7 @@ function createLineViewerPanelBody() {
               <option value="Y">Y</option>
               <option value="S">S</option>
               <option value="O">O</option>
+              <option value="W">W</option>
             </select>
           </label>
           <button class="toggle-annotation" type="button">Start annotation</button>
@@ -1044,7 +1046,7 @@ async function loadManifest(panel, poem, witness) {
     const services = canvas.images?.[0]?.resource?.service || canvas.image?.service || canvas.items?.[0]?.items?.[0]?.body?.service;
     const service = Array.isArray(services) ? services[0] : services;
     const imageService = service?.['@id'] || service?.id;
-    if (imageService && (service.type === 'ImageService3' || imageService.includes('/image/iiif/3/'))) {
+    if (imageService && (witness === 'W' || service.type === 'ImageService3' || imageService.includes('/image/iiif/3/'))) {
       return `${imageService}/info.json`;
     }
     if (imageService && canvas.height && canvas.width) {
@@ -1116,18 +1118,27 @@ async function loadManifest(panel, poem, witness) {
     viewerEl.dataset.witness = witness;
     osdViewers.set(panelId, osdViewer);
     attachFocusedAnnotationViewportHandlers(panel, witness, osdViewer);
-    
+
+    let initialImageOpen = true;
     osdViewer.addHandler('open', () => {
+      const followSelectedLine = initialImageOpen;
+      initialImageOpen = false;
       updateSingleViewerPageButtons(panel);
       updateSingleViewerUI(panel, osdViewer.currentPage(), osdViewer.tileSources.length);
 
       if (annotationState.selectedPoem === poem && annotationState.selectedLineId) {
         const annotation = getAnnotationForViewer(panel, annotationState.selectedLineId, witness, poem);
-        if (annotation) zoomViewerToAnnotation(panel, witness, annotation);
+        // Follow the selection on first load or a verse click, while allowing
+        // manual page navigation to leave that verse behind.
+        if (annotation && (followSelectedLine || annotation.page - 1 === osdViewer.currentPage())) {
+          zoomViewerToAnnotation(panel, witness, annotation);
+        }
       }
     });
     
     osdViewer.addHandler('page', (event) => {
+      const overlay = getAnnotationOverlay(panel, witness);
+      if (overlay) clearCurrentAnnotationMarkers(overlay);
       updateSingleViewerUI(panel, event.page, osdViewer.tileSources.length);
       updateSingleViewerPageButtons(panel);
       refreshAnnotationOverlayVisibility(panel, witness, event.page);
@@ -1194,7 +1205,7 @@ async function loadManifestForWitness(panel, poem, witness) {
     const services = canvas.images?.[0]?.resource?.service || canvas.image?.service || canvas.items?.[0]?.items?.[0]?.body?.service;
     const service = Array.isArray(services) ? services[0] : services;
     const imageService = service?.['@id'] || service?.id;
-    if (imageService && (service.type === 'ImageService3' || imageService.includes('/image/iiif/3/'))) {
+    if (imageService && (witness === 'W' || service.type === 'ImageService3' || imageService.includes('/image/iiif/3/'))) {
       return `${imageService}/info.json`;
     }
     if (imageService && canvas.height && canvas.width) {

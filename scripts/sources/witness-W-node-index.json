@@ -1,0 +1,2080 @@
+{
+  "source_file": "ovid-output.csv",
+  "sha256": "3ddf7b54338fb4a757494478dbf986a166fd37d7c16b01f67495a4ca7a358fcc",
+  "volume_node": "72383",
+  "verified_page_count": 296,
+  "pages": [
+    {
+      "node_id": 72384,
+      "manifest_index": 0,
+      "viewer_page": 1,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Front Cover",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_001"
+    },
+    {
+      "node_id": 72385,
+      "manifest_index": 1,
+      "viewer_page": 2,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Inside Front Cover",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_002"
+    },
+    {
+      "node_id": 72386,
+      "manifest_index": 2,
+      "viewer_page": 3,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Blank Page (1)",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_003"
+    },
+    {
+      "node_id": 72387,
+      "manifest_index": 3,
+      "viewer_page": 4,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Blank Page (2)",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_004"
+    },
+    {
+      "node_id": 72388,
+      "manifest_index": 4,
+      "viewer_page": 5,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Title Page",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_005"
+    },
+    {
+      "node_id": 72389,
+      "manifest_index": 5,
+      "viewer_page": 6,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Table of Contents",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_006"
+    },
+    {
+      "node_id": 72390,
+      "manifest_index": 6,
+      "viewer_page": 7,
+      "archive_label": "P. Ovidii Nasonis Operum, v1,Frontispiece",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_007"
+    },
+    {
+      "node_id": 72391,
+      "manifest_index": 7,
+      "viewer_page": 8,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Catalogus Auctorum",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_008"
+    },
+    {
+      "node_id": 72392,
+      "manifest_index": 8,
+      "viewer_page": 9,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 1",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_009"
+    },
+    {
+      "node_id": 72393,
+      "manifest_index": 9,
+      "viewer_page": 10,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 2",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_010"
+    },
+    {
+      "node_id": 72394,
+      "manifest_index": 10,
+      "viewer_page": 11,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 3",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_011"
+    },
+    {
+      "node_id": 72395,
+      "manifest_index": 11,
+      "viewer_page": 12,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 4",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_012"
+    },
+    {
+      "node_id": 72396,
+      "manifest_index": 12,
+      "viewer_page": 13,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 5",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_013"
+    },
+    {
+      "node_id": 72397,
+      "manifest_index": 13,
+      "viewer_page": 14,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 6",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_014"
+    },
+    {
+      "node_id": 72398,
+      "manifest_index": 14,
+      "viewer_page": 15,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 7",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_015"
+    },
+    {
+      "node_id": 72399,
+      "manifest_index": 15,
+      "viewer_page": 16,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 8",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_016"
+    },
+    {
+      "node_id": 72400,
+      "manifest_index": 16,
+      "viewer_page": 17,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 9",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_017"
+    },
+    {
+      "node_id": 72401,
+      "manifest_index": 17,
+      "viewer_page": 18,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 10",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_018"
+    },
+    {
+      "node_id": 72402,
+      "manifest_index": 18,
+      "viewer_page": 19,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 11",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_019"
+    },
+    {
+      "node_id": 72403,
+      "manifest_index": 19,
+      "viewer_page": 20,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 12",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_020"
+    },
+    {
+      "node_id": 72404,
+      "manifest_index": 20,
+      "viewer_page": 21,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 13",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_021"
+    },
+    {
+      "node_id": 72405,
+      "manifest_index": 21,
+      "viewer_page": 22,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 14",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_022"
+    },
+    {
+      "node_id": 72406,
+      "manifest_index": 22,
+      "viewer_page": 23,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 15",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_023"
+    },
+    {
+      "node_id": 72407,
+      "manifest_index": 23,
+      "viewer_page": 24,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 16",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_024"
+    },
+    {
+      "node_id": 72408,
+      "manifest_index": 24,
+      "viewer_page": 25,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 17",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_025"
+    },
+    {
+      "node_id": 72409,
+      "manifest_index": 25,
+      "viewer_page": 26,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 18",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_026"
+    },
+    {
+      "node_id": 72410,
+      "manifest_index": 26,
+      "viewer_page": 27,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 19",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_027"
+    },
+    {
+      "node_id": 72411,
+      "manifest_index": 27,
+      "viewer_page": 28,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 20",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_028"
+    },
+    {
+      "node_id": 72412,
+      "manifest_index": 28,
+      "viewer_page": 29,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 21",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_029"
+    },
+    {
+      "node_id": 72413,
+      "manifest_index": 29,
+      "viewer_page": 30,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 22",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_030"
+    },
+    {
+      "node_id": 72414,
+      "manifest_index": 30,
+      "viewer_page": 31,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 23",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_031"
+    },
+    {
+      "node_id": 72415,
+      "manifest_index": 31,
+      "viewer_page": 32,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 24",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_032"
+    },
+    {
+      "node_id": 72416,
+      "manifest_index": 32,
+      "viewer_page": 33,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 25",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_033"
+    },
+    {
+      "node_id": 72417,
+      "manifest_index": 33,
+      "viewer_page": 34,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 26",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_034"
+    },
+    {
+      "node_id": 72418,
+      "manifest_index": 34,
+      "viewer_page": 35,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 27",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_035"
+    },
+    {
+      "node_id": 72419,
+      "manifest_index": 35,
+      "viewer_page": 36,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 28",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_036"
+    },
+    {
+      "node_id": 72420,
+      "manifest_index": 36,
+      "viewer_page": 37,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 29",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_037"
+    },
+    {
+      "node_id": 72421,
+      "manifest_index": 37,
+      "viewer_page": 38,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 30",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_038"
+    },
+    {
+      "node_id": 72422,
+      "manifest_index": 38,
+      "viewer_page": 39,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 31",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_039"
+    },
+    {
+      "node_id": 72423,
+      "manifest_index": 39,
+      "viewer_page": 40,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 32",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_040"
+    },
+    {
+      "node_id": 72424,
+      "manifest_index": 40,
+      "viewer_page": 41,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 33",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_041"
+    },
+    {
+      "node_id": 72425,
+      "manifest_index": 41,
+      "viewer_page": 42,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 34",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_042"
+    },
+    {
+      "node_id": 72426,
+      "manifest_index": 42,
+      "viewer_page": 43,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 35",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_043"
+    },
+    {
+      "node_id": 72427,
+      "manifest_index": 43,
+      "viewer_page": 44,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 36",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_044"
+    },
+    {
+      "node_id": 72428,
+      "manifest_index": 44,
+      "viewer_page": 45,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 37",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_045"
+    },
+    {
+      "node_id": 72429,
+      "manifest_index": 45,
+      "viewer_page": 46,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 38",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_046"
+    },
+    {
+      "node_id": 72430,
+      "manifest_index": 46,
+      "viewer_page": 47,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 39",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_047"
+    },
+    {
+      "node_id": 72431,
+      "manifest_index": 47,
+      "viewer_page": 48,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 40",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_048"
+    },
+    {
+      "node_id": 72432,
+      "manifest_index": 48,
+      "viewer_page": 49,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 41",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_049"
+    },
+    {
+      "node_id": 72433,
+      "manifest_index": 49,
+      "viewer_page": 50,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 42",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_050"
+    },
+    {
+      "node_id": 72434,
+      "manifest_index": 50,
+      "viewer_page": 51,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 43",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_051"
+    },
+    {
+      "node_id": 72435,
+      "manifest_index": 51,
+      "viewer_page": 52,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 44",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_052"
+    },
+    {
+      "node_id": 72436,
+      "manifest_index": 52,
+      "viewer_page": 53,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 45",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_053"
+    },
+    {
+      "node_id": 72437,
+      "manifest_index": 53,
+      "viewer_page": 54,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 46",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_054"
+    },
+    {
+      "node_id": 72438,
+      "manifest_index": 54,
+      "viewer_page": 55,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 47",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_055"
+    },
+    {
+      "node_id": 72439,
+      "manifest_index": 55,
+      "viewer_page": 56,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 48",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_056"
+    },
+    {
+      "node_id": 72440,
+      "manifest_index": 56,
+      "viewer_page": 57,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 49",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_057"
+    },
+    {
+      "node_id": 72441,
+      "manifest_index": 57,
+      "viewer_page": 58,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 50",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_058"
+    },
+    {
+      "node_id": 72442,
+      "manifest_index": 58,
+      "viewer_page": 59,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 51",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_059"
+    },
+    {
+      "node_id": 72443,
+      "manifest_index": 59,
+      "viewer_page": 60,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 52",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_060"
+    },
+    {
+      "node_id": 72444,
+      "manifest_index": 60,
+      "viewer_page": 61,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 53",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_061"
+    },
+    {
+      "node_id": 72445,
+      "manifest_index": 61,
+      "viewer_page": 62,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 54",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_062"
+    },
+    {
+      "node_id": 72446,
+      "manifest_index": 62,
+      "viewer_page": 63,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 55",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_063"
+    },
+    {
+      "node_id": 72447,
+      "manifest_index": 63,
+      "viewer_page": 64,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 56",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_064"
+    },
+    {
+      "node_id": 72448,
+      "manifest_index": 64,
+      "viewer_page": 65,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 57",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_065"
+    },
+    {
+      "node_id": 72449,
+      "manifest_index": 65,
+      "viewer_page": 66,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 58",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_066"
+    },
+    {
+      "node_id": 72450,
+      "manifest_index": 66,
+      "viewer_page": 67,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 59",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_067"
+    },
+    {
+      "node_id": 72451,
+      "manifest_index": 67,
+      "viewer_page": 68,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 60",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_068"
+    },
+    {
+      "node_id": 72452,
+      "manifest_index": 68,
+      "viewer_page": 69,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 61",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_069"
+    },
+    {
+      "node_id": 72453,
+      "manifest_index": 69,
+      "viewer_page": 70,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 62",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_070"
+    },
+    {
+      "node_id": 72454,
+      "manifest_index": 70,
+      "viewer_page": 71,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 63",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_071"
+    },
+    {
+      "node_id": 72455,
+      "manifest_index": 71,
+      "viewer_page": 72,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 64",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_072"
+    },
+    {
+      "node_id": 72456,
+      "manifest_index": 72,
+      "viewer_page": 73,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 65",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_073"
+    },
+    {
+      "node_id": 72457,
+      "manifest_index": 73,
+      "viewer_page": 74,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 66",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_074"
+    },
+    {
+      "node_id": 72458,
+      "manifest_index": 74,
+      "viewer_page": 75,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 67",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_075"
+    },
+    {
+      "node_id": 72459,
+      "manifest_index": 75,
+      "viewer_page": 76,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 68",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_076"
+    },
+    {
+      "node_id": 72460,
+      "manifest_index": 76,
+      "viewer_page": 77,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 69",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_077"
+    },
+    {
+      "node_id": 72461,
+      "manifest_index": 77,
+      "viewer_page": 78,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 70",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_078"
+    },
+    {
+      "node_id": 72462,
+      "manifest_index": 78,
+      "viewer_page": 79,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 71",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_079"
+    },
+    {
+      "node_id": 72463,
+      "manifest_index": 79,
+      "viewer_page": 80,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 72",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_080"
+    },
+    {
+      "node_id": 72464,
+      "manifest_index": 80,
+      "viewer_page": 81,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 73",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_081"
+    },
+    {
+      "node_id": 72465,
+      "manifest_index": 81,
+      "viewer_page": 82,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 74",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_082"
+    },
+    {
+      "node_id": 72466,
+      "manifest_index": 82,
+      "viewer_page": 83,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 75",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_083"
+    },
+    {
+      "node_id": 72467,
+      "manifest_index": 83,
+      "viewer_page": 84,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 76",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_084"
+    },
+    {
+      "node_id": 72468,
+      "manifest_index": 84,
+      "viewer_page": 85,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 77",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_085"
+    },
+    {
+      "node_id": 72469,
+      "manifest_index": 85,
+      "viewer_page": 86,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 78",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_086"
+    },
+    {
+      "node_id": 72470,
+      "manifest_index": 86,
+      "viewer_page": 87,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 79",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_087"
+    },
+    {
+      "node_id": 72471,
+      "manifest_index": 87,
+      "viewer_page": 88,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 80",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_088"
+    },
+    {
+      "node_id": 72472,
+      "manifest_index": 88,
+      "viewer_page": 89,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 81",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_089"
+    },
+    {
+      "node_id": 72473,
+      "manifest_index": 89,
+      "viewer_page": 90,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 82",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_090"
+    },
+    {
+      "node_id": 72474,
+      "manifest_index": 90,
+      "viewer_page": 91,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 83",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_091"
+    },
+    {
+      "node_id": 72475,
+      "manifest_index": 91,
+      "viewer_page": 92,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 84",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_092"
+    },
+    {
+      "node_id": 72476,
+      "manifest_index": 92,
+      "viewer_page": 93,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 85",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_093"
+    },
+    {
+      "node_id": 72477,
+      "manifest_index": 93,
+      "viewer_page": 94,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 86",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_094"
+    },
+    {
+      "node_id": 72478,
+      "manifest_index": 94,
+      "viewer_page": 95,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 87",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_095"
+    },
+    {
+      "node_id": 72479,
+      "manifest_index": 95,
+      "viewer_page": 96,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 88",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_096"
+    },
+    {
+      "node_id": 72480,
+      "manifest_index": 96,
+      "viewer_page": 97,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 89",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_097"
+    },
+    {
+      "node_id": 72481,
+      "manifest_index": 97,
+      "viewer_page": 98,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 90",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_098"
+    },
+    {
+      "node_id": 72482,
+      "manifest_index": 98,
+      "viewer_page": 99,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 91",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_099"
+    },
+    {
+      "node_id": 72483,
+      "manifest_index": 99,
+      "viewer_page": 100,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 92",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_100"
+    },
+    {
+      "node_id": 72484,
+      "manifest_index": 100,
+      "viewer_page": 101,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 93",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_101"
+    },
+    {
+      "node_id": 72485,
+      "manifest_index": 101,
+      "viewer_page": 102,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 94",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_102"
+    },
+    {
+      "node_id": 72486,
+      "manifest_index": 102,
+      "viewer_page": 103,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 95",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_103"
+    },
+    {
+      "node_id": 72487,
+      "manifest_index": 103,
+      "viewer_page": 104,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 96",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_104"
+    },
+    {
+      "node_id": 72488,
+      "manifest_index": 104,
+      "viewer_page": 105,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 97",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_105"
+    },
+    {
+      "node_id": 72489,
+      "manifest_index": 105,
+      "viewer_page": 106,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 98",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_106"
+    },
+    {
+      "node_id": 72490,
+      "manifest_index": 106,
+      "viewer_page": 107,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 99",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_107"
+    },
+    {
+      "node_id": 72491,
+      "manifest_index": 107,
+      "viewer_page": 108,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 100",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_108"
+    },
+    {
+      "node_id": 72492,
+      "manifest_index": 108,
+      "viewer_page": 109,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 101",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_109"
+    },
+    {
+      "node_id": 72493,
+      "manifest_index": 109,
+      "viewer_page": 110,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 102",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_110"
+    },
+    {
+      "node_id": 72494,
+      "manifest_index": 110,
+      "viewer_page": 111,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 103",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_111"
+    },
+    {
+      "node_id": 72495,
+      "manifest_index": 111,
+      "viewer_page": 112,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 104",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_112"
+    },
+    {
+      "node_id": 72496,
+      "manifest_index": 112,
+      "viewer_page": 113,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 105",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_113"
+    },
+    {
+      "node_id": 72497,
+      "manifest_index": 113,
+      "viewer_page": 114,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 106",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_114"
+    },
+    {
+      "node_id": 72498,
+      "manifest_index": 114,
+      "viewer_page": 115,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 107",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_115"
+    },
+    {
+      "node_id": 72499,
+      "manifest_index": 115,
+      "viewer_page": 116,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 108",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_116"
+    },
+    {
+      "node_id": 72500,
+      "manifest_index": 116,
+      "viewer_page": 117,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 109",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_117"
+    },
+    {
+      "node_id": 72501,
+      "manifest_index": 117,
+      "viewer_page": 118,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 110",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_118"
+    },
+    {
+      "node_id": 72502,
+      "manifest_index": 118,
+      "viewer_page": 119,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 111",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_119"
+    },
+    {
+      "node_id": 72503,
+      "manifest_index": 119,
+      "viewer_page": 120,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 112",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_120"
+    },
+    {
+      "node_id": 72504,
+      "manifest_index": 120,
+      "viewer_page": 121,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 113",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_121"
+    },
+    {
+      "node_id": 72505,
+      "manifest_index": 121,
+      "viewer_page": 122,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 114",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_122"
+    },
+    {
+      "node_id": 72506,
+      "manifest_index": 122,
+      "viewer_page": 123,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 115",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_123"
+    },
+    {
+      "node_id": 72507,
+      "manifest_index": 123,
+      "viewer_page": 124,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 116",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_124"
+    },
+    {
+      "node_id": 72508,
+      "manifest_index": 124,
+      "viewer_page": 125,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 117",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_125"
+    },
+    {
+      "node_id": 72509,
+      "manifest_index": 125,
+      "viewer_page": 126,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 118",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_126"
+    },
+    {
+      "node_id": 72510,
+      "manifest_index": 126,
+      "viewer_page": 127,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 119",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_127"
+    },
+    {
+      "node_id": 72511,
+      "manifest_index": 127,
+      "viewer_page": 128,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 120",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_128"
+    },
+    {
+      "node_id": 72512,
+      "manifest_index": 128,
+      "viewer_page": 129,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 121",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_129"
+    },
+    {
+      "node_id": 72513,
+      "manifest_index": 129,
+      "viewer_page": 130,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 122",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_130"
+    },
+    {
+      "node_id": 72514,
+      "manifest_index": 130,
+      "viewer_page": 131,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 123",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_131"
+    },
+    {
+      "node_id": 72515,
+      "manifest_index": 131,
+      "viewer_page": 132,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 124",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_132"
+    },
+    {
+      "node_id": 72516,
+      "manifest_index": 132,
+      "viewer_page": 133,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 125",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_133"
+    },
+    {
+      "node_id": 72517,
+      "manifest_index": 133,
+      "viewer_page": 134,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 126",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_134"
+    },
+    {
+      "node_id": 72518,
+      "manifest_index": 134,
+      "viewer_page": 135,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 127",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_135"
+    },
+    {
+      "node_id": 72519,
+      "manifest_index": 135,
+      "viewer_page": 136,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 128",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_136"
+    },
+    {
+      "node_id": 72520,
+      "manifest_index": 136,
+      "viewer_page": 137,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 129",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_137"
+    },
+    {
+      "node_id": 72521,
+      "manifest_index": 137,
+      "viewer_page": 138,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 130",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_138"
+    },
+    {
+      "node_id": 72522,
+      "manifest_index": 138,
+      "viewer_page": 139,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 131",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_139"
+    },
+    {
+      "node_id": 72523,
+      "manifest_index": 139,
+      "viewer_page": 140,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 132",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_140"
+    },
+    {
+      "node_id": 72524,
+      "manifest_index": 140,
+      "viewer_page": 141,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 133",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_141"
+    },
+    {
+      "node_id": 72525,
+      "manifest_index": 141,
+      "viewer_page": 142,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 134",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_142"
+    },
+    {
+      "node_id": 72526,
+      "manifest_index": 142,
+      "viewer_page": 143,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 135",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_143"
+    },
+    {
+      "node_id": 72527,
+      "manifest_index": 143,
+      "viewer_page": 144,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 136",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_144"
+    },
+    {
+      "node_id": 72528,
+      "manifest_index": 144,
+      "viewer_page": 145,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 137",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_145"
+    },
+    {
+      "node_id": 72529,
+      "manifest_index": 145,
+      "viewer_page": 146,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 138",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_146"
+    },
+    {
+      "node_id": 72530,
+      "manifest_index": 146,
+      "viewer_page": 147,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 139",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_147"
+    },
+    {
+      "node_id": 72531,
+      "manifest_index": 147,
+      "viewer_page": 148,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 140",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_148"
+    },
+    {
+      "node_id": 72532,
+      "manifest_index": 148,
+      "viewer_page": 149,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 141",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_149"
+    },
+    {
+      "node_id": 72533,
+      "manifest_index": 149,
+      "viewer_page": 150,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 142",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_150"
+    },
+    {
+      "node_id": 72534,
+      "manifest_index": 150,
+      "viewer_page": 151,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 143",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_151"
+    },
+    {
+      "node_id": 72535,
+      "manifest_index": 151,
+      "viewer_page": 152,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 144",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_152"
+    },
+    {
+      "node_id": 72536,
+      "manifest_index": 152,
+      "viewer_page": 153,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 145",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_153"
+    },
+    {
+      "node_id": 72537,
+      "manifest_index": 153,
+      "viewer_page": 154,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 146",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_154"
+    },
+    {
+      "node_id": 72538,
+      "manifest_index": 154,
+      "viewer_page": 155,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 147",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_155"
+    },
+    {
+      "node_id": 72539,
+      "manifest_index": 155,
+      "viewer_page": 156,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 148",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_156"
+    },
+    {
+      "node_id": 72540,
+      "manifest_index": 156,
+      "viewer_page": 157,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 149",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_157"
+    },
+    {
+      "node_id": 72541,
+      "manifest_index": 157,
+      "viewer_page": 158,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 150",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_158"
+    },
+    {
+      "node_id": 72542,
+      "manifest_index": 158,
+      "viewer_page": 159,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 151",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_159"
+    },
+    {
+      "node_id": 72543,
+      "manifest_index": 159,
+      "viewer_page": 160,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 152",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_160"
+    },
+    {
+      "node_id": 72544,
+      "manifest_index": 160,
+      "viewer_page": 161,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 153",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_161"
+    },
+    {
+      "node_id": 72545,
+      "manifest_index": 161,
+      "viewer_page": 162,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 154",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_162"
+    },
+    {
+      "node_id": 72546,
+      "manifest_index": 162,
+      "viewer_page": 163,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 155",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_163"
+    },
+    {
+      "node_id": 72547,
+      "manifest_index": 163,
+      "viewer_page": 164,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 156",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_164"
+    },
+    {
+      "node_id": 72548,
+      "manifest_index": 164,
+      "viewer_page": 165,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 157",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_165"
+    },
+    {
+      "node_id": 72549,
+      "manifest_index": 165,
+      "viewer_page": 166,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 158",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_166"
+    },
+    {
+      "node_id": 72550,
+      "manifest_index": 166,
+      "viewer_page": 167,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 159",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_167"
+    },
+    {
+      "node_id": 72551,
+      "manifest_index": 167,
+      "viewer_page": 168,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 160",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_168"
+    },
+    {
+      "node_id": 72552,
+      "manifest_index": 168,
+      "viewer_page": 169,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 161",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_169"
+    },
+    {
+      "node_id": 72553,
+      "manifest_index": 169,
+      "viewer_page": 170,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 162",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_170"
+    },
+    {
+      "node_id": 72554,
+      "manifest_index": 170,
+      "viewer_page": 171,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 163",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_171"
+    },
+    {
+      "node_id": 72555,
+      "manifest_index": 171,
+      "viewer_page": 172,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 164",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_172"
+    },
+    {
+      "node_id": 72556,
+      "manifest_index": 172,
+      "viewer_page": 173,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 165",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_173"
+    },
+    {
+      "node_id": 72557,
+      "manifest_index": 173,
+      "viewer_page": 174,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 166",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_174"
+    },
+    {
+      "node_id": 72558,
+      "manifest_index": 174,
+      "viewer_page": 175,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 167",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_175"
+    },
+    {
+      "node_id": 72559,
+      "manifest_index": 175,
+      "viewer_page": 176,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 168",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_176"
+    },
+    {
+      "node_id": 72560,
+      "manifest_index": 176,
+      "viewer_page": 177,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 169",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_177"
+    },
+    {
+      "node_id": 72561,
+      "manifest_index": 177,
+      "viewer_page": 178,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 170",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_178"
+    },
+    {
+      "node_id": 72562,
+      "manifest_index": 178,
+      "viewer_page": 179,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 171",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_179"
+    },
+    {
+      "node_id": 72563,
+      "manifest_index": 179,
+      "viewer_page": 180,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 172",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_180"
+    },
+    {
+      "node_id": 72564,
+      "manifest_index": 180,
+      "viewer_page": 181,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 173",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_181"
+    },
+    {
+      "node_id": 72565,
+      "manifest_index": 181,
+      "viewer_page": 182,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 174",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_182"
+    },
+    {
+      "node_id": 72566,
+      "manifest_index": 182,
+      "viewer_page": 183,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 175",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_183"
+    },
+    {
+      "node_id": 72567,
+      "manifest_index": 183,
+      "viewer_page": 184,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 176",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_184"
+    },
+    {
+      "node_id": 72568,
+      "manifest_index": 184,
+      "viewer_page": 185,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 177",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_185"
+    },
+    {
+      "node_id": 72569,
+      "manifest_index": 185,
+      "viewer_page": 186,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 178",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_186"
+    },
+    {
+      "node_id": 72570,
+      "manifest_index": 186,
+      "viewer_page": 187,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 179",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_187"
+    },
+    {
+      "node_id": 72571,
+      "manifest_index": 187,
+      "viewer_page": 188,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 180",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_188"
+    },
+    {
+      "node_id": 72572,
+      "manifest_index": 188,
+      "viewer_page": 189,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 181",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_189"
+    },
+    {
+      "node_id": 72573,
+      "manifest_index": 189,
+      "viewer_page": 190,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 182",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_190"
+    },
+    {
+      "node_id": 72574,
+      "manifest_index": 190,
+      "viewer_page": 191,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 183",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_191"
+    },
+    {
+      "node_id": 72575,
+      "manifest_index": 191,
+      "viewer_page": 192,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 184",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_192"
+    },
+    {
+      "node_id": 72576,
+      "manifest_index": 192,
+      "viewer_page": 193,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 185",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_193"
+    },
+    {
+      "node_id": 72577,
+      "manifest_index": 193,
+      "viewer_page": 194,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 186",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_194"
+    },
+    {
+      "node_id": 72578,
+      "manifest_index": 194,
+      "viewer_page": 195,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 187",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_195"
+    },
+    {
+      "node_id": 72579,
+      "manifest_index": 195,
+      "viewer_page": 196,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 188",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_196"
+    },
+    {
+      "node_id": 72580,
+      "manifest_index": 196,
+      "viewer_page": 197,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 189",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_197"
+    },
+    {
+      "node_id": 72581,
+      "manifest_index": 197,
+      "viewer_page": 198,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 190",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_198"
+    },
+    {
+      "node_id": 72582,
+      "manifest_index": 198,
+      "viewer_page": 199,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 191",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_199"
+    },
+    {
+      "node_id": 72583,
+      "manifest_index": 199,
+      "viewer_page": 200,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 192",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_200"
+    },
+    {
+      "node_id": 72584,
+      "manifest_index": 200,
+      "viewer_page": 201,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 193",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_201"
+    },
+    {
+      "node_id": 72585,
+      "manifest_index": 201,
+      "viewer_page": 202,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 194",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_202"
+    },
+    {
+      "node_id": 72586,
+      "manifest_index": 202,
+      "viewer_page": 203,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 195",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_203"
+    },
+    {
+      "node_id": 72587,
+      "manifest_index": 203,
+      "viewer_page": 204,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 196",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_204"
+    },
+    {
+      "node_id": 72588,
+      "manifest_index": 204,
+      "viewer_page": 205,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 197",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_205"
+    },
+    {
+      "node_id": 72589,
+      "manifest_index": 205,
+      "viewer_page": 206,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 198",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_206"
+    },
+    {
+      "node_id": 72590,
+      "manifest_index": 206,
+      "viewer_page": 207,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 199",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_207"
+    },
+    {
+      "node_id": 72591,
+      "manifest_index": 207,
+      "viewer_page": 208,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 200",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_208"
+    },
+    {
+      "node_id": 72592,
+      "manifest_index": 208,
+      "viewer_page": 209,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 201",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_209"
+    },
+    {
+      "node_id": 72593,
+      "manifest_index": 209,
+      "viewer_page": 210,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 202",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_210"
+    },
+    {
+      "node_id": 72594,
+      "manifest_index": 210,
+      "viewer_page": 211,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 203",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_211"
+    },
+    {
+      "node_id": 72595,
+      "manifest_index": 211,
+      "viewer_page": 212,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 204",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_212"
+    },
+    {
+      "node_id": 72596,
+      "manifest_index": 212,
+      "viewer_page": 213,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 205",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_213"
+    },
+    {
+      "node_id": 72597,
+      "manifest_index": 213,
+      "viewer_page": 214,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 206",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_214"
+    },
+    {
+      "node_id": 72598,
+      "manifest_index": 214,
+      "viewer_page": 215,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 207",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_215"
+    },
+    {
+      "node_id": 72599,
+      "manifest_index": 215,
+      "viewer_page": 216,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 208",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_216"
+    },
+    {
+      "node_id": 72600,
+      "manifest_index": 216,
+      "viewer_page": 217,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 209",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_217"
+    },
+    {
+      "node_id": 72601,
+      "manifest_index": 217,
+      "viewer_page": 218,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 210",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_218"
+    },
+    {
+      "node_id": 72602,
+      "manifest_index": 218,
+      "viewer_page": 219,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 211",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_219"
+    },
+    {
+      "node_id": 72603,
+      "manifest_index": 219,
+      "viewer_page": 220,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 212",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_220"
+    },
+    {
+      "node_id": 72604,
+      "manifest_index": 220,
+      "viewer_page": 221,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 213",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_221"
+    },
+    {
+      "node_id": 72605,
+      "manifest_index": 221,
+      "viewer_page": 222,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 214",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_222"
+    },
+    {
+      "node_id": 72606,
+      "manifest_index": 222,
+      "viewer_page": 223,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 215",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_223"
+    },
+    {
+      "node_id": 72607,
+      "manifest_index": 223,
+      "viewer_page": 224,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 216",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_224"
+    },
+    {
+      "node_id": 72608,
+      "manifest_index": 224,
+      "viewer_page": 225,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 217",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_225"
+    },
+    {
+      "node_id": 72609,
+      "manifest_index": 225,
+      "viewer_page": 226,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 218",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_226"
+    },
+    {
+      "node_id": 72610,
+      "manifest_index": 226,
+      "viewer_page": 227,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 219",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_227"
+    },
+    {
+      "node_id": 72611,
+      "manifest_index": 227,
+      "viewer_page": 228,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 220",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_228"
+    },
+    {
+      "node_id": 72612,
+      "manifest_index": 228,
+      "viewer_page": 229,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 221",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_229"
+    },
+    {
+      "node_id": 72613,
+      "manifest_index": 229,
+      "viewer_page": 230,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 222",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_230"
+    },
+    {
+      "node_id": 72614,
+      "manifest_index": 230,
+      "viewer_page": 231,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 223",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_231"
+    },
+    {
+      "node_id": 72615,
+      "manifest_index": 231,
+      "viewer_page": 232,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 224",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_232"
+    },
+    {
+      "node_id": 72616,
+      "manifest_index": 232,
+      "viewer_page": 233,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 225",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_233"
+    },
+    {
+      "node_id": 72617,
+      "manifest_index": 233,
+      "viewer_page": 234,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 226",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_234"
+    },
+    {
+      "node_id": 72618,
+      "manifest_index": 234,
+      "viewer_page": 235,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 227",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_235"
+    },
+    {
+      "node_id": 72619,
+      "manifest_index": 235,
+      "viewer_page": 236,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 228",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_236"
+    },
+    {
+      "node_id": 72620,
+      "manifest_index": 236,
+      "viewer_page": 237,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 229",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_237"
+    },
+    {
+      "node_id": 72621,
+      "manifest_index": 237,
+      "viewer_page": 238,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 230",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_238"
+    },
+    {
+      "node_id": 72622,
+      "manifest_index": 238,
+      "viewer_page": 239,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 231",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_239"
+    },
+    {
+      "node_id": 72623,
+      "manifest_index": 239,
+      "viewer_page": 240,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 232",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_240"
+    },
+    {
+      "node_id": 72624,
+      "manifest_index": 240,
+      "viewer_page": 241,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 233",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_241"
+    },
+    {
+      "node_id": 72625,
+      "manifest_index": 241,
+      "viewer_page": 242,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 234",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_242"
+    },
+    {
+      "node_id": 72626,
+      "manifest_index": 242,
+      "viewer_page": 243,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 235",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_243"
+    },
+    {
+      "node_id": 72627,
+      "manifest_index": 243,
+      "viewer_page": 244,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 236",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_244"
+    },
+    {
+      "node_id": 72628,
+      "manifest_index": 244,
+      "viewer_page": 245,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 237",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_245"
+    },
+    {
+      "node_id": 72629,
+      "manifest_index": 245,
+      "viewer_page": 246,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 238",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_246"
+    },
+    {
+      "node_id": 72630,
+      "manifest_index": 246,
+      "viewer_page": 247,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 239",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_247"
+    },
+    {
+      "node_id": 72631,
+      "manifest_index": 247,
+      "viewer_page": 248,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 240",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_248"
+    },
+    {
+      "node_id": 72632,
+      "manifest_index": 248,
+      "viewer_page": 249,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 241",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_249"
+    },
+    {
+      "node_id": 72633,
+      "manifest_index": 249,
+      "viewer_page": 250,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 242",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_250"
+    },
+    {
+      "node_id": 72634,
+      "manifest_index": 250,
+      "viewer_page": 251,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 243",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_251"
+    },
+    {
+      "node_id": 72635,
+      "manifest_index": 251,
+      "viewer_page": 252,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 244",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_252"
+    },
+    {
+      "node_id": 72636,
+      "manifest_index": 252,
+      "viewer_page": 253,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 245",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_253"
+    },
+    {
+      "node_id": 72637,
+      "manifest_index": 253,
+      "viewer_page": 254,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 246",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_254"
+    },
+    {
+      "node_id": 72638,
+      "manifest_index": 254,
+      "viewer_page": 255,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 247",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_255"
+    },
+    {
+      "node_id": 72639,
+      "manifest_index": 255,
+      "viewer_page": 256,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 248",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_256"
+    },
+    {
+      "node_id": 72640,
+      "manifest_index": 256,
+      "viewer_page": 257,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 249",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_257"
+    },
+    {
+      "node_id": 72641,
+      "manifest_index": 257,
+      "viewer_page": 258,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 250",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_258"
+    },
+    {
+      "node_id": 72642,
+      "manifest_index": 258,
+      "viewer_page": 259,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 251",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_259"
+    },
+    {
+      "node_id": 72643,
+      "manifest_index": 259,
+      "viewer_page": 260,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 252",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_260"
+    },
+    {
+      "node_id": 72644,
+      "manifest_index": 260,
+      "viewer_page": 261,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 253",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_261"
+    },
+    {
+      "node_id": 72645,
+      "manifest_index": 261,
+      "viewer_page": 262,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 254",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_262"
+    },
+    {
+      "node_id": 72646,
+      "manifest_index": 262,
+      "viewer_page": 263,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 255",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_263"
+    },
+    {
+      "node_id": 72647,
+      "manifest_index": 263,
+      "viewer_page": 264,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 256",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_264"
+    },
+    {
+      "node_id": 72648,
+      "manifest_index": 264,
+      "viewer_page": 265,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 257",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_265"
+    },
+    {
+      "node_id": 72649,
+      "manifest_index": 265,
+      "viewer_page": 266,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 258",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_266"
+    },
+    {
+      "node_id": 72650,
+      "manifest_index": 266,
+      "viewer_page": 267,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 259",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_267"
+    },
+    {
+      "node_id": 72651,
+      "manifest_index": 267,
+      "viewer_page": 268,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 260",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_268"
+    },
+    {
+      "node_id": 72652,
+      "manifest_index": 268,
+      "viewer_page": 269,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 261",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_269"
+    },
+    {
+      "node_id": 72653,
+      "manifest_index": 269,
+      "viewer_page": 270,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 262",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_270"
+    },
+    {
+      "node_id": 72654,
+      "manifest_index": 270,
+      "viewer_page": 271,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 263",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_271"
+    },
+    {
+      "node_id": 72655,
+      "manifest_index": 271,
+      "viewer_page": 272,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 264",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_272"
+    },
+    {
+      "node_id": 72656,
+      "manifest_index": 272,
+      "viewer_page": 273,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 265",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_273"
+    },
+    {
+      "node_id": 72657,
+      "manifest_index": 273,
+      "viewer_page": 274,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 266",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_274"
+    },
+    {
+      "node_id": 72658,
+      "manifest_index": 274,
+      "viewer_page": 275,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 267",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_275"
+    },
+    {
+      "node_id": 72659,
+      "manifest_index": 275,
+      "viewer_page": 276,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 268",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_276"
+    },
+    {
+      "node_id": 72660,
+      "manifest_index": 276,
+      "viewer_page": 277,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 269",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_277"
+    },
+    {
+      "node_id": 72661,
+      "manifest_index": 277,
+      "viewer_page": 278,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 270",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_278"
+    },
+    {
+      "node_id": 72662,
+      "manifest_index": 278,
+      "viewer_page": 279,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 271",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_279"
+    },
+    {
+      "node_id": 72663,
+      "manifest_index": 279,
+      "viewer_page": 280,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 272",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_280"
+    },
+    {
+      "node_id": 72664,
+      "manifest_index": 280,
+      "viewer_page": 281,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 273",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_281"
+    },
+    {
+      "node_id": 72665,
+      "manifest_index": 281,
+      "viewer_page": 282,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 274",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_282"
+    },
+    {
+      "node_id": 72666,
+      "manifest_index": 282,
+      "viewer_page": 283,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 275",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_283"
+    },
+    {
+      "node_id": 72667,
+      "manifest_index": 283,
+      "viewer_page": 284,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 276",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_284"
+    },
+    {
+      "node_id": 72668,
+      "manifest_index": 284,
+      "viewer_page": 285,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 277",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_285"
+    },
+    {
+      "node_id": 72669,
+      "manifest_index": 285,
+      "viewer_page": 286,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 278",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_286"
+    },
+    {
+      "node_id": 72670,
+      "manifest_index": 286,
+      "viewer_page": 287,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 279",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_287"
+    },
+    {
+      "node_id": 72671,
+      "manifest_index": 287,
+      "viewer_page": 288,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 280",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_288"
+    },
+    {
+      "node_id": 72672,
+      "manifest_index": 288,
+      "viewer_page": 289,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 281",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_289"
+    },
+    {
+      "node_id": 72673,
+      "manifest_index": 289,
+      "viewer_page": 290,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 282",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_290"
+    },
+    {
+      "node_id": 72674,
+      "manifest_index": 290,
+      "viewer_page": 291,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 283",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_291"
+    },
+    {
+      "node_id": 72675,
+      "manifest_index": 291,
+      "viewer_page": 292,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Page 284",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_292"
+    },
+    {
+      "node_id": 72676,
+      "manifest_index": 292,
+      "viewer_page": 293,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Blank Page (3)",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_293"
+    },
+    {
+      "node_id": 72677,
+      "manifest_index": 293,
+      "viewer_page": 294,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Blank Page (4)",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_294"
+    },
+    {
+      "node_id": 72678,
+      "manifest_index": 294,
+      "viewer_page": 295,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Inside Back Cover with signature",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_295"
+    },
+    {
+      "node_id": 72679,
+      "manifest_index": 295,
+      "viewer_page": 296,
+      "archive_label": "P. Ovidii Nasonis Operum, v1, Back Cover",
+      "identifier": "WLU_Rare_PA_6519-A2_1751_v-1_296"
+    }
+  ]
+}

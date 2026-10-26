@@ -65,10 +65,13 @@ const companionData = {
 
 // O: Ehwald/Merkel, Teubner 1888; scan title is Tom. I despite archive volume metadata.
 const witnessSources = {
-  O: { label: 'O — Teubner 1888 (printed edition)', url: 'https://archive.org/details/operaovid03oviduoft/page/44/mode/2up' }
+  O: { label: 'O — Teubner 1888 (printed edition)', url: 'https://archive.org/details/operaovid03oviduoft/page/44/mode/2up' },
+  W: { label: 'W — Wetstein 1751 (printed edition, W&L)', url: 'https://digitalarchive.wlu.edu/islandora/p-ovidii-nasonis-operum-tomus-primus-volume-1' }
 };
 
 const witnessPageData = {
+  // W: zero-based scan indices. Image 172 = printed p. 128, archive label Page 164.
+  'W': [171, 172, 174, 176, 177, 178, 180, 182, 184, 185, 186, 188, 189, 189, 191],
   'O': [92, 94, 96, 98, 99, 100, 103, 105, 107, 109, 110, 112, 113, 114, 115],
   //note for these they navigate to n+1 page number
   'P': [

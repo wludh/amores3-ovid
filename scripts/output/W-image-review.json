@@ -1,0 +1,48 @@
+{
+  "witness": "W",
+  "scope": "image-regions-only",
+  "date": "2026-10-26",
+  "first_reader": "/root",
+  "sources": [
+    {
+      "path": "scripts/output/W-alignment-first-pass.json",
+      "sha256": "252c862e67365f02f01b4820782aca906f184a46a900d07a44a5d63b9eea9260"
+    },
+    {
+      "path": "scripts/sources/witness-W-ocr.json",
+      "sha256": "75cd7aa87e9c6209e5adcd5a5a6264812c21c1c3e324110f3c72516bfbe682af"
+    },
+    {
+      "path": "scripts/sources/witness-W-node-index.json",
+      "sha256": "99697249f38e8717ada30f0db2c36235a2ef67ac96df068016bdb2e005b2f511"
+    },
+    {
+      "path": "docs/data/iiif-manifests/witness-W.json",
+      "sha256": "c3b64e4c458645720ce7f091c6cdf509ddb01da37fe452dea67f0f5041764550"
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer": "/root/review_w_first",
+      "poems": "3.1-3.7",
+      "count": 486,
+      "fragment": "scripts/output/W-3.1-3.7-regions.json",
+      "fragment_sha256": "adad658b5cad8ce201a623028ae29ed99ee65924a50f0db26ec66a263a11d409",
+      "report": "scripts/output/W-3.1-3.7-image-review.md",
+      "report_sha256": "75ac2d6e701bd96bdd9c30a143085ca355b761d4efb20123452c02240d49f0e2"
+    },
+    {
+      "reviewer": "/root/review_w_last",
+      "poems": "3.8-3.15",
+      "count": 384,
+      "fragment": "scripts/output/W-3.8-3.15-regions.json",
+      "fragment_sha256": "74c55269cadd1bc303d2965c48d6172c30470f315181b58d986cd45affb74904",
+      "report": "scripts/output/W-3.8-3.15-image-review.md",
+      "report_sha256": "b8c42068f7139909ecd716eee5e26fd59410b97bc66cabadc1144e0ca0ba18c0"
+    }
+  ],
+  "annotations_sha256": "2229cebf989399ced9f055cd716eb311f9ccf06b172d8a2257930cf9c5681d2c",
+  "canonical_verse_count": 870,
+  "tei_transcription": false,
+  "notes": "Source-image mappings only. No TEI review seal is created or changed. See source review reports for rectangular-highlight limitations."
+}

@@ -914,7 +914,7 @@ tei-l::before {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 16px;
+    gap: 8px;
     margin: 16px 0 12px 0;
 }
 
@@ -939,8 +939,8 @@ tei-l::before {
     border-color: var(--wl-blue);
 }
 
-#witness-buttons button:hover,
-.witness-buttons button:hover {
+#witness-buttons button:hover:not(.active),
+.witness-buttons button:hover:not(.active) {
   background-color: var(--button-hover-bg);
 }
 
