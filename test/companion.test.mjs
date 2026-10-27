@@ -102,6 +102,7 @@ test('linked reading stays within a poem and repeated rendering binds one naviga
   function container(kind, poem) {
     return {
       kind, poem, dataset: { poem }, listeners: new Map(),
+      classList: { contains: () => false },
       addEventListener(type, handler) {
         if (!this.listeners.has(type)) this.listeners.set(type, new Set());
         this.listeners.get(type).add(handler);
@@ -130,9 +131,9 @@ test('linked reading stays within a poem and repeated rendering binds one naviga
       scrollIntoView() { scrolls += 1; }
     };
   }
-  const textLine = line(text, '1');
-  const matchingLine = line(same, '1');
-  const readingLine = line(reading, '1');
+  const textLine = line(text, '2');
+  const matchingLine = line(same, '1–3');
+  const readingLine = line(reading, '2');
   const differentPoemLine = line(other, '1');
   const lines = [textLine, matchingLine, readingLine, differentPoemLine];
   const context = vm.createContext({
@@ -150,6 +151,7 @@ test('linked reading stays within a poem and repeated rendering binds one naviga
     }
   });
   vm.runInContext(source.slice(source.indexOf('const companionHighlightHandlers'), source.indexOf('// Attach event handlers for a panel')), context);
+  context.scrollLinkedVerseIntoView = () => { scrolls += 1; };
   context.setupHighlightListeners(same);
   context.setupHighlightListeners(same);
   context.setupHighlightListeners(same);
@@ -163,4 +165,6 @@ test('linked reading stays within a poem and repeated rendering binds one naviga
   assert.equal(scrolls, 1);
   for (const handler of reading.listeners.get('click')) handler({ target: readingLine });
   assert.equal(scrolls, 2);
+  for (const handler of text.listeners.get('click')) handler({ target: textLine });
+  assert.equal(scrolls, 4, 'scroll each matching companion and reading panel once');
 });

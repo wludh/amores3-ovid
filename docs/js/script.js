@@ -1407,7 +1407,6 @@ function attachClickableLineHandlers(panel) {
 
     const handler = (event) => {
       if (event.target.closest('button, a')) return;
-      event.stopPropagation();
       const poem = getTextPanelPoem(panel);
       setSelectedAnnotationLine(lineId, getTextPanelWitness(panel), poem);
       zoomAllViewersToLine(lineId, poem);
@@ -1420,7 +1419,7 @@ function attachClickableLineHandlers(panel) {
     lineEl.onkeydown = event => {
       if (event.target !== lineEl || !['Enter', ' '].includes(event.key)) return;
       event.preventDefault();
-      handler(event);
+      lineEl.click();
     };
   });
 }
@@ -2020,6 +2019,24 @@ function unbindAnnotationMoveHandlers() {
 
 // Rebind by container identity; linked reading only connects the same poem.
 const companionHighlightHandlers = new WeakMap();
+function scrollLinkedVerseIntoView(target, panel) {
+  // Scroll only this panel's containers, leaving the clicked verse and page still.
+  const behavior = window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth';
+  let anchor = target;
+  for (let container = target.parentElement; container && container !== panel; container = container.parentElement) {
+    if (!/(auto|scroll)/.test(getComputedStyle(container).overflowY) ||
+        container.scrollHeight <= container.clientHeight) continue;
+    const bounds = container.getBoundingClientRect();
+    const line = anchor.getBoundingClientRect();
+    const offset = line.top - bounds.top - container.clientTop;
+    container.scrollTo({
+      top: container.scrollTop + offset - Math.max(0, (container.clientHeight - line.height) / 2),
+      behavior
+    });
+    anchor = container;
+  }
+}
+
 function setupHighlightListeners(panel) {
   const containers = document.querySelectorAll('section[data-panel-type="transcription"] .text-content, section[data-panel-type="companion"] .extra-content, section[data-panel-type="reading"] .extra-content');
   const poemFor = element => element.closest('.extra-content')?.dataset.poem ||
@@ -2035,7 +2052,7 @@ function setupHighlightListeners(panel) {
     const [start, end] = rangeFor(target);
     const selector = target.matches('[data-line]') ? '.extra-content [data-line-range]' : '.text-content [data-line]';
     return Array.from(document.querySelectorAll(selector)).filter(element => {
-      if (!poem || poemFor(element) !== poem) return false;
+      if (!poem || poemFor(element) !== poem || element.closest('section').classList.contains('collapsed')) return false;
       const [otherStart, otherEnd] = rangeFor(element);
       return start <= otherEnd && end >= otherStart;
     });
@@ -2051,7 +2068,14 @@ function setupHighlightListeners(panel) {
     if (!target) return;
     const control = event.target.closest('a, button, summary, input, select');
     if (control && !control.classList.contains('companion-line-link')) return;
-    linkedElements(target)[0]?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    highlight(event);
+    const scrolledPanels = new Set();
+    for (const element of linkedElements(target)) {
+      const linkedPanel = element.closest('section');
+      if (scrolledPanels.has(linkedPanel)) continue;
+      scrollLinkedVerseIntoView(element, linkedPanel);
+      scrolledPanels.add(linkedPanel);
+    }
   };
   for (const container of containers) {
     const previous = companionHighlightHandlers.get(container);
