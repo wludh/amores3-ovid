@@ -180,7 +180,7 @@ async function updateCompanionPanel(panel) {
       catch { return { extra, error: true, data: {} }; }
     }));
     if (!isCurrent()) return;
-    const model = { poem, extras, datasets, lines: [], witness: null, sourceError: false, frequency: null, lookup: null, dictionaryError: false, review: null, reviewError: false };
+    const model = { poem, extras, datasets, lines: [], witness: null, sourceError: false, frequency: null, lookup: null, dictionaryError: false, review: null, reviewError: false, reviewPending: false };
     if (needsWitness) {
       try {
         const [corpus, dictionary] = await Promise.all([
@@ -217,6 +217,7 @@ async function updateCompanionPanel(panel) {
         model.absentLines = record.absent_lines || [];
         if (dictionary) {
           const inputs = model.review?.inputs;
+          model.reviewPending = model.review?.poem === poem && !Object.hasOwn(inputs?.teiByWitnessSha256 || {}, witness);
           model.reviewError = model.review?.poem !== poem ||
             inputs?.teiByWitnessSha256?.[witness] !== await vocabularyHash(xmlText) ||
             inputs?.glossarySha256 !== datasets.find(item => item.extra === 'vocab')?.sha256 ||
@@ -306,7 +307,8 @@ function renderCompanionModel(panel) {
       else if (model.absentLines.length) html += '<p class="vocabulary-coverage">This witness transmits only part of the poem. Missing lines have no vocabulary entries.</p>';
     }
   }
-  if (hasVocabulary && model.reviewError) html += '<p class="companion-empty" role="status">Vocabulary for this text needs a current review before it can be shown. <button type="button" class="companion-retry">Try again</button></p>';
+  if (hasVocabulary && model.reviewPending) html += `<p class="companion-empty" role="status">Vocabulary review pending for witness ${companionEscape(model.witness)}. Choose another witness for vocabulary help.</p>`;
+  else if (hasVocabulary && model.reviewError) html += '<p class="companion-empty" role="status">Vocabulary for this text needs a current review before it can be shown. <button type="button" class="companion-retry">Try again</button></p>';
   if (hasVocabulary && model.dictionaryError) html += '<p class="companion-empty" role="status">Vocabulary frequency data could not be loaded. <button type="button" class="companion-retry">Try again</button></p>';
   for (const dataset of model.datasets.filter(item => item.error)) {
     html += `<p class="companion-empty" role="status">${dataset.extra === 'vocab' ? 'The glossary' : 'Commentary'} could not be loaded. <button type="button" class="companion-retry">Try again</button></p>`;
@@ -329,7 +331,7 @@ function renderCompanionModel(panel) {
     html += '</div>';
   }
   if (!shown && query) html += '<p class="companion-empty" role="status">No matching lines or entries. Try another word or clear the search.</p>';
-  else if (!shown && hasVocabulary && !hasTranscription && amount === 0 && model.lines.length) html += '<p class="companion-empty" role="status">Vocabulary help is off.</p>';
+  else if (!shown && hasVocabulary && !hasTranscription && amount === 0 && model.lines.length && !model.reviewError && !model.dictionaryError) html += '<p class="companion-empty" role="status">Vocabulary help is off.</p>';
   else if (!shown && !needsWitness && !model.datasets.some(item => item.error)) html += '<p class="companion-empty">No commentary available for this poem.</p>';
   if (sourceInfo) html += `<footer class="vocabulary-footer">${sourceInfo}</footer>`;
   const exported = Vocabulary.toFlashcardTsv(visibleEntries);

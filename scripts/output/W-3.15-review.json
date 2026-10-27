@@ -1,0 +1,101 @@
+{
+  "witness": "W",
+  "poem": "3.15",
+  "date": "2026-10-26",
+  "author_agent": "/root/w_transcribe_c",
+  "reviewer_agent": "/root/w_review_c",
+  "reviewer": "OpenAI Codex independent w_review_c source-image reviewer",
+  "review_type": "independent-second-agent-image-and-encoding-review",
+  "human_approved": false,
+  "line_coverage": {
+    "count": 20,
+    "ranges": [
+      {
+        "image": 192,
+        "printed_page": 148,
+        "page_position": "printed page 148",
+        "start": 1,
+        "end": 20
+      }
+    ]
+  },
+  "line_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "counts": {
+    "resolved": 0,
+    "documented-uncertainty": 0,
+    "escalate": 0
+  },
+  "previous_note_count": 0,
+  "notes": [],
+  "source_corrections": [
+    {
+      "line": 1,
+      "before": "Quaere novum vatem, tenerorum mater Amorum:",
+      "after": "QUaere novum vatem, tenerorum mater Amorum:"
+    },
+    {
+      "line": 3,
+      "before": "Quos ego composui, Peligni ruris alumnus,",
+      "after": "Quos ego composui, Peligni ruris alumnus:"
+    },
+    {
+      "line": 9,
+      "before": "Quam sua libertas ad honesta coegerat arma,",
+      "after": "Quam sua libertas ad honesta coëgerat arma,"
+    },
+    {
+      "line": 12,
+      "before": "Moenia, quâ campi jugera pauca tenent?",
+      "after": "Moenia, quâ campi jugera pauca tenent?"
+    },
+    {
+      "line": 13,
+      "before": "Quae tantum, dicet, potuistis ferre Poetam,",
+      "after": "Quae tantum, dicet, potuistis ferre Poëtam,"
+    }
+  ],
+  "layout_evidence": {
+    "assessment": "Printed p. 148 author header; heading Elegia XV. Ad Venerem, quod elegis finem imponat. A decorative horizontal band follows verse 20, then a separate Ars amatoria title and text. These establish the boundary; the unrelated work and its bottom catchword Sed are not imported into the poem. Full-page starts checked including the enlarged initial and exceptional second-verse inset. Original annotation rectangles preserved."
+  },
+  "validation": {
+    "schema": "docs/schema/tei_all-4.12.0.rng",
+    "schema_result": "passed xmllint Relax NG",
+    "verse_lines": 20,
+    "facsimile_zones": 20,
+    "unique_ids": true,
+    "local_references_resolve": true
+  },
+  "reviewed_candidate_sha256": "c13f3e23d350e3b4ddb0ce64e297d131498d9317e1b7c20b9c40556f9c20015b",
+  "reviewed_xml_sha256": "b607ab4baea77afbccc388b9320274df6be08e1a5b31bfb9c5de481797a1f091",
+  "review_report_sha256": "1382c1e94f4c3e9c0c1be6ebe89eae05c50b1a3c75106532ac5edca0b30044a3",
+  "opening_capital_followup": {
+    "line": 1,
+    "before": "Quaere",
+    "after": "QUaere",
+    "evidence": {
+      "image": "https://digitalarchive.wlu.edu/cantaloupe/iiif/2/https%3A%2F%2Fdigitalarchive.wlu.edu%2F_flysystem%2Ffedora%2F2026-10%2F72575-Service%2520File.jpg/full/full/0/default.jpg",
+      "assessment": "Focused independent reinspection of the actual opening image confirms QUaere: the enlarged initial is followed by a genuine uppercase U, then lowercase letters. The remaining opening word, line 2 capitalization and enlarged-initial inset were also checked. Only the supported second-letter case was changed in this follow-up."
+    }
+  }
+}

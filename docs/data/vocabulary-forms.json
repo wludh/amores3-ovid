@@ -6,7 +6,8 @@
     "url": "https://github.com/latincy/latincy-lexicon",
     "commit": "4a12d066e5800c941e472fa5af610f156eb022f1",
     "generator": "scripts/build-vocabulary-lexicon.py",
-    "generatorSha256": "bfb81cc9cd6de9e995d1aea3cfc28fe4205c42c01c2e9f228749246f41443965",
+    "generatorSha256": "5c43cb433b5cd9531de2b0ab6f6a826286d5c1fa0d9a0c60ffc7ef029ebb4d3f",
+    "enrollmentManifest": "scripts/sources/vocabulary/tei-corpus.json",
     "grammar": [
       "https://dcc.dickinson.edu/grammar/latin/peculiarities",
       "https://dcc.dickinson.edu/grammar/latin/deponent-verbs"
@@ -25,7 +26,7 @@
     },
     "inputSha256": {
       "docs/data/latin-frequency.json": "0071be2a4271288610d8217144819e5177dcca1235b78b41f6d97693b59e04f7",
-      "docs/data/tei-corpus.json": "f365cc7a6f9281c9402bbcc336e2e3cc4efcb69f1f9eaa9c04e1cd04a253c19f",
+      "scripts/sources/vocabulary/tei-corpus.json": "f365cc7a6f9281c9402bbcc336e2e3cc4efcb69f1f9eaa9c04e1cd04a253c19f",
       "docs/data/tei/P/3.1.xml": "3925c157427ad457b9841656bfda3af6edf902ea55e802a26086697672e9dfbc",
       "docs/data/tei/Y/3.1.xml": "f6989f5791b4b4da4ff6fa632a9c0147f527d2467a92db88d09bbbf8f2b584e5",
       "docs/data/tei/S/3.1.xml": "d1056e804785873200ab4ca6e1dfb121d580cf11443f234d4d3902842eee1857",

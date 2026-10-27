@@ -12,7 +12,7 @@ validation = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(validation)
 
 parser = argparse.ArgumentParser(description=__doc__)
-parser.add_argument('witness', choices=['P', 'Y', 'S', 'O', 'LL'])
+parser.add_argument('witness', choices=['P', 'Y', 'S', 'O', 'LL', 'W'])
 parser.add_argument('poem')
 args = parser.parse_args()
 index = ROOT / 'docs/data/tei-corpus.json'

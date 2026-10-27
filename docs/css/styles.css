@@ -270,6 +270,50 @@ header nav a:hover {
   cursor: pointer;
 }
 
+/* Equal side tracks keep every mode selector centered in its panel. */
+#panels .panel-header {
+  display: grid;
+  grid-template-columns: 1.75rem minmax(0, 1fr) 1.75rem;
+  gap: 0.5rem;
+}
+#panels .panel-type-select {
+  justify-self: center;
+  width: 100%;
+  max-width: 18rem;
+  min-width: 0;
+  min-height: 2.25rem;
+  margin: 0;
+  padding: 0.375rem 1.5rem;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='m1 1 5 5 5-5' fill='none' stroke='white' stroke-width='1.5'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.5rem center;
+  text-align: center;
+  text-align-last: center;
+  text-overflow: ellipsis;
+}
+#panels .panel-header .drag-handle,
+#panels .panel-header .toggle-btn {
+  display: grid;
+  place-items: center;
+  width: 1.75rem;
+  height: 2.25rem;
+  margin: 0;
+  padding: 0;
+}
+#panels .panel-type-select:focus-visible,
+#panels .toggle-btn:focus-visible {
+  outline: 2px solid white;
+  outline-offset: 2px;
+}
+@media (min-width: 901px) {
+  #panels section.collapsed .panel-header { grid-template-columns: 1fr; padding-inline: 4px; }
+  #panels section.collapsed .panel-type-select,
+  #panels section.collapsed .drag-handle,
+  #panels section.collapsed .panel-body { display: none; }
+  #panels section.collapsed .toggle-btn { justify-self: center; }
+}
+
 /* 6) Panel body */
 .panel-body {
   flex: 1 1 auto;
@@ -705,19 +749,6 @@ hi[rend="smallcaps"]    { font-variant: small-caps; }
 lg[type="elegiacCouplet"] { display:block; margin: 1em 0; }
 
 /* Single Witness Viewer and Companion panel button improvements */
-/* Use arrows for Previous/Next */
-#prev-page::after,
-.prev-page::after {
-  content: '←';
-  font-size: 1.2em;
-  margin-left: 4px;
-}
-#next-page::after,
-.next-page::after {
-  content: '→';
-  font-size: 1.2em;
-  margin-left: 4px;
-}
 #prev-page, #next-page,
 .prev-page, .next-page {
   text-indent: 0;
@@ -958,6 +989,7 @@ label[for="witness-select"],
 #page-controls,
 .page-controls {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   margin-top: 10px;
@@ -1552,9 +1584,14 @@ body.dark-mode .companion-line-group .commentary-color { color: #93bfe1; }
 
   .essays-nav {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+    gap: 0.25rem;
   }
+}
+
+@media (max-width: 1024px) {
+  .essays-nav li { margin-bottom: 0; }
+  .essays-nav a { font-size: 1rem; }
 }
 
 /* Search Bar Styles */
@@ -1864,6 +1901,8 @@ body.dark-mode .tutorial-overlay {
 
 /* Modal card */
 .tutorial-modal {
+  max-height: calc(100dvh - 2rem);
+  overflow-y: auto;
   width: min(600px, 100%);
   background: var(--panel-bg);
   color: var(--text-main);
@@ -2154,7 +2193,7 @@ body > header nav svg {
     width: 100%;
     overflow-x: auto;
   }
-  body > header nav ul { width: max-content; }
+  body > header nav ul { width: 100%; flex-wrap: wrap; }
 }
 
 /* Only the close control intercepts pointer input over the manuscript. */
@@ -2201,3 +2240,62 @@ body > header nav svg {
   font-size: 0.85rem;
 }
 .witness-image-recovery[hidden] { display: none; }
+
+/* Accessible arrangement controls and mobile reading tabs. */
+.panel-actions-button { background: transparent; border: 0; border-radius: 4px; }
+.panel-actions {
+  position: absolute; top: 100%; left: 8px; z-index: 20;
+  display: flex; gap: 8px; padding: 10px;
+  border: 1px solid var(--panel-border); border-radius: 6px;
+  background: var(--panel-bg); box-shadow: 0 4px 12px #0003;
+}
+.panel-actions[hidden], .image-status[hidden] { display: none; }
+.panel-actions button, .image-status button {
+  padding: 6px 10px; border: 1px solid var(--panel-border); border-radius: 4px;
+  background: var(--button-bg); color: var(--text-main); cursor: pointer;
+}
+.panel-actions button:disabled { opacity: 0.45; cursor: default; }
+:where(a, button, select, input, summary):focus-visible { outline: 3px solid #4678ca; outline-offset: 3px; }
+#panels .panel-actions-button:focus-visible { outline-color: white; }
+#panels section.collapsed .toggle-btn { width: auto; min-width: 3.75rem; font-size: 0.85rem; }
+#panels .panel-header { z-index: 5; }
+.image-status {
+  position: absolute; left: 8px; right: 8px; bottom: 8px; z-index: 12;
+  padding: 8px 10px; border: 1px solid var(--panel-border); border-radius: 5px;
+  background: var(--panel-bg); color: var(--text-main); font-size: 0.875rem;
+}
+.viewer { position: relative; }
+.workspace-tabs { display: none; }
+body.dark-mode :where(a, button, select, input, summary):focus-visible { outline-color: #bad2ff; }
+@media (max-width: 600px) {
+  .workspace-tabs {
+    display: flex; gap: 6px; padding: 10px 12px 0;
+    background: var(--wl-bg);
+  }
+  .workspace-tabs button {
+    flex: 1; min-width: 0; min-height: 44px; padding: 6px;
+    border: 1px solid var(--panel-border); border-radius: 6px;
+    background: var(--panel-bg); color: var(--text-main); font: inherit;
+  }
+  .workspace-tabs button[aria-selected="true"] { background: var(--wl-blue); color: var(--wl-white); font-weight: bold; }
+  #panels.mobile-workspace-ready section:not(.mobile-active) { display: none; }
+  #panels section.mobile-active { height: 75dvh; min-height: 460px; }
+  #panels .toggle-btn { visibility: hidden; }
+  #panels .panel-actions { display: none; }
+  #panels .panel-actions-button { visibility: hidden; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
+/* Active controls use the contrasting foreground of the selected theme. */
+#witness-buttons button.active, .witness-buttons button.active,
+.essays-nav a.active { color: var(--wl-white); }
+body > header nav svg { fill: var(--wl-white); }
+.page-controls button { background: var(--button-bg); color: var(--text-main); border: 1px solid var(--panel-border); border-radius: 4px; }
+body.dark-mode #panels .panel-type-select:focus-visible,
+body.dark-mode #panels .panel-actions-button:focus-visible,
+body.dark-mode #panels .toggle-btn:focus-visible { outline-color: #1e1e1e; }
+
+body.dark-mode #panels .panel-type-select {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='m1 1 5 5 5-5' fill='none' stroke='%231e1e1e' stroke-width='1.5'/%3E%3C/svg%3E");
+}

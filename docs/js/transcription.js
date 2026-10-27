@@ -172,7 +172,7 @@ function addAlterationFinder(edition, scroll, toolbar) {
   const groups = new Map();
   const all = new Set();
   for (const [key, label, selector] of alterationTypes) {
-    const matches = Array.from(scroll.querySelectorAll(selector)).filter(el => !el.closest('[hidden]'));
+    const matches = Array.from(scroll.querySelectorAll(selector)).filter(el => !el.closest('[hidden], tei-fw'));
     matches.forEach(el => {
       all.add(el);
       el.dataset.alterations = [el.dataset.alterations, key].filter(Boolean).join(' ');

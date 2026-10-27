@@ -1,0 +1,175 @@
+{
+  "witness": "W",
+  "poem": "3.14",
+  "date": "2026-10-26",
+  "author_agent": "/root/w_transcribe_c",
+  "reviewer_agent": "/root/w_review_c",
+  "reviewer": "OpenAI Codex independent w_review_c source-image reviewer",
+  "review_type": "independent-second-agent-image-and-encoding-review",
+  "human_approved": false,
+  "line_coverage": {
+    "count": 50,
+    "ranges": [
+      {
+        "image": 190,
+        "printed_page": 146,
+        "page_position": "printed page 146",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "image": 191,
+        "printed_page": 147,
+        "page_position": "printed page 147",
+        "start": 3,
+        "end": 47
+      },
+      {
+        "image": 192,
+        "printed_page": 148,
+        "page_position": "printed page 148",
+        "start": 48,
+        "end": 50
+      }
+    ]
+  },
+  "line_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50
+  ],
+  "counts": {
+    "resolved": 0,
+    "documented-uncertainty": 0,
+    "escalate": 0
+  },
+  "previous_note_count": 0,
+  "notes": [],
+  "source_corrections": [
+    {
+      "line": 1,
+      "before": "Non ego, ne pecces, cum sis formosa, recuso;",
+      "after": "NOn ego, ne pecces, cum sis formosa, recuso;"
+    },
+    {
+      "line": 5,
+      "before": "Non peccat quaecumque potest peccasse negare;",
+      "after": "Non peccat quaecumque potest peccasse negare:"
+    },
+    {
+      "line": 9,
+      "before": "Ignot(o) meretrix corpus junctura Quiriti",
+      "after": "Ignoto meretrix corpus junctura Quiriti"
+    },
+    {
+      "line": 10,
+      "before": "Adpositâ populum submovet ante fora.",
+      "after": "Adpositâ populum submovet ante serâ."
+    },
+    {
+      "line": 15,
+      "before": "Quae facis, haec facito; tantum fecisse negato;",
+      "after": "Quae facis, haec facito; tantum fecisse negato:"
+    },
+    {
+      "line": 27,
+      "before": "Indue cum tunicis metuentem crimina vultum;",
+      "after": "Indue cum tunicis metuentem crimina vultum:"
+    },
+    {
+      "line": 28,
+      "before": "Et pudor obscenum diffiteatur opus.",
+      "after": "Et pudor obscoenum diffiteatur opus."
+    },
+    {
+      "line": 33,
+      "before": "Cur plus, quam somno, turbatos esse capillos?",
+      "after": "Cur plus, quam somno, turbatos esse capillos;"
+    },
+    {
+      "line": 35,
+      "before": "Tantum non oculos crimen deducis ad ipsos,",
+      "after": "Tantum non oculos crimen deducis ad ipsos."
+    },
+    {
+      "line": 37,
+      "before": "Mens abit, & morior; quoties peccasse fateris;",
+      "after": "Mens abit, & morior; quoties peccasse fateris:"
+    },
+    {
+      "line": 45,
+      "before": "Quae bene visa mihi fuerint, bene visa negato.",
+      "after": "Quae bene visâ mihi fuerint, bene visa negato."
+    }
+  ],
+  "layout_evidence": {
+    "assessment": "Printed p. 146 heading Elegia XIV. Ad amicam, si peccatura est, ut occultè peccet.; bottom catchword Nec. Printed p. 147 running header AMORUM. LIB. III. 14.; footer signature K 2 and catchword Sit. The last three verses continue on p. 148 under the author header. Full-page starts checked including the enlarged initial and exceptional second-verse inset. Original annotation rectangles preserved."
+  },
+  "validation": {
+    "schema": "docs/schema/tei_all-4.12.0.rng",
+    "schema_result": "passed xmllint Relax NG",
+    "verse_lines": 50,
+    "facsimile_zones": 50,
+    "unique_ids": true,
+    "local_references_resolve": true
+  },
+  "reviewed_candidate_sha256": "506a8117fbfe00d3bacfaded50bfbd4fa08e92aedb09f8219284e8a157aa1a3e",
+  "reviewed_xml_sha256": "5251994d2f8aabe63fa765940463c992e34de36e41d0c659f1df8965343c6020",
+  "review_report_sha256": "b65c1cc1fe34200029019172196f429f0addfca4f2ca377f60416dadee459109",
+  "opening_capital_followup": {
+    "line": 1,
+    "before": "Non",
+    "after": "NOn",
+    "evidence": {
+      "image": "https://digitalarchive.wlu.edu/cantaloupe/iiif/2/https%3A%2F%2Fdigitalarchive.wlu.edu%2F_flysystem%2Ffedora%2F2026-10%2F72573-Service%2520File.jpg/full/full/0/default.jpg",
+      "assessment": "Focused independent reinspection of the actual opening image confirms NOn: the enlarged initial is followed by a genuine uppercase O, then lowercase letters. The remaining opening word, line 2 capitalization and enlarged-initial inset were also checked. Only the supported second-letter case was changed in this follow-up."
+    }
+  }
+}

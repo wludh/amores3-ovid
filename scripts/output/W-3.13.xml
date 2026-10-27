@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="W" xml:id="W-3.13">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title>Ovid, Amores 3.13 — W, Wetstein 1751</title>
+        <author>Publius Ovidius Naso</author>
+        <respStmt xml:id="W-3.13-encoder">
+          <resp>First source-image reading and transcription</resp>
+          <name>OpenAI Codex /root/w_transcribe_c</name>
+        </respStmt>
+        <respStmt xml:id="W-3.13-xml-encoder">
+          <resp>TEI encoding of the source reader’s first-pass transcription</resp>
+          <name>OpenAI Codex /root</name>
+        </respStmt>
+      <respStmt xml:id="W-3.13-reviewer"><resp>Independent second source-image reading and TEI review of every extant verse</resp><name>OpenAI Codex /root/w_review_c</name></respStmt></titleStmt>
+      <publicationStmt>
+        <p>Amores Project working transcription, 26 October 2026; independently reviewed against the source images; not human-approved.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>P. Ovidius Naso</author>
+          <title>P. Ovidii Nasonis operum tomus primus</title>
+          <pubPlace>Amstelaedami</pubPlace>
+          <publisher>Apud J. Wetstenium</publisher>
+          <date when="1751">1751</date>
+          <biblScope unit="page" from="146" to="146">146–146</biblScope>
+          <ref target="https://digitalarchive.wlu.edu/islandora/p-ovidii-nasonis-operum-tomus-primus-volume-1">Washington and Lee University Special Collections, PA6519 .A2 1751, volume 1</ref>
+          <ref target="https://digitalarchive.wlu.edu/node/72383/manifest">Native IIIF source manifest</ref>
+          <note>One-based viewer images 190–190; printed page numbers are 44 lower. Archive page labels differ from both. The actual images, rather than another witness or uncorrected OCR, supply the readings.</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <normalization>
+          <p>Source spelling, capitalization, punctuation, written ampersands and visible accents are retained. Long s and typographic ligatures are represented by standard s and constituent letters. Letter spacing in display capitals and quotation glyph shapes may be represented schematically. No modern-edition readings are substituted.</p>
+        </normalization>
+        <segmentation>
+          <p>Each l represents one canonical verse, with stable numbering and a link to its existing image region. Source verse order and headings are retained. Couplet grouping and canonical line numbers are editorial. A displaced word may remain within its verse with its position marked.</p>
+        </segmentation>
+        <segmentation>
+          <p>Both readers checked actual full-page line starts. The regular visible insets are retained, with an additional two-character approximation at verse 2 for the enlarged initial’s exceptional opening inset. This is source layout evidence, not a rule inferred from verse parity.</p>
+        </segmentation>
+        <correction>
+          <p>Uncertain readings remain locally marked with unclear or gap. Observations and uncertainties are documented for a different source reader; ink colour alone does not establish erasure or a separate hand.</p>
+        </correction>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="reviewed">
+      <change when="2026-10-26" who="#W-3.13-encoder">First reader inspected and transcribed all 36 verses from the source images; independent source review pending.</change>
+    <change when="2026-10-26" who="#W-3.13-reviewer">Independent second source pass checked every extant verse, source heading, page furniture and full-page line starts; corrected supported readings and documented the source layout in W-3.13-second-pass.md.</change><change when="2026-10-26" who="#W-3.13-reviewer">Focused independent image reinspection of the enlarged opening initial and following letters corrected source capitalization Cum to CUm; remaining opening letters and second-verse layout rechecked before resealing.</change></revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="W-3.13-p146" n="146" ulx="0" uly="0" lrx="1958" lry="2874">
+      <graphic url="https://digitalarchive.wlu.edu/cantaloupe/iiif/2/https%3A%2F%2Fdigitalarchive.wlu.edu%2F_flysystem%2Ffedora%2F2026-10%2F72573-Service%2520File.jpg/full/full/0/default.jpg"/>
+      <zone xml:id="W-3.13-zone-1" ulx="682" uly="454" lrx="1787" lry="564"/>
+      <zone xml:id="W-3.13-zone-2" ulx="829" uly="510" lrx="1753" lry="583"/>
+      <zone xml:id="W-3.13-zone-3" ulx="679" uly="570" lrx="1569" lry="636"/>
+      <zone xml:id="W-3.13-zone-4" ulx="743" uly="621" lrx="1704" lry="687"/>
+      <zone xml:id="W-3.13-zone-5" ulx="682" uly="664" lrx="1838" lry="742"/>
+      <zone xml:id="W-3.13-zone-6" ulx="746" uly="729" lrx="1555" lry="792"/>
+      <zone xml:id="W-3.13-zone-7" ulx="679" uly="778" lrx="1720" lry="848"/>
+      <zone xml:id="W-3.13-zone-8" ulx="746" uly="834" lrx="1608" lry="905"/>
+      <zone xml:id="W-3.13-zone-9" ulx="666" uly="888" lrx="1651" lry="958"/>
+      <zone xml:id="W-3.13-zone-10" ulx="748" uly="939" lrx="1611" lry="1011"/>
+      <zone xml:id="W-3.13-zone-11" ulx="687" uly="997" lrx="1592" lry="1062"/>
+      <zone xml:id="W-3.13-zone-12" ulx="745" uly="1049" lrx="1486" lry="1118"/>
+      <zone xml:id="W-3.13-zone-13" ulx="666" uly="1100" lrx="1777" lry="1175"/>
+      <zone xml:id="W-3.13-zone-14" ulx="747" uly="1153" lrx="1570" lry="1227"/>
+      <zone xml:id="W-3.13-zone-15" ulx="688" uly="1206" lrx="1696" lry="1271"/>
+      <zone xml:id="W-3.13-zone-16" ulx="750" uly="1253" lrx="1644" lry="1331"/>
+      <zone xml:id="W-3.13-zone-17" ulx="681" uly="1314" lrx="1768" lry="1385"/>
+      <zone xml:id="W-3.13-zone-18" ulx="749" uly="1367" lrx="1589" lry="1429"/>
+      <zone xml:id="W-3.13-zone-19" ulx="670" uly="1421" lrx="1496" lry="1480"/>
+      <zone xml:id="W-3.13-zone-20" ulx="748" uly="1472" lrx="1564" lry="1538"/>
+      <zone xml:id="W-3.13-zone-21" ulx="691" uly="1520" lrx="1791" lry="1594"/>
+      <zone xml:id="W-3.13-zone-22" ulx="746" uly="1579" lrx="1618" lry="1648"/>
+      <zone xml:id="W-3.13-zone-23" ulx="688" uly="1619" lrx="1812" lry="1704"/>
+      <zone xml:id="W-3.13-zone-24" ulx="749" uly="1685" lrx="1582" lry="1748"/>
+      <zone xml:id="W-3.13-zone-25" ulx="689" uly="1739" lrx="1663" lry="1809"/>
+      <zone xml:id="W-3.13-zone-26" ulx="747" uly="1790" lrx="1900" lry="1860"/>
+      <zone xml:id="W-3.13-zone-27" ulx="690" uly="1842" lrx="1644" lry="1911"/>
+      <zone xml:id="W-3.13-zone-28" ulx="748" uly="1896" lrx="1616" lry="1962"/>
+      <zone xml:id="W-3.13-zone-29" ulx="687" uly="1949" lrx="1776" lry="2016"/>
+      <zone xml:id="W-3.13-zone-30" ulx="750" uly="2002" lrx="1566" lry="2072"/>
+      <zone xml:id="W-3.13-zone-31" ulx="692" uly="2049" lrx="1778" lry="2128"/>
+      <zone xml:id="W-3.13-zone-32" ulx="753" uly="2106" lrx="1629" lry="2172"/>
+      <zone xml:id="W-3.13-zone-33" ulx="693" uly="2157" lrx="1763" lry="2236"/>
+      <zone xml:id="W-3.13-zone-34" ulx="753" uly="2214" lrx="1513" lry="2273"/>
+      <zone xml:id="W-3.13-zone-35" ulx="691" uly="2265" lrx="1576" lry="2334"/>
+      <zone xml:id="W-3.13-zone-36" ulx="750" uly="2315" lrx="1659" lry="2385"/>
+    </surface>
+  </facsimile>
+  <text xml:lang="la">
+    <body>
+      <div type="poem" n="3.13" xml:id="W-3.13-poem">
+        <lg type="couplet">
+          <pb n="146" facs="#W-3.13-p146"/>
+          <fw type="header" place="top">P. OVIDII NASONIS</fw>
+          <fw type="pageNum" place="top">146</fw>
+          <label type="source-heading">Elegia XIII. De Junonis Festo.</label>
+          <l n="1" xml:id="W-3.13-l1" facs="#W-3.13-zone-1">CUm mihi pomiferis conjux foret orta Faliscis;</l>
+          <l n="2" xml:id="W-3.13-l2" facs="#W-3.13-zone-2" rend="indent"><space dim="horizontal" quantity="2" unit="chars"/>Moenia contigimus victa, Camille, tibi.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="3" xml:id="W-3.13-l3" facs="#W-3.13-zone-3">Casta sacerdotes Junoni festa parabant</l>
+          <l n="4" xml:id="W-3.13-l4" facs="#W-3.13-zone-4" rend="indent">Per celebres ludos, indigenamque bovem.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="5" xml:id="W-3.13-l5" facs="#W-3.13-zone-5">Grande morae pretium, ritus cognoscere: quamvis</l>
+          <l n="6" xml:id="W-3.13-l6" facs="#W-3.13-zone-6" rend="indent">Difficilis clivis huc via praebet iter.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="7" xml:id="W-3.13-l7" facs="#W-3.13-zone-7">Stat vetus, &amp; densâ praenubilus arbore lucus.</l>
+          <l n="8" xml:id="W-3.13-l8" facs="#W-3.13-zone-8" rend="indent">Adspice; concedas numen inesse loco.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="9" xml:id="W-3.13-l9" facs="#W-3.13-zone-9">Accipit ara preces, votivaque tura piorum;</l>
+          <l n="10" xml:id="W-3.13-l10" facs="#W-3.13-zone-10" rend="indent">Ara per antiquas facta sine arte manus.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="11" xml:id="W-3.13-l11" facs="#W-3.13-zone-11">Hinc ubi praesonuit sollemni tibia cantu;</l>
+          <l n="12" xml:id="W-3.13-l12" facs="#W-3.13-zone-12" rend="indent">It per velatas annua pompa vias.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="13" xml:id="W-3.13-l13" facs="#W-3.13-zone-13">Ducuntur niveae, populo plaudente, juvencae,</l>
+          <l n="14" xml:id="W-3.13-l14" facs="#W-3.13-zone-14" rend="indent">Quas aluit campis herba Falisca suis:</l>
+        </lg>
+        <lg type="couplet">
+          <l n="15" xml:id="W-3.13-l15" facs="#W-3.13-zone-15">Et vituli, nondum metuendâ fronte minaces;</l>
+          <l n="16" xml:id="W-3.13-l16" facs="#W-3.13-zone-16" rend="indent">Et minor ex humili victima porcus harâ:</l>
+        </lg>
+        <lg type="couplet">
+          <l n="17" xml:id="W-3.13-l17" facs="#W-3.13-zone-17">Duxque gregis cornu per tempora dura recurvo,</l>
+          <l n="18" xml:id="W-3.13-l18" facs="#W-3.13-zone-18" rend="indent">Invisa est dominae sola capella Deae.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="19" xml:id="W-3.13-l19" facs="#W-3.13-zone-19">Illius indicio silvis inventa sub altis</l>
+          <l n="20" xml:id="W-3.13-l20" facs="#W-3.13-zone-20" rend="indent">Dicitur inceptam destituisse fugam.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="21" xml:id="W-3.13-l21" facs="#W-3.13-zone-21">Nunc quoque per pueros jaculis incessitur index;</l>
+          <l n="22" xml:id="W-3.13-l22" facs="#W-3.13-zone-22" rend="indent">Et pretium auctori vulneris ipsa datur.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="23" xml:id="W-3.13-l23" facs="#W-3.13-zone-23">Quâ ventura Dea est, juvenes timidaeque puellae</l>
+          <l n="24" xml:id="W-3.13-l24" facs="#W-3.13-zone-24" rend="indent">Praeverrunt latas veste jacente vias.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="25" xml:id="W-3.13-l25" facs="#W-3.13-zone-25">Virginei crines auro gemmâque premuntur;</l>
+          <l n="26" xml:id="W-3.13-l26" facs="#W-3.13-zone-26" rend="indent">Et tegit auratos palla superba pedes.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="27" xml:id="W-3.13-l27" facs="#W-3.13-zone-27">More patrum Grajo velatae vestibus albis</l>
+          <l n="28" xml:id="W-3.13-l28" facs="#W-3.13-zone-28" rend="indent">Tradita supposito vertice sacra ferunt.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="29" xml:id="W-3.13-l29" facs="#W-3.13-zone-29">Ore favent populi, tunc cum venit aurea pompa:</l>
+          <l n="30" xml:id="W-3.13-l30" facs="#W-3.13-zone-30" rend="indent">Ipsa sacerdotes subsequiturque suas.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="31" xml:id="W-3.13-l31" facs="#W-3.13-zone-31">Argiva est pompae facies. Agamemnone caeso,</l>
+          <l n="32" xml:id="W-3.13-l32" facs="#W-3.13-zone-32" rend="indent">Et scelus &amp; patrias fugit Halesus opes.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="33" xml:id="W-3.13-l33" facs="#W-3.13-zone-33">Jamque pererratis profugus terrâque, fretoque,</l>
+          <l n="34" xml:id="W-3.13-l34" facs="#W-3.13-zone-34" rend="indent">Moenia felici condidit alta manu.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="35" xml:id="W-3.13-l35" facs="#W-3.13-zone-35">Ille suos docuit Junonia sacra Faliscos.</l>
+          <l n="36" xml:id="W-3.13-l36" facs="#W-3.13-zone-36" rend="indent">Sint mihi, sint populo semper amica suo.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

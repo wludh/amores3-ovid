@@ -34,7 +34,7 @@ The Companion's vocabulary slider controls **how many words receive help**, alwa
 
 Companion shows the vocabulary and commentary by line number, without repeating the transcription. Choose **Text & notes** from any panel's type dropdown for the separate reading view: the selected witness's text appears line by line with vocabulary and commentary beneath it. Both note types start enabled in that view and can be toggled independently; turning both off leaves the witness text. Each view remembers its own note selection.
 
-The selected witness's TEI supplies the lexical context, including spellings, abbreviations and uncertainty. Existing poem glosses and added DCC matches pass through a contextual review for that witness and verse. The review corrects wrong lemmas and definitions, resolves supported homographs, and suppresses unsupported matches. Original glossary files remain unchanged; the corrections and quoted evidence live in `docs/data/vocabulary-review/`. Absent lines, damaged or abbreviated words, and unmatched forms receive no automatic dictionary definition. “All words” means all supported, reviewed entries, not every word in the poems.
+The selected witness's TEI supplies the lexical context, including spellings, abbreviations and uncertainty. Existing poem glosses and added DCC matches pass through a contextual review for that witness and verse. The review corrects wrong lemmas and definitions, resolves supported homographs, and suppresses unsupported matches. Original glossary files remain unchanged; the corrections and quoted evidence live in `docs/data/vocabulary-review/`. Absent lines, damaged or abbreviated words, and unmatched forms receive no automatic dictionary definition. “All words” means all supported, reviewed entries, not every word in the poems. Vocabulary review currently covers P, Y, S, O and LL. The newly added W transcription remains available in Text & notes, with a clear review-pending message and no vocabulary guesses or export until its own lexical review is complete.
 
 Search ignores accents and case. **Export** downloads the entries currently shown, respecting the witness, amount, and search, as UTF-8 tab-separated text with a headword and full definition on each row. Identical cards are included once. In [Anki](https://docs.ankiweb.net/importing/text-files.html), import the file with Tab as the separator and the two fields as Front/Back. In [Quizlet](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content), paste the file contents into Import and choose tabs between terms/definitions and new lines between cards. The Settings button minimizes the controls while leaving the word count and Export available. Help amount, witness, and search are remembered separately for each panel while switching panel modes. Changes to a glossary, witness text, or dictionary input invalidate the vocabulary review for that input; the browser checks its SHA-256 binding before displaying entries. Review the changed evidence before updating the binding. Rebuild the derived form lookup when new forms need recognition; see [vocabulary sources and regeneration](docs/data/vocabulary-sources.md). No external dictionary service runs in the reader's browser.
 
@@ -99,9 +99,13 @@ W is the 1751 Amsterdam printed edition published by J. Wetstein, held by
 Washington and Lee University Special Collections (PA6519 .A2 1751),
 [volume 1](https://digitalarchive.wlu.edu/islandora/p-ovidii-nasonis-operum-tomus-primus-volume-1).
 It is available in both image viewers with 870 source-reviewed line regions
-covering all 15 poems of Book III. W is an image witness only; clicking a verse
-in an existing transcription navigates to its corresponding W image.
-A W transcription would require the separate two-pass TEI workflow.
+covering all 15 poems of Book III. Select W in Transcription to read its
+source-based text, then click a verse to focus its corresponding W image.
+Each poem has a separate TEI file under `docs/data/tei/W/`, an independent
+source-review report and a checksum-bound ledger. Source spellings, written
+ampersands, accents and punctuation are preserved; long s and typographic
+ligatures use standard letters. TEI source viewing, XML download and returning
+to the poem use the same controls as the other witnesses.
 
 The [native manifest](https://digitalarchive.wlu.edu/node/72383/manifest) has
 296 images. Book III spans viewer images **172–192**, printed pages **128–148**.
@@ -128,7 +132,13 @@ page mappings, dimensions and the source-review hashes.
 A single rectangular highlight can overlap adjacent type where an enlarged
 initial extends downwards or the compositor displaces a word. In particular,
 3.9.65's final `(est.` is printed above its main row. The review documents this
-source-layout limitation. W is outside the existing 75-slot TEI corpus audit.
+source-layout limitation. W adds 15 transcription records to the 90-slot TEI
+corpus audit. Run `python3 scripts/validate-tei.py --witness W --require-complete`
+for W's full source/provenance/review-seal validation; the default full-corpus
+command still reports any outstanding failures in other witnesses. W has no
+legacy transcription fallback and never borrows another witness's readings. See the
+[W transcription integration record](scripts/output/W-transcription-integration-verification.md)
+for source-review coverage, browser checks and known pre-existing audit issues.
 
 
 Witness **O** is the Teubner 1888 printed edition edited by R. Ehwald from
@@ -174,9 +184,9 @@ This will download the latest versions of the manifests and update the local fil
 
 ## Amores 3.7 TEI trial
 
-Run `npm run dev`, then open [the 3.7 trial](http://localhost:4173/?poem=3.7&witness=Y&layout=compare). P, Y, S, O and LL have independently reviewed transcriptions. S preserves 74 extant verses and explicitly marks its absent ending. The reading panel has one source-oriented display, a collapsed **Find alterations** control, and a **TEI** link with return navigation and XML download.
+Run `npm run dev`, then open [the 3.7 trial](http://localhost:4173/?poem=3.7&witness=Y&layout=compare). P, Y, S, O, LL and W have independently reviewed transcriptions. S preserves 74 extant verses and explicitly marks its absent ending. The reading panel has one source-oriented display, a collapsed **Find alterations** control, and a **TEI** link with return navigation and XML download.
 
-Run `npm run validate:tei` to check all five trial files against TEI P5 4.12.0, source-line coverage, internal references, note dispositions and review hashes. Run `npm test` for the site's regression checks. The validator is currently scoped to the 3.7 pilot; extend its coverage configuration as additional poems are enrolled in the workflow.
+Run `npm run validate:tei` to check the 90-slot corpus against TEI P5 4.12.0, source-line coverage, internal references, note dispositions and review hashes. Run `npm test` for the site's regression checks. Use `--witness W --require-complete` with the Python validator for the complete W subset; this does not replace the full corpus audit.
 
 See [the encoding workflow](docs/encoding-workflow.md), [the independent review summary](scripts/output/3.7-review-status.md), and [the browser verification record](scripts/output/3.7-site-verification.md). Project instructions require a separate source-reading agent before future transcription handoffs. Uncertain source evidence remains encoded; only consequential editorial decisions are escalated.
 

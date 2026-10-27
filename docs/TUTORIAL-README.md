@@ -52,11 +52,12 @@ Add this before the closing `</body>` tag:
 
 ## W&L printed edition (W)
 
-Select **Witness W** in Single Witness Viewer, or check **W** in Line-by-line
-Viewer. W is the Wetstein 1751 printed edition at Washington and Lee University.
-It has image mappings for all 870 verses in Amores III; choose an available
-transcription and click its numbered lines to focus the matching W passage.
-There is currently no W transcription or W TEI download.
+Select **W** in Transcription to read the Wetstein 1751 printed edition at
+Washington and Lee University. It has reviewed TEI transcriptions and image
+mappings for all 870 verses in Amores III. Select **Witness W** in Single
+Witness Viewer, or check **W** in Line-by-line Viewer, then click a numbered
+verse to focus its source image. **TEI ↗** opens the encoded source, its XML
+download and the **Back to poem** link.
 
 Book III starts at viewer image **172**, printed page **128**. The archive's
 label for that image is “Page 164,” so use the project's poem navigation or

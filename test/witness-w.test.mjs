@@ -63,8 +63,8 @@ test('W scan positions match the supplied node index and actual poem starts', as
   }
   assert.equal(context.pages[0], 171);
   assert.equal(nodes.pages[171].node_id, 72555);
-  // Image-only integration must not present another witness's text as W.
-  assert.equal(context.files.W, undefined);
+  // W must never fall back to another witness's text or an unreviewed draft.
+  assert.equal(context.files.W, null);
 });
 
 test('both W viewers use the archive image-service capabilities with unchanged encoded IDs', async () => {

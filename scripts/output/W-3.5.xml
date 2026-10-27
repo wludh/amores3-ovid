@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="W" xml:id="W-3.5">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title>Ovid, Amores 3.5 — W, Wetstein 1751</title>
+        <author>Publius Ovidius Naso</author>
+        <respStmt xml:id="W-3.5-encoder">
+          <resp>First source-image reading and transcription</resp>
+          <name>OpenAI Codex /root/w_transcribe_b</name>
+        </respStmt>
+        <respStmt xml:id="W-3.5-xml-encoder">
+          <resp>TEI encoding of the source reader’s first-pass transcription</resp>
+          <name>OpenAI Codex /root</name>
+        </respStmt>
+        <respStmt xml:id="W-3.5-reviewer">
+          <resp>Independent second source-image reading and encoding review</resp>
+          <name>OpenAI Codex /root/w_review_b</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Amores Project working transcription, 26 October 2026; independent second-agent source review complete; human scholarly approval not yet given.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>P. Ovidius Naso</author>
+          <title>P. Ovidii Nasonis operum tomus primus</title>
+          <pubPlace>Amstelaedami</pubPlace>
+          <publisher>Apud J. Wetstenium</publisher>
+          <date when="1751">1751</date>
+          <biblScope unit="page" from="134" to="135">134–135</biblScope>
+          <ref target="https://digitalarchive.wlu.edu/islandora/p-ovidii-nasonis-operum-tomus-primus-volume-1">Washington and Lee University Special Collections, PA6519 .A2 1751, volume 1</ref>
+          <ref target="https://digitalarchive.wlu.edu/node/72383/manifest">Native IIIF source manifest</ref>
+          <note>One-based viewer images 178–179; printed page numbers are 44 lower. Archive page labels differ from both. The actual images, rather than another witness or uncorrected OCR, supply the readings.</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <normalization>
+          <p>Source spelling, capitalization, punctuation, written ampersands and visible accents are retained. Long s and typographic ligatures are represented by standard s and constituent letters. Letter spacing in display capitals and quotation glyph shapes may be represented schematically. No modern-edition readings are substituted.</p>
+        </normalization>
+        <segmentation>
+          <p>Each l represents one canonical verse, with stable numbering and a link to its existing image region. Source verse order and headings are retained. Couplet grouping and canonical line numbers are editorial. A displaced word may remain within its verse with its position marked.</p>
+        </segmentation>
+        <segmentation>
+          <p>Full-page line starts were independently checked on every page. Even lines have the visible ordinary inset. Verse 2 has an additional three-character approximation of the space beside the two-line opening capital; it is not inferred from verse parity.</p>
+        </segmentation>
+        <correction>
+          <p>Uncertain readings remain locally marked with unclear or gap. Observations and uncertainties are documented for a different source reader; ink colour alone does not establish erasure or a separate hand.</p>
+        </correction>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="reviewed">
+      <change when="2026-10-26" who="#W-3.5-encoder">First reader inspected and transcribed all 46 verses from the source images; independent source review pending.</change>
+      <change when="2026-10-26" who="#W-3.5-reviewer">Independent reviewer inspected all 46 extant verses against full-page source images and enlarged bands; corrected supported readings, punctuation and accents; checked line starts and all source notes; original annotation rectangles preserved.</change>
+      <change when="2026-10-26" who="#W-3.5-reviewer">Independent opening-crop follow-up confirmed the second letter after the large initial is uppercase: Nox corrected to source NOx; remaining opening letters and extra verse-2 space rechecked.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="W-3.5-p134" n="134" ulx="0" uly="0" lrx="1940" lry="2852">
+      <graphic url="https://digitalarchive.wlu.edu/cantaloupe/iiif/2/https%3A%2F%2Fdigitalarchive.wlu.edu%2F_flysystem%2Ffedora%2F2026-10%2F72561-Service%2520File.jpg/full/full/0/default.jpg" />
+      <zone xml:id="W-3.5-zone-1" ulx="662" uly="694" lrx="1733" lry="795" />
+      <zone xml:id="W-3.5-zone-2" ulx="834" uly="751" lrx="1661" lry="808" />
+      <zone xml:id="W-3.5-zone-3" ulx="660" uly="796" lrx="1591" lry="871" />
+      <zone xml:id="W-3.5-zone-4" ulx="723" uly="857" lrx="1580" lry="914" />
+      <zone xml:id="W-3.5-zone-5" ulx="657" uly="906" lrx="1599" lry="977" />
+      <zone xml:id="W-3.5-zone-6" ulx="723" uly="961" lrx="1551" lry="1030" />
+      <zone xml:id="W-3.5-zone-7" ulx="658" uly="1011" lrx="1668" lry="1081" />
+      <zone xml:id="W-3.5-zone-8" ulx="715" uly="1066" lrx="1657" lry="1125" />
+      <zone xml:id="W-3.5-zone-9" ulx="653" uly="1118" lrx="1717" lry="1188" />
+      <zone xml:id="W-3.5-zone-10" ulx="715" uly="1173" lrx="1674" lry="1234" />
+      <zone xml:id="W-3.5-zone-11" ulx="646" uly="1224" lrx="1739" lry="1284" />
+      <zone xml:id="W-3.5-zone-12" ulx="711" uly="1278" lrx="1691" lry="1347" />
+      <zone xml:id="W-3.5-zone-13" ulx="650" uly="1331" lrx="1807" lry="1400" />
+      <zone xml:id="W-3.5-zone-14" ulx="707" uly="1386" lrx="1659" lry="1452" />
+      <zone xml:id="W-3.5-zone-15" ulx="648" uly="1436" lrx="1713" lry="1503" />
+      <zone xml:id="W-3.5-zone-16" ulx="708" uly="1491" lrx="1722" lry="1561" />
+      <zone xml:id="W-3.5-zone-17" ulx="645" uly="1542" lrx="1722" lry="1613" />
+      <zone xml:id="W-3.5-zone-18" ulx="702" uly="1599" lrx="1602" lry="1664" />
+      <zone xml:id="W-3.5-zone-19" ulx="640" uly="1647" lrx="1606" lry="1709" />
+      <zone xml:id="W-3.5-zone-20" ulx="703" uly="1703" lrx="1542" lry="1771" />
+      <zone xml:id="W-3.5-zone-21" ulx="635" uly="1753" lrx="1653" lry="1825" />
+      <zone xml:id="W-3.5-zone-22" ulx="701" uly="1808" lrx="1574" lry="1878" />
+      <zone xml:id="W-3.5-zone-23" ulx="627" uly="1859" lrx="1661" lry="1931" />
+      <zone xml:id="W-3.5-zone-24" ulx="697" uly="1908" lrx="1532" lry="1989" />
+      <zone xml:id="W-3.5-zone-25" ulx="634" uly="1964" lrx="1657" lry="2043" />
+      <zone xml:id="W-3.5-zone-26" ulx="694" uly="2022" lrx="1557" lry="2090" />
+      <zone xml:id="W-3.5-zone-27" ulx="629" uly="2073" lrx="1661" lry="2145" />
+      <zone xml:id="W-3.5-zone-28" ulx="694" uly="2127" lrx="1595" lry="2198" />
+      <zone xml:id="W-3.5-zone-29" ulx="626" uly="2178" lrx="1636" lry="2251" />
+      <zone xml:id="W-3.5-zone-30" ulx="692" uly="2234" lrx="1493" lry="2295" />
+      <zone xml:id="W-3.5-zone-31" ulx="626" uly="2282" lrx="1868" lry="2365" />
+      <zone xml:id="W-3.5-zone-32" ulx="687" uly="2339" lrx="1683" lry="2410" />
+      <zone xml:id="W-3.5-zone-33" ulx="617" uly="2389" lrx="1640" lry="2468" />
+      <zone xml:id="W-3.5-zone-34" ulx="682" uly="2445" lrx="1466" lry="2517" />
+      <zone xml:id="W-3.5-zone-35" ulx="617" uly="2493" lrx="1555" lry="2570" />
+      <zone xml:id="W-3.5-zone-36" ulx="679" uly="2551" lrx="1522" lry="2617" />
+      <zone xml:id="W-3.5-zone-37" ulx="616" uly="2597" lrx="1663" lry="2685" />
+    </surface>
+    <surface xml:id="W-3.5-p135" n="135" ulx="0" uly="0" lrx="1806" lry="2874">
+      <graphic url="https://digitalarchive.wlu.edu/cantaloupe/iiif/2/https%3A%2F%2Fdigitalarchive.wlu.edu%2F_flysystem%2Ffedora%2F2026-10%2F72562-Service%2520File.jpg/full/full/0/default.jpg" />
+      <zone xml:id="W-3.5-zone-38" ulx="131" uly="247" lrx="1058" lry="307" />
+      <zone xml:id="W-3.5-zone-39" ulx="84" uly="295" lrx="1056" lry="363" />
+      <zone xml:id="W-3.5-zone-40" ulx="132" uly="350" lrx="991" lry="418" />
+      <zone xml:id="W-3.5-zone-41" ulx="84" uly="401" lrx="1130" lry="473" />
+      <zone xml:id="W-3.5-zone-42" ulx="129" uly="457" lrx="898" lry="525" />
+      <zone xml:id="W-3.5-zone-43" ulx="79" uly="507" lrx="1146" lry="572" />
+      <zone xml:id="W-3.5-zone-44" ulx="131" uly="564" lrx="944" lry="625" />
+      <zone xml:id="W-3.5-zone-45" ulx="80" uly="613" lrx="1112" lry="679" />
+      <zone xml:id="W-3.5-zone-46" ulx="131" uly="666" lrx="1093" lry="734" />
+    </surface>
+  </facsimile>
+  <text xml:lang="la">
+    <body>
+      <div type="poem" n="3.5" xml:id="W-3.5-poem">
+        <lg type="couplet">
+          <pb n="134" facs="#W-3.5-p134" />
+          <fw type="header" place="top">P. OVIDII NASONIS</fw>
+          <fw type="pageNum" place="top">134</fw>
+          <label type="source-heading">Elegia V. Somnium, Elegia quae ex MSS. huc revocata est.</label>
+          <l n="1" xml:id="W-3.5-l1" facs="#W-3.5-zone-1">NOx erat: &amp; somnus lassos submisit ocellos.</l>
+          <l n="2" xml:id="W-3.5-l2" facs="#W-3.5-zone-2" rend="indent"><space dim="horizontal" quantity="3" unit="chars" />Terruerunt animum talia visa meum.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="3" xml:id="W-3.5-l3" facs="#W-3.5-zone-3">Colle sub aprico celeberrimus ilice lucus</l>
+          <l n="4" xml:id="W-3.5-l4" facs="#W-3.5-zone-4" rend="indent">Stabat; &amp; in ramis multa latebat avis.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="5" xml:id="W-3.5-l5" facs="#W-3.5-zone-5">Area gramineo suberat viridissima prato,</l>
+          <l n="6" xml:id="W-3.5-l6" facs="#W-3.5-zone-6" rend="indent">Uvida de guttis lene sonantis aquae.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="7" xml:id="W-3.5-l7" facs="#W-3.5-zone-7">Ipse sub arboreis vitabam frondibus aestum;</l>
+          <l n="8" xml:id="W-3.5-l8" facs="#W-3.5-zone-8" rend="indent">Fronde sub arboreâ sed tamen aestus erat.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="9" xml:id="W-3.5-l9" facs="#W-3.5-zone-9">Ecce, petens variis immixtas floribus herbas,</l>
+          <l n="10" xml:id="W-3.5-l10" facs="#W-3.5-zone-10" rend="indent">Constitit ante oculos candida vacca meos.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="11" xml:id="W-3.5-l11" facs="#W-3.5-zone-11">Candidior nivibus, tunc cum cecidere recentes;</l>
+          <l n="12" xml:id="W-3.5-l12" facs="#W-3.5-zone-12" rend="indent">In liquidas nondum quas mora vertit aquas.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="13" xml:id="W-3.5-l13" facs="#W-3.5-zone-13">Candidior, quod adhuc spumis stridentibus albet,</l>
+          <l n="14" xml:id="W-3.5-l14" facs="#W-3.5-zone-14" rend="indent">Et modo siccatam, lacte, reliquit ovem.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="15" xml:id="W-3.5-l15" facs="#W-3.5-zone-15">Taurus erat comes huic, feliciter ille maritus:</l>
+          <l n="16" xml:id="W-3.5-l16" facs="#W-3.5-zone-16" rend="indent">Cumque suâ teneram conjuge pressit humum.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="17" xml:id="W-3.5-l17" facs="#W-3.5-zone-17">Dum jacet, &amp; lentè revocatas ruminat herbas,</l>
+          <l n="18" xml:id="W-3.5-l18" facs="#W-3.5-zone-18" rend="indent">Atque iterum pasto pascitur ante cibo;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="19" xml:id="W-3.5-l19" facs="#W-3.5-zone-19">Visus erat, somno vires adimente; ferenti</l>
+          <l n="20" xml:id="W-3.5-l20" facs="#W-3.5-zone-20" rend="indent">Cornigerum terrae deposuisse caput.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="21" xml:id="W-3.5-l21" facs="#W-3.5-zone-21">Huc levibus cornix pennis delapsa per auras</l>
+          <l n="22" xml:id="W-3.5-l22" facs="#W-3.5-zone-22" rend="indent">Venit; &amp; in viridi garrula sedit humo.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="23" xml:id="W-3.5-l23" facs="#W-3.5-zone-23">Terque bovis niveae petulanti pectora rostro</l>
+          <l n="24" xml:id="W-3.5-l24" facs="#W-3.5-zone-24" rend="indent">Fodit; &amp; albentes abstulit ore jubas.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="25" xml:id="W-3.5-l25" facs="#W-3.5-zone-25">Illa locum taurumque diu cunctata relinquit.</l>
+          <l n="26" xml:id="W-3.5-l26" facs="#W-3.5-zone-26" rend="indent">Sed niger in vaccae pectore livor erat.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="27" xml:id="W-3.5-l27" facs="#W-3.5-zone-27">Utque procul vidit carpentes pabula tauros;</l>
+          <l n="28" xml:id="W-3.5-l28" facs="#W-3.5-zone-28" rend="indent">(Carpebant tauri pabula laeta procul)</l>
+        </lg>
+        <lg type="couplet">
+          <l n="29" xml:id="W-3.5-l29" facs="#W-3.5-zone-29">Illuc se rapuit, gregibusque immiscuit illis;</l>
+          <l n="30" xml:id="W-3.5-l30" facs="#W-3.5-zone-30" rend="indent">Et petiit herbae fertilioris humum.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="31" xml:id="W-3.5-l31" facs="#W-3.5-zone-31">Dic, age, nocturnae, quicumque es, imaginis augur,</l>
+          <l n="32" xml:id="W-3.5-l32" facs="#W-3.5-zone-32" rend="indent">(Si quid habent veri) visa quid ista ferant.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="33" xml:id="W-3.5-l33" facs="#W-3.5-zone-33">Sic ego: nocturnae sic dixit imaginis augur,</l>
+          <l n="34" xml:id="W-3.5-l34" facs="#W-3.5-zone-34" rend="indent">Expendens animo singula visa suo:</l>
+        </lg>
+        <lg type="couplet">
+          <l n="35" xml:id="W-3.5-l35" facs="#W-3.5-zone-35">Quem tu mobilibus foliis vitare volebas,</l>
+          <l n="36" xml:id="W-3.5-l36" facs="#W-3.5-zone-36" rend="indent">Sed male vitabas, aestus amoris erat.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="37" xml:id="W-3.5-l37" facs="#W-3.5-zone-37">Vacca puella tua est. aptus color ille puellae.</l>
+          <fw type="catch" place="bottom">Tu</fw>
+          <pb n="135" facs="#W-3.5-p135" />
+          <fw type="header" place="top">AMORUM. LIB. III. 5. 6.</fw>
+          <fw type="pageNum" place="top">135</fw>
+          <l n="38" xml:id="W-3.5-l38" facs="#W-3.5-zone-38" rend="indent">Tu vir, &amp; in vaccâ compare taurus eras.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="39" xml:id="W-3.5-l39" facs="#W-3.5-zone-39">Pectora quod rostro cornix fodiebat acuto;</l>
+          <l n="40" xml:id="W-3.5-l40" facs="#W-3.5-zone-40" rend="indent">Ingenium dominae lena movebit anus.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="41" xml:id="W-3.5-l41" facs="#W-3.5-zone-41">Quod cunctata diu taurum sua vacca reliquit;</l>
+          <l n="42" xml:id="W-3.5-l42" facs="#W-3.5-zone-42" rend="indent">Frigidus in viduo destituere toro.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="43" xml:id="W-3.5-l43" facs="#W-3.5-zone-43">Livor, &amp; adverso maculae sub pectore nigrae,</l>
+          <l n="44" xml:id="W-3.5-l44" facs="#W-3.5-zone-44" rend="indent">Pectus adulterii labe carere negant.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="45" xml:id="W-3.5-l45" facs="#W-3.5-zone-45">Dixerat interpres. gelido mihi sanguis ab ore</l>
+          <l n="46" xml:id="W-3.5-l46" facs="#W-3.5-zone-46" rend="indent">Fugit; &amp; ante oculos nox stetit alta meos.</l>
+        </lg>
+      </div>
+    </body>
+    <back>
+      <div type="editorial-notes">
+        <head>Transcription notes</head>
+        <note xml:id="W-3.5-note-1" n="1" type="observation" target="#W-3.5-l1" resp="#W-3.5-encoder">The printed poem heading is present above this witness text and is transcribed separately in heading metadata.</note>
+        <note xml:id="W-3.5-note-2" n="2" type="observation" target="#W-3.5-l2" resp="#W-3.5-reviewer">The two-line opening capital displaces verse 2 farther right than the ordinary inset. An additional horizontal space of three characters approximates this observed layout.</note>
+      </div>
+    </back>
+  </text>
+</TEI>

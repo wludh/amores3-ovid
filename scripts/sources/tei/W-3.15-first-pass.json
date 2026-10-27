@@ -1,0 +1,28 @@
+{
+  "witness": "W",
+  "poem": "3.15",
+  "author_agent": "/root/w_transcribe_c",
+  "date": "2026-10-26",
+  "indented_lines": [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20
+  ],
+  "indentation_evidence": "Checked line starts in full-page images printed 141–148 (viewer pages 185–192). Across each continuous column the couplet lines at the observed offset are the even-numbered verse positions; line starts were confirmed against the actual page images, including page turns. Enlarged opening initials do not alter the underlying verse start. See source-page coverage in the first-pass report.",
+  "headings": {
+    "1": "Elegia XV. Ad Venerem, quod elegis finem imponat."
+  },
+  "page_headers": {
+    "192": "P. Ovidii Nasonis"
+  },
+  "footers": {},
+  "notes": [],
+  "source_pass_complete": true
+}

@@ -1,0 +1,63 @@
+{
+  "witness": "W",
+  "poem": "3.9",
+  "author_agent": "/root/w_transcribe_c",
+  "date": "2026-10-26",
+  "indented_lines": [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22,
+    24,
+    26,
+    28,
+    30,
+    32,
+    34,
+    36,
+    38,
+    40,
+    42,
+    44,
+    46,
+    48,
+    50,
+    52,
+    54,
+    56,
+    58,
+    60,
+    62,
+    64,
+    66,
+    68
+  ],
+  "indentation_evidence": "Checked line starts in full-page images printed 141–148 (viewer pages 185–192). Across each continuous column the couplet lines at the observed offset are the even-numbered verse positions; line starts were confirmed against the actual page images, including page turns. Enlarged opening initials do not alter the underlying verse start. See source-page coverage in the first-pass report.",
+  "headings": {
+    "1": "Elegia IX. Tibulli mortem deflet."
+  },
+  "page_headers": {
+    "185": "AMORUM. LIB. III. 9.",
+    "186": "P. Ovidii Nasonis"
+  },
+  "footers": {},
+  "notes": [
+    {
+      "line": 65,
+      "type": "observation",
+      "text": "The visible parenthetic token “(est.” is displaced above the main line at the right edge near verse 64 and is read with verse 65 per the printed line grouping; retain it locally as printed and let the independent reader verify its attachment.",
+      "evidence": {
+        "image": "https://digitalarchive.wlu.edu/cantaloupe/iiif/2/https%3A%2F%2Fdigitalarchive.wlu.edu%2F_flysystem%2Ffedora%2F2026-10%2F72570-Service%2520File.jpg/full/full/0/default.jpg",
+        "assessment": "Full-page view of printed p. 142 (viewer 186), together with the preceding and following verse sequence, shows the token above the main line at the right edge. Characters are legible; only its line attachment is unusual."
+      }
+    }
+  ],
+  "source_pass_complete": true
+}

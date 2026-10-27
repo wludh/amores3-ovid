@@ -21,6 +21,7 @@ import xml.etree.ElementTree as ET
 ROOT = Path(__file__).resolve().parents[1]
 NS = '{http://www.tei-c.org/ns/1.0}'
 LEXICON_COMMIT = '4a12d066e5800c941e472fa5af610f156eb022f1'
+ENROLLMENT_MANIFEST = 'scripts/sources/vocabulary/tei-corpus.json'
 NORMALIZATION = 'NFD; remove combining marks; lowercase; v→u, j→i, æ→ae, œ→oe, ſ→s; lookup only'
 UNSAFE = '\ufffd'
 
@@ -103,6 +104,23 @@ def explicit_dcc_forms(headword):
             yield normalized(word)
 
 
+def enrolled_records(enrollment, live_corpus):
+    """Vocabulary enrollment is explicit; newer transcriptions do not join it."""
+    records = enrollment['records']
+    seen = set()
+    for record in records:
+        key = (record['witness'], record['poem'])
+        if key in seen or record.get('status') != 'reviewed' or not record.get('path'):
+            raise ValueError(f'Invalid vocabulary enrollment: {key}')
+        seen.add(key)
+        current = [item for item in live_corpus['records']
+                   if (item['witness'], item['poem']) == key]
+        if len(current) != 1 or any(current[0].get(field) != record.get(field)
+                                    for field in ('path', 'status')):
+            raise ValueError(f'Vocabulary enrollment changed in the live corpus: {key}')
+    return records
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--lexicon-source', required=True, type=Path, help='Pinned latincy-lexicon checkout')
@@ -128,15 +146,15 @@ def main():
             explicit_index[form].add(entry['id'])
 
     input_hashes = {'docs/data/latin-frequency.json': digest(frequency_path)}
-    corpus_path = ROOT / 'docs/data/tei-corpus.json'
-    corpus = json.loads(corpus_path.read_text())
-    input_hashes['docs/data/tei-corpus.json'] = digest(corpus_path)
+    enrollment_path = ROOT / ENROLLMENT_MANIFEST
+    enrollment = json.loads(enrollment_path.read_text())
+    live_corpus = json.loads((ROOT / 'docs/data/tei-corpus.json').read_text())
+    records = enrolled_records(enrollment, live_corpus)
+    input_hashes[ENROLLMENT_MANIFEST] = digest(enrollment_path)
     source_counts = Counter()
     glossary_forms = set()
     witness_counts = {}
-    for record in corpus['records']:
-        if record['status'] != 'reviewed' or not record.get('path'):
-            continue
+    for record in records:
         path = ROOT / 'docs' / record['path']
         input_hashes[str(path.relative_to(ROOT))] = digest(path)
         document = ET.parse(path).getroot()
@@ -224,6 +242,7 @@ def main():
             'commit': commit,
             'generator': 'scripts/build-vocabulary-lexicon.py',
             'generatorSha256': digest(Path(__file__)),
+            'enrollmentManifest': ENROLLMENT_MANIFEST,
             'grammar': ['https://dcc.dickinson.edu/grammar/latin/peculiarities', 'https://dcc.dickinson.edu/grammar/latin/deponent-verbs'],
             'policy': 'Candidate analyses must round-trip through the generated paradigm; duplicate DCC keys are filtered by part of speech. Explicit dictionary participle relations and complete printed DCC headword forms may resolve missing citation forms. Single mappings require one morphological lemma and one DCC entry. Ambiguous sets are offered only when every analyzed lemma has a DCC entry and must be displayed as possibilities together. Other ambiguous and unrecognized forms omitted. No contextual disambiguation; no inferred transcription.',
             'licenseNotice': 'scripts/sources/vocabulary/latincy-whitaker-LICENSE.txt',

@@ -1,0 +1,152 @@
+{
+  "witness": "W",
+  "poem": "3.4",
+  "author_agent": "/root/w_transcribe_a",
+  "reviewer_agent": "/root/w_review_a",
+  "reviewer": "OpenAI Codex independent w_review_a source-image reviewer",
+  "date": "2026-10-26",
+  "status": "second-pass-complete",
+  "review_type": "independent-second-agent-image-and-encoding-review",
+  "human_approved": false,
+  "line_coverage": {
+    "count": 48,
+    "ranges": [
+      {
+        "start": 1,
+        "end": 43,
+        "image": 177,
+        "printed_page": 133,
+        "page": 133,
+        "source": "https://digitalarchive.wlu.edu/cantaloupe/iiif/2/https%3A%2F%2Fdigitalarchive.wlu.edu%2F_flysystem%2Ffedora%2F2026-10%2F72560-Service%2520File.jpg/full/full/0/default.jpg"
+      },
+      {
+        "start": 44,
+        "end": 48,
+        "image": 178,
+        "printed_page": 134,
+        "page": 134,
+        "source": "https://digitalarchive.wlu.edu/cantaloupe/iiif/2/https%3A%2F%2Fdigitalarchive.wlu.edu%2F_flysystem%2Ffedora%2F2026-10%2F72561-Service%2520File.jpg/full/full/0/default.jpg"
+      }
+    ],
+    "absent_ranges": []
+  },
+  "line_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48
+  ],
+  "previous_review_note_count": 1,
+  "notes": [
+    {
+      "note_id": "W-3.4-note-1",
+      "target": "#W-3.4-l1",
+      "line": 1,
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": 133,
+        "image": "https://digitalarchive.wlu.edu/cantaloupe/iiif/2/https%3A%2F%2Fdigitalarchive.wlu.edu%2F_flysystem%2Ffedora%2F2026-10%2F72560-Service%2520File.jpg/full/full/0/default.jpg",
+        "viewer_page": 177,
+        "local_image": "/tmp/amores-wlu/176.jpg",
+        "assessment": "Independent visual inspection confirms a separately printed Elegia heading and italic descriptive title immediately before verse1. The heading is retained as source metadata; canonical poem identity follows annotations. No unsupported heading words have been supplied."
+      },
+      "change": "Confirmed or conservatively documented by independent direct source-image inspection."
+    },
+    {
+      "note_id": "W-3.4-note-opening-inset",
+      "target": "#W-3.4-l2",
+      "line": 2,
+      "previous_type": "observation",
+      "status": "resolved",
+      "evidence": {
+        "page": 133,
+        "image": "https://digitalarchive.wlu.edu/cantaloupe/iiif/2/https%3A%2F%2Fdigitalarchive.wlu.edu%2F_flysystem%2Ffedora%2F2026-10%2F72560-Service%2520File.jpg/full/full/0/default.jpg",
+        "viewer_page": 177,
+        "local_image": "/tmp/amores-wlu/176.jpg",
+        "assessment": "The two-line opening capital reserves additional horizontal space: verse 2 is about three character widths farther right than ordinary inset verse starts. Verified in full-page context and enlarged bands."
+      },
+      "change": "Confirmed or conservatively documented by independent direct source-image inspection."
+    }
+  ],
+  "counts": {
+    "resolved": 2,
+    "documented-uncertainty": 0,
+    "escalate": 0
+  },
+  "humanActions": [],
+  "validation": {
+    "rng": "tei_all-4.12.0.rng",
+    "passed": true,
+    "extantLineCount": 48,
+    "zoneCount": 48,
+    "resolved_facs_links": 48,
+    "source_order_preserved": true,
+    "changed_verse_ids": [
+      "W-3.4-l1",
+      "W-3.4-l5",
+      "W-3.4-l7",
+      "W-3.4-l11",
+      "W-3.4-l14",
+      "W-3.4-l16",
+      "W-3.4-l17",
+      "W-3.4-l21",
+      "W-3.4-l27",
+      "W-3.4-l29",
+      "W-3.4-l33",
+      "W-3.4-l39",
+      "W-3.4-l44",
+      "W-3.4-l2"
+    ],
+    "coordinate_rectangles_unchanged": true,
+    "humanReviewNotes": 0
+  },
+  "first_pass_sha256": "d7ff027b19b7f5644d867cda34470ee02b41888fd0ce3f4e072b49ae9fa6ec5c",
+  "reviewed_candidate_sha256": "a218915d2e830ec4fd8687095142f5db1c92d4347b87f0e3b43357caed313290",
+  "review_report_sha256": "99ace13e51a32fb38b3f42cff1b0faad2162fc8ce4dd46537b814d1f83711382",
+  "reviewed_xml_sha256": "967224eb1e1ef8e287361cfd0a46c00f83784b8f64c62202959aa0c818ed07a3"
+}

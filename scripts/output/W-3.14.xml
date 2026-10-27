@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="W" xml:id="W-3.14">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title>Ovid, Amores 3.14 — W, Wetstein 1751</title>
+        <author>Publius Ovidius Naso</author>
+        <respStmt xml:id="W-3.14-encoder">
+          <resp>First source-image reading and transcription</resp>
+          <name>OpenAI Codex /root/w_transcribe_c</name>
+        </respStmt>
+        <respStmt xml:id="W-3.14-xml-encoder">
+          <resp>TEI encoding of the source reader’s first-pass transcription</resp>
+          <name>OpenAI Codex /root</name>
+        </respStmt>
+      <respStmt xml:id="W-3.14-reviewer"><resp>Independent second source-image reading and TEI review of every extant verse</resp><name>OpenAI Codex /root/w_review_c</name></respStmt></titleStmt>
+      <publicationStmt>
+        <p>Amores Project working transcription, 26 October 2026; independently reviewed against the source images; not human-approved.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>P. Ovidius Naso</author>
+          <title>P. Ovidii Nasonis operum tomus primus</title>
+          <pubPlace>Amstelaedami</pubPlace>
+          <publisher>Apud J. Wetstenium</publisher>
+          <date when="1751">1751</date>
+          <biblScope unit="page" from="146" to="148">146–148</biblScope>
+          <ref target="https://digitalarchive.wlu.edu/islandora/p-ovidii-nasonis-operum-tomus-primus-volume-1">Washington and Lee University Special Collections, PA6519 .A2 1751, volume 1</ref>
+          <ref target="https://digitalarchive.wlu.edu/node/72383/manifest">Native IIIF source manifest</ref>
+          <note>One-based viewer images 190–192; printed page numbers are 44 lower. Archive page labels differ from both. The actual images, rather than another witness or uncorrected OCR, supply the readings.</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <normalization>
+          <p>Source spelling, capitalization, punctuation, written ampersands and visible accents are retained. Long s and typographic ligatures are represented by standard s and constituent letters. Letter spacing in display capitals and quotation glyph shapes may be represented schematically. No modern-edition readings are substituted.</p>
+        </normalization>
+        <segmentation>
+          <p>Each l represents one canonical verse, with stable numbering and a link to its existing image region. Source verse order and headings are retained. Couplet grouping and canonical line numbers are editorial. A displaced word may remain within its verse with its position marked.</p>
+        </segmentation>
+        <segmentation>
+          <p>Both readers checked actual full-page line starts. The regular visible insets are retained, with an additional two-character approximation at verse 2 for the enlarged initial’s exceptional opening inset. This is source layout evidence, not a rule inferred from verse parity.</p>
+        </segmentation>
+        <correction>
+          <p>Uncertain readings remain locally marked with unclear or gap. Observations and uncertainties are documented for a different source reader; ink colour alone does not establish erasure or a separate hand.</p>
+        </correction>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="reviewed">
+      <change when="2026-10-26" who="#W-3.14-encoder">First reader inspected and transcribed all 50 verses from the source images; independent source review pending.</change>
+    <change when="2026-10-26" who="#W-3.14-reviewer">Independent second source pass checked every extant verse, source heading, page furniture and full-page line starts; corrected supported readings and documented the source layout in W-3.14-second-pass.md.</change><change when="2026-10-26" who="#W-3.14-reviewer">Focused independent image reinspection of the enlarged opening initial and following letters corrected source capitalization Non to NOn; remaining opening letters and second-verse layout rechecked before resealing.</change></revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="W-3.14-p146" n="146" ulx="0" uly="0" lrx="1958" lry="2874">
+      <graphic url="https://digitalarchive.wlu.edu/cantaloupe/iiif/2/https%3A%2F%2Fdigitalarchive.wlu.edu%2F_flysystem%2Ffedora%2F2026-10%2F72573-Service%2520File.jpg/full/full/0/default.jpg"/>
+      <zone xml:id="W-3.14-zone-1" ulx="701" uly="2519" lrx="1829" lry="2659"/>
+      <zone xml:id="W-3.14-zone-2" ulx="863" uly="2579" lrx="1660" lry="2668"/>
+    </surface>
+    <surface xml:id="W-3.14-p147" n="147" ulx="0" uly="0" lrx="1786" lry="2874">
+      <graphic url="https://digitalarchive.wlu.edu/cantaloupe/iiif/2/https%3A%2F%2Fdigitalarchive.wlu.edu%2F_flysystem%2Ffedora%2F2026-10%2F72574-Service%2520File.jpg/full/full/0/default.jpg"/>
+      <zone xml:id="W-3.14-zone-3" ulx="68" uly="206" lrx="1024" lry="291"/>
+      <zone xml:id="W-3.14-zone-4" ulx="126" uly="266" lrx="995" lry="349"/>
+      <zone xml:id="W-3.14-zone-5" ulx="63" uly="315" lrx="1128" lry="402"/>
+      <zone xml:id="W-3.14-zone-6" ulx="124" uly="370" lrx="1272" lry="441"/>
+      <zone xml:id="W-3.14-zone-7" ulx="74" uly="418" lrx="1165" lry="500"/>
+      <zone xml:id="W-3.14-zone-8" ulx="120" uly="477" lrx="1036" lry="553"/>
+      <zone xml:id="W-3.14-zone-9" ulx="61" uly="525" lrx="965" lry="611"/>
+      <zone xml:id="W-3.14-zone-10" ulx="114" uly="582" lrx="985" lry="649"/>
+      <zone xml:id="W-3.14-zone-11" ulx="63" uly="630" lrx="977" lry="707"/>
+      <zone xml:id="W-3.14-zone-12" ulx="118" uly="686" lrx="895" lry="759"/>
+      <zone xml:id="W-3.14-zone-13" ulx="61" uly="734" lrx="1142" lry="821"/>
+      <zone xml:id="W-3.14-zone-14" ulx="105" uly="791" lrx="1179" lry="873"/>
+      <zone xml:id="W-3.14-zone-15" ulx="62" uly="838" lrx="1120" lry="928"/>
+      <zone xml:id="W-3.14-zone-16" ulx="112" uly="897" lrx="1009" lry="969"/>
+      <zone xml:id="W-3.14-zone-17" ulx="54" uly="946" lrx="1112" lry="1027"/>
+      <zone xml:id="W-3.14-zone-18" ulx="76" uly="998" lrx="973" lry="1084"/>
+      <zone xml:id="W-3.14-zone-19" ulx="58" uly="1050" lrx="1031" lry="1129"/>
+      <zone xml:id="W-3.14-zone-20" ulx="114" uly="1107" lrx="906" lry="1179"/>
+      <zone xml:id="W-3.14-zone-21" ulx="57" uly="1155" lrx="928" lry="1242"/>
+      <zone xml:id="W-3.14-zone-22" ulx="115" uly="1210" lrx="986" lry="1281"/>
+      <zone xml:id="W-3.14-zone-23" ulx="56" uly="1257" lrx="948" lry="1347"/>
+      <zone xml:id="W-3.14-zone-24" ulx="110" uly="1316" lrx="1048" lry="1395"/>
+      <zone xml:id="W-3.14-zone-25" ulx="49" uly="1366" lrx="998" lry="1442"/>
+      <zone xml:id="W-3.14-zone-26" ulx="103" uly="1423" lrx="948" lry="1494"/>
+      <zone xml:id="W-3.14-zone-27" ulx="18" uly="1471" lrx="1104" lry="1551"/>
+      <zone xml:id="W-3.14-zone-28" ulx="103" uly="1527" lrx="943" lry="1603"/>
+      <zone xml:id="W-3.14-zone-29" ulx="50" uly="1576" lrx="1078" lry="1653"/>
+      <zone xml:id="W-3.14-zone-30" ulx="105" uly="1631" lrx="1274" lry="1724"/>
+      <zone xml:id="W-3.14-zone-31" ulx="50" uly="1682" lrx="958" lry="1757"/>
+      <zone xml:id="W-3.14-zone-32" ulx="100" uly="1738" lrx="955" lry="1811"/>
+      <zone xml:id="W-3.14-zone-33" ulx="8" uly="1792" lrx="1064" lry="1868"/>
+      <zone xml:id="W-3.14-zone-34" ulx="96" uly="1845" lrx="1048" lry="1911"/>
+      <zone xml:id="W-3.14-zone-35" ulx="42" uly="1893" lrx="1045" lry="1975"/>
+      <zone xml:id="W-3.14-zone-36" ulx="88" uly="1949" lrx="957" lry="2019"/>
+      <zone xml:id="W-3.14-zone-37" ulx="40" uly="1997" lrx="1096" lry="2074"/>
+      <zone xml:id="W-3.14-zone-38" ulx="89" uly="2054" lrx="931" lry="2127"/>
+      <zone xml:id="W-3.14-zone-39" ulx="30" uly="2105" lrx="1243" lry="2186"/>
+      <zone xml:id="W-3.14-zone-40" ulx="85" uly="2162" lrx="1035" lry="2233"/>
+      <zone xml:id="W-3.14-zone-41" ulx="31" uly="2196" lrx="1259" lry="2296"/>
+      <zone xml:id="W-3.14-zone-42" ulx="26" uly="2265" lrx="910" lry="2332"/>
+      <zone xml:id="W-3.14-zone-43" ulx="88" uly="2322" lrx="1024" lry="2397"/>
+      <zone xml:id="W-3.14-zone-44" ulx="84" uly="2369" lrx="936" lry="2438"/>
+      <zone xml:id="W-3.14-zone-45" ulx="16" uly="2418" lrx="1080" lry="2503"/>
+      <zone xml:id="W-3.14-zone-46" ulx="85" uly="2474" lrx="919" lry="2541"/>
+      <zone xml:id="W-3.14-zone-47" ulx="14" uly="2519" lrx="1048" lry="2608"/>
+    </surface>
+    <surface xml:id="W-3.14-p148" n="148" ulx="0" uly="0" lrx="2004" lry="2860">
+      <graphic url="https://digitalarchive.wlu.edu/cantaloupe/iiif/2/https%3A%2F%2Fdigitalarchive.wlu.edu%2F_flysystem%2Ffedora%2F2026-10%2F72575-Service%2520File.jpg/full/full/0/default.jpg"/>
+      <zone xml:id="W-3.14-zone-48" ulx="795" uly="248" lrx="1761" lry="311"/>
+      <zone xml:id="W-3.14-zone-49" ulx="740" uly="300" lrx="1720" lry="367"/>
+      <zone xml:id="W-3.14-zone-50" ulx="797" uly="356" lrx="1588" lry="420"/>
+    </surface>
+  </facsimile>
+  <text xml:lang="la">
+    <body>
+      <div type="poem" n="3.14" xml:id="W-3.14-poem">
+        <lg type="couplet">
+          <pb n="146" facs="#W-3.14-p146"/>
+          <fw type="header" place="top">P. OVIDII NASONIS</fw>
+          <fw type="pageNum" place="top">146</fw>
+          <label type="source-heading">Elegia XIV. Ad amicam, si peccatura est, ut occultè peccet.</label>
+          <l n="1" xml:id="W-3.14-l1" facs="#W-3.14-zone-1">NOn ego, ne pecces, cum sis formosa, recuso;</l>
+          <l n="2" xml:id="W-3.14-l2" facs="#W-3.14-zone-2" rend="indent"><space dim="horizontal" quantity="2" unit="chars"/>Sed ne sit misero scire necesse mihi.</l>
+        <fw type="catch" place="bottom">Nec</fw></lg>
+        <lg type="couplet">
+          <pb n="147" facs="#W-3.14-p147"/>
+          <fw type="header" place="top">AMORUM. LIB. III. 14.</fw>
+          <fw type="pageNum" place="top">147</fw>
+          <l n="3" xml:id="W-3.14-l3" facs="#W-3.14-zone-3">Nec te nostra jubet fieri censura pudicam:</l>
+          <l n="4" xml:id="W-3.14-l4" facs="#W-3.14-zone-4" rend="indent">Sed, tantum tentes dissimulare, rogat.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="5" xml:id="W-3.14-l5" facs="#W-3.14-zone-5">Non peccat quaecumque potest peccasse negare:</l>
+          <l n="6" xml:id="W-3.14-l6" facs="#W-3.14-zone-6" rend="indent">Solaque deformem culpa professa facit.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="7" xml:id="W-3.14-l7" facs="#W-3.14-zone-7">Quis furor est, quae nocte latent, sub luce fateri?</l>
+          <l n="8" xml:id="W-3.14-l8" facs="#W-3.14-zone-8" rend="indent">Et quae clam facias, facta referre palam?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="9" xml:id="W-3.14-l9" facs="#W-3.14-zone-9">Ignoto meretrix corpus junctura Quiriti</l>
+          <l n="10" xml:id="W-3.14-l10" facs="#W-3.14-zone-10" rend="indent">Adpositâ populum submovet ante serâ.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="11" xml:id="W-3.14-l11" facs="#W-3.14-zone-11">Tu tua prostitues famae peccata sinistrae;</l>
+          <l n="12" xml:id="W-3.14-l12" facs="#W-3.14-zone-12" rend="indent">Commissi perages indiciumque tui?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="13" xml:id="W-3.14-l13" facs="#W-3.14-zone-13">Sit tibi mens melior, saltemve imitere pudicas;</l>
+          <l n="14" xml:id="W-3.14-l14" facs="#W-3.14-zone-14" rend="indent">Teque probam, quamvis non eris, esse putem:</l>
+        </lg>
+        <lg type="couplet">
+          <l n="15" xml:id="W-3.14-l15" facs="#W-3.14-zone-15">Quae facis, haec facito; tantum fecisse negato:</l>
+          <l n="16" xml:id="W-3.14-l16" facs="#W-3.14-zone-16" rend="indent">Nec pudeat coram verba modesta loqui.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="17" xml:id="W-3.14-l17" facs="#W-3.14-zone-17">Est qui nequitiam locus exigat. omnibus illum</l>
+          <l n="18" xml:id="W-3.14-l18" facs="#W-3.14-zone-18" rend="indent">Deliciis imple. stet procul inde pudor.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="19" xml:id="W-3.14-l19" facs="#W-3.14-zone-19">Hinc simul exieris; lascivia protinus omnis</l>
+          <l n="20" xml:id="W-3.14-l20" facs="#W-3.14-zone-20" rend="indent">Absit: &amp; in lecto crimina pone tuo.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="21" xml:id="W-3.14-l21" facs="#W-3.14-zone-21">Illic nec tunicam tibi sit posuisse rubori;</l>
+          <l n="22" xml:id="W-3.14-l22" facs="#W-3.14-zone-22" rend="indent">Nec femori impositum sustinuisse femur:</l>
+        </lg>
+        <lg type="couplet">
+          <l n="23" xml:id="W-3.14-l23" facs="#W-3.14-zone-23">Illic purpureis condatur lingua labellis;</l>
+          <l n="24" xml:id="W-3.14-l24" facs="#W-3.14-zone-24" rend="indent">Inque modos Venerem mille figuret amor.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="25" xml:id="W-3.14-l25" facs="#W-3.14-zone-25">Illic nec voces, nec verba juvantia cessent:</l>
+          <l n="26" xml:id="W-3.14-l26" facs="#W-3.14-zone-26" rend="indent">Spondaque lascivâ mobilitate tremat.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="27" xml:id="W-3.14-l27" facs="#W-3.14-zone-27">Indue cum tunicis metuentem crimina vultum:</l>
+          <l n="28" xml:id="W-3.14-l28" facs="#W-3.14-zone-28" rend="indent">Et pudor obscoenum diffiteatur opus.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="29" xml:id="W-3.14-l29" facs="#W-3.14-zone-29">Da populo, da verba mihi: sine nescius errem;</l>
+          <l n="30" xml:id="W-3.14-l30" facs="#W-3.14-zone-30" rend="indent">Et liceat stultâ credulitate frui.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="31" xml:id="W-3.14-l31" facs="#W-3.14-zone-31">Cur toties video mitti recipique tabellas?</l>
+          <l n="32" xml:id="W-3.14-l32" facs="#W-3.14-zone-32" rend="indent">Cur pressus prior est interiorque torus?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="33" xml:id="W-3.14-l33" facs="#W-3.14-zone-33">Cur plus, quam somno, turbatos esse capillos;</l>
+          <l n="34" xml:id="W-3.14-l34" facs="#W-3.14-zone-34" rend="indent">Collaque, conspicio, dentis habere notam?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="35" xml:id="W-3.14-l35" facs="#W-3.14-zone-35">Tantum non oculos crimen deducis ad ipsos.</l>
+          <l n="36" xml:id="W-3.14-l36" facs="#W-3.14-zone-36" rend="indent">Si dubitas famae parcere; parce mihi.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="37" xml:id="W-3.14-l37" facs="#W-3.14-zone-37">Mens abit, &amp; morior; quoties peccasse fateris:</l>
+          <l n="38" xml:id="W-3.14-l38" facs="#W-3.14-zone-38" rend="indent">Perque meos artus frigida gutta fluit.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="39" xml:id="W-3.14-l39" facs="#W-3.14-zone-39">Tunc amo: tunc odi frustra, quod amare necesse est.</l>
+          <l n="40" xml:id="W-3.14-l40" facs="#W-3.14-zone-40" rend="indent">Tunc ego, sed tecum, mortuus esse velim.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="41" xml:id="W-3.14-l41" facs="#W-3.14-zone-41">Nil equidem inquiram; nec, quae celare parabis,</l>
+          <l n="42" xml:id="W-3.14-l42" facs="#W-3.14-zone-42" rend="indent">Insequar: &amp; falsi criminis instar erit.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="43" xml:id="W-3.14-l43" facs="#W-3.14-zone-43">Si tamen in mediâ deprensa tenebere culpâ,</l>
+          <l n="44" xml:id="W-3.14-l44" facs="#W-3.14-zone-44" rend="indent">Et fuerint oculis probra videnda meis;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="45" xml:id="W-3.14-l45" facs="#W-3.14-zone-45">Quae bene visâ mihi fuerint, bene visa negato.</l>
+          <l n="46" xml:id="W-3.14-l46" facs="#W-3.14-zone-46" rend="indent">Concedent verbis lumina nostra tuis.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="47" xml:id="W-3.14-l47" facs="#W-3.14-zone-47">Prona tibi vinci cupientem vincere palma est.</l>
+          <fw type="catch" place="bottom">Sit</fw><fw type="signature" place="bottom">K 2</fw><pb n="148" facs="#W-3.14-p148"/>
+          <fw type="header" place="top">P. OVIDII NASONIS</fw>
+          <fw type="pageNum" place="top">148</fw>
+          <l n="48" xml:id="W-3.14-l48" facs="#W-3.14-zone-48" rend="indent">Sit modo, Non feci, dicere lingua memor.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="49" xml:id="W-3.14-l49" facs="#W-3.14-zone-49">Cum tibi contingat verbis superare duobus;</l>
+          <l n="50" xml:id="W-3.14-l50" facs="#W-3.14-zone-50" rend="indent">Et si non causâ, judice vince tuo.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

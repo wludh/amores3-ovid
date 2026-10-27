@@ -20,12 +20,17 @@ function runtime(index) {
 test('only reviewed corpus candidates replace legacy witness files', async () => {
   const index = { records: [
     { witness: 'Y', poem: '3.1', status: 'reviewed', path: 'data/tei/Y/3.1.xml' },
-    { witness: 'Y', poem: '3.2', status: 'in-review', path: 'unreviewed.xml' }
+    { witness: 'Y', poem: '3.2', status: 'in-review', path: 'unreviewed.xml' },
+    { witness: 'W', poem: '3.1', status: 'reviewed', path: 'data/tei/W/3.1.xml' },
+    { witness: 'W', poem: '3.2', status: 'in-review', path: 'unreviewed-W.xml' }
   ] };
   const { context, calls } = runtime(index);
   assert.equal(await vm.runInContext("resolveWitnessFile('Y', '3.1')", context), 'data/tei/Y/3.1.xml');
   assert.equal(await vm.runInContext("resolveWitnessFile('Y', '3.2')", context), 'data/witness-Y.xml');
   assert.equal(await vm.runInContext("resolveWitnessFile('P', '3.3')", context), 'data/witness-P.xml');
+  assert.equal(await vm.runInContext("resolveWitnessFile('W', '3.1')", context), 'data/tei/W/3.1.xml');
+  assert.equal(await vm.runInContext("resolveWitnessFile('W', '3.2')", context), null);
+  assert.equal(await vm.runInContext("resolveWitnessFile('W', '3.3')", context), null);
   assert.equal(calls.length, 1);
 });
 

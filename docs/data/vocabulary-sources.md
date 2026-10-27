@@ -20,7 +20,9 @@ Two restrictions prevent known analyzer overgeneration. [Allen and Greenough §1
 
 A single mapping requires one viable lexical lemma and one DCC entry. If every remaining candidate belongs to DCC but more than one entry remains, `ambiguousForms` preserves the candidate set for contextual review. For example, the unreviewed lookup for *est* contains both *sum* and *edo*. This morphological agreement alone does not establish the correct lemma or sense in a verse. The contextual review below must resolve or suppress the proposed entry before it reaches the reader.
 
-Readable source forms are collected from all existing reviewed poem–witness files. A word touching an abbreviation, uncertainty, glyph, gap, deletion, source mark, or supplied text is omitted from automatic lookup. The dictionary also analyzes the initial forms of existing glossary headwords for core-list classification. Editorial notes and other non-verse prose never supply vocabulary tokens. Source choices use their written `abbr`/`orig`/`sic` branch, and unsafe written abbreviations remain excluded.
+Readable source forms are collected only from the 75 explicitly enrolled P, Y, S, O, and LL poem–witness files in `scripts/sources/vocabulary/tei-corpus.json`. This is the exact corpus snapshot used for the lexical review, preserved from commit `6f80458`. The builder verifies that each enrolled witness/poem still has the same path and reviewed status in the live corpus. Additive live records do not enter the lookup: the newly transcribed W witness remains available as text, but its vocabulary needs its own contextual review. Enrollment, transcription review, and contextual vocabulary review are separate checks.
+
+A word touching an abbreviation, uncertainty, glyph, gap, deletion, source mark, or supplied text is omitted from automatic lookup. The dictionary also analyzes the initial forms of existing glossary headwords for core-list classification. Editorial notes and other non-verse prose never supply vocabulary tokens. Source choices use their written `abbr`/`orig`/`sic` branch, and unsafe written abbreviations remain excluded.
 
 ## Contextual vocabulary review
 
@@ -30,9 +32,11 @@ The per-poem JSON files in `vocabulary-review/` record OpenAI Codex's review of 
 
 Legacy errors are corrected in this overlay, preserving the original glossary files for comparison. A contextual homograph can explicitly be marked noncore even when another sense shares a DCC headword: the interjection *ā* does not inherit the frequency rank of the preposition *ā*. Unsupported word matches and irrecoverable reading uncertainty are suppressed. An entry without a matching witness-specific decision is not displayed.
 
-Each review binds SHA-256 hashes of the witness XML, original poem glossary, DCC frequency data, and morphology lookup. The browser checks these hashes before applying the review. `test/vocabulary-review.test.mjs` regenerates candidate coverage from the actual TEI, checks every disposition and evidence quotation, rejects duplicates and missing decisions, and verifies that the default excludes DCC core words. These automated checks verify review coverage and integrity; they do not perform the contextual reading themselves.
+Each review binds SHA-256 hashes of the witness XML, original poem glossary, DCC frequency data, and morphology lookup. The browser checks these hashes before applying the review. `test/vocabulary-review.test.mjs` regenerates candidate coverage from every enrolled TEI, checks every disposition and evidence quotation, rejects duplicates and missing decisions, and verifies that the default excludes DCC core words. Separate tests read every newer live witness and require zero vocabulary entries, including at maximum help, until it is explicitly enrolled and reviewed. These automated checks verify review coverage and integrity; they do not perform the contextual reading themselves.
 
 After changing a bound input, inspect the changed vocabulary against the affected witness text, update the review evidence and dispositions, and rerun the tests. Rebuilding the morphology artifact alone does not renew a contextual review or a TEI transcription seal.
+
+The release integration moved the original corpus input to the enrollment snapshot without changing its bytes. A complete rebuild was checked for exact equality of normalization, forms, ambiguous forms, excluded analyses, and coverage statistics. Only the morphology provenance changed, so only its derived `formsSha256` binding was updated in existing contextual reviews; no review decision or source binding was rewritten. The equality evidence and scope rationale are recorded in `scripts/output/vocabulary-release-integration.md`.
 
 ## Rebuilding
 
@@ -45,4 +49,4 @@ python3.11 scripts/build-vocabulary-lexicon.py --lexicon-source /tmp/amores-lati
 npm test
 ```
 
-Rebuild the DCC data first if its source CSV changes. The generated artifact records SHA-256 digests for the generator, dictionary files, frequency dataset, corpus index, every input transcription, and every existing glossary. The tests detect stale inputs. The process writes only `vocabulary-forms.json`; it does not transcribe text, alter the scholarly glossary, modify annotation rectangles, or reseal a TEI review.
+Rebuild the DCC data first if its source CSV changes. The generated artifact records SHA-256 digests for the generator, dictionary files, frequency dataset, explicit corpus enrollment snapshot, every input transcription, and every existing glossary. The tests detect stale inputs and changed live enrollment records while allowing additional witnesses outside vocabulary scope. The process writes only `vocabulary-forms.json`; it does not transcribe text, alter the scholarly glossary, modify annotation rectangles, or reseal a TEI review.

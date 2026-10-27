@@ -69,6 +69,7 @@ body.dark-mode .tei-edition {
 .text-content .tei-edition tei-hi[rend~="smaller-script"] { font-size: .8em; }
 .text-content .tei-edition tei-hi[rend~="darker-ink"], .tei-edition tei-add { color: var(--later-ink); font-weight: 500; }
 .tei-edition tei-seg[type="word"] { display: inline-block; }
+.tei-edition[data-witness="W"] tei-seg[type="displaced"][rend~="above"][rend~="right"] { position: relative; top: -1.2em; }
 .tei-edition .interlinear { position: relative; display: inline-block; width: 0; overflow: visible; vertical-align: baseline; }
 .tei-edition .interlinear > .addition-text { position: absolute; bottom: .6em; left: -.05em; white-space: nowrap; font-size: .7em; line-height: 1; }
 .tei-edition .interlinear[place="below"] > .addition-text { bottom: -.65em; }
@@ -89,11 +90,11 @@ body.dark-mode .tei-edition {
 .tei-edition tei-head { display: block; margin: .5rem 0 0 2.3rem; font-weight: 500; }
 .tei-edition .inline-gap { font-size: .85em; color: var(--quiet); }
 .tei-edition tei-gap > tei-desc { display: none; }
-.tei-edition[data-witness="O"], .tei-edition[data-witness="LL"] { --paper: #fff; --ink: #30333b; }
-body.dark-mode .tei-edition[data-witness="O"], body.dark-mode .tei-edition[data-witness="LL"] { --paper: #262723; --ink: #e7d6b5; }
+.tei-edition[data-witness="O"], .tei-edition[data-witness="W"], .tei-edition[data-witness="LL"] { --paper: #fff; --ink: #30333b; }
+body.dark-mode .tei-edition[data-witness="O"], body.dark-mode .tei-edition[data-witness="W"], body.dark-mode .tei-edition[data-witness="LL"] { --paper: #262723; --ink: #e7d6b5; }
 #panels section.collapsed > .panel-body { display: none !important; }
 @media (min-width: 901px) {
-  #panels section.collapsed { flex: 0 0 38px !important; width: 38px !important; min-width: 38px; }
+  #panels section.collapsed { flex: 0 0 80px !important; width: 80px !important; min-width: 80px; }
   #panels section.collapsed .panel-header { padding: .75rem .25rem; justify-content: center; }
   #panels section.collapsed .panel-type-select, #panels section.collapsed .drag-handle { display: none; }
 }

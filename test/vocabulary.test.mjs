@@ -121,7 +121,7 @@ test('every published vocabulary entry survives parsing without rewritten schola
 });
 
 test('witness choices only offer reviewed poem-specific sources with actual TEI paths', () => {
-  assert.deepEqual(Vocabulary.reviewedWitnesses(corpus, '3.1').map(record => record.witness), ['P', 'Y', 'S', 'O', 'LL']);
+  assert.deepEqual(Vocabulary.reviewedWitnesses(corpus, '3.1').map(record => record.witness), ['P', 'Y', 'S', 'O', 'LL', 'W']);
   assert.deepEqual(Vocabulary.reviewedWitnesses({ records: [
     { poem: '3.1', witness: 'P', status: 'pending', path: 'candidate.xml' },
     { poem: '3.1', witness: 'W', status: 'reviewed' },
