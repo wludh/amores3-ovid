@@ -1,0 +1,19 @@
+{
+  "title": "A Latin Dictionary",
+  "authors": [
+    "Charlton T. Lewis",
+    "Charles Short"
+  ],
+  "edition": "Oxford: Clarendon Press, 1879",
+  "digitalEdition": "Perseus Digital Library, Tufts University; machine-readable edition, 1997-10-28",
+  "projectUrl": "https://www.perseus.tufts.edu/",
+  "sourceUrl": "https://github.com/PerseusDL/lexica/blob/master/CTS_XML_TEI/perseus/pdllex/lat/ls/lat.ls.perseus-eng2.xml",
+  "downloadUrl": "https://raw.githubusercontent.com/PerseusDL/lexica/master/CTS_XML_TEI/perseus/pdllex/lat/ls/lat.ls.perseus-eng2.xml",
+  "retrieved": "2026-10-26",
+  "sha256": "933ba8fde0ef06823f69a130c95ba6f345ece3cb1603514b17972d1edd421d32",
+  "license": {
+    "name": "CC BY-SA 4.0 (Perseus digital edition)",
+    "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "use": "Consulted for contextual vocabulary corrections. Source quotations, dictionary entry URLs and dispositions are recorded per verse in docs/data/vocabulary-review/. No edits were made to the Perseus dictionary."
+}

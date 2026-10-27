@@ -1,0 +1,2569 @@
+{
+  "version": 1,
+  "poem": "3.15",
+  "inputs": {
+    "teiByWitnessSha256": {
+      "P": "9a3e695c20b4bf23c177f874e15bf995ff53ad7a0b04cb89957f00227b24c4fe",
+      "Y": "2ba80423164348eda7b6f6f72ba419fae371730ff3c3d7d5fdfc0d695f065ac1",
+      "S": "7f088232b6e831c942cef91d1cd660a51c3ba60b5ae3732976b062a9cb08c43c",
+      "O": "5cffe789cc96680a9a6ac50bcb1fbd7163f5121018b00a40ce833d55b4c94443",
+      "LL": "dd475e3e069890bbcc5a3d06795f25a641e3833c1e1c3fb7895950817637da7e"
+    },
+    "glossarySha256": "cbeabf251bba9db8feeb6aa6c14522cb99afc30c4cd9c8a63dc7e9c36f8aeccd",
+    "frequencySha256": "0071be2a4271288610d8217144819e5177dcca1235b78b41f6d97693b59e04f7",
+    "formsSha256": "a0166f81bf1d784c27bf4c358a5d7aedd46c4dc774ef954683d14fba917ea15f"
+  },
+  "reviewer": "Contextual lexical review: Codex vocabulary data agent",
+  "reviewedAt": "2026-10-26",
+  "coverage": {
+    "byWitness": {
+      "P": {
+        "extantLines": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "reviewedEntryIds": [
+          "dictionary:1:tenerorum",
+          "dictionary:5:est",
+          "dictionary:5:si",
+          "dictionary:6:eques",
+          "dictionary:6:factus",
+          "dictionary:6:non",
+          "dictionary:7:gaudet",
+          "legacy:2:0",
+          "legacy:2:1",
+          "legacy:2:2",
+          "legacy:2:3",
+          "legacy:3:0",
+          "legacy:4:0",
+          "legacy:5:0",
+          "legacy:5:1",
+          "legacy:6:0"
+        ]
+      },
+      "Y": {
+        "extantLines": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20"
+        ],
+        "reviewedEntryIds": [
+          "dictionary:10:cum",
+          "dictionary:10:manus",
+          "dictionary:10:timuit",
+          "dictionary:11:atque",
+          "dictionary:12:tenent",
+          "dictionary:13:ferre",
+          "dictionary:13:poetam",
+          "dictionary:13:potuistis",
+          "dictionary:13:tantum",
+          "dictionary:14:ego",
+          "dictionary:14:estis",
+          "dictionary:14:magna",
+          "dictionary:14:uoco",
+          "dictionary:15:parens",
+          "dictionary:15:puer",
+          "dictionary:16:campo",
+          "dictionary:16:de",
+          "dictionary:18:est",
+          "dictionary:18:magnis",
+          "dictionary:1:mater",
+          "dictionary:1:nouum",
+          "dictionary:1:quaere",
+          "dictionary:1:tenerorum",
+          "dictionary:20:fata",
+          "dictionary:20:opus",
+          "dictionary:20:post",
+          "dictionary:2:haec",
+          "dictionary:2:traditur",
+          "dictionary:3:composui",
+          "dictionary:3:ego",
+          "dictionary:3:ruris",
+          "dictionary:4:me",
+          "dictionary:4:meae",
+          "dictionary:4:nec",
+          "dictionary:5:a",
+          "dictionary:5:est",
+          "dictionary:5:ordinis",
+          "dictionary:5:si",
+          "dictionary:5:uetus",
+          "dictionary:5:usque",
+          "dictionary:6:eques",
+          "dictionary:6:factus",
+          "dictionary:6:modo",
+          "dictionary:6:non",
+          "dictionary:8:dicar",
+          "dictionary:8:ego",
+          "dictionary:8:gentis",
+          "dictionary:8:gloria",
+          "dictionary:9:ad",
+          "legacy:10:0",
+          "legacy:11:0",
+          "legacy:11:1",
+          "legacy:12:0",
+          "legacy:12:1",
+          "legacy:14:0",
+          "legacy:15:0",
+          "legacy:16:0",
+          "legacy:16:1",
+          "legacy:16:2",
+          "legacy:16:3",
+          "legacy:17:0",
+          "legacy:17:1",
+          "legacy:17:2",
+          "legacy:17:3",
+          "legacy:18:0",
+          "legacy:18:1",
+          "legacy:19:0",
+          "legacy:19:1",
+          "legacy:19:2",
+          "legacy:19:3",
+          "legacy:20:0",
+          "legacy:20:1",
+          "legacy:2:0",
+          "legacy:2:1",
+          "legacy:2:2",
+          "legacy:2:3",
+          "legacy:3:0",
+          "legacy:4:0",
+          "legacy:5:0",
+          "legacy:5:1",
+          "legacy:6:0"
+        ]
+      },
+      "S": {
+        "extantLines": [],
+        "reviewedEntryIds": []
+      },
+      "O": {
+        "extantLines": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20"
+        ],
+        "reviewedEntryIds": [
+          "dictionary:10:cum",
+          "dictionary:10:manus",
+          "dictionary:10:timuit",
+          "dictionary:11:atque",
+          "dictionary:11:hospes",
+          "dictionary:12:campi",
+          "dictionary:12:tenent",
+          "dictionary:13:dicat",
+          "dictionary:13:ferre",
+          "dictionary:13:poetam",
+          "dictionary:13:potuistis",
+          "dictionary:13:tantum",
+          "dictionary:14:ego",
+          "dictionary:14:estis",
+          "dictionary:14:magna",
+          "dictionary:14:uoco",
+          "dictionary:14:uos",
+          "dictionary:15:parens",
+          "dictionary:15:puer",
+          "dictionary:16:campo",
+          "dictionary:16:de",
+          "dictionary:18:magnis",
+          "dictionary:1:mater",
+          "dictionary:1:nouum",
+          "dictionary:1:quaere",
+          "dictionary:1:tenerorum",
+          "dictionary:20:fata",
+          "dictionary:20:opus",
+          "dictionary:20:post",
+          "dictionary:2:hic",
+          "dictionary:3:ego",
+          "dictionary:3:ruris",
+          "dictionary:4:me",
+          "dictionary:4:meae",
+          "dictionary:4:nec",
+          "dictionary:5:a",
+          "dictionary:5:est",
+          "dictionary:5:ordinis",
+          "dictionary:5:uetus",
+          "dictionary:5:usque",
+          "dictionary:6:eques",
+          "dictionary:6:factus",
+          "dictionary:6:modo",
+          "dictionary:6:non",
+          "dictionary:7:gaudet",
+          "dictionary:8:dicar",
+          "dictionary:8:ego",
+          "dictionary:8:gentis",
+          "dictionary:8:gloria",
+          "dictionary:9:ad",
+          "dictionary:9:coegerat",
+          "legacy:10:0",
+          "legacy:11:0",
+          "legacy:11:1",
+          "legacy:12:0",
+          "legacy:12:1",
+          "legacy:14:0",
+          "legacy:15:0",
+          "legacy:16:0",
+          "legacy:16:1",
+          "legacy:16:2",
+          "legacy:16:3",
+          "legacy:17:0",
+          "legacy:17:1",
+          "legacy:17:2",
+          "legacy:17:3",
+          "legacy:18:0",
+          "legacy:18:1",
+          "legacy:19:0",
+          "legacy:19:1",
+          "legacy:19:2",
+          "legacy:19:3",
+          "legacy:20:0",
+          "legacy:20:1",
+          "legacy:2:0",
+          "legacy:2:1",
+          "legacy:2:2",
+          "legacy:2:3",
+          "legacy:3:0",
+          "legacy:4:0",
+          "legacy:5:0",
+          "legacy:5:1",
+          "legacy:6:0"
+        ]
+      },
+      "LL": {
+        "extantLines": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20"
+        ],
+        "reviewedEntryIds": [
+          "dictionary:10:cum",
+          "dictionary:10:manus",
+          "dictionary:10:timuit",
+          "dictionary:11:atque",
+          "dictionary:11:hospes",
+          "dictionary:12:campi",
+          "dictionary:12:tenent",
+          "dictionary:13:dicat",
+          "dictionary:13:ferre",
+          "dictionary:13:poetam",
+          "dictionary:13:potuistis",
+          "dictionary:13:tantum",
+          "dictionary:14:ego",
+          "dictionary:14:estis",
+          "dictionary:14:magna",
+          "dictionary:14:uoco",
+          "dictionary:14:uos",
+          "dictionary:15:parens",
+          "dictionary:15:puer",
+          "dictionary:16:campo",
+          "dictionary:16:de",
+          "dictionary:18:est",
+          "dictionary:18:magnis",
+          "dictionary:1:mater",
+          "dictionary:1:nouum",
+          "dictionary:1:quaere",
+          "dictionary:1:tenerorum",
+          "dictionary:20:fata",
+          "dictionary:20:opus",
+          "dictionary:20:post",
+          "dictionary:2:hic",
+          "dictionary:3:ego",
+          "dictionary:3:ruris",
+          "dictionary:4:me",
+          "dictionary:4:meae",
+          "dictionary:4:nec",
+          "dictionary:5:a",
+          "dictionary:5:est",
+          "dictionary:5:ordinis",
+          "dictionary:5:uetus",
+          "dictionary:5:usque",
+          "dictionary:6:eques",
+          "dictionary:6:factus",
+          "dictionary:6:modo",
+          "dictionary:6:non",
+          "dictionary:7:gaudet",
+          "dictionary:8:dicar",
+          "dictionary:8:ego",
+          "dictionary:8:gentis",
+          "dictionary:8:gloria",
+          "dictionary:9:ad",
+          "dictionary:9:coegerat",
+          "legacy:10:0",
+          "legacy:11:0",
+          "legacy:11:1",
+          "legacy:12:0",
+          "legacy:12:1",
+          "legacy:14:0",
+          "legacy:15:0",
+          "legacy:16:0",
+          "legacy:16:1",
+          "legacy:16:2",
+          "legacy:16:3",
+          "legacy:17:0",
+          "legacy:17:1",
+          "legacy:17:2",
+          "legacy:17:3",
+          "legacy:18:0",
+          "legacy:18:1",
+          "legacy:19:0",
+          "legacy:19:1",
+          "legacy:19:2",
+          "legacy:19:3",
+          "legacy:20:0",
+          "legacy:20:1",
+          "legacy:2:0",
+          "legacy:2:1",
+          "legacy:2:2",
+          "legacy:2:3",
+          "legacy:3:0",
+          "legacy:4:0",
+          "legacy:5:0",
+          "legacy:5:1",
+          "legacy:6:0"
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "id": "dictionary:1:tenerorum",
+      "kind": "source-form",
+      "line": "1",
+      "form": "tenerorum",
+      "action": "confirm",
+      "dccId": "dcc-tener-490",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "P",
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "P": "Q[uere nouum uatem?] tenerorum [mater amorum?]",
+          "Y": "Quaere nouum uatem tenerorum mater amorum",
+          "O": "Quaere novum vatem, tenerorum mater Amorum:",
+          "LL": "Quaere novum vatem, tenerorum mater Amorum!"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:2:0",
+      "kind": "legacy-entry",
+      "line": "2",
+      "raw": "rādō, rādere, rāsī, rāsum: to scrape, shave, scratch, to rub",
+      "action": "suppress",
+      "reason": "This witness has no secure matching occurrence for this glossary entry: its relevant wording is absent, different, abbreviated, interrupted by a mark, or locally uncertain. Raditur is the passive of rādo in the turning-post metaphor; the Y reading Traditur is different and P marks this word uncertain.",
+      "witnesses": [
+        "P",
+        "Y"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "P": "[Raditur hic elegis?] ultima meta meis",
+          "Y": "Traditur haec elegis ultima meta meis"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:2:1",
+      "kind": "legacy-entry",
+      "line": "2",
+      "raw": "pl, elegōrum: elegiac verses",
+      "action": "suppress",
+      "reason": "This witness has no secure matching occurrence for this glossary entry: its relevant wording is absent, different, abbreviated, interrupted by a mark, or locally uncertain. Elegis is the plural of elegi, not a missing-lemma placeholder.",
+      "witnesses": [
+        "P"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "P": "[Raditur hic elegis?] ultima meta meis"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:2:2",
+      "kind": "legacy-entry",
+      "line": "2",
+      "raw": "ulter, ultra, ultrum: that is beyond",
+      "action": "replace",
+      "reason": "Ultima modifies meta; ulter is not the dictionary headword for this superlative.",
+      "dccId": "dcc-ultimus-432",
+      "headword": "ultimus, ultima, ultimum",
+      "definition": "last; final",
+      "witnesses": [
+        "P",
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "P": "[Raditur hic elegis?] ultima meta meis",
+          "Y": "Traditur haec elegis ultima meta meis",
+          "O": "Raditur hic elegis ultima meta meis;",
+          "LL": "raditur hic elegis ultima meta meis;"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/ultimus",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "legacy:2:3",
+      "kind": "legacy-entry",
+      "line": "2",
+      "raw": "mēta, mētae f.: cone, pyramid, turning point, winning post ( pillar at each end of the Circus route",
+      "action": "replace",
+      "reason": "Meta is the goal/turning-post in the racing metaphor; remove the truncated imported wording.",
+      "dccId": null,
+      "headword": "meta, metae f.",
+      "definition": "turning-post; goal; limit",
+      "witnesses": [
+        "P",
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "P": "[Raditur hic elegis?] ultima meta meis",
+          "Y": "Traditur haec elegis ultima meta meis",
+          "O": "Raditur hic elegis ultima meta meis;",
+          "LL": "raditur hic elegis ultima meta meis;"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/meta"
+        ]
+      }
+    },
+    {
+      "id": "legacy:3:0",
+      "kind": "legacy-entry",
+      "line": "3",
+      "raw": "alumnus, alumna, alumnum: nourished, fostered, etc",
+      "action": "suppress",
+      "reason": "This witness has no secure matching occurrence for this glossary entry: its relevant wording is absent, different, abbreviated, interrupted by a mark, or locally uncertain. Alumnus is used as a noun of the Paelignian countryside; Y transmits alumnos. P does not preserve this word securely.",
+      "witnesses": [
+        "P"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "P": "[Quos ego conposui?] […] [natus aquosis?]"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:4:0",
+      "kind": "legacy-entry",
+      "line": "4",
+      "raw": "pl, dēliciārum: delight, pleasure ( an activity which affords enjoyment ) dēliciās facere to, to have fun ( also in, luxuries",
+      "action": "suppress",
+      "reason": "This witness has no secure matching occurrence for this glossary entry: its relevant wording is absent, different, abbreviated, interrupted by a mark, or locally uncertain. Deliciae refers to the poet’s pleasures, not an unidentified plural heading.",
+      "witnesses": [
+        "P"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "P": "[Ille ego?] […] [naso poeta mee?]"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:5:0",
+      "kind": "legacy-entry",
+      "line": "5",
+      "raw": "sīquis, sīquis, sīque: if any, if anyone",
+      "action": "replace",
+      "reason": "Siquid / si quid is the conditional phrase “if anything”; the imported paradigm is malformed.",
+      "dccId": "dcc-si-16",
+      "headword": "si quid",
+      "definition": "if anything",
+      "witnesses": [
+        "P",
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "P": "Si quid id est [usque a proauis?] […]",
+          "Y": "Si quid id est usque a proauis uetus ordinis heres",
+          "O": "Siquid id est, usque a proavis vetus ordinis heres,",
+          "LL": "siquid id est, usque a proavis vetus ordinis heres,"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/si",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "legacy:5:1",
+      "kind": "legacy-entry",
+      "line": "5",
+      "raw": "proavus, proavī m.: great-grandfather, forefather, ancestor",
+      "action": "suppress",
+      "reason": "This witness has no secure matching occurrence for this glossary entry: its relevant wording is absent, different, abbreviated, interrupted by a mark, or locally uncertain. Proavis is the ablative plural of proavus; P marks the phrase uncertain.",
+      "witnesses": [
+        "P"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "P": "Si quid id est [usque a proauis?] […]"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:5:si",
+      "kind": "source-form",
+      "line": "5",
+      "form": "si",
+      "action": "confirm",
+      "dccId": "dcc-si-16",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "P",
+        "Y"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "P": "Si quid id est [usque a proauis?] […]",
+          "Y": "Si quid id est usque a proauis uetus ordinis heres"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:5:est",
+      "kind": "source-form",
+      "line": "5",
+      "form": "est",
+      "action": "replace",
+      "reason": "Est is the copula in si quid id est.",
+      "dccId": "dcc-sum-2",
+      "witnesses": [
+        "P",
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "P": "Si quid id est [usque a proauis?] […]",
+          "Y": "Si quid id est usque a proauis uetus ordinis heres",
+          "O": "Siquid id est, usque a proavis vetus ordinis heres,",
+          "LL": "siquid id est, usque a proavis vetus ordinis heres,"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/sum",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "legacy:6:0",
+      "kind": "legacy-entry",
+      "line": "6",
+      "raw": "mīlitia, mīlitiae f.: military service, the military, army, soldiery",
+      "action": "suppress",
+      "reason": "This witness has no secure matching occurrence for this glossary entry: its relevant wording is absent, different, abbreviated, interrupted by a mark, or locally uncertain. Militiae is the genitive of militia; the word is missing in P.",
+      "witnesses": [
+        "P"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "P": "Non […] [turbine?] factus eques"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:6:non",
+      "kind": "source-form",
+      "line": "6",
+      "form": "non",
+      "action": "confirm",
+      "dccId": "dcc-non-6",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "P",
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "P": "Non […] [turbine?] factus eques",
+          "Y": "Non modo militiae turbine factus eques",
+          "O": "Non modo militiae turbine factus eques.",
+          "LL": "non modo militiae turbine factus eques."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:6:factus",
+      "kind": "source-form",
+      "line": "6",
+      "form": "factus",
+      "action": "replace",
+      "reason": "Factus is the perfect passive participle “made” with eques.",
+      "dccId": "dcc-facio-32",
+      "witnesses": [
+        "P",
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "P": "Non […] [turbine?] factus eques",
+          "Y": "Non modo militiae turbine factus eques",
+          "O": "Non modo militiae turbine factus eques.",
+          "LL": "non modo militiae turbine factus eques."
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/facio",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:6:eques",
+      "kind": "source-form",
+      "line": "6",
+      "form": "eques",
+      "action": "confirm",
+      "dccId": "dcc-eques-296",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "P",
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "P": "Non […] [turbine?] factus eques",
+          "Y": "Non modo militiae turbine factus eques",
+          "O": "Non modo militiae turbine factus eques.",
+          "LL": "non modo militiae turbine factus eques."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:7:gaudet",
+      "kind": "source-form",
+      "line": "7",
+      "form": "gaudet",
+      "action": "confirm",
+      "dccId": "dcc-gaudeo-407",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "P",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "P": "[Mantua?] uirgilio gaudet [uerona catullo?]",
+          "O": "Mantua Vergilio, gaudet Verona Catullo;",
+          "LL": "Mantua Vergilio, gaudet Verona Catullo;"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:1:quaere",
+      "kind": "source-form",
+      "line": "1",
+      "form": "quaere",
+      "action": "confirm",
+      "dccId": "dcc-quaero-113",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Quaere nouum uatem tenerorum mater amorum",
+          "O": "Quaere novum vatem, tenerorum mater Amorum:",
+          "LL": "Quaere novum vatem, tenerorum mater Amorum!"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:1:nouum",
+      "kind": "source-form",
+      "line": "1",
+      "form": "nouum",
+      "action": "confirm",
+      "dccId": "dcc-novus-139",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Quaere nouum uatem tenerorum mater amorum",
+          "O": "Quaere novum vatem, tenerorum mater Amorum:",
+          "LL": "Quaere novum vatem, tenerorum mater Amorum!"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:1:mater",
+      "kind": "source-form",
+      "line": "1",
+      "form": "mater",
+      "action": "confirm",
+      "dccId": "dcc-mater-127",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Quaere nouum uatem tenerorum mater amorum",
+          "O": "Quaere novum vatem, tenerorum mater Amorum:",
+          "LL": "Quaere novum vatem, tenerorum mater Amorum!"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:2:1",
+      "kind": "legacy-entry",
+      "line": "2",
+      "raw": "pl, elegōrum: elegiac verses",
+      "action": "replace",
+      "reason": "Elegis is the plural of elegi, not a missing-lemma placeholder.",
+      "dccId": null,
+      "headword": "elegi, elegorum m. pl.",
+      "definition": "elegiac verses; elegies",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Traditur haec elegis ultima meta meis",
+          "O": "Raditur hic elegis ultima meta meis;",
+          "LL": "raditur hic elegis ultima meta meis;"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/elegi"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:2:traditur",
+      "kind": "source-form",
+      "line": "2",
+      "form": "traditur",
+      "action": "confirm",
+      "dccId": "dcc-trado-297",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Traditur haec elegis ultima meta meis"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:2:haec",
+      "kind": "source-form",
+      "line": "2",
+      "form": "haec",
+      "action": "confirm",
+      "dccId": "dcc-hic-7",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Traditur haec elegis ultima meta meis"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:3:0",
+      "kind": "legacy-entry",
+      "line": "3",
+      "raw": "alumnus, alumna, alumnum: nourished, fostered, etc",
+      "action": "replace",
+      "reason": "Alumnus is used as a noun of the Paelignian countryside; Y transmits alumnos. P does not preserve this word securely.",
+      "dccId": null,
+      "headword": "alumnus, alumni m.",
+      "definition": "foster-child; native son",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Quos ego composui peligni ruris alumnos",
+          "O": "Quos ego conposui, Paeligni ruris alumnus,",
+          "LL": "quos ego conposui, Paeligni ruris alumnus —"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/alumnus"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:3:ego",
+      "kind": "source-form",
+      "line": "3",
+      "form": "ego",
+      "action": "confirm",
+      "dccId": "dcc-ego-11",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Quos ego composui peligni ruris alumnos",
+          "O": "Quos ego conposui, Paeligni ruris alumnus,",
+          "LL": "quos ego conposui, Paeligni ruris alumnus —"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:3:composui",
+      "kind": "source-form",
+      "line": "3",
+      "form": "composui",
+      "action": "confirm",
+      "dccId": "dcc-compono-443",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Quos ego composui peligni ruris alumnos"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:3:ruris",
+      "kind": "source-form",
+      "line": "3",
+      "form": "ruris",
+      "action": "confirm",
+      "dccId": "dcc-rus-879",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Quos ego composui peligni ruris alumnos",
+          "O": "Quos ego conposui, Paeligni ruris alumnus,",
+          "LL": "quos ego conposui, Paeligni ruris alumnus —"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:4:0",
+      "kind": "legacy-entry",
+      "line": "4",
+      "raw": "pl, dēliciārum: delight, pleasure ( an activity which affords enjoyment ) dēliciās facere to, to have fun ( also in, luxuries",
+      "action": "replace",
+      "reason": "Deliciae refers to the poet’s pleasures, not an unidentified plural heading.",
+      "dccId": null,
+      "headword": "deliciae, deliciarum f. pl.",
+      "definition": "pleasures; delights; favorite amusements",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Nec me deliciae dedecuere meae",
+          "O": "(Nec me deliciae dedecuere meae)",
+          "LL": "nec me deliciae dedecuere meae —"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/deliciae"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:4:nec",
+      "kind": "source-form",
+      "line": "4",
+      "form": "nec",
+      "action": "confirm",
+      "dccId": "dcc-nec-19",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Nec me deliciae dedecuere meae",
+          "O": "(Nec me deliciae dedecuere meae)",
+          "LL": "nec me deliciae dedecuere meae —"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:4:me",
+      "kind": "source-form",
+      "line": "4",
+      "form": "me",
+      "action": "replace",
+      "reason": "Me is the object of dedecuere.",
+      "dccId": "dcc-ego-11",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Nec me deliciae dedecuere meae",
+          "O": "(Nec me deliciae dedecuere meae)",
+          "LL": "nec me deliciae dedecuere meae —"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/ego",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:4:meae",
+      "kind": "source-form",
+      "line": "4",
+      "form": "meae",
+      "action": "confirm",
+      "dccId": "dcc-meus-41",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Nec me deliciae dedecuere meae",
+          "O": "(Nec me deliciae dedecuere meae)",
+          "LL": "nec me deliciae dedecuere meae —"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:5:1",
+      "kind": "legacy-entry",
+      "line": "5",
+      "raw": "proavus, proavī m.: great-grandfather, forefather, ancestor",
+      "action": "confirm",
+      "reason": "Proavis is the ablative plural of proavus; P marks the phrase uncertain.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Si quid id est usque a proauis uetus ordinis heres",
+          "O": "Siquid id est, usque a proavis vetus ordinis heres,",
+          "LL": "siquid id est, usque a proavis vetus ordinis heres,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:5:usque",
+      "kind": "source-form",
+      "line": "5",
+      "form": "usque",
+      "action": "confirm",
+      "dccId": "dcc-usque-527",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Si quid id est usque a proauis uetus ordinis heres",
+          "O": "Siquid id est, usque a proavis vetus ordinis heres,",
+          "LL": "siquid id est, usque a proavis vetus ordinis heres,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:5:a",
+      "kind": "source-form",
+      "line": "5",
+      "form": "a",
+      "action": "confirm",
+      "dccId": "dcc-a-21",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Si quid id est usque a proauis uetus ordinis heres",
+          "O": "Siquid id est, usque a proavis vetus ordinis heres,",
+          "LL": "siquid id est, usque a proavis vetus ordinis heres,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:5:uetus",
+      "kind": "source-form",
+      "line": "5",
+      "form": "uetus",
+      "action": "confirm",
+      "dccId": "dcc-vetus-295",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Si quid id est usque a proauis uetus ordinis heres",
+          "O": "Siquid id est, usque a proavis vetus ordinis heres,",
+          "LL": "siquid id est, usque a proavis vetus ordinis heres,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:5:ordinis",
+      "kind": "source-form",
+      "line": "5",
+      "form": "ordinis",
+      "action": "confirm",
+      "dccId": "dcc-ordo-416",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Si quid id est usque a proauis uetus ordinis heres",
+          "O": "Siquid id est, usque a proavis vetus ordinis heres,",
+          "LL": "siquid id est, usque a proavis vetus ordinis heres,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:6:0",
+      "kind": "legacy-entry",
+      "line": "6",
+      "raw": "mīlitia, mīlitiae f.: military service, the military, army, soldiery",
+      "action": "confirm",
+      "reason": "Militiae is the genitive of militia; the word is missing in P.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Non modo militiae turbine factus eques",
+          "O": "Non modo militiae turbine factus eques.",
+          "LL": "non modo militiae turbine factus eques."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:6:modo",
+      "kind": "source-form",
+      "line": "6",
+      "form": "modo",
+      "action": "replace",
+      "reason": "Non modo is the adverbial expression “not merely”.",
+      "dccId": "dcc-modo-152",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Non modo militiae turbine factus eques",
+          "O": "Non modo militiae turbine factus eques.",
+          "LL": "non modo militiae turbine factus eques."
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/modo",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:8:dicar",
+      "kind": "source-form",
+      "line": "8",
+      "form": "dicar",
+      "action": "confirm",
+      "dccId": "dcc-dico-33",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Paelignae dicar gloria gentis ego",
+          "O": "Paelignae dicar gloria gentis ego,",
+          "LL": "Paelignae dicar gloria gentis ego,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:8:gloria",
+      "kind": "source-form",
+      "line": "8",
+      "form": "gloria",
+      "action": "confirm",
+      "dccId": "dcc-gloria-360",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Paelignae dicar gloria gentis ego",
+          "O": "Paelignae dicar gloria gentis ego,",
+          "LL": "Paelignae dicar gloria gentis ego,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:8:gentis",
+      "kind": "source-form",
+      "line": "8",
+      "form": "gentis",
+      "action": "confirm",
+      "dccId": "dcc-gens-194",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Paelignae dicar gloria gentis ego",
+          "O": "Paelignae dicar gloria gentis ego,",
+          "LL": "Paelignae dicar gloria gentis ego,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:8:ego",
+      "kind": "source-form",
+      "line": "8",
+      "form": "ego",
+      "action": "confirm",
+      "dccId": "dcc-ego-11",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Paelignae dicar gloria gentis ego",
+          "O": "Paelignae dicar gloria gentis ego,",
+          "LL": "Paelignae dicar gloria gentis ego,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:9:ad",
+      "kind": "source-form",
+      "line": "9",
+      "form": "ad",
+      "action": "confirm",
+      "dccId": "dcc-ad-14",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Quem sua libertas ad onesta co[eg?]erat arma{|}",
+          "O": "{*} Quam sua libertas ad honesta coegerat arma,",
+          "LL": "quam sua libertas ad honesta coegerat arma,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:10:0",
+      "kind": "legacy-entry",
+      "line": "10",
+      "raw": "ānxius, ānxia, ānxium: afeared, anxious, troubled, uneasy",
+      "action": "confirm",
+      "reason": "Anxia agrees with Roma and means anxious.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Cum timuit socias anxia roma manus .",
+          "O": "Cum timuit socias anxia Roma manus.",
+          "LL": "cum timuit socias anxia Roma manus."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:10:cum",
+      "kind": "source-form",
+      "line": "10",
+      "form": "cum",
+      "action": "confirm",
+      "dccId": "dcc-cum-10",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Cum timuit socias anxia roma manus .",
+          "O": "Cum timuit socias anxia Roma manus.",
+          "LL": "cum timuit socias anxia Roma manus."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:10:timuit",
+      "kind": "source-form",
+      "line": "10",
+      "form": "timuit",
+      "action": "confirm",
+      "dccId": "dcc-timeo-153",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Cum timuit socias anxia roma manus .",
+          "O": "Cum timuit socias anxia Roma manus.",
+          "LL": "cum timuit socias anxia Roma manus."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:10:manus",
+      "kind": "source-form",
+      "line": "10",
+      "form": "manus",
+      "action": "confirm",
+      "dccId": "dcc-manus-48",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Cum timuit socias anxia roma manus .",
+          "O": "Cum timuit socias anxia Roma manus.",
+          "LL": "cum timuit socias anxia Roma manus."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:11:0",
+      "kind": "legacy-entry",
+      "line": "11",
+      "raw": "spectāns, spectantis: watching, observing, see, testing",
+      "action": "replace",
+      "reason": "Spectans describes the visitor looking at Sulmo; remove the broken English list.",
+      "dccId": "dcc-specto-473",
+      "headword": "spectans, spectantis",
+      "definition": "looking at; observing",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Atque aliquis spectans ospes sulmonis aquosi",
+          "O": "Atque aliquis spectans hospes Sulmonis aquosi",
+          "LL": "atque aliquis spectans hospes Sulmonis aquosi"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/specto",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "legacy:11:1",
+      "kind": "legacy-entry",
+      "line": "11",
+      "raw": "aquōsus, aquōsa, aquōsum: abounding in water, well- watered, wet",
+      "action": "confirm",
+      "reason": "Aquosi describes well-watered Sulmo.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Atque aliquis spectans ospes sulmonis aquosi",
+          "O": "Atque aliquis spectans hospes Sulmonis aquosi",
+          "LL": "atque aliquis spectans hospes Sulmonis aquosi"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:11:atque",
+      "kind": "source-form",
+      "line": "11",
+      "form": "atque",
+      "action": "confirm",
+      "dccId": "dcc-atque-35",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Atque aliquis spectans ospes sulmonis aquosi",
+          "O": "Atque aliquis spectans hospes Sulmonis aquosi",
+          "LL": "atque aliquis spectans hospes Sulmonis aquosi"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:12:0",
+      "kind": "legacy-entry",
+      "line": "12",
+      "raw": "iūgerum, iūgerī n.: a Roman unit of area, equivalent to 2 acti or 28, 800 square, X : Ille",
+      "action": "replace",
+      "reason": "Iugera denotes land area; the imported numerical quotation is truncated.",
+      "dccId": null,
+      "headword": "iugerum, iugeri n.",
+      "definition": "a Roman measure of land",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Moeniaque campi⟨[s?]⟩ iugera pauca tenent",
+          "O": "Moenia, quae campi iugera pauca tenent,",
+          "LL": "moenia, quae campi iugera pauca tenent,"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/jugerum"
+        ]
+      }
+    },
+    {
+      "id": "legacy:12:1",
+      "kind": "legacy-entry",
+      "line": "12",
+      "raw": "paucus, pauca, paucum: few, little",
+      "action": "confirm",
+      "reason": "Pauca qualifies iugera and means few.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Moeniaque campi⟨[s?]⟩ iugera pauca tenent",
+          "O": "Moenia, quae campi iugera pauca tenent,",
+          "LL": "moenia, quae campi iugera pauca tenent,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:12:tenent",
+      "kind": "source-form",
+      "line": "12",
+      "form": "tenent",
+      "action": "confirm",
+      "dccId": "dcc-teneo-106",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Moeniaque campi⟨[s?]⟩ iugera pauca tenent",
+          "O": "Moenia, quae campi iugera pauca tenent,",
+          "LL": "moenia, quae campi iugera pauca tenent,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:13:tantum",
+      "kind": "source-form",
+      "line": "13",
+      "form": "tantum",
+      "action": "replace",
+      "reason": "Tantum agrees with poetam: such a great poet.",
+      "dccId": "dcc-tantus-105",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Quae tantum dic& potuistis ferre poetam",
+          "O": "‘Quae tantum’ dicat ‘potuistis ferre poetam,",
+          "LL": "'Quae tantum' dicat 'potuistis ferre poetam,"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/tantus",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:13:potuistis",
+      "kind": "source-form",
+      "line": "13",
+      "form": "potuistis",
+      "action": "confirm",
+      "dccId": "dcc-possum-23",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Quae tantum dic& potuistis ferre poetam",
+          "O": "‘Quae tantum’ dicat ‘potuistis ferre poetam,",
+          "LL": "'Quae tantum' dicat 'potuistis ferre poetam,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:13:ferre",
+      "kind": "source-form",
+      "line": "13",
+      "form": "ferre",
+      "action": "confirm",
+      "dccId": "dcc-fero-45",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Quae tantum dic& potuistis ferre poetam",
+          "O": "‘Quae tantum’ dicat ‘potuistis ferre poetam,",
+          "LL": "'Quae tantum' dicat 'potuistis ferre poetam,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:13:poetam",
+      "kind": "source-form",
+      "line": "13",
+      "form": "poetam",
+      "action": "confirm",
+      "dccId": "dcc-poeta-913",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Quae tantum dic& potuistis ferre poetam",
+          "O": "‘Quae tantum’ dicat ‘potuistis ferre poetam,",
+          "LL": "'Quae tantum' dicat 'potuistis ferre poetam,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:14:0",
+      "kind": "legacy-entry",
+      "line": "14",
+      "raw": "quantulus, quantula, quantulum: how little, small or trifling",
+      "action": "replace",
+      "reason": "The actual word includes -cumque; quantulus alone omits the concessive force.",
+      "dccId": null,
+      "headword": "quantuluscumque, quantulacumque, quantulumcumque",
+      "definition": "however small",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Quantulacumque estis [n?]os ego magna uoco .",
+          "O": "Quantulacumque estis, vos ego magna voco.’",
+          "LL": "quantulacumque estis, vos ego magna voco.'"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/quantuluscumque"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:14:estis",
+      "kind": "source-form",
+      "line": "14",
+      "form": "estis",
+      "action": "replace",
+      "reason": "Estis is the copula with quantulacumque.",
+      "dccId": "dcc-sum-2",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Quantulacumque estis [n?]os ego magna uoco .",
+          "O": "Quantulacumque estis, vos ego magna voco.’",
+          "LL": "quantulacumque estis, vos ego magna voco.'"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/sum",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:14:ego",
+      "kind": "source-form",
+      "line": "14",
+      "form": "ego",
+      "action": "confirm",
+      "dccId": "dcc-ego-11",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Quantulacumque estis [n?]os ego magna uoco .",
+          "O": "Quantulacumque estis, vos ego magna voco.’",
+          "LL": "quantulacumque estis, vos ego magna voco.'"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:14:magna",
+      "kind": "source-form",
+      "line": "14",
+      "form": "magna",
+      "action": "confirm",
+      "dccId": "dcc-magnus-25",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Quantulacumque estis [n?]os ego magna uoco .",
+          "O": "Quantulacumque estis, vos ego magna voco.’",
+          "LL": "quantulacumque estis, vos ego magna voco.'"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:14:uoco",
+      "kind": "source-form",
+      "line": "14",
+      "form": "uoco",
+      "action": "confirm",
+      "dccId": "dcc-voco-158",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Quantulacumque estis [n?]os ego magna uoco .",
+          "O": "Quantulacumque estis, vos ego magna voco.’",
+          "LL": "quantulacumque estis, vos ego magna voco.'"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:15:0",
+      "kind": "legacy-entry",
+      "line": "15",
+      "raw": "cultus, culta, cultum: tilled, cultivated, having been cultivated, protected",
+      "action": "replace",
+      "reason": "Culte/culti describes the adorned love-god; agricultural “tilled” is not the contextual sense.",
+      "dccId": "dcc-colo-333",
+      "headword": "cultus, culta, cultum",
+      "definition": "adorned; elegant; refined",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Culte puer puerique parens ama[th?]usia culti",
+          "O": "Culte puer puerique parens Amathusia culti,",
+          "LL": "Culte puer puerique parens Amathusia culti."
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/colo",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:15:puer",
+      "kind": "source-form",
+      "line": "15",
+      "form": "puer",
+      "action": "confirm",
+      "dccId": "dcc-puer-191",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Culte puer puerique parens ama[th?]usia culti",
+          "O": "Culte puer puerique parens Amathusia culti,",
+          "LL": "Culte puer puerique parens Amathusia culti."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:15:parens",
+      "kind": "source-form",
+      "line": "15",
+      "form": "parens",
+      "action": "confirm",
+      "dccId": "dcc-parens-190",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Culte puer puerique parens ama[th?]usia culti",
+          "O": "Culte puer puerique parens Amathusia culti,",
+          "LL": "Culte puer puerique parens Amathusia culti."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:16:0",
+      "kind": "legacy-entry",
+      "line": "16",
+      "raw": "aurea, aureae f.: late Latin ) the bit and reins of, bridle",
+      "action": "replace",
+      "reason": "Aurea agrees with signa; it is not the late noun for reins.",
+      "dccId": "dcc-aureus-691",
+      "headword": "aureus, aurea, aureum",
+      "definition": "golden",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Aurea de campo uel⟨l⟩ite signa meo",
+          "O": "Aurea de campo vellite signa meo!",
+          "LL": "aurea de campo vellite signa meo!"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/aureus",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "legacy:16:1",
+      "kind": "legacy-entry",
+      "line": "16",
+      "raw": "vellō: to pluck, etc, to depilate Martialis, Epigrammata quod pectus",
+      "action": "replace",
+      "reason": "Vellite signa means pull up the standards; remove the unrelated quotation.",
+      "dccId": null,
+      "headword": "vello, vellere, vulsi, vulsum",
+      "definition": "pull up; pluck out",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Aurea de campo uel⟨l⟩ite signa meo",
+          "O": "Aurea de campo vellite signa meo!",
+          "LL": "aurea de campo vellite signa meo!"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/vello"
+        ]
+      }
+    },
+    {
+      "id": "legacy:16:2",
+      "kind": "legacy-entry",
+      "line": "16",
+      "raw": "signō, signāre, signāvī, signātum: to mark, sign, to seal, stamp",
+      "action": "replace",
+      "reason": "Signa is the noun, not an imperative of signo.",
+      "dccId": "dcc-signum-261",
+      "headword": "signum, signi n.",
+      "definition": "standards; signs",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Aurea de campo uel⟨l⟩ite signa meo",
+          "O": "Aurea de campo vellite signa meo!",
+          "LL": "aurea de campo vellite signa meo!"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/signum",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "legacy:16:3",
+      "kind": "legacy-entry",
+      "line": "16",
+      "raw": "meō, meāre, meāvī, meātum: to go along, pass or traverse",
+      "action": "replace",
+      "reason": "Meo agrees with campo; it is not the verb meo.",
+      "dccId": "dcc-meus-41",
+      "headword": "meus, mea, meum",
+      "definition": "my; mine",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Aurea de campo uel⟨l⟩ite signa meo",
+          "O": "Aurea de campo vellite signa meo!",
+          "LL": "aurea de campo vellite signa meo!"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/meus",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:16:de",
+      "kind": "source-form",
+      "line": "16",
+      "form": "de",
+      "action": "confirm",
+      "dccId": "dcc-de-46",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Aurea de campo uel⟨l⟩ite signa meo",
+          "O": "Aurea de campo vellite signa meo!",
+          "LL": "aurea de campo vellite signa meo!"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:16:campo",
+      "kind": "source-form",
+      "line": "16",
+      "form": "campo",
+      "action": "confirm",
+      "dccId": "dcc-campus-391",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Aurea de campo uel⟨l⟩ite signa meo",
+          "O": "Aurea de campo vellite signa meo!",
+          "LL": "aurea de campo vellite signa meo!"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:17:0",
+      "kind": "legacy-entry",
+      "line": "17",
+      "raw": "corniger, cornigera, cornigerum: horned, having horns",
+      "action": "confirm",
+      "reason": "Corniger describes horned Bacchus.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Corniger [in?]crepuit thyrso grauiore lyeus",
+          "O": "Corniger increpuit thyrso graviore Lyaeus:",
+          "LL": "corniger increpuit thyrso graviore Lyaeus:"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:17:1",
+      "kind": "legacy-entry",
+      "line": "17",
+      "raw": "increpō: to rattle, sound, resound, to rebuke",
+      "action": "suppress",
+      "reason": "This witness has no secure matching occurrence for this glossary entry: its relevant wording is absent, different, abbreviated, interrupted by a mark, or locally uncertain. Increpuit is from increpo; Y marks the beginning uncertain.",
+      "witnesses": [
+        "Y"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Corniger [in?]crepuit thyrso grauiore lyeus"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:17:2",
+      "kind": "legacy-entry",
+      "line": "17",
+      "raw": "thyrsus, thyrsī m.: thyrsus",
+      "action": "replace",
+      "reason": "Thyrso names Bacchus’s staff; a repeated headword alone is not a helpful definition.",
+      "dccId": null,
+      "headword": "thyrsus, thyrsi m.",
+      "definition": "the ivy-wreathed staff of Bacchus and his followers",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Corniger [in?]crepuit thyrso grauiore lyeus",
+          "O": "Corniger increpuit thyrso graviore Lyaeus:",
+          "LL": "corniger increpuit thyrso graviore Lyaeus:"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/thyrsus"
+        ]
+      }
+    },
+    {
+      "id": "legacy:17:3",
+      "kind": "legacy-entry",
+      "line": "17",
+      "raw": "gravior: comparative degree of gravis, more heavy, serious, pregnant",
+      "action": "replace",
+      "reason": "Graviore describes the weightier Bacchic staff and poetic undertaking, not pregnancy.",
+      "dccId": "dcc-gravis-140",
+      "headword": "gravior, gravius (comparative of gravis)",
+      "definition": "heavier; more serious",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Corniger [in?]crepuit thyrso grauiore lyeus",
+          "O": "Corniger increpuit thyrso graviore Lyaeus:",
+          "LL": "corniger increpuit thyrso graviore Lyaeus:"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/gravis",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "legacy:18:0",
+      "kind": "legacy-entry",
+      "line": "18",
+      "raw": "pulsandus, pulsanda, pulsandum: which is to be beat",
+      "action": "suppress",
+      "reason": "This witness has no secure matching occurrence for this glossary entry: its relevant wording is absent, different, abbreviated, interrupted by a mark, or locally uncertain. The gerundive describes the larger course to be beaten by horses; Y marks pulsanda uncertain.",
+      "witnesses": [
+        "Y"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Pulsand[a?] est magnis arca maior equis ."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:18:1",
+      "kind": "legacy-entry",
+      "line": "18",
+      "raw": "ārea, āreae f.: a piece of, a vacant place (esp. in the town, ground for, a building - spot",
+      "action": "suppress",
+      "reason": "This witness has no secure matching occurrence for this glossary entry: its relevant wording is absent, different, abbreviated, interrupted by a mark, or locally uncertain. Area is the larger course. Y transmits arca, so this glossary cannot silently correct it to area.",
+      "witnesses": [
+        "Y"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Pulsand[a?] est magnis arca maior equis ."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:18:est",
+      "kind": "source-form",
+      "line": "18",
+      "form": "est",
+      "action": "replace",
+      "reason": "Est forms the gerundive construction with pulsanda.",
+      "dccId": "dcc-sum-2",
+      "witnesses": [
+        "Y",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Pulsand[a?] est magnis arca maior equis .",
+          "LL": "pulsanda est magnis area maior equis."
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/sum",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:18:magnis",
+      "kind": "source-form",
+      "line": "18",
+      "form": "magnis",
+      "action": "confirm",
+      "dccId": "dcc-magnus-25",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Pulsand[a?] est magnis arca maior equis .",
+          "O": "Pulsandast magnis area maior equis.",
+          "LL": "pulsanda est magnis area maior equis."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:19:0",
+      "kind": "legacy-entry",
+      "line": "19",
+      "raw": "imbellis, imbellis, imbelle: unwarlike, peaceful, pacifist",
+      "action": "replace",
+      "reason": "Imbelles/inbelles characterizes elegies as unwarlike.",
+      "dccId": null,
+      "headword": "imbellis, imbelle",
+      "definition": "unwarlike; peaceful",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Imbelles elegi genialis musa ualete",
+          "O": "Inbelles elegi, genialis Musa, valete,",
+          "LL": "inbelles elegi, genialis Musa, valete,"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/imbellis"
+        ]
+      }
+    },
+    {
+      "id": "legacy:19:1",
+      "kind": "legacy-entry",
+      "line": "19",
+      "raw": "geniālis, geniālis, geniāle: genial, of or pertaining to, of, festive",
+      "action": "replace",
+      "reason": "Genialis describes the Muse of pleasure; restore a complete lexical gloss.",
+      "dccId": null,
+      "headword": "genialis, geniale",
+      "definition": "festive; joyous; devoted to pleasure",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Imbelles elegi genialis musa ualete",
+          "O": "Inbelles elegi, genialis Musa, valete,",
+          "LL": "inbelles elegi, genialis Musa, valete,"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/genialis"
+        ]
+      }
+    },
+    {
+      "id": "legacy:19:2",
+      "kind": "legacy-entry",
+      "line": "19",
+      "raw": "mūsa, mūsae f.: song, poem, sciences",
+      "action": "replace",
+      "reason": "Musa is addressed as the Muse; “sciences” is not the contextual sense.",
+      "dccId": null,
+      "headword": "Musa, Musae f.",
+      "definition": "Muse; poetry",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Imbelles elegi genialis musa ualete",
+          "O": "Inbelles elegi, genialis Musa, valete,",
+          "LL": "inbelles elegi, genialis Musa, valete,"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/Musa"
+        ]
+      }
+    },
+    {
+      "id": "legacy:19:3",
+      "kind": "legacy-entry",
+      "line": "19",
+      "raw": "valēte: goodbye, farewell",
+      "action": "confirm",
+      "reason": "Valete is the plural farewell to elegies and the Muse.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Imbelles elegi genialis musa ualete",
+          "O": "Inbelles elegi, genialis Musa, valete,",
+          "LL": "inbelles elegi, genialis Musa, valete,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:20:0",
+      "kind": "legacy-entry",
+      "line": "20",
+      "raw": "mānsūrus, mānsūra, mānsūrum: about to stay, remain",
+      "action": "confirm",
+      "reason": "Mansurum is the future participle of maneo describing the enduring work.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Post mea mansurum fata superstes opus .",
+          "O": "Post mea mansurum fata superstes opus!",
+          "LL": "post mea mansurum fata superstes opus."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:20:1",
+      "kind": "legacy-entry",
+      "line": "20",
+      "raw": "superstō: to stand over or upon, to survive",
+      "action": "replace",
+      "reason": "Superstes is the adjective modifying opus, not a finite form of supersto.",
+      "dccId": null,
+      "headword": "superstes, superstitis",
+      "definition": "surviving; remaining",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Post mea mansurum fata superstes opus .",
+          "O": "Post mea mansurum fata superstes opus!",
+          "LL": "post mea mansurum fata superstes opus."
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/superstes"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:20:post",
+      "kind": "source-form",
+      "line": "20",
+      "form": "post",
+      "action": "confirm",
+      "dccId": "dcc-post-164",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Post mea mansurum fata superstes opus .",
+          "O": "Post mea mansurum fata superstes opus!",
+          "LL": "post mea mansurum fata superstes opus."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:20:fata",
+      "kind": "source-form",
+      "line": "20",
+      "form": "fata",
+      "action": "replace",
+      "reason": "Post mea fata means after my death/fate, not forms of for.",
+      "dccId": "dcc-fatum-157",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Post mea mansurum fata superstes opus .",
+          "O": "Post mea mansurum fata superstes opus!",
+          "LL": "post mea mansurum fata superstes opus."
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/fatum",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:20:opus",
+      "kind": "source-form",
+      "line": "20",
+      "form": "opus",
+      "action": "confirm",
+      "dccId": "dcc-opus-332",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Post mea mansurum fata superstes opus .",
+          "O": "Post mea mansurum fata superstes opus!",
+          "LL": "post mea mansurum fata superstes opus."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:2:0",
+      "kind": "legacy-entry",
+      "line": "2",
+      "raw": "rādō, rādere, rāsī, rāsum: to scrape, shave, scratch, to rub",
+      "action": "confirm",
+      "reason": "Raditur is the passive of rādo in the turning-post metaphor; the Y reading Traditur is different and P marks this word uncertain.",
+      "witnesses": [
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "O": "Raditur hic elegis ultima meta meis;",
+          "LL": "raditur hic elegis ultima meta meis;"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:2:hic",
+      "kind": "source-form",
+      "line": "2",
+      "form": "hic",
+      "action": "replace",
+      "reason": "Hic is the adverb “here” modifying raditur, not the demonstrative.",
+      "dccId": "dcc-hic-80",
+      "witnesses": [
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "O": "Raditur hic elegis ultima meta meis;",
+          "LL": "raditur hic elegis ultima meta meis;"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/hic",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:9:coegerat",
+      "kind": "source-form",
+      "line": "9",
+      "form": "coegerat",
+      "action": "confirm",
+      "dccId": "dcc-cogo-250",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "O": "{*} Quam sua libertas ad honesta coegerat arma,",
+          "LL": "quam sua libertas ad honesta coegerat arma,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:11:hospes",
+      "kind": "source-form",
+      "line": "11",
+      "form": "hospes",
+      "action": "confirm",
+      "dccId": "dcc-hospes-873",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "O": "Atque aliquis spectans hospes Sulmonis aquosi",
+          "LL": "atque aliquis spectans hospes Sulmonis aquosi"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:12:campi",
+      "kind": "source-form",
+      "line": "12",
+      "form": "campi",
+      "action": "confirm",
+      "dccId": "dcc-campus-391",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "O": "Moenia, quae campi iugera pauca tenent,",
+          "LL": "moenia, quae campi iugera pauca tenent,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:13:dicat",
+      "kind": "source-form",
+      "line": "13",
+      "form": "dicat",
+      "action": "confirm",
+      "dccId": "dcc-dico-33",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "O": "‘Quae tantum’ dicat ‘potuistis ferre poetam,",
+          "LL": "'Quae tantum' dicat 'potuistis ferre poetam,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:14:uos",
+      "kind": "source-form",
+      "line": "14",
+      "form": "uos",
+      "action": "confirm",
+      "dccId": "dcc-vos-130",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "O": "Quantulacumque estis, vos ego magna voco.’",
+          "LL": "quantulacumque estis, vos ego magna voco.'"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:17:1",
+      "kind": "legacy-entry",
+      "line": "17",
+      "raw": "increpō: to rattle, sound, resound, to rebuke",
+      "action": "confirm",
+      "reason": "Increpuit is from increpo; Y marks the beginning uncertain.",
+      "witnesses": [
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "O": "Corniger increpuit thyrso graviore Lyaeus:",
+          "LL": "corniger increpuit thyrso graviore Lyaeus:"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:18:0",
+      "kind": "legacy-entry",
+      "line": "18",
+      "raw": "pulsandus, pulsanda, pulsandum: which is to be beat",
+      "action": "replace",
+      "reason": "The gerundive describes the larger course to be beaten by horses; Y marks pulsanda uncertain.",
+      "dccId": null,
+      "headword": "pulsandus, pulsanda, pulsandum",
+      "definition": "to be struck or beaten; needing to be traversed",
+      "witnesses": [
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "O": "Pulsandast magnis area maior equis.",
+          "LL": "pulsanda est magnis area maior equis."
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/pulso"
+        ]
+      }
+    },
+    {
+      "id": "legacy:18:1",
+      "kind": "legacy-entry",
+      "line": "18",
+      "raw": "ārea, āreae f.: a piece of, a vacant place (esp. in the town, ground for, a building - spot",
+      "action": "replace",
+      "reason": "Area is the larger course. Y transmits arca, so this glossary cannot silently correct it to area.",
+      "dccId": null,
+      "headword": "area, areae f.",
+      "definition": "open ground; a course or arena",
+      "witnesses": [
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "O": "Pulsandast magnis area maior equis.",
+          "LL": "pulsanda est magnis area maior equis."
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/area"
+        ]
+      }
+    }
+  ],
+  "openIssues": []
+}

@@ -30,6 +30,16 @@ The "companion text" for each poem is located in the `docs/data/Companion/` dire
 
 Each of these directories contains a set of JSON files, one for each poem (e.g., `3.1.json`, `3.2.json`, etc.).
 
+The Companion's vocabulary slider controls **how many words receive help**, always with full definitions. The default, **DCC 1000 excluded**, shows the available noncore glossary words. Move left for fewer noncore words, or right to add core words from less common to most common using Dickinson College Commentaries' published frequency ranks. Repeated headwords are selected together. DCC provides no ranks for noncore words, which enter in their order of appearance below the default.
+
+Companion shows the vocabulary and commentary by line number, without repeating the transcription. Choose **Text & notes** from any panel's type dropdown for the separate reading view: the selected witness's text appears line by line with vocabulary and commentary beneath it. Both note types start enabled in that view and can be toggled independently; turning both off leaves the witness text. Each view remembers its own note selection.
+
+The selected witness's TEI supplies the lexical context, including spellings, abbreviations and uncertainty. Existing poem glosses and added DCC matches pass through a contextual review for that witness and verse. The review corrects wrong lemmas and definitions, resolves supported homographs, and suppresses unsupported matches. Original glossary files remain unchanged; the corrections and quoted evidence live in `docs/data/vocabulary-review/`. Absent lines, damaged or abbreviated words, and unmatched forms receive no automatic dictionary definition. “All words” means all supported, reviewed entries, not every word in the poems.
+
+Search ignores accents and case. **Export** downloads the entries currently shown, respecting the witness, amount, and search, as UTF-8 tab-separated text with a headword and full definition on each row. Identical cards are included once. In [Anki](https://docs.ankiweb.net/importing/text-files.html), import the file with Tab as the separator and the two fields as Front/Back. In [Quizlet](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content), paste the file contents into Import and choose tabs between terms/definitions and new lines between cards. The Settings button minimizes the controls while leaving the word count and Export available. Help amount, witness, and search are remembered separately for each panel while switching panel modes. Changes to a glossary, witness text, or dictionary input invalidate the vocabulary review for that input; the browser checks its SHA-256 binding before displaying entries. Review the changed evidence before updating the binding. Rebuild the derived form lookup when new forms need recognition; see [vocabulary sources and regeneration](docs/data/vocabulary-sources.md). No external dictionary service runs in the reader's browser.
+
+DCC's current export has 997 entries, retaining the established “DCC 1000” label. Its definitions, ranks, attribution, and CC BY-SA 3.0 license are included in `docs/data/latin-frequency.json`. The witness XML, review seals, and annotation rectangles are unchanged by this feature.
+
 ### What is a JSON file?
 
 A JSON file is a simple text file used to store data. It uses a `key: value` format. For this project, the "key" is a line number (as a string in double quotes), and the "value" is the text that should appear for that line.
@@ -53,7 +63,7 @@ In this example:
 2.  Open the JSON file corresponding to the poem you want to edit (e.g., `3.1.json` for poem 3.1).
 3.  Find the line number (the key) you want to change.
 4.  Edit the text (the value) inside the double quotes.
-5.  Save the file. The changes should appear on the website after reloading the page.
+5.  Save the file. Commentary changes appear after reloading the page. Vocabulary changes require a renewed contextual review, as described above, before they can appear.
 
 **Important Notes:**
 *   Be careful not to delete the double quotes `"` around the line numbers (keys) and the text (values).

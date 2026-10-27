@@ -1,0 +1,4841 @@
+{
+  "version": 1,
+  "poem": "3.13",
+  "inputs": {
+    "teiByWitnessSha256": {
+      "P": "6615b43974e1214c866f6d4414cf73313a25d059a990ef9c3248fdc43ff523ad",
+      "Y": "f3c5386c6a0ef9364bf086efca16bd5dcb0666f26dd8befdf5519dc0c3c85b29",
+      "S": "83d8590b98f4f3eb94f10b489779a2a6433c1055b53e16ac890c20027a259f8a",
+      "O": "8d2c0971051d5b72fc6137fd38a45e86a4c481b9a33b4caa13b3710237750636",
+      "LL": "6f5fbc9fd08b88e3ae6f76a68bd05ba31dc1d4032119987c16e6d03d5332475d"
+    },
+    "glossarySha256": "55124f29d4b8db251efb6f2272a5653594a53d25b730db35512b9a390bfa342b",
+    "frequencySha256": "0071be2a4271288610d8217144819e5177dcca1235b78b41f6d97693b59e04f7",
+    "formsSha256": "a0166f81bf1d784c27bf4c358a5d7aedd46c4dc774ef954683d14fba917ea15f"
+  },
+  "reviewer": "Contextual lexical review: Codex vocabulary data agent",
+  "reviewedAt": "2026-10-26",
+  "coverage": {
+    "byWitness": {
+      "P": {
+        "extantLines": [],
+        "reviewedEntryIds": []
+      },
+      "Y": {
+        "extantLines": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31",
+          "32",
+          "33",
+          "34",
+          "35",
+          "36"
+        ],
+        "reviewedEntryIds": [
+          "dictionary:10:facta",
+          "dictionary:10:manus",
+          "dictionary:10:per",
+          "dictionary:10:sine",
+          "dictionary:11:ubi",
+          "dictionary:12:it",
+          "dictionary:12:per",
+          "dictionary:12:uias",
+          "dictionary:13:ducuntur",
+          "dictionary:14:aluit",
+          "dictionary:15:et",
+          "dictionary:15:fronte",
+          "dictionary:15:nondum",
+          "dictionary:16:et",
+          "dictionary:16:ex",
+          "dictionary:17:per",
+          "dictionary:17:tempora",
+          "dictionary:18:est",
+          "dictionary:18:sola",
+          "dictionary:19:illius",
+          "dictionary:19:siluis",
+          "dictionary:19:sub",
+          "dictionary:1:cum",
+          "dictionary:1:mihi",
+          "dictionary:20:dicitur",
+          "dictionary:20:fugam",
+          "dictionary:21:nunc",
+          "dictionary:21:per",
+          "dictionary:21:pueros",
+          "dictionary:21:quoque",
+          "dictionary:22:auctori",
+          "dictionary:22:datur",
+          "dictionary:22:et",
+          "dictionary:22:ipsa",
+          "dictionary:22:pretium",
+          "dictionary:23:est",
+          "dictionary:23:puellae",
+          "dictionary:24:latas",
+          "dictionary:24:praebuerant",
+          "dictionary:24:ueste",
+          "dictionary:24:uias",
+          "dictionary:25:premuntur",
+          "dictionary:26:et",
+          "dictionary:26:superba",
+          "dictionary:26:tegit",
+          "dictionary:27:patrum",
+          "dictionary:27:uestibus",
+          "dictionary:28:ferunt",
+          "dictionary:29:cum",
+          "dictionary:29:ore",
+          "dictionary:29:populi",
+          "dictionary:2:contigimus",
+          "dictionary:2:tibi",
+          "dictionary:30:ipsa",
+          "dictionary:30:sacerdotes",
+          "dictionary:30:suos",
+          "dictionary:31:est",
+          "dictionary:32:et",
+          "dictionary:32:scelus",
+          "dictionary:33:per",
+          "dictionary:34:condidit",
+          "dictionary:34:felici",
+          "dictionary:34:manu",
+          "dictionary:35:docuit",
+          "dictionary:35:ille",
+          "dictionary:35:suos",
+          "dictionary:36:semper",
+          "dictionary:36:sint",
+          "dictionary:3:sacer",
+          "dictionary:4:et",
+          "dictionary:5:cognoscere",
+          "dictionary:5:pretium",
+          "dictionary:5:quamuis",
+          "dictionary:6:difficilis",
+          "dictionary:6:iter",
+          "dictionary:6:uia",
+          "dictionary:7:arbore",
+          "dictionary:7:stat",
+          "dictionary:7:uetus",
+          "dictionary:8:aspice",
+          "dictionary:8:concedes",
+          "dictionary:8:esse",
+          "dictionary:9:accipit",
+          "dictionary:9:piorum",
+          "legacy:10:0",
+          "legacy:10:1",
+          "legacy:11:0",
+          "legacy:11:1",
+          "legacy:11:2",
+          "legacy:11:3",
+          "legacy:11:4",
+          "legacy:12:0",
+          "legacy:12:1",
+          "legacy:12:2",
+          "legacy:13:0",
+          "legacy:13:1",
+          "legacy:13:2",
+          "legacy:13:3",
+          "legacy:14:0",
+          "legacy:14:1",
+          "legacy:15:0",
+          "legacy:15:1",
+          "legacy:15:2",
+          "legacy:16:0",
+          "legacy:16:1",
+          "legacy:16:2",
+          "legacy:16:3",
+          "legacy:17:0",
+          "legacy:17:1",
+          "legacy:18:0",
+          "legacy:18:1",
+          "legacy:19:0",
+          "legacy:19:1",
+          "legacy:1:0",
+          "legacy:1:1",
+          "legacy:1:2",
+          "legacy:20:0",
+          "legacy:20:1",
+          "legacy:21:0",
+          "legacy:21:1",
+          "legacy:23:0",
+          "legacy:23:1",
+          "legacy:24:0",
+          "legacy:24:1",
+          "legacy:25:0",
+          "legacy:25:1",
+          "legacy:25:2",
+          "legacy:25:3",
+          "legacy:26:0",
+          "legacy:26:1",
+          "legacy:26:2",
+          "legacy:27:0",
+          "legacy:28:0",
+          "legacy:28:1",
+          "legacy:28:2",
+          "legacy:29:0",
+          "legacy:29:1",
+          "legacy:29:2",
+          "legacy:29:3",
+          "legacy:2:0",
+          "legacy:30:0",
+          "legacy:31:0",
+          "legacy:32:0",
+          "legacy:33:0",
+          "legacy:33:1",
+          "legacy:33:2",
+          "legacy:35:0",
+          "legacy:36:0",
+          "legacy:36:1",
+          "legacy:36:2",
+          "legacy:3:0",
+          "legacy:3:1",
+          "legacy:4:0",
+          "legacy:4:1",
+          "legacy:5:0",
+          "legacy:5:1",
+          "legacy:6:0",
+          "legacy:7:0",
+          "legacy:7:1",
+          "legacy:8:0",
+          "legacy:8:1",
+          "legacy:9:0",
+          "legacy:9:1"
+        ]
+      },
+      "S": {
+        "extantLines": [],
+        "reviewedEntryIds": []
+      },
+      "O": {
+        "extantLines": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31",
+          "32",
+          "33",
+          "34",
+          "35",
+          "36"
+        ],
+        "reviewedEntryIds": [
+          "dictionary:10:facta",
+          "dictionary:10:manus",
+          "dictionary:10:per",
+          "dictionary:10:sine",
+          "dictionary:11:ubi",
+          "dictionary:12:it",
+          "dictionary:12:per",
+          "dictionary:12:uias",
+          "dictionary:13:ducuntur",
+          "dictionary:14:aluit",
+          "dictionary:15:et",
+          "dictionary:15:fronte",
+          "dictionary:15:nondum",
+          "dictionary:16:et",
+          "dictionary:16:ex",
+          "dictionary:17:per",
+          "dictionary:17:tempora",
+          "dictionary:18:sola",
+          "dictionary:19:illius",
+          "dictionary:19:siluis",
+          "dictionary:19:sub",
+          "dictionary:1:coniunx",
+          "dictionary:1:cum",
+          "dictionary:1:foret",
+          "dictionary:1:mihi",
+          "dictionary:20:dicitur",
+          "dictionary:20:fugam",
+          "dictionary:21:nunc",
+          "dictionary:21:per",
+          "dictionary:21:pueros",
+          "dictionary:21:quoque",
+          "dictionary:22:auctori",
+          "dictionary:22:datur",
+          "dictionary:22:et",
+          "dictionary:22:ipsa",
+          "dictionary:22:pretium",
+          "dictionary:23:puellae",
+          "dictionary:24:latas",
+          "dictionary:24:ueste",
+          "dictionary:24:uias",
+          "dictionary:25:premuntur",
+          "dictionary:26:et",
+          "dictionary:26:superba",
+          "dictionary:26:tegit",
+          "dictionary:27:patrum",
+          "dictionary:27:uestibus",
+          "dictionary:28:ferunt",
+          "dictionary:29:cum",
+          "dictionary:29:ore",
+          "dictionary:29:populi",
+          "dictionary:2:contigimus",
+          "dictionary:2:tibi",
+          "dictionary:2:uicta",
+          "dictionary:30:ipsa",
+          "dictionary:30:sacerdotes",
+          "dictionary:31:facies",
+          "dictionary:32:et",
+          "dictionary:32:fugit",
+          "dictionary:32:scelus",
+          "dictionary:34:condidit",
+          "dictionary:34:felici",
+          "dictionary:34:manu",
+          "dictionary:35:docuit",
+          "dictionary:35:ille",
+          "dictionary:35:suos",
+          "dictionary:36:mihi",
+          "dictionary:36:semper",
+          "dictionary:36:sint",
+          "dictionary:3:sacerdotes",
+          "dictionary:4:per",
+          "dictionary:5:cognoscere",
+          "dictionary:5:morae",
+          "dictionary:5:pretium",
+          "dictionary:5:quamuis",
+          "dictionary:6:difficilis",
+          "dictionary:6:huc",
+          "dictionary:6:iter",
+          "dictionary:6:praebet",
+          "dictionary:6:uia",
+          "dictionary:7:arbore",
+          "dictionary:7:et",
+          "dictionary:7:stat",
+          "dictionary:7:uetus",
+          "dictionary:8:concedes",
+          "dictionary:8:numen",
+          "dictionary:9:accipit",
+          "dictionary:9:piorum",
+          "dictionary:9:preces",
+          "legacy:10:0",
+          "legacy:10:1",
+          "legacy:11:0",
+          "legacy:11:1",
+          "legacy:11:2",
+          "legacy:11:3",
+          "legacy:11:4",
+          "legacy:12:0",
+          "legacy:12:1",
+          "legacy:12:2",
+          "legacy:13:0",
+          "legacy:13:1",
+          "legacy:13:2",
+          "legacy:13:3",
+          "legacy:14:0",
+          "legacy:14:1",
+          "legacy:15:0",
+          "legacy:15:1",
+          "legacy:15:2",
+          "legacy:16:0",
+          "legacy:16:1",
+          "legacy:16:2",
+          "legacy:16:3",
+          "legacy:17:0",
+          "legacy:17:1",
+          "legacy:18:0",
+          "legacy:18:1",
+          "legacy:19:0",
+          "legacy:19:1",
+          "legacy:1:0",
+          "legacy:1:1",
+          "legacy:1:2",
+          "legacy:20:0",
+          "legacy:20:1",
+          "legacy:21:0",
+          "legacy:21:1",
+          "legacy:23:0",
+          "legacy:23:1",
+          "legacy:24:0",
+          "legacy:24:1",
+          "legacy:25:0",
+          "legacy:25:1",
+          "legacy:25:2",
+          "legacy:25:3",
+          "legacy:26:0",
+          "legacy:26:1",
+          "legacy:26:2",
+          "legacy:27:0",
+          "legacy:28:0",
+          "legacy:28:1",
+          "legacy:28:2",
+          "legacy:29:0",
+          "legacy:29:1",
+          "legacy:29:2",
+          "legacy:29:3",
+          "legacy:2:0",
+          "legacy:30:0",
+          "legacy:31:0",
+          "legacy:32:0",
+          "legacy:33:0",
+          "legacy:33:1",
+          "legacy:33:2",
+          "legacy:35:0",
+          "legacy:36:0",
+          "legacy:36:1",
+          "legacy:36:2",
+          "legacy:3:0",
+          "legacy:3:1",
+          "legacy:4:0",
+          "legacy:4:1",
+          "legacy:5:0",
+          "legacy:5:1",
+          "legacy:6:0",
+          "legacy:7:0",
+          "legacy:7:1",
+          "legacy:8:0",
+          "legacy:8:1",
+          "legacy:9:0",
+          "legacy:9:1"
+        ]
+      },
+      "LL": {
+        "extantLines": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31",
+          "32",
+          "33",
+          "34",
+          "35",
+          "36"
+        ],
+        "reviewedEntryIds": [
+          "dictionary:10:facta",
+          "dictionary:10:manus",
+          "dictionary:10:per",
+          "dictionary:10:sine",
+          "dictionary:11:ubi",
+          "dictionary:12:it",
+          "dictionary:12:per",
+          "dictionary:12:uias",
+          "dictionary:13:ducuntur",
+          "dictionary:14:aluit",
+          "dictionary:15:et",
+          "dictionary:15:fronte",
+          "dictionary:15:nondum",
+          "dictionary:16:et",
+          "dictionary:16:ex",
+          "dictionary:17:per",
+          "dictionary:17:tempora",
+          "dictionary:18:est",
+          "dictionary:18:sola",
+          "dictionary:19:illius",
+          "dictionary:19:siluis",
+          "dictionary:19:sub",
+          "dictionary:1:coniunx",
+          "dictionary:1:cum",
+          "dictionary:1:foret",
+          "dictionary:1:mihi",
+          "dictionary:20:dicitur",
+          "dictionary:20:fugam",
+          "dictionary:21:nunc",
+          "dictionary:21:per",
+          "dictionary:21:pueros",
+          "dictionary:21:quoque",
+          "dictionary:22:auctori",
+          "dictionary:22:datur",
+          "dictionary:22:et",
+          "dictionary:22:ipsa",
+          "dictionary:22:pretium",
+          "dictionary:23:est",
+          "dictionary:23:puellae",
+          "dictionary:24:latas",
+          "dictionary:24:ueste",
+          "dictionary:24:uias",
+          "dictionary:25:premuntur",
+          "dictionary:26:et",
+          "dictionary:26:superba",
+          "dictionary:26:tegit",
+          "dictionary:27:patrum",
+          "dictionary:27:uestibus",
+          "dictionary:28:ferunt",
+          "dictionary:29:cum",
+          "dictionary:29:populi",
+          "dictionary:29:tum",
+          "dictionary:2:contigimus",
+          "dictionary:2:tibi",
+          "dictionary:2:uicta",
+          "dictionary:30:ipsa",
+          "dictionary:30:sacerdotes",
+          "dictionary:31:est",
+          "dictionary:31:facies",
+          "dictionary:32:et",
+          "dictionary:32:fugit",
+          "dictionary:32:scelus",
+          "dictionary:34:condidit",
+          "dictionary:34:felici",
+          "dictionary:34:manu",
+          "dictionary:35:docuit",
+          "dictionary:35:ille",
+          "dictionary:35:suos",
+          "dictionary:36:mihi",
+          "dictionary:36:semper",
+          "dictionary:36:sint",
+          "dictionary:3:sacerdotes",
+          "dictionary:4:et",
+          "dictionary:5:cognoscere",
+          "dictionary:5:morae",
+          "dictionary:5:pretium",
+          "dictionary:5:quamuis",
+          "dictionary:6:difficilis",
+          "dictionary:6:huc",
+          "dictionary:6:iter",
+          "dictionary:6:praebet",
+          "dictionary:6:uia",
+          "dictionary:7:arbore",
+          "dictionary:7:et",
+          "dictionary:7:stat",
+          "dictionary:7:uetus",
+          "dictionary:8:concedas",
+          "dictionary:8:numen",
+          "dictionary:9:accipit",
+          "dictionary:9:piorum",
+          "dictionary:9:preces",
+          "legacy:10:0",
+          "legacy:10:1",
+          "legacy:11:0",
+          "legacy:11:1",
+          "legacy:11:2",
+          "legacy:11:3",
+          "legacy:11:4",
+          "legacy:12:0",
+          "legacy:12:1",
+          "legacy:12:2",
+          "legacy:13:0",
+          "legacy:13:1",
+          "legacy:13:2",
+          "legacy:13:3",
+          "legacy:14:0",
+          "legacy:14:1",
+          "legacy:15:0",
+          "legacy:15:1",
+          "legacy:15:2",
+          "legacy:16:0",
+          "legacy:16:1",
+          "legacy:16:2",
+          "legacy:16:3",
+          "legacy:17:0",
+          "legacy:17:1",
+          "legacy:18:0",
+          "legacy:18:1",
+          "legacy:19:0",
+          "legacy:19:1",
+          "legacy:1:0",
+          "legacy:1:1",
+          "legacy:1:2",
+          "legacy:20:0",
+          "legacy:20:1",
+          "legacy:21:0",
+          "legacy:21:1",
+          "legacy:23:0",
+          "legacy:23:1",
+          "legacy:24:0",
+          "legacy:24:1",
+          "legacy:25:0",
+          "legacy:25:1",
+          "legacy:25:2",
+          "legacy:25:3",
+          "legacy:26:0",
+          "legacy:26:1",
+          "legacy:26:2",
+          "legacy:27:0",
+          "legacy:28:0",
+          "legacy:28:1",
+          "legacy:28:2",
+          "legacy:29:0",
+          "legacy:29:1",
+          "legacy:29:2",
+          "legacy:29:3",
+          "legacy:2:0",
+          "legacy:30:0",
+          "legacy:31:0",
+          "legacy:32:0",
+          "legacy:33:0",
+          "legacy:33:1",
+          "legacy:33:2",
+          "legacy:35:0",
+          "legacy:36:0",
+          "legacy:36:1",
+          "legacy:36:2",
+          "legacy:3:0",
+          "legacy:3:1",
+          "legacy:4:0",
+          "legacy:4:1",
+          "legacy:5:0",
+          "legacy:5:1",
+          "legacy:6:0",
+          "legacy:7:0",
+          "legacy:7:1",
+          "legacy:8:0",
+          "legacy:8:1",
+          "legacy:9:0",
+          "legacy:9:1"
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "id": "legacy:1:0",
+      "kind": "legacy-entry",
+      "line": "1",
+      "raw": "pōmifer, pōmifera, pōmiferum: fruit - bearing",
+      "action": "confirm",
+      "reason": "Pomiferis describes fruit-bearing Falisci.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Cum mihi pomiferis coniux fore{—} t{|}orta faliscis",
+          "O": "Cum mihi pomiferis coniunx foret orta Faliscis,",
+          "LL": "Cum mihi pomiferis coniunx foret orta Faliscis,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:1:1",
+      "kind": "legacy-entry",
+      "line": "1",
+      "raw": "orta: inflection of ortus : nominative / vocative feminine singular nominative / accusative / vocative neuter plural",
+      "action": "suppress",
+      "reason": "This witness has no secure matching occurrence for this glossary entry: its relevant wording is absent, different, abbreviated, interrupted by a mark, or locally uncertain. Orta describes the wife’s origin; Y has a mark interrupting the boundary with foret.",
+      "witnesses": [
+        "Y"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Cum mihi pomiferis coniux fore{—} t{|}orta faliscis"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:1:2",
+      "kind": "legacy-entry",
+      "line": "1",
+      "raw": "faliscus, falisca, faliscum: faliscan",
+      "action": "confirm",
+      "reason": "Faliscis denotes the Faliscan people/place.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Cum mihi pomiferis coniux fore{—} t{|}orta faliscis",
+          "O": "Cum mihi pomiferis coniunx foret orta Faliscis,",
+          "LL": "Cum mihi pomiferis coniunx foret orta Faliscis,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:1:cum",
+      "kind": "source-form",
+      "line": "1",
+      "form": "cum",
+      "action": "confirm",
+      "dccId": "dcc-cum-10",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Cum mihi pomiferis coniux fore{—} t{|}orta faliscis",
+          "O": "Cum mihi pomiferis coniunx foret orta Faliscis,",
+          "LL": "Cum mihi pomiferis coniunx foret orta Faliscis,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:1:mihi",
+      "kind": "source-form",
+      "line": "1",
+      "form": "mihi",
+      "action": "confirm",
+      "dccId": "dcc-ego-11",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Cum mihi pomiferis coniux fore{—} t{|}orta faliscis",
+          "O": "Cum mihi pomiferis coniunx foret orta Faliscis,",
+          "LL": "Cum mihi pomiferis coniunx foret orta Faliscis,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:2:0",
+      "kind": "legacy-entry",
+      "line": "2",
+      "raw": "vīctus, vīctūs m.: living, way of life, lifestyle, nourishment",
+      "action": "suppress",
+      "reason": "This witness has no secure matching occurrence for this glossary entry: its relevant wording is absent, different, abbreviated, interrupted by a mark, or locally uncertain. Victa qualifies moenia, the walls conquered by Camillus, not the noun “livelihood”. Y adds culta to victa, leaving the form compound in the transcription.",
+      "witnesses": [
+        "Y"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Moenia ⟨con⟩tigimus uicta⟨culta⟩ c⟦o⟧⟨a⟩millae tibi ."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:2:contigimus",
+      "kind": "source-form",
+      "line": "2",
+      "form": "contigimus",
+      "action": "replace",
+      "reason": "Contigimus moenia means reached/came to the walls.",
+      "dccId": "dcc-contingo-494",
+      "headword": "contingo, contingere, contigi, contactum",
+      "definition": "reach; come to; touch",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Moenia ⟨con⟩tigimus uicta⟨culta⟩ c⟦o⟧⟨a⟩millae tibi .",
+          "O": "Moenia contigimus victa, Camille, tibi.",
+          "LL": "moenia contigimus victa, Camille, tibi."
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/contingo",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:2:tibi",
+      "kind": "source-form",
+      "line": "2",
+      "form": "tibi",
+      "action": "confirm",
+      "dccId": "dcc-tu-9",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Moenia ⟨con⟩tigimus uicta⟨culta⟩ c⟦o⟧⟨a⟩millae tibi .",
+          "O": "Moenia contigimus victa, Camille, tibi.",
+          "LL": "moenia contigimus victa, Camille, tibi."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:3:0",
+      "kind": "legacy-entry",
+      "line": "3",
+      "raw": "fēsta, fēstae f.: feast",
+      "action": "replace",
+      "reason": "Festa is neuter plural, qualified by casta, not a first-declension feminine noun.",
+      "dccId": null,
+      "headword": "festum, festi n.",
+      "definition": "festivals; feast days",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Casta sacer{—}dotes iunoni festa parabant .",
+          "O": "Casta sacerdotes Iunoni festa parabant",
+          "LL": "casta sacerdotes Iunoni festa parabant"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/festus"
+        ]
+      }
+    },
+    {
+      "id": "legacy:3:1",
+      "kind": "legacy-entry",
+      "line": "3",
+      "raw": "parābant: third-person plural imperfect active indicative of parō",
+      "action": "replace",
+      "reason": "The grammatical parse is correct but lacks a lexical meaning.",
+      "dccId": "dcc-paro-160",
+      "headword": "paro, parare, paravi, paratum",
+      "definition": "prepare; parabant = they were preparing",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Casta sacer{—}dotes iunoni festa parabant .",
+          "O": "Casta sacerdotes Iunoni festa parabant",
+          "LL": "casta sacerdotes Iunoni festa parabant"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/paro",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:3:sacer",
+      "kind": "source-form",
+      "line": "3",
+      "form": "sacer",
+      "action": "suppress",
+      "reason": "Y’s mark splits sacerdotes into sacer and dotes; sacer is not a separate adjective here.",
+      "witnesses": [
+        "Y"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Casta sacer{—}dotes iunoni festa parabant ."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:4:0",
+      "kind": "legacy-entry",
+      "line": "4",
+      "raw": "lūdus, lūdī m.: a school, especially, game, sport",
+      "action": "replace",
+      "reason": "Ludos denotes the public games, not a school.",
+      "dccId": null,
+      "headword": "ludus, ludi m.",
+      "definition": "games; public festivals",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Et celebres ludos indigenamque bouem",
+          "O": "Per celebres ludos indigenamque bovem:",
+          "LL": "et celebres ludos indigenamque bovem;"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/ludus"
+        ]
+      }
+    },
+    {
+      "id": "legacy:4:1",
+      "kind": "legacy-entry",
+      "line": "4",
+      "raw": "indigenus, indigena, indigenum: native, indigenous",
+      "action": "replace",
+      "reason": "Indigenamque qualifies bovem; indigena is the appropriate common-gender form.",
+      "dccId": null,
+      "headword": "indigena, indigenae (adjective)",
+      "definition": "native; locally born",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Et celebres ludos indigenamque bouem",
+          "O": "Per celebres ludos indigenamque bovem:",
+          "LL": "et celebres ludos indigenamque bovem;"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/indigena"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:4:et",
+      "kind": "source-form",
+      "line": "4",
+      "form": "et",
+      "action": "confirm",
+      "dccId": "dcc-et-1",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Et celebres ludos indigenamque bouem",
+          "LL": "et celebres ludos indigenamque bovem;"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:5:0",
+      "kind": "legacy-entry",
+      "line": "5",
+      "raw": "grandis, grandis, grande: full-grown, grown up, large, great",
+      "action": "confirm",
+      "reason": "Grande qualifies pretium, a great reward for the delay.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Grande more pretium ritus cognoscere quamuis",
+          "O": "Grande morae pretium ritus cognoscere, quamvis",
+          "LL": "grande morae pretium ritus cognoscere, quamvis"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:5:1",
+      "kind": "legacy-entry",
+      "line": "5",
+      "raw": "rītus, rītūs m.: rite, ceremony, habit, custom",
+      "action": "confirm",
+      "reason": "Ritus denotes the religious rites.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Grande more pretium ritus cognoscere quamuis",
+          "O": "Grande morae pretium ritus cognoscere, quamvis",
+          "LL": "grande morae pretium ritus cognoscere, quamvis"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:5:pretium",
+      "kind": "source-form",
+      "line": "5",
+      "form": "pretium",
+      "action": "confirm",
+      "dccId": "dcc-pretium-629",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Grande more pretium ritus cognoscere quamuis",
+          "O": "Grande morae pretium ritus cognoscere, quamvis",
+          "LL": "grande morae pretium ritus cognoscere, quamvis"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:5:cognoscere",
+      "kind": "source-form",
+      "line": "5",
+      "form": "cognoscere",
+      "action": "confirm",
+      "dccId": "dcc-cognosco-339",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Grande more pretium ritus cognoscere quamuis",
+          "O": "Grande morae pretium ritus cognoscere, quamvis",
+          "LL": "grande morae pretium ritus cognoscere, quamvis"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:5:quamuis",
+      "kind": "source-form",
+      "line": "5",
+      "form": "quamuis",
+      "action": "confirm",
+      "dccId": "dcc-quamvis-489",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Grande more pretium ritus cognoscere quamuis",
+          "O": "Grande morae pretium ritus cognoscere, quamvis",
+          "LL": "grande morae pretium ritus cognoscere, quamvis"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:6:0",
+      "kind": "legacy-entry",
+      "line": "6",
+      "raw": "clīvus, clīvī m.: slope, hill, rise",
+      "action": "confirm",
+      "reason": "Clivis names the slopes making the approach difficult.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Difficilis cliuis [que?] uia preb& iter",
+          "O": "Difficilis clivis huc via praebet iter.",
+          "LL": "difficilis clivis huc via praebet iter."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:6:difficilis",
+      "kind": "source-form",
+      "line": "6",
+      "form": "difficilis",
+      "action": "confirm",
+      "dccId": "dcc-difficilis-861",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Difficilis cliuis [que?] uia preb& iter",
+          "O": "Difficilis clivis huc via praebet iter.",
+          "LL": "difficilis clivis huc via praebet iter."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:6:uia",
+      "kind": "source-form",
+      "line": "6",
+      "form": "uia",
+      "action": "confirm",
+      "dccId": "dcc-via-196",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Difficilis cliuis [que?] uia preb& iter",
+          "O": "Difficilis clivis huc via praebet iter.",
+          "LL": "difficilis clivis huc via praebet iter."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:6:iter",
+      "kind": "source-form",
+      "line": "6",
+      "form": "iter",
+      "action": "confirm",
+      "dccId": "dcc-iter-230",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Difficilis cliuis [que?] uia preb& iter",
+          "O": "Difficilis clivis huc via praebet iter.",
+          "LL": "difficilis clivis huc via praebet iter."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:7:0",
+      "kind": "legacy-entry",
+      "line": "7",
+      "raw": "dēnsō, dēnsāre, dēnsāvī, dēnsātum: thicken, condense, press together, of speech ) to condense",
+      "action": "replace",
+      "reason": "Densa agrees with arbore; it is not the verb denso.",
+      "dccId": null,
+      "headword": "densus, densa, densum",
+      "definition": "dense; thick",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Stat uetus & densa prae nubibus arbore lucus",
+          "O": "Stat vetus et densa praenubilus arbore lucus;",
+          "LL": "Stat vetus et densa praenubilus arbore lucus;"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/densus"
+        ]
+      }
+    },
+    {
+      "id": "legacy:7:1",
+      "kind": "legacy-entry",
+      "line": "7",
+      "raw": "lūcus, lūcī m.: a grove sacred to",
+      "action": "replace",
+      "reason": "Lucus denotes the grove; complete the truncated glossary text.",
+      "dccId": null,
+      "headword": "lucus, luci m.",
+      "definition": "a sacred grove",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Stat uetus & densa prae nubibus arbore lucus",
+          "O": "Stat vetus et densa praenubilus arbore lucus;",
+          "LL": "Stat vetus et densa praenubilus arbore lucus;"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/lucus"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:7:stat",
+      "kind": "source-form",
+      "line": "7",
+      "form": "stat",
+      "action": "confirm",
+      "dccId": "dcc-sto-168",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Stat uetus & densa prae nubibus arbore lucus",
+          "O": "Stat vetus et densa praenubilus arbore lucus;",
+          "LL": "Stat vetus et densa praenubilus arbore lucus;"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:7:uetus",
+      "kind": "source-form",
+      "line": "7",
+      "form": "uetus",
+      "action": "confirm",
+      "dccId": "dcc-vetus-295",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Stat uetus & densa prae nubibus arbore lucus",
+          "O": "Stat vetus et densa praenubilus arbore lucus;",
+          "LL": "Stat vetus et densa praenubilus arbore lucus;"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:7:arbore",
+      "kind": "source-form",
+      "line": "7",
+      "form": "arbore",
+      "action": "confirm",
+      "dccId": "dcc-arbor-468",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Stat uetus & densa prae nubibus arbore lucus",
+          "O": "Stat vetus et densa praenubilus arbore lucus;",
+          "LL": "Stat vetus et densa praenubilus arbore lucus;"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:8:0",
+      "kind": "legacy-entry",
+      "line": "8",
+      "raw": "īnsum: to be in, to be on, to belong to, be involved in or with",
+      "action": "suppress",
+      "reason": "This witness has no secure matching occurrence for this glossary entry: its relevant wording is absent, different, abbreviated, interrupted by a mark, or locally uncertain. Inesse is the infinitive of insum in O/LL. Y has esse and locum instead, so insum is unsupported there.",
+      "witnesses": [
+        "Y"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Aspice . concedes num⟦e⟧⟨i⟩nis esse locum ."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:8:1",
+      "kind": "legacy-entry",
+      "line": "8",
+      "raw": "locō, locāre, locāvī, locātum: to put, place, set, to arrange",
+      "action": "replace",
+      "reason": "Loco/locum is the noun, not the verb loco.",
+      "dccId": "dcc-locus-62",
+      "headword": "locus, loci m.",
+      "definition": "place",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Aspice . concedes num⟦e⟧⟨i⟩nis esse locum .",
+          "O": "Adspice: concedes numen inesse loco;",
+          "LL": "adspice — concedas numen inesse loco."
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/locus",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:8:aspice",
+      "kind": "source-form",
+      "line": "8",
+      "form": "aspice",
+      "action": "confirm",
+      "dccId": "dcc-aspicio-483",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Aspice . concedes num⟦e⟧⟨i⟩nis esse locum ."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:8:concedes",
+      "kind": "source-form",
+      "line": "8",
+      "form": "concedes",
+      "action": "replace",
+      "reason": "The verb asks the viewer to acknowledge the divine presence, not physically withdraw.",
+      "dccId": "dcc-concedo-663",
+      "headword": "concedo, concedere, concessi, concessum",
+      "definition": "admit; acknowledge; concede",
+      "witnesses": [
+        "Y",
+        "O"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Aspice . concedes num⟦e⟧⟨i⟩nis esse locum .",
+          "O": "Adspice: concedes numen inesse loco;"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/concedo",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:8:esse",
+      "kind": "source-form",
+      "line": "8",
+      "form": "esse",
+      "action": "replace",
+      "reason": "Y has the infinitive of sum, not “eat”.",
+      "dccId": "dcc-sum-2",
+      "witnesses": [
+        "Y"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Aspice . concedes num⟦e⟧⟨i⟩nis esse locum ."
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/sum",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "legacy:9:0",
+      "kind": "legacy-entry",
+      "line": "9",
+      "raw": "vōtīvus, vōtīva, vōtīvum: votive, desired, longed or wished for",
+      "action": "confirm",
+      "reason": "Votivaque modifies the incense offered in fulfillment of vows.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Accipit ara pr⟦a⟧eces uotiuaque tura piorum",
+          "O": "Accipit ara preces votivaque tura piorum,",
+          "LL": "accipit ara preces votivaque tura piorum —"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:9:1",
+      "kind": "legacy-entry",
+      "line": "9",
+      "raw": "tūs, tūris n.: alternative spelling of thūs",
+      "action": "replace",
+      "reason": "Tura is plural incense offerings; the spelling note alone is not a definition.",
+      "dccId": null,
+      "headword": "tus, turis n. (also thus)",
+      "definition": "incense; frankincense",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Accipit ara pr⟦a⟧eces uotiuaque tura piorum",
+          "O": "Accipit ara preces votivaque tura piorum,",
+          "LL": "accipit ara preces votivaque tura piorum —"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/tus"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:9:accipit",
+      "kind": "source-form",
+      "line": "9",
+      "form": "accipit",
+      "action": "confirm",
+      "dccId": "dcc-accipio-110",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Accipit ara pr⟦a⟧eces uotiuaque tura piorum",
+          "O": "Accipit ara preces votivaque tura piorum,",
+          "LL": "accipit ara preces votivaque tura piorum —"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:9:piorum",
+      "kind": "source-form",
+      "line": "9",
+      "form": "piorum",
+      "action": "confirm",
+      "dccId": "dcc-pius-748",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Accipit ara pr⟦a⟧eces uotiuaque tura piorum",
+          "O": "Accipit ara preces votivaque tura piorum,",
+          "LL": "accipit ara preces votivaque tura piorum —"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:10:0",
+      "kind": "legacy-entry",
+      "line": "10",
+      "raw": "antīquō, antīquāre, antīquāvī, antīquātum: to leave in, restore (something) to, of a bill ) to reject, vote in favour of the rejection of",
+      "action": "replace",
+      "reason": "Antiquas modifies manus; it is not the verb antiquo.",
+      "dccId": "dcc-antiquus-617",
+      "headword": "antiquus, antiqua, antiquum",
+      "definition": "ancient; old",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Ara{|} per antiquas facta sine arte manus .",
+          "O": "Ara per antiquas facta sine arte manus.",
+          "LL": "ara per antiquas facta sine arte manus."
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/antiquus",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "legacy:10:1",
+      "kind": "legacy-entry",
+      "line": "10",
+      "raw": "facta: inflection of factus : nominative / vocative feminine singular nominative / accusative / vocative neuter plural",
+      "action": "replace",
+      "reason": "Facta is feminine singular agreeing with ara, not the noun facta/deeds.",
+      "dccId": "dcc-facio-32",
+      "headword": "factus, facta, factum (participle of facio)",
+      "definition": "made; fashioned",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Ara{|} per antiquas facta sine arte manus .",
+          "O": "Ara per antiquas facta sine arte manus.",
+          "LL": "ara per antiquas facta sine arte manus."
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/facio",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:10:per",
+      "kind": "source-form",
+      "line": "10",
+      "form": "per",
+      "action": "confirm",
+      "dccId": "dcc-per-30",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Ara{|} per antiquas facta sine arte manus .",
+          "O": "Ara per antiquas facta sine arte manus.",
+          "LL": "ara per antiquas facta sine arte manus."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:10:facta",
+      "kind": "source-form",
+      "line": "10",
+      "form": "facta",
+      "action": "replace",
+      "reason": "Facta is feminine singular perfect passive participle with ara.",
+      "dccId": "dcc-facio-32",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Ara{|} per antiquas facta sine arte manus .",
+          "O": "Ara per antiquas facta sine arte manus.",
+          "LL": "ara per antiquas facta sine arte manus."
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/facio",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:10:sine",
+      "kind": "source-form",
+      "line": "10",
+      "form": "sine",
+      "action": "replace",
+      "reason": "Sine arte is the preposition without, not sino or sinus.",
+      "dccId": "dcc-sine-104",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Ara{|} per antiquas facta sine arte manus .",
+          "O": "Ara per antiquas facta sine arte manus.",
+          "LL": "ara per antiquas facta sine arte manus."
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/sine",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:10:manus",
+      "kind": "source-form",
+      "line": "10",
+      "form": "manus",
+      "action": "confirm",
+      "dccId": "dcc-manus-48",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Ara{|} per antiquas facta sine arte manus .",
+          "O": "Ara per antiquas facta sine arte manus.",
+          "LL": "ara per antiquas facta sine arte manus."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:11:0",
+      "kind": "legacy-entry",
+      "line": "11",
+      "raw": "hinc: hence, from this place, henceforth, from this side",
+      "action": "suppress",
+      "reason": "This witness has no secure matching occurrence for this glossary entry: its relevant wording is absent, different, abbreviated, interrupted by a mark, or locally uncertain. Hinc is the adverb in O/LL. Y has the altered sequence Hanc plus hic, not a secure hinc.",
+      "witnesses": [
+        "Y"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Hanc⟨hic⟩ ubi p{—}resonuit sollempni⟦a⟧ tibia cantu"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:11:1",
+      "kind": "legacy-entry",
+      "line": "11",
+      "raw": "praesonō: surpass above something in sound",
+      "action": "suppress",
+      "reason": "This witness has no secure matching occurrence for this glossary entry: its relevant wording is absent, different, abbreviated, interrupted by a mark, or locally uncertain. Praesonuit describes the flute leading the rite with music; Y interrupts the word with a mark.",
+      "witnesses": [
+        "Y"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Hanc⟨hic⟩ ubi p{—}resonuit sollempni⟦a⟧ tibia cantu"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:11:2",
+      "kind": "legacy-entry",
+      "line": "11",
+      "raw": "sollemnis, sollemnis, sollemne: yearly, annual, established, appointed",
+      "action": "suppress",
+      "reason": "This witness has no secure matching occurrence for this glossary entry: its relevant wording is absent, different, abbreviated, interrupted by a mark, or locally uncertain. Sollemni qualifies the ritual music; Y marks/deletes the end of its spelling.",
+      "witnesses": [
+        "Y"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Hanc⟨hic⟩ ubi p{—}resonuit sollempni⟦a⟧ tibia cantu"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:11:3",
+      "kind": "legacy-entry",
+      "line": "11",
+      "raw": "tībia, tībiae f.: flute (originally of bone",
+      "action": "replace",
+      "reason": "Tibia is the musical instrument; complete the truncated definition.",
+      "dccId": null,
+      "headword": "tibia, tibiae f.",
+      "definition": "flute; pipe",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Hanc⟨hic⟩ ubi p{—}resonuit sollempni⟦a⟧ tibia cantu",
+          "O": "Hinc, ubi praesonuit sollemni tibia cantu,",
+          "LL": "hinc, ubi praesonuit sollemni tibia cantu,"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/tibia"
+        ]
+      }
+    },
+    {
+      "id": "legacy:11:4",
+      "kind": "legacy-entry",
+      "line": "11",
+      "raw": "cantus, canta, cantum: sung, recited, sounded, blew",
+      "action": "replace",
+      "reason": "Cantu is the fourth-declension noun, not an alleged participle paradigm.",
+      "dccId": null,
+      "headword": "cantus, cantus m.",
+      "definition": "song; music",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Hanc⟨hic⟩ ubi p{—}resonuit sollempni⟦a⟧ tibia cantu",
+          "O": "Hinc, ubi praesonuit sollemni tibia cantu,",
+          "LL": "hinc, ubi praesonuit sollemni tibia cantu,"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/cantus"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:11:ubi",
+      "kind": "source-form",
+      "line": "11",
+      "form": "ubi",
+      "action": "confirm",
+      "dccId": "dcc-ubi-92",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Hanc⟨hic⟩ ubi p{—}resonuit sollempni⟦a⟧ tibia cantu",
+          "O": "Hinc, ubi praesonuit sollemni tibia cantu,",
+          "LL": "hinc, ubi praesonuit sollemni tibia cantu,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:12:0",
+      "kind": "legacy-entry",
+      "line": "12",
+      "raw": "vēlātus, vēlāta, vēlātum: covered, wrapped, veiled, concealed",
+      "action": "confirm",
+      "reason": "Velatas/vellatas qualifies the draped streets; the Y spelling retains doubled l.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "It per uellatas annua pompa i⟦a⟧ uias .",
+          "O": "It per velatas annua pompa vias;",
+          "LL": "it per velatas annua pompa vias;"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:12:1",
+      "kind": "legacy-entry",
+      "line": "12",
+      "raw": "annuus, annua, annuum: annual, yearly, lasting a year",
+      "action": "confirm",
+      "reason": "Annua qualifies the yearly procession.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "It per uellatas annua pompa i⟦a⟧ uias .",
+          "O": "It per velatas annua pompa vias;",
+          "LL": "it per velatas annua pompa vias;"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:12:2",
+      "kind": "legacy-entry",
+      "line": "12",
+      "raw": "pompa, pompae f.: procession, parade, pomp",
+      "action": "confirm",
+      "reason": "Pompa is the ceremonial procession.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "It per uellatas annua pompa i⟦a⟧ uias .",
+          "O": "It per velatas annua pompa vias;",
+          "LL": "it per velatas annua pompa vias;"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:12:it",
+      "kind": "source-form",
+      "line": "12",
+      "form": "it",
+      "action": "confirm",
+      "dccId": "dcc-eo-97",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "It per uellatas annua pompa i⟦a⟧ uias .",
+          "O": "It per velatas annua pompa vias;",
+          "LL": "it per velatas annua pompa vias;"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:12:per",
+      "kind": "source-form",
+      "line": "12",
+      "form": "per",
+      "action": "confirm",
+      "dccId": "dcc-per-30",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "It per uellatas annua pompa i⟦a⟧ uias .",
+          "O": "It per velatas annua pompa vias;",
+          "LL": "it per velatas annua pompa vias;"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:12:uias",
+      "kind": "source-form",
+      "line": "12",
+      "form": "uias",
+      "action": "confirm",
+      "dccId": "dcc-via-196",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "It per uellatas annua pompa i⟦a⟧ uias .",
+          "O": "It per velatas annua pompa vias;",
+          "LL": "it per velatas annua pompa vias;"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:13:0",
+      "kind": "legacy-entry",
+      "line": "13",
+      "raw": "niveus, nivea, niveum: snowy, snowclad, snow-covered, snow-white 86 - 103 C.E",
+      "action": "replace",
+      "reason": "Niveae describes the heifers; remove the unrelated date fragment.",
+      "dccId": null,
+      "headword": "niveus, nivea, niveum",
+      "definition": "snow-white",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Ducuntur niueae populo plaudente iuuen⟨c⟩{⌃}e",
+          "O": "Ducuntur niveae populo plaudente iuvencae,",
+          "LL": "ducuntur niveae populo plaudente iuvencae,"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/niveus"
+        ]
+      }
+    },
+    {
+      "id": "legacy:13:1",
+      "kind": "legacy-entry",
+      "line": "13",
+      "raw": "populō: devastate, lay waste, strip",
+      "action": "replace",
+      "reason": "Populo is the noun in an ablative absolute with plaudente, not the verb devastate.",
+      "dccId": "dcc-populus-122",
+      "headword": "populus, populi m.",
+      "definition": "people; crowd",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Ducuntur niueae populo plaudente iuuen⟨c⟩{⌃}e",
+          "O": "Ducuntur niveae populo plaudente iuvencae,",
+          "LL": "ducuntur niveae populo plaudente iuvencae,"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/populus",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "legacy:13:2",
+      "kind": "legacy-entry",
+      "line": "13",
+      "raw": "plaudēns, plaudentis: striking, beating, applauding, approving",
+      "action": "confirm",
+      "reason": "Plaudente means applauding in the ablative absolute.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Ducuntur niueae populo plaudente iuuen⟨c⟩{⌃}e",
+          "O": "Ducuntur niveae populo plaudente iuvencae,",
+          "LL": "ducuntur niveae populo plaudente iuvencae,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:13:3",
+      "kind": "legacy-entry",
+      "line": "13",
+      "raw": "iuvencus, iuvenca, iuvencum: young",
+      "action": "suppress",
+      "reason": "This witness has no secure matching occurrence for this glossary entry: its relevant wording is absent, different, abbreviated, interrupted by a mark, or locally uncertain. Iuvencae is a substantive, the young cows in the procession. Y marks the word with an addition and sign.",
+      "witnesses": [
+        "Y"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Ducuntur niueae populo plaudente iuuen⟨c⟩{⌃}e"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:13:ducuntur",
+      "kind": "source-form",
+      "line": "13",
+      "form": "ducuntur",
+      "action": "confirm",
+      "dccId": "dcc-duco-133",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Ducuntur niueae populo plaudente iuuen⟨c⟩{⌃}e",
+          "O": "Ducuntur niveae populo plaudente iuvencae,",
+          "LL": "ducuntur niveae populo plaudente iuvencae,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:14:0",
+      "kind": "legacy-entry",
+      "line": "14",
+      "raw": "herba, herbae f.: grass, herbage, herb, weeds",
+      "action": "confirm",
+      "reason": "Herba is the grass feeding the cattle.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Quas aluit campis herba falisca suis .",
+          "O": "Quas aluit campis herba Falisca suis,",
+          "LL": "quas aluit campis herba Falisca suis,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:14:1",
+      "kind": "legacy-entry",
+      "line": "14",
+      "raw": "falisca, faliscae f.: rack in a manger",
+      "action": "replace",
+      "reason": "Falisca qualifies herba; it is not the noun for a rack in a manger.",
+      "dccId": null,
+      "headword": "Faliscus, Falisca, Faliscum",
+      "definition": "Faliscan; of Falerii",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Quas aluit campis herba falisca suis .",
+          "O": "Quas aluit campis herba Falisca suis,",
+          "LL": "quas aluit campis herba Falisca suis,"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/Falisci"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:14:aluit",
+      "kind": "source-form",
+      "line": "14",
+      "form": "aluit",
+      "action": "confirm",
+      "dccId": "dcc-alo-817",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Quas aluit campis herba falisca suis .",
+          "O": "Quas aluit campis herba Falisca suis,",
+          "LL": "quas aluit campis herba Falisca suis,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:15:0",
+      "kind": "legacy-entry",
+      "line": "15",
+      "raw": "vitulus, vitulī m.: a bull calf, clipping of",
+      "action": "replace",
+      "reason": "Vituli are the calves; remove the truncated phrase.",
+      "dccId": null,
+      "headword": "vitulus, vituli m.",
+      "definition": "a calf; young bull",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Et uituli nondum metuendi fronte minaces .",
+          "O": "Et vituli nondum metuenda fronte minaces",
+          "LL": "et vituli nondum metuenda fronte minaces,"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/vitulus"
+        ]
+      }
+    },
+    {
+      "id": "legacy:15:1",
+      "kind": "legacy-entry",
+      "line": "15",
+      "raw": "metuendus, metuenda, metuendum: which is to be feared ; fearsome",
+      "action": "confirm",
+      "reason": "Metuenda/metuendi is a gerundive form of metuo; retain the source’s differing ending.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Et uituli nondum metuendi fronte minaces .",
+          "O": "Et vituli nondum metuenda fronte minaces",
+          "LL": "et vituli nondum metuenda fronte minaces,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:15:2",
+      "kind": "legacy-entry",
+      "line": "15",
+      "raw": "mināx, minācis: projecting, overhanging (jutting out, threatening, menacing",
+      "action": "replace",
+      "reason": "Minaces describes threatening young bulls; remove the unfinished parenthesis.",
+      "dccId": null,
+      "headword": "minax, minacis",
+      "definition": "threatening; menacing",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Et uituli nondum metuendi fronte minaces .",
+          "O": "Et vituli nondum metuenda fronte minaces",
+          "LL": "et vituli nondum metuenda fronte minaces,"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/minax"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:15:et",
+      "kind": "source-form",
+      "line": "15",
+      "form": "et",
+      "action": "confirm",
+      "dccId": "dcc-et-1",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Et uituli nondum metuendi fronte minaces .",
+          "O": "Et vituli nondum metuenda fronte minaces",
+          "LL": "et vituli nondum metuenda fronte minaces,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:15:nondum",
+      "kind": "source-form",
+      "line": "15",
+      "form": "nondum",
+      "action": "confirm",
+      "dccId": "dcc-nondum-436",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Et uituli nondum metuendi fronte minaces .",
+          "O": "Et vituli nondum metuenda fronte minaces",
+          "LL": "et vituli nondum metuenda fronte minaces,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:15:fronte",
+      "kind": "source-form",
+      "line": "15",
+      "form": "fronte",
+      "action": "confirm",
+      "dccId": "dcc-frons-559",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Et uituli nondum metuendi fronte minaces .",
+          "O": "Et vituli nondum metuenda fronte minaces",
+          "LL": "et vituli nondum metuenda fronte minaces,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:16:0",
+      "kind": "legacy-entry",
+      "line": "16",
+      "raw": "humilis, humilis, humile: low, lowly, small, fortune or",
+      "action": "replace",
+      "reason": "Humili qualifies the lowly pigsty; remove the truncated final phrase.",
+      "dccId": null,
+      "headword": "humilis, humile",
+      "definition": "low; humble",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Et minor ex humili uictima porcus hara",
+          "O": "Et minor ex humili victima porcus hara",
+          "LL": "et minor ex humili victima porcus hara,"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/humilis"
+        ]
+      }
+    },
+    {
+      "id": "legacy:16:1",
+      "kind": "legacy-entry",
+      "line": "16",
+      "raw": "victima, victimae f.: sacrificial victim",
+      "action": "confirm",
+      "reason": "Victima is the sacrificial victim.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Et minor ex humili uictima porcus hara",
+          "O": "Et minor ex humili victima porcus hara",
+          "LL": "et minor ex humili victima porcus hara,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:16:2",
+      "kind": "legacy-entry",
+      "line": "16",
+      "raw": "porcus, porcī m.: a piglet, a young pig, hog, short for",
+      "action": "replace",
+      "reason": "Porcus is the sacrificial pig; remove the incomplete ending.",
+      "dccId": null,
+      "headword": "porcus, porci m.",
+      "definition": "pig; young pig",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Et minor ex humili uictima porcus hara",
+          "O": "Et minor ex humili victima porcus hara",
+          "LL": "et minor ex humili victima porcus hara,"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/porcus"
+        ]
+      }
+    },
+    {
+      "id": "legacy:16:3",
+      "kind": "legacy-entry",
+      "line": "16",
+      "raw": "hara, harae f.: an animal pen, a chicken coop, a pigsty",
+      "action": "confirm",
+      "reason": "Hara is the pigsty/animal pen from which the pig comes.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Et minor ex humili uictima porcus hara",
+          "O": "Et minor ex humili victima porcus hara",
+          "LL": "et minor ex humili victima porcus hara,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:16:et",
+      "kind": "source-form",
+      "line": "16",
+      "form": "et",
+      "action": "confirm",
+      "dccId": "dcc-et-1",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Et minor ex humili uictima porcus hara",
+          "O": "Et minor ex humili victima porcus hara",
+          "LL": "et minor ex humili victima porcus hara,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:16:ex",
+      "kind": "source-form",
+      "line": "16",
+      "form": "ex",
+      "action": "confirm",
+      "dccId": "dcc-ex-26",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Et minor ex humili uictima porcus hara",
+          "O": "Et minor ex humili victima porcus hara",
+          "LL": "et minor ex humili victima porcus hara,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:17:0",
+      "kind": "legacy-entry",
+      "line": "17",
+      "raw": "grex, gregis m.: sheep, etc, a pack ( of dogs, wolves",
+      "action": "replace",
+      "reason": "Gregis denotes the herd led by the bull; restore the generic noun meaning.",
+      "dccId": null,
+      "headword": "grex, gregis m.",
+      "definition": "herd; flock",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Duxque gregis cornu⟦a⟧ per tempora dura recuruo .",
+          "O": "Duxque gregis cornu per tempora dura recurvo;",
+          "LL": "duxque gregis cornu per tempora dura recurvo."
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/grex"
+        ]
+      }
+    },
+    {
+      "id": "legacy:17:1",
+      "kind": "legacy-entry",
+      "line": "17",
+      "raw": "recurvō, recurvāre, recurvāvī, recurvātum: to bend backwards, to turn back",
+      "action": "replace",
+      "reason": "Recurvo agrees with cornu; it is not the verb recurvo.",
+      "dccId": null,
+      "headword": "recurvus, recurva, recurvum",
+      "definition": "bent back; curved backward",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Duxque gregis cornu⟦a⟧ per tempora dura recuruo .",
+          "O": "Duxque gregis cornu per tempora dura recurvo;",
+          "LL": "duxque gregis cornu per tempora dura recurvo."
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/recurvus"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:17:per",
+      "kind": "source-form",
+      "line": "17",
+      "form": "per",
+      "action": "confirm",
+      "dccId": "dcc-per-30",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Duxque gregis cornu⟦a⟧ per tempora dura recuruo .",
+          "O": "Duxque gregis cornu per tempora dura recurvo;",
+          "LL": "duxque gregis cornu per tempora dura recurvo."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:17:tempora",
+      "kind": "source-form",
+      "line": "17",
+      "form": "tempora",
+      "action": "replace",
+      "reason": "Tempora are the temples of the bull’s head, not periods of time. Lewis–Short treats the anatomical sense under the same tempus lemma; DCC membership therefore remains tempus (rank 89), with this contextual definition retained.",
+      "dccId": "dcc-tempus-89",
+      "headword": "tempus, temporis n. (anatomical sense)",
+      "definition": "temple; side of the forehead",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Duxque gregis cornu⟦a⟧ per tempora dura recuruo .",
+          "O": "Duxque gregis cornu per tempora dura recurvo;",
+          "LL": "duxque gregis cornu per tempora dura recurvo."
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/tempus",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "legacy:18:0",
+      "kind": "legacy-entry",
+      "line": "18",
+      "raw": "invīsus, invīsa, invīsum: hateful, hated, odious, disliked",
+      "action": "confirm",
+      "reason": "Invisa/invisast describes the goat as hated by the goddess.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Inuisa est dominae sola capella deae .",
+          "O": "Invisast dominae sola capella deae:",
+          "LL": "invisa est dominae sola capella deae;"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:18:1",
+      "kind": "legacy-entry",
+      "line": "18",
+      "raw": "capella, capellae f.: a she- goat or kid, nanny-goat",
+      "action": "confirm",
+      "reason": "Capella is the she-goat.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Inuisa est dominae sola capella deae .",
+          "O": "Invisast dominae sola capella deae:",
+          "LL": "invisa est dominae sola capella deae;"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:18:est",
+      "kind": "source-form",
+      "line": "18",
+      "form": "est",
+      "action": "replace",
+      "reason": "Est is the copula with invisa.",
+      "dccId": "dcc-sum-2",
+      "witnesses": [
+        "Y",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Inuisa est dominae sola capella deae .",
+          "LL": "invisa est dominae sola capella deae;"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/sum",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:18:sola",
+      "kind": "source-form",
+      "line": "18",
+      "form": "sola",
+      "action": "replace",
+      "reason": "Sola qualifies capella, the only goat, not the noun solum.",
+      "dccId": "dcc-solus-176",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Inuisa est dominae sola capella deae .",
+          "O": "Invisast dominae sola capella deae:",
+          "LL": "invisa est dominae sola capella deae;"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/solus",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "legacy:19:0",
+      "kind": "legacy-entry",
+      "line": "19",
+      "raw": "indicium, indiciī n.: information, evidence, discovery, notice",
+      "action": "confirm",
+      "reason": "Indicio names the goat’s betrayal/disclosure.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Illius indicio siluis inuenta sub altis",
+          "O": "Illius indicio silvis inventa sub altis",
+          "LL": "illius indicio silvis inventa sub altis"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:19:1",
+      "kind": "legacy-entry",
+      "line": "19",
+      "raw": "inventus, inventa, inventum: found, having been found, discovered, having been discovered",
+      "action": "confirm",
+      "reason": "Inventa is the feminine perfect participle “found”.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Illius indicio siluis inuenta sub altis",
+          "O": "Illius indicio silvis inventa sub altis",
+          "LL": "illius indicio silvis inventa sub altis"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:19:illius",
+      "kind": "source-form",
+      "line": "19",
+      "form": "illius",
+      "action": "confirm",
+      "dccId": "dcc-ille-8",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Illius indicio siluis inuenta sub altis",
+          "O": "Illius indicio silvis inventa sub altis",
+          "LL": "illius indicio silvis inventa sub altis"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:19:siluis",
+      "kind": "source-form",
+      "line": "19",
+      "form": "siluis",
+      "action": "confirm",
+      "dccId": "dcc-silva-234",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Illius indicio siluis inuenta sub altis",
+          "O": "Illius indicio silvis inventa sub altis",
+          "LL": "illius indicio silvis inventa sub altis"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:19:sub",
+      "kind": "source-form",
+      "line": "19",
+      "form": "sub",
+      "action": "confirm",
+      "dccId": "dcc-sub-118",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Illius indicio siluis inuenta sub altis",
+          "O": "Illius indicio silvis inventa sub altis",
+          "LL": "illius indicio silvis inventa sub altis"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:20:0",
+      "kind": "legacy-entry",
+      "line": "20",
+      "raw": "inceptus, incepta, inceptum: begun, undertaken, partially accomplished, etc",
+      "action": "confirm",
+      "reason": "Inceptam qualifies the flight she had begun.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Dicitur inceptam destituisse fugam .",
+          "O": "Dicitur inceptam destituisse fugam;",
+          "LL": "dicitur inceptam destituisse fugam."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:20:1",
+      "kind": "legacy-entry",
+      "line": "20",
+      "raw": "dēstituō, dēstituere, dēstituī, dēstitūtum: to leave alone, forsake, abandon or desert, to delude",
+      "action": "confirm",
+      "reason": "Destituisse means to abandon the flight.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Dicitur inceptam destituisse fugam .",
+          "O": "Dicitur inceptam destituisse fugam;",
+          "LL": "dicitur inceptam destituisse fugam."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:20:dicitur",
+      "kind": "source-form",
+      "line": "20",
+      "form": "dicitur",
+      "action": "confirm",
+      "dccId": "dcc-dico-33",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Dicitur inceptam destituisse fugam .",
+          "O": "Dicitur inceptam destituisse fugam;",
+          "LL": "dicitur inceptam destituisse fugam."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:20:fugam",
+      "kind": "source-form",
+      "line": "20",
+      "form": "fugam",
+      "action": "confirm",
+      "dccId": "dcc-fuga-364",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Dicitur inceptam destituisse fugam .",
+          "O": "Dicitur inceptam destituisse fugam;",
+          "LL": "dicitur inceptam destituisse fugam."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:21:0",
+      "kind": "legacy-entry",
+      "line": "21",
+      "raw": "iaculus, iacula, iaculum: ( chiefly substantively ) that is thrown rēte iaculum",
+      "action": "replace",
+      "reason": "Iaculis is the plural noun for missiles thrown at the goat, not a generalized adjective.",
+      "dccId": null,
+      "headword": "iaculum, iaculi n.",
+      "definition": "javelin; dart",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Nunc quoque per pueros iaculis incessitur index",
+          "O": "Nunc quoque per pueros iaculis incessitur index",
+          "LL": "nunc quoque per pueros iaculis incessitur index"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/jaculum"
+        ]
+      }
+    },
+    {
+      "id": "legacy:21:1",
+      "kind": "legacy-entry",
+      "line": "21",
+      "raw": "incessō: to assault, assail, attack, fall upon",
+      "action": "confirm",
+      "reason": "Incessitur means is assailed/attacked.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Nunc quoque per pueros iaculis incessitur index",
+          "O": "Nunc quoque per pueros iaculis incessitur index",
+          "LL": "nunc quoque per pueros iaculis incessitur index"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:21:nunc",
+      "kind": "source-form",
+      "line": "21",
+      "form": "nunc",
+      "action": "confirm",
+      "dccId": "dcc-nunc-50",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Nunc quoque per pueros iaculis incessitur index",
+          "O": "Nunc quoque per pueros iaculis incessitur index",
+          "LL": "nunc quoque per pueros iaculis incessitur index"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:21:quoque",
+      "kind": "source-form",
+      "line": "21",
+      "form": "quoque",
+      "action": "confirm",
+      "dccId": "dcc-quoque-76",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Nunc quoque per pueros iaculis incessitur index",
+          "O": "Nunc quoque per pueros iaculis incessitur index",
+          "LL": "nunc quoque per pueros iaculis incessitur index"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:21:per",
+      "kind": "source-form",
+      "line": "21",
+      "form": "per",
+      "action": "confirm",
+      "dccId": "dcc-per-30",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Nunc quoque per pueros iaculis incessitur index",
+          "O": "Nunc quoque per pueros iaculis incessitur index",
+          "LL": "nunc quoque per pueros iaculis incessitur index"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:21:pueros",
+      "kind": "source-form",
+      "line": "21",
+      "form": "pueros",
+      "action": "confirm",
+      "dccId": "dcc-puer-191",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Nunc quoque per pueros iaculis incessitur index",
+          "O": "Nunc quoque per pueros iaculis incessitur index",
+          "LL": "nunc quoque per pueros iaculis incessitur index"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:22:et",
+      "kind": "source-form",
+      "line": "22",
+      "form": "et",
+      "action": "confirm",
+      "dccId": "dcc-et-1",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Et pretium auctori uulneris ipsa datur",
+          "O": "Et pretium auctori vulneris ipsa datur.",
+          "LL": "et pretium auctori vulneris ipsa datur."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:22:pretium",
+      "kind": "source-form",
+      "line": "22",
+      "form": "pretium",
+      "action": "confirm",
+      "dccId": "dcc-pretium-629",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Et pretium auctori uulneris ipsa datur",
+          "O": "Et pretium auctori vulneris ipsa datur.",
+          "LL": "et pretium auctori vulneris ipsa datur."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:22:auctori",
+      "kind": "source-form",
+      "line": "22",
+      "form": "auctori",
+      "action": "confirm",
+      "dccId": "dcc-auctor-546",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Et pretium auctori uulneris ipsa datur",
+          "O": "Et pretium auctori vulneris ipsa datur.",
+          "LL": "et pretium auctori vulneris ipsa datur."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:22:ipsa",
+      "kind": "source-form",
+      "line": "22",
+      "form": "ipsa",
+      "action": "confirm",
+      "dccId": "dcc-ipse-22",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Et pretium auctori uulneris ipsa datur",
+          "O": "Et pretium auctori vulneris ipsa datur.",
+          "LL": "et pretium auctori vulneris ipsa datur."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:22:datur",
+      "kind": "source-form",
+      "line": "22",
+      "form": "datur",
+      "action": "confirm",
+      "dccId": "dcc-do-28",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Et pretium auctori uulneris ipsa datur",
+          "O": "Et pretium auctori vulneris ipsa datur.",
+          "LL": "et pretium auctori vulneris ipsa datur."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:23:0",
+      "kind": "legacy-entry",
+      "line": "23",
+      "raw": "ventūrus, ventūra, ventūrum: about to come, about to approach",
+      "action": "confirm",
+      "reason": "Ventura is the future participle describing the goddess’s arrival.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Qua uentura dea est iuuenes timideque puellae",
+          "O": "Qua ventura deast, iuvenes timidaeque puellae",
+          "LL": "Qua ventura dea est, iuvenes timidaeque puellae"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:23:1",
+      "kind": "legacy-entry",
+      "line": "23",
+      "raw": "timidus, timida, timidum: fearful, afraid, apprehensive, timid",
+      "action": "confirm",
+      "reason": "Timidaeque/timideque qualifies the girls as timid; Y writes ae as e.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Qua uentura dea est iuuenes timideque puellae",
+          "O": "Qua ventura deast, iuvenes timidaeque puellae",
+          "LL": "Qua ventura dea est, iuvenes timidaeque puellae"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:23:est",
+      "kind": "source-form",
+      "line": "23",
+      "form": "est",
+      "action": "replace",
+      "reason": "Est forms ventura est, the future participle construction.",
+      "dccId": "dcc-sum-2",
+      "witnesses": [
+        "Y",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Qua uentura dea est iuuenes timideque puellae",
+          "LL": "Qua ventura dea est, iuvenes timidaeque puellae"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/sum",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:23:puellae",
+      "kind": "source-form",
+      "line": "23",
+      "form": "puellae",
+      "action": "confirm",
+      "dccId": "dcc-puella-233",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Qua uentura dea est iuuenes timideque puellae",
+          "O": "Qua ventura deast, iuvenes timidaeque puellae",
+          "LL": "Qua ventura dea est, iuvenes timidaeque puellae"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:24:0",
+      "kind": "legacy-entry",
+      "line": "24",
+      "raw": "praeverrō, praeverrere, praeverrī, praeversum: to sweep or brush before",
+      "action": "suppress",
+      "reason": "This witness has no secure matching occurrence for this glossary entry: its relevant wording is absent, different, abbreviated, interrupted by a mark, or locally uncertain. Praeverrunt means sweep before; Y transmits Praebuerant instead.",
+      "witnesses": [
+        "Y"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Praebuerant latas ueste iacente uias ."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:24:1",
+      "kind": "legacy-entry",
+      "line": "24",
+      "raw": "iacēns, iacentis: lying prostrate, lying ill, being sick, lingering",
+      "action": "replace",
+      "reason": "Iacente describes the garment lying/trailing on the road, not illness.",
+      "dccId": "dcc-iaceo-228",
+      "headword": "iacens, iacentis",
+      "definition": "lying; trailing along the ground",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Praebuerant latas ueste iacente uias .",
+          "O": "Praeverrunt latas veste iacente vias:",
+          "LL": "praeverrunt latas veste iacente vias."
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/jaceo",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:24:praebuerant",
+      "kind": "source-form",
+      "line": "24",
+      "form": "praebuerant",
+      "action": "confirm",
+      "dccId": "dcc-praebeo-584",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Praebuerant latas ueste iacente uias ."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:24:latas",
+      "kind": "source-form",
+      "line": "24",
+      "form": "latas",
+      "action": "replace",
+      "reason": "Latas agrees with vias and means broad, not a form of fero.",
+      "dccId": "dcc-latus-824",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Praebuerant latas ueste iacente uias .",
+          "O": "Praeverrunt latas veste iacente vias:",
+          "LL": "praeverrunt latas veste iacente vias."
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/latus",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:24:ueste",
+      "kind": "source-form",
+      "line": "24",
+      "form": "ueste",
+      "action": "confirm",
+      "dccId": "dcc-vestis-413",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Praebuerant latas ueste iacente uias .",
+          "O": "Praeverrunt latas veste iacente vias:",
+          "LL": "praeverrunt latas veste iacente vias."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:24:uias",
+      "kind": "source-form",
+      "line": "24",
+      "form": "uias",
+      "action": "confirm",
+      "dccId": "dcc-via-196",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Praebuerant latas ueste iacente uias .",
+          "O": "Praeverrunt latas veste iacente vias:",
+          "LL": "praeverrunt latas veste iacente vias."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:25:0",
+      "kind": "legacy-entry",
+      "line": "25",
+      "raw": "virgineus, virginea, virgineum: maidenly",
+      "action": "confirm",
+      "reason": "Virginei/virginea belongs to virgineus, maidenly; preserve the differing source ending.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Virginea crines auro gemmaque premuntur",
+          "O": "Virginei crines auro gemmaque premuntur,",
+          "LL": "virginei crines auro gemmaque premuntur,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:25:1",
+      "kind": "legacy-entry",
+      "line": "25",
+      "raw": "crīnis, crīnis m.: hair of the head, lock of hair, plume, tail of",
+      "action": "replace",
+      "reason": "Crines is head-hair; remove the unfinished list of other senses.",
+      "dccId": null,
+      "headword": "crinis, crinis m.",
+      "definition": "hair; lock of hair",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Virginea crines auro gemmaque premuntur",
+          "O": "Virginei crines auro gemmaque premuntur,",
+          "LL": "virginei crines auro gemmaque premuntur,"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/crinis"
+        ]
+      }
+    },
+    {
+      "id": "legacy:25:2",
+      "kind": "legacy-entry",
+      "line": "25",
+      "raw": "aurō, aurāre, aurāvī, aurātum: gild",
+      "action": "replace",
+      "reason": "Auro is the material noun, not the verb “gild”.",
+      "dccId": "dcc-aurum-303",
+      "headword": "aurum, auri n.",
+      "definition": "gold",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Virginea crines auro gemmaque premuntur",
+          "O": "Virginei crines auro gemmaque premuntur,",
+          "LL": "virginei crines auro gemmaque premuntur,"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/aurum",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "legacy:25:3",
+      "kind": "legacy-entry",
+      "line": "25",
+      "raw": "gemma, gemmae f.: a bud or eye of, a gem, gemstone, jewel",
+      "action": "replace",
+      "reason": "Gemmaque refers to the jewel adorning the hair; remove the truncated botanical sense.",
+      "dccId": null,
+      "headword": "gemma, gemmae f.",
+      "definition": "gem; jewel",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Virginea crines auro gemmaque premuntur",
+          "O": "Virginei crines auro gemmaque premuntur,",
+          "LL": "virginei crines auro gemmaque premuntur,"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/gemma"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:25:premuntur",
+      "kind": "source-form",
+      "line": "25",
+      "form": "premuntur",
+      "action": "confirm",
+      "dccId": "dcc-premo-240",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Virginea crines auro gemmaque premuntur",
+          "O": "Virginei crines auro gemmaque premuntur,",
+          "LL": "virginei crines auro gemmaque premuntur,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:26:0",
+      "kind": "legacy-entry",
+      "line": "26",
+      "raw": "aurātus, aurāta, aurātum: furnished, overlaid or ornamented with gold, gilded, having been gilded",
+      "action": "confirm",
+      "reason": "Auratos qualifies feet adorned with gold.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Et tegit auratos palla superba pedes .",
+          "O": "Et tegit auratos palla superba pedes;",
+          "LL": "et tegit auratos palla superba pedes;"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:26:1",
+      "kind": "legacy-entry",
+      "line": "26",
+      "raw": "palla, pallae f.: a rectangular piece of cloth worn by ladies in Ancient Rome and fastened with brooches",
+      "action": "confirm",
+      "reason": "Palla is the women’s outer garment covering the feet.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Et tegit auratos palla superba pedes .",
+          "O": "Et tegit auratos palla superba pedes;",
+          "LL": "et tegit auratos palla superba pedes;"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:26:2",
+      "kind": "legacy-entry",
+      "line": "26",
+      "raw": "pedes, peditis m.: walker (, foot soldier, infantryman, infantry",
+      "action": "replace",
+      "reason": "Pedes is the plural of pes, not the infantryman noun pedes.",
+      "dccId": "dcc-pes-199",
+      "headword": "pes, pedis m.",
+      "definition": "foot; feet",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Et tegit auratos palla superba pedes .",
+          "O": "Et tegit auratos palla superba pedes;",
+          "LL": "et tegit auratos palla superba pedes;"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/pes",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:26:et",
+      "kind": "source-form",
+      "line": "26",
+      "form": "et",
+      "action": "confirm",
+      "dccId": "dcc-et-1",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Et tegit auratos palla superba pedes .",
+          "O": "Et tegit auratos palla superba pedes;",
+          "LL": "et tegit auratos palla superba pedes;"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:26:tegit",
+      "kind": "source-form",
+      "line": "26",
+      "form": "tegit",
+      "action": "confirm",
+      "dccId": "dcc-tego-376",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Et tegit auratos palla superba pedes .",
+          "O": "Et tegit auratos palla superba pedes;",
+          "LL": "et tegit auratos palla superba pedes;"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:26:superba",
+      "kind": "source-form",
+      "line": "26",
+      "form": "superba",
+      "action": "confirm",
+      "dccId": "dcc-superbus-656",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Et tegit auratos palla superba pedes .",
+          "O": "Et tegit auratos palla superba pedes;",
+          "LL": "et tegit auratos palla superba pedes;"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:27:0",
+      "kind": "legacy-entry",
+      "line": "27",
+      "raw": "vēlātus, vēlāta, vēlātum: covered, wrapped, veiled, concealed",
+      "action": "confirm",
+      "reason": "Velatae/velate describes the women clothed/veiled in white; Y writes ae as e.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "More[m?] patrum graio⟨sancto⟩ uelate uestibus albis",
+          "O": "More patrum Graio velatae vestibus albis",
+          "LL": "more patrum Graio velatae vestibus albis"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:27:patrum",
+      "kind": "source-form",
+      "line": "27",
+      "form": "patrum",
+      "action": "confirm",
+      "dccId": "dcc-pater-71",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "More[m?] patrum graio⟨sancto⟩ uelate uestibus albis",
+          "O": "More patrum Graio velatae vestibus albis",
+          "LL": "more patrum Graio velatae vestibus albis"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:27:uestibus",
+      "kind": "source-form",
+      "line": "27",
+      "form": "uestibus",
+      "action": "confirm",
+      "dccId": "dcc-vestis-413",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "More[m?] patrum graio⟨sancto⟩ uelate uestibus albis",
+          "O": "More patrum Graio velatae vestibus albis",
+          "LL": "more patrum Graio velatae vestibus albis"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:28:0",
+      "kind": "legacy-entry",
+      "line": "28",
+      "raw": "trāditus, trādita, trāditum: delivered, surrendered, confided etc",
+      "action": "confirm",
+      "reason": "Tradita qualifies the sacred objects entrusted/handed down.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Tradita supposito uertice sacra ferunt .",
+          "O": "Tradita supposito vertice sacra ferunt.",
+          "LL": "tradita supposito vertice sacra ferunt."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:28:1",
+      "kind": "legacy-entry",
+      "line": "28",
+      "raw": "suppositus, supposita, suppositum: subjected, placed below",
+      "action": "confirm",
+      "reason": "Supposito describes the head placed beneath the objects.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Tradita supposito uertice sacra ferunt .",
+          "O": "Tradita supposito vertice sacra ferunt.",
+          "LL": "tradita supposito vertice sacra ferunt."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:28:2",
+      "kind": "legacy-entry",
+      "line": "28",
+      "raw": "vertex, verticis m.: whirl, whirlpool, eddy, vortex",
+      "action": "replace",
+      "reason": "Vertice is the head bearing sacred objects, not a whirlpool.",
+      "dccId": null,
+      "headword": "vertex, verticis m.",
+      "definition": "top of the head; crown",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Tradita supposito uertice sacra ferunt .",
+          "O": "Tradita supposito vertice sacra ferunt.",
+          "LL": "tradita supposito vertice sacra ferunt."
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/vertex"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:28:ferunt",
+      "kind": "source-form",
+      "line": "28",
+      "form": "ferunt",
+      "action": "confirm",
+      "dccId": "dcc-fero-45",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Tradita supposito uertice sacra ferunt .",
+          "O": "Tradita supposito vertice sacra ferunt.",
+          "LL": "tradita supposito vertice sacra ferunt."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:29:0",
+      "kind": "legacy-entry",
+      "line": "29",
+      "raw": "ōra, ōrae f.: border, rim, frontier, limit",
+      "action": "replace",
+      "reason": "Ore/ora is the mouth noun in the ritual expression, not ora “border”.",
+      "dccId": "dcc-os-147",
+      "headword": "os, oris n.",
+      "definition": "mouth; face",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Ore fauent populi . tunc cum uenit aurea pompa",
+          "O": "Ore favent populi tunc, cum venit aurea pompa,",
+          "LL": "ora favent populi tum cum venit aurea pompa,"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/os",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "legacy:29:1",
+      "kind": "legacy-entry",
+      "line": "29",
+      "raw": "faveō, favēre, fāvī, fautum: to be favorable, to be, to favor, promote",
+      "action": "replace",
+      "reason": "Ore/ora favent is a ritual expression about favorable speech or silence.",
+      "dccId": null,
+      "headword": "faveo, favere, favi, fautum",
+      "definition": "show favor; in ritual, maintain reverent silence",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Ore fauent populi . tunc cum uenit aurea pompa",
+          "O": "Ore favent populi tunc, cum venit aurea pompa,",
+          "LL": "ora favent populi tum cum venit aurea pompa,"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/faveo"
+        ]
+      }
+    },
+    {
+      "id": "legacy:29:2",
+      "kind": "legacy-entry",
+      "line": "29",
+      "raw": "aurea, aureae f.: late Latin ) the bit and reins of, bridle",
+      "action": "replace",
+      "reason": "Aurea describes the procession, not a bridle.",
+      "dccId": "dcc-aureus-691",
+      "headword": "aureus, aurea, aureum",
+      "definition": "golden",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Ore fauent populi . tunc cum uenit aurea pompa",
+          "O": "Ore favent populi tunc, cum venit aurea pompa,",
+          "LL": "ora favent populi tum cum venit aurea pompa,"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/aureus",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "legacy:29:3",
+      "kind": "legacy-entry",
+      "line": "29",
+      "raw": "pompa, pompae f.: procession, parade, pomp",
+      "action": "confirm",
+      "reason": "Pompa is the procession.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Ore fauent populi . tunc cum uenit aurea pompa",
+          "O": "Ore favent populi tunc, cum venit aurea pompa,",
+          "LL": "ora favent populi tum cum venit aurea pompa,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:29:ore",
+      "kind": "source-form",
+      "line": "29",
+      "form": "ore",
+      "action": "replace",
+      "reason": "Ore is the ablative of the mouth noun in ore favere.",
+      "dccId": "dcc-os-147",
+      "witnesses": [
+        "Y",
+        "O"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Ore fauent populi . tunc cum uenit aurea pompa",
+          "O": "Ore favent populi tunc, cum venit aurea pompa,"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/os",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:29:populi",
+      "kind": "source-form",
+      "line": "29",
+      "form": "populi",
+      "action": "confirm",
+      "dccId": "dcc-populus-122",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Ore fauent populi . tunc cum uenit aurea pompa",
+          "O": "Ore favent populi tunc, cum venit aurea pompa,",
+          "LL": "ora favent populi tum cum venit aurea pompa,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:29:cum",
+      "kind": "source-form",
+      "line": "29",
+      "form": "cum",
+      "action": "confirm",
+      "dccId": "dcc-cum-10",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Ore fauent populi . tunc cum uenit aurea pompa",
+          "O": "Ore favent populi tunc, cum venit aurea pompa,",
+          "LL": "ora favent populi tum cum venit aurea pompa,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:30:0",
+      "kind": "legacy-entry",
+      "line": "30",
+      "raw": "subsequor: succeed, adhere to, comply with, conform to",
+      "action": "replace",
+      "reason": "The goddess follows her priests; the motion sense is needed.",
+      "dccId": null,
+      "headword": "subsequor, subsequi, subsecutus sum",
+      "definition": "follow after; follow closely",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Ipsa sacerdotes subsequiturque suos .",
+          "O": "Ipsa sacerdotes subsequiturque suas.",
+          "LL": "ipsa sacerdotes subsequiturque suas."
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/subsequor"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:30:ipsa",
+      "kind": "source-form",
+      "line": "30",
+      "form": "ipsa",
+      "action": "confirm",
+      "dccId": "dcc-ipse-22",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Ipsa sacerdotes subsequiturque suos .",
+          "O": "Ipsa sacerdotes subsequiturque suas.",
+          "LL": "ipsa sacerdotes subsequiturque suas."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:30:sacerdotes",
+      "kind": "source-form",
+      "line": "30",
+      "form": "sacerdotes",
+      "action": "confirm",
+      "dccId": "dcc-sacerdos-939",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Ipsa sacerdotes subsequiturque suos .",
+          "O": "Ipsa sacerdotes subsequiturque suas.",
+          "LL": "ipsa sacerdotes subsequiturque suas."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:30:suos",
+      "kind": "source-form",
+      "line": "30",
+      "form": "suos",
+      "action": "confirm",
+      "dccId": "dcc-suus-27",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Ipsa sacerdotes subsequiturque suos ."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:31:0",
+      "kind": "legacy-entry",
+      "line": "31",
+      "raw": "pompa, pompae f.: procession, parade, pomp",
+      "action": "confirm",
+      "reason": "Pompae is the genitive of the procession noun.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Argiua est pompae facie{|} sagamen{—} none caeso",
+          "O": "Argivast pompae facies: Agamemnone caeso",
+          "LL": "Argiva est pompae facies; Agamemnone caeso"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:31:est",
+      "kind": "source-form",
+      "line": "31",
+      "form": "est",
+      "action": "replace",
+      "reason": "Est is the copula with Argiva.",
+      "dccId": "dcc-sum-2",
+      "witnesses": [
+        "Y",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Argiua est pompae facie{|} sagamen{—} none caeso",
+          "LL": "Argiva est pompae facies; Agamemnone caeso"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/sum",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "legacy:32:0",
+      "kind": "legacy-entry",
+      "line": "32",
+      "raw": "opēs: nominative / accusative / vocative plural of ops",
+      "action": "replace",
+      "reason": "Opes means the ancestral wealth/resources left by Halaesus; a bare case list lacks the meaning.",
+      "dccId": "dcc-ops-318",
+      "headword": "opes, opum f. pl.",
+      "definition": "wealth; resources; power",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Et scelus & patrias fugit{|} halesus opes .",
+          "O": "Et scelus et patrias fugit Halaesus opes",
+          "LL": "et scelus et patrias fugit Halaesus opes"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/ops",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:32:et",
+      "kind": "source-form",
+      "line": "32",
+      "form": "et",
+      "action": "confirm",
+      "dccId": "dcc-et-1",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Et scelus & patrias fugit{|} halesus opes .",
+          "O": "Et scelus et patrias fugit Halaesus opes",
+          "LL": "et scelus et patrias fugit Halaesus opes"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:32:scelus",
+      "kind": "source-form",
+      "line": "32",
+      "form": "scelus",
+      "action": "confirm",
+      "dccId": "dcc-scelus-154",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Et scelus & patrias fugit{|} halesus opes .",
+          "O": "Et scelus et patrias fugit Halaesus opes",
+          "LL": "et scelus et patrias fugit Halaesus opes"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:33:0",
+      "kind": "legacy-entry",
+      "line": "33",
+      "raw": "pererrō, pererrāre, pererrāvī, pererrātum: to wander through, roam or, to survey, explore",
+      "action": "confirm",
+      "reason": "Pererratis is the participle of pererro; Y writes the compound as per erratis.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Iamque per erratis profugus terraque fretoque",
+          "O": "Iamque pererratis profugus terraque fretoque",
+          "LL": "iamque pererratis profugus terraque fretoque"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:33:1",
+      "kind": "legacy-entry",
+      "line": "33",
+      "raw": "profugus, profuga, profugum: that which flees, has fled, fugitive, unsettled",
+      "action": "confirm",
+      "reason": "Profugus describes Halaesus as a fugitive.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Iamque per erratis profugus terraque fretoque",
+          "O": "Iamque pererratis profugus terraque fretoque",
+          "LL": "iamque pererratis profugus terraque fretoque"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:33:2",
+      "kind": "legacy-entry",
+      "line": "33",
+      "raw": "fretum, fretī n.: strait, sound, estuary, channel . Marcus Tullius Against Vatinius Ch. 5: Venerisne ad fretum per Mauretaniam? Did you come to the strait via Mauritania? the strait of Sicily Sicily",
+      "action": "replace",
+      "reason": "Fretoque denotes the sea crossed; remove the unrelated long quotation.",
+      "dccId": null,
+      "headword": "fretum, freti n.",
+      "definition": "sea; strait; channel",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Iamque per erratis profugus terraque fretoque",
+          "O": "Iamque pererratis profugus terraque fretoque",
+          "LL": "iamque pererratis profugus terraque fretoque"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/fretum"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:33:per",
+      "kind": "source-form",
+      "line": "33",
+      "form": "per",
+      "action": "suppress",
+      "reason": "Y separates the compound pererratis as per erratis; per is not an independent preposition in this construction.",
+      "witnesses": [
+        "Y"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Iamque per erratis profugus terraque fretoque"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:34:felici",
+      "kind": "source-form",
+      "line": "34",
+      "form": "felici",
+      "action": "confirm",
+      "dccId": "dcc-felix-309",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Moenia felici condidit apta manu",
+          "O": "Moenia felici condidit alta manu;",
+          "LL": "moenia felici condidit alta manu."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:34:condidit",
+      "kind": "source-form",
+      "line": "34",
+      "form": "condidit",
+      "action": "confirm",
+      "dccId": "dcc-condo-540",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Moenia felici condidit apta manu",
+          "O": "Moenia felici condidit alta manu;",
+          "LL": "moenia felici condidit alta manu."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:34:manu",
+      "kind": "source-form",
+      "line": "34",
+      "form": "manu",
+      "action": "confirm",
+      "dccId": "dcc-manus-48",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Moenia felici condidit apta manu",
+          "O": "Moenia felici condidit alta manu;",
+          "LL": "moenia felici condidit alta manu."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:35:0",
+      "kind": "legacy-entry",
+      "line": "35",
+      "raw": "faliscus, falisca, faliscum: faliscan",
+      "action": "confirm",
+      "reason": "Faliscos names the Faliscan people.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Ille suos docuit iunonia sacra faliscos",
+          "O": "Ille suos docuit Iunonia sacra Faliscos:",
+          "LL": "ille suos docuit Iunonia sacra Faliscos."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:35:ille",
+      "kind": "source-form",
+      "line": "35",
+      "form": "ille",
+      "action": "confirm",
+      "dccId": "dcc-ille-8",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Ille suos docuit iunonia sacra faliscos",
+          "O": "Ille suos docuit Iunonia sacra Faliscos:",
+          "LL": "ille suos docuit Iunonia sacra Faliscos."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:35:suos",
+      "kind": "source-form",
+      "line": "35",
+      "form": "suos",
+      "action": "confirm",
+      "dccId": "dcc-suus-27",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Ille suos docuit iunonia sacra faliscos",
+          "O": "Ille suos docuit Iunonia sacra Faliscos:",
+          "LL": "ille suos docuit Iunonia sacra Faliscos."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:35:docuit",
+      "kind": "source-form",
+      "line": "35",
+      "form": "docuit",
+      "action": "confirm",
+      "dccId": "dcc-doceo-393",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Ille suos docuit iunonia sacra faliscos",
+          "O": "Ille suos docuit Iunonia sacra Faliscos:",
+          "LL": "ille suos docuit Iunonia sacra Faliscos."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:36:0",
+      "kind": "legacy-entry",
+      "line": "36",
+      "raw": "populō: devastate, lay waste, strip",
+      "action": "replace",
+      "reason": "Populo is the dative noun, not the verb populo.",
+      "dccId": "dcc-populus-122",
+      "headword": "populus, populi m.",
+      "definition": "people",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Sint mihi{|} sint populo semper amica suo :{—}",
+          "O": "Sint mihi, sint populo semper amica suo!",
+          "LL": "sint mihi, sint populo semper amica suo!"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/populus",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "legacy:36:1",
+      "kind": "legacy-entry",
+      "line": "36",
+      "raw": "amīca, amīcae f.: female equivalent of, concubine, girlfriend",
+      "action": "replace",
+      "reason": "Amica is neuter plural agreeing with sacra, not the noun girlfriend.",
+      "dccId": "dcc-amicus-198",
+      "headword": "amicus, amica, amicum",
+      "definition": "friendly; favorable",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Sint mihi{|} sint populo semper amica suo :{—}",
+          "O": "Sint mihi, sint populo semper amica suo!",
+          "LL": "sint mihi, sint populo semper amica suo!"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/amicus",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "legacy:36:2",
+      "kind": "legacy-entry",
+      "line": "36",
+      "raw": "suō, suere, suī, sūtum: to sew, stitch, to join, fasten together",
+      "action": "replace",
+      "reason": "Suo agrees with populo; it is not the verb suo “sew”.",
+      "dccId": "dcc-suus-27",
+      "headword": "suus, sua, suum",
+      "definition": "his/her/its own",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Sint mihi{|} sint populo semper amica suo :{—}",
+          "O": "Sint mihi, sint populo semper amica suo!",
+          "LL": "sint mihi, sint populo semper amica suo!"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/suus",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:36:sint",
+      "kind": "source-form",
+      "line": "36",
+      "form": "sint",
+      "action": "confirm",
+      "dccId": "dcc-sum-2",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Sint mihi{|} sint populo semper amica suo :{—}",
+          "O": "Sint mihi, sint populo semper amica suo!",
+          "LL": "sint mihi, sint populo semper amica suo!"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:36:semper",
+      "kind": "source-form",
+      "line": "36",
+      "form": "semper",
+      "action": "confirm",
+      "dccId": "dcc-semper-149",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "Y",
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "Y": "Sint mihi{|} sint populo semper amica suo :{—}",
+          "O": "Sint mihi, sint populo semper amica suo!",
+          "LL": "sint mihi, sint populo semper amica suo!"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:1:1",
+      "kind": "legacy-entry",
+      "line": "1",
+      "raw": "orta: inflection of ortus : nominative / vocative feminine singular nominative / accusative / vocative neuter plural",
+      "action": "replace",
+      "reason": "Orta describes the wife’s origin; Y has a mark interrupting the boundary with foret.",
+      "dccId": "dcc-orior-642",
+      "headword": "ortus, orta, ortum (participle of orior)",
+      "definition": "born; arisen",
+      "witnesses": [
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "O": "Cum mihi pomiferis coniunx foret orta Faliscis,",
+          "LL": "Cum mihi pomiferis coniunx foret orta Faliscis,"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/orior",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:1:coniunx",
+      "kind": "source-form",
+      "line": "1",
+      "form": "coniunx",
+      "action": "confirm",
+      "dccId": "dcc-coniunx-218",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "O": "Cum mihi pomiferis coniunx foret orta Faliscis,",
+          "LL": "Cum mihi pomiferis coniunx foret orta Faliscis,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:1:foret",
+      "kind": "source-form",
+      "line": "1",
+      "form": "foret",
+      "action": "confirm",
+      "dccId": "dcc-sum-2",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "O": "Cum mihi pomiferis coniunx foret orta Faliscis,",
+          "LL": "Cum mihi pomiferis coniunx foret orta Faliscis,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:2:0",
+      "kind": "legacy-entry",
+      "line": "2",
+      "raw": "vīctus, vīctūs m.: living, way of life, lifestyle, nourishment",
+      "action": "replace",
+      "reason": "Victa qualifies moenia, the walls conquered by Camillus, not the noun “livelihood”. Y adds culta to victa, leaving the form compound in the transcription.",
+      "dccId": "dcc-vinco-101",
+      "headword": "victus, victa, victum (participle of vinco)",
+      "definition": "conquered",
+      "witnesses": [
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "O": "Moenia contigimus victa, Camille, tibi.",
+          "LL": "moenia contigimus victa, Camille, tibi."
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/vinco",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:2:uicta",
+      "kind": "source-form",
+      "line": "2",
+      "form": "uicta",
+      "action": "replace",
+      "reason": "Victa agrees with moenia, conquered by Camillus, not a form of vivo.",
+      "dccId": "dcc-vinco-101",
+      "witnesses": [
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "O": "Moenia contigimus victa, Camille, tibi.",
+          "LL": "moenia contigimus victa, Camille, tibi."
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/vinco",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:3:sacerdotes",
+      "kind": "source-form",
+      "line": "3",
+      "form": "sacerdotes",
+      "action": "confirm",
+      "dccId": "dcc-sacerdos-939",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "O": "Casta sacerdotes Iunoni festa parabant",
+          "LL": "casta sacerdotes Iunoni festa parabant"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:4:per",
+      "kind": "source-form",
+      "line": "4",
+      "form": "per",
+      "action": "confirm",
+      "dccId": "dcc-per-30",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "O"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "O": "Per celebres ludos indigenamque bovem:"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:5:morae",
+      "kind": "source-form",
+      "line": "5",
+      "form": "morae",
+      "action": "confirm",
+      "dccId": "dcc-mora-399",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "O": "Grande morae pretium ritus cognoscere, quamvis",
+          "LL": "grande morae pretium ritus cognoscere, quamvis"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:6:huc",
+      "kind": "source-form",
+      "line": "6",
+      "form": "huc",
+      "action": "confirm",
+      "dccId": "dcc-huc-368",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "O": "Difficilis clivis huc via praebet iter.",
+          "LL": "difficilis clivis huc via praebet iter."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:6:praebet",
+      "kind": "source-form",
+      "line": "6",
+      "form": "praebet",
+      "action": "confirm",
+      "dccId": "dcc-praebeo-584",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "O": "Difficilis clivis huc via praebet iter.",
+          "LL": "difficilis clivis huc via praebet iter."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:7:et",
+      "kind": "source-form",
+      "line": "7",
+      "form": "et",
+      "action": "confirm",
+      "dccId": "dcc-et-1",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "O": "Stat vetus et densa praenubilus arbore lucus;",
+          "LL": "Stat vetus et densa praenubilus arbore lucus;"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:8:0",
+      "kind": "legacy-entry",
+      "line": "8",
+      "raw": "īnsum: to be in, to be on, to belong to, be involved in or with",
+      "action": "confirm",
+      "reason": "Inesse is the infinitive of insum in O/LL. Y has esse and locum instead, so insum is unsupported there.",
+      "witnesses": [
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "O": "Adspice: concedes numen inesse loco;",
+          "LL": "adspice — concedas numen inesse loco."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:8:numen",
+      "kind": "source-form",
+      "line": "8",
+      "form": "numen",
+      "action": "confirm",
+      "dccId": "dcc-numen-452",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "O": "Adspice: concedes numen inesse loco;",
+          "LL": "adspice — concedas numen inesse loco."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:9:preces",
+      "kind": "source-form",
+      "line": "9",
+      "form": "preces",
+      "action": "confirm",
+      "dccId": "dcc-prex-520",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "O": "Accipit ara preces votivaque tura piorum,",
+          "LL": "accipit ara preces votivaque tura piorum —"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:11:0",
+      "kind": "legacy-entry",
+      "line": "11",
+      "raw": "hinc: hence, from this place, henceforth, from this side",
+      "action": "confirm",
+      "reason": "Hinc is the adverb in O/LL. Y has the altered sequence Hanc plus hic, not a secure hinc.",
+      "witnesses": [
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "O": "Hinc, ubi praesonuit sollemni tibia cantu,",
+          "LL": "hinc, ubi praesonuit sollemni tibia cantu,"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "legacy:11:1",
+      "kind": "legacy-entry",
+      "line": "11",
+      "raw": "praesonō: surpass above something in sound",
+      "action": "replace",
+      "reason": "Praesonuit describes the flute leading the rite with music; Y interrupts the word with a mark.",
+      "dccId": null,
+      "headword": "praesono, praesonare, praesonui",
+      "definition": "sound before; lead off with a sound",
+      "witnesses": [
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "O": "Hinc, ubi praesonuit sollemni tibia cantu,",
+          "LL": "hinc, ubi praesonuit sollemni tibia cantu,"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/praesono"
+        ]
+      }
+    },
+    {
+      "id": "legacy:11:2",
+      "kind": "legacy-entry",
+      "line": "11",
+      "raw": "sollemnis, sollemnis, sollemne: yearly, annual, established, appointed",
+      "action": "replace",
+      "reason": "Sollemni qualifies the ritual music; Y marks/deletes the end of its spelling.",
+      "dccId": null,
+      "headword": "sollemnis, sollemne",
+      "definition": "ceremonial; solemn; customary",
+      "witnesses": [
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "O": "Hinc, ubi praesonuit sollemni tibia cantu,",
+          "LL": "hinc, ubi praesonuit sollemni tibia cantu,"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/sollemnis"
+        ]
+      }
+    },
+    {
+      "id": "legacy:13:3",
+      "kind": "legacy-entry",
+      "line": "13",
+      "raw": "iuvencus, iuvenca, iuvencum: young",
+      "action": "replace",
+      "reason": "Iuvencae is a substantive, the young cows in the procession. Y marks the word with an addition and sign.",
+      "dccId": null,
+      "headword": "iuvenca, iuvencae f.",
+      "definition": "a heifer; young cow",
+      "witnesses": [
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "O": "Ducuntur niveae populo plaudente iuvencae,",
+          "LL": "ducuntur niveae populo plaudente iuvencae,"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/juvenca"
+        ]
+      }
+    },
+    {
+      "id": "legacy:24:0",
+      "kind": "legacy-entry",
+      "line": "24",
+      "raw": "praeverrō, praeverrere, praeverrī, praeversum: to sweep or brush before",
+      "action": "confirm",
+      "reason": "Praeverrunt means sweep before; Y transmits Praebuerant instead.",
+      "witnesses": [
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "O": "Praeverrunt latas veste iacente vias:",
+          "LL": "praeverrunt latas veste iacente vias."
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:31:facies",
+      "kind": "source-form",
+      "line": "31",
+      "form": "facies",
+      "action": "replace",
+      "reason": "Facies is the noun “appearance”, not the future of facio.",
+      "dccId": "dcc-facies-479",
+      "witnesses": [
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "O": "Argivast pompae facies: Agamemnone caeso",
+          "LL": "Argiva est pompae facies; Agamemnone caeso"
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/facies",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:32:fugit",
+      "kind": "source-form",
+      "line": "32",
+      "form": "fugit",
+      "action": "confirm",
+      "dccId": "dcc-fugio-177",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "O": "Et scelus et patrias fugit Halaesus opes",
+          "LL": "et scelus et patrias fugit Halaesus opes"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:36:mihi",
+      "kind": "source-form",
+      "line": "36",
+      "form": "mihi",
+      "action": "confirm",
+      "dccId": "dcc-ego-11",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "O",
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "O": "Sint mihi, sint populo semper amica suo!",
+          "LL": "sint mihi, sint populo semper amica suo!"
+        },
+        "referenceUrls": []
+      }
+    },
+    {
+      "id": "dictionary:8:concedas",
+      "kind": "source-form",
+      "line": "8",
+      "form": "concedas",
+      "action": "replace",
+      "reason": "The verb asks the viewer to acknowledge the divine presence, not physically withdraw.",
+      "dccId": "dcc-concedo-663",
+      "headword": "concedo, concedere, concessi, concessum",
+      "definition": "admit; acknowledge; concede",
+      "witnesses": [
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "LL": "adspice — concedas numen inesse loco."
+        },
+        "referenceUrls": [
+          "https://logeion.uchicago.edu/concedo",
+          "https://dcc.dickinson.edu/latin-core-list1"
+        ]
+      }
+    },
+    {
+      "id": "dictionary:29:tum",
+      "kind": "source-form",
+      "line": "29",
+      "form": "tum",
+      "action": "confirm",
+      "dccId": "dcc-tum-56",
+      "reason": "The source form and its construction in this witness support the supplied dictionary lemma; the full dictionary definition is retained.",
+      "witnesses": [
+        "LL"
+      ],
+      "sourceEvidence": {
+        "quotesByWitness": {
+          "LL": "ora favent populi tum cum venit aurea pompa,"
+        },
+        "referenceUrls": []
+      }
+    }
+  ],
+  "openIssues": []
+}

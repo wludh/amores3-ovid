@@ -46,7 +46,8 @@ const PANEL_TYPES = {
   TRANSCRIPTION: 'transcription',
   VIEWER: 'viewer',
   LINE_VIEWER: 'line-viewer',
-  COMPANION: 'companion'
+  COMPANION: 'companion',
+  READING: 'reading'
 };
 
 // Store OpenSeadragon instances per panel
@@ -464,7 +465,10 @@ function getPanelState(panel) {
       witness: '',
       manuscripts: [...DEFAULT_LINE_WITNESSES],
       activeWitness: null,
-      companionExtras: ['commentary']
+      companionExtras: ['commentary'],
+      readingExtras: ['commentary', 'vocab'],
+      vocabularyAmount: 50,
+      vocabularyQuery: ''
     });
   }
   return panelStates.get(panelId);
@@ -492,9 +496,10 @@ function savePanelState(panel) {
     const poemSelect = getPanelElement(panel, '.poem-select');
     if (poemSelect) state.poem = poemSelect.value;
     state.manuscripts = getSelectedLineWitnesses(panel);
-  } else if (type === PANEL_TYPES.COMPANION) {
+  } else if (type === PANEL_TYPES.COMPANION || type === PANEL_TYPES.READING) {
     const checkboxes = getPanelElements(panel, '.companion-controls input:checked');
-    state.companionExtras = Array.from(checkboxes).map(cb => cb.dataset.extra);
+    const extrasKey = type === PANEL_TYPES.READING ? 'readingExtras' : 'companionExtras';
+    state[extrasKey] = Array.from(checkboxes).map(cb => cb.dataset.extra);
     const poemSelect = getPanelElement(panel, '.poem-select');
     if (poemSelect) state.poem = poemSelect.value;
   }
@@ -536,15 +541,14 @@ function restorePanelState(panel) {
     });
     if (poemSelect && state.poem) poemSelect.value = state.poem;
     updateLineWitnessSelection(panel);
-  } else if (type === PANEL_TYPES.COMPANION) {
+  } else if (type === PANEL_TYPES.COMPANION || type === PANEL_TYPES.READING) {
     const poemSelect = getPanelElement(panel, '.poem-select');
     if (poemSelect && state.poem) {
       poemSelect.value = state.poem;
-      poemSelect.dispatchEvent(new Event('change'));
     }
-    state.companionExtras.forEach(extra => {
-      const checkbox = getPanelElement(panel, `.companion-controls input[data-extra="${extra}"]`);
-      if (checkbox && !checkbox.disabled) checkbox.checked = true;
+    const extras = type === PANEL_TYPES.READING ? state.readingExtras : state.companionExtras;
+    getPanelElements(panel, '.companion-controls input').forEach(checkbox => {
+      checkbox.checked = !checkbox.disabled && extras.includes(checkbox.dataset.extra);
     });
     updateCompanionPanel(panel);
   }
@@ -807,7 +811,7 @@ function switchPanelType(panel, newType) {
     newBody = createViewerPanelBody();
   } else if (newType === PANEL_TYPES.LINE_VIEWER) {
     newBody = createLineViewerPanelBody();
-  } else if (newType === PANEL_TYPES.COMPANION) {
+  } else if (newType === PANEL_TYPES.COMPANION || newType === PANEL_TYPES.READING) {
     newBody = createCompanionPanelBody();
   }
   
@@ -846,6 +850,7 @@ function createPanelHeader(type, title) {
       <option value="${PANEL_TYPES.VIEWER}">Single Witness Viewer</option>
       <option value="${PANEL_TYPES.LINE_VIEWER}">Line-by-line Viewer</option>
       <option value="${PANEL_TYPES.COMPANION}">Companion</option>
+      <option value="${PANEL_TYPES.READING}">Text &amp; notes</option>
     </select>
     <button class="toggle-btn" title="Collapse panel">×</button>
   `;
@@ -2003,203 +2008,48 @@ function unbindAnnotationMoveHandlers() {
   }
 }
 
-// Update companion panel for a specific panel
-async function updateCompanionPanel(panel) {
-  const poemSelect = getPanelElement(panel, '.poem-select');
-  const extraContent = getPanelElement(panel, '.extra-content');
-  
-  if (!poemSelect || !extraContent) return;
-  
-  const poem = poemSelect.value;
-  if (!poem) {
-    extraContent.innerHTML = '<p>Please select a poem.</p>';
-    return;
-  }
-  
-  const companionCheckboxes = getPanelElements(panel, '.companion-controls input');
-  const selectedExtras = Array.from(companionCheckboxes)
-                              .filter(cb => cb.checked && !cb.disabled)
-                              .map(cb => cb.dataset.extra);
-  
-  if (selectedExtras.length === 0) {
-    extraContent.innerHTML = '<p>Select a companion feature to display.</p>';
-    return;
-  }
-  
-  extraContent.innerHTML = '<p>Loading...</p>';
-  
-  try {
-    const fetchPromises = selectedExtras.map(extra => {
-      const toPascalCase = s => s.replace(/-(\w)/g, (_, c) => c.toUpperCase()).replace(/^\w/, c => c.toUpperCase());
-      const extraName = toPascalCase(extra);
-      const path = `data/Companion/${extraName}/${poem}.json`;
-      return fetch(path).then(res => res.json().catch(() => ({})));
-    });
-    
-    const datasets = await Promise.all(fetchPromises);
-    const combinedData = {};
-    
-    datasets.forEach((data, index) => {
-      const extra = selectedExtras[index];
-      for (const lineRange in data) {
-        if (!combinedData[lineRange]) {
-          combinedData[lineRange] = {};
-        }
-        combinedData[lineRange][extra] = data[lineRange];
-      }
-    });
-    
-    const lineNumbers = Object.keys(combinedData).sort((a, b) => {
-      const aStart = parseInt(a.split('-')[0]);
-      const bStart = parseInt(b.split('-')[0]);
-      return aStart - bStart;
-    });
-    
-    if (lineNumbers.length === 0) {
-      extraContent.innerHTML = '<p>No companion data available for this selection.</p>';
-      return;
-    }
-    
-    let html = '';
-    for (const lineRange of lineNumbers) {
-      const linePrefix = `<span class="line-ref">${lineRange}.</span>`;
-      let linePrefixAdded = false;
-      
-      for (const extraName of selectedExtras) {
-        if (combinedData[lineRange][extraName]) {
-          const colorClass = `${extraName.toLowerCase()}-color`;
-          const content = combinedData[lineRange][extraName].replace(/\n/g, '<br>');
-          html += `<div class="companion-item ${extraName} ${colorClass}" data-line-range="${lineRange}">`;
-          if (!linePrefixAdded) {
-            html += `${linePrefix} ${content}`;
-            linePrefixAdded = true;
-          } else {
-            html += content;
-          }
-          html += `</div>`;
-        }
-      }
-    }
-    
-    extraContent.innerHTML = html;
-    setupHighlightListeners(panel);
-  } catch (error) {
-    console.error('Failed to load companion data:', error);
-    extraContent.innerHTML = '<p>Error loading companion data. See console for details.</p>';
-  }
-}
-
-// Setup highlight listeners for a specific panel
+// Rebind by container identity; linked reading only connects the same poem.
+const companionHighlightHandlers = new WeakMap();
 function setupHighlightListeners(panel) {
-  const textContent = getPanelElement(panel, '.text-content');
-  const extraContent = getPanelElement(panel, '.extra-content');
-  
-  if (!textContent && !extraContent) return;
-  
-  // Get all transcription and companion panels for cross-panel highlighting
-  const allTextPanels = Array.from(document.querySelectorAll('section[data-panel-type="transcription"]'));
-  const allCompanionPanels = Array.from(document.querySelectorAll('section[data-panel-type="companion"]'));
-  
-  const allTextContents = allTextPanels.map(p => getPanelElement(p, '.text-content')).filter(Boolean);
-  const allExtraContents = allCompanionPanels.map(p => getPanelElement(p, '.extra-content')).filter(Boolean);
-  
-  const allElements = () => {
-    const elements = [];
-    allTextContents.forEach(tc => {
-      elements.push(...tc.querySelectorAll('[data-line]'));
-    });
-    allExtraContents.forEach(ec => {
-      elements.push(...ec.querySelectorAll('[data-line-range]'));
-    });
-    return elements;
+  const containers = document.querySelectorAll('section[data-panel-type="transcription"] .text-content, section[data-panel-type="companion"] .extra-content, section[data-panel-type="reading"] .extra-content');
+  const poemFor = element => element.closest('.extra-content')?.dataset.poem ||
+    getPanelElement(element.closest('section'), '.poem-select')?.value;
+  const clearHighlights = () => document.querySelectorAll('.text-content .highlight, .extra-content .highlight')
+    .forEach(element => element.classList.remove('highlight'));
+  const rangeFor = element => {
+    const [start, end = start] = (element.dataset.lineRange || element.dataset.line || '').split(/[-–]/).map(Number);
+    return [start, end];
   };
-  
-  const clearHighlights = () => {
-    allElements().forEach(el => el.classList.remove('highlight'));
+  const linkedElements = target => {
+    const poem = poemFor(target);
+    const [start, end] = rangeFor(target);
+    const selector = target.matches('[data-line]') ? '.extra-content [data-line-range]' : '.text-content [data-line]';
+    return Array.from(document.querySelectorAll(selector)).filter(element => {
+      if (!poem || poemFor(element) !== poem) return false;
+      const [otherStart, otherEnd] = rangeFor(element);
+      return start <= otherEnd && end >= otherStart;
+    });
   };
-  
-  const handleMouseover = (event) => {
+  const highlight = event => {
     const target = event.target.closest('[data-line], [data-line-range]');
     if (!target) return;
-    
     clearHighlights();
-    
-    const isTextLine = target.matches('[data-line]');
-    const isCompanionItem = target.matches('[data-line-range]');
-    
-    if (isTextLine) {
-      const line = parseInt(target.dataset.line, 10);
-      if (!isNaN(line)) {
-        allExtraContents.forEach(extraContent => {
-          const companionItems = extraContent.querySelectorAll('[data-line-range]');
-          companionItems.forEach(item => {
-            const [start, end] = item.dataset.lineRange.split('-').map(Number);
-            const itemRange = Array.from({ length: (end || start) - start + 1 }, (_, i) => start + i);
-            if (itemRange.includes(line)) {
-              item.classList.add('highlight');
-            }
-          });
-        });
-      }
-    } else if (isCompanionItem) {
-      const range = target.dataset.lineRange;
-      if (range) {
-        const [start, end] = range.split('-').map(Number);
-        const lineNumbers = Array.from({ length: (end || start) - start + 1 }, (_, i) => start + i);
-        lineNumbers.forEach(ln => {
-          allTextContents.forEach(textContent => {
-            const teiLine = textContent.querySelector(`[data-line="${ln}"]`);
-            if (teiLine) teiLine.classList.add('highlight');
-          });
-        });
-      }
-    }
+    linkedElements(target).forEach(element => element.classList.add('highlight'));
   };
-  
-  const handleClick = (event) => {
+  const navigate = event => {
     const target = event.target.closest('[data-line], [data-line-range]');
     if (!target) return;
-    
-    let elementToScrollTo;
-    if (target.matches('[data-line]')) {
-      const line = target.dataset.line;
-      // Find in any companion panel
-      for (const extraContent of allExtraContents) {
-        elementToScrollTo = extraContent.querySelector(`[data-line-range="${line}"], [data-line-range^="${line}-"]`);
-        if (elementToScrollTo) break;
-      }
-    } else if (target.matches('[data-line-range]')) {
-      const line = target.dataset.lineRange.split('-')[0];
-      // Find in any text panel
-      for (const textContent of allTextContents) {
-        elementToScrollTo = textContent.querySelector(`[data-line="${line}"]`);
-        if (elementToScrollTo) break;
-      }
-    }
-    
-    if (elementToScrollTo) {
-      elementToScrollTo.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    }
+    const control = event.target.closest('a, button, summary, input, select');
+    if (control && !control.classList.contains('companion-line-link')) return;
+    linkedElements(target)[0]?.scrollIntoView({ behavior: 'smooth', block: 'center' });
   };
-  
-  // Remove old listeners and attach new ones
-  allTextContents.forEach(tc => {
-    tc.removeEventListener('mouseover', handleMouseover);
-    tc.removeEventListener('mouseleave', clearHighlights);
-    tc.removeEventListener('click', handleClick);
-    tc.addEventListener('mouseover', handleMouseover);
-    tc.addEventListener('mouseleave', clearHighlights);
-    tc.addEventListener('click', handleClick);
-  });
-  
-  allExtraContents.forEach(ec => {
-    ec.removeEventListener('mouseover', handleMouseover);
-    ec.removeEventListener('mouseleave', clearHighlights);
-    ec.removeEventListener('click', handleClick);
-    ec.addEventListener('mouseover', handleMouseover);
-    ec.addEventListener('mouseleave', clearHighlights);
-    ec.addEventListener('click', handleClick);
-  });
+  for (const container of containers) {
+    const previous = companionHighlightHandlers.get(container);
+    if (previous) Object.entries(previous).forEach(([type, handler]) => container.removeEventListener(type, handler));
+    const handlers = { mouseover: highlight, mouseleave: clearHighlights, focusin: highlight, focusout: clearHighlights, click: navigate };
+    Object.entries(handlers).forEach(([type, handler]) => container.addEventListener(type, handler));
+    companionHighlightHandlers.set(container, handlers);
+  }
 }
 
 // Attach event handlers for a panel
@@ -2385,7 +2235,7 @@ function attachPanelEventHandlers(panel) {
     });
 
     refreshAnnotationToolbar(panel);
-  } else if (type === PANEL_TYPES.COMPANION) {
+  } else if (type === PANEL_TYPES.COMPANION || type === PANEL_TYPES.READING) {
     const poemSelect = getPanelElement(panel, '.poem-select');
     const companionCheckboxes = getPanelElements(panel, '.companion-controls input');
     
