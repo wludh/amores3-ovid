@@ -94,7 +94,7 @@ body.dark-mode .tei-edition {
 body.dark-mode .tei-edition[data-witness="O"], body.dark-mode .tei-edition[data-witness="W"], body.dark-mode .tei-edition[data-witness="LL"] { --paper: #262723; --ink: #e7d6b5; }
 #panels section.collapsed > .panel-body { display: none !important; }
 @media (min-width: 901px) {
-  #panels section.collapsed { flex: 0 0 38px !important; width: 38px !important; min-width: 38px; }
+  #panels section.collapsed { flex: 0 0 80px !important; width: 80px !important; min-width: 80px; }
   #panels section.collapsed .panel-header { padding: .75rem .25rem; justify-content: center; }
   #panels section.collapsed .panel-type-select, #panels section.collapsed .drag-handle { display: none; }
 }

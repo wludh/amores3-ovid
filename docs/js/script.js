@@ -555,7 +555,7 @@ function createTranscriptionPanelBody() {
   const div = document.createElement('div');
   div.className = 'panel-body';
   div.innerHTML = `
-    <select class="poem-select">
+    <select class="poem-select" aria-label="Poem">
       <option value="">Select a poem…</option>
     </select>
     <label class="witness-label">Witness:</label>
@@ -589,7 +589,7 @@ function createViewerPanelBody() {
   const div = document.createElement('div');
   div.className = 'panel-body';
   div.innerHTML = `
-    <select class="poem-select">
+    <select class="poem-select" aria-label="Poem">
       <option value="">Select a poem…</option>
     </select>
     <div class="witness-buttons">
@@ -604,11 +604,11 @@ function createViewerPanelBody() {
       <div class="annotation-overlay single-viewer-annotation-overlay hidden-rects"></div>
     </div>
     <div class="page-controls">
-      <button class="prev-page" disabled>&larr;</button>
+      <button class="prev-page" aria-label="Previous page" disabled>&larr;</button>
       <span class="page-indicator"></span>
-      <input type="number" class="page-input" min="1" disabled>
+      <input type="number" class="page-input" aria-label="Page number" min="1" disabled>
       <button class="go-to-page" disabled>Go</button>
-      <button class="next-page" disabled>&rarr;</button>
+      <button class="next-page" aria-label="Next page" disabled>&rarr;</button>
     </div>
     <div class="progress-container">
       <div class="progress-bar"></div>
@@ -671,7 +671,7 @@ function createLineViewerPanelBody() {
   const div = document.createElement('div');
   div.className = 'panel-body';
   div.innerHTML = `
-    <select class="poem-select">
+    <select class="poem-select" aria-label="Poem">
       <option value="">Select a poem…</option>
     </select>
 
@@ -737,7 +737,7 @@ function createCompanionPanelBody() {
   const div = document.createElement('div');
   div.className = 'panel-body';
   div.innerHTML = `
-    <select class="poem-select">
+    <select class="poem-select" aria-label="Poem">
       <option value="">Select a poem…</option>
     </select>
     <div class="companion-controls">
@@ -826,6 +826,7 @@ function switchPanelType(panel, newType) {
   
   // Update header dropdown
   updatePanelHeaderDropdown(panel);
+  document.getElementById('panels')?.dispatchEvent(new Event('panel-order-updated'));
 }
 
 // Update panel header dropdown
@@ -842,7 +843,7 @@ function createPanelHeader(type, title) {
   header.className = 'panel-header';
   header.innerHTML = `
     <span class="drag-handle" title="Drag to reorder">☰</span>
-    <select class="panel-type-select">
+    <select class="panel-type-select" aria-label="Panel type">
       <option value="${PANEL_TYPES.TRANSCRIPTION}">Transcription</option>
       <option value="${PANEL_TYPES.VIEWER}">Single Witness Viewer</option>
       <option value="${PANEL_TYPES.LINE_VIEWER}">Line-by-line Viewer</option>
@@ -1021,14 +1022,16 @@ async function loadManifest(panel, poem, witness) {
   if (progressBar) progressBar.style.width = '0%';
   
   // Fetch manifest
+  showManifestStatus(viewerEl, witness);
   let manifest;
   try {
     await loadTeiCorpus();
-    const resp = await fetch(manifestUrl);
+    const resp = await fetch(manifestUrl, { signal: AbortSignal.timeout(15000) });
+    if (!resp.ok) throw new Error("Manifest unavailable");
     manifest = await resp.json();
   } catch (e) {
     if (singleViewerLoadTokens.get(panelId) === loadToken) {
-      viewerEl.innerHTML = '<p>Failed to load IIIF manifest.</p>';
+      showManifestStatus(viewerEl, witness, () => loadManifest(panel, poem, witness));
     }
     return;
   }
@@ -1104,6 +1107,7 @@ async function loadManifest(panel, poem, witness) {
   function initializeOpenSeadragon() {
     if (singleViewerLoadTokens.get(panelId) !== loadToken) return;
     // Create OpenSeadragon instance
+    viewerEl.replaceChildren();
     const osdViewer = OpenSeadragon({
       element: viewerEl,
       prefixUrl: 'https://openseadragon.github.io/openseadragon/images/',
@@ -1114,6 +1118,7 @@ async function loadManifest(panel, poem, witness) {
       ...witnessImageOptions(witness)
     });
 
+    attachImageLoadingStatus(osdViewer, viewerEl, witness);
     attachWitnessImageRecovery(osdViewer, viewerEl, witness, backupSources);
     viewerEl.dataset.poem = poem;
     viewerEl.dataset.witness = witness;
@@ -1179,14 +1184,16 @@ async function loadManifestForWitness(panel, poem, witness) {
   viewerEl.innerHTML = '';
   
   // Fetch manifest
+  showManifestStatus(viewerEl, witness);
   let manifest;
   try {
     await loadTeiCorpus();
-    const resp = await fetch(manifestUrl);
+    const resp = await fetch(manifestUrl, { signal: AbortSignal.timeout(15000) });
+    if (!resp.ok) throw new Error("Manifest unavailable");
     manifest = await resp.json();
   } catch (e) {
     if (lineViewerLoadTokens.get(viewerId) === loadToken) {
-      viewerEl.innerHTML = '<p>Failed to load IIIF manifest.</p>';
+      showManifestStatus(viewerEl, witness, () => loadManifestForWitness(panel, poem, witness));
     }
     return;
   }
@@ -1196,7 +1203,7 @@ async function loadManifestForWitness(panel, poem, witness) {
   
   // Validate manifest exists
   if (!manifest) {
-    viewerEl.innerHTML = '<p>Failed to load IIIF manifest.</p>';
+    showManifestStatus(viewerEl, witness, () => loadManifestForWitness(panel, poem, witness));
     return;
   }
   
@@ -1260,6 +1267,7 @@ async function loadManifestForWitness(panel, poem, witness) {
   
   function initializeOpenSeadragonForWitness() {
     if (lineViewerLoadTokens.get(viewerId) !== loadToken) return;
+    viewerEl.replaceChildren();
     const osdViewer = OpenSeadragon({
       element: viewerEl,
       prefixUrl: 'https://openseadragon.github.io/openseadragon/images/',
@@ -1272,6 +1280,7 @@ async function loadManifestForWitness(panel, poem, witness) {
       ...witnessImageOptions(witness)
     });
     
+    attachImageLoadingStatus(osdViewer, viewerEl, witness);
     attachWitnessImageRecovery(osdViewer, viewerEl, witness, backupSources);
     viewerEl.dataset.poem = poem;
     osdViewers.set(viewerId, osdViewer);
@@ -2491,6 +2500,7 @@ function initializePanels() {
   
   // Initialize Split.js
   initializeSplit();
+  initializeWorkspaceUI();
 }
 
 // Convert panel IDs to classes for scoped queries
@@ -2539,13 +2549,23 @@ function initializeSplit() {
   const originalSizes = splitInstance.getSizes();
   const stackedLayout = window.matchMedia('(max-width: 900px)');
   
+  function applyPanelSizes() {
+    const ordered = Array.from(panelsContainer.querySelectorAll('section'));
+    const collapsed = ordered.filter(panel => panel.classList.contains('collapsed')).length;
+    const weights = ordered.map(panel => panel.classList.contains('collapsed') ? 0 : originalSizes[panels.indexOf(panel)]);
+    const total = weights.reduce((a, b) => a + b, 0);
+    splitInstance.setSizes(weights.map(weight => total ? (weight ? weight / total * (100 - collapsed * 8) : 8) : 100 / ordered.length));
+  }
   // Panel reordering
   const sortableInstance = Sortable.create(panelsContainer, {
     handle: '.drag-handle',
     draggable: 'section',
     animation: 150,
     ghostClass: 'sortable-ghost',
-    onEnd: () => {
+    onEnd: rebuildSplit
+  });
+  panelsContainer.addEventListener('panel-reordered', rebuildSplit);
+  function rebuildSplit() {
       splitInstance.destroy();
       const newPanels = Array.from(panelsContainer.querySelectorAll('section'));
       const newSelectors = newPanels.map(p => `#${p.id}`);
@@ -2556,8 +2576,10 @@ function initializeSplit() {
         gutterSize: 6,
         cursor: 'col-resize'
       });
-    }
-  });
+      applyPanelSizes();
+      window.splitInstance = splitInstance;
+      panelsContainer.dispatchEvent(new Event('panel-order-updated'));
+  }
   
   // Panel collapse/expand
   document.querySelectorAll('.toggle-btn').forEach(btn => {
@@ -2569,13 +2591,13 @@ function initializeSplit() {
       
       if (isCollapsed) {
         if (!stackedLayout.matches) {
-          splitInstance.collapse(idx);
+          applyPanelSizes();
         }
-        btn.textContent = '☰';
+        btn.textContent = 'Expand';
         btn.title = 'Expand panel';
       } else {
         if (!stackedLayout.matches) {
-          splitInstance.setSizes(originalSizes);
+          applyPanelSizes();
         }
         btn.textContent = '×';
         btn.title = 'Collapse panel';
@@ -2693,6 +2715,7 @@ document.addEventListener('DOMContentLoaded', function() {
       document.body.classList.add('dark-mode');
     }
     
+    themeToggle.setAttribute('aria-pressed', String(document.body.classList.contains('dark-mode')));
     themeToggle.addEventListener('click', function() {
       document.body.classList.toggle('dark-mode');
       let theme = 'light';
@@ -2700,6 +2723,7 @@ document.addEventListener('DOMContentLoaded', function() {
         theme = 'dark';
       }
       localStorage.setItem('theme', theme);
+      themeToggle.setAttribute('aria-pressed', String(theme === 'dark'));
     });
   }
   
