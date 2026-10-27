@@ -3,6 +3,8 @@ const witnessFiles = {
   Y: 'data/witness-Y.xml',
   S: 'data/witness-S.xml',
   O: 'data/witness-O.xml',
+  // W has no legacy fallback: only independently reviewed corpus entries load.
+  W: null,
   LL: 'data/witness-LL.xml'
 };
 

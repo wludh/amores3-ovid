@@ -1,0 +1,196 @@
+{
+  "witness": "W",
+  "poem": "3.10",
+  "date": "2026-10-26",
+  "author_agent": "/root/w_transcribe_c",
+  "reviewer_agent": "/root/w_review_c",
+  "reviewer": "OpenAI Codex independent w_review_c source-image reviewer",
+  "review_type": "independent-second-agent-image-and-encoding-review",
+  "human_approved": false,
+  "line_coverage": {
+    "count": 48,
+    "ranges": [
+      {
+        "image": 186,
+        "printed_page": 142,
+        "page_position": "printed page 142",
+        "start": 1,
+        "end": 15
+      },
+      {
+        "image": 187,
+        "printed_page": 143,
+        "page_position": "printed page 143",
+        "start": 16,
+        "end": 48
+      }
+    ]
+  },
+  "line_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48
+  ],
+  "counts": {
+    "resolved": 0,
+    "documented-uncertainty": 0,
+    "escalate": 0
+  },
+  "previous_note_count": 0,
+  "notes": [],
+  "source_corrections": [
+    {
+      "line": 1,
+      "before": "Annua venerunt Cerealis tempora sacri,",
+      "after": "ANnua venerunt Cerealis tempora sacri."
+    },
+    {
+      "line": 10,
+      "before": "Haec erat, & teneri caespitis herba, cibus.",
+      "after": "Haec erat, & teneri cespitis herba, cibus."
+    },
+    {
+      "line": 13,
+      "before": "Prima jugo tauros supponere colla coegit;",
+      "after": "Prima jugo tauros supponere colla coëgit;"
+    },
+    {
+      "line": 19,
+      "before": "Cretes erunt testes; nec singunt omnia Cretes:",
+      "after": "Cretes erunt testes; nec fingunt omnia Cretes:"
+    },
+    {
+      "line": 23,
+      "before": "Magna fides testi: testis laudatur alumno,",
+      "after": "Magna fides testi: testis laudatur alumno."
+    },
+    {
+      "line": 24,
+      "before": "Facturam Cererem crimina nota puto.",
+      "after": "Fassuram Cererem crimina nota puto."
+    },
+    {
+      "line": 25,
+      "before": "Viderat Iasium Cretaea Diva sub Ida",
+      "after": "Viderat Iäsium Cretaeâ Diva sub Idâ"
+    },
+    {
+      "line": 26,
+      "before": "Figentem certa terga ferina manu.",
+      "after": "Figentem certâ terga ferina manu."
+    },
+    {
+      "line": 28,
+      "before": "Hinc pudor, ex alia parte trahebat amor.",
+      "after": "Hinc pudor, ex aliâ parte trahebat amor."
+    },
+    {
+      "line": 29,
+      "before": "Victus amore pudor. Sulcos arere videres,",
+      "after": "Victus amore pudor. sulcos arere videres,"
+    },
+    {
+      "line": 30,
+      "before": "Et sata cum minima parte redire sui.",
+      "after": "Et sata cum minimâ parte redire sui."
+    },
+    {
+      "line": 33,
+      "before": "Seminaque in latos ierant aequaliter agros;",
+      "after": "Seminaque in latos iërant aequaliter agros;"
+    },
+    {
+      "line": 38,
+      "before": "Omnia, quae tulerat se Dea, messis erant.",
+      "after": "Omnia, quâ tulerat se Dea, messis erant."
+    },
+    {
+      "line": 40,
+      "before": "Et ferus in silva farra metebat aper.",
+      "after": "Et ferus in silvâ farra metebat aper."
+    },
+    {
+      "line": 43,
+      "before": "Quod tibi secubitus tristes, Dea flava, suissent;",
+      "after": "Quod tibi secubitus tristes, Dea flava, fuissent;"
+    },
+    {
+      "line": 45,
+      "before": "Cur ego sim tristis, cum sit tibi nata reperta,",
+      "after": "Cur ego sim tristis, cum sit tibi nata reperta;"
+    },
+    {
+      "line": 47,
+      "before": "Festa dies, Veneremque vocat, cantusque merumque,",
+      "after": "Festa dies, Veneremque vocat, cantusque merumque."
+    }
+  ],
+  "layout_evidence": {
+    "assessment": "Printed p. 142 heading Elegia X. Ad Cererem, conquerens quod ejus sacris cum amicâ concumbere non permittatur.; catchword Et below verse 15. Printed p. 143 running header AMORUM. LIB. III. 10. 11.; the next poem follows on the same page. Full-page starts checked including the enlarged initial and exceptional second-verse inset. Original annotation rectangles preserved."
+  },
+  "validation": {
+    "schema": "docs/schema/tei_all-4.12.0.rng",
+    "schema_result": "passed xmllint Relax NG",
+    "verse_lines": 48,
+    "facsimile_zones": 48,
+    "unique_ids": true,
+    "local_references_resolve": true
+  },
+  "reviewed_candidate_sha256": "f36412544dbe2c8ead9b37c1ea8d388c8da4ebe97627c2435e671945b141a017",
+  "reviewed_xml_sha256": "84f9406c04d79f946913aa880b700b818ee190ff20f73051bae195951ee30046",
+  "review_report_sha256": "b53b05379c6866c8b6ee0cbe4e46320a8a074e14eb81e1c727d1a806d27d57bd",
+  "opening_capital_followup": {
+    "line": 1,
+    "before": "Annua",
+    "after": "ANnua",
+    "evidence": {
+      "image": "https://digitalarchive.wlu.edu/cantaloupe/iiif/2/https%3A%2F%2Fdigitalarchive.wlu.edu%2F_flysystem%2Ffedora%2F2026-10%2F72569-Service%2520File.jpg/full/full/0/default.jpg",
+      "assessment": "Focused independent reinspection of the actual opening image confirms ANnua: the enlarged initial is followed by a genuine uppercase N, then lowercase letters. The remaining opening word, line 2 capitalization and enlarged-initial inset were also checked. Only the supported second-letter case was changed in this follow-up."
+    }
+  }
+}

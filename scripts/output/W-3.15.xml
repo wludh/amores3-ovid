@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="W" xml:id="W-3.15">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title>Ovid, Amores 3.15 — W, Wetstein 1751</title>
+        <author>Publius Ovidius Naso</author>
+        <respStmt xml:id="W-3.15-encoder">
+          <resp>First source-image reading and transcription</resp>
+          <name>OpenAI Codex /root/w_transcribe_c</name>
+        </respStmt>
+        <respStmt xml:id="W-3.15-xml-encoder">
+          <resp>TEI encoding of the source reader’s first-pass transcription</resp>
+          <name>OpenAI Codex /root</name>
+        </respStmt>
+      <respStmt xml:id="W-3.15-reviewer"><resp>Independent second source-image reading and TEI review of every extant verse</resp><name>OpenAI Codex /root/w_review_c</name></respStmt></titleStmt>
+      <publicationStmt>
+        <p>Amores Project working transcription, 26 October 2026; independently reviewed against the source images; not human-approved.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>P. Ovidius Naso</author>
+          <title>P. Ovidii Nasonis operum tomus primus</title>
+          <pubPlace>Amstelaedami</pubPlace>
+          <publisher>Apud J. Wetstenium</publisher>
+          <date when="1751">1751</date>
+          <biblScope unit="page" from="148" to="148">148–148</biblScope>
+          <ref target="https://digitalarchive.wlu.edu/islandora/p-ovidii-nasonis-operum-tomus-primus-volume-1">Washington and Lee University Special Collections, PA6519 .A2 1751, volume 1</ref>
+          <ref target="https://digitalarchive.wlu.edu/node/72383/manifest">Native IIIF source manifest</ref>
+          <note>One-based viewer images 192–192; printed page numbers are 44 lower. Archive page labels differ from both. The actual images, rather than another witness or uncorrected OCR, supply the readings.</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <normalization>
+          <p>Source spelling, capitalization, punctuation, written ampersands and visible accents are retained. Long s and typographic ligatures are represented by standard s and constituent letters. Letter spacing in display capitals and quotation glyph shapes may be represented schematically. No modern-edition readings are substituted.</p>
+        </normalization>
+        <segmentation>
+          <p>Each l represents one canonical verse, with stable numbering and a link to its existing image region. Source verse order and headings are retained. Couplet grouping and canonical line numbers are editorial. A displaced word may remain within its verse with its position marked.</p>
+        </segmentation>
+        <segmentation>
+          <p>Both readers checked actual full-page line starts. The regular visible insets are retained, with an additional two-character approximation at verse 2 for the enlarged initial’s exceptional opening inset. This is source layout evidence, not a rule inferred from verse parity.</p>
+        </segmentation>
+        <correction>
+          <p>Uncertain readings remain locally marked with unclear or gap. Observations and uncertainties are documented for a different source reader; ink colour alone does not establish erasure or a separate hand.</p>
+        </correction>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="reviewed">
+      <change when="2026-10-26" who="#W-3.15-encoder">First reader inspected and transcribed all 20 verses from the source images; independent source review pending.</change>
+    <change when="2026-10-26" who="#W-3.15-reviewer">Independent second source pass checked every extant verse, source heading, page furniture and full-page line starts; corrected supported readings and documented the source layout in W-3.15-second-pass.md.</change><change when="2026-10-26" who="#W-3.15-reviewer">Focused independent image reinspection of the enlarged opening initial and following letters corrected source capitalization Quaere to QUaere; remaining opening letters and second-verse layout rechecked before resealing.</change></revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="W-3.15-p148" n="148" ulx="0" uly="0" lrx="2004" lry="2860">
+      <graphic url="https://digitalarchive.wlu.edu/cantaloupe/iiif/2/https%3A%2F%2Fdigitalarchive.wlu.edu%2F_flysystem%2Ffedora%2F2026-10%2F72575-Service%2520File.jpg/full/full/0/default.jpg"/>
+      <zone xml:id="W-3.15-zone-1" ulx="746" uly="509" lrx="1964" lry="632"/>
+      <zone xml:id="W-3.15-zone-2" ulx="889" uly="564" lrx="1734" lry="629"/>
+      <zone xml:id="W-3.15-zone-3" ulx="745" uly="617" lrx="1715" lry="688"/>
+      <zone xml:id="W-3.15-zone-4" ulx="807" uly="673" lrx="1555" lry="726"/>
+      <zone xml:id="W-3.15-zone-5" ulx="745" uly="718" lrx="1900" lry="790"/>
+      <zone xml:id="W-3.15-zone-6" ulx="805" uly="773" lrx="1704" lry="835"/>
+      <zone xml:id="W-3.15-zone-7" ulx="747" uly="827" lrx="1719" lry="894"/>
+      <zone xml:id="W-3.15-zone-8" ulx="807" uly="883" lrx="1545" lry="950"/>
+      <zone xml:id="W-3.15-zone-9" ulx="753" uly="935" lrx="1762" lry="1005"/>
+      <zone xml:id="W-3.15-zone-10" ulx="813" uly="989" lrx="1674" lry="1044"/>
+      <zone xml:id="W-3.15-zone-11" ulx="751" uly="1034" lrx="1801" lry="1108"/>
+      <zone xml:id="W-3.15-zone-12" ulx="809" uly="1095" lrx="1726" lry="1157"/>
+      <zone xml:id="W-3.15-zone-13" ulx="753" uly="1144" lrx="1779" lry="1217"/>
+      <zone xml:id="W-3.15-zone-14" ulx="815" uly="1199" lrx="1822" lry="1267"/>
+      <zone xml:id="W-3.15-zone-15" ulx="757" uly="1246" lrx="1802" lry="1317"/>
+      <zone xml:id="W-3.15-zone-16" ulx="811" uly="1304" lrx="1591" lry="1367"/>
+      <zone xml:id="W-3.15-zone-17" ulx="756" uly="1354" lrx="1730" lry="1420"/>
+      <zone xml:id="W-3.15-zone-18" ulx="809" uly="1407" lrx="1661" lry="1473"/>
+      <zone xml:id="W-3.15-zone-19" ulx="755" uly="1460" lrx="1637" lry="1529"/>
+      <zone xml:id="W-3.15-zone-20" ulx="805" uly="1511" lrx="1698" lry="1576"/>
+    </surface>
+  </facsimile>
+  <text xml:lang="la">
+    <body>
+      <div type="poem" n="3.15" xml:id="W-3.15-poem">
+        <lg type="couplet">
+          <pb n="148" facs="#W-3.15-p148"/>
+          <fw type="header" place="top">P. OVIDII NASONIS</fw>
+          <fw type="pageNum" place="top">148</fw>
+          <label type="source-heading">Elegia XV. Ad Venerem, quod elegis finem imponat.</label>
+          <l n="1" xml:id="W-3.15-l1" facs="#W-3.15-zone-1">QUaere novum vatem, tenerorum mater Amorum:</l>
+          <l n="2" xml:id="W-3.15-l2" facs="#W-3.15-zone-2" rend="indent"><space dim="horizontal" quantity="2" unit="chars"/>Raditur hic Elegis ultima meta meis.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="3" xml:id="W-3.15-l3" facs="#W-3.15-zone-3">Quos ego composui, Peligni ruris alumnus:</l>
+          <l n="4" xml:id="W-3.15-l4" facs="#W-3.15-zone-4" rend="indent">Nec me deliciae dedecuere meae.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="5" xml:id="W-3.15-l5" facs="#W-3.15-zone-5">Si quid id est, usque à proavis vetus ordinis heres,</l>
+          <l n="6" xml:id="W-3.15-l6" facs="#W-3.15-zone-6" rend="indent">Non modo militiae turbine factus eques.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="7" xml:id="W-3.15-l7" facs="#W-3.15-zone-7">Mantua Virgilio gaudet, Verona Catullo:</l>
+          <l n="8" xml:id="W-3.15-l8" facs="#W-3.15-zone-8" rend="indent">Pelignae dicar gloria gentis ego.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="9" xml:id="W-3.15-l9" facs="#W-3.15-zone-9">Quam sua libertas ad honesta coëgerat arma,</l>
+          <l n="10" xml:id="W-3.15-l10" facs="#W-3.15-zone-10" rend="indent">Cum timuit socias anxia Roma manus.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="11" xml:id="W-3.15-l11" facs="#W-3.15-zone-11">Atque aliquis spectans hospes Sulmonis aquosi</l>
+          <l n="12" xml:id="W-3.15-l12" facs="#W-3.15-zone-12" rend="indent">Moenia, quâ campi jugera pauca tenent?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="13" xml:id="W-3.15-l13" facs="#W-3.15-zone-13">Quae tantum, dicet, potuistis ferre Poëtam,</l>
+          <l n="14" xml:id="W-3.15-l14" facs="#W-3.15-zone-14" rend="indent">Quantulacumque estis, vos ego magna voco.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="15" xml:id="W-3.15-l15" facs="#W-3.15-zone-15">Culte puer, puerique parens Amathusia culti,</l>
+          <l n="16" xml:id="W-3.15-l16" facs="#W-3.15-zone-16" rend="indent">Aurea de campo vellite signa meo.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="17" xml:id="W-3.15-l17" facs="#W-3.15-zone-17">Corniger increpuit thyrso graviore Lyaeus:</l>
+          <l n="18" xml:id="W-3.15-l18" facs="#W-3.15-zone-18" rend="indent">Pulsanda est magnis area major equis.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="19" xml:id="W-3.15-l19" facs="#W-3.15-zone-19">Imbelles Elegi, genialis Musa, valete;</l>
+          <l n="20" xml:id="W-3.15-l20" facs="#W-3.15-zone-20" rend="indent">Post mea mansurum fata superstes opus.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

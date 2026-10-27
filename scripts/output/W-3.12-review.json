@@ -1,0 +1,152 @@
+{
+  "witness": "W",
+  "poem": "3.12",
+  "date": "2026-10-26",
+  "author_agent": "/root/w_transcribe_c",
+  "reviewer_agent": "/root/w_review_c",
+  "reviewer": "OpenAI Codex independent w_review_c source-image reviewer",
+  "review_type": "independent-second-agent-image-and-encoding-review",
+  "human_approved": false,
+  "line_coverage": {
+    "count": 44,
+    "ranges": [
+      {
+        "image": 189,
+        "printed_page": 145,
+        "page_position": "printed page 145",
+        "start": 1,
+        "end": 42
+      },
+      {
+        "image": 190,
+        "printed_page": 146,
+        "page_position": "printed page 146",
+        "start": 43,
+        "end": 44
+      }
+    ]
+  },
+  "line_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44
+  ],
+  "counts": {
+    "resolved": 0,
+    "documented-uncertainty": 0,
+    "escalate": 0
+  },
+  "previous_note_count": 0,
+  "notes": [],
+  "source_corrections": [
+    {
+      "line": 1,
+      "before": "Quis fuit ille dies, quo tristia semper amanti,",
+      "after": "QUis fuit ille dies, quo tristia semper amanti"
+    },
+    {
+      "line": 10,
+      "before": "Vendibilis culpa facta puella mea est.",
+      "after": "Vendibilis culpâ facta puella meâ est."
+    },
+    {
+      "line": 11,
+      "before": "Me lenone placet. duce me perductus amator,",
+      "after": "Me lenone placet. duce me perductus amator."
+    },
+    {
+      "line": 13,
+      "before": "An prosint, dubium; nocuerunt carmina certe,",
+      "after": "An prosint, dubium; nocuerunt carmina certè."
+    },
+    {
+      "line": 15,
+      "before": "Cum Thebe, cum Troja forent, cum Caesaris acta,",
+      "after": "Cum Thebe, cum Troja forent; cum Caesaris acta;"
+    },
+    {
+      "line": 19,
+      "before": "Nec tamen, ut testes mos est audire Poetas,",
+      "after": "Nec tamen, ut testes mos est audire Poëtas,"
+    },
+    {
+      "line": 33,
+      "before": "Juppiter aut in aves, aut se transformat in aurum;",
+      "after": "Juppiter aut in aves, aut se transformat in aurum:"
+    },
+    {
+      "line": 35,
+      "before": "Protea quid referam, Thebanaque femina, dentes?",
+      "after": "Protea quid referam, Thebanaque semina, dentes?"
+    },
+    {
+      "line": 44,
+      "before": "Femina. credulitas nunc mihi vestra nocet,",
+      "after": "Femina. credulitas nunc mihi vestra nocet."
+    }
+  ],
+  "layout_evidence": {
+    "assessment": "Printed p. 145 running header AMORUM. LIB. III. 12.; heading Elegia XII. Dolet amicam suam ita suis carminibus innotuisse, ut rivales multos sibi pararit.; footer Tom. I., signature K, and catchword Et. The ending continues on p. 146 under the author header. Full-page starts checked including the enlarged initial and exceptional second-verse inset. Original annotation rectangles preserved."
+  },
+  "validation": {
+    "schema": "docs/schema/tei_all-4.12.0.rng",
+    "schema_result": "passed xmllint Relax NG",
+    "verse_lines": 44,
+    "facsimile_zones": 44,
+    "unique_ids": true,
+    "local_references_resolve": true
+  },
+  "reviewed_candidate_sha256": "69dd66d107ed3848199c4b8a0b4b92b1d0f0d7623270739a3f524c042fbb6912",
+  "reviewed_xml_sha256": "8de3c56ec6d4daac774f57c1d690e4ebe344a5ceba89c17c481dc58d44eaddf9",
+  "review_report_sha256": "1c23c1b85b3ecd8ef25ae7b9fc5221bec1e09f25dd476f6d534e51320704f642",
+  "opening_capital_followup": {
+    "line": 1,
+    "before": "Quis",
+    "after": "QUis",
+    "evidence": {
+      "image": "https://digitalarchive.wlu.edu/cantaloupe/iiif/2/https%3A%2F%2Fdigitalarchive.wlu.edu%2F_flysystem%2Ffedora%2F2026-10%2F72572-Service%2520File.jpg/full/full/0/default.jpg",
+      "assessment": "Focused independent reinspection of the actual opening image confirms QUis: the enlarged initial is followed by a genuine uppercase U, then lowercase letters. The remaining opening word, line 2 capitalization and enlarged-initial inset were also checked. Only the supported second-letter case was changed in this follow-up."
+    }
+  }
+}

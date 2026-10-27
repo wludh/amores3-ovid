@@ -1,0 +1,77 @@
+{
+  "author_agent": "/root/w_transcribe_a",
+  "date": "2026-10-26",
+  "source": "https://digitalarchive.wlu.edu/islandora/p-ovidii-nasonis-operum-tomus-primus-volume-1",
+  "source_edition": "Apud J. Wetstenium, Amstelaedami, 1751; W&L Rare PA6519 .A2 1751",
+  "page_coverage": {
+    "viewer_pages": [
+      172,
+      173
+    ],
+    "printed_pages": [
+      128,
+      129
+    ],
+    "canonical_lines": [
+      1,
+      70
+    ]
+  },
+  "indented_lines": [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22,
+    24,
+    26,
+    28,
+    30,
+    32,
+    34,
+    36,
+    38,
+    40,
+    42,
+    44,
+    46,
+    48,
+    50,
+    52,
+    54,
+    56,
+    58,
+    60,
+    62,
+    64,
+    66,
+    68,
+    70
+  ],
+  "indentation_evidence": "Compared actual line starts on each full-page image, including at page transitions. This setting uses a recurring couplet inset; the explicit list records the observed inset starts in this poem, not a rule inferred from verse-number parity. Initial capitals and drop capitals vary the apparent left edge.",
+  "headings": {
+    "1": "Elegia I. Deliberatio poetae, utrum Elegos pergas scribere, an potius Tragoedias."
+  },
+  "page_headers": {
+    "172": "P. Ovidii Nasonis",
+    "173": "Amorum Lib. III. I.2"
+  },
+  "notes": [
+    {
+      "line": 1,
+      "type": "observation",
+      "text": "The poem heading and its italic descriptive title are printed immediately before the first verse; the title is retained as source metadata rather than verse text.",
+      "evidence": {
+        "image": "https://digitalarchive.wlu.edu/cantaloupe/iiif/2/https%3A%2F%2Fdigitalarchive.wlu.edu%2F_flysystem%2Ffedora%2F2026-10%2F72555-Service%2520File.jpg/full/full/0/default.jpg",
+        "assessment": "Full-page image at viewer page 172; heading is visually distinct from the verse body and starts the poem."
+      }
+    }
+  ],
+  "source_pass_complete": true
+}

@@ -11,7 +11,9 @@
   document.getElementById('title').textContent = `Amores ${poem} · ${witness} · TEI`;
   document.title = `Amores ${poem} — ${witness} TEI`;
   try {
-    const response = await fetch(await resolveWitnessFile(witness, poem));
+    const path = await resolveWitnessFile(witness, poem);
+    if (!path) throw new Error('No reviewed transcription available for this selection');
+    const response = await fetch(path);
     if (!response.ok) throw new Error('Source unavailable');
     const doc = new DOMParser().parseFromString(await response.text(), 'application/xml');
     if (doc.querySelector('parsererror')) throw new Error('Invalid XML');

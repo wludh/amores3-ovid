@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="W" xml:id="W-3.7">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title>Ovid, Amores 3.7 — W, Wetstein 1751</title>
+        <author>Publius Ovidius Naso</author>
+        <respStmt xml:id="W-3.7-encoder">
+          <resp>First source-image reading and transcription</resp>
+          <name>OpenAI Codex /root/w_transcribe_b</name>
+        </respStmt>
+        <respStmt xml:id="W-3.7-xml-encoder">
+          <resp>TEI encoding of the source reader’s first-pass transcription</resp>
+          <name>OpenAI Codex /root</name>
+        </respStmt>
+        <respStmt xml:id="W-3.7-reviewer">
+          <resp>Independent second source-image reading and encoding review</resp>
+          <name>OpenAI Codex /root/w_review_b</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Amores Project working transcription, 26 October 2026; independent second-agent source review complete; human scholarly approval not yet given.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>P. Ovidius Naso</author>
+          <title>P. Ovidii Nasonis operum tomus primus</title>
+          <pubPlace>Amstelaedami</pubPlace>
+          <publisher>Apud J. Wetstenium</publisher>
+          <date when="1751">1751</date>
+          <biblScope unit="page" from="137" to="139">137–139</biblScope>
+          <ref target="https://digitalarchive.wlu.edu/islandora/p-ovidii-nasonis-operum-tomus-primus-volume-1">Washington and Lee University Special Collections, PA6519 .A2 1751, volume 1</ref>
+          <ref target="https://digitalarchive.wlu.edu/node/72383/manifest">Native IIIF source manifest</ref>
+          <note>One-based viewer images 181–183; printed page numbers are 44 lower. Archive page labels differ from both. The actual images, rather than another witness or uncorrected OCR, supply the readings.</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <normalization>
+          <p>Source spelling, capitalization, punctuation, written ampersands and visible accents are retained. Long s and typographic ligatures are represented by standard s and constituent letters. Letter spacing in display capitals and quotation glyph shapes may be represented schematically. No modern-edition readings are substituted.</p>
+        </normalization>
+        <segmentation>
+          <p>Each l represents one canonical verse, with stable numbering and a link to its existing image region. Source verse order and headings are retained. Couplet grouping and canonical line numbers are editorial. A displaced word may remain within its verse with its position marked.</p>
+        </segmentation>
+        <segmentation>
+          <p>Full-page line starts were independently checked on every page. Even lines have the visible ordinary inset. Verse 2 has an additional three-character approximation of the space beside the two-line opening capital; it is not inferred from verse parity.</p>
+        </segmentation>
+        <correction>
+          <p>Uncertain readings remain locally marked with unclear or gap. Observations and uncertainties are documented for a different source reader; ink colour alone does not establish erasure or a separate hand.</p>
+        </correction>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="reviewed">
+      <change when="2026-10-26" who="#W-3.7-encoder">First reader inspected and transcribed all 84 verses from the source images; independent source review pending.</change>
+      <change when="2026-10-26" who="#W-3.7-reviewer">Independent reviewer inspected all 84 extant verses against full-page source images and enlarged bands; corrected supported readings, punctuation and accents; checked line starts and all source notes; original annotation rectangles preserved.</change>
+      <change when="2026-10-26" who="#W-3.7-reviewer">Independent opening-crop follow-up confirmed the second letter after the large initial is uppercase: At corrected to source AT; remaining opening letters and extra verse-2 space rechecked.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="W-3.7-p137" n="137" ulx="0" uly="0" lrx="1816" lry="2880">
+      <graphic url="https://digitalarchive.wlu.edu/cantaloupe/iiif/2/https%3A%2F%2Fdigitalarchive.wlu.edu%2F_flysystem%2Ffedora%2F2026-10%2F72564-Service%2520File.jpg/full/full/0/default.jpg" />
+      <zone xml:id="W-3.7-zone-1" ulx="73" uly="1808" lrx="1201" lry="1917" />
+      <zone xml:id="W-3.7-zone-2" ulx="232" uly="1866" lrx="1123" lry="1928" />
+      <zone xml:id="W-3.7-zone-3" ulx="72" uly="1914" lrx="1152" lry="1984" />
+      <zone xml:id="W-3.7-zone-4" ulx="129" uly="1967" lrx="960" lry="2035" />
+      <zone xml:id="W-3.7-zone-5" ulx="72" uly="2017" lrx="1085" lry="2089" />
+      <zone xml:id="W-3.7-zone-6" ulx="127" uly="2074" lrx="914" lry="2140" />
+      <zone xml:id="W-3.7-zone-7" ulx="68" uly="2115" lrx="1004" lry="2198" />
+      <zone xml:id="W-3.7-zone-8" ulx="121" uly="2179" lrx="932" lry="2241" />
+      <zone xml:id="W-3.7-zone-9" ulx="74" uly="2228" lrx="1107" lry="2303" />
+      <zone xml:id="W-3.7-zone-10" ulx="128" uly="2283" lrx="989" lry="2350" />
+      <zone xml:id="W-3.7-zone-11" ulx="73" uly="2332" lrx="1186" lry="2405" />
+      <zone xml:id="W-3.7-zone-12" ulx="130" uly="2384" lrx="1040" lry="2461" />
+      <zone xml:id="W-3.7-zone-13" ulx="74" uly="2439" lrx="1145" lry="2512" />
+      <zone xml:id="W-3.7-zone-14" ulx="130" uly="2493" lrx="934" lry="2561" />
+      <zone xml:id="W-3.7-zone-15" ulx="72" uly="2545" lrx="1158" lry="2621" />
+    </surface>
+    <surface xml:id="W-3.7-p138" n="138" ulx="0" uly="0" lrx="1940" lry="2852">
+      <graphic url="https://digitalarchive.wlu.edu/cantaloupe/iiif/2/https%3A%2F%2Fdigitalarchive.wlu.edu%2F_flysystem%2Ffedora%2F2026-10%2F72565-Service%2520File.jpg/full/full/0/default.jpg" />
+      <zone xml:id="W-3.7-zone-16" ulx="734" uly="257" lrx="1801" lry="327" />
+      <zone xml:id="W-3.7-zone-17" ulx="682" uly="308" lrx="1888" lry="391" />
+      <zone xml:id="W-3.7-zone-18" ulx="732" uly="364" lrx="1575" lry="435" />
+      <zone xml:id="W-3.7-zone-19" ulx="672" uly="416" lrx="1864" lry="501" />
+      <zone xml:id="W-3.7-zone-20" ulx="727" uly="470" lrx="1668" lry="536" />
+      <zone xml:id="W-3.7-zone-21" ulx="674" uly="522" lrx="1620" lry="589" />
+      <zone xml:id="W-3.7-zone-22" ulx="727" uly="576" lrx="1600" lry="641" />
+      <zone xml:id="W-3.7-zone-23" ulx="665" uly="627" lrx="1727" lry="704" />
+      <zone xml:id="W-3.7-zone-24" ulx="724" uly="682" lrx="1496" lry="743" />
+      <zone xml:id="W-3.7-zone-25" ulx="663" uly="731" lrx="1634" lry="808" />
+      <zone xml:id="W-3.7-zone-26" ulx="728" uly="790" lrx="1610" lry="850" />
+      <zone xml:id="W-3.7-zone-27" ulx="661" uly="838" lrx="1701" lry="912" />
+      <zone xml:id="W-3.7-zone-28" ulx="721" uly="893" lrx="1801" lry="958" />
+      <zone xml:id="W-3.7-zone-29" ulx="659" uly="941" lrx="1535" lry="1020" />
+      <zone xml:id="W-3.7-zone-30" ulx="716" uly="1000" lrx="1571" lry="1071" />
+      <zone xml:id="W-3.7-zone-31" ulx="660" uly="1051" lrx="1793" lry="1117" />
+      <zone xml:id="W-3.7-zone-32" ulx="717" uly="1103" lrx="1566" lry="1177" />
+      <zone xml:id="W-3.7-zone-33" ulx="654" uly="1154" lrx="1589" lry="1227" />
+      <zone xml:id="W-3.7-zone-34" ulx="710" uly="1211" lrx="1616" lry="1278" />
+      <zone xml:id="W-3.7-zone-35" ulx="650" uly="1261" lrx="1760" lry="1336" />
+      <zone xml:id="W-3.7-zone-36" ulx="706" uly="1316" lrx="1599" lry="1381" />
+      <zone xml:id="W-3.7-zone-37" ulx="650" uly="1365" lrx="1699" lry="1439" />
+      <zone xml:id="W-3.7-zone-38" ulx="705" uly="1421" lrx="1450" lry="1482" />
+      <zone xml:id="W-3.7-zone-39" ulx="644" uly="1474" lrx="1622" lry="1548" />
+      <zone xml:id="W-3.7-zone-40" ulx="702" uly="1529" lrx="1480" lry="1596" />
+      <zone xml:id="W-3.7-zone-41" ulx="641" uly="1577" lrx="1603" lry="1656" />
+      <zone xml:id="W-3.7-zone-42" ulx="698" uly="1634" lrx="1496" lry="1698" />
+      <zone xml:id="W-3.7-zone-43" ulx="633" uly="1684" lrx="1709" lry="1764" />
+      <zone xml:id="W-3.7-zone-44" ulx="698" uly="1740" lrx="1728" lry="1814" />
+      <zone xml:id="W-3.7-zone-45" ulx="632" uly="1790" lrx="1773" lry="1870" />
+      <zone xml:id="W-3.7-zone-46" ulx="691" uly="1846" lrx="1449" lry="1913" />
+      <zone xml:id="W-3.7-zone-47" ulx="629" uly="1897" lrx="1650" lry="1974" />
+      <zone xml:id="W-3.7-zone-48" ulx="689" uly="1952" lrx="1568" lry="2020" />
+      <zone xml:id="W-3.7-zone-49" ulx="628" uly="1997" lrx="1741" lry="2086" />
+      <zone xml:id="W-3.7-zone-50" ulx="687" uly="2057" lrx="1590" lry="2132" />
+      <zone xml:id="W-3.7-zone-51" ulx="619" uly="2107" lrx="1538" lry="2185" />
+      <zone xml:id="W-3.7-zone-52" ulx="680" uly="2164" lrx="1716" lry="2241" />
+      <zone xml:id="W-3.7-zone-53" ulx="616" uly="2214" lrx="1596" lry="2293" />
+      <zone xml:id="W-3.7-zone-54" ulx="674" uly="2266" lrx="1523" lry="2344" />
+      <zone xml:id="W-3.7-zone-55" ulx="616" uly="2318" lrx="1755" lry="2399" />
+      <zone xml:id="W-3.7-zone-56" ulx="677" uly="2375" lrx="1450" lry="2450" />
+      <zone xml:id="W-3.7-zone-57" ulx="612" uly="2424" lrx="1752" lry="2508" />
+      <zone xml:id="W-3.7-zone-58" ulx="670" uly="2483" lrx="1520" lry="2547" />
+      <zone xml:id="W-3.7-zone-59" ulx="606" uly="2531" lrx="1634" lry="2612" />
+      <zone xml:id="W-3.7-zone-60" ulx="673" uly="2588" lrx="1639" lry="2664" />
+    </surface>
+    <surface xml:id="W-3.7-p139" n="139" ulx="0" uly="0" lrx="1804" lry="2886">
+      <graphic url="https://digitalarchive.wlu.edu/cantaloupe/iiif/2/https%3A%2F%2Fdigitalarchive.wlu.edu%2F_flysystem%2Ffedora%2F2026-10%2F72566-Service%2520File.jpg/full/full/0/default.jpg" />
+      <zone xml:id="W-3.7-zone-61" ulx="76" uly="240" lrx="1159" lry="305" />
+      <zone xml:id="W-3.7-zone-62" ulx="139" uly="291" lrx="1158" lry="366" />
+      <zone xml:id="W-3.7-zone-63" ulx="78" uly="345" lrx="1032" lry="416" />
+      <zone xml:id="W-3.7-zone-64" ulx="131" uly="401" lrx="1023" lry="467" />
+      <zone xml:id="W-3.7-zone-65" ulx="76" uly="452" lrx="1218" lry="518" />
+      <zone xml:id="W-3.7-zone-66" ulx="128" uly="508" lrx="964" lry="573" />
+      <zone xml:id="W-3.7-zone-67" ulx="53" uly="559" lrx="1157" lry="626" />
+      <zone xml:id="W-3.7-zone-68" ulx="127" uly="614" lrx="1044" lry="676" />
+      <zone xml:id="W-3.7-zone-69" ulx="79" uly="662" lrx="1168" lry="731" />
+      <zone xml:id="W-3.7-zone-70" ulx="128" uly="717" lrx="951" lry="781" />
+      <zone xml:id="W-3.7-zone-71" ulx="74" uly="770" lrx="1077" lry="834" />
+      <zone xml:id="W-3.7-zone-72" ulx="130" uly="825" lrx="1000" lry="889" />
+      <zone xml:id="W-3.7-zone-73" ulx="68" uly="874" lrx="1007" lry="942" />
+      <zone xml:id="W-3.7-zone-74" ulx="130" uly="929" lrx="902" lry="982" />
+      <zone xml:id="W-3.7-zone-75" ulx="73" uly="975" lrx="1162" lry="1051" />
+      <zone xml:id="W-3.7-zone-76" ulx="129" uly="1035" lrx="1003" lry="1099" />
+      <zone xml:id="W-3.7-zone-77" ulx="78" uly="1086" lrx="1169" lry="1156" />
+      <zone xml:id="W-3.7-zone-78" ulx="128" uly="1139" lrx="970" lry="1202" />
+      <zone xml:id="W-3.7-zone-79" ulx="71" uly="1193" lrx="896" lry="1255" />
+      <zone xml:id="W-3.7-zone-80" ulx="129" uly="1245" lrx="970" lry="1301" />
+      <zone xml:id="W-3.7-zone-81" ulx="69" uly="1296" lrx="1028" lry="1354" />
+      <zone xml:id="W-3.7-zone-82" ulx="124" uly="1352" lrx="913" lry="1415" />
+      <zone xml:id="W-3.7-zone-83" ulx="68" uly="1403" lrx="1057" lry="1468" />
+      <zone xml:id="W-3.7-zone-84" ulx="120" uly="1457" lrx="989" lry="1524" />
+    </surface>
+  </facsimile>
+  <text xml:lang="la">
+    <body>
+      <div type="poem" n="3.7" xml:id="W-3.7-poem">
+        <lg type="couplet">
+          <pb n="137" facs="#W-3.7-p137" />
+          <fw type="header" place="top">AMORUM. LIB. III. 6. 7.</fw>
+          <fw type="pageNum" place="top">137</fw>
+          <label type="source-heading">Elegia VII. Quod ab amica receptus cum ea coire non potuerit, conqueritur.</label>
+          <l n="1" xml:id="W-3.7-l1" facs="#W-3.7-zone-1">AT non formosa est, at non bene culta puella;</l>
+          <l n="2" xml:id="W-3.7-l2" facs="#W-3.7-zone-2" rend="indent"><space dim="horizontal" quantity="3" unit="chars" />At, puto, non votis saepe petita meis!</l>
+        </lg>
+        <lg type="couplet">
+          <l n="3" xml:id="W-3.7-l3" facs="#W-3.7-zone-3">Hanc tamen in nullos tenui male languidus usus,</l>
+          <l n="4" xml:id="W-3.7-l4" facs="#W-3.7-zone-4" rend="indent">Sed jacui pigro crimen onusque toro.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="5" xml:id="W-3.7-l5" facs="#W-3.7-zone-5">Nec potui cupiens, pariter cupiente puellâ,</l>
+          <l n="6" xml:id="W-3.7-l6" facs="#W-3.7-zone-6" rend="indent">Inguinis effoeti parte juvante frui.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="7" xml:id="W-3.7-l7" facs="#W-3.7-zone-7">Illa quidem nostro subjecit eburnea collo</l>
+          <l n="8" xml:id="W-3.7-l8" facs="#W-3.7-zone-8" rend="indent">Brachia, Sithoniâ candidiora nive:</l>
+        </lg>
+        <lg type="couplet">
+          <l n="9" xml:id="W-3.7-l9" facs="#W-3.7-zone-9">Osculaque inseruit cupidae luctantia linguae:</l>
+          <l n="10" xml:id="W-3.7-l10" facs="#W-3.7-zone-10" rend="indent">Lascivum femori supposuitque femur.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="11" xml:id="W-3.7-l11" facs="#W-3.7-zone-11">Et mihi blanditias dixit, Dominumque vocavit;</l>
+          <l n="12" xml:id="W-3.7-l12" facs="#W-3.7-zone-12" rend="indent">Et quae praeterea publica verba juvant.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="13" xml:id="W-3.7-l13" facs="#W-3.7-zone-13">Tacta tamen veluti gelidâ mea membra cicutâ,</l>
+          <l n="14" xml:id="W-3.7-l14" facs="#W-3.7-zone-14" rend="indent">Segnia propositum destituere suum.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="15" xml:id="W-3.7-l15" facs="#W-3.7-zone-15">Truncus iners jacui, species, &amp; inutile pondus:</l>
+          <fw type="sig" place="bottom">I 5</fw>
+          <fw type="catch" place="bottom">Nec</fw>
+          <pb n="138" facs="#W-3.7-p138" />
+          <fw type="header" place="top">P. OVIDII NASONIS</fw>
+          <fw type="pageNum" place="top">138</fw>
+          <l n="16" xml:id="W-3.7-l16" facs="#W-3.7-zone-16" rend="indent">Nec satis exactum est, corpus an umbra forem.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="17" xml:id="W-3.7-l17" facs="#W-3.7-zone-17">Quae mihi ventura est (siquidem ventura) senectus,</l>
+          <l n="18" xml:id="W-3.7-l18" facs="#W-3.7-zone-18" rend="indent">Cum desit numeris ipsa juventa suis?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="19" xml:id="W-3.7-l19" facs="#W-3.7-zone-19">Ah pudet annorum! quo me juvenemque virumque,</l>
+          <l n="20" xml:id="W-3.7-l20" facs="#W-3.7-zone-20" rend="indent">Nec juvenem, nec me sensit amica virum.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="21" xml:id="W-3.7-l21" facs="#W-3.7-zone-21">Sic flammas aditura pias aeterna sacerdos</l>
+          <l n="22" xml:id="W-3.7-l22" facs="#W-3.7-zone-22" rend="indent">Surgit, &amp; à caro fratre verenda soror.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="23" xml:id="W-3.7-l23" facs="#W-3.7-zone-23">At nuper bis flava Chlide, ter candida Pitho,</l>
+          <l n="24" xml:id="W-3.7-l24" facs="#W-3.7-zone-24" rend="indent">Ter Libas officio continuata meo.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="25" xml:id="W-3.7-l25" facs="#W-3.7-zone-25">Exigere à nobis angustâ nocte Corinnam,</l>
+          <l n="26" xml:id="W-3.7-l26" facs="#W-3.7-zone-26" rend="indent">Me memini numeros sustinuisse novem.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="27" xml:id="W-3.7-l27" facs="#W-3.7-zone-27">Num mea Thessalico languent devota veneno</l>
+          <l n="28" xml:id="W-3.7-l28" facs="#W-3.7-zone-28" rend="indent">Corpora? num misero carmen &amp; herba nocent?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="29" xml:id="W-3.7-l29" facs="#W-3.7-zone-29">Sagave poeniceâ defixit nomina cerâ,</l>
+          <l n="30" xml:id="W-3.7-l30" facs="#W-3.7-zone-30" rend="indent">Et medium tenues in jecur egit acus?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="31" xml:id="W-3.7-l31" facs="#W-3.7-zone-31">Carmine laesa Ceres sterilem vanescit in herbam:</l>
+          <l n="32" xml:id="W-3.7-l32" facs="#W-3.7-zone-32" rend="indent">Deficiunt laesi carmine fontis aquae;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="33" xml:id="W-3.7-l33" facs="#W-3.7-zone-33">Ilicibus glandes, cantataque vitibus uva</l>
+          <l n="34" xml:id="W-3.7-l34" facs="#W-3.7-zone-34" rend="indent">Decidit; &amp; nullo poma movente fluunt.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="35" xml:id="W-3.7-l35" facs="#W-3.7-zone-35">Quid vetat &amp; nervos magicas torpere per artes?</l>
+          <l n="36" xml:id="W-3.7-l36" facs="#W-3.7-zone-36" rend="indent">Forsitan impatiens sit latus inde meum.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="37" xml:id="W-3.7-l37" facs="#W-3.7-zone-37">Huc pudor accessit: facti pudor ipse nocebat:</l>
+          <l n="38" xml:id="W-3.7-l38" facs="#W-3.7-zone-38" rend="indent">Ille fuit vitii causa secunda mei.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="39" xml:id="W-3.7-l39" facs="#W-3.7-zone-39">At qualem vidi tantum tetigique puellam,</l>
+          <l n="40" xml:id="W-3.7-l40" facs="#W-3.7-zone-40" rend="indent">Sic etiam tunicâ tangitur ipsa suâ.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="41" xml:id="W-3.7-l41" facs="#W-3.7-zone-41">Illius ad tactum Pylius juvenescere possit,</l>
+          <l n="42" xml:id="W-3.7-l42" facs="#W-3.7-zone-42" rend="indent">Tithonosque annis fortior esse suis.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="43" xml:id="W-3.7-l43" facs="#W-3.7-zone-43">Haec mihi contigerat; sed vir non contigit illi.</l>
+          <l n="44" xml:id="W-3.7-l44" facs="#W-3.7-zone-44" rend="indent">Quas nunc concipiam per nova vota preces?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="45" xml:id="W-3.7-l45" facs="#W-3.7-zone-45">Credo etiam magnos, quo sum tam turpiter usus,</l>
+          <l n="46" xml:id="W-3.7-l46" facs="#W-3.7-zone-46" rend="indent">Muneris oblati poenituisse Deos.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="47" xml:id="W-3.7-l47" facs="#W-3.7-zone-47">Optabam certè recipi; sum nempe receptus:</l>
+          <l n="48" xml:id="W-3.7-l48" facs="#W-3.7-zone-48" rend="indent">Oscula ferre; tuli: proximus esse; fui.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="49" xml:id="W-3.7-l49" facs="#W-3.7-zone-49">Quo mihi fortunae tantum? quo regna sine usu?</l>
+          <l n="50" xml:id="W-3.7-l50" facs="#W-3.7-zone-50" rend="indent">Quid, nisi possedi dives avarus, opes?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="51" xml:id="W-3.7-l51" facs="#W-3.7-zone-51">Sic aret mediis taciti vulgator in undis;</l>
+          <l n="52" xml:id="W-3.7-l52" facs="#W-3.7-zone-52" rend="indent">Pomaque, quae nullo tempore tangat, habet.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="53" xml:id="W-3.7-l53" facs="#W-3.7-zone-53">A tenerâ quisquam sic surgit mane puellâ,</l>
+          <l n="54" xml:id="W-3.7-l54" facs="#W-3.7-zone-54" rend="indent">Protinus ut sanctos possit adire Deos.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="55" xml:id="W-3.7-l55" facs="#W-3.7-zone-55">Sed non blanda, puto, non optima perdidit in me</l>
+          <l n="56" xml:id="W-3.7-l56" facs="#W-3.7-zone-56" rend="indent">Oscula: non omni sollicitavit ope.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="57" xml:id="W-3.7-l57" facs="#W-3.7-zone-57">Illa graves potuit quercus, adamantaque durum,</l>
+          <l n="58" xml:id="W-3.7-l58" facs="#W-3.7-zone-58" rend="indent">Surdaque blanditiis saxa movere suis.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="59" xml:id="W-3.7-l59" facs="#W-3.7-zone-59">Digna movere fuit certè vivosque virosque;</l>
+          <l n="60" xml:id="W-3.7-l60" facs="#W-3.7-zone-60" rend="indent">Sed neque tum vixi, nec vir, ut ante, fui.</l>
+          <fw type="catch" place="bottom">Quid</fw>
+        </lg>
+        <lg type="couplet">
+          <pb n="139" facs="#W-3.7-p139" />
+          <fw type="header" place="top">AMORUM. LIB. III. 7. 8.</fw>
+          <fw type="pageNum" place="top">139</fw>
+          <l n="61" xml:id="W-3.7-l61" facs="#W-3.7-zone-61">Quid juvet, ad surdas si cantet Phemius aures?</l>
+          <l n="62" xml:id="W-3.7-l62" facs="#W-3.7-zone-62" rend="indent">Quid miserum Thamyran picta tabella juvet?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="63" xml:id="W-3.7-l63" facs="#W-3.7-zone-63">At quae non tacitâ formavi gaudia mente!</l>
+          <l n="64" xml:id="W-3.7-l64" facs="#W-3.7-zone-64" rend="indent">Quos ego non finxi disposuique modos!</l>
+        </lg>
+        <lg type="couplet">
+          <l n="65" xml:id="W-3.7-l65" facs="#W-3.7-zone-65">Nostra tamen jacuere, velut praemortua, membra</l>
+          <l n="66" xml:id="W-3.7-l66" facs="#W-3.7-zone-66" rend="indent">Turpiter, hesternâ languidiora rosâ.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="67" xml:id="W-3.7-l67" facs="#W-3.7-zone-67">Quae nunc ecce rigent intempestiva, valentque:</l>
+          <l n="68" xml:id="W-3.7-l68" facs="#W-3.7-zone-68" rend="indent">Nunc opus exposcunt militiamque suam.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="69" xml:id="W-3.7-l69" facs="#W-3.7-zone-69">Quin istic pudibunda jaces, pars pessima nostri;</l>
+          <l n="70" xml:id="W-3.7-l70" facs="#W-3.7-zone-70" rend="indent">Sic sum pollicitis captus &amp; ante tuis.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="71" xml:id="W-3.7-l71" facs="#W-3.7-zone-71">Tu dominam fallis: per te deprensus inermis</l>
+          <l n="72" xml:id="W-3.7-l72" facs="#W-3.7-zone-72" rend="indent">Tristia cum magno damna pudore tuli.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="73" xml:id="W-3.7-l73" facs="#W-3.7-zone-73">Hanc etiam non est mea dedignata puella</l>
+          <l n="74" xml:id="W-3.7-l74" facs="#W-3.7-zone-74" rend="indent">Molliter admotâ sollicitare manu.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="75" xml:id="W-3.7-l75" facs="#W-3.7-zone-75">Sed postquam nullas consurgere posse per artes,</l>
+          <l n="76" xml:id="W-3.7-l76" facs="#W-3.7-zone-76" rend="indent">Immemoremque sui procubuisse videt;</l>
+        </lg>
+        <lg type="couplet">
+          <l n="77" xml:id="W-3.7-l77" facs="#W-3.7-zone-77">Quid me ludis, ait? quis te, male sane, jubebat</l>
+          <l n="78" xml:id="W-3.7-l78" facs="#W-3.7-zone-78" rend="indent">Invitum nostro ponere membra toro?</l>
+        </lg>
+        <lg type="couplet">
+          <l n="79" xml:id="W-3.7-l79" facs="#W-3.7-zone-79">Aut te trajectis Aeaea venefica lanis</l>
+          <l n="80" xml:id="W-3.7-l80" facs="#W-3.7-zone-80" rend="indent">Devovet: aut alio lassus amore venis.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="81" xml:id="W-3.7-l81" facs="#W-3.7-zone-81">Nec mora: desiluit tunicâ velata recinctâ:</l>
+          <l n="82" xml:id="W-3.7-l82" facs="#W-3.7-zone-82" rend="indent">Et decuit nudos proripuisse pedes.</l>
+        </lg>
+        <lg type="couplet">
+          <l n="83" xml:id="W-3.7-l83" facs="#W-3.7-zone-83">Neve suae possent intactam scire ministrae;</l>
+          <l n="84" xml:id="W-3.7-l84" facs="#W-3.7-zone-84" rend="indent">Dedecus hoc sumtâ dissimulavit aquâ.</l>
+        </lg>
+      </div>
+    </body>
+    <back>
+      <div type="editorial-notes">
+        <head>Transcription notes</head>
+        <note xml:id="W-3.7-note-1" n="1" type="observation" target="#W-3.7-l1" resp="#W-3.7-encoder">The printed poem heading is present above this witness text and is transcribed separately in heading metadata.</note>
+        <note xml:id="W-3.7-note-2" n="2" type="observation" target="#W-3.7-l2" resp="#W-3.7-reviewer">The two-line opening capital displaces verse 2 farther right than the ordinary inset. An additional horizontal space of three characters approximates this observed layout.</note>
+      </div>
+    </back>
+  </text>
+</TEI>

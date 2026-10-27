@@ -564,7 +564,8 @@ function createTranscriptionPanelBody() {
       <option value="P">P</option>
       <option value="Y">Y</option>
       <option value="S">S</option>
-        <option value="O">O</option>
+      <option value="O">O</option>
+      <option value="W">W</option>
       <option value="LL">LL</option>
     </select>
     <div class="text-content">
@@ -1319,7 +1320,7 @@ async function loadTranscriptionFromXml(panel, poem, witness) {
     return;
   }
   
-  if (!witnessFiles[witness]) {
+  if (!Object.hasOwn(witnessFiles, witness)) {
     textContent.innerHTML = `<p>No data file specified for witness ${witness}.</p>`;
     return;
   }

@@ -1,0 +1,55 @@
+{
+  "author_agent": "/root/w_transcribe_b",
+  "date": "2026-10-26",
+  "source_pass_complete": true,
+  "indented_lines": [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22,
+    24,
+    26,
+    28,
+    30,
+    32,
+    34,
+    36,
+    38,
+    40,
+    42,
+    44,
+    46
+  ],
+  "indentation_evidence": "Inspected line starts in full-page context on each source page. The alternating line starts are visibly inset on the even-numbered verses; the poem-opening drop capital occupies the left margin and does not change the alternating pattern.",
+  "headings": {
+    "1": "Elegia V. Somnium, Elegia quae ex MSS. huc revocata est."
+  },
+  "page_headers": {
+    "178": "P. Ovidii Nasonis",
+    "179": "Amorum Lib. III. 5.6.",
+    "180": "P. Ovidii Nasonis",
+    "181": "Amorum Lib. III. 6.7.",
+    "182": "P. Ovidii Nasonis",
+    "183": "Amorum Lib. III. 7.8.",
+    "184": "P. Ovidii Nasonis",
+    "185": "Amorum Lib. III. 9."
+  },
+  "notes": [
+    {
+      "line": 1,
+      "type": "observation",
+      "text": "The printed poem heading is present above this witness text and is transcribed separately in heading metadata.",
+      "evidence": {
+        "image": "https://digitalarchive.wlu.edu/cantaloupe/iiif/2/https%3A%2F%2Fdigitalarchive.wlu.edu%2F_flysystem%2Ffedora%2F2026-10%2F72561-Service%2520File.jpg/full/full/0/default.jpg",
+        "assessment": "Full-page view shows the heading immediately before verse 1; source title retained as printed."
+      }
+    }
+  ]
+}
