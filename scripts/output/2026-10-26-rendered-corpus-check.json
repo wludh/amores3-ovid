@@ -1,0 +1,825 @@
+{
+  "date": "2026-10-26",
+  "environment": "Integrated local site including production48a5c97",
+  "records": [
+    {
+      "clickable": 70,
+      "features": 5,
+      "label": "Amores 3.1, witness P, transcription",
+      "lines": 70,
+      "poem": "3.1",
+      "tei": "tei.html?poem=3.1&witness=P",
+      "witness": "P"
+    },
+    {
+      "clickable": 84,
+      "features": 5,
+      "label": "Amores 3.2, witness P, transcription",
+      "lines": 84,
+      "poem": "3.2",
+      "tei": "tei.html?poem=3.2&witness=P",
+      "witness": "P"
+    },
+    {
+      "clickable": 48,
+      "features": 4,
+      "label": "Amores 3.3, witness P, transcription",
+      "lines": 48,
+      "poem": "3.3",
+      "tei": "tei.html?poem=3.3&witness=P",
+      "witness": "P"
+    },
+    {
+      "clickable": 48,
+      "features": 6,
+      "label": "Amores 3.4, witness P, transcription",
+      "lines": 48,
+      "poem": "3.4",
+      "tei": "tei.html?poem=3.4&witness=P",
+      "witness": "P"
+    },
+    {
+      "clickable": 46,
+      "features": 5,
+      "label": "Amores 3.5, witness P, transcription",
+      "lines": 46,
+      "poem": "3.5",
+      "tei": "tei.html?poem=3.5&witness=P",
+      "witness": "P"
+    },
+    {
+      "clickable": 106,
+      "features": 6,
+      "label": "Amores 3.6, witness P, transcription",
+      "lines": 106,
+      "poem": "3.6",
+      "tei": "tei.html?poem=3.6&witness=P",
+      "witness": "P"
+    },
+    {
+      "clickable": 84,
+      "features": 10,
+      "label": "Amores 3.7, witness P, transcription",
+      "lines": 84,
+      "poem": "3.7",
+      "tei": "tei.html?poem=3.7&witness=P",
+      "witness": "P"
+    },
+    {
+      "clickable": 66,
+      "features": 6,
+      "label": "Amores 3.8, witness P, transcription",
+      "lines": 66,
+      "poem": "3.8",
+      "tei": "tei.html?poem=3.8&witness=P",
+      "witness": "P"
+    },
+    {
+      "clickable": 68,
+      "features": 9,
+      "label": "Amores 3.9, witness P, transcription",
+      "lines": 68,
+      "poem": "3.9",
+      "tei": "tei.html?poem=3.9&witness=P",
+      "witness": "P"
+    },
+    {
+      "clickable": 48,
+      "features": 5,
+      "label": "Amores 3.10, witness P, transcription",
+      "lines": 48,
+      "poem": "3.10",
+      "tei": "tei.html?poem=3.10&witness=P",
+      "witness": "P"
+    },
+    {
+      "clickable": 52,
+      "features": 6,
+      "label": "Amores 3.11, witness P, transcription",
+      "lines": 52,
+      "poem": "3.11",
+      "tei": "tei.html?poem=3.11&witness=P",
+      "witness": "P"
+    },
+    {
+      "clickable": 26,
+      "features": 3,
+      "label": "Amores 3.12, witness P, transcription",
+      "lines": 26,
+      "poem": "3.12",
+      "tei": "tei.html?poem=3.12&witness=P",
+      "witness": "P"
+    },
+    {
+      "clickable": 0,
+      "features": 0,
+      "label": "Amores 3.13, witness P, transcription",
+      "lines": 0,
+      "poem": "3.13",
+      "tei": "tei.html?poem=3.13&witness=P",
+      "witness": "P"
+    },
+    {
+      "clickable": 48,
+      "features": 4,
+      "label": "Amores 3.14, witness P, transcription",
+      "lines": 48,
+      "poem": "3.14",
+      "tei": "tei.html?poem=3.14&witness=P",
+      "witness": "P"
+    },
+    {
+      "clickable": 8,
+      "features": 4,
+      "label": "Amores 3.15, witness P, transcription",
+      "lines": 8,
+      "poem": "3.15",
+      "tei": "tei.html?poem=3.15&witness=P",
+      "witness": "P"
+    },
+    {
+      "clickable": 70,
+      "features": 8,
+      "label": "Amores 3.1, witness Y, transcription",
+      "lines": 70,
+      "poem": "3.1",
+      "tei": "tei.html?poem=3.1&witness=Y",
+      "witness": "Y"
+    },
+    {
+      "clickable": 84,
+      "features": 9,
+      "label": "Amores 3.2, witness Y, transcription",
+      "lines": 84,
+      "poem": "3.2",
+      "tei": "tei.html?poem=3.2&witness=Y",
+      "witness": "Y"
+    },
+    {
+      "clickable": 48,
+      "features": 7,
+      "label": "Amores 3.3, witness Y, transcription",
+      "lines": 48,
+      "poem": "3.3",
+      "tei": "tei.html?poem=3.3&witness=Y",
+      "witness": "Y"
+    },
+    {
+      "clickable": 48,
+      "features": 8,
+      "label": "Amores 3.4, witness Y, transcription",
+      "lines": 48,
+      "poem": "3.4",
+      "tei": "tei.html?poem=3.4&witness=Y",
+      "witness": "Y"
+    },
+    {
+      "clickable": 46,
+      "features": 8,
+      "label": "Amores 3.5, witness Y, transcription",
+      "lines": 46,
+      "poem": "3.5",
+      "tei": "tei.html?poem=3.5&witness=Y",
+      "witness": "Y"
+    },
+    {
+      "clickable": 106,
+      "features": 9,
+      "label": "Amores 3.6, witness Y, transcription",
+      "lines": 106,
+      "poem": "3.6",
+      "tei": "tei.html?poem=3.6&witness=Y",
+      "witness": "Y"
+    },
+    {
+      "clickable": 84,
+      "features": 11,
+      "label": "Amores 3.7, witness Y, transcription",
+      "lines": 84,
+      "poem": "3.7",
+      "tei": "tei.html?poem=3.7&witness=Y",
+      "witness": "Y"
+    },
+    {
+      "clickable": 66,
+      "features": 9,
+      "label": "Amores 3.8, witness Y, transcription",
+      "lines": 66,
+      "poem": "3.8",
+      "tei": "tei.html?poem=3.8&witness=Y",
+      "witness": "Y"
+    },
+    {
+      "clickable": 68,
+      "features": 9,
+      "label": "Amores 3.9, witness Y, transcription",
+      "lines": 68,
+      "poem": "3.9",
+      "tei": "tei.html?poem=3.9&witness=Y",
+      "witness": "Y"
+    },
+    {
+      "clickable": 48,
+      "features": 10,
+      "label": "Amores 3.10, witness Y, transcription",
+      "lines": 48,
+      "poem": "3.10",
+      "tei": "tei.html?poem=3.10&witness=Y",
+      "witness": "Y"
+    },
+    {
+      "clickable": 52,
+      "features": 10,
+      "label": "Amores 3.11, witness Y, transcription",
+      "lines": 52,
+      "poem": "3.11",
+      "tei": "tei.html?poem=3.11&witness=Y",
+      "witness": "Y"
+    },
+    {
+      "clickable": 44,
+      "features": 9,
+      "label": "Amores 3.12, witness Y, transcription",
+      "lines": 44,
+      "poem": "3.12",
+      "tei": "tei.html?poem=3.12&witness=Y",
+      "witness": "Y"
+    },
+    {
+      "clickable": 36,
+      "features": 8,
+      "label": "Amores 3.13, witness Y, transcription",
+      "lines": 36,
+      "poem": "3.13",
+      "tei": "tei.html?poem=3.13&witness=Y",
+      "witness": "Y"
+    },
+    {
+      "clickable": 50,
+      "features": 8,
+      "label": "Amores 3.14, witness Y, transcription",
+      "lines": 50,
+      "poem": "3.14",
+      "tei": "tei.html?poem=3.14&witness=Y",
+      "witness": "Y"
+    },
+    {
+      "clickable": 20,
+      "features": 6,
+      "label": "Amores 3.15, witness Y, transcription",
+      "lines": 20,
+      "poem": "3.15",
+      "tei": "tei.html?poem=3.15&witness=Y",
+      "witness": "Y"
+    },
+    {
+      "clickable": 70,
+      "features": 1,
+      "label": "Amores 3.1, witness W, transcription",
+      "lines": 70,
+      "poem": "3.1",
+      "tei": "tei.html?poem=3.1&witness=W",
+      "witness": "W"
+    },
+    {
+      "clickable": 84,
+      "features": 1,
+      "label": "Amores 3.2, witness W, transcription",
+      "lines": 84,
+      "poem": "3.2",
+      "tei": "tei.html?poem=3.2&witness=W",
+      "witness": "W"
+    },
+    {
+      "clickable": 48,
+      "features": 1,
+      "label": "Amores 3.3, witness W, transcription",
+      "lines": 48,
+      "poem": "3.3",
+      "tei": "tei.html?poem=3.3&witness=W",
+      "witness": "W"
+    },
+    {
+      "clickable": 48,
+      "features": 1,
+      "label": "Amores 3.4, witness W, transcription",
+      "lines": 48,
+      "poem": "3.4",
+      "tei": "tei.html?poem=3.4&witness=W",
+      "witness": "W"
+    },
+    {
+      "clickable": 46,
+      "features": 1,
+      "label": "Amores 3.5, witness W, transcription",
+      "lines": 46,
+      "poem": "3.5",
+      "tei": "tei.html?poem=3.5&witness=W",
+      "witness": "W"
+    },
+    {
+      "clickable": 106,
+      "features": 2,
+      "label": "Amores 3.6, witness W, transcription",
+      "lines": 106,
+      "poem": "3.6",
+      "tei": "tei.html?poem=3.6&witness=W",
+      "witness": "W"
+    },
+    {
+      "clickable": 84,
+      "features": 1,
+      "label": "Amores 3.7, witness W, transcription",
+      "lines": 84,
+      "poem": "3.7",
+      "tei": "tei.html?poem=3.7&witness=W",
+      "witness": "W"
+    },
+    {
+      "clickable": 66,
+      "features": 1,
+      "label": "Amores 3.8, witness W, transcription",
+      "lines": 66,
+      "poem": "3.8",
+      "tei": "tei.html?poem=3.8&witness=W",
+      "witness": "W"
+    },
+    {
+      "clickable": 68,
+      "features": 1,
+      "label": "Amores 3.9, witness W, transcription",
+      "lines": 68,
+      "poem": "3.9",
+      "tei": "tei.html?poem=3.9&witness=W",
+      "witness": "W"
+    },
+    {
+      "clickable": 48,
+      "features": 1,
+      "label": "Amores 3.10, witness W, transcription",
+      "lines": 48,
+      "poem": "3.10",
+      "tei": "tei.html?poem=3.10&witness=W",
+      "witness": "W"
+    },
+    {
+      "clickable": 52,
+      "features": 1,
+      "label": "Amores 3.11, witness W, transcription",
+      "lines": 52,
+      "poem": "3.11",
+      "tei": "tei.html?poem=3.11&witness=W",
+      "witness": "W"
+    },
+    {
+      "clickable": 44,
+      "features": 1,
+      "label": "Amores 3.12, witness W, transcription",
+      "lines": 44,
+      "poem": "3.12",
+      "tei": "tei.html?poem=3.12&witness=W",
+      "witness": "W"
+    },
+    {
+      "clickable": 36,
+      "features": 1,
+      "label": "Amores 3.13, witness W, transcription",
+      "lines": 36,
+      "poem": "3.13",
+      "tei": "tei.html?poem=3.13&witness=W",
+      "witness": "W"
+    },
+    {
+      "clickable": 50,
+      "features": 1,
+      "label": "Amores 3.14, witness W, transcription",
+      "lines": 50,
+      "poem": "3.14",
+      "tei": "tei.html?poem=3.14&witness=W",
+      "witness": "W"
+    },
+    {
+      "clickable": 20,
+      "features": 1,
+      "label": "Amores 3.15, witness W, transcription",
+      "lines": 20,
+      "poem": "3.15",
+      "tei": "tei.html?poem=3.15&witness=W",
+      "witness": "W"
+    },
+    {
+      "clickable": 70,
+      "features": 1,
+      "label": "Amores 3.1, witness LL, transcription",
+      "lines": 70,
+      "poem": "3.1",
+      "tei": "tei.html?poem=3.1&witness=LL",
+      "witness": "LL"
+    },
+    {
+      "clickable": 84,
+      "features": 1,
+      "label": "Amores 3.2, witness LL, transcription",
+      "lines": 84,
+      "poem": "3.2",
+      "tei": "tei.html?poem=3.2&witness=LL",
+      "witness": "LL"
+    },
+    {
+      "clickable": 48,
+      "features": 1,
+      "label": "Amores 3.3, witness LL, transcription",
+      "lines": 48,
+      "poem": "3.3",
+      "tei": "tei.html?poem=3.3&witness=LL",
+      "witness": "LL"
+    },
+    {
+      "clickable": 48,
+      "features": 1,
+      "label": "Amores 3.4, witness LL, transcription",
+      "lines": 48,
+      "poem": "3.4",
+      "tei": "tei.html?poem=3.4&witness=LL",
+      "witness": "LL"
+    },
+    {
+      "clickable": 46,
+      "features": 1,
+      "label": "Amores 3.5, witness LL, transcription",
+      "lines": 46,
+      "poem": "3.5",
+      "tei": "tei.html?poem=3.5&witness=LL",
+      "witness": "LL"
+    },
+    {
+      "clickable": 106,
+      "features": 1,
+      "label": "Amores 3.6, witness LL, transcription",
+      "lines": 106,
+      "poem": "3.6",
+      "tei": "tei.html?poem=3.6&witness=LL",
+      "witness": "LL"
+    },
+    {
+      "clickable": 84,
+      "features": 1,
+      "label": "Amores 3.7, witness LL, transcription",
+      "lines": 84,
+      "poem": "3.7",
+      "tei": "tei.html?poem=3.7&witness=LL",
+      "witness": "LL"
+    },
+    {
+      "clickable": 66,
+      "features": 1,
+      "label": "Amores 3.8, witness LL, transcription",
+      "lines": 66,
+      "poem": "3.8",
+      "tei": "tei.html?poem=3.8&witness=LL",
+      "witness": "LL"
+    },
+    {
+      "clickable": 68,
+      "features": 1,
+      "label": "Amores 3.9, witness LL, transcription",
+      "lines": 68,
+      "poem": "3.9",
+      "tei": "tei.html?poem=3.9&witness=LL",
+      "witness": "LL"
+    },
+    {
+      "clickable": 48,
+      "features": 1,
+      "label": "Amores 3.10, witness LL, transcription",
+      "lines": 48,
+      "poem": "3.10",
+      "tei": "tei.html?poem=3.10&witness=LL",
+      "witness": "LL"
+    },
+    {
+      "clickable": 52,
+      "features": 1,
+      "label": "Amores 3.11, witness LL, transcription",
+      "lines": 52,
+      "poem": "3.11",
+      "tei": "tei.html?poem=3.11&witness=LL",
+      "witness": "LL"
+    },
+    {
+      "clickable": 44,
+      "features": 1,
+      "label": "Amores 3.12, witness LL, transcription",
+      "lines": 44,
+      "poem": "3.12",
+      "tei": "tei.html?poem=3.12&witness=LL",
+      "witness": "LL"
+    },
+    {
+      "clickable": 36,
+      "features": 1,
+      "label": "Amores 3.13, witness LL, transcription",
+      "lines": 36,
+      "poem": "3.13",
+      "tei": "tei.html?poem=3.13&witness=LL",
+      "witness": "LL"
+    },
+    {
+      "clickable": 50,
+      "features": 1,
+      "label": "Amores 3.14, witness LL, transcription",
+      "lines": 50,
+      "poem": "3.14",
+      "tei": "tei.html?poem=3.14&witness=LL",
+      "witness": "LL"
+    },
+    {
+      "clickable": 20,
+      "features": 1,
+      "label": "Amores 3.15, witness LL, transcription",
+      "lines": 20,
+      "poem": "3.15",
+      "tei": "tei.html?poem=3.15&witness=LL",
+      "witness": "LL"
+    },
+    {
+      "clickable": 70,
+      "features": 1,
+      "label": "Amores 3.1, witness O, transcription",
+      "lines": 70,
+      "poem": "3.1",
+      "tei": "tei.html?poem=3.1&witness=O",
+      "witness": "O"
+    },
+    {
+      "clickable": 84,
+      "features": 1,
+      "label": "Amores 3.2, witness O, transcription",
+      "lines": 84,
+      "poem": "3.2",
+      "tei": "tei.html?poem=3.2&witness=O",
+      "witness": "O"
+    },
+    {
+      "clickable": 48,
+      "features": 1,
+      "label": "Amores 3.3, witness O, transcription",
+      "lines": 48,
+      "poem": "3.3",
+      "tei": "tei.html?poem=3.3&witness=O",
+      "witness": "O"
+    },
+    {
+      "clickable": 48,
+      "features": 1,
+      "label": "Amores 3.4, witness O, transcription",
+      "lines": 48,
+      "poem": "3.4",
+      "tei": "tei.html?poem=3.4&witness=O",
+      "witness": "O"
+    },
+    {
+      "clickable": 46,
+      "features": 1,
+      "label": "Amores 3.5, witness O, transcription",
+      "lines": 46,
+      "poem": "3.5",
+      "tei": "tei.html?poem=3.5&witness=O",
+      "witness": "O"
+    },
+    {
+      "clickable": 106,
+      "features": 1,
+      "label": "Amores 3.6, witness O, transcription",
+      "lines": 106,
+      "poem": "3.6",
+      "tei": "tei.html?poem=3.6&witness=O",
+      "witness": "O"
+    },
+    {
+      "clickable": 84,
+      "features": 1,
+      "label": "Amores 3.7, witness O, transcription",
+      "lines": 84,
+      "poem": "3.7",
+      "tei": "tei.html?poem=3.7&witness=O",
+      "witness": "O"
+    },
+    {
+      "clickable": 66,
+      "features": 1,
+      "label": "Amores 3.8, witness O, transcription",
+      "lines": 66,
+      "poem": "3.8",
+      "tei": "tei.html?poem=3.8&witness=O",
+      "witness": "O"
+    },
+    {
+      "clickable": 68,
+      "features": 1,
+      "label": "Amores 3.9, witness O, transcription",
+      "lines": 68,
+      "poem": "3.9",
+      "tei": "tei.html?poem=3.9&witness=O",
+      "witness": "O"
+    },
+    {
+      "clickable": 48,
+      "features": 1,
+      "label": "Amores 3.10, witness O, transcription",
+      "lines": 48,
+      "poem": "3.10",
+      "tei": "tei.html?poem=3.10&witness=O",
+      "witness": "O"
+    },
+    {
+      "clickable": 52,
+      "features": 1,
+      "label": "Amores 3.11, witness O, transcription",
+      "lines": 52,
+      "poem": "3.11",
+      "tei": "tei.html?poem=3.11&witness=O",
+      "witness": "O"
+    },
+    {
+      "clickable": 44,
+      "features": 2,
+      "label": "Amores 3.12, witness O, transcription",
+      "lines": 44,
+      "poem": "3.12",
+      "tei": "tei.html?poem=3.12&witness=O",
+      "witness": "O"
+    },
+    {
+      "clickable": 36,
+      "features": 1,
+      "label": "Amores 3.13, witness O, transcription",
+      "lines": 36,
+      "poem": "3.13",
+      "tei": "tei.html?poem=3.13&witness=O",
+      "witness": "O"
+    },
+    {
+      "clickable": 50,
+      "features": 2,
+      "label": "Amores 3.14, witness O, transcription",
+      "lines": 50,
+      "poem": "3.14",
+      "tei": "tei.html?poem=3.14&witness=O",
+      "witness": "O"
+    },
+    {
+      "clickable": 20,
+      "features": 2,
+      "label": "Amores 3.15, witness O, transcription",
+      "lines": 20,
+      "poem": "3.15",
+      "tei": "tei.html?poem=3.15&witness=O",
+      "witness": "O"
+    },
+    {
+      "clickable": 70,
+      "features": 5,
+      "label": "Amores 3.1, witness S, transcription",
+      "lines": 70,
+      "poem": "3.1",
+      "tei": "tei.html?poem=3.1&witness=S",
+      "witness": "S"
+    },
+    {
+      "clickable": 84,
+      "features": 8,
+      "label": "Amores 3.2, witness S, transcription",
+      "lines": 84,
+      "poem": "3.2",
+      "tei": "tei.html?poem=3.2&witness=S",
+      "witness": "S"
+    },
+    {
+      "clickable": 48,
+      "features": 5,
+      "label": "Amores 3.3, witness S, transcription",
+      "lines": 48,
+      "poem": "3.3",
+      "tei": "tei.html?poem=3.3&witness=S",
+      "witness": "S"
+    },
+    {
+      "clickable": 48,
+      "features": 3,
+      "label": "Amores 3.4, witness S, transcription",
+      "lines": 48,
+      "poem": "3.4",
+      "tei": "tei.html?poem=3.4&witness=S",
+      "witness": "S"
+    },
+    {
+      "clickable": 46,
+      "features": 6,
+      "label": "Amores 3.5, witness S, transcription",
+      "lines": 46,
+      "poem": "3.5",
+      "tei": "tei.html?poem=3.5&witness=S",
+      "witness": "S"
+    },
+    {
+      "clickable": 106,
+      "features": 7,
+      "label": "Amores 3.6, witness S, transcription",
+      "lines": 106,
+      "poem": "3.6",
+      "tei": "tei.html?poem=3.6&witness=S",
+      "witness": "S"
+    },
+    {
+      "clickable": 74,
+      "features": 8,
+      "label": "Amores 3.7, witness S, transcription",
+      "lines": 74,
+      "poem": "3.7",
+      "tei": "tei.html?poem=3.7&witness=S",
+      "witness": "S"
+    },
+    {
+      "clickable": 0,
+      "features": 0,
+      "label": "Amores 3.8, witness S, transcription",
+      "lines": 0,
+      "poem": "3.8",
+      "tei": "tei.html?poem=3.8&witness=S",
+      "witness": "S"
+    },
+    {
+      "clickable": 0,
+      "features": 0,
+      "label": "Amores 3.9, witness S, transcription",
+      "lines": 0,
+      "poem": "3.9",
+      "tei": "tei.html?poem=3.9&witness=S",
+      "witness": "S"
+    },
+    {
+      "clickable": 0,
+      "features": 0,
+      "label": "Amores 3.10, witness S, transcription",
+      "lines": 0,
+      "poem": "3.10",
+      "tei": "tei.html?poem=3.10&witness=S",
+      "witness": "S"
+    },
+    {
+      "clickable": 0,
+      "features": 0,
+      "label": "Amores 3.11, witness S, transcription",
+      "lines": 0,
+      "poem": "3.11",
+      "tei": "tei.html?poem=3.11&witness=S",
+      "witness": "S"
+    },
+    {
+      "clickable": 0,
+      "features": 0,
+      "label": "Amores 3.12, witness S, transcription",
+      "lines": 0,
+      "poem": "3.12",
+      "tei": "tei.html?poem=3.12&witness=S",
+      "witness": "S"
+    },
+    {
+      "clickable": 0,
+      "features": 0,
+      "label": "Amores 3.13, witness S, transcription",
+      "lines": 0,
+      "poem": "3.13",
+      "tei": "tei.html?poem=3.13&witness=S",
+      "witness": "S"
+    },
+    {
+      "clickable": 0,
+      "features": 0,
+      "label": "Amores 3.14, witness S, transcription",
+      "lines": 0,
+      "poem": "3.14",
+      "tei": "tei.html?poem=3.14&witness=S",
+      "witness": "S"
+    },
+    {
+      "clickable": 0,
+      "features": 0,
+      "label": "Amores 3.15, witness S, transcription",
+      "lines": 0,
+      "poem": "3.15",
+      "tei": "tei.html?poem=3.15&witness=S",
+      "witness": "S"
+    }
+  ],
+  "additional_checks": [
+    "P3.1.58 source page85 and highlight in single and parallel viewers",
+    "P3.7 source pages91/92 and line navigation",
+    "W3.6.20 corrected fine tuo visible and source line opens",
+    "P3.1 XML download preserves all XML content and attributes (serialization whitespace differs)",
+    "Back to poem returns to P3.1 selected witness",
+    "Minimal TEI toolbar and alteration finder retained"
+  ],
+  "validation": "All90record labels, verse counts, clickable verse controls and TEI URLs observed in the actual rendered DOM."
+}

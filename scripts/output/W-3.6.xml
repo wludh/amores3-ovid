@@ -17,7 +17,7 @@
           <resp>Independent second source-image reading and encoding review</resp>
           <name>OpenAI Codex /root/w_review_b</name>
         </respStmt>
-      </titleStmt>
+      <respStmt xml:id="W-3.6-fresh-reviewer"><resp>Fresh corpus source reading of every extant verse and every note; prior XML encoder, distinct from the original source reader</resp><name>OpenAI Codex /root</name></respStmt></titleStmt>
       <publicationStmt>
         <p>Amores Project working transcription, 26 October 2026; independent second-agent source review complete; human scholarly approval not yet given.</p>
       </publicationStmt>
@@ -55,7 +55,7 @@
       <change when="2026-10-26" who="#W-3.6-encoder">First reader inspected and transcribed all 106 verses from the source images; independent source review pending.</change>
       <change when="2026-10-26" who="#W-3.6-reviewer">Independent reviewer inspected all 106 extant verses against full-page source images and enlarged bands; corrected supported readings, punctuation and accents; checked line starts and all source notes; original annotation rectangles preserved.</change>
       <change when="2026-10-26" who="#W-3.6-reviewer">Independent opening-crop follow-up confirmed the second letter after the large initial is uppercase: Amnis corrected to source AMnis; remaining opening letters and extra verse-2 space rechecked.</change>
-    </revisionDesc>
+    <change when="2026-10-26" who="#W-3.6-fresh-reviewer">Fresh corpus source reading rechecked all 106 verses, every evidence note, headings, page furniture and full-page line starts. Supported source corrections: verse 13 Danaeius to Danaeïus, verse 20 sine tuo to fine tuo. Prior independent second-pass history is retained; changed readings were additionally corroborated from native crops by /root/w_review_c. See W-3.6-second-pass.md.</change></revisionDesc>
   </teiHeader>
   <facsimile>
     <surface xml:id="W-3.6-p135" n="135" ulx="0" uly="0" lrx="1806" lry="2874">
@@ -206,7 +206,7 @@
           <l n="12" xml:id="W-3.6-l12" facs="#W-3.6-zone-12" rend="indent">Ulterior nostro ripa premenda pedi.</l>
         </lg>
         <lg type="couplet">
-          <l n="13" xml:id="W-3.6-l13" facs="#W-3.6-zone-13">Nunc ego, quas habuit pennas Danaeius heros,</l>
+          <l n="13" xml:id="W-3.6-l13" facs="#W-3.6-zone-13">Nunc ego, quas habuit pennas Danaeïus heros,</l>
           <l n="14" xml:id="W-3.6-l14" facs="#W-3.6-zone-14" rend="indent">Terribili densum cum tulit angue caput;</l>
         </lg>
         <lg type="couplet">
@@ -219,7 +219,7 @@
         </lg>
         <lg type="couplet">
           <l n="19" xml:id="W-3.6-l19" facs="#W-3.6-zone-19">Tu potius, ripis effuse capacibus amnis,</l>
-          <l n="20" xml:id="W-3.6-l20" facs="#W-3.6-zone-20" rend="indent">(Sic aeternus eas) labere sine tuo.</l>
+          <l n="20" xml:id="W-3.6-l20" facs="#W-3.6-zone-20" rend="indent">(Sic aeternus eas) labere fine tuo.</l>
         </lg>
         <lg type="couplet">
           <l n="21" xml:id="W-3.6-l21" facs="#W-3.6-zone-21">Non eris invidiae, torrens, (mihi crede) ferendae,</l>

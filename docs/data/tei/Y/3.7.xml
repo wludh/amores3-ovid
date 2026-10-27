@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tei_all-4.12.0.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../docs/schema/tei_all-4.12.0.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Y" n="Y">
   <teiHeader xml:lang="en">
     <fileDesc>
@@ -8,7 +8,7 @@
         <author>Publius Ovidius Naso</author>
         <respStmt xml:id="Y-trial-encoder"><resp>Image inspection, trial transcription and encoding; pending scholarly review</resp><name>OpenAI Codex</name></respStmt>
         <respStmt xml:id="Y-second-pass-reviewer"><resp>Independent second-agent image and encoding review of all 84 lines and the first-pass notes; not human editorial approval</resp><name>OpenAI Codex, review_y agent</name></respStmt>
-      </titleStmt>
+      <respStmt xml:id="Y-3.7-fresh-reviewer"><resp>Fresh independent source rereading of all84 extant verses and investigation of all55 existing notes</resp><name>OpenAI Codex /root/w_review_b</name></respStmt></titleStmt>
       <publicationStmt><p>Amores Project working trial. Prepared for editorial review, 8 September 2026; not an approved critical edition.</p></publicationStmt>
       <sourceDesc>
         <msDesc xml:id="Y-manuscript">
@@ -38,110 +38,110 @@
         <char xml:id="Y-end"><desc>TWO DOTS WITH CURVED TERMINAL MARK, SCHEMATIC</desc><mapping type="display">:⌁</mapping></char>
       </charDecl>
     </encodingDesc>
-    <revisionDesc status="draft"><change when="2026-09-08" who="#Y-trial-encoder">Reworked the complete 3.7Y trial against all three folios; restored 84-line sequence, declared display policy and image links, and recorded unresolved readings for human review.</change><change when="2026-09-08" who="#Y-second-pass-reviewer">Independently compared all 84 lines and all first-pass notes with enlarged facsimiles of 63r, 63v and 64r. Replaced four conjectural erasures with low-certainty faint readings; corrected the qd sign placement; restricted the uncertain marginal reading at 51; distinguished documented uncertainties from three unresolved editorial interventions. No human approval is implied.</change><change when="2026-09-10" who="#Y-second-pass-reviewer">Renewed source-image inspection of verses 10, 51, 55. Retained conservative unclear/gap and intervention markup; reassessed the remaining questions as documented image uncertainty under the current workflow. No complete reading or correction sequence is inferred, and no human approval is implied.</change></revisionDesc>
+    <revisionDesc status="draft"><change when="2026-09-08" who="#Y-trial-encoder">Reworked the complete 3.7Y trial against all three folios; restored 84-line sequence, declared display policy and image links, and recorded unresolved readings for human review.</change><change when="2026-09-08" who="#Y-second-pass-reviewer">Independently compared all 84 lines and all first-pass notes with enlarged facsimiles of 63r, 63v and 64r. Replaced four conjectural erasures with low-certainty faint readings; corrected the qd sign placement; restricted the uncertain marginal reading at 51; distinguished documented uncertainties from three unresolved editorial interventions. No human approval is implied.</change><change when="2026-09-10" who="#Y-second-pass-reviewer">Renewed source-image inspection of verses 10, 51, 55. Retained conservative unclear/gap and intervention markup; reassessed the remaining questions as documented image uncertainty under the current workflow. No complete reading or correction sequence is inferred, and no human approval is implied.</change><change when="2026-10-26" who="#Y-3.7-fresh-reviewer">Freshly reread every extant verse1–84 against verified full-page source images and enlarged bands/row crops, investigating all55 existing editorial notes. No verse word was changed. Restored visible terminal points at2,4,8,10,14,16,30,34,36,38,40,44,46,48,56,58,60,70,72,74,82; comma-like terminal marks at24,42,52; and the question-like mark at18. Retained the short terminal dash at12 and oblique strokes at32,76 as unknown-function metamarks, without inventing their editorial purpose. Actual full-page line starts confirm the encoded insets. Original scholarly text, all zones and navigation provenance preserved; prior review retained as history.</change></revisionDesc>
   </teiHeader>
 
   <facsimile>
-    <surface xml:id="Y-63r" n="63r" ulx="0" uly="0" lrx="1946" lry="3363"><graphic url="https://content.staatsbibliothek-berlin.de/dc/1844735508-0129/full/full/0/default.jpg"/>
-      <zone xml:id="Y-3.7-zone-1" ulx="154" uly="1240" lrx="1468" lry="1423"/>
-      <zone xml:id="Y-3.7-zone-2" ulx="199" uly="1358" lrx="1495" lry="1465"/>
-      <zone xml:id="Y-3.7-zone-3" ulx="173" uly="1401" lrx="1772" lry="1501"/>
-      <zone xml:id="Y-3.7-zone-4" ulx="183" uly="1474" lrx="1476" lry="1591"/>
-      <zone xml:id="Y-3.7-zone-5" ulx="192" uly="1555" lrx="1544" lry="1660"/>
-      <zone xml:id="Y-3.7-zone-6" ulx="196" uly="1614" lrx="1398" lry="1725"/>
-      <zone xml:id="Y-3.7-zone-7" ulx="182" uly="1669" lrx="1457" lry="1791"/>
-      <zone xml:id="Y-3.7-zone-8" ulx="195" uly="1737" lrx="1392" lry="1858"/>
-      <zone xml:id="Y-3.7-zone-9" ulx="206" uly="1803" lrx="1484" lry="1916"/>
-      <zone xml:id="Y-3.7-zone-10" ulx="194" uly="1864" lrx="1326" lry="2003"/>
-      <zone xml:id="Y-3.7-zone-11" ulx="193" uly="1930" lrx="1691" lry="2062"/>
-      <zone xml:id="Y-3.7-zone-12" ulx="211" uly="1994" lrx="1460" lry="2118"/>
-      <zone xml:id="Y-3.7-zone-13" ulx="178" uly="2064" lrx="1620" lry="2198"/>
-      <zone xml:id="Y-3.7-zone-14" ulx="190" uly="2116" lrx="1379" lry="2268"/>
-      <zone xml:id="Y-3.7-zone-15" ulx="186" uly="2187" lrx="1563" lry="2310"/>
-      <zone xml:id="Y-3.7-zone-16" ulx="197" uly="2251" lrx="1537" lry="2370"/>
-      <zone xml:id="Y-3.7-zone-17" ulx="190" uly="2334" lrx="1708" lry="2445"/>
-      <zone xml:id="Y-3.7-zone-18" ulx="220" uly="2395" lrx="1475" lry="2513"/>
-      <zone xml:id="Y-3.7-zone-19" ulx="197" uly="2448" lrx="1659" lry="2564"/>
-      <zone xml:id="Y-3.7-zone-20" ulx="233" uly="2524" lrx="1518" lry="2627"/>
-      <zone xml:id="Y-3.7-zone-21" ulx="210" uly="2588" lrx="1521" lry="2702"/>
-      <zone xml:id="Y-3.7-zone-22" ulx="218" uly="2652" lrx="1379" lry="2783"/>
-      <zone xml:id="Y-3.7-zone-23" ulx="204" uly="2709" lrx="1549" lry="2833"/>
-      <zone xml:id="Y-3.7-zone-24" ulx="221" uly="2793" lrx="1384" lry="2901"/>
+    <surface xml:id="Y-63r" n="63r" ulx="0" uly="0" lrx="1946" lry="3363"><graphic url="https://content.staatsbibliothek-berlin.de/dc/1844735508-0129/full/full/0/default.jpg" />
+      <zone xml:id="Y-3.7-zone-1" ulx="154" uly="1240" lrx="1468" lry="1423" />
+      <zone xml:id="Y-3.7-zone-2" ulx="199" uly="1358" lrx="1495" lry="1465" />
+      <zone xml:id="Y-3.7-zone-3" ulx="173" uly="1401" lrx="1772" lry="1501" />
+      <zone xml:id="Y-3.7-zone-4" ulx="183" uly="1474" lrx="1476" lry="1591" />
+      <zone xml:id="Y-3.7-zone-5" ulx="192" uly="1555" lrx="1544" lry="1660" />
+      <zone xml:id="Y-3.7-zone-6" ulx="196" uly="1614" lrx="1398" lry="1725" />
+      <zone xml:id="Y-3.7-zone-7" ulx="182" uly="1669" lrx="1457" lry="1791" />
+      <zone xml:id="Y-3.7-zone-8" ulx="195" uly="1737" lrx="1392" lry="1858" />
+      <zone xml:id="Y-3.7-zone-9" ulx="206" uly="1803" lrx="1484" lry="1916" />
+      <zone xml:id="Y-3.7-zone-10" ulx="194" uly="1864" lrx="1326" lry="2003" />
+      <zone xml:id="Y-3.7-zone-11" ulx="193" uly="1930" lrx="1691" lry="2062" />
+      <zone xml:id="Y-3.7-zone-12" ulx="211" uly="1994" lrx="1460" lry="2118" />
+      <zone xml:id="Y-3.7-zone-13" ulx="178" uly="2064" lrx="1620" lry="2198" />
+      <zone xml:id="Y-3.7-zone-14" ulx="190" uly="2116" lrx="1379" lry="2268" />
+      <zone xml:id="Y-3.7-zone-15" ulx="186" uly="2187" lrx="1563" lry="2310" />
+      <zone xml:id="Y-3.7-zone-16" ulx="197" uly="2251" lrx="1537" lry="2370" />
+      <zone xml:id="Y-3.7-zone-17" ulx="190" uly="2334" lrx="1708" lry="2445" />
+      <zone xml:id="Y-3.7-zone-18" ulx="220" uly="2395" lrx="1475" lry="2513" />
+      <zone xml:id="Y-3.7-zone-19" ulx="197" uly="2448" lrx="1659" lry="2564" />
+      <zone xml:id="Y-3.7-zone-20" ulx="233" uly="2524" lrx="1518" lry="2627" />
+      <zone xml:id="Y-3.7-zone-21" ulx="210" uly="2588" lrx="1521" lry="2702" />
+      <zone xml:id="Y-3.7-zone-22" ulx="218" uly="2652" lrx="1379" lry="2783" />
+      <zone xml:id="Y-3.7-zone-23" ulx="204" uly="2709" lrx="1549" lry="2833" />
+      <zone xml:id="Y-3.7-zone-24" ulx="221" uly="2793" lrx="1384" lry="2901" />
     </surface>
-    <surface xml:id="Y-63v" n="63v" ulx="0" uly="0" lrx="1935" lry="3363"><graphic url="https://content.staatsbibliothek-berlin.de/dc/1844735508-0130/full/full/0/default.jpg"/>
-      <zone xml:id="Y-3.7-zone-25" ulx="285" uly="204" lrx="1547" lry="360"/>
-      <zone xml:id="Y-3.7-zone-26" ulx="295" uly="279" lrx="1584" lry="421"/>
-      <zone xml:id="Y-3.7-zone-27" ulx="295" uly="368" lrx="1577" lry="502"/>
-      <zone xml:id="Y-3.7-zone-28" ulx="299" uly="432" lrx="1655" lry="574"/>
-      <zone xml:id="Y-3.7-zone-29" ulx="303" uly="491" lrx="1455" lry="642"/>
-      <zone xml:id="Y-3.7-zone-30" ulx="297" uly="565" lrx="1442" lry="691"/>
-      <zone xml:id="Y-3.7-zone-31" ulx="290" uly="641" lrx="1711" lry="784"/>
-      <zone xml:id="Y-3.7-zone-32" ulx="286" uly="702" lrx="1418" lry="840"/>
-      <zone xml:id="Y-3.7-zone-33" ulx="275" uly="754" lrx="1529" lry="902"/>
-      <zone xml:id="Y-3.7-zone-34" ulx="294" uly="823" lrx="1477" lry="966"/>
-      <zone xml:id="Y-3.7-zone-35" ulx="297" uly="893" lrx="1571" lry="1029"/>
-      <zone xml:id="Y-3.7-zone-36" ulx="295" uly="953" lrx="1583" lry="1087"/>
-      <zone xml:id="Y-3.7-zone-37" ulx="288" uly="1009" lrx="1510" lry="1157"/>
-      <zone xml:id="Y-3.7-zone-38" ulx="288" uly="1070" lrx="1307" lry="1238"/>
-      <zone xml:id="Y-3.7-zone-39" ulx="282" uly="1147" lrx="1484" lry="1293"/>
-      <zone xml:id="Y-3.7-zone-40" ulx="286" uly="1217" lrx="1365" lry="1376"/>
-      <zone xml:id="Y-3.7-zone-41" ulx="266" uly="1265" lrx="1453" lry="1432"/>
-      <zone xml:id="Y-3.7-zone-42" ulx="286" uly="1348" lrx="1332" lry="1483"/>
-      <zone xml:id="Y-3.7-zone-43" ulx="262" uly="1407" lrx="1532" lry="1556"/>
-      <zone xml:id="Y-3.7-zone-44" ulx="286" uly="1480" lrx="1549" lry="1625"/>
-      <zone xml:id="Y-3.7-zone-45" ulx="273" uly="1537" lrx="1628" lry="1693"/>
-      <zone xml:id="Y-3.7-zone-46" ulx="271" uly="1593" lrx="1390" lry="1749"/>
-      <zone xml:id="Y-3.7-zone-47" ulx="280" uly="1676" lrx="1475" lry="1796"/>
-      <zone xml:id="Y-3.7-zone-48" ulx="287" uly="1736" lrx="1449" lry="1854"/>
-      <zone xml:id="Y-3.7-zone-49" ulx="281" uly="1808" lrx="1492" lry="1926"/>
-      <zone xml:id="Y-3.7-zone-50" ulx="264" uly="1869" lrx="1407" lry="2003"/>
-      <zone xml:id="Y-3.7-zone-51" ulx="98" uly="1938" lrx="1566" lry="2071"/>
-      <zone xml:id="Y-3.7-zone-52" ulx="133" uly="2002" lrx="1600" lry="2132"/>
-      <zone xml:id="Y-3.7-zone-53" ulx="129" uly="2054" lrx="1501" lry="2206"/>
-      <zone xml:id="Y-3.7-zone-54" ulx="136" uly="2123" lrx="1484" lry="2260"/>
-      <zone xml:id="Y-3.7-zone-55" ulx="244" uly="2201" lrx="1606" lry="2355"/>
-      <zone xml:id="Y-3.7-zone-56" ulx="270" uly="2255" lrx="1326" lry="2379"/>
-      <zone xml:id="Y-3.7-zone-57" ulx="248" uly="2315" lrx="1610" lry="2468"/>
-      <zone xml:id="Y-3.7-zone-58" ulx="257" uly="2388" lrx="1512" lry="2508"/>
-      <zone xml:id="Y-3.7-zone-59" ulx="262" uly="2459" lrx="1587" lry="2606"/>
-      <zone xml:id="Y-3.7-zone-60" ulx="249" uly="2522" lrx="1471" lry="2656"/>
-      <zone xml:id="Y-3.7-zone-61" ulx="264" uly="2573" lrx="1557" lry="2721"/>
-      <zone xml:id="Y-3.7-zone-62" ulx="264" uly="2643" lrx="1642" lry="2798"/>
-      <zone xml:id="Y-3.7-zone-63" ulx="265" uly="2711" lrx="1501" lry="2844"/>
-      <zone xml:id="Y-3.7-zone-64" ulx="262" uly="2791" lrx="1704" lry="2986"/>
+    <surface xml:id="Y-63v" n="63v" ulx="0" uly="0" lrx="1935" lry="3363"><graphic url="https://content.staatsbibliothek-berlin.de/dc/1844735508-0130/full/full/0/default.jpg" />
+      <zone xml:id="Y-3.7-zone-25" ulx="285" uly="204" lrx="1547" lry="360" />
+      <zone xml:id="Y-3.7-zone-26" ulx="295" uly="279" lrx="1584" lry="421" />
+      <zone xml:id="Y-3.7-zone-27" ulx="295" uly="368" lrx="1577" lry="502" />
+      <zone xml:id="Y-3.7-zone-28" ulx="299" uly="432" lrx="1655" lry="574" />
+      <zone xml:id="Y-3.7-zone-29" ulx="303" uly="491" lrx="1455" lry="642" />
+      <zone xml:id="Y-3.7-zone-30" ulx="297" uly="565" lrx="1442" lry="691" />
+      <zone xml:id="Y-3.7-zone-31" ulx="290" uly="641" lrx="1711" lry="784" />
+      <zone xml:id="Y-3.7-zone-32" ulx="286" uly="702" lrx="1418" lry="840" />
+      <zone xml:id="Y-3.7-zone-33" ulx="275" uly="754" lrx="1529" lry="902" />
+      <zone xml:id="Y-3.7-zone-34" ulx="294" uly="823" lrx="1477" lry="966" />
+      <zone xml:id="Y-3.7-zone-35" ulx="297" uly="893" lrx="1571" lry="1029" />
+      <zone xml:id="Y-3.7-zone-36" ulx="295" uly="953" lrx="1583" lry="1087" />
+      <zone xml:id="Y-3.7-zone-37" ulx="288" uly="1009" lrx="1510" lry="1157" />
+      <zone xml:id="Y-3.7-zone-38" ulx="288" uly="1070" lrx="1307" lry="1238" />
+      <zone xml:id="Y-3.7-zone-39" ulx="282" uly="1147" lrx="1484" lry="1293" />
+      <zone xml:id="Y-3.7-zone-40" ulx="286" uly="1217" lrx="1365" lry="1376" />
+      <zone xml:id="Y-3.7-zone-41" ulx="266" uly="1265" lrx="1453" lry="1432" />
+      <zone xml:id="Y-3.7-zone-42" ulx="286" uly="1348" lrx="1332" lry="1483" />
+      <zone xml:id="Y-3.7-zone-43" ulx="262" uly="1407" lrx="1532" lry="1556" />
+      <zone xml:id="Y-3.7-zone-44" ulx="286" uly="1480" lrx="1549" lry="1625" />
+      <zone xml:id="Y-3.7-zone-45" ulx="273" uly="1537" lrx="1628" lry="1693" />
+      <zone xml:id="Y-3.7-zone-46" ulx="271" uly="1593" lrx="1390" lry="1749" />
+      <zone xml:id="Y-3.7-zone-47" ulx="280" uly="1676" lrx="1475" lry="1796" />
+      <zone xml:id="Y-3.7-zone-48" ulx="287" uly="1736" lrx="1449" lry="1854" />
+      <zone xml:id="Y-3.7-zone-49" ulx="281" uly="1808" lrx="1492" lry="1926" />
+      <zone xml:id="Y-3.7-zone-50" ulx="264" uly="1869" lrx="1407" lry="2003" />
+      <zone xml:id="Y-3.7-zone-51" ulx="98" uly="1938" lrx="1566" lry="2071" />
+      <zone xml:id="Y-3.7-zone-52" ulx="133" uly="2002" lrx="1600" lry="2132" />
+      <zone xml:id="Y-3.7-zone-53" ulx="129" uly="2054" lrx="1501" lry="2206" />
+      <zone xml:id="Y-3.7-zone-54" ulx="136" uly="2123" lrx="1484" lry="2260" />
+      <zone xml:id="Y-3.7-zone-55" ulx="244" uly="2201" lrx="1606" lry="2355" />
+      <zone xml:id="Y-3.7-zone-56" ulx="270" uly="2255" lrx="1326" lry="2379" />
+      <zone xml:id="Y-3.7-zone-57" ulx="248" uly="2315" lrx="1610" lry="2468" />
+      <zone xml:id="Y-3.7-zone-58" ulx="257" uly="2388" lrx="1512" lry="2508" />
+      <zone xml:id="Y-3.7-zone-59" ulx="262" uly="2459" lrx="1587" lry="2606" />
+      <zone xml:id="Y-3.7-zone-60" ulx="249" uly="2522" lrx="1471" lry="2656" />
+      <zone xml:id="Y-3.7-zone-61" ulx="264" uly="2573" lrx="1557" lry="2721" />
+      <zone xml:id="Y-3.7-zone-62" ulx="264" uly="2643" lrx="1642" lry="2798" />
+      <zone xml:id="Y-3.7-zone-63" ulx="265" uly="2711" lrx="1501" lry="2844" />
+      <zone xml:id="Y-3.7-zone-64" ulx="262" uly="2791" lrx="1704" lry="2986" />
     </surface>
-    <surface xml:id="Y-64r" n="64r" ulx="0" uly="0" lrx="1946" lry="3363"><graphic url="https://content.staatsbibliothek-berlin.de/dc/1844735508-0131/full/full/0/default.jpg"/>
-      <zone xml:id="Y-3.7-zone-65" ulx="189" uly="231" lrx="1665" lry="387"/>
-      <zone xml:id="Y-3.7-zone-66" ulx="185" uly="286" lrx="1296" lry="440"/>
-      <zone xml:id="Y-3.7-zone-67" ulx="185" uly="365" lrx="1555" lry="509"/>
-      <zone xml:id="Y-3.7-zone-68" ulx="198" uly="424" lrx="1365" lry="564"/>
-      <zone xml:id="Y-3.7-zone-69" ulx="187" uly="487" lrx="1478" lry="638"/>
-      <zone xml:id="Y-3.7-zone-70" ulx="181" uly="567" lrx="1330" lry="689"/>
-      <zone xml:id="Y-3.7-zone-71" ulx="157" uly="648" lrx="1430" lry="763"/>
-      <zone xml:id="Y-3.7-zone-72" ulx="176" uly="704" lrx="1373" lry="837"/>
-      <zone xml:id="Y-3.7-zone-73" ulx="168" uly="759" lrx="1494" lry="896"/>
-      <zone xml:id="Y-3.7-zone-74" ulx="173" uly="825" lrx="1349" lry="963"/>
-      <zone xml:id="Y-3.7-zone-75" ulx="194" uly="906" lrx="1559" lry="1040"/>
-      <zone xml:id="Y-3.7-zone-76" ulx="192" uly="975" lrx="1394" lry="1079"/>
-      <zone xml:id="Y-3.7-zone-77" ulx="201" uly="1027" lrx="1398" lry="1159"/>
-      <zone xml:id="Y-3.7-zone-78" ulx="196" uly="1091" lrx="1412" lry="1211"/>
-      <zone xml:id="Y-3.7-zone-79" ulx="196" uly="1153" lrx="1392" lry="1283"/>
-      <zone xml:id="Y-3.7-zone-80" ulx="191" uly="1221" lrx="1347" lry="1340"/>
-      <zone xml:id="Y-3.7-zone-81" ulx="185" uly="1295" lrx="1336" lry="1409"/>
-      <zone xml:id="Y-3.7-zone-82" ulx="186" uly="1365" lrx="1401" lry="1468"/>
-      <zone xml:id="Y-3.7-zone-83" ulx="180" uly="1429" lrx="1480" lry="1550"/>
-      <zone xml:id="Y-3.7-zone-84" ulx="204" uly="1494" lrx="1554" lry="1618"/>
+    <surface xml:id="Y-64r" n="64r" ulx="0" uly="0" lrx="1946" lry="3363"><graphic url="https://content.staatsbibliothek-berlin.de/dc/1844735508-0131/full/full/0/default.jpg" />
+      <zone xml:id="Y-3.7-zone-65" ulx="189" uly="231" lrx="1665" lry="387" />
+      <zone xml:id="Y-3.7-zone-66" ulx="185" uly="286" lrx="1296" lry="440" />
+      <zone xml:id="Y-3.7-zone-67" ulx="185" uly="365" lrx="1555" lry="509" />
+      <zone xml:id="Y-3.7-zone-68" ulx="198" uly="424" lrx="1365" lry="564" />
+      <zone xml:id="Y-3.7-zone-69" ulx="187" uly="487" lrx="1478" lry="638" />
+      <zone xml:id="Y-3.7-zone-70" ulx="181" uly="567" lrx="1330" lry="689" />
+      <zone xml:id="Y-3.7-zone-71" ulx="157" uly="648" lrx="1430" lry="763" />
+      <zone xml:id="Y-3.7-zone-72" ulx="176" uly="704" lrx="1373" lry="837" />
+      <zone xml:id="Y-3.7-zone-73" ulx="168" uly="759" lrx="1494" lry="896" />
+      <zone xml:id="Y-3.7-zone-74" ulx="173" uly="825" lrx="1349" lry="963" />
+      <zone xml:id="Y-3.7-zone-75" ulx="194" uly="906" lrx="1559" lry="1040" />
+      <zone xml:id="Y-3.7-zone-76" ulx="192" uly="975" lrx="1394" lry="1079" />
+      <zone xml:id="Y-3.7-zone-77" ulx="201" uly="1027" lrx="1398" lry="1159" />
+      <zone xml:id="Y-3.7-zone-78" ulx="196" uly="1091" lrx="1412" lry="1211" />
+      <zone xml:id="Y-3.7-zone-79" ulx="196" uly="1153" lrx="1392" lry="1283" />
+      <zone xml:id="Y-3.7-zone-80" ulx="191" uly="1221" lrx="1347" lry="1340" />
+      <zone xml:id="Y-3.7-zone-81" ulx="185" uly="1295" lrx="1336" lry="1409" />
+      <zone xml:id="Y-3.7-zone-82" ulx="186" uly="1365" lrx="1401" lry="1468" />
+      <zone xml:id="Y-3.7-zone-83" ulx="180" uly="1429" lrx="1480" lry="1550" />
+      <zone xml:id="Y-3.7-zone-84" ulx="204" uly="1494" lrx="1554" lry="1618" />
     </surface>
   </facsimile>
   <text xml:lang="la"><body><div type="poem" n="3.7" xml:id="Y-3.7" resp="#Y-trial-encoder">
-    <pb n="63r" facs="#Y-63r"/>
+    <pb n="63r" facs="#Y-63r" />
     <lg type="couplet" n="1">
       <l n="1" xml:id="Y-3.7-l1" facs="#Y-3.7-zone-1"><hi rend="initial">A</hi><add place="above">v</add>t non formonsa<add place="above"><choice><abbr><g ref="#Y-est">ē</g></abbr><expan>est</expan></choice></add> a<add place="above">v</add>t non bene culta puella</l>
-      <l n="2" xml:id="Y-3.7-l2" facs="#Y-3.7-zone-2" rend="indent">A<add place="above">v</add>t puto non uotis saepe petita meis</l>
+      <l n="2" xml:id="Y-3.7-l2" facs="#Y-3.7-zone-2" rend="indent">A<add place="above">v</add>t puto non uotis saepe petita meis<pc>.</pc></l>
     </lg>
     <lg type="couplet" n="2">
       <l n="3" xml:id="Y-3.7-l3" facs="#Y-3.7-zone-3"><hi rend="line-initial">H</hi>anc tamen in nullos tenui ma<add place="above">le</add><metamark function="insertion" place="below">‚</metamark> languidus usus</l>
-      <l n="4" xml:id="Y-3.7-l4" facs="#Y-3.7-zone-4" rend="indent">Sed iacui pigro crimen <unclear reason="faded" cert="low">n</unclear> onusque toro</l>
+      <l n="4" xml:id="Y-3.7-l4" facs="#Y-3.7-zone-4" rend="indent">Sed iacui pigro crimen <unclear reason="faded" cert="low">n</unclear> onusque toro<pc>.</pc></l>
     </lg>
     <lg type="couplet" n="3">
       <l n="5" xml:id="Y-3.7-l5" facs="#Y-3.7-zone-5"><hi rend="line-initial">N</hi>ec potui cupiens pariter cupiente puella</l>
@@ -149,27 +149,27 @@
     </lg>
     <lg type="couplet" n="4">
       <l n="7" xml:id="Y-3.7-l7" facs="#Y-3.7-zone-7"><hi rend="line-initial">I</hi>lla quidem nostro subiecit eburnea collo</l>
-      <l n="8" xml:id="Y-3.7-l8" facs="#Y-3.7-zone-8" rend="indent">Brachia si<del rend="strikethrough underdot">t</del> thonica candidiora niue</l>
+      <l n="8" xml:id="Y-3.7-l8" facs="#Y-3.7-zone-8" rend="indent">Brachia si<del rend="strikethrough underdot">t</del> thonica candidiora niue<pc>.</pc></l>
     </lg>
     <lg type="couplet" n="5">
       <l n="9" xml:id="Y-3.7-l9" facs="#Y-3.7-zone-9"><hi rend="line-initial">O</hi>scula<add place="above"><choice><abbr><g ref="#Y-que">qꝫ</g></abbr><expan>que</expan></choice></add> inseruit cupide luctantia linguis</l>
-      <l n="10" xml:id="Y-3.7-l10" facs="#Y-3.7-zone-10" rend="indent">Lasci<add place="above">u</add>um femori <add place="above" cert="low"><unclear>sup</unclear></add>posui<add place="above">t</add>que femur</l>
+      <l n="10" xml:id="Y-3.7-l10" facs="#Y-3.7-zone-10" rend="indent">Lasci<add place="above">u</add>um femori <add place="above" cert="low"><unclear>sup</unclear></add>posui<add place="above">t</add>que femur<pc>.</pc></l>
     </lg>
     <lg type="couplet" n="6">
       <l n="11" xml:id="Y-3.7-l11" facs="#Y-3.7-zone-11"><hi rend="line-initial">E</hi>t <hi rend="darker-ink">mihi</hi> blanditias dixit dominumque uocauit</l>
-      <l n="12" xml:id="Y-3.7-l12" facs="#Y-3.7-zone-12" rend="indent">Etqu<choice><orig>ę</orig><reg>ae</reg></choice> preterea publica uerba iuuant</l>
+      <l n="12" xml:id="Y-3.7-l12" facs="#Y-3.7-zone-12" rend="indent">Etqu<choice><orig>ę</orig><reg>ae</reg></choice> preterea publica uerba iuuant<metamark function="unknown" place="inline">—</metamark></l>
     </lg>
     <lg type="couplet" n="7">
       <l n="13" xml:id="Y-3.7-l13" facs="#Y-3.7-zone-13"><hi rend="line-initial">T</hi>acta tamen ueluti <hi rend="darker-ink">g</hi>elida mea membra cicuta</l>
-      <l n="14" xml:id="Y-3.7-l14" facs="#Y-3.7-zone-14" rend="indent">Segnia <hi rend="darker-ink"><choice><abbr><g ref="#Y-pro">p̄</g></abbr><expan>pro</expan></choice>pos</hi>itum destituere meum</l>
+      <l n="14" xml:id="Y-3.7-l14" facs="#Y-3.7-zone-14" rend="indent">Segnia <hi rend="darker-ink"><choice><abbr><g ref="#Y-pro">p̄</g></abbr><expan>pro</expan></choice>pos</hi>itum destituere meum<pc>.</pc></l>
     </lg>
     <lg type="couplet" n="8">
       <l n="15" xml:id="Y-3.7-l15" facs="#Y-3.7-zone-15"><hi rend="line-initial">T</hi>runcus iners<metamark function="word-separation" rend="vertical">│</metamark>iacui species <choice><abbr><g ref="#Y-et">&amp;</g></abbr><expan>et</expan></choice> inutile pondus</l>
-      <l n="16" xml:id="Y-3.7-l16" facs="#Y-3.7-zone-16" rend="indent">Et non exactum<add place="above"><choice><abbr><g ref="#Y-est">ē</g></abbr><expan>est</expan></choice></add> corpus an umbra forem</l>
+      <l n="16" xml:id="Y-3.7-l16" facs="#Y-3.7-zone-16" rend="indent">Et non exactum<add place="above"><choice><abbr><g ref="#Y-est">ē</g></abbr><expan>est</expan></choice></add> corpus an umbra forem<pc>.</pc></l>
     </lg>
     <lg type="couplet" n="9">
       <l n="17" xml:id="Y-3.7-l17" facs="#Y-3.7-zone-17"><hi rend="line-initial">Q</hi>uae mihi uentura est siquidem uentura senectus</l>
-      <l n="18" xml:id="Y-3.7-l18" facs="#Y-3.7-zone-18" rend="indent">Cum desit numeris ipsa iuuenta suis</l>
+      <l n="18" xml:id="Y-3.7-l18" facs="#Y-3.7-zone-18" rend="indent">Cum desit numeris ipsa iuuenta suis<g ref="#Y-question">⸮</g></l>
     </lg>
     <lg type="couplet" n="10">
       <l n="19" xml:id="Y-3.7-l19" facs="#Y-3.7-zone-19"><hi rend="line-initial">A</hi><hi rend="darker-ink"><unclear>h</unclear></hi> pud<metamark function="word-joining" place="below">‿</metamark><choice><abbr><g ref="#Y-et">&amp;</g></abbr><expan>et</expan></choice> annorum quo me iuuenemque uirum<add place="above" cert="low"><choice><abbr><g ref="#Y-que">qꝫ</g></abbr><expan>que</expan></choice></add></l>
@@ -181,9 +181,9 @@
     </lg>
     <lg type="couplet" n="12">
       <l n="23" xml:id="Y-3.7-l23" facs="#Y-3.7-zone-23"><hi rend="line-initial">A</hi>t nuper bis flaua chl<hi rend="diaeresis">ï</hi>de ter candida pitho</l>
-      <l n="24" xml:id="Y-3.7-l24" facs="#Y-3.7-zone-24" rend="indent">Ter libas officio continuata meo est</l>
+      <l n="24" xml:id="Y-3.7-l24" facs="#Y-3.7-zone-24" rend="indent">Ter libas officio continuata meo est<pc>,</pc></l>
     </lg>
-    <pb n="63v" facs="#Y-63v"/>
+    <pb n="63v" facs="#Y-63v" />
     <lg type="couplet" n="13">
       <l n="25" xml:id="Y-3.7-l25" facs="#Y-3.7-zone-25"><hi rend="line-initial">E</hi>xigere a nobis angusta nocte corinnam</l>
       <l n="26" xml:id="Y-3.7-l26" facs="#Y-3.7-zone-26" rend="indent">Me memini numeros sustinuisse <metamark function="unknown" cert="low">—</metamark> nouem</l>
@@ -194,51 +194,51 @@
     </lg>
     <lg type="couplet" n="15">
       <l n="29" xml:id="Y-3.7-l29" facs="#Y-3.7-zone-29"><hi rend="line-initial">S</hi>agaue phoenicea defixit nomina cera</l>
-      <l n="30" xml:id="Y-3.7-l30" facs="#Y-3.7-zone-30" rend="indent">Et medium tenuis in <unclear reason="faded" cert="low">g</unclear><hi rend="darker-ink">ie</hi>cur egit acus</l>
+      <l n="30" xml:id="Y-3.7-l30" facs="#Y-3.7-zone-30" rend="indent">Et medium tenuis in <unclear reason="faded" cert="low">g</unclear><hi rend="darker-ink">ie</hi>cur egit acus<pc>.</pc></l>
     </lg>
     <lg type="couplet" n="16">
       <l n="31" xml:id="Y-3.7-l31" facs="#Y-3.7-zone-31"><hi rend="line-initial">C</hi>arminae lesa ceres <pc>·</pc> sterilem uanescit in herbam</l>
-      <l n="32" xml:id="Y-3.7-l32" facs="#Y-3.7-zone-32" rend="indent">Deficiunt laesi carmine fontis aque</l>
+      <l n="32" xml:id="Y-3.7-l32" facs="#Y-3.7-zone-32" rend="indent">Deficiunt laesi carmine fontis aque<metamark function="unknown" place="inline">/</metamark></l>
     </lg>
     <lg type="couplet" n="17">
       <l n="33" xml:id="Y-3.7-l33" facs="#Y-3.7-zone-33"><hi rend="line-initial">I</hi>licibus glandes cantataque uitibus uua</l>
-      <l n="34" xml:id="Y-3.7-l34" facs="#Y-3.7-zone-34" rend="indent">Decidit <choice><abbr><g ref="#Y-et">&amp;</g></abbr><expan>et</expan></choice> nullo poma mouente fluunt</l>
+      <l n="34" xml:id="Y-3.7-l34" facs="#Y-3.7-zone-34" rend="indent">Decidit <choice><abbr><g ref="#Y-et">&amp;</g></abbr><expan>et</expan></choice> nullo poma mouente fluunt<pc>.</pc></l>
     </lg>
     <lg type="couplet" n="18">
       <l n="35" xml:id="Y-3.7-l35" facs="#Y-3.7-zone-35"><hi rend="line-initial">Q</hi>uid uetat <choice><abbr><g ref="#Y-et">&amp;</g></abbr><expan>et</expan></choice> ner<unclear reason="faded" cert="low">ſ</unclear>uos magicas torpere per artes</l>
-      <l n="36" xml:id="Y-3.7-l36" facs="#Y-3.7-zone-36" rend="indent">Forsitan <hi rend="darker-ink">i</hi>mpatiens sit latus iste meum <add place="margin-right" type="annotation"><abbr>i<am>n̄</am></abbr></add></l>
+      <l n="36" xml:id="Y-3.7-l36" facs="#Y-3.7-zone-36" rend="indent">Forsitan <hi rend="darker-ink">i</hi>mpatiens sit latus iste meum <pc>.</pc><add place="margin-right" type="annotation"><abbr>i<am>n̄</am></abbr></add></l>
     </lg>
     <lg type="couplet" n="19">
       <l n="37" xml:id="Y-3.7-l37" facs="#Y-3.7-zone-37"><hi rend="line-initial">H</hi>uc pudor accessit facti pudor ipse nocebat</l>
-      <l n="38" xml:id="Y-3.7-l38" facs="#Y-3.7-zone-38" rend="indent">Ille fuit uitii causa secunda <hi rend="darker-ink">mei</hi></l>
+      <l n="38" xml:id="Y-3.7-l38" facs="#Y-3.7-zone-38" rend="indent">Ille fuit uitii causa secunda <hi rend="darker-ink">mei</hi><pc>.</pc></l>
     </lg>
     <lg type="couplet" n="20">
       <l n="39" xml:id="Y-3.7-l39" facs="#Y-3.7-zone-39"><hi rend="line-initial">A</hi><hi rend="darker-ink">t</hi> <choice><abbr>qual<am>ē</am></abbr><expan>qualem</expan></choice> uidi <hi rend="darker-ink">qualem tetigi</hi>que puellam</l>
-      <l n="40" xml:id="Y-3.7-l40" facs="#Y-3.7-zone-40" rend="indent">Sic <choice><abbr><g ref="#Y-et">&amp;</g></abbr><expan>et</expan></choice> iam tunica tangitur illa sua</l>
+      <l n="40" xml:id="Y-3.7-l40" facs="#Y-3.7-zone-40" rend="indent">Sic <choice><abbr><g ref="#Y-et">&amp;</g></abbr><expan>et</expan></choice> iam tunica tangitur illa sua<pc>.</pc></l>
     </lg>
     <lg type="couplet" n="21">
       <l n="41" xml:id="Y-3.7-l41" facs="#Y-3.7-zone-41"><hi rend="line-initial">I</hi>llius ad tactu p<hi rend="dot-above">ẏ</hi>lius iuuenescere possit</l>
-      <l n="42" xml:id="Y-3.7-l42" facs="#Y-3.7-zone-42" rend="indent">Tithonosque annis fortior esse suis</l>
+      <l n="42" xml:id="Y-3.7-l42" facs="#Y-3.7-zone-42" rend="indent">Tithonosque annis fortior esse suis<pc>,</pc></l>
     </lg>
     <lg type="couplet" n="22">
       <l n="43" xml:id="Y-3.7-l43" facs="#Y-3.7-zone-43"><hi rend="line-initial">H</hi>aec mihi contigerat sed uir non contigit ill<subst><del rend="underdot">e</del><add place="above">i</add></subst></l>
-      <l n="44" xml:id="Y-3.7-l44" facs="#Y-3.7-zone-44" rend="indent">Quas<metamark function="insertion" place="below">‸</metamark> <add place="above">nunc</add>c<hi rend="darker-ink">onci</hi>piam per noua uota praeces</l>
+      <l n="44" xml:id="Y-3.7-l44" facs="#Y-3.7-zone-44" rend="indent">Quas<metamark function="insertion" place="below">‸</metamark> <add place="above">nunc</add>c<hi rend="darker-ink">onci</hi>piam per noua uota praeces<pc>.</pc></l>
     </lg>
     <lg type="couplet" n="23">
       <l n="45" xml:id="Y-3.7-l45" facs="#Y-3.7-zone-45"><unclear>Credoe</unclear> <choice><abbr><g ref="#Y-et">&amp;</g></abbr><expan>et</expan></choice> iam magnos quo sum<metamark function="word-separation" rend="vertical">│</metamark>tam<metamark function="word-separation" rend="vertical">│</metamark><hi rend="darker-ink">tur</hi>piter usus</l>
-      <l n="46" xml:id="Y-3.7-l46" facs="#Y-3.7-zone-46" rend="indent">Muneris oblati penituisse deos</l>
+      <l n="46" xml:id="Y-3.7-l46" facs="#Y-3.7-zone-46" rend="indent">Muneris oblati penituisse deos<pc>.</pc></l>
     </lg>
     <lg type="couplet" n="24">
       <l n="47" xml:id="Y-3.7-l47" facs="#Y-3.7-zone-47"><hi rend="line-initial">O</hi>btabam certe recipi sum nempe receptus</l>
-      <l n="48" xml:id="Y-3.7-l48" facs="#Y-3.7-zone-48" rend="indent">Oscula ferre<pc>·</pc> tuli<pc>·</pc> proximus esse<pc>·</pc> fui</l>
+      <l n="48" xml:id="Y-3.7-l48" facs="#Y-3.7-zone-48" rend="indent">Oscula ferre<pc>·</pc> tuli<pc>·</pc> proximus esse<pc>·</pc> fui<pc>.</pc></l>
     </lg>
     <lg type="couplet" n="25">
       <l n="49" xml:id="Y-3.7-l49" facs="#Y-3.7-zone-49"><hi rend="line-initial">Q</hi>uo mihi fortuna<hi rend="darker-ink">e</hi> <choice><abbr>tant<am>ū</am>m</abbr><expan>tantum</expan></choice> <choice><abbr><am>q̵</am>d</abbr><expan>quod</expan></choice> <hi rend="darker-ink">dona si</hi>ne us<hi rend="darker-ink">u</hi> <pc type="interrogative"><g ref="#Y-question">⸮</g></pc></l>
       <l n="50" xml:id="Y-3.7-l50" facs="#Y-3.7-zone-50" rend="indent">Quid nisi possedi diues auarus opes <pc type="interrogative"><g ref="#Y-question">⸮</g></pc></l>
     </lg>
     <lg type="couplet" n="26">
-      <l n="51" xml:id="Y-3.7-l51" facs="#Y-3.7-zone-51"><hi rend="line-initial">S</hi>ic<del rend="strikethrough" cert="low">c</del>ar<choice><abbr><g ref="#Y-et">&amp;</g></abbr><expan>et</expan></choice> mediis ta<subst><del rend="underdot" cert="low">t</del><add place="above">c</add></subst>ici<del rend="underdot">s</del> uulgator in undis <add place="margin-left" type="annotation" cert="low"><unclear>ta<gap reason="illegible" extent="unknown" unit="character"/></unclear></add></l>
-      <l n="52" xml:id="Y-3.7-l52" facs="#Y-3.7-zone-52" rend="indent">Pomaque que nullo tempore tangat hab<choice><abbr><g ref="#Y-et">&amp;</g></abbr><expan>et</expan></choice></l>
+      <l n="51" xml:id="Y-3.7-l51" facs="#Y-3.7-zone-51"><hi rend="line-initial">S</hi>ic<del rend="strikethrough" cert="low">c</del>ar<choice><abbr><g ref="#Y-et">&amp;</g></abbr><expan>et</expan></choice> mediis ta<subst><del rend="underdot" cert="low">t</del><add place="above">c</add></subst>ici<del rend="underdot">s</del> uulgator in undis <add place="margin-left" type="annotation" cert="low"><unclear>ta<gap reason="illegible" extent="unknown" unit="character" /></unclear></add></l>
+      <l n="52" xml:id="Y-3.7-l52" facs="#Y-3.7-zone-52" rend="indent">Pomaque que nullo tempore tangat hab<choice><abbr><g ref="#Y-et">&amp;</g></abbr><expan>et</expan></choice><pc>,</pc></l>
     </lg>
     <lg type="couplet" n="27">
       <l n="53" xml:id="Y-3.7-l53" facs="#Y-3.7-zone-53"><hi rend="line-initial">A</hi> tenera quisquam sic surgit mane pu<hi rend="darker-ink">e</hi>lla</l>
@@ -246,15 +246,15 @@
     </lg>
     <lg type="couplet" n="28">
       <l n="55" xml:id="Y-3.7-l55" facs="#Y-3.7-zone-55"><hi rend="line-initial">S</hi>ed puto non blanda<add place="above" cert="low"><unclear>e</unclear></add><metamark function="insertion" place="below">‚</metamark> non optima perdidit in me</l>
-      <l n="56" xml:id="Y-3.7-l56" facs="#Y-3.7-zone-56" rend="indent">Oscula non omni sollicitauit ope</l>
+      <l n="56" xml:id="Y-3.7-l56" facs="#Y-3.7-zone-56" rend="indent">Oscula non omni sollicitauit ope<pc>.</pc></l>
     </lg>
     <lg type="couplet" n="29">
       <l n="57" xml:id="Y-3.7-l57" facs="#Y-3.7-zone-57"><hi rend="line-initial">I</hi>lla graues potuit quercus <hi rend="darker-ink">ad</hi>am<hi rend="darker-ink">antaque</hi> durum</l>
-      <l n="58" xml:id="Y-3.7-l58" facs="#Y-3.7-zone-58" rend="indent">Surdaque blandit<hi rend="diacritics">ii</hi>s sax<hi rend="darker-ink">a</hi> mouere suis</l>
+      <l n="58" xml:id="Y-3.7-l58" facs="#Y-3.7-zone-58" rend="indent">Surdaque blandit<hi rend="diacritics">ii</hi>s sax<hi rend="darker-ink">a</hi> mouere suis<pc>.</pc></l>
     </lg>
     <lg type="couplet" n="30">
       <l n="59" xml:id="Y-3.7-l59" facs="#Y-3.7-zone-59"><hi rend="line-initial">D</hi>igna mouere fuit certe <hi rend="darker-ink">d</hi>iuosque uirosque</l>
-      <l n="60" xml:id="Y-3.7-l60" facs="#Y-3.7-zone-60" rend="indent">Sed neque tum<metamark function="word-separation" rend="vertical">│</metamark>uixi<metamark function="word-separation" rend="vertical">│</metamark>nec <hi rend="darker-ink">ui</hi>r<metamark function="word-separation" rend="vertical">│</metamark>ut<metamark function="word-separation" rend="vertical">│</metamark>ante fui</l>
+      <l n="60" xml:id="Y-3.7-l60" facs="#Y-3.7-zone-60" rend="indent">Sed neque tum<metamark function="word-separation" rend="vertical">│</metamark>uixi<metamark function="word-separation" rend="vertical">│</metamark>nec <hi rend="darker-ink">ui</hi>r<metamark function="word-separation" rend="vertical">│</metamark>ut<metamark function="word-separation" rend="vertical">│</metamark>ante fui<pc>.</pc></l>
     </lg>
     <lg type="couplet" n="31">
       <l n="61" xml:id="Y-3.7-l61" facs="#Y-3.7-zone-61"><hi rend="line-initial">Q</hi>uid iu<hi rend="darker-ink">u</hi><choice><abbr><g ref="#Y-et">&amp;</g></abbr><expan>et</expan></choice> ad surdas cant<choice><abbr><g ref="#Y-et">&amp;</g></abbr><expan>et</expan></choice> phineius auris <pc type="interrogative"><g ref="#Y-question">⸮</g></pc></l>
@@ -265,7 +265,7 @@
       <l n="64" xml:id="Y-3.7-l64" facs="#Y-3.7-zone-64" rend="indent">Quos ego non <choice><abbr>f<am>ī</am>xi</abbr><expan>finxi</expan></choice> disposuique modos <pc type="interrogative"><g ref="#Y-question">⸮</g></pc></l>
     </lg>
     <note type="manuscript" place="bottom" xml:id="Y-lower-margin-63v" facs="#Y-63v" cert="low"><unclear>si caret teum</unclear></note>
-    <pb n="64r" facs="#Y-64r"/>
+    <pb n="64r" facs="#Y-64r" />
     <lg type="couplet" n="33">
       <l n="65" xml:id="Y-3.7-l65" facs="#Y-3.7-zone-65"><hi rend="line-initial">N</hi>ostra tamen iacuere uelut premortua membra</l>
       <l n="66" xml:id="Y-3.7-l66" facs="#Y-3.7-zone-66" rend="indent">Turpiter hesterna languidiora rosa</l>
@@ -276,19 +276,19 @@
     </lg>
     <lg type="couplet" n="35">
       <l n="69" xml:id="Y-3.7-l69" facs="#Y-3.7-zone-69"><hi rend="line-initial">Q</hi>uin istic pudibunda iaces pars pessima nostri</l>
-      <l n="70" xml:id="Y-3.7-l70" facs="#Y-3.7-zone-70" rend="indent">Sic sum pollici<hi rend="darker-ink">ti</hi>s cap<hi rend="darker-ink">tu</hi>s <subst><del rend="underdot">es</del><add place="above">vt</add></subst> <del rend="underdot" cert="low"><choice><abbr><g ref="#Y-et">&amp;</g></abbr><expan>et</expan></choice></del> ante tuis</l>
+      <l n="70" xml:id="Y-3.7-l70" facs="#Y-3.7-zone-70" rend="indent">Sic sum pollici<hi rend="darker-ink">ti</hi>s cap<hi rend="darker-ink">tu</hi>s <subst><del rend="underdot">es</del><add place="above">vt</add></subst> <del rend="underdot" cert="low"><choice><abbr><g ref="#Y-et">&amp;</g></abbr><expan>et</expan></choice></del> ante tuis<pc>.</pc></l>
     </lg>
     <lg type="couplet" n="36">
       <l n="71" xml:id="Y-3.7-l71" facs="#Y-3.7-zone-71"><hi rend="line-initial">T</hi>u dominum fallis per te deprensus inermis</l>
-      <l n="72" xml:id="Y-3.7-l72" facs="#Y-3.7-zone-72" rend="indent">Tristia cum magno dampna pudore tuli</l>
+      <l n="72" xml:id="Y-3.7-l72" facs="#Y-3.7-zone-72" rend="indent">Tristia cum magno dampna pudore tuli<pc>.</pc></l>
     </lg>
     <lg type="couplet" n="37">
       <l n="73" xml:id="Y-3.7-l73" facs="#Y-3.7-zone-73"><hi rend="disturbed-surface">Hanc <choice><abbr><g ref="#Y-et">&amp;</g></abbr><expan>et</expan></choice> iam non est mea dedignata</hi> puella</l>
-      <l n="74" xml:id="Y-3.7-l74" facs="#Y-3.7-zone-74" rend="indent"><hi rend="disturbed-surface">Molliter admota sollicitare manu</hi></l>
+      <l n="74" xml:id="Y-3.7-l74" facs="#Y-3.7-zone-74" rend="indent"><hi rend="disturbed-surface">Molliter admota sollicitare manu</hi><pc>.</pc></l>
     </lg>
     <lg type="couplet" n="38">
       <l n="75" xml:id="Y-3.7-l75" facs="#Y-3.7-zone-75"><hi rend="line-initial">S</hi>ed postquam nullas corsurgere posse per artes</l>
-      <l n="76" xml:id="Y-3.7-l76" facs="#Y-3.7-zone-76" rend="indent">Inmemoremque sui procubuisse uid<choice><abbr><g ref="#Y-et">&amp;</g></abbr><expan>et</expan></choice></l>
+      <l n="76" xml:id="Y-3.7-l76" facs="#Y-3.7-zone-76" rend="indent">Inmemoremque sui procubuisse uid<choice><abbr><g ref="#Y-et">&amp;</g></abbr><expan>et</expan></choice><metamark function="unknown" place="inline">/</metamark></l>
     </lg>
     <lg type="couplet" n="39">
       <l n="77" xml:id="Y-3.7-l77" facs="#Y-3.7-zone-77"><hi rend="line-initial">Q</hi>uid me<metamark function="word-separation" rend="vertical">│</metamark>ludis ait quis<metamark function="word-separation" rend="vertical">│</metamark>te male sane iubebat</l>
@@ -300,7 +300,7 @@
     </lg>
     <lg type="couplet" n="41">
       <l n="81" xml:id="Y-3.7-l81" facs="#Y-3.7-zone-81"><hi rend="line-initial">N</hi>ec mor<hi rend="darker-ink">a</hi> desiluit tunica uelata soluta</l>
-      <l n="82" xml:id="Y-3.7-l82" facs="#Y-3.7-zone-82" rend="indent">Et decuit nudos proripuisse pedes</l>
+      <l n="82" xml:id="Y-3.7-l82" facs="#Y-3.7-zone-82" rend="indent">Et decuit nudos proripuisse pedes<pc>.</pc></l>
     </lg>
     <lg type="couplet" n="42">
       <l n="83" xml:id="Y-3.7-l83" facs="#Y-3.7-zone-83"><hi rend="line-initial">N</hi>eue suae possent intactam scire minis<hi rend="darker-ink">tre</hi></l>
@@ -363,5 +363,5 @@
     <item><note xml:id="Y-3.7-note-83" n="83" type="uncertainty" target="#Y-3.7-l83">The end of ministre is darker on a disturbed area. The visible spelling ministre is retained; an earlier state cannot be reconstructed securely.</note></item>
     <item><note xml:id="Y-3.7-note-84" n="84" type="uncertainty" target="#Y-3.7-l84">Dots and a curved terminal stroke follow aqua before the next poem’s initial. The display :⌁ is schematic. Its location is certain but its checking or poem-end function is not, so the markup now uses unknown function.</note></item>
     <item><note xml:id="Y-3.7-note-margin" n="64" type="uncertainty" target="#Y-lower-margin-63v">The lower-right margin of 63v contains a short inscription with small marks above it, tentatively read si caret teum. The letters, abbreviation and relation to the poem remain uncertain. The inscription stays outside the verse sequence and unexpanded; this recorded limitation is not a request to invent a reading.</note></item>
-  </list></div></back></text>
+  </list><note xml:id="Y-3.7-note-fresh-punctuation" n="2" type="observation" target="#Y-3.7-l2">Fresh source inspection retains clear terminal points at2,4,8,10,14,16,30,34,36,38,40,44,46,48,56,58,60,70,72,74,82; comma-like terminal signs at24,42,52; and the curved stroke over a separate dot at18. Glyph shapes are schematic, as declared in the header. No historical hand is identified from ink colour.</note><note xml:id="Y-3.7-note-fresh-marks" n="12" type="uncertainty" target="#Y-3.7-l12">The short terminal dash at12 and thin oblique terminal strokes at32 and76 are visibly distinct from the verse letters. Their presence is represented schematically with unknown function. No punctuation, checking or correction function is imposed.</note></div></back></text>
 </TEI>

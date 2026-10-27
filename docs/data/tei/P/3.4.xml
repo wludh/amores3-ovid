@@ -10,7 +10,7 @@
           <resp>First-pass image transcription and TEI encoding</resp>
           <name>OpenAI Codex</name>
         </respStmt>
-      <respStmt xml:id="P-3.4-reviewer"><resp>Independent second-agent reading of every extant source verse and evidence note; not human approval</resp><name>OpenAI Codex, review_y agent</name></respStmt></titleStmt>
+      <respStmt xml:id="P-3.4-reviewer"><resp>Independent second-agent reading of every extant source verse and evidence note; not human approval</resp><name>OpenAI Codex, review_y agent</name></respStmt><respStmt xml:id="P-3.4-fresh-reviewer"><resp>Fresh independent source reading of every represented verse and evidence note</resp><name>OpenAI Codex /root</name></respStmt></titleStmt>
       <publicationStmt>
         <p>Amores Project local working transcription, 9 September 2026. Draft; not a scholarly approved edition.</p>
       </publicationStmt>
@@ -41,7 +41,7 @@
             <surrogates>
               <p><ref target="https://gallica.bnf.fr/ark:/12148/btv1b9066797j">BnF Gallica Latin 8242</ref></p>
               <p>The original full-resolution digital images and enlarged crops were inspected for this first pass. Gallica source reuse conditions apply. No text was populated from LL or another witness.</p>
-            </surrogates>
+            <p>Fresh corpus review inspected the original-resolution archival copies: <ref target="https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(087_of_101).jpg">archival copy of image 87</ref> <ref target="https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(088_of_101).jpg">archival copy of image 88</ref>. Their pixel dimensions match the original Gallica canvases. The site facsimile index and fresh review ledger retain the file hashes and provenance.</p></surrogates>
           </additional>
         </msDesc>
       </sourceDesc>
@@ -61,7 +61,7 @@
           <p>Significant observed punctuation is retained schematically, without adding systematic modern sentence punctuation.</p>
         </punctuation>
         <segmentation>
-          <p>Each l represents a verse and physical written line at its canonical poem position. Elegiac couplets and even-line indentation are editorial display grouping. Page breaks follow the photographed left/right physical pages. Facsimile zones reproduce the existing annotation rectangles unchanged; they may include neighbouring ink and exclude marginal annotations.</p>
+          <p>Each l represents a verse and physical written line at its canonical poem position. Elegiac couplet grouping is editorial. Display insets follow the observed full-page line starts; no inset is inferred solely from verse parity. Page breaks follow the photographed left/right physical pages. Facsimile zones reproduce the existing annotation rectangles unchanged; they may include neighbouring ink and exclude marginal annotations.</p>
         </segmentation>
         <interpretation>
           <p>First-pass evidence notes are a working queue for an independent agent, not assignments for the human editor. Genuine source uncertainty remains local; consequential unresolved interpretation is distinguished from ordinary observation.</p>
@@ -77,7 +77,7 @@
     </encodingDesc>
     <revisionDesc status="independently-reviewed"><change when="2026-09-09" who="#P-3.4-reviewer">Independent second-agent source review of all 48 verses and every editorial note. Qualified the first iliades at40, retaining other conservative first-pass readings after direct inspection. Extensively faded lines, especially36, remain provisional; no erased text or alternative-witness wording is supplied. No human approval is implied.</change>
       <change when="2026-09-09" who="#P-3.4-encoder">Completed first reading from source images and enlarged crops, with line coverage and evidence notes. Independent second reading not yet performed.</change>
-    </revisionDesc>
+    <change when="2026-10-26" who="#P-3.4-fresh-reviewer">Fresh independent source reading of every verse, full-page line starts and every evidence note. Supported changes and dispositions are documented in P-3.4-second-pass.md; earlier reports and review seals are retained as history.</change></revisionDesc>
   </teiHeader>
   <facsimile>
     <surface n="image 87" xml:id="P-3.4-image-87" ulx="0" uly="0" lrx="5815" lry="3969">

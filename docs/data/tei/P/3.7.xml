@@ -11,7 +11,7 @@
           <name>OpenAI Codex</name>
         </respStmt>
         <respStmt xml:id="P-second-pass-reviewer"><resp>Independent second-agent review of all 84 lines, images and first-pass notes; not human editorial approval</resp><name>OpenAI Codex, review_y agent</name></respStmt>
-      </titleStmt>
+      <respStmt xml:id="P-3.7-fresh-reviewer"><resp>Fresh independent source rereading of all 84 extant verses and all 15 existing editorial notes</resp><name>OpenAI Codex /root/w_review_b</name></respStmt></titleStmt>
       <publicationStmt>
         <p>Amores Project working trial, 8 September 2026. Not a scholarly approved edition.</p>
       </publicationStmt>
@@ -80,7 +80,7 @@
     <revisionDesc status="draft">
       <change when="2026-09-08" who="#P-trial-encoder">First pass against all four physical pages, with source links and 84 line zones; submitted for independent second reading.</change>
       <change when="2026-09-08" who="#P-second-pass-reviewer">Independently inspected all 84 lines and four physical pages. Corrected the second conjunction in line 60, consistently encoded visible et ligatures, recorded the interlinear intervention at line 1, and replaced unsupported provisional groups at 36 with a qualified partial reading. Reviewed every first-pass note and retained two consequential editorial escalations.</change>
-    <change when="2026-09-10" who="#P-second-pass-reviewer">Renewed source-image inspection of verses 23, 36. Retained conservative unclear/gap and intervention markup; reassessed the remaining questions as documented image uncertainty under the current workflow. No complete reading or correction sequence is inferred, and no human approval is implied.</change></revisionDesc>
+    <change when="2026-09-10" who="#P-second-pass-reviewer">Renewed source-image inspection of verses 23, 36. Retained conservative unclear/gap and intervention markup; reassessed the remaining questions as documented image uncertainty under the current workflow. No complete reading or correction sequence is inferred, and no human approval is implied.</change><change when="2026-10-26" who="#P-3.7-fresh-reviewer">Fresh complete source rereading of verses 1–84 and all 15 existing notes against actual BnF scan copies recovered from Commons, in full-spread context and enlarged sequential bands/row crops. One word reading was made conservative: at61 the small pale name tentatively reads phineius rather than the former assured phemius, now encoded unclear with low certainty. Current scholarly verse1 d-like baseline/raised uncertain t-like substitution is retained after fresh image review; its stale note describing baseline t and raised u is corrected to the currently visible qualified components. Every other verse word, punctuation, addition, marginal annotation and source inset was retained. All original rectangles and source navigation retained; previous review evidence remains historical.</change></revisionDesc>
   </teiHeader>
   <facsimile>
     <surface xml:id="P-image-91" n="image 91" ulx="0" uly="0" lrx="5817" lry="3965">
@@ -249,7 +249,7 @@
         </lg>
         <lg type="couplet" n="18">
           <l n="35" xml:id="P-3.7-l35" facs="#P-3.7-zone-35">Quid uetat <choice><abbr><g ref="#P-et">&amp;</g></abbr><expan>et</expan></choice> neruos magicas torpere per artes</l>
-          <l n="36" xml:id="P-3.7-l36" facs="#P-3.7-zone-36" rend="indent"><unclear reason="faded" cert="low">Forsitan impatiens</unclear> sit <unclear reason="faded">latus</unclear> <unclear>i<gap reason="illegible" extent="unknown" unit="character"/></unclear> <unclear reason="faded">meum</unclear><note place="margin-right" type="manuscript"><unclear>iis</unclear></note></l>
+          <l n="36" xml:id="P-3.7-l36" facs="#P-3.7-zone-36" rend="indent"><unclear reason="faded" cert="low">Forsitan impatiens</unclear> sit <unclear reason="faded">latus</unclear> <unclear>i<gap reason="illegible" extent="unknown" unit="character" /></unclear> <unclear reason="faded">meum</unclear><note place="margin-right" type="manuscript"><unclear>iis</unclear></note></l>
         </lg>
         <pb n="image 92, left" facs="#P-image-92" />
         <lg type="couplet" n="19">
@@ -301,7 +301,7 @@
           <l n="60" xml:id="P-3.7-l60" facs="#P-3.7-zone-60" rend="indent">Sed neque tum uixi nec uir ut ante fui</l>
         </lg>
         <lg type="couplet" n="31">
-          <l n="61" xml:id="P-3.7-l61" facs="#P-3.7-zone-61">Quid iuu<choice><abbr><g ref="#P-et">&amp;</g></abbr><expan>et</expan></choice> ad surdas cant<choice><abbr><g ref="#P-et">&amp;</g></abbr><expan>et</expan></choice> phemius aures</l>
+          <l n="61" xml:id="P-3.7-l61" facs="#P-3.7-zone-61">Quid iuu<choice><abbr><g ref="#P-et">&amp;</g></abbr><expan>et</expan></choice> ad surdas cant<choice><abbr><g ref="#P-et">&amp;</g></abbr><expan>et</expan></choice> <unclear reason="faded" cert="low">phineius</unclear> aures</l>
           <l n="62" xml:id="P-3.7-l62" facs="#P-3.7-zone-62" rend="indent">Quid miserum thamyram picta tabella iuuat</l>
         </lg>
         <lg type="couplet" n="32">
@@ -354,7 +354,7 @@
     <back>
       <div type="editorial-notes">
         <head>Encoding and reading notes</head>
-        <note xml:id="P-3.7-note-1" n="1" type="uncertainty" target="#P-3.7-l1">The enlarged A is supported. At the second at a small u-like letter stands above the baseline t and a dot lies below it; this is now recorded as a qualified substitution rather than only darker ink. The exact form and relationship remain low-certainty. A small mark also occurs above the first letter of uotis in line 2; its precise correction history is not established.</note>
+        <note xml:id="P-3.7-note-1" n="1" type="uncertainty" target="#P-3.7-l1">Fresh reading of the current scholarly XML against f91 confirms the enlarged A and the second a followed by a d-like baseline letter with a point beneath, and a small raised t-like form. The current qualified substitution is retained, with the raised shape unclear; the older note describing baseline t and raised u no longer matches the current encoded components. No confident correction sequence or historical hand is asserted. The small separate mark above the opening of uotis at2 remains documented without an inferred earlier reading.</note>
         <note xml:id="P-3.7-note-6" n="6" type="uncertainty" target="#P-3.7-l6">The faint group in effecti supports retaining an uncertain c. The source image does not establish a deletion or its cause. No erased earlier reading is reconstructed.</note>
         <note xml:id="P-3.7-note-13" n="13" type="uncertainty" target="#P-3.7-l13">The entire verse is visible: the short meæ-like group is followed directly by cicuta, with no room or visible separate word membra between them. Membra is therefore not supplied. The exact ligature in the short group remains uncertain, and li in gelida is darker.</note>
         <note xml:id="P-3.7-note-19" n="19" type="uncertainty" target="#P-3.7-l19">The decorated initial is difficult to identify independently of the following ud and et sign. P is now explicitly low-certainty rather than an assured reading. No separate ah is recoverable with confidence; the ornament is not silently converted to one.</note>
@@ -369,7 +369,7 @@
         <note xml:id="P-3.7-note-79" n="79" type="observation" target="#P-3.7-l79">The baseline ramis and separate right-margin LANIS are visible. Both are retained without asserting deletion or formal substitution. The baseline aea remains as transcribed rather than automatically regularized to aeaea.</note>
         <note xml:id="P-3.7-note-40" n="40" type="observation" target="#P-3.7-l40">Visible et signs are consistently encoded as abbreviation/expansion choices at 40 and 45 (&amp;iam), 51 (ar&amp;), 52 (hab&amp;), 61 (iuu&amp; and cant&amp;), 73 (&amp;iam) and 76 (uid&amp;). These replace silently expanded et strings in the first pass; the ordinary allograph policy remains unchanged.</note>
         <note xml:id="P-3.7-note-60" n="60" type="observation" target="#P-3.7-l60">The enlarged image reads nec uir after uixi; the first-pass neque uir is unsupported. Corrected to nec while preserving the earlier neque in the same line.</note>
-      </div>
+      <note xml:id="P-3.7-note-fresh-61" n="61" target="#P-3.7-l61" type="uncertainty">Fresh actual crop reading tentatively distinguishes phineius, with a minim group after phi followed by an ei-like sequence, rather than the former assured phemius. The small pale name remains low-certainty unclear; it is not normalized to a familiar mythological name. The preceding et signs and final aures remain supported.</note></div>
     </back>
   </text>
 </TEI>

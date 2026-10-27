@@ -1,11 +1,11 @@
 {
   "witness": "S",
   "poem": "3.3",
-  "date": "2026-09-09",
-  "reviewer": "OpenAI Codex primary agent, independent second source reader",
+  "date": "2026-10-26",
+  "reviewer": "OpenAI Codex independent w_review_a fresh full source-image reviewer",
   "author_agent": "/root/encode_s",
-  "reviewer_agent": "/root",
-  "review_type": "independent-second-agent-image-and-encoding-review",
+  "reviewer_agent": "/root/w_review_a",
+  "review_type": "independent-second-agent-fresh-full-image-and-encoding-review",
   "human_approved": false,
   "line_coverage": {
     "count": 48,
@@ -14,13 +14,15 @@
         "manuscript_page": "388",
         "viewer_page": 389,
         "start": 1,
-        "end": 21
+        "end": 21,
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_388.jp2/full/full/0/default/jpg"
       },
       {
         "manuscript_page": "389",
         "viewer_page": 390,
         "start": 22,
-        "end": 48
+        "end": 48,
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg"
       }
     ]
   },
@@ -78,323 +80,478 @@
   "notes": [
     {
       "note_id": "S-3.3-note-1",
+      "line": 1,
       "target": "#S-3.3-l1",
       "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
       "evidence": {
-        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_388.jp2/full/full/0/default/jpg",
-        "verse": 1,
-        "assessment": "The separate E, broad space and smaller writing of the opening are visible on page 388. The short group after deos remains tentatively ine: its joined strokes do not securely distinguish an alternative reading. The right inscription ad p̄iurā amicā is retained with conventional expansions. The layout and writing size do not identify a historical hand."
-      }
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_388.jp2/full/full/0/default/jpg",
+        "manuscript_page": "388",
+        "viewer_page": 389,
+        "local_image": "/tmp/amores-review-repair/S-388.jpg",
+        "assessment": "Fresh full source-image inspection on 2026-10-26: The separate E, broad space and smaller writing of the opening are visible on page 388. The short group after deos remains tentatively ine: its joined strokes do not securely distinguish an alternative reading. The right inscription ad p̄iurā amicā is retained with conventional expansions. The layout and writing size do not identify a historical hand."
+      },
+      "change": "Current target and note investigated against actual full-page source and enlarged bands; retained conservatively or updated as described."
     },
     {
       "note_id": "S-3.3-note-3",
+      "line": 3,
       "target": "#S-3.3-l3",
       "status": "resolved",
+      "previous_type": "observation",
       "evidence": {
-        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_388.jp2/full/full/0/default/jpg",
-        "verse": 3,
-        "assessment": "The independent source reading confirms the bars in Quā and n̄dū, represented schematically and expanded Quam and nondum. The remaining words and terminal stop agree with the image."
-      }
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_388.jp2/full/full/0/default/jpg",
+        "manuscript_page": "388",
+        "viewer_page": 389,
+        "local_image": "/tmp/amores-review-repair/S-388.jpg",
+        "assessment": "Fresh full source-image inspection on 2026-10-26: The independent source reading confirms the bars in Quā and n̄dū, represented schematically and expanded Quam and nondum. The remaining words and terminal stop agree with the image."
+      },
+      "change": "Current target and note investigated against actual full-page source and enlarged bands; retained conservatively or updated as described."
     },
     {
       "note_id": "S-3.3-note-4",
+      "line": 4,
       "target": "#S-3.3-l4",
       "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
       "evidence": {
-        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_388.jp2/full/full/0/default/jpg",
-        "verse": 4,
-        "assessment": "The horizontal cancellation through the short barred group before numina is visible. Its tentative letters nū remain unclear inside del; no complete earlier word or sequence of historical hands is inferred. The following numina lesit habet is retained."
-      }
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_388.jp2/full/full/0/default/jpg",
+        "manuscript_page": "388",
+        "viewer_page": 389,
+        "local_image": "/tmp/amores-review-repair/S-388.jpg",
+        "assessment": "Fresh full source-image inspection on 2026-10-26: The horizontal cancellation through the short barred group before numina is visible. Its tentative letters nū remain unclear inside del; no complete earlier word or sequence of historical hands is inferred. The following numina lesit habet is retained."
+      },
+      "change": "Current target and note investigated against actual full-page source and enlarged bands; retained conservatively or updated as described."
     },
     {
       "note_id": "S-3.3-note-8",
+      "line": 8,
       "target": "#S-3.3-l8",
       "status": "resolved",
+      "previous_type": "observation",
       "evidence": {
-        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_388.jp2/full/full/0/default/jpg",
-        "verse": 8,
-        "assessment": "Both occurrences of longa decensqꝫ and the final manet are visible. The repeated wording and que suspensions are retained as written."
-      }
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_388.jp2/full/full/0/default/jpg",
+        "manuscript_page": "388",
+        "viewer_page": 389,
+        "local_image": "/tmp/amores-review-repair/S-388.jpg",
+        "assessment": "Fresh full source-image inspection on 2026-10-26: Both occurrences of longa decensqꝫ and the final manet are visible. The repeated wording and que suspensions are retained as written."
+      },
+      "change": "Current target and note investigated against actual full-page source and enlarged bands; retained conservatively or updated as described."
     },
     {
       "note_id": "S-3.3-note-9",
+      "line": 9,
       "target": "#S-3.3-l9",
       "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
       "evidence": {
-        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_388.jp2/full/full/0/default/jpg",
-        "verse": 9,
-        "assessment": "The enlarged verb has a crowded sequence of low strokes between radi- and the final t. The tentative radiauit is retained under unclear; the image does not securely separate every minim or establish an alternative ending."
-      }
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_388.jp2/full/full/0/default/jpg",
+        "manuscript_page": "388",
+        "viewer_page": 389,
+        "local_image": "/tmp/amores-review-repair/S-388.jpg",
+        "assessment": "Fresh full source-image inspection on 2026-10-26: The enlarged verb has a crowded sequence of low strokes between radi- and the final t. The tentative radiauit is retained under unclear; the image does not securely separate every minim or establish an alternative ending."
+      },
+      "change": "Current target and note investigated against actual full-page source and enlarged bands; retained conservatively or updated as described."
     },
     {
       "note_id": "S-3.3-note-11",
+      "line": 11,
       "target": "#S-3.3-l11",
       "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
       "evidence": {
-        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_388.jp2/full/full/0/default/jpg",
-        "verse": 11,
-        "assessment": "The contraction after Scilicet has a visible bar and joined minims. Its schematic source form ōne is retained, with omne explicitly a qualified expansion. The following falsū and iurare puellis are supported."
-      }
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_388.jp2/full/full/0/default/jpg",
+        "manuscript_page": "388",
+        "viewer_page": 389,
+        "local_image": "/tmp/amores-review-repair/S-388.jpg",
+        "assessment": "Fresh full source-image inspection on 2026-10-26: The contraction after Scilicet has a visible bar and joined minims. Its schematic source form ōne is retained, with omne explicitly a qualified expansion. The following falsū and iurare puellis are supported."
+      },
+      "change": "Current target and note investigated against actual full-page source and enlarged bands; retained conservatively or updated as described."
     },
     {
       "note_id": "S-3.3-note-13",
+      "line": 13,
       "target": "#S-3.3-l13",
       "status": "resolved",
+      "previous_type": "observation",
       "evidence": {
-        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_388.jp2/full/full/0/default/jpg",
-        "verse": 13,
-        "assessment": "The crossed-p sign followed by q and a que suspension is visible. The following suos illā nuper iurasse recordor agrees with the source, including the contracted illā."
-      }
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_388.jp2/full/full/0/default/jpg",
+        "manuscript_page": "388",
+        "viewer_page": 389,
+        "local_image": "/tmp/amores-review-repair/S-388.jpg",
+        "assessment": "Fresh full source-image inspection on 2026-10-26: The crossed-p sign followed by q and a que suspension is visible. The following suos illā nuper iurasse recordor agrees with the source, including the contracted illā."
+      },
+      "change": "Current target and note investigated against actual full-page source and enlarged bands; retained conservatively or updated as described."
     },
     {
       "note_id": "S-3.3-note-16",
+      "line": 16,
       "target": "#S-3.3-l16",
       "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
       "evidence": {
-        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_388.jp2/full/full/0/default/jpg",
-        "verse": 16,
-        "assessment": "The marked group after At has merged strokes and a bar. The tentative cūs is now explicitly an unclear abbreviation and remains unexpanded. Meriti cur ego damna tuli is retained without grammatical emendation."
-      }
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_388.jp2/full/full/0/default/jpg",
+        "manuscript_page": "388",
+        "viewer_page": 389,
+        "local_image": "/tmp/amores-review-repair/S-388.jpg",
+        "assessment": "Fresh full source-image inspection on 2026-10-26: The marked group after At has merged strokes and a bar. The tentative cūs is now explicitly an unclear abbreviation and remains unexpanded. Meriti cur ego damna tuli is retained without grammatical emendation."
+      },
+      "change": "Current target and note investigated against actual full-page source and enlarged bands; retained conservatively or updated as described."
     },
     {
       "note_id": "S-3.3-note-17",
+      "line": 17,
       "target": "#S-3.3-l17",
       "status": "resolved",
+      "previous_type": "observation",
       "evidence": {
-        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_388.jp2/full/full/0/default/jpg",
-        "verse": 17,
-        "assessment": "The source supports inuidię with a descending caudata, the suspension uobꝰ, the spelling cepheia and the final est contraction. No spelling is normalized."
-      }
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_388.jp2/full/full/0/default/jpg",
+        "manuscript_page": "388",
+        "viewer_page": 389,
+        "local_image": "/tmp/amores-review-repair/S-388.jpg",
+        "assessment": "Fresh full source-image inspection on 2026-10-26: The source supports inuidię with a descending caudata, the suspension uobꝰ, the spelling cepheia and the final est contraction. No spelling is normalized."
+      },
+      "change": "Current target and note investigated against actual full-page source and enlarged bands; retained conservatively or updated as described."
     },
     {
       "note_id": "S-3.3-note-18",
+      "line": 18,
       "target": "#S-3.3-l18",
       "status": "resolved",
+      "previous_type": "observation",
       "evidence": {
-        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_388.jp2/full/full/0/default/jpg",
-        "verse": 18,
-        "assessment": "The enlarged initial sign has the looped p form represented by the declared pro glyph. Male formosa iussa parente mori is visible; the glyph does not assert an addition or a correction."
-      }
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_388.jp2/full/full/0/default/jpg",
+        "manuscript_page": "388",
+        "viewer_page": 389,
+        "local_image": "/tmp/amores-review-repair/S-388.jpg",
+        "assessment": "Fresh full source-image inspection on 2026-10-26: The enlarged initial sign has the looped p form represented by the declared pro glyph. Male formosa iussa parente mori is visible; the glyph does not assert an addition or a correction."
+      },
+      "change": "Current target and note investigated against actual full-page source and enlarged bands; retained conservatively or updated as described."
     },
     {
       "note_id": "S-3.3-note-19",
+      "line": 19,
       "target": "#S-3.3-l19",
       "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
       "evidence": {
-        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_388.jp2/full/full/0/default/jpg",
-        "verse": 19,
-        "assessment": "The enlarged opening supports Non satis, correcting first-pass Non sitis. The following marked e remains an unexpanded abbreviation. The later siue/sine distinction remains locally unclear; the physical blemish beside testes is not treated as an erasure."
-      }
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_388.jp2/full/full/0/default/jpg",
+        "manuscript_page": "388",
+        "viewer_page": 389,
+        "local_image": "/tmp/amores-review-repair/S-388.jpg",
+        "assessment": "Fresh full source-image inspection on 2026-10-26: The enlarged opening supports Non satis, correcting first-pass Non sitis. The following marked e remains an unexpanded abbreviation. The later siue/sine distinction remains locally unclear; the physical blemish beside testes is not treated as an erasure."
+      },
+      "change": "Current target and note investigated against actual full-page source and enlarged bands; retained conservatively or updated as described."
     },
     {
       "note_id": "S-3.3-note-20",
+      "line": 20,
       "target": "#S-3.3-l20",
       "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
       "evidence": {
-        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_388.jp2/full/full/0/default/jpg",
-        "verse": 20,
-        "assessment": "The source supports Et mecū, followed by a crowded word tentatively lusos and then irride multa deos. The uncertain internal letter shapes are retained locally; word order is not emended."
-      }
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_388.jp2/full/full/0/default/jpg",
+        "manuscript_page": "388",
+        "viewer_page": 389,
+        "local_image": "/tmp/amores-review-repair/S-388.jpg",
+        "assessment": "Fresh full source-image inspection on 2026-10-26: The source supports Et mecū, followed by a crowded word tentatively lusos and then irride multa deos. The uncertain internal letter shapes are retained locally; word order is not emended."
+      },
+      "change": "Current target and note investigated against actual full-page source and enlarged bands; retained conservatively or updated as described."
     },
     {
       "note_id": "S-3.3-note-21",
+      "line": 21,
       "target": "#S-3.3-l21",
       "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
       "evidence": {
-        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_388.jp2/full/full/0/default/jpg",
-        "verse": 21,
-        "assessment": "The first marked word after sua contains more strokes than the first-pass p̄iuri. The crossed-p is followed by a tentative iurān sequence with a visible bar; this remains unexpanded and unclear. The final faded p̄tis is also an unclear abbreviation. No complete reading is imported to resolve either contraction."
-      }
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_388.jp2/full/full/0/default/jpg",
+        "manuscript_page": "388",
+        "viewer_page": 389,
+        "local_image": "/tmp/amores-review-repair/S-388.jpg",
+        "assessment": "Fresh full source-image inspection on 2026-10-26: The first marked word after sua contains more strokes than the first-pass p̄iuri. The crossed-p is followed by a tentative iurān sequence with a visible bar; this remains unexpanded and unclear. The final faded p̄tis is also an unclear abbreviation. No complete reading is imported to resolve either contraction."
+      },
+      "change": "Current target and note investigated against actual full-page source and enlarged bands; retained conservatively or updated as described."
     },
     {
       "note_id": "S-3.3-note-22",
+      "line": 22,
       "target": "#S-3.3-l22",
       "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
       "evidence": {
-        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
-        "verse": 22,
-        "assessment": "Page 389 begins with this verse. Virgine, decepta and deceptore are pale and remain locally unclear; the mark near the end of decepta cannot be securely separated from surrounding ascenders as an independent abbreviation mark. Final suo is visible. Fading does not establish missing transmission."
-      }
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
+        "manuscript_page": "389",
+        "viewer_page": 390,
+        "local_image": "/tmp/amores-review-repair/S-389.jpg",
+        "assessment": "Fresh full source-image inspection on 2026-10-26: Page 389 begins with this verse. Virgine, decepta and deceptore are pale and remain locally unclear; the mark near the end of decepta cannot be securely separated from surrounding ascenders as an independent abbreviation mark. Final suo is visible. Fading does not establish missing transmission."
+      },
+      "change": "Current target and note investigated against actual full-page source and enlarged bands; retained conservatively or updated as described."
     },
     {
       "note_id": "S-3.3-note-23",
+      "line": 23,
       "target": "#S-3.3-l23",
       "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
       "evidence": {
-        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
-        "verse": 23,
-        "assessment": "The faint middle groups remain tentatively per nōn under unclear. The following d̄s and ē are explicitly retained as unexpanded abbreviations. Final feminaqꝫ tantū is supported; no syntax-driven reconstruction is supplied."
-      }
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
+        "manuscript_page": "389",
+        "viewer_page": 390,
+        "local_image": "/tmp/amores-review-repair/S-389.jpg",
+        "assessment": "Fresh full source-image inspection on 2026-10-26: Fresh enlargement supports a short re-like group after sine and a following nom̄-like contraction. These replace the previous tentative per nōn, but remain locally unclear and unexpanded because of fading. The following d̄s and ē remain explicit abbreviations; final feminaqꝫ tantū is supported."
+      },
+      "change": "Current target and note investigated against actual full-page source and enlarged bands; retained conservatively or updated as described."
     },
     {
       "note_id": "S-3.3-note-24",
+      "line": 24,
       "target": "#S-3.3-l24",
       "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
       "evidence": {
-        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
-        "verse": 24,
-        "assessment": "The short group between forma and credulitate looks ppos and remains an unclear, unexpanded abbreviation. The surrounding words and initial et ligature are supported by the image."
-      }
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
+        "manuscript_page": "389",
+        "viewer_page": 390,
+        "local_image": "/tmp/amores-review-repair/S-389.jpg",
+        "assessment": "Fresh full source-image inspection on 2026-10-26: The short group between forma and credulitate looks ppos and remains an unclear, unexpanded abbreviation. The surrounding words and initial et ligature are supported by the image."
+      },
+      "change": "Current target and note investigated against actual full-page source and enlarged bands; retained conservatively or updated as described."
     },
     {
       "note_id": "S-3.3-note-25",
+      "line": 25,
       "target": "#S-3.3-l25",
       "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
       "evidence": {
-        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
-        "verse": 25,
-        "assessment": "At tu sis and ceteras amat ille puellas remain the source reading. The intervening marked d̄s and ē are explicit unexpanded abbreviations; their intended construction is not silently supplied."
-      }
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
+        "manuscript_page": "389",
+        "viewer_page": 390,
+        "local_image": "/tmp/amores-review-repair/S-389.jpg",
+        "assessment": "Fresh full source-image inspection on 2026-10-26: The faint opening previously transcribed At tu sis has joined strokes whose division cannot be securely established in this scan; that provisional reading is now locally unclear. The marked d̄s and ē remain unexpanded; ceteras amat ille puellas is retained from the source."
+      },
+      "change": "Current target and note investigated against actual full-page source and enlarged bands; retained conservatively or updated as described."
     },
     {
       "note_id": "S-3.3-note-27",
+      "line": 27,
       "target": "#S-3.3-l27",
       "status": "resolved",
+      "previous_type": "observation",
       "evidence": {
-        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
-        "verse": 27,
-        "assessment": "The verb ends in a marked t. The source form accingit̄ is now retained instead of writing accingit as an unmarked full word; accingitur is a qualified expansion. Nobꝰ fatifero mauors and ense remain supported."
-      }
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
+        "manuscript_page": "389",
+        "viewer_page": 390,
+        "local_image": "/tmp/amores-review-repair/S-389.jpg",
+        "assessment": "Fresh full source-image inspection on 2026-10-26: The verb ends in a marked t. The source form accingit̄ is now retained instead of writing accingit as an unmarked full word; accingitur is a qualified expansion. Nobꝰ fatifero mauors and ense remain supported."
+      },
+      "change": "Current target and note investigated against actual full-page source and enlarged bands; retained conservatively or updated as described."
     },
     {
       "note_id": "S-3.3-note-29",
+      "line": 29,
       "target": "#S-3.3-l29",
       "status": "resolved",
+      "previous_type": "observation",
       "evidence": {
-        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
-        "verse": 29,
-        "assessment": "The source has curuant̄ with a final suspension, corrected from the fully written-out first-pass curuantur. Nobis flexibiles, apollinis and arcꝰ are retained; curuantur is available as the expansion."
-      }
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
+        "manuscript_page": "389",
+        "viewer_page": 390,
+        "local_image": "/tmp/amores-review-repair/S-389.jpg",
+        "assessment": "Fresh full source-image inspection on 2026-10-26: The source has curuant̄ with a final suspension, corrected from the fully written-out first-pass curuantur. Nobis flexibiles, apollinis and arcꝰ are retained; curuantur is available as the expansion."
+      },
+      "change": "Current target and note investigated against actual full-page source and enlarged bands; retained conservatively or updated as described."
     },
     {
       "note_id": "S-3.3-note-31",
+      "line": 31,
       "target": "#S-3.3-l31",
       "status": "resolved",
+      "previous_type": "observation",
       "evidence": {
-        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
-        "verse": 31,
-        "assessment": "Visible marks contract the word after metuunt. The schematic offēdē is now displayed, with offendere as a qualified expansion. Formosas superi metuunt and lesi remain supported by the source."
-      }
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
+        "manuscript_page": "389",
+        "viewer_page": 390,
+        "local_image": "/tmp/amores-review-repair/S-389.jpg",
+        "assessment": "Fresh full source-image inspection on 2026-10-26: Visible marks contract the word after metuunt. The schematic offēdē is now displayed, with offendere as a qualified expansion. Formosas superi metuunt and lesi remain supported by the source."
+      },
+      "change": "Current target and note investigated against actual full-page source and enlarged bands; retained conservatively or updated as described."
     },
     {
       "note_id": "S-3.3-note-33",
+      "line": 33,
       "target": "#S-3.3-l33",
       "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
       "evidence": {
-        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
-        "verse": 33,
-        "assessment": "The faded word after pia uiolat remains tentatively focis. The marked q̄sqꝫ and inpūe are supported. No competing construction or reading is supplied to resolve the uncertain word."
-      }
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
+        "manuscript_page": "389",
+        "viewer_page": 390,
+        "local_image": "/tmp/amores-review-repair/S-389.jpg",
+        "assessment": "Fresh full source-image inspection on 2026-10-26: The faded word after pia uiolat remains tentatively focis. The marked q̄sqꝫ and inpūe are supported. No competing construction or reading is supplied to resolve the uncertain word."
+      },
+      "change": "Current target and note investigated against actual full-page source and enlarged bands; retained conservatively or updated as described."
     },
     {
       "note_id": "S-3.3-note-34",
+      "line": 34,
       "target": "#S-3.3-l34",
       "status": "resolved",
+      "previous_type": "observation",
       "evidence": {
-        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
-        "verse": 34,
-        "assessment": "The short form before uiris has a mark over its later letters; the first-pass additional bar over the initial i was not supported. It is represented inē, with inesse a qualified expansion."
-      }
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
+        "manuscript_page": "389",
+        "viewer_page": 390,
+        "local_image": "/tmp/amores-review-repair/S-389.jpg",
+        "assessment": "Fresh full source-image inspection on 2026-10-26: The short form before uiris has a mark over its later letters; the first-pass additional bar over the initial i was not supported. It is represented inē, with inesse a qualified expansion."
+      },
+      "change": "Current target and note investigated against actual full-page source and enlarged bands; retained conservatively or updated as described."
     },
     {
       "note_id": "S-3.3-note-36",
+      "line": 36,
       "target": "#S-3.3-l36",
       "status": "resolved",
+      "previous_type": "observation",
       "evidence": {
-        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
-        "verse": 36,
-        "assessment": "The ornate initial M and following issaqꝫ are visible. Periuras tela ferire uetat agrees with the image; the initial is not interpreted as an et ligature or a cancellation."
-      }
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
+        "manuscript_page": "389",
+        "viewer_page": 390,
+        "local_image": "/tmp/amores-review-repair/S-389.jpg",
+        "assessment": "Fresh full source-image inspection on 2026-10-26: The ornate initial M and following issaqꝫ are visible. Periuras tela ferire uetat agrees with the image; the initial is not interpreted as an et ligature or a cancellation."
+      },
+      "change": "Current target and note investigated against actual full-page source and enlarged bands; retained conservatively or updated as described."
     },
     {
       "note_id": "S-3.3-note-40",
+      "line": 40,
       "target": "#S-3.3-l40",
-      "status": "resolved",
+      "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
       "evidence": {
-        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
-        "verse": 40,
-        "assessment": "The source contracts mat̄s as well as pat̄ and opꝰ. The missed matris contraction is now explicit. The spelling bacho and the surrounding words remain unchanged."
-      }
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
+        "manuscript_page": "389",
+        "viewer_page": 390,
+        "local_image": "/tmp/amores-review-repair/S-389.jpg",
+        "assessment": "Fresh full source-image inspection on 2026-10-26: The final faint group has an o followed by an n-like sequence and a raised mark, provisionally on̄. A p descender and a separately identifiable us sign are not secure, so the earlier opꝰ/opus analysis is removed. The abbreviation remains unclear and unexpanded; the pat̄ and mat̄s contractions and spelling bacho are retained."
+      },
+      "change": "Current target and note investigated against actual full-page source and enlarged bands; retained conservatively or updated as described."
     },
     {
       "note_id": "S-3.3-note-42",
+      "line": 42,
       "target": "#S-3.3-l42",
       "status": "resolved",
+      "previous_type": "observation",
       "evidence": {
-        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
-        "verse": 42,
-        "assessment": "Both parallel clauses use q̄qꝫ and h̄nt; oculos and pectꝰ are visible. Each written contraction is retained alongside its expansion."
-      }
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
+        "manuscript_page": "389",
+        "viewer_page": 390,
+        "local_image": "/tmp/amores-review-repair/S-389.jpg",
+        "assessment": "Fresh full source-image inspection on 2026-10-26: Both parallel clauses use q̄qꝫ and h̄nt; oculos and pectꝰ are visible. Each written contraction is retained alongside its expansion."
+      },
+      "change": "Current target and note investigated against actual full-page source and enlarged bands; retained conservatively or updated as described."
     },
     {
       "note_id": "S-3.3-note-43",
+      "line": 43,
       "target": "#S-3.3-l43",
       "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
       "evidence": {
-        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
-        "verse": 43,
-        "assessment": "The source opening is Si d̄s ipse foret. The marked group before sine is shorter than a fully written numen and is retained tentatively as nūn, unexpanded and unclear. The following sine fraude liceret is supported."
-      }
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
+        "manuscript_page": "389",
+        "viewer_page": 390,
+        "local_image": "/tmp/amores-review-repair/S-389.jpg",
+        "assessment": "Fresh full source-image inspection on 2026-10-26: The source opening is Si d̄s ipse foret. The marked group before sine is shorter than a fully written numen and is retained tentatively as nūn, unexpanded and unclear. The following sine fraude liceret is supported."
+      },
+      "change": "Current target and note investigated against actual full-page source and enlarged bands; retained conservatively or updated as described."
     },
     {
       "note_id": "S-3.3-note-44",
+      "line": 44,
       "target": "#S-3.3-l44",
       "status": "resolved",
+      "previous_type": "observation",
       "evidence": {
-        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
-        "verse": 44,
-        "assessment": "The source displays a contraction bar in mēdaci. The full mendaci of the first pass has been moved to the expansion; Femina, falleret ore and meū remain supported."
-      }
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
+        "manuscript_page": "389",
+        "viewer_page": 390,
+        "local_image": "/tmp/amores-review-repair/S-389.jpg",
+        "assessment": "Fresh full source-image inspection on 2026-10-26: The source displays a contraction bar in mēdaci. The full mendaci of the first pass has been moved to the expansion; Femina, falleret ore and meū remain supported."
+      },
+      "change": "Current target and note investigated against actual full-page source and enlarged bands; retained conservatively or updated as described."
     },
     {
       "note_id": "S-3.3-note-45",
+      "line": 45,
       "target": "#S-3.3-l45",
       "status": "resolved",
+      "previous_type": "observation",
       "evidence": {
-        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
-        "verse": 45,
-        "assessment": "The final bar of iurarē is visible in the enlargement. The first-pass unmarked, unclear iurare has been replaced by the written abbreviation, with iurarem as a qualified expansion. The following uerū iurasse puellas remains supported."
-      }
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
+        "manuscript_page": "389",
+        "viewer_page": 390,
+        "local_image": "/tmp/amores-review-repair/S-389.jpg",
+        "assessment": "Fresh full source-image inspection on 2026-10-26: The final bar of iurarē is visible in the enlargement. The first-pass unmarked, unclear iurare has been replaced by the written abbreviation, with iurarem as a qualified expansion. The following uerū iurasse puellas remains supported."
+      },
+      "change": "Current target and note investigated against actual full-page source and enlarged bands; retained conservatively or updated as described."
     },
     {
       "note_id": "S-3.3-note-46",
+      "line": 46,
       "target": "#S-3.3-l46",
       "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
       "evidence": {
-        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
-        "verse": 46,
-        "assessment": "The n̄ suspension is retained, with non as a qualified expansion instead of the unsupported nam. After diceret the marked e/t-like group is longer than the first-pass ē and remains tentatively eēt, unexpanded and unclear. Final d̄s is retained."
-      }
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
+        "manuscript_page": "389",
+        "viewer_page": 390,
+        "local_image": "/tmp/amores-review-repair/S-389.jpg",
+        "assessment": "Fresh full source-image inspection on 2026-10-26: The n̄ suspension is retained, with non as a qualified expansion instead of the unsupported nam. After diceret the marked e/t-like group is longer than the first-pass ē and remains tentatively eēt, unexpanded and unclear. Final d̄s is retained."
+      },
+      "change": "Current target and note investigated against actual full-page source and enlarged bands; retained conservatively or updated as described."
     },
     {
       "note_id": "S-3.3-note-47",
+      "line": 47,
       "target": "#S-3.3-l47",
       "status": "documented-uncertainty",
+      "previous_type": "uncertainty",
       "evidence": {
-        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
-        "verse": 47,
-        "assessment": "The final suspended word has a possible baseline minim before the raised ending sign. It is represented moderat[i]ꝰ with the i locally unclear, and moderatius explicitly a low-certainty expansion. The preceding t̄m and illor̄ remain written contractions; no missing ending is asserted as certain."
-      }
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
+        "manuscript_page": "389",
+        "viewer_page": 390,
+        "local_image": "/tmp/amores-review-repair/S-389.jpg",
+        "assessment": "Fresh full source-image inspection on 2026-10-26: The final suspended word has a possible baseline minim before the raised ending sign. It is represented moderat[i]ꝰ with the i locally unclear, and moderatius explicitly a low-certainty expansion. The preceding t̄m and illor̄ remain written contractions; no missing ending is asserted as certain."
+      },
+      "change": "Current target and note investigated against actual full-page source and enlarged bands; retained conservatively or updated as described."
     },
     {
       "note_id": "S-3.3-note-48",
+      "line": 48,
       "target": "#S-3.3-l48",
       "status": "resolved",
+      "previous_type": "observation",
       "evidence": {
-        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
-        "verse": 48,
-        "assessment": "Aut oculis certe parce puella meis and its terminal stop are visible. The following poem opens below this verse and is used only as boundary evidence."
-      }
+        "image": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
+        "manuscript_page": "389",
+        "viewer_page": 390,
+        "local_image": "/tmp/amores-review-repair/S-389.jpg",
+        "assessment": "Fresh full source-image inspection on 2026-10-26: Aut oculis certe parce puella meis and its terminal stop are visible. The following poem opens below this verse and is used only as boundary evidence."
+      },
+      "change": "Current target and note investigated against actual full-page source and enlarged bands; retained conservatively or updated as described."
     }
   ],
   "counts": {
-    "resolved": 15,
-    "documented-uncertainty": 16,
+    "resolved": 14,
+    "documented-uncertainty": 17,
     "escalate": 0
   },
-  "reviewed_candidate_sha256": "cf344617d25f5d8cc877e198d67413c99e9927500ba8027b963e4d4e4a4a6a7c",
-  "review_report_sha256": "edfd585f560d1bd8926454ab94a9c9155d525409342255af9fdc9d57001c32ce",
-  "reviewed_xml_sha256": "e5404722939bd196c299b1e985f9609f815a5b11bdb439af8802b987bf4a3307",
+  "reviewed_candidate_sha256": "20b4394fa21844c5715d4c017134ab77a03a429d56ed5bf37fe56dd1d6ea8c62",
+  "review_report_sha256": "2da5f47b324eaad149c15dcf69697826cfb47a78acc75b782dca85a4d7cea7f0",
+  "reviewed_xml_sha256": "1c0bff897a957c16a74f2d3f3725f132efc0c6df32eae5999d42b0f2ff1c14ad",
   "layout_review": {
     "reviewer_agent": "/root",
     "date": "2026-09-09",
@@ -430,5 +587,469 @@
     ],
     "retained_indents": [],
     "evidence": "Full-page source inspection shows aligned regular verse initials, without systematic alternate-line indentation. The explicit space and smaller writing at the opening remain separate."
-  }
+  },
+  "status": "fresh-full-source-pass-complete",
+  "fresh_source_review": {
+    "date": "2026-10-26",
+    "scope": "all-extant-verses-and-all-current-notes",
+    "count": 48,
+    "ranges": [
+      {
+        "manuscript_page": "388",
+        "viewer_page": 389,
+        "start": 1,
+        "end": 21,
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_388.jp2/full/full/0/default/jpg"
+      },
+      {
+        "manuscript_page": "389",
+        "viewer_page": 390,
+        "start": 22,
+        "end": 48,
+        "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg"
+      }
+    ],
+    "production_baseline_sha256": "cf344617d25f5d8cc877e198d67413c99e9927500ba8027b963e4d4e4a4a6a7c",
+    "production_relative_changes": [
+      "Verse23: correct the tentative faint middle groups from per nōn to re nom̄, retaining unclear and no inferred expansion.",
+      "Verse25: retain the current opening provisionally under unclear because fading prevents a secure division and identification of its joined strokes.",
+      "Verse40: replace unsupported opꝰ/opus with the faint on̄-like group, locally unclear and unexpanded; no familiar ending is supplied."
+    ]
+  },
+  "review_history": [
+    {
+      "witness": "S",
+      "poem": "3.3",
+      "date": "2026-09-09",
+      "reviewer": "OpenAI Codex primary agent, independent second source reader",
+      "author_agent": "/root/encode_s",
+      "reviewer_agent": "/root",
+      "review_type": "independent-second-agent-image-and-encoding-review",
+      "human_approved": false,
+      "line_coverage": {
+        "count": 48,
+        "ranges": [
+          {
+            "manuscript_page": "388",
+            "viewer_page": 389,
+            "start": 1,
+            "end": 21
+          },
+          {
+            "manuscript_page": "389",
+            "viewer_page": 390,
+            "start": 22,
+            "end": 48
+          }
+        ]
+      },
+      "line_order": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "absent_lines": [],
+      "notes": [
+        {
+          "note_id": "S-3.3-note-1",
+          "target": "#S-3.3-l1",
+          "status": "documented-uncertainty",
+          "evidence": {
+            "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_388.jp2/full/full/0/default/jpg",
+            "verse": 1,
+            "assessment": "The separate E, broad space and smaller writing of the opening are visible on page 388. The short group after deos remains tentatively ine: its joined strokes do not securely distinguish an alternative reading. The right inscription ad p̄iurā amicā is retained with conventional expansions. The layout and writing size do not identify a historical hand."
+          }
+        },
+        {
+          "note_id": "S-3.3-note-3",
+          "target": "#S-3.3-l3",
+          "status": "resolved",
+          "evidence": {
+            "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_388.jp2/full/full/0/default/jpg",
+            "verse": 3,
+            "assessment": "The independent source reading confirms the bars in Quā and n̄dū, represented schematically and expanded Quam and nondum. The remaining words and terminal stop agree with the image."
+          }
+        },
+        {
+          "note_id": "S-3.3-note-4",
+          "target": "#S-3.3-l4",
+          "status": "documented-uncertainty",
+          "evidence": {
+            "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_388.jp2/full/full/0/default/jpg",
+            "verse": 4,
+            "assessment": "The horizontal cancellation through the short barred group before numina is visible. Its tentative letters nū remain unclear inside del; no complete earlier word or sequence of historical hands is inferred. The following numina lesit habet is retained."
+          }
+        },
+        {
+          "note_id": "S-3.3-note-8",
+          "target": "#S-3.3-l8",
+          "status": "resolved",
+          "evidence": {
+            "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_388.jp2/full/full/0/default/jpg",
+            "verse": 8,
+            "assessment": "Both occurrences of longa decensqꝫ and the final manet are visible. The repeated wording and que suspensions are retained as written."
+          }
+        },
+        {
+          "note_id": "S-3.3-note-9",
+          "target": "#S-3.3-l9",
+          "status": "documented-uncertainty",
+          "evidence": {
+            "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_388.jp2/full/full/0/default/jpg",
+            "verse": 9,
+            "assessment": "The enlarged verb has a crowded sequence of low strokes between radi- and the final t. The tentative radiauit is retained under unclear; the image does not securely separate every minim or establish an alternative ending."
+          }
+        },
+        {
+          "note_id": "S-3.3-note-11",
+          "target": "#S-3.3-l11",
+          "status": "documented-uncertainty",
+          "evidence": {
+            "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_388.jp2/full/full/0/default/jpg",
+            "verse": 11,
+            "assessment": "The contraction after Scilicet has a visible bar and joined minims. Its schematic source form ōne is retained, with omne explicitly a qualified expansion. The following falsū and iurare puellis are supported."
+          }
+        },
+        {
+          "note_id": "S-3.3-note-13",
+          "target": "#S-3.3-l13",
+          "status": "resolved",
+          "evidence": {
+            "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_388.jp2/full/full/0/default/jpg",
+            "verse": 13,
+            "assessment": "The crossed-p sign followed by q and a que suspension is visible. The following suos illā nuper iurasse recordor agrees with the source, including the contracted illā."
+          }
+        },
+        {
+          "note_id": "S-3.3-note-16",
+          "target": "#S-3.3-l16",
+          "status": "documented-uncertainty",
+          "evidence": {
+            "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_388.jp2/full/full/0/default/jpg",
+            "verse": 16,
+            "assessment": "The marked group after At has merged strokes and a bar. The tentative cūs is now explicitly an unclear abbreviation and remains unexpanded. Meriti cur ego damna tuli is retained without grammatical emendation."
+          }
+        },
+        {
+          "note_id": "S-3.3-note-17",
+          "target": "#S-3.3-l17",
+          "status": "resolved",
+          "evidence": {
+            "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_388.jp2/full/full/0/default/jpg",
+            "verse": 17,
+            "assessment": "The source supports inuidię with a descending caudata, the suspension uobꝰ, the spelling cepheia and the final est contraction. No spelling is normalized."
+          }
+        },
+        {
+          "note_id": "S-3.3-note-18",
+          "target": "#S-3.3-l18",
+          "status": "resolved",
+          "evidence": {
+            "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_388.jp2/full/full/0/default/jpg",
+            "verse": 18,
+            "assessment": "The enlarged initial sign has the looped p form represented by the declared pro glyph. Male formosa iussa parente mori is visible; the glyph does not assert an addition or a correction."
+          }
+        },
+        {
+          "note_id": "S-3.3-note-19",
+          "target": "#S-3.3-l19",
+          "status": "documented-uncertainty",
+          "evidence": {
+            "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_388.jp2/full/full/0/default/jpg",
+            "verse": 19,
+            "assessment": "The enlarged opening supports Non satis, correcting first-pass Non sitis. The following marked e remains an unexpanded abbreviation. The later siue/sine distinction remains locally unclear; the physical blemish beside testes is not treated as an erasure."
+          }
+        },
+        {
+          "note_id": "S-3.3-note-20",
+          "target": "#S-3.3-l20",
+          "status": "documented-uncertainty",
+          "evidence": {
+            "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_388.jp2/full/full/0/default/jpg",
+            "verse": 20,
+            "assessment": "The source supports Et mecū, followed by a crowded word tentatively lusos and then irride multa deos. The uncertain internal letter shapes are retained locally; word order is not emended."
+          }
+        },
+        {
+          "note_id": "S-3.3-note-21",
+          "target": "#S-3.3-l21",
+          "status": "documented-uncertainty",
+          "evidence": {
+            "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_388.jp2/full/full/0/default/jpg",
+            "verse": 21,
+            "assessment": "The first marked word after sua contains more strokes than the first-pass p̄iuri. The crossed-p is followed by a tentative iurān sequence with a visible bar; this remains unexpanded and unclear. The final faded p̄tis is also an unclear abbreviation. No complete reading is imported to resolve either contraction."
+          }
+        },
+        {
+          "note_id": "S-3.3-note-22",
+          "target": "#S-3.3-l22",
+          "status": "documented-uncertainty",
+          "evidence": {
+            "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
+            "verse": 22,
+            "assessment": "Page 389 begins with this verse. Virgine, decepta and deceptore are pale and remain locally unclear; the mark near the end of decepta cannot be securely separated from surrounding ascenders as an independent abbreviation mark. Final suo is visible. Fading does not establish missing transmission."
+          }
+        },
+        {
+          "note_id": "S-3.3-note-23",
+          "target": "#S-3.3-l23",
+          "status": "documented-uncertainty",
+          "evidence": {
+            "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
+            "verse": 23,
+            "assessment": "The faint middle groups remain tentatively per nōn under unclear. The following d̄s and ē are explicitly retained as unexpanded abbreviations. Final feminaqꝫ tantū is supported; no syntax-driven reconstruction is supplied."
+          }
+        },
+        {
+          "note_id": "S-3.3-note-24",
+          "target": "#S-3.3-l24",
+          "status": "documented-uncertainty",
+          "evidence": {
+            "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
+            "verse": 24,
+            "assessment": "The short group between forma and credulitate looks ppos and remains an unclear, unexpanded abbreviation. The surrounding words and initial et ligature are supported by the image."
+          }
+        },
+        {
+          "note_id": "S-3.3-note-25",
+          "target": "#S-3.3-l25",
+          "status": "documented-uncertainty",
+          "evidence": {
+            "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
+            "verse": 25,
+            "assessment": "At tu sis and ceteras amat ille puellas remain the source reading. The intervening marked d̄s and ē are explicit unexpanded abbreviations; their intended construction is not silently supplied."
+          }
+        },
+        {
+          "note_id": "S-3.3-note-27",
+          "target": "#S-3.3-l27",
+          "status": "resolved",
+          "evidence": {
+            "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
+            "verse": 27,
+            "assessment": "The verb ends in a marked t. The source form accingit̄ is now retained instead of writing accingit as an unmarked full word; accingitur is a qualified expansion. Nobꝰ fatifero mauors and ense remain supported."
+          }
+        },
+        {
+          "note_id": "S-3.3-note-29",
+          "target": "#S-3.3-l29",
+          "status": "resolved",
+          "evidence": {
+            "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
+            "verse": 29,
+            "assessment": "The source has curuant̄ with a final suspension, corrected from the fully written-out first-pass curuantur. Nobis flexibiles, apollinis and arcꝰ are retained; curuantur is available as the expansion."
+          }
+        },
+        {
+          "note_id": "S-3.3-note-31",
+          "target": "#S-3.3-l31",
+          "status": "resolved",
+          "evidence": {
+            "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
+            "verse": 31,
+            "assessment": "Visible marks contract the word after metuunt. The schematic offēdē is now displayed, with offendere as a qualified expansion. Formosas superi metuunt and lesi remain supported by the source."
+          }
+        },
+        {
+          "note_id": "S-3.3-note-33",
+          "target": "#S-3.3-l33",
+          "status": "documented-uncertainty",
+          "evidence": {
+            "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
+            "verse": 33,
+            "assessment": "The faded word after pia uiolat remains tentatively focis. The marked q̄sqꝫ and inpūe are supported. No competing construction or reading is supplied to resolve the uncertain word."
+          }
+        },
+        {
+          "note_id": "S-3.3-note-34",
+          "target": "#S-3.3-l34",
+          "status": "resolved",
+          "evidence": {
+            "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
+            "verse": 34,
+            "assessment": "The short form before uiris has a mark over its later letters; the first-pass additional bar over the initial i was not supported. It is represented inē, with inesse a qualified expansion."
+          }
+        },
+        {
+          "note_id": "S-3.3-note-36",
+          "target": "#S-3.3-l36",
+          "status": "resolved",
+          "evidence": {
+            "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
+            "verse": 36,
+            "assessment": "The ornate initial M and following issaqꝫ are visible. Periuras tela ferire uetat agrees with the image; the initial is not interpreted as an et ligature or a cancellation."
+          }
+        },
+        {
+          "note_id": "S-3.3-note-40",
+          "target": "#S-3.3-l40",
+          "status": "resolved",
+          "evidence": {
+            "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
+            "verse": 40,
+            "assessment": "The source contracts mat̄s as well as pat̄ and opꝰ. The missed matris contraction is now explicit. The spelling bacho and the surrounding words remain unchanged."
+          }
+        },
+        {
+          "note_id": "S-3.3-note-42",
+          "target": "#S-3.3-l42",
+          "status": "resolved",
+          "evidence": {
+            "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
+            "verse": 42,
+            "assessment": "Both parallel clauses use q̄qꝫ and h̄nt; oculos and pectꝰ are visible. Each written contraction is retained alongside its expansion."
+          }
+        },
+        {
+          "note_id": "S-3.3-note-43",
+          "target": "#S-3.3-l43",
+          "status": "documented-uncertainty",
+          "evidence": {
+            "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
+            "verse": 43,
+            "assessment": "The source opening is Si d̄s ipse foret. The marked group before sine is shorter than a fully written numen and is retained tentatively as nūn, unexpanded and unclear. The following sine fraude liceret is supported."
+          }
+        },
+        {
+          "note_id": "S-3.3-note-44",
+          "target": "#S-3.3-l44",
+          "status": "resolved",
+          "evidence": {
+            "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
+            "verse": 44,
+            "assessment": "The source displays a contraction bar in mēdaci. The full mendaci of the first pass has been moved to the expansion; Femina, falleret ore and meū remain supported."
+          }
+        },
+        {
+          "note_id": "S-3.3-note-45",
+          "target": "#S-3.3-l45",
+          "status": "resolved",
+          "evidence": {
+            "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
+            "verse": 45,
+            "assessment": "The final bar of iurarē is visible in the enlargement. The first-pass unmarked, unclear iurare has been replaced by the written abbreviation, with iurarem as a qualified expansion. The following uerū iurasse puellas remains supported."
+          }
+        },
+        {
+          "note_id": "S-3.3-note-46",
+          "target": "#S-3.3-l46",
+          "status": "documented-uncertainty",
+          "evidence": {
+            "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
+            "verse": 46,
+            "assessment": "The n̄ suspension is retained, with non as a qualified expansion instead of the unsupported nam. After diceret the marked e/t-like group is longer than the first-pass ē and remains tentatively eēt, unexpanded and unclear. Final d̄s is retained."
+          }
+        },
+        {
+          "note_id": "S-3.3-note-47",
+          "target": "#S-3.3-l47",
+          "status": "documented-uncertainty",
+          "evidence": {
+            "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
+            "verse": 47,
+            "assessment": "The final suspended word has a possible baseline minim before the raised ending sign. It is represented moderat[i]ꝰ with the i locally unclear, and moderatius explicitly a low-certainty expansion. The preceding t̄m and illor̄ remain written contractions; no missing ending is asserted as certain."
+          }
+        },
+        {
+          "note_id": "S-3.3-note-48",
+          "target": "#S-3.3-l48",
+          "status": "resolved",
+          "evidence": {
+            "source": "https://www.e-codices.unifr.ch/loris/csg/csg-0864/csg-0864_389.jp2/full/full/0/default/jpg",
+            "verse": 48,
+            "assessment": "Aut oculis certe parce puella meis and its terminal stop are visible. The following poem opens below this verse and is used only as boundary evidence."
+          }
+        }
+      ],
+      "counts": {
+        "resolved": 15,
+        "documented-uncertainty": 16,
+        "escalate": 0
+      },
+      "reviewed_candidate_sha256": "cf344617d25f5d8cc877e198d67413c99e9927500ba8027b963e4d4e4a4a6a7c",
+      "review_report_sha256": "edfd585f560d1bd8926454ab94a9c9155d525409342255af9fdc9d57001c32ce",
+      "reviewed_xml_sha256": "e5404722939bd196c299b1e985f9609f815a5b11bdb439af8802b987bf4a3307",
+      "layout_review": {
+        "reviewer_agent": "/root",
+        "date": "2026-09-09",
+        "source_pages": [
+          388,
+          389
+        ],
+        "removed_indents": [
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          22,
+          24,
+          26,
+          28,
+          30,
+          32,
+          34,
+          36,
+          38,
+          40,
+          42,
+          44,
+          46,
+          48
+        ],
+        "retained_indents": [],
+        "evidence": "Full-page source inspection shows aligned regular verse initials, without systematic alternate-line indentation. The explicit space and smaller writing at the opening remain separate."
+      }
+    }
+  ]
 }

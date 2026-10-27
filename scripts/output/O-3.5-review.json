@@ -2,27 +2,28 @@
   "witness": "O",
   "poem": "3.5",
   "author_agent": "/root",
-  "reviewer_agent": "/root/encode_p",
-  "reviewer": "OpenAI Codex independent encode_p agent",
-  "date": "2026-09-09",
+  "reviewer_agent": "/root/w_review_c",
+  "reviewer": "OpenAI Codex w_review_c fresh independent full source-image reviewer",
+  "date": "2026-10-26",
   "status": "second-pass-complete",
-  "review_type": "independent-second-agent-image-and-encoding-review",
+  "review_type": "independent-second-agent-image-and-encoding-review; fresh-complete-source-reinspection",
   "human_approved": false,
   "line_coverage": {
     "count": 46,
     "ranges": [
       {
-        "page": 52,
+        "image": 100,
+        "printed_page": 52,
         "start": 1,
         "end": 25
       },
       {
-        "page": 53,
+        "image": 101,
+        "printed_page": 53,
         "start": 26,
         "end": 46
       }
-    ],
-    "absent_ranges": []
+    ]
   },
   "line_order": [
     1,
@@ -76,159 +77,159 @@
   "notes": [
     {
       "note_id": "O-3.5-note-1",
-      "target": "#O-3.5-l1",
       "line": 1,
+      "target": "#O-3.5-l1",
       "status": "resolved",
       "previous_type": "observation",
       "evidence": {
-        "page": 52,
         "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0104.jp2/full/max/0/default.jpg",
-        "local_image": "/tmp/amores-o-corpus/100.jpg",
-        "assessment": "Strip100-1 visibly opens quotation before Nox; strip101-0 closes it after ferant at32."
-      }
+        "page_position": "printed page 52; viewer image 100",
+        "assessment": "Fresh full-page and enlarged-band inspection independently confirms the source feature described by this note: The print opens a quoted passage before Nox, closing it after ferant at32. This source punctuation is retained, rather than limiting quotation to the explicit request at31."
+      },
+      "change": "Freshly checked against the actual printed source; current encoding retained."
     },
     {
       "note_id": "O-3.5-note-6",
-      "target": "#O-3.5-l6",
       "line": 6,
+      "target": "#O-3.5-l6",
       "status": "resolved",
       "previous_type": "observation",
       "evidence": {
-        "page": 52,
         "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0104.jp2/full/max/0/default.jpg",
-        "local_image": "/tmp/amores-o-corpus/100.jpg",
-        "assessment": "Strip100-1 clearly prints Umida without h."
-      }
+        "page_position": "printed page 52; viewer image 100",
+        "assessment": "Fresh full-page and enlarged-band inspection independently confirms the source feature described by this note: The source prints Umida without an initial h. This spelling is retained."
+      },
+      "change": "Freshly checked against the actual printed source; current encoding retained."
     },
     {
       "note_id": "O-3.5-note-8",
-      "target": "#O-3.5-l8",
       "line": 8,
+      "target": "#O-3.5-l8",
       "status": "resolved",
       "previous_type": "observation",
       "evidence": {
-        "page": 52,
         "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0104.jp2/full/max/0/default.jpg",
-        "local_image": "/tmp/amores-o-corpus/100.jpg",
-        "assessment": "Strip100-1 shows both parentheses enclosing the entire extant verse8."
-      }
+        "page_position": "printed page 52; viewer image 100",
+        "assessment": "Fresh full-page and enlarged-band inspection independently confirms the source feature described by this note: The entire parenthetical verse is printed in parentheses. It remains an extant verse rather than a deletion or an editorial note."
+      },
+      "change": "Freshly checked against the actual printed source; current encoding retained."
     },
     {
       "note_id": "O-3.5-note-14",
-      "target": "#O-3.5-l14",
       "line": 14,
+      "target": "#O-3.5-l14",
       "status": "resolved",
       "previous_type": "observation",
       "evidence": {
-        "page": 52,
         "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0104.jp2/full/max/0/default.jpg",
-        "local_image": "/tmp/amores-o-corpus/100.jpg",
-        "assessment": "Strip100-2 confirms commas after siccatam and lacte."
-      }
+        "page_position": "printed page 52; viewer image 100",
+        "assessment": "Fresh full-page and enlarged-band inspection independently confirms the source feature described by this note: The source places commas after siccatam and lacte. The unusual punctuation is retained as printed."
+      },
+      "change": "Freshly checked against the actual printed source; current encoding retained."
     },
     {
       "note_id": "O-3.5-note-18",
-      "target": "#O-3.5-l18",
       "line": 18,
+      "target": "#O-3.5-l18",
       "status": "resolved",
       "previous_type": "observation",
       "evidence": {
-        "page": 52,
         "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0104.jp2/full/max/0/default.jpg",
-        "local_image": "/tmp/amores-o-corpus/100.jpg",
-        "assessment": "Strip100-2 reads Atque iterum pasto pascitur ante cibo, with that word order and final comma."
-      }
+        "page_position": "printed page 52; viewer image 100",
+        "assessment": "Fresh full-page and enlarged-band inspection independently confirms the source feature described by this note: The source reads Atque iterum pasto pascitur ante cibo, with pasto and ante retained in that order."
+      },
+      "change": "Freshly checked against the actual printed source; current encoding retained."
     },
     {
       "note_id": "O-3.5-note-25",
-      "target": "#O-3.5-l25",
       "line": 25,
+      "target": "#O-3.5-l25",
       "status": "resolved",
       "previous_type": "observation",
       "evidence": {
-        "page": 52,
         "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0104.jp2/full/max/0/default.jpg",
-        "local_image": "/tmp/amores-o-corpus/100.jpg",
-        "assessment": "Bottom strip100-3 clearly reads relinquit; strip101-1 confirms reliquit at41. Next page starts at26."
-      }
+        "page_position": "printed page 52; viewer image 100",
+        "assessment": "Fresh full-page and enlarged-band inspection independently confirms the source feature described by this note: The source prints relinquit here, while reliquit appears at41. The page break occurs between verses25 and26."
+      },
+      "change": "Freshly checked against the actual printed source; current encoding retained."
     },
     {
       "note_id": "O-3.5-note-26",
-      "target": "#O-3.5-l26",
       "line": 26,
+      "target": "#O-3.5-l26",
       "status": "resolved",
       "previous_type": "observation",
       "evidence": {
-        "page": 53,
         "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0105.jp2/full/max/0/default.jpg",
-        "local_image": "/tmp/amores-o-corpus/101.jpg",
-        "assessment": "Strip101-0 shows entire Sed niger in vaccae pectore livor erat within parentheses."
-      }
+        "page_position": "printed page 53; viewer image 101",
+        "assessment": "Fresh full-page and enlarged-band inspection independently confirms the source feature described by this note: The source prints Sed niger in vaccae pectore livor erat as a parenthetical verse. The parentheses do not themselves assert manuscript cancellation."
+      },
+      "change": "Freshly checked against the actual printed source; current encoding retained."
     },
     {
       "note_id": "O-3.5-note-28",
-      "target": "#O-3.5-l28",
       "line": 28,
+      "target": "#O-3.5-l28",
       "status": "resolved",
       "previous_type": "observation",
       "evidence": {
-        "page": 53,
         "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0105.jp2/full/max/0/default.jpg",
-        "local_image": "/tmp/amores-o-corpus/101.jpg",
-        "assessment": "Strip101-0 confirms complete parenthetical Carpebant tauri pabula laeta procul."
-      }
+        "page_position": "printed page 53; viewer image 101",
+        "assessment": "Fresh full-page and enlarged-band inspection independently confirms the source feature described by this note: The complete verse Carpebant tauri pabula laeta procul is parenthesized in the print and retained."
+      },
+      "change": "Freshly checked against the actual printed source; current encoding retained."
     },
     {
       "note_id": "O-3.5-note-35",
-      "target": "#O-3.5-l35",
       "line": 35,
+      "target": "#O-3.5-l35",
       "status": "resolved",
       "previous_type": "observation",
       "evidence": {
-        "page": 53,
         "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0105.jp2/full/max/0/default.jpg",
-        "local_image": "/tmp/amores-o-corpus/101.jpg",
-        "assessment": "Strip101-0 opens quotation before Quem; strip101-1 closes after negant at44."
-      }
+        "page_position": "printed page 53; viewer image 101",
+        "assessment": "Fresh full-page and enlarged-band inspection independently confirms the source feature described by this note: The interpreter’s quoted response opens before Quem at35 and closes after negant at44. Its punctuation is encoded in place."
+      },
+      "change": "Freshly checked against the actual printed source; current encoding retained."
     },
     {
       "note_id": "O-3.5-note-37",
-      "target": "#O-3.5-l37",
       "line": 37,
+      "target": "#O-3.5-l37",
       "status": "resolved",
       "previous_type": "observation",
       "evidence": {
-        "page": 53,
         "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0105.jp2/full/max/0/default.jpg",
-        "local_image": "/tmp/amores-o-corpus/101.jpg",
-        "assessment": "Strip101-1 prints tuast as a single contracted word."
-      }
+        "page_position": "printed page 53; viewer image 101",
+        "assessment": "Fresh full-page and enlarged-band inspection independently confirms the source feature described by this note: The printed contraction tuast is preserved without expansion."
+      },
+      "change": "Freshly checked against the actual printed source; current encoding retained."
     },
     {
       "note_id": "O-3.5-note-41",
-      "target": "#O-3.5-l41",
       "line": 41,
+      "target": "#O-3.5-l41",
       "status": "resolved",
       "previous_type": "observation",
       "evidence": {
-        "page": 53,
         "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0105.jp2/full/max/0/default.jpg",
-        "local_image": "/tmp/amores-o-corpus/101.jpg",
-        "assessment": "Strip101-1 confirms Quod cunctata diu taurum sua vacca reliquit and terminal comma."
-      }
+        "page_position": "printed page 53; viewer image 101",
+        "assessment": "Fresh full-page and enlarged-band inspection independently confirms the source feature described by this note: The source reads Quod cunctata diu taurum sua vacca reliquit. Its wording and tense are retained."
+      },
+      "change": "Freshly checked against the actual printed source; current encoding retained."
     },
     {
       "note_id": "O-3.5-note-42",
-      "target": "#O-3.5-l42",
       "line": 42,
+      "target": "#O-3.5-l42",
       "status": "resolved",
       "previous_type": "observation",
       "evidence": {
-        "page": 53,
         "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0105.jp2/full/max/0/default.jpg",
-        "local_image": "/tmp/amores-o-corpus/101.jpg",
-        "assessment": "Strip101-1 distinctly prints destituere and terminal semicolon."
-      }
+        "page_position": "printed page 53; viewer image 101",
+        "assessment": "Fresh full-page and enlarged-band inspection independently confirms the source feature described by this note: The print reads destituere, not a supplied alternative verbal ending. This is retained as a source reading."
+      },
+      "change": "Freshly checked against the actual printed source; current encoding retained."
     }
   ],
   "counts": {
@@ -249,7 +250,274 @@
     "humanReviewNotes": 0
   },
   "first_pass_sha256": "83a2ed7edf1423c855c668e952d1399c3309328aa15c4995b39a012dfb0c9d41",
-  "reviewed_candidate_sha256": "e4bfab0b16e377a6d7875986a2d7b413184bc9ee835687867a3fc42928faee3a",
-  "review_report_sha256": "c0863d1a323e9ff3a7d03168b3694ee672b8dda49e790e198fe8b6aa37231593",
-  "reviewed_xml_sha256": "0b8217ef7dd92c3aca43992ed19f13d76d02a07cd7d6e38040cff01d26f2c88b"
+  "reviewed_candidate_sha256": "9823673ac7b008242e071516963a765b40bea79b1a52570c076279db504e310f",
+  "review_report_sha256": "aea3b16e7ee402153360f2393ed431e6916a2408b3e8df954b1667002bc8664f",
+  "reviewed_xml_sha256": "689dc1c811a4173f25ed65c708f0518604d8e8dea572cf231b9f67d1910a068c",
+  "review_history": [
+    {
+      "witness": "O",
+      "poem": "3.5",
+      "author_agent": "/root",
+      "reviewer_agent": "/root/encode_p",
+      "reviewer": "OpenAI Codex independent encode_p agent",
+      "date": "2026-09-09",
+      "status": "second-pass-complete",
+      "review_type": "independent-second-agent-image-and-encoding-review",
+      "human_approved": false,
+      "line_coverage": {
+        "count": 46,
+        "ranges": [
+          {
+            "page": 52,
+            "start": 1,
+            "end": 25
+          },
+          {
+            "page": 53,
+            "start": 26,
+            "end": 46
+          }
+        ],
+        "absent_ranges": []
+      },
+      "line_order": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "previous_review_note_count": 0,
+      "notes": [
+        {
+          "note_id": "O-3.5-note-1",
+          "target": "#O-3.5-l1",
+          "line": 1,
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "page": 52,
+            "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0104.jp2/full/max/0/default.jpg",
+            "local_image": "/tmp/amores-o-corpus/100.jpg",
+            "assessment": "Strip100-1 visibly opens quotation before Nox; strip101-0 closes it after ferant at32."
+          }
+        },
+        {
+          "note_id": "O-3.5-note-6",
+          "target": "#O-3.5-l6",
+          "line": 6,
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "page": 52,
+            "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0104.jp2/full/max/0/default.jpg",
+            "local_image": "/tmp/amores-o-corpus/100.jpg",
+            "assessment": "Strip100-1 clearly prints Umida without h."
+          }
+        },
+        {
+          "note_id": "O-3.5-note-8",
+          "target": "#O-3.5-l8",
+          "line": 8,
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "page": 52,
+            "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0104.jp2/full/max/0/default.jpg",
+            "local_image": "/tmp/amores-o-corpus/100.jpg",
+            "assessment": "Strip100-1 shows both parentheses enclosing the entire extant verse8."
+          }
+        },
+        {
+          "note_id": "O-3.5-note-14",
+          "target": "#O-3.5-l14",
+          "line": 14,
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "page": 52,
+            "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0104.jp2/full/max/0/default.jpg",
+            "local_image": "/tmp/amores-o-corpus/100.jpg",
+            "assessment": "Strip100-2 confirms commas after siccatam and lacte."
+          }
+        },
+        {
+          "note_id": "O-3.5-note-18",
+          "target": "#O-3.5-l18",
+          "line": 18,
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "page": 52,
+            "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0104.jp2/full/max/0/default.jpg",
+            "local_image": "/tmp/amores-o-corpus/100.jpg",
+            "assessment": "Strip100-2 reads Atque iterum pasto pascitur ante cibo, with that word order and final comma."
+          }
+        },
+        {
+          "note_id": "O-3.5-note-25",
+          "target": "#O-3.5-l25",
+          "line": 25,
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "page": 52,
+            "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0104.jp2/full/max/0/default.jpg",
+            "local_image": "/tmp/amores-o-corpus/100.jpg",
+            "assessment": "Bottom strip100-3 clearly reads relinquit; strip101-1 confirms reliquit at41. Next page starts at26."
+          }
+        },
+        {
+          "note_id": "O-3.5-note-26",
+          "target": "#O-3.5-l26",
+          "line": 26,
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "page": 53,
+            "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0105.jp2/full/max/0/default.jpg",
+            "local_image": "/tmp/amores-o-corpus/101.jpg",
+            "assessment": "Strip101-0 shows entire Sed niger in vaccae pectore livor erat within parentheses."
+          }
+        },
+        {
+          "note_id": "O-3.5-note-28",
+          "target": "#O-3.5-l28",
+          "line": 28,
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "page": 53,
+            "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0105.jp2/full/max/0/default.jpg",
+            "local_image": "/tmp/amores-o-corpus/101.jpg",
+            "assessment": "Strip101-0 confirms complete parenthetical Carpebant tauri pabula laeta procul."
+          }
+        },
+        {
+          "note_id": "O-3.5-note-35",
+          "target": "#O-3.5-l35",
+          "line": 35,
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "page": 53,
+            "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0105.jp2/full/max/0/default.jpg",
+            "local_image": "/tmp/amores-o-corpus/101.jpg",
+            "assessment": "Strip101-0 opens quotation before Quem; strip101-1 closes after negant at44."
+          }
+        },
+        {
+          "note_id": "O-3.5-note-37",
+          "target": "#O-3.5-l37",
+          "line": 37,
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "page": 53,
+            "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0105.jp2/full/max/0/default.jpg",
+            "local_image": "/tmp/amores-o-corpus/101.jpg",
+            "assessment": "Strip101-1 prints tuast as a single contracted word."
+          }
+        },
+        {
+          "note_id": "O-3.5-note-41",
+          "target": "#O-3.5-l41",
+          "line": 41,
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "page": 53,
+            "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0105.jp2/full/max/0/default.jpg",
+            "local_image": "/tmp/amores-o-corpus/101.jpg",
+            "assessment": "Strip101-1 confirms Quod cunctata diu taurum sua vacca reliquit and terminal comma."
+          }
+        },
+        {
+          "note_id": "O-3.5-note-42",
+          "target": "#O-3.5-l42",
+          "line": 42,
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "page": 53,
+            "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0105.jp2/full/max/0/default.jpg",
+            "local_image": "/tmp/amores-o-corpus/101.jpg",
+            "assessment": "Strip101-1 distinctly prints destituere and terminal semicolon."
+          }
+        }
+      ],
+      "counts": {
+        "resolved": 12,
+        "documented-uncertainty": 0,
+        "escalate": 0
+      },
+      "humanActions": [],
+      "validation": {
+        "rng": "tei_all-4.12.0.rng",
+        "passed": true,
+        "extantLineCount": 46,
+        "zoneCount": 46,
+        "resolved_facs_links": 46,
+        "source_order_preserved": true,
+        "changed_verse_ids": [],
+        "coordinate_rectangles_unchanged": true,
+        "humanReviewNotes": 0
+      },
+      "first_pass_sha256": "83a2ed7edf1423c855c668e952d1399c3309328aa15c4995b39a012dfb0c9d41",
+      "reviewed_candidate_sha256": "e4bfab0b16e377a6d7875986a2d7b413184bc9ee835687867a3fc42928faee3a",
+      "review_report_sha256": "c0863d1a323e9ff3a7d03168b3694ee672b8dda49e790e198fe8b6aa37231593",
+      "reviewed_xml_sha256": "0b8217ef7dd92c3aca43992ed19f13d76d02a07cd7d6e38040cff01d26f2c88b",
+      "scope": "Previous independent complete source review, superseded by the fresh full source pass of 26 October 2026"
+    }
+  ],
+  "fresh_source_review": {
+    "date": "2026-10-26",
+    "reviewer_agent": "/root/w_review_c",
+    "scope": "Every extant verse and every current XML editorial note; full-page order, source headings, running headers/footer, punctuation, spelling and actual indentation",
+    "source_text_changes": [],
+    "original_zones_unchanged": true,
+    "navigation_overrides_unchanged": true,
+    "download_alternates": {}
+  }
 }

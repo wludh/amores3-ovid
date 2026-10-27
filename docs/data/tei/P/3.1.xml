@@ -10,7 +10,7 @@
           <resp>First-pass image transcription and TEI encoding</resp>
           <name>OpenAI Codex</name>
         </respStmt>
-      <respStmt xml:id="P-3.1-reviewer"><resp>Independent second-agent reading of all 70 source lines and evidence notes; not human scholarly approval</resp><name>OpenAI Codex, review_y agent</name></respStmt></titleStmt>
+      <respStmt xml:id="P-3.1-reviewer"><resp>Independent second-agent reading of all 70 source lines and evidence notes; not human scholarly approval</resp><name>OpenAI Codex, review_y agent</name></respStmt><respStmt xml:id="P-3.1-fresh-reviewer"><resp>Fresh independent source reading of every represented verse and evidence note</resp><name>OpenAI Codex /root</name></respStmt></titleStmt>
       <publicationStmt>
         <p>Amores Project local working transcription, 9 September 2026. Draft; not a scholarly approved edition.</p>
       </publicationStmt>
@@ -41,7 +41,7 @@
             <surrogates>
               <p><ref target="https://gallica.bnf.fr/ark:/12148/btv1b9066797j">BnF Gallica Latin 8242</ref></p>
               <p>The original full-resolution digital images and enlarged crops were inspected for this first pass. Gallica source reuse conditions apply. No text was populated from LL or another witness.</p>
-            </surrogates>
+            <p>Fresh corpus review inspected the original-resolution archival copies: <ref target="https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(084_of_101).jpg">archival copy of image 84</ref> <ref target="https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(085_of_101).jpg">archival copy of image 85</ref>. Their pixel dimensions match the original Gallica canvases. The site facsimile index and fresh review ledger retain the file hashes and provenance.</p></surrogates>
           </additional>
         </msDesc>
       </sourceDesc>
@@ -61,7 +61,7 @@
           <p>Significant observed punctuation is retained schematically, without adding systematic modern sentence punctuation.</p>
         </punctuation>
         <segmentation>
-          <p>Each l represents a verse and physical written line at its canonical poem position. Elegiac couplets and even-line indentation are editorial display grouping. Page breaks follow the photographed left/right physical pages. Facsimile zones reproduce the existing annotation rectangles unchanged; they may include neighbouring ink and exclude marginal annotations.</p>
+          <p>Each l represents a verse and physical written line at its canonical poem position. Elegiac couplet grouping is editorial. Display insets follow the observed full-page line starts; no inset is inferred solely from verse parity. Page breaks follow the photographed left/right physical pages. Facsimile zones reproduce the existing annotation rectangles unchanged; they may include neighbouring ink and exclude marginal annotations.</p>
         </segmentation>
         <interpretation>
           <p>First-pass evidence notes are a working queue for an independent agent, not assignments for the human editor. Genuine source uncertainty remains local; consequential unresolved interpretation is distinguished from ordinary observation.</p>
@@ -77,7 +77,7 @@
     </encodingDesc>
     <revisionDesc status="independently-reviewed"><change when="2026-09-09" who="#P-3.1-reviewer">Independent second-agent source review of all 70 verses and every editorial note. Corrected uiolentia to uiolenta (11), restored repeated hic (20), and read area (26). Preserved local image uncertainty; no human approval is implied.</change>
       <change when="2026-09-09" who="#P-3.1-encoder">Completed first reading from source images and enlarged crops, with line coverage and evidence notes. Independent second reading not yet performed.</change>
-    </revisionDesc>
+    <change when="2026-10-26" who="#P-3.1-fresh-reviewer">Fresh independent source reading of every verse, full-page line starts and every evidence note. Supported changes and dispositions are documented in P-3.1-second-pass.md; earlier reports and review seals are retained as history.</change></revisionDesc>
   </teiHeader>
   <facsimile>
     <surface n="image 84" xml:id="P-3.1-image-84" ulx="0" uly="0" lrx="5811" lry="3967">
@@ -167,7 +167,7 @@
           <l n="2" xml:id="P-3.1-l2" facs="#P-3.1-zone-2" rend="indent">Credibile est illi numen inesse loco</l>
         </lg>
         <lg type="couplet" n="2">
-          <l n="3" xml:id="P-3.1-l3" facs="#P-3.1-zone-3">Fons sacer in medio speluncaque pumice pendens</l>
+          <l n="3" xml:id="P-3.1-l3" facs="#P-3.1-zone-3" rend="indent">Fons sacer in medio speluncaque pumice pendens</l>
           <l n="4" xml:id="P-3.1-l4" facs="#P-3.1-zone-4" rend="indent">Et latere ex omni dulce querentur aues</l>
         </lg>
         <lg type="couplet" n="3">
@@ -175,7 +175,7 @@
           <l n="6" xml:id="P-3.1-l6" facs="#P-3.1-zone-6" rend="indent">Quod mea querebam musa mouer<choice><abbr><g ref="#P-3.1-et">&amp;</g></abbr><expan>et</expan></choice> opus</l>
         </lg>
         <lg type="couplet" n="4">
-          <l n="7" xml:id="P-3.1-l7" facs="#P-3.1-zone-7">Venit adoratos eleigia nexa capillos</l>
+          <l n="7" xml:id="P-3.1-l7" facs="#P-3.1-zone-7">Venit adoratos ele<unclear cert="low">i</unclear>gia nexa capillos</l>
           <l n="8" xml:id="P-3.1-l8" facs="#P-3.1-zone-8" rend="indent">Et puto pes illi longior alter erat</l>
         </lg>
         <lg type="couplet" n="5">
@@ -208,7 +208,7 @@
           <l n="22" xml:id="P-3.1-l22" facs="#P-3.1-zone-22" rend="indent">Dum tua pr<choice><abbr><g ref="#P-3.1-et">&amp;</g></abbr><expan>et</expan></choice>erito fac<add place="above">ta</add> pudore refers</l>
         </lg>
         <lg type="couplet" n="12">
-          <l n="23" xml:id="P-3.1-l23" facs="#P-3.1-zone-23">Tempus erat th<add place="above">ÿ</add>rso pulsum grauiore moueri</l>
+          <l n="23" xml:id="P-3.1-l23" facs="#P-3.1-zone-23">Tempus erat th<add place="above">ÿ</add>rso pulsum grauiore moueri <pc>.</pc></l>
           <l n="24" xml:id="P-3.1-l24" facs="#P-3.1-zone-24" rend="indent">Cessatum satis est incipe maius opus</l>
         </lg>
         <lg type="couplet" n="13">
@@ -225,35 +225,35 @@
         </lg>
         <lg type="couplet" n="16">
           <l n="31" xml:id="P-3.1-l31" facs="#P-3.1-zone-31">Hactenus <choice><abbr><g ref="#P-3.1-et">&amp;</g></abbr><expan>et</expan></choice> mouit pictis innixa coturnis</l>
-          <l n="32" xml:id="P-3.1-l32" facs="#P-3.1-zone-32" rend="indent">Densum.<add place="above"><unclear>.cæsarie</unclear></add> terque quaterque caput</l>
+          <l n="32" xml:id="P-3.1-l32" facs="#P-3.1-zone-32" rend="indent">Densum.<add place="above"><unclear>.cæsarie</unclear></add> terque quaterque caput <pc>.</pc></l>
         </lg>
         <lg type="couplet" n="17">
-          <l n="33" xml:id="P-3.1-l33" facs="#P-3.1-zone-33">Altera si memini limis subrisit ocellis</l>
+          <l n="33" xml:id="P-3.1-l33" facs="#P-3.1-zone-33">Altera si memini limis subrisit ocellis <pc>.</pc></l>
           <l n="34" xml:id="P-3.1-l34" facs="#P-3.1-zone-34" rend="indent">Fallor an in dextra mÿrtea uirga fuit</l>
         </lg>
         <lg type="couplet" n="18">
-          <l n="35" xml:id="P-3.1-l35" facs="#P-3.1-zone-35">Quid <choice><abbr>grauib,</abbr><expan>grauibus</expan></choice> uerbis animosa tragoedia dixit</l>
-          <l n="36" xml:id="P-3.1-l36" facs="#P-3.1-zone-36" rend="indent">Me premis an numquam non grauis esse potes</l>
+          <l n="35" xml:id="P-3.1-l35" facs="#P-3.1-zone-35">Quid <choice><abbr>grauib,</abbr><expan>grauibus</expan></choice> uerbis animosa tragoedia dixit <pc>.</pc></l>
+          <l n="36" xml:id="P-3.1-l36" facs="#P-3.1-zone-36" rend="indent">Me premis an numquam non grauis esse potes <pc>.</pc></l>
         </lg>
         <lg type="couplet" n="19">
-          <l n="37" xml:id="P-3.1-l37" facs="#P-3.1-zone-37"><choice><abbr>Inparib,</abbr><expan>Inparibus</expan></choice> tamen est numeris dignata moueri</l>
+          <l n="37" xml:id="P-3.1-l37" facs="#P-3.1-zone-37"><choice><abbr>Inparib,</abbr><expan>Inparibus</expan></choice> tamen est numeris dignata moueri <pc>.</pc></l>
           <l n="38" xml:id="P-3.1-l38" facs="#P-3.1-zone-38" rend="indent">In me pugnasti uersibus usa meis</l>
         </lg>
         <lg type="couplet" n="20">
-          <l n="39" xml:id="P-3.1-l39" facs="#P-3.1-zone-39">Non ego contulerim sublimia carmina nostris</l>
+          <l n="39" xml:id="P-3.1-l39" facs="#P-3.1-zone-39">Non ego contulerim sublimia carmina nostris <pc>.</pc></l>
           <l n="40" xml:id="P-3.1-l40" facs="#P-3.1-zone-40" rend="indent">Obruit exiguas regia <choice><abbr>urā</abbr><expan>uestra</expan></choice> fores</l>
         </lg>
         <lg type="couplet" n="21">
-          <l n="41" xml:id="P-3.1-l41" facs="#P-3.1-zone-41">Sum leb<add place="above">vi</add>es <choice><abbr><g ref="#P-3.1-et">&amp;</g></abbr><expan>et</expan></choice> mecum leuis est mea cura cupido</l>
-          <l n="42" xml:id="P-3.1-l42" facs="#P-3.1-zone-42" rend="indent">Non sum materia fortior ipsa mea</l>
+          <l n="41" xml:id="P-3.1-l41" facs="#P-3.1-zone-41">Sum leb<add place="above"><unclear cert="low">vi</unclear></add>es <choice><abbr><g ref="#P-3.1-et">&amp;</g></abbr><expan>et</expan></choice> mecum leuis est mea cura cupido <pc>.</pc></l>
+          <l n="42" xml:id="P-3.1-l42" facs="#P-3.1-zone-42" rend="indent">Non sum materia fortior ipsa mea <pc>.</pc></l>
         </lg>
         <lg type="couplet" n="22">
           <l n="43" xml:id="P-3.1-l43" facs="#P-3.1-zone-43">Rustica sit <hi rend="darker-ink"><unclear>sine</unclear></hi> me lasciui mater amoris</l>
-          <l n="44" xml:id="P-3.1-l44" facs="#P-3.1-zone-44" rend="indent">Huic ego proueni lena comesque deaeque</l>
+          <l n="44" xml:id="P-3.1-l44" facs="#P-3.1-zone-44" rend="indent">Huic ego proueni lena comesque deaeque <pc>.</pc></l>
         </lg>
         <lg type="couplet" n="23">
-          <l n="45" xml:id="P-3.1-l45" facs="#P-3.1-zone-45"><choice><abbr>Quā</abbr><expan>Quam</expan></choice> tu non poteris duro raserare coturno</l>
-          <l n="46" xml:id="P-3.1-l46" facs="#P-3.1-zone-46" rend="indent">Hec est blanditiis ianua laxa meis</l>
+          <l n="45" xml:id="P-3.1-l45" facs="#P-3.1-zone-45"><choice><abbr>Quā</abbr><expan>Quam</expan></choice> tu non poteris duro raserare coturno <pc>.</pc></l>
+          <l n="46" xml:id="P-3.1-l46" facs="#P-3.1-zone-46" rend="indent">Hec est blanditiis ianua laxa meis <pc>.</pc></l>
         </lg>
         <lg type="couplet" n="24">
           <pb n="image 85, left" facs="#P-3.1-image-85" />
@@ -278,7 +278,7 @@
         </lg>
         <lg type="couplet" n="29">
           <l n="57" xml:id="P-3.1-l57" facs="#P-3.1-zone-57">Quid cum me munus natali mittis ad <unclear>illi</unclear></l>
-          <l n="58" xml:id="P-3.1-l58" facs="#P-3.1-zone-58" rend="indent"><unclear>Rumpit</unclear> <choice><abbr><g ref="#P-3.1-et">&amp;</g></abbr><expan>et</expan></choice> at posita barbara mersit aqua</l>
+          <l n="58" xml:id="P-3.1-l58" facs="#P-3.1-zone-58" rend="indent"><unclear>Rumpit</unclear> <choice><abbr><g ref="#P-3.1-et">&amp;</g></abbr><expan>et</expan></choice> <unclear cert="low">at</unclear> posita barbara mersit aqua</l>
         </lg>
         <lg type="couplet" n="30">
           <l n="59" xml:id="P-3.1-l59" facs="#P-3.1-zone-59">Prima tuæ moui felicia semina mentis</l>
@@ -310,21 +310,22 @@
       <div type="editorial-notes">
         <head>Independently reviewed source notes</head>
         <note xml:id="P-3.1-note-1" n="1" type="observation" target="#P-3.1-l1" resp="#P-3.1-reviewer">The source begins Book III with the heading INCIPIT LIBER · TERTIUS and a large S extending vertically through the first three verses. The heading and initial are retained without claiming a precise typographic facsimile.</note>
-        <note xml:id="P-3.1-note-5" n="5" type="uncertainty" target="#P-3.1-l5" resp="#P-3.1-reviewer">The visible sequence after dum is provisionally spator; a distinct i cannot be confidently resolved. The witness is not silently normalized.</note>
-        <note xml:id="P-3.1-note-17" n="17" type="uncertainty" target="#P-3.1-l17" resp="#P-3.1-reviewer">The bottom-left page is faded; the word after Nequitiam is provisionally uinosa, retained locally under unclear.</note>
+        <note xml:id="P-3.1-note-5" n="5" type="observation" target="#P-3.1-l5" resp="#P-3.1-fresh-reviewer">Fresh native inspection supports spatior, including a narrow i. The earlier note proposing spator without a distinct i is superseded; the current production word is retained.</note>
+        <note xml:id="P-3.1-note-17" n="17" type="observation" target="#P-3.1-l17" resp="#P-3.1-fresh-reviewer">The bottom-left page is faded, but fresh enlarged reading supports the current production word uinosa. The older note incorrectly described its current encoding as locally unclear.</note>
         <note xml:id="P-3.1-note-22" n="22" type="observation" target="#P-3.1-l22" resp="#P-3.1-reviewer">The letters ta stand above fac before pudore. This addition completes facta and is recorded as visible without an assigned historical hand.</note>
-        <note xml:id="P-3.1-note-32" n="32" type="uncertainty" target="#P-3.1-l32" resp="#P-3.1-reviewer">A supralinear annotation above the densum/terque area is provisionally cæasaries. Its relationship to the verse and precise spelling are not asserted; it remains a manuscript note rather than an inserted reading.</note>
-        <note xml:id="P-3.1-note-39" n="39" type="uncertainty" target="#P-3.1-l39" resp="#P-3.1-reviewer">A small supralinear u-like mark occurs within the contulerim area. It is retained as an uncertain manuscript annotation; no substitution or original erased state is inferred.</note>
+        <note xml:id="P-3.1-note-32" n="32" type="uncertainty" target="#P-3.1-l32" resp="#P-3.1-fresh-reviewer">Above Densum and the following area is a cæsarie-like addition with dot-like insertion signs. The current production above-line addition remains locally unclear; its exact letters and grammatical relationship are not asserted as certain. The older description of an inline manuscript note does not describe the current encoding.</note>
+        <note xml:id="P-3.1-note-39" n="39" type="uncertainty" target="#P-3.1-l39" resp="#P-3.1-fresh-reviewer">A small u-like supralinear mark occurs near contulerim. Its function and exact letter identity are uncertain; this note records the observation without asserting a textual insertion, substitution or erased state.</note>
         <note xml:id="P-3.1-note-40" n="40" type="observation" target="#P-3.1-l40" resp="#P-3.1-reviewer">The short marked form before fores is represented schematically as urā, expanded uestra; the image remains the evidence for its exact abbreviation shape.</note>
-        <note xml:id="P-3.1-note-41" n="41" type="uncertainty" target="#P-3.1-l41" resp="#P-3.1-reviewer">A dark supralinear sign above the cura area cannot be securely read. Its existence and approximate position are recorded with an illegible-sign gap, without a guessed expansion.</note>
-        <note xml:id="P-3.1-note-43" n="43" type="uncertainty" target="#P-3.1-l43" resp="#P-3.1-reviewer">The sit group is much darker than surrounding writing. Its tentative letters are retained; darker ink does not establish a legible deleted reading.</note>
-        <note xml:id="P-3.1-note-44" n="44" type="uncertainty" target="#P-3.1-l44" resp="#P-3.1-reviewer">The faint final group is provisionally deaeque. It has not been silently replaced with a text from a different witness.</note>
+        <note xml:id="P-3.1-note-41" n="41" type="uncertainty" target="#P-3.1-l41" resp="#P-3.1-fresh-reviewer">The baseline leb-es and small raised strokes support the current production arrangement; raised vi is plausible but locally unclear. Independent crop reader /root/w_review_a corroborated this conservative reading. A separate dark supralinear sign near cura remains undeciphered and is documented here without assigning it a letter or expansion.</note>
+        <note xml:id="P-3.1-note-43" n="43" type="uncertainty" target="#P-3.1-l43" resp="#P-3.1-fresh-reviewer">The group after sit, provisionally sine, is much darker than surrounding writing. Its letters remain locally unclear. Tonal contrast does not establish a deleted reading or historical hand.</note>
+        <note xml:id="P-3.1-note-44" n="44" type="observation" target="#P-3.1-l44" resp="#P-3.1-fresh-reviewer">The final group is faint, but fresh enlarged inspection supports deaeque. The current production word is retained; the earlier provisional note is superseded.</note>
         <note xml:id="P-3.1-note-57" n="57" type="uncertainty" target="#P-3.1-l57" resp="#P-3.1-reviewer">The ending after ad is provisionally illi. The final vowel remains locally uncertain.</note>
-        <note xml:id="P-3.1-note-58" n="58" type="uncertainty" target="#P-3.1-l58" resp="#P-3.1-reviewer">The opening word appears to contain an additional minim, provisionally Rumpit. The visible posita is retained without supplying an unwritten prefix.</note>
+        <note xml:id="P-3.1-note-58" n="58" type="uncertainty" target="#P-3.1-l58" resp="#P-3.1-fresh-reviewer">The opening remains provisionally Rumpit. After the et ligature a short at-like group is visible before posita, though its crowded strokes remain uncertain. This current production word is retained under local unclear; independent crop reader /root/w_review_a corroborated the conservative treatment. No prefix is supplied from another witness.</note>
         <note xml:id="P-3.1-note-69" n="69" type="observation" target="#P-3.1-l69" resp="#P-3.1-reviewer">The initial pro of properentur is darker. The encoding distinguishes ink without inventing an underlying reading.</note>
         <note xml:id="P-3.1-note-11" n="11" type="observation" target="#P-3.1-l11" resp="#P-3.1-reviewer">The source reads uiolenta without an additional i before the final a. The second pass corrects first-pass uiolentia from the enlarged line.</note>
         <note xml:id="P-3.1-note-20" n="20" type="observation" target="#P-3.1-l20" resp="#P-3.1-reviewer">The source repeats hic: Atque ait hic hic est. Both occurrences are retained; the first pass had omitted one.</note>
         <note xml:id="P-3.1-note-26" n="26" type="observation" target="#P-3.1-l26" resp="#P-3.1-reviewer">The word after dices reads area. Its short rounded third letter differs from the taller t in neighbouring facta; first-pass arta is corrected from the enlarged source.</note>
+      <note xml:id="P-3.1-note-7" n="7" type="uncertainty" target="#P-3.1-l7" resp="#P-3.1-fresh-reviewer">The word has an eleigia-like sequence. The short internal minim after the second e is faint and crowded, so that i is locally qualified. The current production reading is retained, with independent native-crop corroboration from /root/w_review_a.</note>
       </div>
     </back>
   </text>

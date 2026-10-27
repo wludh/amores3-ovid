@@ -1,0 +1,1033 @@
+{
+  "baseline_commit": "48a5c97d34c5797a0f2219908bef3fadeb8a94c7",
+  "changes": [
+    {
+      "witness": "P",
+      "poem": "3.1",
+      "changed_lines": [
+        {
+          "line": 3,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"3\" xml:id=\"P-3.1-l3\" facs=\"#P-3.1-zone-3\">Fons sacer in medio speluncaque pumice pendens</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"3\" xml:id=\"P-3.1-l3\" facs=\"#P-3.1-zone-3\" rend=\"indent\">Fons sacer in medio speluncaque pumice pendens</l>"
+        },
+        {
+          "line": 7,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"7\" xml:id=\"P-3.1-l7\" facs=\"#P-3.1-zone-7\">Venit adoratos eleigia nexa capillos</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"7\" xml:id=\"P-3.1-l7\" facs=\"#P-3.1-zone-7\">Venit adoratos ele<unclear cert=\"low\">i</unclear>gia nexa capillos</l>"
+        },
+        {
+          "line": 23,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"23\" xml:id=\"P-3.1-l23\" facs=\"#P-3.1-zone-23\">Tempus erat th<add place=\"above\">ÿ</add>rso pulsum grauiore moueri</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"23\" xml:id=\"P-3.1-l23\" facs=\"#P-3.1-zone-23\">Tempus erat th<add place=\"above\">ÿ</add>rso pulsum grauiore moueri <pc>.</pc></l>"
+        },
+        {
+          "line": 32,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"32\" xml:id=\"P-3.1-l32\" facs=\"#P-3.1-zone-32\" rend=\"indent\">Densum.<add place=\"above\"><unclear>.cæsarie</unclear></add> terque quaterque caput</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"32\" xml:id=\"P-3.1-l32\" facs=\"#P-3.1-zone-32\" rend=\"indent\">Densum.<add place=\"above\"><unclear>.cæsarie</unclear></add> terque quaterque caput <pc>.</pc></l>"
+        },
+        {
+          "line": 33,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"33\" xml:id=\"P-3.1-l33\" facs=\"#P-3.1-zone-33\">Altera si memini limis subrisit ocellis</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"33\" xml:id=\"P-3.1-l33\" facs=\"#P-3.1-zone-33\">Altera si memini limis subrisit ocellis <pc>.</pc></l>"
+        },
+        {
+          "line": 35,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"35\" xml:id=\"P-3.1-l35\" facs=\"#P-3.1-zone-35\">Quid <choice><abbr>grauib,</abbr><expan>grauibus</expan></choice> uerbis animosa tragoedia dixit</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"35\" xml:id=\"P-3.1-l35\" facs=\"#P-3.1-zone-35\">Quid <choice><abbr>grauib,</abbr><expan>grauibus</expan></choice> uerbis animosa tragoedia dixit <pc>.</pc></l>"
+        },
+        {
+          "line": 36,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"36\" xml:id=\"P-3.1-l36\" facs=\"#P-3.1-zone-36\" rend=\"indent\">Me premis an numquam non grauis esse potes</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"36\" xml:id=\"P-3.1-l36\" facs=\"#P-3.1-zone-36\" rend=\"indent\">Me premis an numquam non grauis esse potes <pc>.</pc></l>"
+        },
+        {
+          "line": 37,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"37\" xml:id=\"P-3.1-l37\" facs=\"#P-3.1-zone-37\"><choice><abbr>Inparib,</abbr><expan>Inparibus</expan></choice> tamen est numeris dignata moueri</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"37\" xml:id=\"P-3.1-l37\" facs=\"#P-3.1-zone-37\"><choice><abbr>Inparib,</abbr><expan>Inparibus</expan></choice> tamen est numeris dignata moueri <pc>.</pc></l>"
+        },
+        {
+          "line": 39,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"39\" xml:id=\"P-3.1-l39\" facs=\"#P-3.1-zone-39\">Non ego contulerim sublimia carmina nostris</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"39\" xml:id=\"P-3.1-l39\" facs=\"#P-3.1-zone-39\">Non ego contulerim sublimia carmina nostris <pc>.</pc></l>"
+        },
+        {
+          "line": 41,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"41\" xml:id=\"P-3.1-l41\" facs=\"#P-3.1-zone-41\">Sum leb<add place=\"above\">vi</add>es <choice><abbr><g ref=\"#P-3.1-et\">&amp;</g></abbr><expan>et</expan></choice> mecum leuis est mea cura cupido</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"41\" xml:id=\"P-3.1-l41\" facs=\"#P-3.1-zone-41\">Sum leb<add place=\"above\"><unclear cert=\"low\">vi</unclear></add>es <choice><abbr><g ref=\"#P-3.1-et\">&amp;</g></abbr><expan>et</expan></choice> mecum leuis est mea cura cupido <pc>.</pc></l>"
+        },
+        {
+          "line": 42,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"42\" xml:id=\"P-3.1-l42\" facs=\"#P-3.1-zone-42\" rend=\"indent\">Non sum materia fortior ipsa mea</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"42\" xml:id=\"P-3.1-l42\" facs=\"#P-3.1-zone-42\" rend=\"indent\">Non sum materia fortior ipsa mea <pc>.</pc></l>"
+        },
+        {
+          "line": 44,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"44\" xml:id=\"P-3.1-l44\" facs=\"#P-3.1-zone-44\" rend=\"indent\">Huic ego proueni lena comesque deaeque</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"44\" xml:id=\"P-3.1-l44\" facs=\"#P-3.1-zone-44\" rend=\"indent\">Huic ego proueni lena comesque deaeque <pc>.</pc></l>"
+        },
+        {
+          "line": 45,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"45\" xml:id=\"P-3.1-l45\" facs=\"#P-3.1-zone-45\"><choice><abbr>Quā</abbr><expan>Quam</expan></choice> tu non poteris duro raserare coturno</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"45\" xml:id=\"P-3.1-l45\" facs=\"#P-3.1-zone-45\"><choice><abbr>Quā</abbr><expan>Quam</expan></choice> tu non poteris duro raserare coturno <pc>.</pc></l>"
+        },
+        {
+          "line": 46,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"46\" xml:id=\"P-3.1-l46\" facs=\"#P-3.1-zone-46\" rend=\"indent\">Hec est blanditiis ianua laxa meis</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"46\" xml:id=\"P-3.1-l46\" facs=\"#P-3.1-zone-46\" rend=\"indent\">Hec est blanditiis ianua laxa meis <pc>.</pc></l>"
+        },
+        {
+          "line": 58,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"58\" xml:id=\"P-3.1-l58\" facs=\"#P-3.1-zone-58\" rend=\"indent\"><unclear>Rumpit</unclear> <choice><abbr><g ref=\"#P-3.1-et\">&amp;</g></abbr><expan>et</expan></choice> at posita barbara mersit aqua</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"58\" xml:id=\"P-3.1-l58\" facs=\"#P-3.1-zone-58\" rend=\"indent\"><unclear>Rumpit</unclear> <choice><abbr><g ref=\"#P-3.1-et\">&amp;</g></abbr><expan>et</expan></choice> <unclear cert=\"low\">at</unclear> posita barbara mersit aqua</l>"
+        }
+      ]
+    },
+    {
+      "witness": "Y",
+      "poem": "3.1",
+      "changed_lines": [
+        {
+          "line": 1,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"1\" xml:id=\"Y-3.1-l1\" facs=\"#Y-3.1-zone-1\"><hi rend=\"initial\">S</hi>tat <hi rend=\"darker-ink\">uetu<add place=\"above\">s</add></hi> <choice><abbr><g ref=\"#Y-3.1-et\">&amp;</g></abbr><expan>et</expan></choice> multos inced<hi rend=\"darker-ink\">u</hi>a silua per annos</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"1\" xml:id=\"Y-3.1-l1\" facs=\"#Y-3.1-zone-1\"><hi rend=\"initial\">S</hi>tat <hi rend=\"darker-ink\">uetu<add place=\"above\">s</add></hi> <choice><abbr><g ref=\"#Y-3.1-et\">&amp;</g></abbr><expan>et</expan></choice> multos incaed<hi rend=\"darker-ink\">u</hi>a silua per annos</l>"
+        },
+        {
+          "line": 6,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"6\" xml:id=\"Y-3.1-l6\" facs=\"#Y-3.1-zone-6\" rend=\"indent\">Quod mea quaerebam musa mouer<hi rend=\"darker-ink\"><choice><abbr><g ref=\"#Y-3.1-et\">&amp;</g></abbr><expan>et</expan></choice></hi> opus</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"6\" xml:id=\"Y-3.1-l6\" facs=\"#Y-3.1-zone-6\" rend=\"indent\">Quod mea quaerebam musa mouer<hi rend=\"darker-ink\"><choice><abbr><g ref=\"#Y-3.1-et\">&amp;</g></abbr><expan>et</expan></choice></hi> opus<pc>·</pc></l>"
+        },
+        {
+          "line": 9,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"9\" xml:id=\"Y-3.1-l9\" facs=\"#Y-3.1-zone-9\">Forma decens uestis tenuissima uultus amantis</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"9\" xml:id=\"Y-3.1-l9\" facs=\"#Y-3.1-zone-9\">Forma decens uestis tenuissima uultus amantis<metamark function=\"unknown\" place=\"inline\">/</metamark></l>"
+        },
+        {
+          "line": 11,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"11\" xml:id=\"Y-3.1-l11\" facs=\"#Y-3.1-zone-11\">Venit <choice><abbr><g ref=\"#Y-3.1-et\">&amp;</g></abbr><expan>et</expan></choice> ingenti uiolenta tragoedia passu</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"11\" xml:id=\"Y-3.1-l11\" facs=\"#Y-3.1-zone-11\">Venit <choice><abbr><g ref=\"#Y-3.1-et\">&amp;</g></abbr><expan>et</expan></choice> ingenti uiolenta tragoedia passu<metamark function=\"unknown\" place=\"inline\">/</metamark></l>"
+        },
+        {
+          "line": 17,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"17\" xml:id=\"Y-3.1-l17\" facs=\"#Y-3.1-zone-17\">Nequitiam ui<hi rend=\"darker-ink\">n</hi>osa tuam conuiuia narrant</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"17\" xml:id=\"Y-3.1-l17\" facs=\"#Y-3.1-zone-17\">Nequitiam ui<hi rend=\"darker-ink\">n</hi>osa tuam conuiuia narrant<metamark function=\"unknown\" place=\"inline\">/</metamark></l>"
+        },
+        {
+          "line": 23,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"23\" xml:id=\"Y-3.1-l23\" facs=\"#Y-3.1-zone-23\">Tempus erat th<unclear reason=\"faded\">y</unclear>rso <seg type=\"marked-form\">pulsū</seg> grauiore moueri</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"23\" xml:id=\"Y-3.1-l23\" facs=\"#Y-3.1-zone-23\">Tempus erat th<unclear reason=\"faded\">y</unclear>rso <seg type=\"marked-form\">pulsū</seg> grauiore moueri<metamark function=\"unknown\" place=\"inline\">/</metamark></l>"
+        },
+        {
+          "line": 58,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"58\" xml:id=\"Y-3.1-l58\" facs=\"#Y-3.1-zone-58\" rend=\"indent\">Ru<unclear reason=\"faded\">m</unclear>pta <choice><abbr><g ref=\"#Y-3.1-et\">&amp;</g></abbr><expan>et</expan></choice> adpositam barbara</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"58\" xml:id=\"Y-3.1-l58\" facs=\"#Y-3.1-zone-58\" rend=\"indent\">Ru<unclear reason=\"faded\">m</unclear>pta <choice><abbr><g ref=\"#Y-3.1-et\">&amp;</g></abbr><expan>et</expan></choice> adpositam barbara mersit aqua</l>"
+        },
+        {
+          "line": 60,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"60\" xml:id=\"Y-3.1-l60\" facs=\"#Y-3.1-zone-60\" rend=\"indent\">Munus hab<add place=\"above\">es</add><choice><abbr><g ref=\"#Y-3.1-et\">&amp;</g></abbr><expan>et</expan></choice> quod te iam petit ista</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"60\" xml:id=\"Y-3.1-l60\" facs=\"#Y-3.1-zone-60\" rend=\"indent\">Munus hab<add place=\"above\">es</add><choice><abbr><g ref=\"#Y-3.1-et\">&amp;</g></abbr><expan>et</expan></choice> quod te iam petit ista meum</l>"
+        },
+        {
+          "line": 66,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"66\" xml:id=\"Y-3.1-l66\" facs=\"#Y-3.1-zone-66\" rend=\"indent\">Exi<add place=\"above\" cert=\"low\">o</add>ga des <choice><abbr><g ref=\"#Y-3.1-et\">&amp;</g></abbr><expan>et</expan></choice> longis uersi</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"66\" xml:id=\"Y-3.1-l66\" facs=\"#Y-3.1-zone-66\" rend=\"indent\">Exi<add place=\"above\" cert=\"low\">o</add>ga des <choice><abbr><g ref=\"#Y-3.1-et\">&amp;</g></abbr><expan>et</expan></choice> longis uersibus adde breues</l>"
+        },
+        {
+          "line": 70,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"70\" xml:id=\"Y-3.1-l70\" facs=\"#Y-3.1-zone-70\" rend=\"indent\">Dum <hi rend=\"darker-ink\">u</hi>acat a tergo grandius urg<hi rend=\"darker-ink\"><choice><abbr><g ref=\"#Y-3.1-et\">&amp;</g></abbr><expan>et</expan></choice></hi></l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"70\" xml:id=\"Y-3.1-l70\" facs=\"#Y-3.1-zone-70\" rend=\"indent\">Dum <hi rend=\"darker-ink\">u</hi>acat a tergo grandius urg<hi rend=\"darker-ink\"><choice><abbr><g ref=\"#Y-3.1-et\">&amp;</g></abbr><expan>et</expan></choice></hi> opus<pc>·</pc></l>"
+        }
+      ]
+    },
+    {
+      "witness": "S",
+      "poem": "3.1",
+      "changed_lines": [
+        {
+          "line": 6,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"6\" xml:id=\"S-3.1-l6\" facs=\"#S-3.1-zone-6\"><choice><abbr>Qd</abbr><expan cert=\"medium\">Quod</expan></choice> mea querebam musa moueret opus</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"6\" xml:id=\"S-3.1-l6\" facs=\"#S-3.1-zone-6\"><choice><abbr>Qd</abbr><expan cert=\"medium\">Quod</expan></choice> mea <choice><abbr>querebā</abbr><expan>querebam</expan></choice> musa moueret opus</l>"
+        },
+        {
+          "line": 17,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"17\" xml:id=\"S-3.1-l17\" facs=\"#S-3.1-zone-17\"><choice><abbr>Nequiciā</abbr><expan>Nequiciam</expan></choice> uinosa <choice><abbr>tuā</abbr><expan>tua</expan></choice> <choice><abbr>cōuiuia</abbr><expan>conuiuia</expan></choice> narrant</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"17\" xml:id=\"S-3.1-l17\" facs=\"#S-3.1-zone-17\"><choice><abbr>Nequiciā</abbr><expan>Nequiciam</expan></choice> uinosa <choice><abbr>tuā</abbr><expan>tuam</expan></choice> <choice><abbr>cōuiuia</abbr><expan>conuiuia</expan></choice> narrant</l>"
+        },
+        {
+          "line": 56,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"56\" xml:id=\"S-3.1-l56\" facs=\"#S-3.1-zone-56\">Ancille <choice><abbr>mis̄ā</abbr><expan>miseram</expan></choice> delituisse sinu.</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"56\" xml:id=\"S-3.1-l56\" facs=\"#S-3.1-zone-56\">Ancille <choice><abbr>missā</abbr><expan>missam</expan></choice> delituisse sinu.</l>"
+        }
+      ]
+    },
+    {
+      "witness": "P",
+      "poem": "3.2",
+      "changed_lines": [
+        {
+          "line": 52,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"52\" xml:id=\"P-3.2-l52\" facs=\"#P-3.2-zone-52\" rend=\"indent\">Artifices in te uerte minerua manu</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"52\" xml:id=\"P-3.2-l52\" facs=\"#P-3.2-zone-52\" rend=\"indent\">Artifices in te uerte minerua manus</l>"
+        },
+        {
+          "line": 58,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"58\" xml:id=\"P-3.2-l58\" facs=\"#P-3.2-zone-58\" rend=\"indent\">Annuit <choice><abbr><g ref=\"#P-3.2-et\">&amp;</g></abbr><expan>et</expan></choice> motu signa <unclear reason=\"stained\">secunda</unclear> dedit</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"58\" xml:id=\"P-3.2-l58\" facs=\"#P-3.2-zone-58\" rend=\"indent\">Annuit <choice><abbr><g ref=\"#P-3.2-et\">&amp;</g></abbr><expan>et</expan></choice> motu signa <unclear reason=\"stained\">secunda</unclear> dedit <pc>.</pc></l>"
+        }
+      ]
+    },
+    {
+      "witness": "Y",
+      "poem": "3.2",
+      "changed_lines": [
+        {
+          "line": 13,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"13\" xml:id=\"Y-3.2-l13\" facs=\"#Y-3.2-zone-13\">Si mihi currenti fueris conspecta morabor</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"13\" xml:id=\"Y-3.2-l13\" facs=\"#Y-3.2-zone-13\">Si mihi currenti fueris conspecta morabor<metamark function=\"unknown\" place=\"inline\">/</metamark></l>"
+        },
+        {
+          "line": 17,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"17\" xml:id=\"Y-3.2-l17\" facs=\"#Y-3.2-zone-17\">Nempe fauore suae uicit tamen ille puellae</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"17\" xml:id=\"Y-3.2-l17\" facs=\"#Y-3.2-zone-17\">Nempe fauore suae uicit tamen ille puellae<metamark function=\"unknown\" place=\"inline\">/</metamark></l>"
+        },
+        {
+          "line": 23,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"23\" xml:id=\"Y-3.2-l23\" facs=\"#Y-3.2-zone-23\">Tu quoque qui spectas post nos tua contrahe crura</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"23\" xml:id=\"Y-3.2-l23\" facs=\"#Y-3.2-zone-23\">Tu quoque qui spectas post nos tua contrahe crura<metamark function=\"unknown\" place=\"inline\">/</metamark></l>"
+        },
+        {
+          "line": 27,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"27\" xml:id=\"Y-3.2-l27\" facs=\"#Y-3.2-zone-27\">Inuida uestis eras quae tam bona crura tegebas</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"27\" xml:id=\"Y-3.2-l27\" facs=\"#Y-3.2-zone-27\">Inuida uestis eras quae tam bona crura tegebas<metamark function=\"unknown\" place=\"inline\">/</metamark></l>"
+        },
+        {
+          "line": 28,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"28\" xml:id=\"Y-3.2-l28\" facs=\"#Y-3.2-zone-28\" rend=\"indent\">Quoque magis spectes inuida uestis eras</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"28\" xml:id=\"Y-3.2-l28\" facs=\"#Y-3.2-zone-28\" rend=\"indent\">Quoque magis spectes inuida uestis eras<pc>.</pc></l>"
+        },
+        {
+          "line": 43,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"43\" xml:id=\"Y-3.2-l43\" facs=\"#Y-3.2-zone-43\">Sed iam pompa uenit<pc>.</pc> linguis animisque fauete</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"43\" xml:id=\"Y-3.2-l43\" facs=\"#Y-3.2-zone-43\">Sed iam pompa uenit<pc>.</pc> linguis animisque fauete<metamark function=\"unknown\" place=\"inline\">/</metamark></l>"
+        },
+        {
+          "line": 45,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"45\" xml:id=\"Y-3.2-l45\" facs=\"#Y-3.2-zone-45\">Prima loco fertur passis uictoria pinnis</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"45\" xml:id=\"Y-3.2-l45\" facs=\"#Y-3.2-zone-45\">Prima loco fertur passis uictoria pinnis<metamark function=\"unknown\" place=\"inline\">/</metamark></l>"
+        },
+        {
+          "line": 49,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"49\" xml:id=\"Y-3.2-l49\" facs=\"#Y-3.2-zone-49\">Plaude tuo marti miles<pc>.</pc> nos odimus arma</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"49\" xml:id=\"Y-3.2-l49\" facs=\"#Y-3.2-zone-49\">Plaude tuo marti miles<pc>.</pc> nos odimus arma<metamark function=\"unknown\" place=\"inline\">/</metamark></l>"
+        },
+        {
+          "line": 50,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"50\" xml:id=\"Y-3.2-l50\" facs=\"#Y-3.2-zone-50\" rend=\"indent\">Pax iuuat<pc>.</pc> <choice><abbr><g ref=\"#Y-3.2-et\">&amp;</g></abbr><expan>et</expan></choice> media pace repertus amor</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"50\" xml:id=\"Y-3.2-l50\" facs=\"#Y-3.2-zone-50\" rend=\"indent\">Pax iuuat<pc>.</pc> <choice><abbr><g ref=\"#Y-3.2-et\">&amp;</g></abbr><expan>et</expan></choice> media pace repertus amor<pc>.</pc></l>"
+        },
+        {
+          "line": 59,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"59\" xml:id=\"Y-3.2-l59\" facs=\"#Y-3.2-zone-59\">Quod dea promisit promittas ipsa rogamus</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"59\" xml:id=\"Y-3.2-l59\" facs=\"#Y-3.2-zone-59\">Quod dea promisit promittas ipsa rogamus<metamark function=\"unknown\" place=\"inline\">/</metamark></l>"
+        },
+        {
+          "line": 69,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"69\" xml:id=\"Y-3.2-l69\" facs=\"#Y-3.2-zone-69\">Me miseram metam spatioso circuit orbe</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"69\" xml:id=\"Y-3.2-l69\" facs=\"#Y-3.2-zone-69\">Me miseram metam spatioso circuit orbe<metamark function=\"unknown\" place=\"inline\">/</metamark></l>"
+        },
+        {
+          "line": 79,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"79\" xml:id=\"Y-3.2-l79\" facs=\"#Y-3.2-zone-79\">Nunc saltem supera spatio<hi rend=\"darker-ink\">q</hi>ue insurge patenti</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"79\" xml:id=\"Y-3.2-l79\" facs=\"#Y-3.2-zone-79\">Nunc saltem supera spatio<hi rend=\"darker-ink\">q</hi>ue insurge patenti<metamark function=\"unknown\" place=\"inline\">/</metamark></l>"
+        }
+      ]
+    },
+    {
+      "witness": "Y",
+      "poem": "3.3",
+      "changed_lines": [
+        {
+          "line": 3,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"3\" xml:id=\"Y-3.3-l3\" facs=\"#Y-3.3-zone-3\">Quam longos habuit nondum periura capillos</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"3\" xml:id=\"Y-3.3-l3\" facs=\"#Y-3.3-zone-3\">Quam longos habuit nondum periura capillos<metamark function=\"unknown\" place=\"inline\">/</metamark></l>"
+        },
+        {
+          "line": 9,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"9\" xml:id=\"Y-3.3-l9\" facs=\"#Y-3.3-zone-9\">Argut<hi rend=\"darker-ink\">o</hi>s habuit radiant ut sidus ocelli</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"9\" xml:id=\"Y-3.3-l9\" facs=\"#Y-3.3-zone-9\">Argut<hi rend=\"darker-ink\">o</hi>s habuit radiant ut sidus ocelli<metamark function=\"unknown\" place=\"inline\">/</metamark></l>"
+        },
+        {
+          "line": 15,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"15\" xml:id=\"Y-3.3-l15\" facs=\"#Y-3.3-zone-15\">Dicite di si uos impune fefellerat illa</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"15\" xml:id=\"Y-3.3-l15\" facs=\"#Y-3.3-zone-15\">Dicite di si uos impune fefellerat illa<metamark function=\"unknown\" place=\"inline\">/</metamark></l>"
+        },
+        {
+          "line": 29,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"29\" xml:id=\"Y-3.3-l29\" facs=\"#Y-3.3-zone-29\">Nobis flexibile<note type=\"manuscript\" place=\"above\">i</note>s curuantur apollinis arcus</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"29\" xml:id=\"Y-3.3-l29\" facs=\"#Y-3.3-zone-29\">Nobis flexibile<note type=\"manuscript\" place=\"above\">i</note>s curuantur apollinis arcus<metamark function=\"unknown\" place=\"inline\">/</metamark></l>"
+        },
+        {
+          "line": 33,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"33\" xml:id=\"Y-3.3-l33\" facs=\"#Y-3.3-zone-33\">Et quisquam <unclear>piatur</unclear> <choice><abbr><g ref=\"#Y-3.3-et\">&amp;</g></abbr><expan>et</expan></choice> focis imponere curat</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"33\" xml:id=\"Y-3.3-l33\" facs=\"#Y-3.3-zone-33\">Et quisquam <unclear>piatur</unclear> <choice><abbr><g ref=\"#Y-3.3-et\">&amp;</g></abbr><expan>et</expan></choice> focis imponere curat<pc>.</pc></l>"
+        },
+        {
+          "line": 35,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"35\" xml:id=\"Y-3.3-l35\" facs=\"#Y-3.3-zone-35\">Iuppiter igne suo l<hi rend=\"darker-ink\">uc</hi>os iaculatur <choice><abbr><g ref=\"#Y-3.3-et\">&amp;</g></abbr><expan>et</expan></choice> arces</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"35\" xml:id=\"Y-3.3-l35\" facs=\"#Y-3.3-zone-35\">Iuppiter igne suo l<hi rend=\"darker-ink\">uc</hi>os iaculatur <choice><abbr><g ref=\"#Y-3.3-et\">&amp;</g></abbr><expan>et</expan></choice> arces<metamark function=\"unknown\" place=\"inline\">/</metamark></l>"
+        },
+        {
+          "line": 39,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"39\" xml:id=\"Y-3.3-l39\" facs=\"#Y-3.3-zone-39\">At si uenturo se subduxisse<hi rend=\"darker-ink\">t</hi> amanti</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"39\" xml:id=\"Y-3.3-l39\" facs=\"#Y-3.3-zone-39\">At si uenturo se subduxisse<hi rend=\"darker-ink\">t</hi> amanti<metamark function=\"unknown\" place=\"inline\">/</metamark></l>"
+        }
+      ]
+    },
+    {
+      "witness": "S",
+      "poem": "3.3",
+      "changed_lines": [
+        {
+          "line": 23,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"23\" xml:id=\"S-3.3-l23\" facs=\"#S-3.3-zone-23\">Aut sine <unclear reason=\"faded\">per nōn</unclear> <abbr>d̄s</abbr> <abbr>ē</abbr> <choice><abbr>feminaq<g ref=\"#S-3.3-que-sign\">ꝫ</g></abbr><expan>feminaque</expan></choice> <choice><abbr>tantū</abbr><expan>tantum</expan></choice></l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"23\" xml:id=\"S-3.3-l23\" facs=\"#S-3.3-zone-23\">Aut sine <unclear reason=\"faded\">re nom̄</unclear> <abbr>d̄s</abbr> <abbr>ē</abbr> <choice><abbr>feminaq<g ref=\"#S-3.3-que-sign\">ꝫ</g></abbr><expan>feminaque</expan></choice> <choice><abbr>tantū</abbr><expan>tantum</expan></choice></l>"
+        },
+        {
+          "line": 25,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"25\" xml:id=\"S-3.3-l25\" facs=\"#S-3.3-zone-25\">At tu sis <abbr>d̄s</abbr> <abbr>ē</abbr> ceteras amat ille puellas</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"25\" xml:id=\"S-3.3-l25\" facs=\"#S-3.3-zone-25\"><unclear reason=\"faded\">At tu sis</unclear> <abbr>d̄s</abbr> <abbr>ē</abbr> ceteras amat ille puellas</l>"
+        },
+        {
+          "line": 40,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"40\" xml:id=\"S-3.3-l40\" facs=\"#S-3.3-zone-40\">Non <choice><abbr>pat̄</abbr><expan>pater</expan></choice> in bacho <choice><abbr>mat̄s</abbr><expan>matris</expan></choice> haberet <choice><abbr>op<g ref=\"#S-3.3-us-sign\">ꝰ</g></abbr><expan>opus</expan></choice><pc>·</pc></l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"40\" xml:id=\"S-3.3-l40\" facs=\"#S-3.3-zone-40\">Non <choice><abbr>pat̄</abbr><expan>pater</expan></choice> in bacho <choice><abbr>mat̄s</abbr><expan>matris</expan></choice> haberet <abbr><unclear reason=\"faded\">on̄</unclear></abbr><pc>·</pc></l>"
+        }
+      ]
+    },
+    {
+      "witness": "Y",
+      "poem": "3.4",
+      "changed_lines": [
+        {
+          "line": 26,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"26\" xml:id=\"Y-3.4-l26\" facs=\"#Y-3.4-zone-26\" rend=\"indent\">Cura<pc>.</pc><note type=\"manuscript\" place=\"above\">Preda</note> uocat pauci quod sinit alter amant</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"26\" xml:id=\"Y-3.4-l26\" facs=\"#Y-3.4-zone-26\" rend=\"indent\">Cura<note type=\"manuscript\" place=\"above\">Preda</note> uocat pauci quod sinit alter amant<pc>.</pc></l>"
+        },
+        {
+          "line": 28,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"28\" xml:id=\"Y-3.4-l28\" facs=\"#Y-3.4-zone-28\" rend=\"indent\">Nescio quod<note type=\"manuscript\" place=\"above\"><choice><abbr>q<am>̄</am>d</abbr><expan>quid</expan></choice></note> te ceperit esse<pc>.</pc><note type=\"manuscript\" place=\"above\"><metamark function=\"unknown\">ʌ</metamark></note> putant</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"28\" xml:id=\"Y-3.4-l28\" facs=\"#Y-3.4-zone-28\" rend=\"indent\">Nescio quod<note type=\"manuscript\" place=\"above\"><choice><abbr>q<am>̄</am>d</abbr><expan>quid</expan></choice></note> te ceperit esse<note type=\"manuscript\" place=\"above\"><metamark function=\"unknown\">ʌ</metamark></note> putant<pc>.</pc></l>"
+        }
+      ]
+    },
+    {
+      "witness": "P",
+      "poem": "3.5",
+      "changed_lines": [
+        {
+          "line": 32,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"32\" xml:id=\"P-3.5-l32\" facs=\"#P-3.5-zone-32\" rend=\"indent\"><gap reason=\"illegible\" extent=\"several words\" /> <unclear reason=\"faded\">uidisse</unclear> <gap reason=\"illegible\" extent=\"one or more words\" /></l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"32\" xml:id=\"P-3.5-l32\" facs=\"#P-3.5-zone-32\"><gap reason=\"illegible\" extent=\"several words\" /> <unclear reason=\"faded\">uidisse</unclear> <gap reason=\"illegible\" extent=\"one or more words\" /></l>"
+        },
+        {
+          "line": 34,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"34\" xml:id=\"P-3.5-l34\" facs=\"#P-3.5-zone-34\" rend=\"indent\"><gap reason=\"illegible\" extent=\"one or more words\" /> <unclear reason=\"faded\">animo singula dicta</unclear> <gap reason=\"illegible\" extent=\"one or more words\" /></l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"34\" xml:id=\"P-3.5-l34\" facs=\"#P-3.5-zone-34\"><gap reason=\"illegible\" extent=\"one or more words\" /> <unclear reason=\"faded\">animo singula dicta</unclear> <gap reason=\"illegible\" extent=\"one or more words\" /></l>"
+        },
+        {
+          "line": 36,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"36\" xml:id=\"P-3.5-l36\" facs=\"#P-3.5-zone-36\" rend=\"indent\"><gap reason=\"illegible\" extent=\"several words\" /> <unclear reason=\"faded\">consule</unclear> <gap reason=\"illegible\" extent=\"several words\" /></l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"36\" xml:id=\"P-3.5-l36\" facs=\"#P-3.5-zone-36\"><gap reason=\"illegible\" extent=\"several words\" /> <unclear reason=\"faded\">consule</unclear> <gap reason=\"illegible\" extent=\"several words\" /></l>"
+        },
+        {
+          "line": 38,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"38\" xml:id=\"P-3.5-l38\" facs=\"#P-3.5-zone-38\" rend=\"indent\"><gap reason=\"illegible\" extent=\"one verse\" /></l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"38\" xml:id=\"P-3.5-l38\" facs=\"#P-3.5-zone-38\"><gap reason=\"illegible\" extent=\"one verse\" /></l>"
+        },
+        {
+          "line": 40,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"40\" xml:id=\"P-3.5-l40\" facs=\"#P-3.5-zone-40\" rend=\"indent\"><gap reason=\"illegible\" extent=\"several words\" /> <unclear reason=\"faded\">amore</unclear> <gap reason=\"illegible\" extent=\"one or more words\" /></l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"40\" xml:id=\"P-3.5-l40\" facs=\"#P-3.5-zone-40\"><gap reason=\"illegible\" extent=\"several words\" /> <unclear reason=\"faded\">amore</unclear> <gap reason=\"illegible\" extent=\"one or more words\" /></l>"
+        },
+        {
+          "line": 42,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"42\" xml:id=\"P-3.5-l42\" facs=\"#P-3.5-zone-42\" rend=\"indent\"><gap reason=\"illegible\" extent=\"one verse\" /></l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"42\" xml:id=\"P-3.5-l42\" facs=\"#P-3.5-zone-42\"><gap reason=\"illegible\" extent=\"one verse\" /></l>"
+        }
+      ]
+    },
+    {
+      "witness": "P",
+      "poem": "3.6",
+      "changed_lines": [
+        {
+          "line": 6,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"6\" xml:id=\"P-3.6-l6\" facs=\"#P-3.6-zone-6\" rend=\"indent\"><gap reason=\"illegible\" extent=\"one or more words\" /> <unclear reason=\"faded\">uix</unclear> talos <unclear reason=\"faded\">contigerunt</unclear> meos</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"6\" xml:id=\"P-3.6-l6\" facs=\"#P-3.6-zone-6\" rend=\"indent\"><gap reason=\"illegible\" extent=\"one or more words\" /> <unclear reason=\"faded\">uix</unclear> talos <unclear reason=\"faded\">contigit unda</unclear> meos</l>"
+        },
+        {
+          "line": 9,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"9\" xml:id=\"P-3.6-l9\" facs=\"#P-3.6-zone-9\"><gap reason=\"illegible\" extent=\"one or more words\" /> <unclear reason=\"faded\">optasse iubet</unclear> <gap reason=\"illegible\" extent=\"one or more words\" /> <unclear reason=\"faded\">parca dedisset</unclear> equos</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"9\" xml:id=\"P-3.6-l9\" facs=\"#P-3.6-zone-9\"><gap reason=\"illegible\" extent=\"one or more words\" /> <unclear reason=\"faded\">properasse iubat</unclear> <gap reason=\"illegible\" extent=\"one or more words\" /> <unclear reason=\"faded\">parca dedisse</unclear> quieti</l>"
+        },
+        {
+          "line": 10,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"10\" xml:id=\"P-3.6-l10\" facs=\"#P-3.6-zone-10\" rend=\"indent\"><gap reason=\"illegible\" extent=\"one or more words\" /> <unclear reason=\"faded\">nocti constituisse</unclear> diem</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"10\" xml:id=\"P-3.6-l10\" facs=\"#P-3.6-zone-10\" rend=\"indent\"><gap reason=\"illegible\" extent=\"one or more words\" /> <unclear reason=\"faded\">nocti conseruisse</unclear> diem</l>"
+        },
+        {
+          "line": 14,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"14\" xml:id=\"P-3.6-l14\" facs=\"#P-3.6-zone-14\" rend=\"indent\"><gap reason=\"illegible\" extent=\"one or more words\" /> <unclear reason=\"faded\">portaret</unclear> angue caput</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"14\" xml:id=\"P-3.6-l14\" facs=\"#P-3.6-zone-14\" rend=\"indent\"><gap reason=\"illegible\" extent=\"one or more words\" /> angue caput</l>"
+        },
+        {
+          "line": 20,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"20\" xml:id=\"P-3.6-l20\" facs=\"#P-3.6-zone-20\" rend=\"indent\"><gap reason=\"illegible\" extent=\"one or more words\" /> <unclear reason=\"stained\">semper</unclear> labere <unclear reason=\"faded\">in otio</unclear></l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"20\" xml:id=\"P-3.6-l20\" facs=\"#P-3.6-zone-20\" rend=\"indent\"><gap reason=\"illegible\" extent=\"one or more words\" /> <unclear reason=\"stained\">semper</unclear> labere <unclear reason=\"faded\">fine tuo</unclear></l>"
+        },
+        {
+          "line": 21,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"21\" xml:id=\"P-3.6-l21\" facs=\"#P-3.6-zone-21\"><gap reason=\"illegible\" extent=\"one or more words\" /> <unclear reason=\"faded\">torrentem limosae</unclear> <gap reason=\"illegible\" extent=\"one or more words\" /> undae</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"21\" xml:id=\"P-3.6-l21\" facs=\"#P-3.6-zone-21\"><gap reason=\"illegible\" extent=\"one or more words\" /> <unclear reason=\"faded\">torrens</unclear> <gap reason=\"illegible\" extent=\"one or more words\" /> <unclear reason=\"faded\">ferendae</unclear></l>"
+        },
+        {
+          "line": 27,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"27\" xml:id=\"P-3.6-l27\" facs=\"#P-3.6-zone-27\"><gap reason=\"illegible\" extent=\"one or more words\" /> <unclear reason=\"stained\">tristis</unclear> obessa duobus</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"27\" xml:id=\"P-3.6-l27\" facs=\"#P-3.6-zone-27\"><gap reason=\"illegible\" extent=\"one or more words\" /> <unclear reason=\"stained\">lustris</unclear> obessa duobus</l>"
+        },
+        {
+          "line": 29,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"29\" xml:id=\"P-3.6-l29\" facs=\"#P-3.6-zone-29\"><gap reason=\"illegible\" extent=\"one or more words\" /> <unclear reason=\"stained\">diues</unclear> <unclear reason=\"faded\">arcessit</unclear> <gap reason=\"illegible\" extent=\"one or more words\" /> <unclear reason=\"faded\">herbis</unclear></l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"29\" xml:id=\"P-3.6-l29\" facs=\"#P-3.6-zone-29\"><gap reason=\"illegible\" extent=\"one or more words\" /> <unclear reason=\"faded\">diuersis currere terris</unclear></l>"
+        },
+        {
+          "line": 30,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"30\" xml:id=\"P-3.6-l30\" facs=\"#P-3.6-zone-30\" rend=\"indent\"><gap reason=\"illegible\" extent=\"one or more words\" /> <unclear reason=\"faded\">certos</unclear> <unclear reason=\"faded\">cepit</unclear> amores<metamark function=\"unknown\" place=\"below\">M</metamark></l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"30\" xml:id=\"P-3.6-l30\" facs=\"#P-3.6-zone-30\" rend=\"indent\"><gap reason=\"illegible\" extent=\"one or more words\" /> <unclear reason=\"faded\">certus adegit amor</unclear><metamark function=\"unknown\" place=\"below\">M</metamark></l>"
+        },
+        {
+          "line": 34,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"34\" xml:id=\"P-3.6-l34\" facs=\"#P-3.6-zone-34\" rend=\"indent\"><unclear reason=\"faded\">Natarum thebenamque</unclear> <unclear reason=\"faded\">futuris</unclear> potens</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"34\" xml:id=\"P-3.6-l34\" facs=\"#P-3.6-zone-34\" rend=\"indent\"><unclear reason=\"faded\">Natarum thebenamque</unclear> <unclear reason=\"faded\">futura parens</unclear></l>"
+        },
+        {
+          "line": 46,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"46\" xml:id=\"P-3.6-l46\" facs=\"#P-3.6-zone-46\" rend=\"indent\">Tiburis arua pomiferaque rigas</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"46\" xml:id=\"P-3.6-l46\" facs=\"#P-3.6-zone-46\" rend=\"indent\">Tiburis <unclear reason=\"faded\">argoi pomiferaque</unclear> rigas</l>"
+        },
+        {
+          "line": 59,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"59\" xml:id=\"P-3.6-l59\" facs=\"#P-3.6-zone-59\"><gap reason=\"illegible\" extent=\"one or more words\" /> <unclear reason=\"faded\">silices uiuum</unclear> in pectore <unclear reason=\"faded\">ferrum</unclear></l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"59\" xml:id=\"P-3.6-l59\" facs=\"#P-3.6-zone-59\"><gap reason=\"illegible\" extent=\"one or more words\" /> <unclear reason=\"faded\">silices durum</unclear> in pectore <unclear reason=\"faded\">ferrum</unclear></l>"
+        },
+        {
+          "line": 64,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"64\" xml:id=\"P-3.6-l64\" facs=\"#P-3.6-zone-64\" rend=\"indent\">Non tantum aut plures flumina nostra tenent</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"64\" xml:id=\"P-3.6-l64\" facs=\"#P-3.6-zone-64\" rend=\"indent\">Non centum aut plures flumina nostra tenent</l>"
+        },
+        {
+          "line": 70,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"70\" xml:id=\"P-3.6-l70\" facs=\"#P-3.6-zone-70\" rend=\"indent\"><unclear reason=\"faded\">Cur pendit</unclear> <gap reason=\"illegible\" extent=\"one word\" /> <unclear reason=\"faded\">praecipitem</unclear> metu</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"70\" xml:id=\"P-3.6-l70\" facs=\"#P-3.6-zone-70\" rend=\"indent\"><unclear reason=\"faded\">Cur pendit uires</unclear> <gap reason=\"illegible\" extent=\"one or more words\" /> metu</l>"
+        },
+        {
+          "line": 75,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"75\" xml:id=\"P-3.6-l75\" facs=\"#P-3.6-zone-75\">Cur modo <hi rend=\"darker-ink\">V</hi>estalis <unclear reason=\"faded\">col</unclear><gap reason=\"illegible\" extent=\"several letters\" /> sum uocata <unclear reason=\"faded\">dulcis</unclear></l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"75\" xml:id=\"P-3.6-l75\" facs=\"#P-3.6-zone-75\">Cur modo <hi rend=\"darker-ink\">V</hi>estalis estalis <gap reason=\"illegible\" extent=\"one or more words\" /> <unclear reason=\"faded\">inuitor adullis</unclear></l>"
+        },
+        {
+          "line": 85,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"85\" xml:id=\"P-3.6-l85\" facs=\"#P-3.6-zone-85\">Dum loquor increuit <unclear reason=\"faded\">tuis</unclear> spatiosus ab undis</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"85\" xml:id=\"P-3.6-l85\" facs=\"#P-3.6-zone-85\">Dum loquor increuit <unclear reason=\"faded\">latis</unclear> spatiosus <unclear reason=\"faded\">in</unclear> undis</l>"
+        },
+        {
+          "line": 97,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"97\" xml:id=\"P-3.6-l97\" facs=\"#P-3.6-zone-97\">Quis te tum potuit totiens <unclear reason=\"faded\">adire</unclear> uiator</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"97\" xml:id=\"P-3.6-l97\" facs=\"#P-3.6-zone-97\">Quis te tum potuit totiens <unclear reason=\"faded\">aurire</unclear> uiator</l>"
+        },
+        {
+          "line": 102,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"102\" xml:id=\"P-3.6-l102\" facs=\"#P-3.6-zone-102\" rend=\"indent\">Iactasse indigne nomina tanta pudet ·</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"102\" xml:id=\"P-3.6-l102\" facs=\"#P-3.6-zone-102\" rend=\"indent\">Iactasse indigne nomina tanta pudet:</l>"
+        }
+      ]
+    },
+    {
+      "witness": "Y",
+      "poem": "3.6",
+      "changed_lines": [
+        {
+          "line": 14,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"14\" xml:id=\"Y-3.6-l14\" facs=\"#Y-3.6-zone-14\" rend=\"indent\">Terribili densum cum tulit angue caput</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"14\" xml:id=\"Y-3.6-l14\" facs=\"#Y-3.6-zone-14\" rend=\"indent\">Terribili densum cum tulit angue caput<metamark function=\"unknown\" place=\"inline\">/</metamark></l>"
+        },
+        {
+          "line": 16,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"16\" xml:id=\"Y-3.6-l16\" facs=\"#Y-3.6-zone-16\" rend=\"indent\">Semina uenerunt in rude missa solum</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"16\" xml:id=\"Y-3.6-l16\" facs=\"#Y-3.6-zone-16\" rend=\"indent\">Semina uenerunt in rude missa solum<pc>.</pc></l>"
+        },
+        {
+          "line": 18,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"18\" xml:id=\"Y-3.6-l18\" facs=\"#Y-3.6-zone-18\" rend=\"indent\">Nec tulit haec umquam<pc>·</pc> nec feret ulla dies</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"18\" xml:id=\"Y-3.6-l18\" facs=\"#Y-3.6-zone-18\" rend=\"indent\">Nec tulit haec umquam<pc>·</pc> nec feret ulla dies<pc>.</pc></l>"
+        },
+        {
+          "line": 29,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"29\" xml:id=\"Y-3.6-l29\" facs=\"#Y-3.6-zone-29\">Quid non alphi<add place=\"above\">e</add>on diuersis currere terris</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"29\" xml:id=\"Y-3.6-l29\" facs=\"#Y-3.6-zone-29\">Quid non alphi<add place=\"above\">e</add>on diuersis currere terris<metamark function=\"unknown\" place=\"inline\">/</metamark></l>"
+        },
+        {
+          "line": 33,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"33\" xml:id=\"Y-3.6-l33\" facs=\"#Y-3.6-zone-33\">Quid referam asopon quem cepit martia thebe</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"33\" xml:id=\"Y-3.6-l33\" facs=\"#Y-3.6-zone-33\">Quid referam asopon quem cepit martia thebe<metamark function=\"unknown\" place=\"inline\">/</metamark></l>"
+        },
+        {
+          "line": 36,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"36\" xml:id=\"Y-3.6-l36\" facs=\"#Y-3.6-zone-36\" rend=\"indent\">Herculis irata fracta querere manu<metamark place=\"above\" function=\"unspecified\">/</metamark></l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"36\" xml:id=\"Y-3.6-l36\" facs=\"#Y-3.6-zone-36\" rend=\"indent\">Herculis irata fracta querere<metamark place=\"above\" function=\"unspecified\">/</metamark> manu</l>"
+        },
+        {
+          "line": 40,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"40\" xml:id=\"Y-3.6-l40\" facs=\"#Y-3.6-zone-40\" rend=\"indent\">Qui patriam tantae tam bene celat aquae</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"40\" xml:id=\"Y-3.6-l40\" facs=\"#Y-3.6-zone-40\" rend=\"indent\">Qui patriam tantae tam bene celat aquae<metamark function=\"unknown\" place=\"inline\">/</metamark></l>"
+        },
+        {
+          "line": 42,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"42\" xml:id=\"Y-3.6-l42\" facs=\"#Y-3.6-zone-42\" rend=\"indent\">Vincere gurgitibus non potuisse suis</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"42\" xml:id=\"Y-3.6-l42\" facs=\"#Y-3.6-zone-42\" rend=\"indent\">Vincere gurgitibus non potuisse suis<pc>.</pc></l>"
+        }
+      ]
+    },
+    {
+      "witness": "P",
+      "poem": "3.7",
+      "changed_lines": [
+        {
+          "line": 61,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"61\" xml:id=\"P-3.7-l61\" facs=\"#P-3.7-zone-61\">Quid iuu<choice><abbr><g ref=\"#P-et\">&amp;</g></abbr><expan>et</expan></choice> ad surdas cant<choice><abbr><g ref=\"#P-et\">&amp;</g></abbr><expan>et</expan></choice> phemius aures</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"61\" xml:id=\"P-3.7-l61\" facs=\"#P-3.7-zone-61\">Quid iuu<choice><abbr><g ref=\"#P-et\">&amp;</g></abbr><expan>et</expan></choice> ad surdas cant<choice><abbr><g ref=\"#P-et\">&amp;</g></abbr><expan>et</expan></choice> <unclear reason=\"faded\" cert=\"low\">phineius</unclear> aures</l>"
+        }
+      ]
+    },
+    {
+      "witness": "Y",
+      "poem": "3.7",
+      "changed_lines": [
+        {
+          "line": 2,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"2\" xml:id=\"Y-3.7-l2\" facs=\"#Y-3.7-zone-2\" rend=\"indent\">A<add place=\"above\">v</add>t puto non uotis saepe petita meis</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"2\" xml:id=\"Y-3.7-l2\" facs=\"#Y-3.7-zone-2\" rend=\"indent\">A<add place=\"above\">v</add>t puto non uotis saepe petita meis<pc>.</pc></l>"
+        },
+        {
+          "line": 4,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"4\" xml:id=\"Y-3.7-l4\" facs=\"#Y-3.7-zone-4\" rend=\"indent\">Sed iacui pigro crimen <unclear reason=\"faded\" cert=\"low\">n</unclear> onusque toro</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"4\" xml:id=\"Y-3.7-l4\" facs=\"#Y-3.7-zone-4\" rend=\"indent\">Sed iacui pigro crimen <unclear reason=\"faded\" cert=\"low\">n</unclear> onusque toro<pc>.</pc></l>"
+        },
+        {
+          "line": 8,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"8\" xml:id=\"Y-3.7-l8\" facs=\"#Y-3.7-zone-8\" rend=\"indent\">Brachia si<del rend=\"strikethrough underdot\">t</del> thonica candidiora niue</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"8\" xml:id=\"Y-3.7-l8\" facs=\"#Y-3.7-zone-8\" rend=\"indent\">Brachia si<del rend=\"strikethrough underdot\">t</del> thonica candidiora niue<pc>.</pc></l>"
+        },
+        {
+          "line": 10,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"10\" xml:id=\"Y-3.7-l10\" facs=\"#Y-3.7-zone-10\" rend=\"indent\">Lasci<add place=\"above\">u</add>um femori <add place=\"above\" cert=\"low\"><unclear>sup</unclear></add>posui<add place=\"above\">t</add>que femur</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"10\" xml:id=\"Y-3.7-l10\" facs=\"#Y-3.7-zone-10\" rend=\"indent\">Lasci<add place=\"above\">u</add>um femori <add place=\"above\" cert=\"low\"><unclear>sup</unclear></add>posui<add place=\"above\">t</add>que femur<pc>.</pc></l>"
+        },
+        {
+          "line": 12,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"12\" xml:id=\"Y-3.7-l12\" facs=\"#Y-3.7-zone-12\" rend=\"indent\">Etqu<choice><orig>ę</orig><reg>ae</reg></choice> preterea publica uerba iuuant</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"12\" xml:id=\"Y-3.7-l12\" facs=\"#Y-3.7-zone-12\" rend=\"indent\">Etqu<choice><orig>ę</orig><reg>ae</reg></choice> preterea publica uerba iuuant<metamark function=\"unknown\" place=\"inline\">—</metamark></l>"
+        },
+        {
+          "line": 14,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"14\" xml:id=\"Y-3.7-l14\" facs=\"#Y-3.7-zone-14\" rend=\"indent\">Segnia <hi rend=\"darker-ink\"><choice><abbr><g ref=\"#Y-pro\">p̄</g></abbr><expan>pro</expan></choice>pos</hi>itum destituere meum</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"14\" xml:id=\"Y-3.7-l14\" facs=\"#Y-3.7-zone-14\" rend=\"indent\">Segnia <hi rend=\"darker-ink\"><choice><abbr><g ref=\"#Y-pro\">p̄</g></abbr><expan>pro</expan></choice>pos</hi>itum destituere meum<pc>.</pc></l>"
+        },
+        {
+          "line": 16,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"16\" xml:id=\"Y-3.7-l16\" facs=\"#Y-3.7-zone-16\" rend=\"indent\">Et non exactum<add place=\"above\"><choice><abbr><g ref=\"#Y-est\">ē</g></abbr><expan>est</expan></choice></add> corpus an umbra forem</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"16\" xml:id=\"Y-3.7-l16\" facs=\"#Y-3.7-zone-16\" rend=\"indent\">Et non exactum<add place=\"above\"><choice><abbr><g ref=\"#Y-est\">ē</g></abbr><expan>est</expan></choice></add> corpus an umbra forem<pc>.</pc></l>"
+        },
+        {
+          "line": 18,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"18\" xml:id=\"Y-3.7-l18\" facs=\"#Y-3.7-zone-18\" rend=\"indent\">Cum desit numeris ipsa iuuenta suis</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"18\" xml:id=\"Y-3.7-l18\" facs=\"#Y-3.7-zone-18\" rend=\"indent\">Cum desit numeris ipsa iuuenta suis<g ref=\"#Y-question\">⸮</g></l>"
+        },
+        {
+          "line": 24,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"24\" xml:id=\"Y-3.7-l24\" facs=\"#Y-3.7-zone-24\" rend=\"indent\">Ter libas officio continuata meo est</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"24\" xml:id=\"Y-3.7-l24\" facs=\"#Y-3.7-zone-24\" rend=\"indent\">Ter libas officio continuata meo est<pc>,</pc></l>"
+        },
+        {
+          "line": 30,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"30\" xml:id=\"Y-3.7-l30\" facs=\"#Y-3.7-zone-30\" rend=\"indent\">Et medium tenuis in <unclear reason=\"faded\" cert=\"low\">g</unclear><hi rend=\"darker-ink\">ie</hi>cur egit acus</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"30\" xml:id=\"Y-3.7-l30\" facs=\"#Y-3.7-zone-30\" rend=\"indent\">Et medium tenuis in <unclear reason=\"faded\" cert=\"low\">g</unclear><hi rend=\"darker-ink\">ie</hi>cur egit acus<pc>.</pc></l>"
+        },
+        {
+          "line": 32,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"32\" xml:id=\"Y-3.7-l32\" facs=\"#Y-3.7-zone-32\" rend=\"indent\">Deficiunt laesi carmine fontis aque</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"32\" xml:id=\"Y-3.7-l32\" facs=\"#Y-3.7-zone-32\" rend=\"indent\">Deficiunt laesi carmine fontis aque<metamark function=\"unknown\" place=\"inline\">/</metamark></l>"
+        },
+        {
+          "line": 34,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"34\" xml:id=\"Y-3.7-l34\" facs=\"#Y-3.7-zone-34\" rend=\"indent\">Decidit <choice><abbr><g ref=\"#Y-et\">&amp;</g></abbr><expan>et</expan></choice> nullo poma mouente fluunt</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"34\" xml:id=\"Y-3.7-l34\" facs=\"#Y-3.7-zone-34\" rend=\"indent\">Decidit <choice><abbr><g ref=\"#Y-et\">&amp;</g></abbr><expan>et</expan></choice> nullo poma mouente fluunt<pc>.</pc></l>"
+        },
+        {
+          "line": 36,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"36\" xml:id=\"Y-3.7-l36\" facs=\"#Y-3.7-zone-36\" rend=\"indent\">Forsitan <hi rend=\"darker-ink\">i</hi>mpatiens sit latus iste meum <add place=\"margin-right\" type=\"annotation\"><abbr>i<am>n̄</am></abbr></add></l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"36\" xml:id=\"Y-3.7-l36\" facs=\"#Y-3.7-zone-36\" rend=\"indent\">Forsitan <hi rend=\"darker-ink\">i</hi>mpatiens sit latus iste meum <pc>.</pc><add place=\"margin-right\" type=\"annotation\"><abbr>i<am>n̄</am></abbr></add></l>"
+        },
+        {
+          "line": 38,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"38\" xml:id=\"Y-3.7-l38\" facs=\"#Y-3.7-zone-38\" rend=\"indent\">Ille fuit uitii causa secunda <hi rend=\"darker-ink\">mei</hi></l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"38\" xml:id=\"Y-3.7-l38\" facs=\"#Y-3.7-zone-38\" rend=\"indent\">Ille fuit uitii causa secunda <hi rend=\"darker-ink\">mei</hi><pc>.</pc></l>"
+        },
+        {
+          "line": 40,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"40\" xml:id=\"Y-3.7-l40\" facs=\"#Y-3.7-zone-40\" rend=\"indent\">Sic <choice><abbr><g ref=\"#Y-et\">&amp;</g></abbr><expan>et</expan></choice> iam tunica tangitur illa sua</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"40\" xml:id=\"Y-3.7-l40\" facs=\"#Y-3.7-zone-40\" rend=\"indent\">Sic <choice><abbr><g ref=\"#Y-et\">&amp;</g></abbr><expan>et</expan></choice> iam tunica tangitur illa sua<pc>.</pc></l>"
+        },
+        {
+          "line": 42,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"42\" xml:id=\"Y-3.7-l42\" facs=\"#Y-3.7-zone-42\" rend=\"indent\">Tithonosque annis fortior esse suis</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"42\" xml:id=\"Y-3.7-l42\" facs=\"#Y-3.7-zone-42\" rend=\"indent\">Tithonosque annis fortior esse suis<pc>,</pc></l>"
+        },
+        {
+          "line": 44,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"44\" xml:id=\"Y-3.7-l44\" facs=\"#Y-3.7-zone-44\" rend=\"indent\">Quas<metamark function=\"insertion\" place=\"below\">‸</metamark> <add place=\"above\">nunc</add>c<hi rend=\"darker-ink\">onci</hi>piam per noua uota praeces</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"44\" xml:id=\"Y-3.7-l44\" facs=\"#Y-3.7-zone-44\" rend=\"indent\">Quas<metamark function=\"insertion\" place=\"below\">‸</metamark> <add place=\"above\">nunc</add>c<hi rend=\"darker-ink\">onci</hi>piam per noua uota praeces<pc>.</pc></l>"
+        },
+        {
+          "line": 46,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"46\" xml:id=\"Y-3.7-l46\" facs=\"#Y-3.7-zone-46\" rend=\"indent\">Muneris oblati penituisse deos</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"46\" xml:id=\"Y-3.7-l46\" facs=\"#Y-3.7-zone-46\" rend=\"indent\">Muneris oblati penituisse deos<pc>.</pc></l>"
+        },
+        {
+          "line": 48,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"48\" xml:id=\"Y-3.7-l48\" facs=\"#Y-3.7-zone-48\" rend=\"indent\">Oscula ferre<pc>·</pc> tuli<pc>·</pc> proximus esse<pc>·</pc> fui</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"48\" xml:id=\"Y-3.7-l48\" facs=\"#Y-3.7-zone-48\" rend=\"indent\">Oscula ferre<pc>·</pc> tuli<pc>·</pc> proximus esse<pc>·</pc> fui<pc>.</pc></l>"
+        },
+        {
+          "line": 52,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"52\" xml:id=\"Y-3.7-l52\" facs=\"#Y-3.7-zone-52\" rend=\"indent\">Pomaque que nullo tempore tangat hab<choice><abbr><g ref=\"#Y-et\">&amp;</g></abbr><expan>et</expan></choice></l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"52\" xml:id=\"Y-3.7-l52\" facs=\"#Y-3.7-zone-52\" rend=\"indent\">Pomaque que nullo tempore tangat hab<choice><abbr><g ref=\"#Y-et\">&amp;</g></abbr><expan>et</expan></choice><pc>,</pc></l>"
+        },
+        {
+          "line": 56,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"56\" xml:id=\"Y-3.7-l56\" facs=\"#Y-3.7-zone-56\" rend=\"indent\">Oscula non omni sollicitauit ope</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"56\" xml:id=\"Y-3.7-l56\" facs=\"#Y-3.7-zone-56\" rend=\"indent\">Oscula non omni sollicitauit ope<pc>.</pc></l>"
+        },
+        {
+          "line": 58,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"58\" xml:id=\"Y-3.7-l58\" facs=\"#Y-3.7-zone-58\" rend=\"indent\">Surdaque blandit<hi rend=\"diacritics\">ii</hi>s sax<hi rend=\"darker-ink\">a</hi> mouere suis</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"58\" xml:id=\"Y-3.7-l58\" facs=\"#Y-3.7-zone-58\" rend=\"indent\">Surdaque blandit<hi rend=\"diacritics\">ii</hi>s sax<hi rend=\"darker-ink\">a</hi> mouere suis<pc>.</pc></l>"
+        },
+        {
+          "line": 60,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"60\" xml:id=\"Y-3.7-l60\" facs=\"#Y-3.7-zone-60\" rend=\"indent\">Sed neque tum<metamark function=\"word-separation\" rend=\"vertical\">│</metamark>uixi<metamark function=\"word-separation\" rend=\"vertical\">│</metamark>nec <hi rend=\"darker-ink\">ui</hi>r<metamark function=\"word-separation\" rend=\"vertical\">│</metamark>ut<metamark function=\"word-separation\" rend=\"vertical\">│</metamark>ante fui</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"60\" xml:id=\"Y-3.7-l60\" facs=\"#Y-3.7-zone-60\" rend=\"indent\">Sed neque tum<metamark function=\"word-separation\" rend=\"vertical\">│</metamark>uixi<metamark function=\"word-separation\" rend=\"vertical\">│</metamark>nec <hi rend=\"darker-ink\">ui</hi>r<metamark function=\"word-separation\" rend=\"vertical\">│</metamark>ut<metamark function=\"word-separation\" rend=\"vertical\">│</metamark>ante fui<pc>.</pc></l>"
+        },
+        {
+          "line": 70,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"70\" xml:id=\"Y-3.7-l70\" facs=\"#Y-3.7-zone-70\" rend=\"indent\">Sic sum pollici<hi rend=\"darker-ink\">ti</hi>s cap<hi rend=\"darker-ink\">tu</hi>s <subst><del rend=\"underdot\">es</del><add place=\"above\">vt</add></subst> <del rend=\"underdot\" cert=\"low\"><choice><abbr><g ref=\"#Y-et\">&amp;</g></abbr><expan>et</expan></choice></del> ante tuis</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"70\" xml:id=\"Y-3.7-l70\" facs=\"#Y-3.7-zone-70\" rend=\"indent\">Sic sum pollici<hi rend=\"darker-ink\">ti</hi>s cap<hi rend=\"darker-ink\">tu</hi>s <subst><del rend=\"underdot\">es</del><add place=\"above\">vt</add></subst> <del rend=\"underdot\" cert=\"low\"><choice><abbr><g ref=\"#Y-et\">&amp;</g></abbr><expan>et</expan></choice></del> ante tuis<pc>.</pc></l>"
+        },
+        {
+          "line": 72,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"72\" xml:id=\"Y-3.7-l72\" facs=\"#Y-3.7-zone-72\" rend=\"indent\">Tristia cum magno dampna pudore tuli</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"72\" xml:id=\"Y-3.7-l72\" facs=\"#Y-3.7-zone-72\" rend=\"indent\">Tristia cum magno dampna pudore tuli<pc>.</pc></l>"
+        },
+        {
+          "line": 74,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"74\" xml:id=\"Y-3.7-l74\" facs=\"#Y-3.7-zone-74\" rend=\"indent\"><hi rend=\"disturbed-surface\">Molliter admota sollicitare manu</hi></l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"74\" xml:id=\"Y-3.7-l74\" facs=\"#Y-3.7-zone-74\" rend=\"indent\"><hi rend=\"disturbed-surface\">Molliter admota sollicitare manu</hi><pc>.</pc></l>"
+        },
+        {
+          "line": 76,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"76\" xml:id=\"Y-3.7-l76\" facs=\"#Y-3.7-zone-76\" rend=\"indent\">Inmemoremque sui procubuisse uid<choice><abbr><g ref=\"#Y-et\">&amp;</g></abbr><expan>et</expan></choice></l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"76\" xml:id=\"Y-3.7-l76\" facs=\"#Y-3.7-zone-76\" rend=\"indent\">Inmemoremque sui procubuisse uid<choice><abbr><g ref=\"#Y-et\">&amp;</g></abbr><expan>et</expan></choice><metamark function=\"unknown\" place=\"inline\">/</metamark></l>"
+        },
+        {
+          "line": 82,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"82\" xml:id=\"Y-3.7-l82\" facs=\"#Y-3.7-zone-82\" rend=\"indent\">Et decuit nudos proripuisse pedes</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"82\" xml:id=\"Y-3.7-l82\" facs=\"#Y-3.7-zone-82\" rend=\"indent\">Et decuit nudos proripuisse pedes<pc>.</pc></l>"
+        }
+      ]
+    },
+    {
+      "witness": "P",
+      "poem": "3.8",
+      "changed_lines": [
+        {
+          "line": 44,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"44\" xml:id=\"P-3.8-l44\" facs=\"#P-3.8-zone-44\" rend=\"indent\">Ultima mortali tum uia tellus erat</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"44\" xml:id=\"P-3.8-l44\" facs=\"#P-3.8-zone-44\" rend=\"indent\">Ultima mortali tum uia litus erat</l>"
+        },
+        {
+          "line": 59,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"59\" xml:id=\"P-3.8-l59\" facs=\"#P-3.8-zone-59\"><gap reason=\"illegible\" extent=\"several words\" /> <unclear reason=\"faded\">auidi</unclear><gap reason=\"illegible\" extent=\"several letters\" /> <unclear reason=\"stained\">amoris</unclear></l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"59\" xml:id=\"P-3.8-l59\" facs=\"#P-3.8-zone-59\"><gap reason=\"illegible\" extent=\"several words\" /> <unclear reason=\"faded\">auide</unclear><gap reason=\"illegible\" extent=\"several letters\" /> <unclear reason=\"stained\">amores</unclear></l>"
+        },
+        {
+          "line": 61,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"61\" xml:id=\"P-3.8-l61\" facs=\"#P-3.8-zone-61\"><gap reason=\"illegible\" extent=\"several words\" /> <unclear reason=\"faded\">ille</unclear> <gap reason=\"illegible\" extent=\"one or more words\" /></l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"61\" xml:id=\"P-3.8-l61\" facs=\"#P-3.8-zone-61\"><gap reason=\"illegible\" extent=\"several words\" /> <unclear reason=\"faded\">tetricas licet illa</unclear> <gap reason=\"illegible\" extent=\"one or more words\" /></l>"
+        },
+        {
+          "line": 64,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"64\" xml:id=\"P-3.8-l64\" facs=\"#P-3.8-zone-64\" rend=\"indent\"><gap reason=\"illegible\" extent=\"several words\" /> <unclear reason=\"faded\">cede</unclear> <gap reason=\"illegible\" extent=\"one or more words\" /> domo</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"64\" xml:id=\"P-3.8-l64\" facs=\"#P-3.8-zone-64\" rend=\"indent\"><gap reason=\"illegible\" extent=\"several words\" /> <unclear reason=\"faded\">cedet</unclear> <gap reason=\"illegible\" extent=\"one or more words\" /> domo</l>"
+        }
+      ]
+    },
+    {
+      "witness": "Y",
+      "poem": "3.8",
+      "changed_lines": [
+        {
+          "line": 56,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"56\" xml:id=\"Y-3.8-l56\" facs=\"#Y-3.8-zone-56\" rend=\"indent\">Inde grauis iudex<metamark function=\"unspecified\">|</metamark> inde seuerus eques <pc>.</pc></l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"56\" xml:id=\"Y-3.8-l56\" facs=\"#Y-3.8-zone-56\" rend=\"indent\">Inde grauis iudex<metamark function=\"unspecified\">|</metamark> inde seuerus eques <pc>,</pc></l>"
+        }
+      ]
+    },
+    {
+      "witness": "P",
+      "poem": "3.9",
+      "changed_lines": [
+        {
+          "line": 21,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"21\" xml:id=\"P-3.9-l21\" facs=\"#P-3.9-zone-21\">Quid pater <unclear>ismario</unclear> quid mater profuit <unclear>orphi</unclear></l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"21\" xml:id=\"P-3.9-l21\" facs=\"#P-3.9-zone-21\">Quid <unclear reason=\"faded\">patris maro</unclear> quid mater profuit <unclear reason=\"faded\">orphi</unclear></l>"
+        }
+      ]
+    },
+    {
+      "witness": "Y",
+      "poem": "3.9",
+      "changed_lines": [
+        {
+          "line": 6,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"6\" xml:id=\"Y-3.9-l6\" facs=\"#Y-3.9-zone-6\" rend=\"indent\">Ardet in extructo corpus inane rogo</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"6\" xml:id=\"Y-3.9-l6\" facs=\"#Y-3.9-zone-6\" rend=\"indent\">Ardet in extructo corpus inane rogo<pc>.</pc></l>"
+        },
+        {
+          "line": 11,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"11\" xml:id=\"Y-3.9-l11\" facs=\"#Y-3.9-zone-11\">Excipiunt lacrimas sparsi<metamark function=\"unspecified\">|</metamark> per colla capilli</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"11\" xml:id=\"Y-3.9-l11\" facs=\"#Y-3.9-zone-11\">Excipiunt lacrimas sparsi<metamark function=\"unspecified\">|</metamark> per colla capilli<pc>.</pc></l>"
+        },
+        {
+          "line": 12,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"12\" xml:id=\"Y-3.9-l12\" facs=\"#Y-3.9-zone-12\" rend=\"indent\">Oraque singultu concutiente sonant</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"12\" xml:id=\"Y-3.9-l12\" facs=\"#Y-3.9-zone-12\" rend=\"indent\">Oraque singultu concutiente sonant<pc>.</pc></l>"
+        },
+        {
+          "line": 14,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"14\" xml:id=\"Y-3.9-l14\" facs=\"#Y-3.9-zone-14\" rend=\"indent\">Egressum tectis pulcher iule tuis</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"14\" xml:id=\"Y-3.9-l14\" facs=\"#Y-3.9-zone-14\" rend=\"indent\">Egressum tectis pulcher iule tuis<pc>.</pc></l>"
+        },
+        {
+          "line": 18,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"18\" xml:id=\"Y-3.9-l18\" facs=\"#Y-3.9-zone-18\" rend=\"indent\">Sunt <choice><abbr><g ref=\"#Y-3.9-et\">&amp;</g></abbr><expan>et</expan></choice>iam qui nos nu<hi rend=\"darker-ink\"><unclear>men</unclear></hi> habere putent</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"18\" xml:id=\"Y-3.9-l18\" facs=\"#Y-3.9-zone-18\" rend=\"indent\">Sunt <choice><abbr><g ref=\"#Y-3.9-et\">&amp;</g></abbr><expan>et</expan></choice>iam qui nos nu<hi rend=\"darker-ink\"><unclear>men</unclear></hi> habere putent<pc>.</pc></l>"
+        },
+        {
+          "line": 27,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"27\" xml:id=\"Y-3.9-l27\" facs=\"#Y-3.9-zone-27\">Hunc quoque summa dies nigro submersit auerno</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"27\" xml:id=\"Y-3.9-l27\" facs=\"#Y-3.9-zone-27\">Hunc quoque summa dies nigro submersit auerno<pc>.</pc></l>"
+        },
+        {
+          "line": 28,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"28\" xml:id=\"Y-3.9-l28\" facs=\"#Y-3.9-zone-28\" rend=\"indent\">Diffugiunt auidos carmina sola rogos</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"28\" xml:id=\"Y-3.9-l28\" facs=\"#Y-3.9-zone-28\" rend=\"indent\">Diffugiunt auidos carmina sola rogos<pc>,</pc></l>"
+        },
+        {
+          "line": 30,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"30\" xml:id=\"Y-3.9-l30\" facs=\"#Y-3.9-zone-30\" rend=\"indent\">Tardaque nocturno tela retexta dolo</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"30\" xml:id=\"Y-3.9-l30\" facs=\"#Y-3.9-zone-30\" rend=\"indent\">Tardaque nocturno tela retexta dolo<pc>.</pc></l>"
+        },
+        {
+          "line": 32,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"32\" xml:id=\"Y-3.9-l32\" facs=\"#Y-3.9-zone-32\" rend=\"indent\">Altera cura recens altera primus amor</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"32\" xml:id=\"Y-3.9-l32\" facs=\"#Y-3.9-zone-32\" rend=\"indent\">Altera cura recens altera primus amor<pc>.</pc></l>"
+        },
+        {
+          "line": 34,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"34\" xml:id=\"Y-3.9-l34\" facs=\"#Y-3.9-zone-34\" rend=\"indent\">Sistra quid in uacuo secubuisse toro</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"34\" xml:id=\"Y-3.9-l34\" facs=\"#Y-3.9-zone-34\" rend=\"indent\">Sistra quid in uacuo secubuisse toro<pc>.</pc></l>"
+        },
+        {
+          "line": 36,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"36\" xml:id=\"Y-3.9-l36\" facs=\"#Y-3.9-zone-36\" rend=\"indent\">Sollicitor nullos esse putare deos</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"36\" xml:id=\"Y-3.9-l36\" facs=\"#Y-3.9-zone-36\" rend=\"indent\">Sollicitor nullos esse putare deos<pc>.</pc></l>"
+        },
+        {
+          "line": 44,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"44\" xml:id=\"Y-3.9-l44\" facs=\"#Y-3.9-zone-44\" rend=\"indent\">Vrere quae tantum sustinuere nefas</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"44\" xml:id=\"Y-3.9-l44\" facs=\"#Y-3.9-zone-44\" rend=\"indent\">Vrere quae tantum sustinuere nefas<pc>.</pc></l>"
+        },
+        {
+          "line": 66,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"66\" xml:id=\"Y-3.9-l66\" facs=\"#Y-3.9-zone-66\" rend=\"indent\">Auxisti numeros culte tibulle pios<add place=\"above\">tuos</add></l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"66\" xml:id=\"Y-3.9-l66\" facs=\"#Y-3.9-zone-66\" rend=\"indent\">Auxisti numeros culte tibulle pios<add place=\"above\">tuos</add><pc>.</pc></l>"
+        }
+      ]
+    },
+    {
+      "witness": "P",
+      "poem": "3.10",
+      "changed_lines": [
+        {
+          "line": 23,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"23\" xml:id=\"P-3.10-l23\" facs=\"#P-3.10-zone-23\">Magna fides testi testis laudatur alumno</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"23\" xml:id=\"P-3.10-l23\" facs=\"#P-3.10-zone-23\">Magna fides testi testis laudatur alumno<pc>.</pc></l>"
+        }
+      ]
+    },
+    {
+      "witness": "Y",
+      "poem": "3.10",
+      "changed_lines": [
+        {
+          "line": 8,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"8\" xml:id=\"Y-3.10-l8\" facs=\"#Y-3.10-zone-8\" rend=\"indent\">Nec notum terris area nomen erat</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"8\" xml:id=\"Y-3.10-l8\" facs=\"#Y-3.10-zone-8\" rend=\"indent\">Nec notum terris area nomen erat<pc>.</pc></l>"
+        },
+        {
+          "line": 41,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"41\" xml:id=\"Y-3.10-l41\" facs=\"#Y-3.10-zone-41\">Optauit minos similes sibi legifer annos</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"41\" xml:id=\"Y-3.10-l41\" facs=\"#Y-3.10-zone-41\">Optauit minos similes sibi legifer annos<metamark function=\"unknown\" place=\"inline\">/</metamark></l>"
+        }
+      ]
+    },
+    {
+      "witness": "P",
+      "poem": "3.11",
+      "changed_lines": [
+        {
+          "line": 9,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"9\" xml:id=\"P-3.11-l9\" facs=\"#P-3.11-zone-9\">Ergo ego sustinui foribus totiensque repulsus</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"9\" xml:id=\"P-3.11-l9\" facs=\"#P-3.11-zone-9\">Ergo ego sustinui foribus tam <unclear>sepe</unclear> repulsus</l>"
+        },
+        {
+          "line": 40,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"40\" xml:id=\"P-3.11-l40\" facs=\"#P-3.11-zone-40\">Et uideor uoti nescius esse mei</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"40\" xml:id=\"P-3.11-l40\" facs=\"#P-3.11-zone-40\">Et uideor uoti nescius esse mei <pc>.</pc></l>"
+        }
+      ]
+    },
+    {
+      "witness": "Y",
+      "poem": "3.11",
+      "changed_lines": [
+        {
+          "line": 2,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"2\" xml:id=\"Y-3.11-l2\" facs=\"#Y-3.11-zone-2\" rend=\"indent\">Cede fatigato pecto<metamark function=\"unspecified\">—</metamark>re turpis amor</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"2\" xml:id=\"Y-3.11-l2\" facs=\"#Y-3.11-zone-2\" rend=\"indent\">Cede fatigato pecto<metamark function=\"unspecified\">—</metamark>re turpis amor<pc>.</pc></l>"
+        },
+        {
+          "line": 4,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"4\" xml:id=\"Y-3.11-l4\" facs=\"#Y-3.11-zone-4\" rend=\"indent\">Et que non puduit ferre tulisse pud<choice><abbr><g ref=\"#Y-3.11-et\">&amp;</g></abbr><expan>et</expan></choice></l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"4\" xml:id=\"Y-3.11-l4\" facs=\"#Y-3.11-zone-4\" rend=\"indent\">Et que non puduit ferre tulisse pud<choice><abbr><g ref=\"#Y-3.11-et\">&amp;</g></abbr><expan>et</expan></choice><pc>.</pc></l>"
+        },
+        {
+          "line": 8,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"8\" xml:id=\"Y-3.11-l8\" facs=\"#Y-3.11-zone-8\" rend=\"indent\">Saepe tulit lassis sucus amarus opem</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"8\" xml:id=\"Y-3.11-l8\" facs=\"#Y-3.11-zone-8\" rend=\"indent\">Saepe tulit lassis sucus amarus opem<pc>.</pc></l>"
+        },
+        {
+          "line": 22,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"22\" xml:id=\"Y-3.11-l22\" facs=\"#Y-3.11-zone-22\" rend=\"indent\">Et per<metamark function=\"unspecified\">—</metamark>iuratos in mea dampna deos</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"22\" xml:id=\"Y-3.11-l22\" facs=\"#Y-3.11-zone-22\" rend=\"indent\">Et per<metamark function=\"unspecified\">—</metamark>iuratos in mea dampna deos<metamark function=\"unknown\" place=\"inline\">⌁</metamark></l>"
+        }
+      ]
+    },
+    {
+      "witness": "Y",
+      "poem": "3.12",
+      "changed_lines": [
+        {
+          "line": 12,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"12\" xml:id=\"Y-3.12-l12\" facs=\"#Y-3.12-zone-12\" rend=\"indent\">Ianua per nostras est adaperta manus</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"12\" xml:id=\"Y-3.12-l12\" facs=\"#Y-3.12-zone-12\" rend=\"indent\">Ianua per nostras est adaperta manus<pc>.</pc></l>"
+        },
+        {
+          "line": 18,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"18\" xml:id=\"Y-3.12-l18\" facs=\"#Y-3.12-zone-18\" rend=\"indent\">Phoebus <choice><abbr><g ref=\"#Y-3.12-et\">&amp;</g></abbr><expan>et</expan></choice> incoeptum destituisse<metamark function=\"unspecified\">—</metamark><space dim=\"horizontal\" quantity=\"2\" unit=\"character\" />opus <pc>.</pc></l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"18\" xml:id=\"Y-3.12-l18\" facs=\"#Y-3.12-zone-18\" rend=\"indent\">Phoebus <choice><abbr><g ref=\"#Y-3.12-et\">&amp;</g></abbr><expan>et</expan></choice> incoeptum destituisse<metamark function=\"unspecified\">—</metamark><space dim=\"horizontal\" quantity=\"2\" unit=\"character\" />opus <pc>,</pc></l>"
+        },
+        {
+          "line": 20,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"20\" xml:id=\"Y-3.12-l20\" facs=\"#Y-3.12-zone-20\" rend=\"indent\">Maluer<add place=\"above\">i</add>am u<metamark function=\"unspecified\">|</metamark>erbis pondus abesse meis <pc>.</pc><add place=\"margin-left\">debuerat</add><metamark function=\"unspecified\" place=\"margin-left\"><gap reason=\"illegible\" extent=\"unknown\" unit=\"character\"><desc>Small upright and point-like marks precede the marginal debuerat; their function is unclear.</desc></gap></metamark></l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"20\" xml:id=\"Y-3.12-l20\" facs=\"#Y-3.12-zone-20\" rend=\"indent\">Maluer<add place=\"above\">i</add>am u<metamark function=\"unspecified\">|</metamark>erbis pondus abesse meis <pc>,</pc><add place=\"margin-left\">debuerat</add><metamark function=\"unspecified\" place=\"margin-left\"><gap reason=\"illegible\" extent=\"unknown\" unit=\"character\"><desc>Small upright and point-like marks precede the marginal debuerat; their function is unclear.</desc></gap></metamark></l>"
+        },
+        {
+          "line": 24,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"24\" xml:id=\"Y-3.12-l24\" facs=\"#Y-3.12-zone-24\" rend=\"indent\">Victor abantia<metamark function=\"unspecified\">—</metamark> des<metamark function=\"unspecified\">|</metamark>ultat fertur equo <pc>.</pc></l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"24\" xml:id=\"Y-3.12-l24\" facs=\"#Y-3.12-zone-24\" rend=\"indent\">Victor abantia<metamark function=\"unspecified\">—</metamark> des<metamark function=\"unspecified\">|</metamark>ultat fertur equo <pc>,</pc></l>"
+        },
+        {
+          "line": 34,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"34\" xml:id=\"Y-3.12-l34\" facs=\"#Y-3.12-zone-34\" rend=\"indent\">Aut secat imposita uirgine taurus aquas <pc>.</pc></l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"34\" xml:id=\"Y-3.12-l34\" facs=\"#Y-3.12-zone-34\" rend=\"indent\">Aut secat imposita uirgine taurus aquas <pc>,</pc></l>"
+        },
+        {
+          "line": 38,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"38\" xml:id=\"Y-3.12-l38\" facs=\"#Y-3.12-zone-38\" rend=\"indent\">Quaeq <pc>.</pc> rates fuerint nunc maris esse deas <pc>.</pc></l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"38\" xml:id=\"Y-3.12-l38\" facs=\"#Y-3.12-zone-38\" rend=\"indent\">Quaeq <pc>.</pc> rates fuerint nunc maris esse deas <pc>,</pc></l>"
+        },
+        {
+          "line": 42,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"42\" xml:id=\"Y-3.12-l42\" facs=\"#Y-3.12-zone-42\" rend=\"indent\">Obligat historica nec sua uerba fide</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"42\" xml:id=\"Y-3.12-l42\" facs=\"#Y-3.12-zone-42\" rend=\"indent\">Obligat historica nec sua uerba fide<pc>.</pc></l>"
+        }
+      ]
+    },
+    {
+      "witness": "Y",
+      "poem": "3.13",
+      "changed_lines": [
+        {
+          "line": 4,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"4\" xml:id=\"Y-3.13-l4\" facs=\"#Y-3.13-zone-4\" rend=\"indent\">Et celebres ludos indigenamque bouem</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"4\" xml:id=\"Y-3.13-l4\" facs=\"#Y-3.13-zone-4\" rend=\"indent\">Et celebres ludos indigenamque bouem<pc>.</pc></l>"
+        },
+        {
+          "line": 26,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"26\" xml:id=\"Y-3.13-l26\" facs=\"#Y-3.13-zone-26\" rend=\"indent\">Et tegit auratos palla superba pedes <pc>.</pc></l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"26\" xml:id=\"Y-3.13-l26\" facs=\"#Y-3.13-zone-26\" rend=\"indent\">Et tegit auratos palla superba pedes <pc>,</pc></l>"
+        }
+      ]
+    },
+    {
+      "witness": "P",
+      "poem": "3.14",
+      "changed_lines": [
+        {
+          "line": 13,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"13\" xml:id=\"P-3.14-l13\" facs=\"#P-3.14-zone-13\">Si tibi mens melior saltemue imitare pudicas</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"13\" xml:id=\"P-3.14-l13\" facs=\"#P-3.14-zone-13\">Si tibi mens melior saltemue imitare pudicas <pc>.</pc></l>"
+        }
+      ]
+    },
+    {
+      "witness": "Y",
+      "poem": "3.14",
+      "changed_lines": [
+        {
+          "line": 2,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"2\" xml:id=\"Y-3.14-l2\" facs=\"#Y-3.14-zone-2\" rend=\"indent\">Se<hi rend=\"darker-ink\">d</hi> ne sit misero scire necesse mihi</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"2\" xml:id=\"Y-3.14-l2\" facs=\"#Y-3.14-zone-2\" rend=\"indent\">Se<hi rend=\"darker-ink\">d</hi> ne sit misero scire necesse mihi<pc>,</pc></l>"
+        },
+        {
+          "line": 10,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"10\" xml:id=\"Y-3.14-l10\" facs=\"#Y-3.14-zone-10\" rend=\"indent\">Opposita <choice><abbr>populū</abbr><expan>populum</expan></choice> <choice><abbr><hi rend=\"darker-ink\">sū</hi>mou<choice><abbr><g ref=\"#Y-3.14-et\">&amp;</g></abbr><expan>et</expan></choice></abbr><expan>summouet</expan></choice> ante <hi rend=\"darker-ink\">s</hi>era <pc>.</pc></l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"10\" xml:id=\"Y-3.14-l10\" facs=\"#Y-3.14-zone-10\" rend=\"indent\">Opposita <choice><abbr>populū</abbr><expan>populum</expan></choice> <choice><abbr><hi rend=\"darker-ink\">sū</hi>mou<choice><abbr><g ref=\"#Y-3.14-et\">&amp;</g></abbr><expan>et</expan></choice></abbr><expan>summouet</expan></choice> ante <hi rend=\"darker-ink\">s</hi>era <pc>,</pc></l>"
+        },
+        {
+          "line": 32,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"32\" xml:id=\"Y-3.14-l32\" facs=\"#Y-3.14-zone-32\" rend=\"indent\">Cur pre<unclear reason=\"overwriting\">ss</unclear>us p<add place=\"above\">r</add>ior est<metamark function=\"unspecified\">|</metamark> interiorque torus <pc>.</pc></l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"32\" xml:id=\"Y-3.14-l32\" facs=\"#Y-3.14-zone-32\" rend=\"indent\">Cur pre<unclear reason=\"overwriting\">ss</unclear>us p<add place=\"above\">r</add>ior est<metamark function=\"unspecified\">|</metamark> interiorque torus <pc>,</pc></l>"
+        },
+        {
+          "line": 46,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"46\" xml:id=\"Y-3.14-l46\" facs=\"#Y-3.14-zone-46\" rend=\"indent\">Concedunt uerbis <hi rend=\"darker-ink\">l</hi>umina nostra tuis <pc>.</pc></l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"46\" xml:id=\"Y-3.14-l46\" facs=\"#Y-3.14-zone-46\" rend=\"indent\">Concedunt uerbis <hi rend=\"darker-ink\">l</hi>umina nostra tuis <pc>,</pc></l>"
+        }
+      ]
+    },
+    {
+      "witness": "Y",
+      "poem": "3.15",
+      "changed_lines": [
+        {
+          "line": 20,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"20\" xml:id=\"Y-3.15-l20\" facs=\"#Y-3.15-zone-20\" rend=\"indent\">Post mea mansurum fata superstes opus <pc>.</pc></l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"20\" xml:id=\"Y-3.15-l20\" facs=\"#Y-3.15-zone-20\" rend=\"indent\">Post mea mansurum fata superstes opus <pc>:</pc></l>"
+        }
+      ]
+    },
+    {
+      "witness": "W",
+      "poem": "3.1",
+      "changed_lines": [
+        {
+          "line": 10,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"10\" xml:id=\"W-3.1-l10\" facs=\"#W-3.1-zone-10\" rend=\"indent\">In pedibus vitium causa decoris erat.</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"10\" xml:id=\"W-3.1-l10\" facs=\"#W-3.1-zone-10\" rend=\"indent\">In pedibus vitium caussa decoris erat.</l>"
+        }
+      ]
+    },
+    {
+      "witness": "W",
+      "poem": "3.6",
+      "changed_lines": [
+        {
+          "line": 13,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"13\" xml:id=\"W-3.6-l13\" facs=\"#W-3.6-zone-13\">Nunc ego, quas habuit pennas Danaeius heros,</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"13\" xml:id=\"W-3.6-l13\" facs=\"#W-3.6-zone-13\">Nunc ego, quas habuit pennas Danaeïus heros,</l>"
+        },
+        {
+          "line": 20,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"20\" xml:id=\"W-3.6-l20\" facs=\"#W-3.6-zone-20\" rend=\"indent\">(Sic aeternus eas) labere sine tuo.</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"20\" xml:id=\"W-3.6-l20\" facs=\"#W-3.6-zone-20\" rend=\"indent\">(Sic aeternus eas) labere fine tuo.</l>"
+        }
+      ]
+    },
+    {
+      "witness": "W",
+      "poem": "3.7",
+      "changed_lines": [
+        {
+          "line": 38,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"38\" xml:id=\"W-3.7-l38\" facs=\"#W-3.7-zone-38\" rend=\"indent\">Ille fuit vitii causa secunda mei.</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"38\" xml:id=\"W-3.7-l38\" facs=\"#W-3.7-zone-38\" rend=\"indent\">Ille fuit vitii caussa secunda mei.</l>"
+        }
+      ]
+    },
+    {
+      "witness": "W",
+      "poem": "3.9",
+      "changed_lines": [
+        {
+          "line": 35,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"35\" xml:id=\"W-3.9-l35\" facs=\"#W-3.9-zone-35\">Cum rapiant mala fata bonos, (ignoscite fasto)</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"35\" xml:id=\"W-3.9-l35\" facs=\"#W-3.9-zone-35\">Cum rapiant mala fata bonos, (ignoscite fasso)</l>"
+        }
+      ]
+    },
+    {
+      "witness": "W",
+      "poem": "3.10",
+      "changed_lines": [
+        {
+          "line": 46,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"46\" xml:id=\"W-3.10-l46\" facs=\"#W-3.10-zone-46\" rend=\"indent\">Regnaque, quam Juno, forte minora regat?</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"46\" xml:id=\"W-3.10-l46\" facs=\"#W-3.10-zone-46\" rend=\"indent\">Regnaque, quam Juno, sorte minora regat?</l>"
+        }
+      ]
+    },
+    {
+      "witness": "W",
+      "poem": "3.11",
+      "changed_lines": [
+        {
+          "line": 20,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"20\" xml:id=\"W-3.11-l20\" facs=\"#W-3.11-zone-20\" rend=\"indent\">Causa fuit multis noster amoris amor.</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"20\" xml:id=\"W-3.11-l20\" facs=\"#W-3.11-zone-20\" rend=\"indent\">Caussa fuit multis noster amoris amor.</l>"
+        }
+      ]
+    },
+    {
+      "witness": "W",
+      "poem": "3.14",
+      "changed_lines": [
+        {
+          "line": 50,
+          "before_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"50\" xml:id=\"W-3.14-l50\" facs=\"#W-3.14-zone-50\" rend=\"indent\">Et si non causâ, judice vince tuo.</l>",
+          "after_xml": "<l xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"50\" xml:id=\"W-3.14-l50\" facs=\"#W-3.14-zone-50\" rend=\"indent\">Et si non caussâ, judice vince tuo.</l>"
+        }
+      ]
+    }
+  ]
+}

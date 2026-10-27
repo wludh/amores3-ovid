@@ -3,9 +3,9 @@
   "poem": "3.10",
   "date": "2026-10-26",
   "author_agent": "/root/w_transcribe_c",
-  "reviewer_agent": "/root/w_review_c",
-  "reviewer": "OpenAI Codex independent w_review_c source-image reviewer",
-  "review_type": "independent-second-agent-image-and-encoding-review",
+  "reviewer_agent": "/root",
+  "reviewer": "OpenAI Codex /root, fresh third source reader (prior XML encoder; distinct from original source reader)",
+  "review_type": "independent-second-agent-image-and-encoding-review-with-fresh-corpus-rereading",
   "human_approved": false,
   "line_coverage": {
     "count": 48,
@@ -179,11 +179,15 @@
     "verse_lines": 48,
     "facsimile_zones": 48,
     "unique_ids": true,
-    "local_references_resolve": true
+    "local_references_resolve": true,
+    "changed_verse_ids": [
+      "W-3.10-l46"
+    ],
+    "passed": true
   },
-  "reviewed_candidate_sha256": "f36412544dbe2c8ead9b37c1ea8d388c8da4ebe97627c2435e671945b141a017",
-  "reviewed_xml_sha256": "84f9406c04d79f946913aa880b700b818ee190ff20f73051bae195951ee30046",
-  "review_report_sha256": "b53b05379c6866c8b6ee0cbe4e46320a8a074e14eb81e1c727d1a806d27d57bd",
+  "reviewed_candidate_sha256": "1e9ceab761e1b5be0777697324ecf5e36d99c0da725e2cb1c90487f86bbb82b5",
+  "reviewed_xml_sha256": "66be5d8eb76ae167a2a44b1610f7bd888bf1adef2518b6d73a171fcc6521eeca",
+  "review_report_sha256": "10c17f5a2051092b240325ddac7743b9607795f2995843cddeeb9970d7c062e6",
   "opening_capital_followup": {
     "line": 1,
     "before": "Annua",
@@ -192,5 +196,245 @@
       "image": "https://digitalarchive.wlu.edu/cantaloupe/iiif/2/https%3A%2F%2Fdigitalarchive.wlu.edu%2F_flysystem%2Ffedora%2F2026-10%2F72569-Service%2520File.jpg/full/full/0/default.jpg",
       "assessment": "Focused independent reinspection of the actual opening image confirms ANnua: the enlarged initial is followed by a genuine uppercase N, then lowercase letters. The remaining opening word, line 2 capitalization and enlarged-initial inset were also checked. Only the supported second-letter case was changed in this follow-up."
     }
+  },
+  "status": "second-pass-complete",
+  "review_history": [
+    {
+      "round": "previous-independent-second-source-review",
+      "ledger": {
+        "witness": "W",
+        "poem": "3.10",
+        "date": "2026-10-26",
+        "author_agent": "/root/w_transcribe_c",
+        "reviewer_agent": "/root/w_review_c",
+        "reviewer": "OpenAI Codex independent w_review_c source-image reviewer",
+        "review_type": "independent-second-agent-image-and-encoding-review",
+        "human_approved": false,
+        "line_coverage": {
+          "count": 48,
+          "ranges": [
+            {
+              "image": 186,
+              "printed_page": 142,
+              "page_position": "printed page 142",
+              "start": 1,
+              "end": 15
+            },
+            {
+              "image": 187,
+              "printed_page": 143,
+              "page_position": "printed page 143",
+              "start": 16,
+              "end": 48
+            }
+          ]
+        },
+        "line_order": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48
+        ],
+        "counts": {
+          "resolved": 0,
+          "documented-uncertainty": 0,
+          "escalate": 0
+        },
+        "previous_note_count": 0,
+        "notes": [],
+        "source_corrections": [
+          {
+            "line": 1,
+            "before": "Annua venerunt Cerealis tempora sacri,",
+            "after": "ANnua venerunt Cerealis tempora sacri."
+          },
+          {
+            "line": 10,
+            "before": "Haec erat, & teneri caespitis herba, cibus.",
+            "after": "Haec erat, & teneri cespitis herba, cibus."
+          },
+          {
+            "line": 13,
+            "before": "Prima jugo tauros supponere colla coegit;",
+            "after": "Prima jugo tauros supponere colla coëgit;"
+          },
+          {
+            "line": 19,
+            "before": "Cretes erunt testes; nec singunt omnia Cretes:",
+            "after": "Cretes erunt testes; nec fingunt omnia Cretes:"
+          },
+          {
+            "line": 23,
+            "before": "Magna fides testi: testis laudatur alumno,",
+            "after": "Magna fides testi: testis laudatur alumno."
+          },
+          {
+            "line": 24,
+            "before": "Facturam Cererem crimina nota puto.",
+            "after": "Fassuram Cererem crimina nota puto."
+          },
+          {
+            "line": 25,
+            "before": "Viderat Iasium Cretaea Diva sub Ida",
+            "after": "Viderat Iäsium Cretaeâ Diva sub Idâ"
+          },
+          {
+            "line": 26,
+            "before": "Figentem certa terga ferina manu.",
+            "after": "Figentem certâ terga ferina manu."
+          },
+          {
+            "line": 28,
+            "before": "Hinc pudor, ex alia parte trahebat amor.",
+            "after": "Hinc pudor, ex aliâ parte trahebat amor."
+          },
+          {
+            "line": 29,
+            "before": "Victus amore pudor. Sulcos arere videres,",
+            "after": "Victus amore pudor. sulcos arere videres,"
+          },
+          {
+            "line": 30,
+            "before": "Et sata cum minima parte redire sui.",
+            "after": "Et sata cum minimâ parte redire sui."
+          },
+          {
+            "line": 33,
+            "before": "Seminaque in latos ierant aequaliter agros;",
+            "after": "Seminaque in latos iërant aequaliter agros;"
+          },
+          {
+            "line": 38,
+            "before": "Omnia, quae tulerat se Dea, messis erant.",
+            "after": "Omnia, quâ tulerat se Dea, messis erant."
+          },
+          {
+            "line": 40,
+            "before": "Et ferus in silva farra metebat aper.",
+            "after": "Et ferus in silvâ farra metebat aper."
+          },
+          {
+            "line": 43,
+            "before": "Quod tibi secubitus tristes, Dea flava, suissent;",
+            "after": "Quod tibi secubitus tristes, Dea flava, fuissent;"
+          },
+          {
+            "line": 45,
+            "before": "Cur ego sim tristis, cum sit tibi nata reperta,",
+            "after": "Cur ego sim tristis, cum sit tibi nata reperta;"
+          },
+          {
+            "line": 47,
+            "before": "Festa dies, Veneremque vocat, cantusque merumque,",
+            "after": "Festa dies, Veneremque vocat, cantusque merumque."
+          }
+        ],
+        "layout_evidence": {
+          "assessment": "Printed p. 142 heading Elegia X. Ad Cererem, conquerens quod ejus sacris cum amicâ concumbere non permittatur.; catchword Et below verse 15. Printed p. 143 running header AMORUM. LIB. III. 10. 11.; the next poem follows on the same page. Full-page starts checked including the enlarged initial and exceptional second-verse inset. Original annotation rectangles preserved."
+        },
+        "validation": {
+          "schema": "docs/schema/tei_all-4.12.0.rng",
+          "schema_result": "passed xmllint Relax NG",
+          "verse_lines": 48,
+          "facsimile_zones": 48,
+          "unique_ids": true,
+          "local_references_resolve": true
+        },
+        "reviewed_candidate_sha256": "f36412544dbe2c8ead9b37c1ea8d388c8da4ebe97627c2435e671945b141a017",
+        "reviewed_xml_sha256": "84f9406c04d79f946913aa880b700b818ee190ff20f73051bae195951ee30046",
+        "review_report_sha256": "b53b05379c6866c8b6ee0cbe4e46320a8a074e14eb81e1c727d1a806d27d57bd",
+        "opening_capital_followup": {
+          "line": 1,
+          "before": "Annua",
+          "after": "ANnua",
+          "evidence": {
+            "image": "https://digitalarchive.wlu.edu/cantaloupe/iiif/2/https%3A%2F%2Fdigitalarchive.wlu.edu%2F_flysystem%2Ffedora%2F2026-10%2F72569-Service%2520File.jpg/full/full/0/default.jpg",
+            "assessment": "Focused independent reinspection of the actual opening image confirms ANnua: the enlarged initial is followed by a genuine uppercase N, then lowercase letters. The remaining opening word, line 2 capitalization and enlarged-initial inset were also checked. Only the supported second-letter case was changed in this follow-up."
+          }
+        }
+      },
+      "report_sha256": "b53b05379c6866c8b6ee0cbe4e46320a8a074e14eb81e1c727d1a806d27d57bd",
+      "report_preserved": "Full prior report retained below the fresh review in the same report file."
+    }
+  ],
+  "fresh_source_review": {
+    "date": "2026-10-26",
+    "reviewer_agent": "/root",
+    "scope": "All extant verses, every note, headings, page furniture and actual full-page line starts. Fresh direct image reading, not a checksum-only audit.",
+    "role_disclosure": "Root encoded the original first-source-reader transcription; the original first source reader and independent second reader were different agents. Their full prior ledger and report are preserved.",
+    "sources": [
+      {
+        "viewer_page": 186,
+        "printed_page": 142,
+        "source": "https://digitalarchive.wlu.edu/cantaloupe/iiif/2/https%3A%2F%2Fdigitalarchive.wlu.edu%2F_flysystem%2Ffedora%2F2026-10%2F72569-Service%2520File.jpg/full/full/0/default.jpg",
+        "local_image": "/tmp/amores-wlu/185.jpg",
+        "sha256": "8a3426f5824279f2bbfae25a964de7aff279b001a6f600ef4a2001a3ea957a95"
+      },
+      {
+        "viewer_page": 187,
+        "printed_page": 143,
+        "source": "https://digitalarchive.wlu.edu/cantaloupe/iiif/2/https%3A%2F%2Fdigitalarchive.wlu.edu%2F_flysystem%2Ffedora%2F2026-10%2F72570-Service%2520File.jpg/full/full/0/default.jpg",
+        "local_image": "/tmp/amores-wlu/186.jpg",
+        "sha256": "32334dfdc6ed2449824780e6d4fc77b055c4c64dd1b91dc415b2911c883df595"
+      }
+    ],
+    "changed_readings": [
+      {
+        "line": 46,
+        "before": "forte",
+        "after": "sorte",
+        "evidence": "The initial long s lacks the f crossbar.",
+        "local_crop": "/tmp/amores-wlu/fresh-3.10-46.png",
+        "crop_sha256": "63b20921be55431599d317c1e3e6499987678c13c65e0ce1e15e8dcf1e0b51c8",
+        "corroborating_reviewer_agent": "/root/w_review_c",
+        "corroboration": "Different agent inspected the actual native crop and independently confirmed the reading."
+      }
+    ],
+    "all_notes_reinvestigated": true,
+    "annotation_rectangles_unchanged": true
   }
 }

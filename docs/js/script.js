@@ -908,6 +908,20 @@ function updateLineViewerUI(panel, witness, currentPage, totalPages) {
   refreshAnnotationOverlayVisibility(panel, witness, currentPage);
 }
 
+// Gallica can block browser image requests. These unmodified archival copies
+// cover Book III and retain the source dimensions used by our annotations.
+function cachedWitnessImageSource(canvas, witness) {
+  if (witness !== 'P') return null;
+  const match = /^https:\/\/gallica\.bnf\.fr\/iiif\/ark:\/12148\/btv1b9066797j\/canvas\/f(\d+)$/.exec(canvas['@id'] || canvas.id || '');
+  const page = match ? Number(match[1]) : 0;
+  if (page < 84 || page > 101) return null;
+  return {
+    type: 'image',
+    url: `data/facsimiles/P/${String(page).padStart(4, '0')}.jpg`,
+    buildPyramid: false
+  };
+}
+
 // Keep Berlin as the primary source. A failed/slow image switches every Y
 // viewer to the verified, same-resolution backup for the rest of this visit.
 let witnessYBackupActive = false;
@@ -1052,6 +1066,8 @@ async function loadManifest(panel, poem, witness) {
   // Extract tile sources
   const canvases = manifest.sequences?.[0]?.canvases || manifest.items || [];
   const tileSources = canvases.map(canvas => {
+    const cachedSource = cachedWitnessImageSource(canvas, witness);
+    if (cachedSource) return cachedSource;
     const services = canvas.images?.[0]?.resource?.service || canvas.image?.service || canvas.items?.[0]?.items?.[0]?.body?.service;
     const service = Array.isArray(services) ? services[0] : services;
     const imageService = service?.['@id'] || service?.id;
@@ -1215,6 +1231,8 @@ async function loadManifestForWitness(panel, poem, witness) {
   // Extract tile sources
   const canvases = manifest.sequences?.[0]?.canvases || manifest.items || [];
   const tileSources = canvases.map(canvas => {
+    const cachedSource = cachedWitnessImageSource(canvas, witness);
+    if (cachedSource) return cachedSource;
     const services = canvas.images?.[0]?.resource?.service || canvas.image?.service || canvas.items?.[0]?.items?.[0]?.body?.service;
     const service = Array.isArray(services) ? services[0] : services;
     const imageService = service?.['@id'] || service?.id;

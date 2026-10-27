@@ -10,7 +10,7 @@
           <resp>First-pass image transcription and TEI encoding</resp>
           <name>OpenAI Codex</name>
         </respStmt>
-      <respStmt xml:id="P-3.15-reviewer"><resp>Independent second reading of all eight source rows, notes, layout and terminal boundary</resp><name>OpenAI Codex independent encode_s agent</name></respStmt></titleStmt>
+      <respStmt xml:id="P-3.15-reviewer"><resp>Independent second reading of all eight source rows, notes, layout and terminal boundary</resp><name>OpenAI Codex independent encode_s agent</name></respStmt><respStmt xml:id="P-3.15-fresh-reviewer"><resp>Fresh independent source reading of every represented position, source absence boundary and evidence note</resp><name>OpenAI Codex /root</name></respStmt></titleStmt>
       <publicationStmt>
         <p>Amores Project local working transcription, 9 September 2026. Independently reviewed by a second source reader; not human-approved.</p>
       </publicationStmt>
@@ -41,7 +41,7 @@
             <surrogates>
               <p><ref target="https://gallica.bnf.fr/ark:/12148/btv1b9066797j">BnF Gallica Latin 8242</ref></p>
               <p>The original full-resolution digital images and enlarged crops were inspected for this first pass. Gallica source reuse conditions apply. No text was populated from LL or another witness.</p>
-            <p><ref target="https://libsysdigi.library.illinois.edu/ilharvest/OtherCDM/chatem0001paldes/chatem0001paldes_v00002/chatem0001paldes_v00002_opt.pdf">Émile Chatelain, Paléographie des classiques latins II, plate XCI notice, PDF fifth page (zero-based 4): surviving Amores ends at 3.15.8. Used for source-coverage corroboration, not supplied verse text.</ref></p></surrogates>
+            <p><ref target="https://libsysdigi.library.illinois.edu/ilharvest/OtherCDM/chatem0001paldes/chatem0001paldes_v00002/chatem0001paldes_v00002_opt.pdf">Émile Chatelain, Paléographie des classiques latins II, plate XCI notice, PDF fifth page (zero-based 4): surviving Amores ends at 3.15.8. Used for source-coverage corroboration, not supplied verse text.</ref></p><p>Fresh corpus review used the original-resolution archival copies: <ref target="https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(099_of_101).jpg">archival copy of image 99</ref> <ref target="https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(100_of_101).jpg">archival copy of image 100</ref> <ref target="https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(101_of_101).jpg">archival copy of image 101</ref>. Their pixel dimensions match the original Gallica canvases. File hashes and provenance are recorded in the site facsimile index and renewed review ledger.</p></surrogates>
           </additional>
         </msDesc>
       </sourceDesc>
@@ -77,7 +77,7 @@
     </encodingDesc>
     <revisionDesc status="agent-reviewed"><change when="2026-09-10" who="#P-3.15-reviewer">Independently inspected every surviving row in full-page and enlarged source context, all nine evidence notes, the terminal inscription, all following photographed material through image 101, and Chatelain’s direct manuscript description. Retained qualified source readings and original zones; confirmed the terminal absence 9–20.</change>
       <change when="2026-09-09" who="#P-3.15-encoder">Completed first reading from source images and enlarged crops, with line coverage and evidence notes. Independent second reading not yet performed.</change>
-    </revisionDesc>
+    <change when="2026-10-26" who="#P-3.15-fresh-reviewer">Fresh independent reading rechecked every represented source position, every evidence note, full-page line starts and absence boundaries. Source-supported changes and all dispositions are documented in P-3.15-second-pass.md; prior reports and review seals are retained as history.</change></revisionDesc>
   </teiHeader>
   <facsimile>
     <surface n="image 99" xml:id="P-3.15-image-99" ulx="0" uly="0" lrx="5814" lry="3969">

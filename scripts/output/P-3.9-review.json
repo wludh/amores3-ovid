@@ -1,11 +1,11 @@
 {
   "witness": "P",
   "poem": "3.9",
-  "date": "2026-09-09",
+  "date": "2026-10-26",
   "author_agent": "/root/encode_p",
-  "reviewer_agent": "/root/review_y",
-  "reviewer": "OpenAI Codex independent review_y agent",
-  "review_type": "independent-second-agent-image-and-encoding-review",
+  "reviewer_agent": "/root/w_review_b",
+  "reviewer": "OpenAI Codex independent w_review_b fresh source reviewer",
+  "review_type": "independent-second-agent-image-and-encoding-review-fresh-full-source-rereading",
   "human_approved": false,
   "line_coverage": {
     "count": 68,
@@ -112,455 +112,595 @@
       "line": 1,
       "target": "#P-3.9-l1",
       "status": "documented-uncertainty",
-      "previous_type": "uncertainty",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
-        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "viewer_page": 94,
         "page_position": "left",
-        "assessment": "The initial M and first line occupy the expected opening below3.8. The pale marginal EPIT/TIB fragments cannot support a reconstructed full heading. Plorabat acillem remains a tentative visible sequence, without normalized names."
-      },
-      "change": "Independently checked source and retained conservative encoding."
+        "mirror_file_page": "https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(094_of_101).jpg",
+        "image": "/tmp/amores-full-review/P/f94.jpg",
+        "crop": "/tmp/amores-p-fresh/3.9-l1.jpg",
+        "assessment": "Fresh actual source inspection supports these visible features and conservative limits: Image94 left: the large M opens the poem after the previous poem’s final couplet. A faded three-line marginal heading is partly represented as EPIT / TIB plus unreadable spans; no complete heading is reconstructed. The final verb and name are provisionally plorabat acillem; their exact letter sequence remains uncertain in the faded ink."
+      }
     },
     {
       "note_id": "P-3.9-note-4",
       "line": 4,
       "target": "#P-3.9-l4",
       "status": "resolved",
-      "previous_type": "observation",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
-        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "viewer_page": 94,
         "page_position": "left",
-        "assessment": "A nimis ex uero agrees with the source. Short dark marks above/below the opening remain functionally uncertain; no letter is supplied from them."
-      },
-      "change": "Independently checked source and retained conservative encoding."
+        "mirror_file_page": "https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(094_of_101).jpg",
+        "image": "/tmp/amores-full-review/P/f94.jpg",
+        "crop": "/tmp/amores-p-fresh/3.9-l4.jpg",
+        "assessment": "Fresh actual source inspection supports these visible features and conservative limits: The words are segmented A nimis ex uero. Dark short marks occur above the opening letters and below them; their function is not assigned to a historical hand or a specific correction."
+      }
     },
     {
       "note_id": "P-3.9-note-6",
       "line": 6,
       "target": "#P-3.9-l6",
       "status": "resolved",
-      "previous_type": "observation",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
-        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "viewer_page": 94,
         "page_position": "left",
-        "assessment": "Extructo is visible in the line; the unusual spelling is retained."
-      },
-      "change": "Independently checked source and retained conservative encoding."
+        "mirror_file_page": "https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(094_of_101).jpg",
+        "image": "/tmp/amores-full-review/P/f94.jpg",
+        "crop": "/tmp/amores-p-fresh/3.9-l6.jpg",
+        "assessment": "Fresh actual source inspection supports these visible features and conservative limits: The manuscript has extructo in this verse; the spelling is retained."
+      }
     },
     {
       "note_id": "P-3.9-note-7",
       "line": 7,
       "target": "#P-3.9-l7",
       "status": "resolved",
-      "previous_type": "uncertainty",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
-        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "viewer_page": 94,
         "page_position": "left",
-        "assessment": "Enlargement separates the initial e after fert and supports euersamque. Removed whole-word unclear; no lexical replacement."
-      },
-      "change": "Removed unclear from euersamque."
+        "mirror_file_page": "https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(094_of_101).jpg",
+        "image": "/tmp/amores-full-review/P/f94.jpg",
+        "crop": "/tmp/amores-p-fresh/3.9-l7.jpg",
+        "assessment": "Fresh actual source inspection supports these visible features and conservative limits: The separate source reader can follow euersamque after fert in the enlarged image; the initial e and the remaining letters are sufficiently supported to remove unclear. The written form is retained."
+      }
     },
     {
       "note_id": "P-3.9-note-8",
       "line": 8,
       "target": "#P-3.9-l8",
       "status": "documented-uncertainty",
-      "previous_type": "observation",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
-        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "viewer_page": 94,
         "page_position": "left",
-        "assessment": "The above-line a and baseline dots are distinct, comparable to the correction signs at29–30. Encoded local subst; the expuncted vowel is tentatively u. The et ligature is retained."
-      },
-      "change": "Added subst retaining uncertain expuncted vowel and above-line a; changed note to documented uncertainty."
+        "mirror_file_page": "https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(094_of_101).jpg",
+        "image": "/tmp/amores-full-review/P/f94.jpg",
+        "crop": "/tmp/amores-p-fresh/3.9-l8.jpg",
+        "assessment": "Fresh actual source inspection supports these visible features and conservative limits: A supralinear a and dots below the baseline vowel occur in the word conventionally read fractos. The baseline vowel looks u but remains unclear; local subst now preserves its expunction and the visible added a. The et ligature is explicit. No erased state or historical hand is inferred."
+      }
     },
     {
       "note_id": "P-3.9-note-13",
       "line": 13,
       "target": "#P-3.9-l13",
       "status": "documented-uncertainty",
-      "previous_type": "uncertainty",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
-        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "viewer_page": 94,
         "page_position": "left",
-        "assessment": "The pale opening supports a provisional Fratris in enea, but the internal name letters are not secure enough to normalize or clear."
-      },
-      "change": "Independently checked source and retained conservative encoding."
+        "mirror_file_page": "https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(094_of_101).jpg",
+        "image": "/tmp/amores-full-review/P/f94.jpg",
+        "crop": "/tmp/amores-p-fresh/3.9-l13.jpg",
+        "assessment": "Fresh actual source inspection supports these visible features and conservative limits: The opening Fratris in enea is faded. The tentative letter sequence is kept local in unclear; no normalized spelling of the name is supplied."
+      }
     },
     {
       "note_id": "P-3.9-note-14",
       "line": 14,
       "target": "#P-3.9-l14",
       "status": "documented-uncertainty",
-      "previous_type": "uncertainty",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
-        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "viewer_page": 94,
         "page_position": "left",
-        "assessment": "Diagonal surface streaks and low contrast run through Egressum tectis. Retained its local uncertainty; pulcher iule tuis remains readable."
-      },
-      "change": "Independently checked source and retained conservative encoding."
+        "mirror_file_page": "https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(094_of_101).jpg",
+        "image": "/tmp/amores-full-review/P/f94.jpg",
+        "crop": "/tmp/amores-p-fresh/3.9-l14.jpg",
+        "assessment": "Fresh actual source inspection supports these visible features and conservative limits: Egressum tectis is partly obscured by fading and diagonal surface marks. The remaining pulcher iule tuis is clearer; the name retains its visible initial i."
+      }
     },
     {
       "note_id": "P-3.9-note-16",
       "line": 16,
       "target": "#P-3.9-l16",
       "status": "resolved",
-      "previous_type": "observation",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
-        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "viewer_page": 94,
         "page_position": "left",
-        "assessment": "The cu contraction and raised stroke support explicit cum. Nearby dark strokes do not identify a separate historical hand."
-      },
-      "change": "Independently checked source and retained conservative encoding."
-    },
-    {
-      "note_id": "P-3.9-note-18",
-      "line": 18,
-      "target": "#P-3.9-l18",
-      "status": "resolved",
-      "previous_type": null,
-      "evidence": {
-        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
-        "page_position": "left",
-        "assessment": "The beginning of etiam is written as the visible et ligature followed by iam. Added a source abbreviation choice with the explicit etiam expansion."
-      },
-      "change": "Added source ligature choice and reviewer observation note."
+        "mirror_file_page": "https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(094_of_101).jpg",
+        "image": "/tmp/amores-full-review/P/f94.jpg",
+        "crop": "/tmp/amores-p-fresh/3.9-l16.jpg",
+        "assessment": "Fresh actual source inspection supports these visible features and conservative limits: The supralinear stroke on cu is encoded as an abbreviation expanded cum. Other small dark strokes near the opening phrase are not assigned a historical hand."
+      }
     },
     {
       "note_id": "P-3.9-note-19",
       "line": 19,
       "target": "#P-3.9-l19",
       "status": "resolved",
-      "previous_type": "observation",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
-        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "viewer_page": 94,
         "page_position": "left",
-        "assessment": "The n before p in inportuna is supported by the source and preserved."
-      },
-      "change": "Independently checked source and retained conservative encoding."
+        "mirror_file_page": "https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(094_of_101).jpg",
+        "image": "/tmp/amores-full-review/P/f94.jpg",
+        "crop": "/tmp/amores-p-fresh/3.9-l19.jpg",
+        "assessment": "Fresh actual source inspection supports these visible features and conservative limits: The manuscript spells inportuna with n before p; no normalization is made."
+      }
     },
     {
       "note_id": "P-3.9-note-21",
       "line": 21,
       "target": "#P-3.9-l21",
       "status": "documented-uncertainty",
-      "previous_type": "uncertainty",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
-        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "viewer_page": 94,
         "page_position": "left",
-        "assessment": "Both names remain pale, especially the final one. Tentative ismario/orphi are retained locally rather than made certain by the familiar passage."
-      },
-      "change": "Independently checked source and retained conservative encoding."
+        "mirror_file_page": "https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(094_of_101).jpg",
+        "image": "/tmp/amores-full-review/P/f94.jpg",
+        "crop": "/tmp/amores-p-fresh/3.9-l21.jpg",
+        "assessment": "Fresh actual source inspection supports these visible features and conservative limits: Fresh enlarged reading tentatively separates patris maro, with the is-like ending before the m-like initial, rather than the former assured pater followed by tentative ismario. Both this pale group and final orphi remain unclear; no normalized name or complete expected wording is imposed."
+      }
     },
     {
       "note_id": "P-3.9-note-22",
       "line": 22,
       "target": "#P-3.9-l22",
       "status": "resolved",
-      "previous_type": "uncertainty",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
-        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "viewer_page": 94,
         "page_position": "left",
-        "assessment": "The narrow post-t vowel and rest of obstipuisse are traceable in the enlarged line. Removed blanket unclear."
-      },
-      "change": "Removed unclear from obstipuisse."
+        "mirror_file_page": "https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(094_of_101).jpg",
+        "image": "/tmp/amores-full-review/P/f94.jpg",
+        "crop": "/tmp/amores-p-fresh/3.9-l22.jpg",
+        "assessment": "Fresh actual source inspection supports these visible features and conservative limits: The independent enlarged reading supports obstipuisse, including the narrow i after t. The word is retained and unclear removed."
+      }
     },
     {
       "note_id": "P-3.9-note-23",
       "line": 23,
       "target": "#P-3.9-l23",
       "status": "documented-uncertainty",
-      "previous_type": "uncertainty",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
-        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "viewer_page": 94,
         "page_position": "left",
-        "assessment": "The final segment has heavily unequal contrast around a/linon/altis. Retained provisional segmentation and local unclear."
-      },
-      "change": "Independently checked source and retained conservative encoding."
+        "mirror_file_page": "https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(094_of_101).jpg",
+        "image": "/tmp/amores-full-review/P/f94.jpg",
+        "crop": "/tmp/amores-p-fresh/3.9-l23.jpg",
+        "assessment": "Fresh actual source inspection supports these visible features and conservative limits: The final phrase is tentatively segmented a linon altis; the name and following letters are faded and not silently normalized."
+      }
     },
     {
       "note_id": "P-3.9-note-24",
       "line": 24,
       "target": "#P-3.9-l24",
       "status": "resolved",
-      "previous_type": "observation",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
-        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "viewer_page": 94,
         "page_position": "left",
-        "assessment": "The whole line is distinctly smaller and darker; Dicitur is abbreviated. This is a visible ink/layout difference, not proof of an erased earlier verse. A small raised stroke near inuita does not securely yield a further letter."
-      },
-      "change": "Independently checked source and retained conservative encoding."
+        "mirror_file_page": "https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(094_of_101).jpg",
+        "image": "/tmp/amores-full-review/P/f94.jpg",
+        "crop": "/tmp/amores-p-fresh/3.9-l24.jpg",
+        "assessment": "Fresh actual source inspection supports these visible features and conservative limits: The entire verse is markedly darker and smaller than its neighbours. It is encoded as darker ink, with the terminal abbreviation on Dicit expanded Dicitur. This records the visible state without inventing an erased underlying verse or naming a correcting hand."
+      }
     },
     {
       "note_id": "P-3.9-note-25",
       "line": 25,
       "target": "#P-3.9-l25",
       "status": "documented-uncertainty",
-      "previous_type": "uncertainty",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
-        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "viewer_page": 94,
         "page_position": "left",
-        "assessment": "The name at the line opening remains pale enough that meoniden should stay tentative. No normalized name was substituted."
-      },
-      "change": "Independently checked source and retained conservative encoding."
+        "mirror_file_page": "https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(094_of_101).jpg",
+        "image": "/tmp/amores-full-review/P/f94.jpg",
+        "crop": "/tmp/amores-p-fresh/3.9-l25.jpg",
+        "assessment": "Fresh actual source inspection supports these visible features and conservative limits: The name is provisionally meoniden. The initial and internal letter sequence are faded; a normalized name is not substituted."
+      }
     },
     {
       "note_id": "P-3.9-note-26",
       "line": 26,
       "target": "#P-3.9-l26",
       "status": "resolved",
-      "previous_type": "uncertainty",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
-        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "viewer_page": 94,
         "page_position": "left",
-        "assessment": "Vatum pieriis is pale but followable across the enlarged strip. Removed blanket unclear while keeping its source spelling."
-      },
-      "change": "Removed unclear from Vatum pieriis."
+        "mirror_file_page": "https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(094_of_101).jpg",
+        "image": "/tmp/amores-full-review/P/f94.jpg",
+        "crop": "/tmp/amores-p-fresh/3.9-l26.jpg",
+        "assessment": "Fresh actual source inspection supports these visible features and conservative limits: Although pale, the source opening can be followed as Vatum pieriis before ora rigantur aquis. The independent reader removed the blanket unclear from that opening."
+      }
     },
     {
       "note_id": "P-3.9-note-27",
       "line": 27,
       "target": "#P-3.9-l27",
       "status": "documented-uncertainty",
-      "previous_type": "uncertainty",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
-        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "viewer_page": 94,
         "page_position": "right",
-        "assessment": "Actual verse27 continues at the top of the right page. Submersit remains tentative and the ending cannot be securely recovered; the extant-line gap is retained."
-      },
-      "change": "Independently checked source and retained conservative encoding."
+        "mirror_file_page": "https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(094_of_101).jpg",
+        "image": "/tmp/amores-full-review/P/f94.jpg",
+        "crop": "/tmp/amores-p-fresh/3.9-l27.jpg",
+        "assessment": "Fresh actual source inspection supports these visible features and conservative limits: The poem continues at the top of image94 right. Submersit is tentative; the severely faded line ending cannot be securely read and is encoded as an illegible span, not as an absent verse or a supplied auerno. The darker marginal94 belongs to page marking, not verse text."
+      }
     },
     {
       "note_id": "P-3.9-note-29",
       "line": 29,
       "target": "#P-3.9-l29",
       "status": "documented-uncertainty",
-      "previous_type": "uncertainty",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
-        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "viewer_page": 94,
         "page_position": "right",
-        "assessment": "Dots occur under the endings of the first two words and at/us components above them. Existing subst conservatively records those parts; the first baseline ending remains uncertain. Flamma laboris is visible."
-      },
-      "change": "Independently checked source and retained conservative encoding."
+        "mirror_file_page": "https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(094_of_101).jpg",
+        "image": "/tmp/amores-full-review/P/f94.jpg",
+        "crop": "/tmp/amores-p-fresh/3.9-l29.jpg",
+        "assessment": "Fresh actual source inspection supports these visible features and conservative limits: At the opening, dots below the first word ending and below at after op, together with above-line at and a us abbreviation, appear to correct a displaced ending. The first ending and above-line at remain unclear; subst preserves these visible components instead of silently giving only a normalized Durat opus. The manuscript clearly has flamma laboris."
+      }
     },
     {
       "note_id": "P-3.9-note-30",
       "line": 30,
       "target": "#P-3.9-l30",
       "status": "documented-uncertainty",
-      "previous_type": "uncertainty",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
-        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "viewer_page": 94,
         "page_position": "right",
-        "assessment": "The small supralinear a and dot beneath the terminal vowel support the local correction. The underlying vowel remains unclear; no erased word is reconstructed."
-      },
-      "change": "Independently checked source and retained conservative encoding."
+        "mirror_file_page": "https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(094_of_101).jpg",
+        "image": "/tmp/amores-full-review/P/f94.jpg",
+        "crop": "/tmp/amores-p-fresh/3.9-l30.jpg",
+        "assessment": "Fresh actual source inspection supports these visible features and conservative limits: The last vowel of tele appears marked below and corrected by an above-line a. The base vowel is uncertain; the local subst records the observed above-line a without asserting an erased reading."
+      }
     },
     {
       "note_id": "P-3.9-note-33",
       "line": 33,
       "target": "#P-3.9-l33",
       "status": "documented-uncertainty",
-      "previous_type": "uncertainty",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
-        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "viewer_page": 94,
         "page_position": "right",
-        "assessment": "The adjective is compressed and partly reinforced. Egyptia is retained as a tentative image reading, without normalizing its orthography."
-      },
-      "change": "Independently checked source and retained conservative encoding."
+        "mirror_file_page": "https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(094_of_101).jpg",
+        "image": "/tmp/amores-full-review/P/f94.jpg",
+        "crop": "/tmp/amores-p-fresh/3.9-l33.jpg",
+        "assessment": "Fresh actual source inspection supports these visible features and conservative limits: The geographical adjective is provisionally egyptia; its central letter forms are compressed and partly reinforced. The rest of the verse is legible."
+      }
     },
     {
       "note_id": "P-3.9-note-34",
       "line": 34,
       "target": "#P-3.9-l34",
       "status": "resolved",
-      "previous_type": "observation",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
-        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "viewer_page": 94,
         "page_position": "right",
-        "assessment": "Secubuisse thoro, including h, is visible. The source spelling is preserved."
-      },
-      "change": "Independently checked source and retained conservative encoding."
+        "mirror_file_page": "https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(094_of_101).jpg",
+        "image": "/tmp/amores-full-review/P/f94.jpg",
+        "crop": "/tmp/amores-p-fresh/3.9-l34.jpg",
+        "assessment": "Fresh actual source inspection supports these visible features and conservative limits: The manuscript has secubuisse thoro, including h in thoro."
+      }
     },
     {
       "note_id": "P-3.9-note-37",
       "line": 37,
       "target": "#P-3.9-l37",
       "status": "resolved",
-      "previous_type": "observation",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
-        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "viewer_page": 94,
         "page_position": "right",
-        "assessment": "The dark superscript tm-like contraction lies over the first pius area and supports an added tamen. Baseline moriere pius remains intact."
-      },
-      "change": "Independently checked source and retained conservative encoding."
+        "mirror_file_page": "https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(094_of_101).jpg",
+        "image": "/tmp/amores-full-review/P/f94.jpg",
+        "crop": "/tmp/amores-p-fresh/3.9-l37.jpg",
+        "assessment": "Fresh actual source inspection supports these visible features and conservative limits: A darker above-line abbreviation over the area after the first pius is represented schematically as tm with supralinear marking and expanded tamen. It is encoded as add, without asserting the date or identity of the adding hand. The baseline wording includes moriere pius."
+      }
     },
     {
       "note_id": "P-3.9-note-40",
       "line": 40,
       "target": "#P-3.9-l40",
       "status": "documented-uncertainty",
-      "previous_type": "observation",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
-        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "viewer_page": 94,
         "page_position": "right",
-        "assessment": "Above-line V corrects the expuncted initial D. A b-like baseline shape before urna has a dot beneath; newly encoded as uncertain expuncted text. No earlier invisible reading is claimed."
-      },
-      "change": "Added initial D/V substitution and uncertain expuncted b before urna; changed note to uncertainty."
+        "mirror_file_page": "https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(094_of_101).jpg",
+        "image": "/tmp/amores-full-review/P/f94.jpg",
+        "crop": "/tmp/amores-p-fresh/3.9-l40.jpg",
+        "assessment": "Fresh actual source inspection supports these visible features and conservative limits: The opening has baseline D marked beneath and a supralinear V; these are now encoded as a visible substitution. Before urna, a b-like shape bears a dot beneath; it is tentatively retained as expuncted b rather than silently omitted. Dots also occur near the following letters. The exact cancelled shape remains unclear, and no hand or erased state is invented."
+      }
     },
     {
       "note_id": "P-3.9-note-41",
       "line": 41,
       "target": "#P-3.9-l41",
       "status": "resolved",
-      "previous_type": "observation",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
-        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "viewer_page": 94,
         "page_position": "right",
-        "assessment": "The final e-form in flamme supports the existing plain-e transcription; no ae is supplied."
-      },
-      "change": "Independently checked source and retained conservative encoding."
+        "mirror_file_page": "https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(094_of_101).jpg",
+        "image": "/tmp/amores-full-review/P/f94.jpg",
+        "crop": "/tmp/amores-p-fresh/3.9-l41.jpg",
+        "assessment": "Fresh actual source inspection supports these visible features and conservative limits: The manuscript has flamme, represented with plain e in the legible transcription."
+      }
     },
     {
       "note_id": "P-3.9-note-43",
       "line": 43,
       "target": "#P-3.9-l43",
       "status": "documented-uncertainty",
-      "previous_type": "uncertainty",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
-        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "viewer_page": 94,
         "page_position": "right",
-        "assessment": "The barred contraction is small and ambiguous. Preserved the tentative written form and made sanctorum an explicitly low-certainty expansion."
-      },
-      "change": "Added cert=low to sanctorum expansion."
+        "mirror_file_page": "https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(094_of_101).jpg",
+        "image": "/tmp/amores-full-review/P/f94.jpg",
+        "crop": "/tmp/amores-p-fresh/3.9-l43.jpg",
+        "assessment": "Fresh actual source inspection supports these visible features and conservative limits: The small barred contraction is tentatively scorum. Sanctorum is a possible expansion, but the image and contraction do not securely determine it, so the expansion now explicitly carries low certainty."
+      }
     },
     {
       "note_id": "P-3.9-note-45",
       "line": 45,
       "target": "#P-3.9-l45",
       "status": "resolved",
-      "previous_type": "observation",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
-        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "viewer_page": 94,
         "page_position": "right",
-        "assessment": "The visible sequence ericis que is supported and retained with editorial word division."
-      },
-      "change": "Independently checked source and retained conservative encoding."
+        "mirror_file_page": "https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(094_of_101).jpg",
+        "image": "/tmp/amores-full-review/P/f94.jpg",
+        "crop": "/tmp/amores-p-fresh/3.9-l45.jpg",
+        "assessment": "Fresh actual source inspection supports these visible features and conservative limits: The visible place-name form ericis and the separately written que are retained."
+      }
     },
     {
       "note_id": "P-3.9-note-47",
       "line": 47,
       "target": "#P-3.9-l47",
       "status": "documented-uncertainty",
-      "previous_type": "uncertainty",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
-        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "viewer_page": 94,
         "page_position": "right",
-        "assessment": "The place adjective remains pale internally. Retained tentative pheace rather than importing a geographical spelling."
-      },
-      "change": "Independently checked source and retained conservative encoding."
+        "mirror_file_page": "https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(094_of_101).jpg",
+        "image": "/tmp/amores-full-review/P/f94.jpg",
+        "crop": "/tmp/amores-p-fresh/3.9-l47.jpg",
+        "assessment": "Fresh actual source inspection supports these visible features and conservative limits: The place adjective is provisionally pheace. Its internal vowels are faded and uncertain; the local unclear avoids silently importing a normalized geographical spelling."
+      }
     },
     {
       "note_id": "P-3.9-note-49",
       "line": 49,
       "target": "#P-3.9-l49",
       "status": "resolved",
-      "previous_type": "uncertainty",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
-        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "viewer_page": 94,
         "page_position": "right",
-        "assessment": "The large N and following unc can be followed in the pale opening. Cleared Nunc after checking both the full page and enlarged crop."
-      },
-      "change": "Removed unclear from Nunc."
+        "mirror_file_page": "https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(094_of_101).jpg",
+        "image": "/tmp/amores-full-review/P/f94.jpg",
+        "crop": "/tmp/amores-p-fresh/3.9-l49.jpg",
+        "assessment": "Fresh actual source inspection supports these visible features and conservative limits: The full-page position and enlarged initial support Nunc. The faded word remains legible enough to remove unclear; the rest of the verse is retained."
+      }
     },
     {
       "note_id": "P-3.9-note-51",
       "line": 51,
       "target": "#P-3.9-l51",
       "status": "resolved",
-      "previous_type": "uncertainty",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
-        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "viewer_page": 94,
         "page_position": "right",
-        "assessment": "The initial H and inc before soror support Hinc. Removed the whole-word uncertainty; no normalization of misere."
-      },
-      "change": "Removed unclear from Hinc."
+        "mirror_file_page": "https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(094_of_101).jpg",
+        "image": "/tmp/amores-full-review/P/f94.jpg",
+        "crop": "/tmp/amores-p-fresh/3.9-l51.jpg",
+        "assessment": "Fresh actual source inspection supports these visible features and conservative limits: The enlarged opening supports Hinc before soror. The whole-word unclear is removed; the source misere is preserved."
+      }
     },
     {
       "note_id": "P-3.9-note-55",
       "line": 55,
       "target": "#P-3.9-l55",
       "status": "documented-uncertainty",
-      "previous_type": "uncertainty",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
-        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+        "viewer_page": 95,
         "page_position": "left",
-        "assessment": "Discedens remains plausible, but its small middle letters are too faint for a confident clearance. Retained local unclear."
-      },
-      "change": "Independently checked source and retained conservative encoding."
+        "mirror_file_page": "https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(095_of_101).jpg",
+        "image": "/tmp/amores-full-review/P/f95.jpg",
+        "crop": "/tmp/amores-p-fresh/3.9-l55.jpg",
+        "assessment": "Fresh actual source inspection supports these visible features and conservative limits: Image95 left begins this verse. The word after Delia is provisionally discedens; fading makes its central letters uncertain."
+      }
     },
     {
       "note_id": "P-3.9-note-60",
       "line": 60,
       "target": "#P-3.9-l60",
       "status": "resolved",
-      "previous_type": "observation",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
-        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+        "viewer_page": 95,
         "page_position": "left",
-        "assessment": "Helisia, including h and final a, is visible; source spelling is retained."
-      },
-      "change": "Independently checked source and retained conservative encoding."
+        "mirror_file_page": "https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(095_of_101).jpg",
+        "image": "/tmp/amores-full-review/P/f95.jpg",
+        "crop": "/tmp/amores-p-fresh/3.9-l60.jpg",
+        "assessment": "Fresh actual source inspection supports these visible features and conservative limits: The visible geographical form is helisia, with initial h and final a; it is preserved."
+      }
     },
     {
       "note_id": "P-3.9-note-64",
       "line": 64,
       "target": "#P-3.9-l64",
       "status": "resolved",
-      "previous_type": "observation",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
-        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+        "viewer_page": 95,
         "page_position": "left",
-        "assessment": "Plain e in anime/tue reflects the visible form and established allograph policy."
-      },
-      "change": "Independently checked source and retained conservative encoding."
+        "mirror_file_page": "https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(095_of_101).jpg",
+        "image": "/tmp/amores-full-review/P/f95.jpg",
+        "crop": "/tmp/amores-p-fresh/3.9-l64.jpg",
+        "assessment": "Fresh actual source inspection supports these visible features and conservative limits: Anime and tue are represented with plain e, preserving the manuscript’s readable spelling rather than adding ae."
+      }
     },
     {
       "note_id": "P-3.9-note-65",
       "line": 65,
       "target": "#P-3.9-l65",
       "status": "documented-uncertainty",
-      "previous_type": "uncertainty",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
-        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+        "viewer_page": 95,
         "page_position": "left",
-        "assessment": "The ending still only partly supports umbra. Retained uncertainty; the crossing near siquid does not support a reconstructed deleted letter."
-      },
-      "change": "Independently checked source and retained conservative encoding."
+        "mirror_file_page": "https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(095_of_101).jpg",
+        "image": "/tmp/amores-full-review/P/f95.jpg",
+        "crop": "/tmp/amores-p-fresh/3.9-l65.jpg",
+        "assessment": "Fresh actual source inspection supports these visible features and conservative limits: The final umbra is faded but partially discernible and remains unclear. A crossing stroke near siquid is visible; no additional deleted letter or hand attribution is asserted."
+      }
     },
     {
       "note_id": "P-3.9-note-67",
       "line": 67,
       "target": "#P-3.9-l67",
       "status": "documented-uncertainty",
-      "previous_type": "uncertainty",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
-        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+        "viewer_page": 95,
         "page_position": "left",
-        "assessment": "Fading and mottling interrupt the terminal phrase. Requiescite urna remains tentative; it is not cleared from an expected phrase."
-      },
-      "change": "Independently checked source and retained conservative encoding."
+        "mirror_file_page": "https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(095_of_101).jpg",
+        "image": "/tmp/amores-full-review/P/f95.jpg",
+        "crop": "/tmp/amores-p-fresh/3.9-l67.jpg",
+        "assessment": "Fresh actual source inspection supports these visible features and conservative limits: The last phrase is damaged by mottling and fading. Requiescite urna is only a tentative reading; no certainty is claimed for the hidden letter details."
+      }
     },
     {
       "note_id": "P-3.9-note-68",
       "line": 68,
       "target": "#P-3.9-l68",
       "status": "resolved",
-      "previous_type": "observation",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
-        "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+        "viewer_page": 95,
         "page_position": "left",
-        "assessment": "The final verse is followed by the visually separated opening couplet of3.10, beginning Annua uenerunt and Secubat. These are verses, not a heading. Rechecked the changed boundary note against enlarged95left after release; the68verse boundary remains correct."
-      },
-      "change": "Accepted and independently verified corrected boundary note: next two lines are3.10verses, not a heading."
+        "mirror_file_page": "https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(095_of_101).jpg",
+        "image": "/tmp/amores-full-review/P/f95.jpg",
+        "crop": "/tmp/amores-p-fresh/3.9-l68.jpg",
+        "assessment": "Fresh actual source inspection supports these visible features and conservative limits: The final verse reads Et sit humus cineri non onerosa tuo. It is followed by the visually separated opening couplet of3.10, Annua uenerunt and Secubat; those verses establish the boundary and are not counted as verses of3.9."
+      }
+    },
+    {
+      "note_id": "P-3.9-note-18",
+      "line": 18,
+      "target": "#P-3.9-l18",
+      "status": "resolved",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
+      "evidence": {
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "viewer_page": 94,
+        "page_position": "left",
+        "mirror_file_page": "https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(094_of_101).jpg",
+        "image": "/tmp/amores-full-review/P/f94.jpg",
+        "crop": "/tmp/amores-p-fresh/3.9-l18.jpg",
+        "assessment": "Fresh actual source inspection supports these visible features and conservative limits: The word etiam is written with the et ligature followed by iam. The added TEI choice preserves that source form with an explicit etiam expansion."
+      }
     }
   ],
   "validation": {
@@ -571,8 +711,8 @@
     "unique_ids": true,
     "local_references_resolve": true
   },
-  "reviewed_candidate_sha256": "7ae49dcca26ae6acf3bf57436019c552ff6f40115267b1a2f98f6868e6d5f9ee",
-  "review_report_sha256": "80b10100a77ec7d9d7440e8ba9a528633fc8fd5c1a10f4d9e7ebbe29f05b635e",
+  "reviewed_candidate_sha256": "406ce986fed2f6e20992c7a9ead4901f1a959c77f465c5780773362ff31a82e2",
+  "review_report_sha256": "8ba9ca51239718a57d1b3db76f9e1339e50b3f69d06d9a2a1c7a204af6b954d5",
   "layout_evidence": {
     "source_images": [
       94,
@@ -581,5 +721,691 @@
     "scope": "P3.9 all68verse positions",
     "assessment": "Full-page photographs show even lines beginning inward relative to preceding odd-line initials; retained source-based indent attributes and revised header policy."
   },
-  "reviewed_xml_sha256": "37bc83bb13143b38191c3633b86b62a2d493985c73cbf62652f6bd1109c4013b"
+  "reviewed_xml_sha256": "6c2921eca6fa451147b327826e674726a6dc2faa33e3b428a2d2dc25fbdbe9d6",
+  "review_history": [
+    {
+      "witness": "P",
+      "poem": "3.9",
+      "date": "2026-09-09",
+      "author_agent": "/root/encode_p",
+      "reviewer_agent": "/root/review_y",
+      "reviewer": "OpenAI Codex independent review_y agent",
+      "review_type": "independent-second-agent-image-and-encoding-review",
+      "human_approved": false,
+      "line_coverage": {
+        "count": 68,
+        "ranges": [
+          {
+            "image": 94,
+            "page_position": "left",
+            "start": 1,
+            "end": 26
+          },
+          {
+            "image": 94,
+            "page_position": "right",
+            "start": 27,
+            "end": 54
+          },
+          {
+            "image": 95,
+            "page_position": "left",
+            "start": 55,
+            "end": 68
+          }
+        ]
+      },
+      "line_order": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68
+      ],
+      "counts": {
+        "resolved": 18,
+        "documented-uncertainty": 17,
+        "escalate": 0
+      },
+      "previous_note_count": 34,
+      "notes": [
+        {
+          "note_id": "P-3.9-note-1",
+          "line": 1,
+          "target": "#P-3.9-l1",
+          "status": "documented-uncertainty",
+          "previous_type": "uncertainty",
+          "evidence": {
+            "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+            "page_position": "left",
+            "assessment": "The initial M and first line occupy the expected opening below3.8. The pale marginal EPIT/TIB fragments cannot support a reconstructed full heading. Plorabat acillem remains a tentative visible sequence, without normalized names."
+          },
+          "change": "Independently checked source and retained conservative encoding."
+        },
+        {
+          "note_id": "P-3.9-note-4",
+          "line": 4,
+          "target": "#P-3.9-l4",
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+            "page_position": "left",
+            "assessment": "A nimis ex uero agrees with the source. Short dark marks above/below the opening remain functionally uncertain; no letter is supplied from them."
+          },
+          "change": "Independently checked source and retained conservative encoding."
+        },
+        {
+          "note_id": "P-3.9-note-6",
+          "line": 6,
+          "target": "#P-3.9-l6",
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+            "page_position": "left",
+            "assessment": "Extructo is visible in the line; the unusual spelling is retained."
+          },
+          "change": "Independently checked source and retained conservative encoding."
+        },
+        {
+          "note_id": "P-3.9-note-7",
+          "line": 7,
+          "target": "#P-3.9-l7",
+          "status": "resolved",
+          "previous_type": "uncertainty",
+          "evidence": {
+            "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+            "page_position": "left",
+            "assessment": "Enlargement separates the initial e after fert and supports euersamque. Removed whole-word unclear; no lexical replacement."
+          },
+          "change": "Removed unclear from euersamque."
+        },
+        {
+          "note_id": "P-3.9-note-8",
+          "line": 8,
+          "target": "#P-3.9-l8",
+          "status": "documented-uncertainty",
+          "previous_type": "observation",
+          "evidence": {
+            "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+            "page_position": "left",
+            "assessment": "The above-line a and baseline dots are distinct, comparable to the correction signs at29–30. Encoded local subst; the expuncted vowel is tentatively u. The et ligature is retained."
+          },
+          "change": "Added subst retaining uncertain expuncted vowel and above-line a; changed note to documented uncertainty."
+        },
+        {
+          "note_id": "P-3.9-note-13",
+          "line": 13,
+          "target": "#P-3.9-l13",
+          "status": "documented-uncertainty",
+          "previous_type": "uncertainty",
+          "evidence": {
+            "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+            "page_position": "left",
+            "assessment": "The pale opening supports a provisional Fratris in enea, but the internal name letters are not secure enough to normalize or clear."
+          },
+          "change": "Independently checked source and retained conservative encoding."
+        },
+        {
+          "note_id": "P-3.9-note-14",
+          "line": 14,
+          "target": "#P-3.9-l14",
+          "status": "documented-uncertainty",
+          "previous_type": "uncertainty",
+          "evidence": {
+            "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+            "page_position": "left",
+            "assessment": "Diagonal surface streaks and low contrast run through Egressum tectis. Retained its local uncertainty; pulcher iule tuis remains readable."
+          },
+          "change": "Independently checked source and retained conservative encoding."
+        },
+        {
+          "note_id": "P-3.9-note-16",
+          "line": 16,
+          "target": "#P-3.9-l16",
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+            "page_position": "left",
+            "assessment": "The cu contraction and raised stroke support explicit cum. Nearby dark strokes do not identify a separate historical hand."
+          },
+          "change": "Independently checked source and retained conservative encoding."
+        },
+        {
+          "note_id": "P-3.9-note-18",
+          "line": 18,
+          "target": "#P-3.9-l18",
+          "status": "resolved",
+          "previous_type": null,
+          "evidence": {
+            "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+            "page_position": "left",
+            "assessment": "The beginning of etiam is written as the visible et ligature followed by iam. Added a source abbreviation choice with the explicit etiam expansion."
+          },
+          "change": "Added source ligature choice and reviewer observation note."
+        },
+        {
+          "note_id": "P-3.9-note-19",
+          "line": 19,
+          "target": "#P-3.9-l19",
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+            "page_position": "left",
+            "assessment": "The n before p in inportuna is supported by the source and preserved."
+          },
+          "change": "Independently checked source and retained conservative encoding."
+        },
+        {
+          "note_id": "P-3.9-note-21",
+          "line": 21,
+          "target": "#P-3.9-l21",
+          "status": "documented-uncertainty",
+          "previous_type": "uncertainty",
+          "evidence": {
+            "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+            "page_position": "left",
+            "assessment": "Both names remain pale, especially the final one. Tentative ismario/orphi are retained locally rather than made certain by the familiar passage."
+          },
+          "change": "Independently checked source and retained conservative encoding."
+        },
+        {
+          "note_id": "P-3.9-note-22",
+          "line": 22,
+          "target": "#P-3.9-l22",
+          "status": "resolved",
+          "previous_type": "uncertainty",
+          "evidence": {
+            "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+            "page_position": "left",
+            "assessment": "The narrow post-t vowel and rest of obstipuisse are traceable in the enlarged line. Removed blanket unclear."
+          },
+          "change": "Removed unclear from obstipuisse."
+        },
+        {
+          "note_id": "P-3.9-note-23",
+          "line": 23,
+          "target": "#P-3.9-l23",
+          "status": "documented-uncertainty",
+          "previous_type": "uncertainty",
+          "evidence": {
+            "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+            "page_position": "left",
+            "assessment": "The final segment has heavily unequal contrast around a/linon/altis. Retained provisional segmentation and local unclear."
+          },
+          "change": "Independently checked source and retained conservative encoding."
+        },
+        {
+          "note_id": "P-3.9-note-24",
+          "line": 24,
+          "target": "#P-3.9-l24",
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+            "page_position": "left",
+            "assessment": "The whole line is distinctly smaller and darker; Dicitur is abbreviated. This is a visible ink/layout difference, not proof of an erased earlier verse. A small raised stroke near inuita does not securely yield a further letter."
+          },
+          "change": "Independently checked source and retained conservative encoding."
+        },
+        {
+          "note_id": "P-3.9-note-25",
+          "line": 25,
+          "target": "#P-3.9-l25",
+          "status": "documented-uncertainty",
+          "previous_type": "uncertainty",
+          "evidence": {
+            "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+            "page_position": "left",
+            "assessment": "The name at the line opening remains pale enough that meoniden should stay tentative. No normalized name was substituted."
+          },
+          "change": "Independently checked source and retained conservative encoding."
+        },
+        {
+          "note_id": "P-3.9-note-26",
+          "line": 26,
+          "target": "#P-3.9-l26",
+          "status": "resolved",
+          "previous_type": "uncertainty",
+          "evidence": {
+            "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+            "page_position": "left",
+            "assessment": "Vatum pieriis is pale but followable across the enlarged strip. Removed blanket unclear while keeping its source spelling."
+          },
+          "change": "Removed unclear from Vatum pieriis."
+        },
+        {
+          "note_id": "P-3.9-note-27",
+          "line": 27,
+          "target": "#P-3.9-l27",
+          "status": "documented-uncertainty",
+          "previous_type": "uncertainty",
+          "evidence": {
+            "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+            "page_position": "right",
+            "assessment": "Actual verse27 continues at the top of the right page. Submersit remains tentative and the ending cannot be securely recovered; the extant-line gap is retained."
+          },
+          "change": "Independently checked source and retained conservative encoding."
+        },
+        {
+          "note_id": "P-3.9-note-29",
+          "line": 29,
+          "target": "#P-3.9-l29",
+          "status": "documented-uncertainty",
+          "previous_type": "uncertainty",
+          "evidence": {
+            "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+            "page_position": "right",
+            "assessment": "Dots occur under the endings of the first two words and at/us components above them. Existing subst conservatively records those parts; the first baseline ending remains uncertain. Flamma laboris is visible."
+          },
+          "change": "Independently checked source and retained conservative encoding."
+        },
+        {
+          "note_id": "P-3.9-note-30",
+          "line": 30,
+          "target": "#P-3.9-l30",
+          "status": "documented-uncertainty",
+          "previous_type": "uncertainty",
+          "evidence": {
+            "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+            "page_position": "right",
+            "assessment": "The small supralinear a and dot beneath the terminal vowel support the local correction. The underlying vowel remains unclear; no erased word is reconstructed."
+          },
+          "change": "Independently checked source and retained conservative encoding."
+        },
+        {
+          "note_id": "P-3.9-note-33",
+          "line": 33,
+          "target": "#P-3.9-l33",
+          "status": "documented-uncertainty",
+          "previous_type": "uncertainty",
+          "evidence": {
+            "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+            "page_position": "right",
+            "assessment": "The adjective is compressed and partly reinforced. Egyptia is retained as a tentative image reading, without normalizing its orthography."
+          },
+          "change": "Independently checked source and retained conservative encoding."
+        },
+        {
+          "note_id": "P-3.9-note-34",
+          "line": 34,
+          "target": "#P-3.9-l34",
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+            "page_position": "right",
+            "assessment": "Secubuisse thoro, including h, is visible. The source spelling is preserved."
+          },
+          "change": "Independently checked source and retained conservative encoding."
+        },
+        {
+          "note_id": "P-3.9-note-37",
+          "line": 37,
+          "target": "#P-3.9-l37",
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+            "page_position": "right",
+            "assessment": "The dark superscript tm-like contraction lies over the first pius area and supports an added tamen. Baseline moriere pius remains intact."
+          },
+          "change": "Independently checked source and retained conservative encoding."
+        },
+        {
+          "note_id": "P-3.9-note-40",
+          "line": 40,
+          "target": "#P-3.9-l40",
+          "status": "documented-uncertainty",
+          "previous_type": "observation",
+          "evidence": {
+            "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+            "page_position": "right",
+            "assessment": "Above-line V corrects the expuncted initial D. A b-like baseline shape before urna has a dot beneath; newly encoded as uncertain expuncted text. No earlier invisible reading is claimed."
+          },
+          "change": "Added initial D/V substitution and uncertain expuncted b before urna; changed note to uncertainty."
+        },
+        {
+          "note_id": "P-3.9-note-41",
+          "line": 41,
+          "target": "#P-3.9-l41",
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+            "page_position": "right",
+            "assessment": "The final e-form in flamme supports the existing plain-e transcription; no ae is supplied."
+          },
+          "change": "Independently checked source and retained conservative encoding."
+        },
+        {
+          "note_id": "P-3.9-note-43",
+          "line": 43,
+          "target": "#P-3.9-l43",
+          "status": "documented-uncertainty",
+          "previous_type": "uncertainty",
+          "evidence": {
+            "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+            "page_position": "right",
+            "assessment": "The barred contraction is small and ambiguous. Preserved the tentative written form and made sanctorum an explicitly low-certainty expansion."
+          },
+          "change": "Added cert=low to sanctorum expansion."
+        },
+        {
+          "note_id": "P-3.9-note-45",
+          "line": 45,
+          "target": "#P-3.9-l45",
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+            "page_position": "right",
+            "assessment": "The visible sequence ericis que is supported and retained with editorial word division."
+          },
+          "change": "Independently checked source and retained conservative encoding."
+        },
+        {
+          "note_id": "P-3.9-note-47",
+          "line": 47,
+          "target": "#P-3.9-l47",
+          "status": "documented-uncertainty",
+          "previous_type": "uncertainty",
+          "evidence": {
+            "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+            "page_position": "right",
+            "assessment": "The place adjective remains pale internally. Retained tentative pheace rather than importing a geographical spelling."
+          },
+          "change": "Independently checked source and retained conservative encoding."
+        },
+        {
+          "note_id": "P-3.9-note-49",
+          "line": 49,
+          "target": "#P-3.9-l49",
+          "status": "resolved",
+          "previous_type": "uncertainty",
+          "evidence": {
+            "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+            "page_position": "right",
+            "assessment": "The large N and following unc can be followed in the pale opening. Cleared Nunc after checking both the full page and enlarged crop."
+          },
+          "change": "Removed unclear from Nunc."
+        },
+        {
+          "note_id": "P-3.9-note-51",
+          "line": 51,
+          "target": "#P-3.9-l51",
+          "status": "resolved",
+          "previous_type": "uncertainty",
+          "evidence": {
+            "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+            "page_position": "right",
+            "assessment": "The initial H and inc before soror support Hinc. Removed the whole-word uncertainty; no normalization of misere."
+          },
+          "change": "Removed unclear from Hinc."
+        },
+        {
+          "note_id": "P-3.9-note-55",
+          "line": 55,
+          "target": "#P-3.9-l55",
+          "status": "documented-uncertainty",
+          "previous_type": "uncertainty",
+          "evidence": {
+            "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+            "page_position": "left",
+            "assessment": "Discedens remains plausible, but its small middle letters are too faint for a confident clearance. Retained local unclear."
+          },
+          "change": "Independently checked source and retained conservative encoding."
+        },
+        {
+          "note_id": "P-3.9-note-60",
+          "line": 60,
+          "target": "#P-3.9-l60",
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+            "page_position": "left",
+            "assessment": "Helisia, including h and final a, is visible; source spelling is retained."
+          },
+          "change": "Independently checked source and retained conservative encoding."
+        },
+        {
+          "note_id": "P-3.9-note-64",
+          "line": 64,
+          "target": "#P-3.9-l64",
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+            "page_position": "left",
+            "assessment": "Plain e in anime/tue reflects the visible form and established allograph policy."
+          },
+          "change": "Independently checked source and retained conservative encoding."
+        },
+        {
+          "note_id": "P-3.9-note-65",
+          "line": 65,
+          "target": "#P-3.9-l65",
+          "status": "documented-uncertainty",
+          "previous_type": "uncertainty",
+          "evidence": {
+            "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+            "page_position": "left",
+            "assessment": "The ending still only partly supports umbra. Retained uncertainty; the crossing near siquid does not support a reconstructed deleted letter."
+          },
+          "change": "Independently checked source and retained conservative encoding."
+        },
+        {
+          "note_id": "P-3.9-note-67",
+          "line": 67,
+          "target": "#P-3.9-l67",
+          "status": "documented-uncertainty",
+          "previous_type": "uncertainty",
+          "evidence": {
+            "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+            "page_position": "left",
+            "assessment": "Fading and mottling interrupt the terminal phrase. Requiescite urna remains tentative; it is not cleared from an expected phrase."
+          },
+          "change": "Independently checked source and retained conservative encoding."
+        },
+        {
+          "note_id": "P-3.9-note-68",
+          "line": 68,
+          "target": "#P-3.9-l68",
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "image": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+            "page_position": "left",
+            "assessment": "The final verse is followed by the visually separated opening couplet of3.10, beginning Annua uenerunt and Secubat. These are verses, not a heading. Rechecked the changed boundary note against enlarged95left after release; the68verse boundary remains correct."
+          },
+          "change": "Accepted and independently verified corrected boundary note: next two lines are3.10verses, not a heading."
+        }
+      ],
+      "validation": {
+        "schema": "docs/schema/tei_all-4.12.0.rng",
+        "schema_result": "passed xmllint Relax NG",
+        "verse_lines": 68,
+        "facsimile_zones": 68,
+        "unique_ids": true,
+        "local_references_resolve": true
+      },
+      "reviewed_candidate_sha256": "7ae49dcca26ae6acf3bf57436019c552ff6f40115267b1a2f98f6868e6d5f9ee",
+      "review_report_sha256": "80b10100a77ec7d9d7440e8ba9a528633fc8fd5c1a10f4d9e7ebbe29f05b635e",
+      "layout_evidence": {
+        "source_images": [
+          94,
+          95
+        ],
+        "scope": "P3.9 all68verse positions",
+        "assessment": "Full-page photographs show even lines beginning inward relative to preceding odd-line initials; retained source-based indent attributes and revised header policy."
+      },
+      "reviewed_xml_sha256": "37bc83bb13143b38191c3633b86b62a2d493985c73cbf62652f6bd1109c4013b"
+    }
+  ],
+  "status": "fresh-full-source-pass-complete",
+  "fresh_full_review": {
+    "date": "2026-10-26",
+    "reviewer_agent": "/root/w_review_b",
+    "source_checked_lines": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68
+    ],
+    "source_checked_line_count": 68,
+    "all_existing_notes_checked": 35,
+    "current_note_count": 35,
+    "method": "Actual complete source spreads, enlarged sequential overlapping bands, difficult individual row crops; every verse and every note checked. No other witness or familiar edition used.",
+    "production_sha256": "7ae49dcca26ae6acf3bf57436019c552ff6f40115267b1a2f98f6868e6d5f9ee",
+    "production_relative_changes": "One verse position changed:21 the pale sequence tentatively reads patris maro rather than assured pater plus tentative ismario. The changed group is wholly unclear and final orphi remains unclear. Every other verse, heading fragment, source addition/cancellation, gap, punctuation and inset was retained after fresh reading.",
+    "all_zones_and_navigation_preserved": true,
+    "indentation_evidence": "Full spread line starts inspected on every supporting image. Modest alternating insets and source opening spaces retained as observed, without assigning indentation solely from parity.",
+    "source_evidence": [
+      {
+        "viewer_page": 94,
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f94/full/full/0/native.jpg",
+        "mirror_file_page": "https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(094_of_101).jpg",
+        "image": "/tmp/amores-full-review/P/f94.jpg",
+        "sha256": "af8ff043f03fd902d3dc7d592c973446d3c8ef8940a380143ecf706ba46f0cd8"
+      },
+      {
+        "viewer_page": 95,
+        "source_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f95/full/full/0/native.jpg",
+        "mirror_file_page": "https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(095_of_101).jpg",
+        "image": "/tmp/amores-full-review/P/f95.jpg",
+        "sha256": "15b9ecd5e8a707776d284d12336f6468f698acb62dd055836bee3eef58cf891a"
+      }
+    ]
+  }
 }

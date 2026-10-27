@@ -1,12 +1,12 @@
 {
   "witness": "Y",
   "poem": "3.13",
-  "date": "2026-09-10",
+  "date": "2026-10-26",
   "author_agent": "/root/review_y",
-  "reviewer_agent": "/root/encode_p",
-  "reviewer": "OpenAI Codex independent encode_p agent",
-  "review_type": "independent-second-agent-image-and-encoding-review",
-  "status": "second-pass-complete",
+  "reviewer_agent": "/root/w_review_b",
+  "reviewer": "OpenAI Codex independent w_review_b fresh source reviewer",
+  "review_type": "independent-second-agent-image-and-encoding-review-fresh-full-source-rereading",
+  "status": "fresh-full-source-pass-complete",
   "human_approved": false,
   "line_coverage": {
     "count": 36,
@@ -65,306 +65,415 @@
   "notes": [
     {
       "note_id": "Y-3.13-note-1",
-      "target": "#Y-3.13-l1",
       "line": 1,
+      "target": "#Y-3.13-l1",
       "previous_type": "uncertainty",
       "status": "documented-uncertainty",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
         "page": "67v",
+        "viewer_page": 138,
         "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0138/full/full/0/default.jpg",
-        "image": "/tmp/amores-y31-33/138.jpg",
-        "assessment": "Full folio and close crop confirm the large C, dark omi, and written fore torta with crossing strokes. The relationship/function of those strokes remains uncertain; no normalized word division or prior erasure is imposed."
+        "image": "/Users/jameskull/.codex/worktrees/publish-witness-w/Amores Project/docs/data/facsimiles/Y/0138.jpg",
+        "crop": "/tmp/amores-y-fresh/3.13-l1.jpg",
+        "assessment": "Fresh source reading confirms these visible features and conservative limits: The poem begins with a large ornamental C. Omi of pomiferis is dark. The visible following sequence is fore torta; a horizontal stroke crosses the boundary and a vertical mark crosses t. The source components are preserved without imposing a normalized word division or erasure history."
       }
     },
     {
       "note_id": "Y-3.13-note-2",
-      "target": "#Y-3.13-l2",
       "line": 2,
+      "target": "#Y-3.13-l2",
       "previous_type": "observation",
       "status": "resolved",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
         "page": "67v",
+        "viewer_page": 138,
         "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0138/full/full/0/default.jpg",
-        "image": "/tmp/amores-y31-33/138.jpg",
-        "assessment": "Raised con before tigimus and culta above uicta are visible. The o of comillae has a dot beneath and a above, supporting the existing substitution. No cancellation of uicta is established."
+        "image": "/Users/jameskull/.codex/worktrees/publish-witness-w/Amores Project/docs/data/facsimiles/Y/0138.jpg",
+        "crop": "/tmp/amores-y-fresh/3.13-l2.jpg",
+        "assessment": "Fresh source reading confirms these visible features and conservative limits: Con is written above before tigimus, and culta above uicta. In comillae, o has a dot below and a above, supporting an expunction/substitution. No cancellation of uicta is asserted."
       }
     },
     {
       "note_id": "Y-3.13-note-3",
-      "target": "#Y-3.13-l3",
       "line": 3,
+      "target": "#Y-3.13-l3",
       "previous_type": "observation",
       "status": "resolved",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
         "page": "67v",
+        "viewer_page": 138,
         "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0138/full/full/0/default.jpg",
-        "image": "/tmp/amores-y31-33/138.jpg",
-        "assessment": "The darker final a and the small horizontal mark between sacer and dotes are visible. The mark does not cancel letters; existing representation is adequate."
+        "image": "/Users/jameskull/.codex/worktrees/publish-witness-w/Amores Project/docs/data/facsimiles/Y/0138.jpg",
+        "crop": "/tmp/amores-y-fresh/3.13-l3.jpg",
+        "assessment": "Fresh source reading confirms these visible features and conservative limits: The final a of Casta is darker. A short horizontal stroke crosses the sacerdotes word division, retained schematically without cancelling the letters."
       }
     },
     {
       "note_id": "Y-3.13-note-5",
-      "target": "#Y-3.13-l5",
       "line": 5,
+      "target": "#Y-3.13-l5",
       "previous_type": "observation",
       "status": "resolved",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
         "page": "67v",
+        "viewer_page": 138,
         "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0138/full/full/0/default.jpg",
-        "image": "/tmp/amores-y31-33/138.jpg",
-        "assessment": "The source visibly reads Grande more pretium. The unusual grammar is a source feature, not an error to normalize."
+        "image": "/Users/jameskull/.codex/worktrees/publish-witness-w/Amores Project/docs/data/facsimiles/Y/0138.jpg",
+        "crop": "/tmp/amores-y-fresh/3.13-l5.jpg",
+        "assessment": "Fresh source reading confirms these visible features and conservative limits: The source writes Grande more pretium. No normalization of its grammatical form is supplied."
       }
     },
     {
       "note_id": "Y-3.13-note-6",
-      "target": "#Y-3.13-l6",
       "line": 6,
+      "target": "#Y-3.13-l6",
       "previous_type": "uncertainty",
       "status": "documented-uncertainty",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
         "page": "67v",
+        "viewer_page": 138,
         "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0138/full/full/0/default.jpg",
-        "image": "/tmp/amores-y31-33/138.jpg",
-        "assessment": "The dark/crowded que remains locally uncertain. Prebet ends with an et ligature, correctly represented with its explicit expansion."
+        "image": "/Users/jameskull/.codex/worktrees/publish-witness-w/Amores Project/docs/data/facsimiles/Y/0138.jpg",
+        "crop": "/tmp/amores-y-fresh/3.13-l6.jpg",
+        "assessment": "Fresh source reading confirms these visible features and conservative limits: Que after cliuis has darker overlapping strokes and remains qualified. The et ending of prebet is a ligature. The current spelling is retained."
       }
     },
     {
       "note_id": "Y-3.13-note-7",
-      "target": "#Y-3.13-l7",
       "line": 7,
+      "target": "#Y-3.13-l7",
       "previous_type": "observation",
       "status": "resolved",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
         "page": "67v",
+        "viewer_page": 138,
         "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0138/full/full/0/default.jpg",
-        "image": "/tmp/amores-y31-33/138.jpg",
-        "assessment": "Stat uetus, the dark final s and darker u/second b in nubibus are visible. Et is a ligature. Marginal oblique marks do not establish a correction function."
+        "image": "/Users/jameskull/.codex/worktrees/publish-witness-w/Amores Project/docs/data/facsimiles/Y/0138.jpg",
+        "crop": "/tmp/amores-y-fresh/3.13-l7.jpg",
+        "assessment": "Fresh source reading confirms these visible features and conservative limits: The opening is Stat uetus, with dark final s. Within nubibus, u and the second b are dark. The et conjunction is a ligature. Small oblique marginal marks have unspecified function."
       }
     },
     {
       "note_id": "Y-3.13-note-8",
-      "target": "#Y-3.13-l8",
       "line": 8,
+      "target": "#Y-3.13-l8",
       "previous_type": "observation",
       "status": "resolved",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
         "page": "67v",
+        "viewer_page": 138,
         "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0138/full/full/0/default.jpg",
-        "image": "/tmp/amores-y31-33/138.jpg",
-        "assessment": "The dot under e of numenis and raised i support the existing substitution; both source letters remain encoded."
+        "image": "/Users/jameskull/.codex/worktrees/publish-witness-w/Amores Project/docs/data/facsimiles/Y/0138.jpg",
+        "crop": "/tmp/amores-y-fresh/3.13-l8.jpg",
+        "assessment": "Fresh source reading confirms these visible features and conservative limits: In numenis, a dot beneath e and i above it support an expunction/substitution. Both letters are retained."
       }
     },
     {
       "note_id": "Y-3.13-note-9",
-      "target": "#Y-3.13-l9",
       "line": 9,
+      "target": "#Y-3.13-l9",
       "previous_type": "observation",
       "status": "resolved",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
         "page": "67v",
+        "viewer_page": 138,
         "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0138/full/full/0/default.jpg",
-        "image": "/tmp/amores-y31-33/138.jpg",
-        "assessment": "The a in praeces is crossed and dotted beneath. Keeping that deleted letter preserves the written praeces and corrected preces."
+        "image": "/Users/jameskull/.codex/worktrees/publish-witness-w/Amores Project/docs/data/facsimiles/Y/0138.jpg",
+        "crop": "/tmp/amores-y-fresh/3.13-l9.jpg",
+        "assessment": "Fresh source reading confirms these visible features and conservative limits: The a of praeces is crossed and dotted below; it is retained as del, yielding preces without supplying letters."
       }
     },
     {
       "note_id": "Y-3.13-note-10",
-      "target": "#Y-3.13-l10",
       "line": 10,
+      "target": "#Y-3.13-l10",
       "previous_type": "uncertainty",
       "status": "documented-uncertainty",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
         "page": "67v",
+        "viewer_page": 138,
         "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0138/full/full/0/default.jpg",
-        "image": "/tmp/amores-y31-33/138.jpg",
-        "assessment": "A vertical stroke follows Ara and crosses the following boundary. Its exact role is not securely established, so the unspecified metamark remains."
+        "image": "/Users/jameskull/.codex/worktrees/publish-witness-w/Amores Project/docs/data/facsimiles/Y/0138.jpg",
+        "crop": "/tmp/amores-y-fresh/3.13-l10.jpg",
+        "assessment": "Fresh source reading confirms these visible features and conservative limits: A slender vertical stroke follows Ara and crosses the beginning of per. Its function is unspecified."
       }
     },
     {
       "note_id": "Y-3.13-note-11",
-      "target": "#Y-3.13-l11",
       "line": 11,
+      "target": "#Y-3.13-l11",
       "previous_type": "observation",
       "status": "resolved",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
         "page": "67v",
+        "viewer_page": 138,
         "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0138/full/full/0/default.jpg",
-        "image": "/tmp/amores-y31-33/138.jpg",
-        "assessment": "Raised hic, expunged/crossed final a of sollempnia, and the short mark at p of presonuit are visible. Only the secure cancelled a is treated as deletion."
+        "image": "/Users/jameskull/.codex/worktrees/publish-witness-w/Amores Project/docs/data/facsimiles/Y/0138.jpg",
+        "crop": "/tmp/amores-y-fresh/3.13-l11.jpg",
+        "assessment": "Fresh source reading confirms these visible features and conservative limits: Hic is written above Hanc. Final a of sollempnia is crossed with a dot below and retained as del. A short stroke also crosses the p-area of presonuit; that mark does not securely cancel p."
       }
     },
     {
       "note_id": "Y-3.13-note-12",
-      "target": "#Y-3.13-l12",
       "line": 12,
+      "target": "#Y-3.13-l12",
       "previous_type": "uncertainty",
       "status": "documented-uncertainty",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
         "page": "67v",
+        "viewer_page": 138,
         "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0138/full/full/0/default.jpg",
-        "image": "/tmp/amores-y31-33/138.jpg",
-        "assessment": "The dark I/er/e regions and crossed a after i are visible. Close crop confirms dots near uellatas, but they do not establish deletion of the whole word or an independently legible replacement. Retain the conservative account."
+        "image": "/Users/jameskull/.codex/worktrees/publish-witness-w/Amores Project/docs/data/facsimiles/Y/0138.jpg",
+        "crop": "/tmp/amores-y-fresh/3.13-l12.jpg",
+        "assessment": "Fresh source reading confirms these visible features and conservative limits: Initial I, er of per and first e of uellatas are darker. The a after i before uias is crossed and retained as del. Dots below the uellatas area do not securely establish a cancelled whole word; its readable letters remain uncancelled."
       }
     },
     {
       "note_id": "Y-3.13-note-13",
-      "target": "#Y-3.13-l13",
       "line": 13,
+      "target": "#Y-3.13-l13",
       "previous_type": "uncertainty",
       "status": "documented-uncertainty",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
         "page": "67v",
+        "viewer_page": 138,
         "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0138/full/full/0/default.jpg",
-        "image": "/tmp/amores-y31-33/138.jpg",
-        "assessment": "Raised c before final e and the caret are visible. A dot near Ducuntur's r remains functionally ambiguous; no cancellation of r or normalized ae is imposed."
+        "image": "/Users/jameskull/.codex/worktrees/publish-witness-w/Amores Project/docs/data/facsimiles/Y/0138.jpg",
+        "crop": "/tmp/amores-y-fresh/3.13-l13.jpg",
+        "assessment": "Fresh source reading confirms these visible features and conservative limits: A small c is added above before the final e of iuuene, with a caret beneath. Source e is preserved without normalization to ae. A small dark dot lies near the final r of Ducuntur, but its function is unclear; no cancellation of r is asserted."
       }
     },
     {
       "note_id": "Y-3.13-note-15",
-      "target": "#Y-3.13-l15",
       "line": 15,
+      "target": "#Y-3.13-l15",
       "previous_type": "observation",
       "status": "resolved",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
         "page": "67v",
+        "viewer_page": 138,
         "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0138/full/full/0/default.jpg",
-        "image": "/tmp/amores-y31-33/138.jpg",
-        "assessment": "The darker final i in uituli and i in metuendi are supported. No earlier letter can be recovered from tone alone."
+        "image": "/Users/jameskull/.codex/worktrees/publish-witness-w/Amores Project/docs/data/facsimiles/Y/0138.jpg",
+        "crop": "/tmp/amores-y-fresh/3.13-l15.jpg",
+        "assessment": "Fresh source reading confirms these visible features and conservative limits: The final i of uituli and i of metuendi are darker. Current readings are retained without reconstructing prior letters."
       }
     },
     {
       "note_id": "Y-3.13-note-17",
-      "target": "#Y-3.13-l17",
       "line": 17,
+      "target": "#Y-3.13-l17",
       "previous_type": "observation",
       "status": "resolved",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
         "page": "67v",
+        "viewer_page": 138,
         "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0138/full/full/0/default.jpg",
-        "image": "/tmp/amores-y31-33/138.jpg",
-        "assessment": "Two distinct dots beneath the final a of cornua support expunction. The source ending recuruo lacks final s, which remains unsupplied."
+        "image": "/Users/jameskull/.codex/worktrees/publish-witness-w/Amores Project/docs/data/facsimiles/Y/0138.jpg",
+        "crop": "/tmp/amores-y-fresh/3.13-l17.jpg",
+        "assessment": "Fresh source reading confirms these visible features and conservative limits: Two dots beneath the final a of cornua indicate expunction. The source ends recuruo, with no final s supplied."
       }
     },
     {
       "note_id": "Y-3.13-note-18",
-      "target": "#Y-3.13-l18",
       "line": 18,
+      "target": "#Y-3.13-l18",
       "previous_type": "uncertainty",
       "status": "documented-uncertainty",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
         "page": "67v",
+        "viewer_page": 138,
         "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0138/full/full/0/default.jpg",
-        "image": "/tmp/amores-y31-33/138.jpg",
-        "assessment": "The a of sola and c of capella are dark and crossed by fine strokes. Their readable current letters remain; neither an earlier erased state nor exact mark function is secure."
+        "image": "/Users/jameskull/.codex/worktrees/publish-witness-w/Amores Project/docs/data/facsimiles/Y/0138.jpg",
+        "crop": "/tmp/amores-y-fresh/3.13-l18.jpg",
+        "assessment": "Fresh source reading confirms these visible features and conservative limits: Final a of sola and c of capella are dark and crossed by slender strokes. The readable letters are retained without asserting an erased prior state."
       }
     },
     {
       "note_id": "Y-3.13-note-24",
-      "target": "#Y-3.13-l24",
       "line": 24,
+      "target": "#Y-3.13-l24",
       "previous_type": "observation",
       "status": "resolved",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
         "page": "68r",
+        "viewer_page": 139,
         "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0139/full/full/0/default.jpg",
-        "image": "/tmp/amores-y31-33/139.jpg",
-        "assessment": "Praebuerant and iacente are both visible source forms; preserved without normalization."
+        "image": "/Users/jameskull/.codex/worktrees/publish-witness-w/Amores Project/docs/data/facsimiles/Y/0139.jpg",
+        "crop": "/tmp/amores-y-fresh/3.13-l24.jpg",
+        "assessment": "Fresh source reading confirms these visible features and conservative limits: The source reads Praebuerant and iacente. Those forms are retained."
       }
     },
     {
       "note_id": "Y-3.13-note-25",
-      "target": "#Y-3.13-l25",
       "line": 25,
+      "target": "#Y-3.13-l25",
       "previous_type": "observation",
       "status": "resolved",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
         "page": "68r",
+        "viewer_page": 139,
         "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0139/full/full/0/default.jpg",
-        "image": "/tmp/amores-y31-33/139.jpg",
-        "assessment": "Virginea and the dark e of crines are visible. Current source letters are correctly retained."
+        "image": "/Users/jameskull/.codex/worktrees/publish-witness-w/Amores Project/docs/data/facsimiles/Y/0139.jpg",
+        "crop": "/tmp/amores-y-fresh/3.13-l25.jpg",
+        "assessment": "Fresh source reading confirms these visible features and conservative limits: The e of crines is dark; Virginea is retained with its visible ending."
       }
     },
     {
       "note_id": "Y-3.13-note-27",
-      "target": "#Y-3.13-l27",
       "line": 27,
+      "target": "#Y-3.13-l27",
       "previous_type": "uncertainty",
       "status": "documented-uncertainty",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
         "page": "68r",
+        "viewer_page": 139,
         "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0139/full/full/0/default.jpg",
-        "image": "/tmp/amores-y31-33/139.jpg",
-        "assessment": "Morem has dark e and a very pale residual final m. Raised sancto stands above graio; nearby dots do not securely establish deletion extent of the baseline word. Preserve local uncertainty and both layers."
+        "image": "/Users/jameskull/.codex/worktrees/publish-witness-w/Amores Project/docs/data/facsimiles/Y/0139.jpg",
+        "crop": "/tmp/amores-y-fresh/3.13-l27.jpg",
+        "assessment": "Fresh source reading confirms these visible features and conservative limits: The e of Morem is dark and final m is pale but partly visible; it remains unclear without claiming erasure. Sancto is written above graio. Dots beneath that addition do not securely define cancellation of the baseline word, so both are retained."
       }
     },
     {
       "note_id": "Y-3.13-note-31",
-      "target": "#Y-3.13-l31",
       "line": 31,
+      "target": "#Y-3.13-l31",
       "previous_type": "uncertainty",
       "status": "documented-uncertainty",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
         "page": "68r",
+        "viewer_page": 139,
         "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0139/full/full/0/default.jpg",
-        "image": "/tmp/amores-y31-33/139.jpg",
-        "assessment": "The close crop supports the written facie sagamen none caeso and two crossing/separating strokes. Their function and word/name division remain uncertain; no familiar normalized name is supplied."
+        "image": "/Users/jameskull/.codex/worktrees/publish-witness-w/Amores Project/docs/data/facsimiles/Y/0139.jpg",
+        "crop": "/tmp/amores-y-fresh/3.13-l31.jpg",
+        "assessment": "Fresh source reading confirms these visible features and conservative limits: The visible sequence after pompae is facie sagamen none caeso. A slender stroke crosses after facie, and a short horizontal stroke follows sagamen. The source wording is retained without restoring a familiar name or missing letters."
       }
     },
     {
       "note_id": "Y-3.13-note-32",
-      "target": "#Y-3.13-l32",
       "line": 32,
+      "target": "#Y-3.13-l32",
       "previous_type": "observation",
       "status": "resolved",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
         "page": "68r",
+        "viewer_page": 139,
         "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0139/full/full/0/default.jpg",
-        "image": "/tmp/amores-y31-33/139.jpg",
-        "assessment": "The vertical stroke after fugit, darker al in halesus and the et ligature are visible. No prior reading is inferred."
+        "image": "/Users/jameskull/.codex/worktrees/publish-witness-w/Amores Project/docs/data/facsimiles/Y/0139.jpg",
+        "crop": "/tmp/amores-y-fresh/3.13-l32.jpg",
+        "assessment": "Fresh source reading confirms these visible features and conservative limits: A vertical stroke falls between fugit and halesus. Al of halesus is darker. The et conjunction is a ligature; no previous reading is inferred."
       }
     },
     {
       "note_id": "Y-3.13-note-33",
-      "target": "#Y-3.13-l33",
       "line": 33,
+      "target": "#Y-3.13-l33",
       "previous_type": "observation",
       "status": "resolved",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
         "page": "68r",
+        "viewer_page": 139,
         "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0139/full/full/0/default.jpg",
-        "image": "/tmp/amores-y31-33/139.jpg",
-        "assessment": "All letters of the editorially separated per erratis are present. The source sequence is retained."
+        "image": "/Users/jameskull/.codex/worktrees/publish-witness-w/Amores Project/docs/data/facsimiles/Y/0139.jpg",
+        "crop": "/tmp/amores-y-fresh/3.13-l33.jpg",
+        "assessment": "Fresh source reading confirms these visible features and conservative limits: Per erratis is editorially separated while retaining the visible source letters."
       }
     },
     {
       "note_id": "Y-3.13-note-35",
-      "target": "#Y-3.13-l35",
       "line": 35,
+      "target": "#Y-3.13-l35",
       "previous_type": "observation",
       "status": "resolved",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
         "page": "68r",
+        "viewer_page": 139,
         "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0139/full/full/0/default.jpg",
-        "image": "/tmp/amores-y31-33/139.jpg",
-        "assessment": "The dark final s of faliscos and the paired right-margin strokes are supported. No textual function is invented for the margin marks."
+        "image": "/Users/jameskull/.codex/worktrees/publish-witness-w/Amores Project/docs/data/facsimiles/Y/0139.jpg",
+        "crop": "/tmp/amores-y-fresh/3.13-l35.jpg",
+        "assessment": "Fresh source reading confirms these visible features and conservative limits: Final s of faliscos is dark. A paired right-margin stroke is documented without assigning a textual function."
       }
     },
     {
       "note_id": "Y-3.13-note-36",
-      "target": "#Y-3.13-l36",
       "line": 36,
+      "target": "#Y-3.13-l36",
       "previous_type": "uncertainty",
       "status": "documented-uncertainty",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
       "evidence": {
         "page": "68r",
+        "viewer_page": 139,
         "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0139/full/full/0/default.jpg",
-        "image": "/tmp/amores-y31-33/139.jpg",
-        "assessment": "The stroke after mihi remains unspecified. The closing colon-like mark and long separator precede the actual opening verse of 3.14. Full-page inspection supports both the boundary and the visible alternate-line inset."
+        "image": "/Users/jameskull/.codex/worktrees/publish-witness-w/Amores Project/docs/data/facsimiles/Y/0139.jpg",
+        "crop": "/tmp/amores-y-fresh/3.13-l36.jpg",
+        "assessment": "Fresh source reading confirms these visible features and conservative limits: A slender stroke follows mihi. A colon-like mark and terminal stroke precede the large N beginning3.14; the next line is not a heading."
+      }
+    },
+    {
+      "note_id": "Y-3.13-note-fresh-punctuation",
+      "line": 4,
+      "target": "#Y-3.13-l4",
+      "previous_type": "observation",
+      "status": "resolved",
+      "review_date": "2026-10-26",
+      "reviewer_agent": "/root/w_review_b",
+      "evidence": {
+        "page": "67v",
+        "viewer_page": 138,
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0138/full/full/0/default.jpg",
+        "image": "/Users/jameskull/.codex/worktrees/publish-witness-w/Amores Project/docs/data/facsimiles/Y/0138.jpg",
+        "crop": "/tmp/amores-y-fresh/3.13-l4.jpg",
+        "assessment": "Fresh source reading confirms these visible features and conservative limits: Fresh source reading confirms the terminal point after bouem at4. The descending terminal stroke after pedes at26 is distinguished schematically as comma-like rather than a generic point."
       }
     }
   ],
   "counts": {
-    "resolved": 14,
+    "resolved": 15,
     "documented-uncertainty": 9,
     "escalate": 0
   },
@@ -382,7 +491,461 @@
     "humanReviewNotes": 0
   },
   "first_pass_sha256": "8a198e5cbc7dc3c3ea04ed7bda825ed1cd073346d1db2a4eeda00b30de239248",
-  "reviewed_candidate_sha256": "f3c5386c6a0ef9364bf086efca16bd5dcb0666f26dd8befdf5519dc0c3c85b29",
-  "review_report_sha256": "d4e65269522cad28fa45c0b0df7525f0bfaf2994dd4bcdf76cb357d09935ccf6",
-  "reviewed_xml_sha256": "1e2e70f4b662d311c58ca7daba523db20d1af352aac7cf06c88014aac37cb4ea"
+  "reviewed_candidate_sha256": "b692d278e9e88555522cf5473bcc3ed4cd88bdc749f9cc9c3dddb37565bb1416",
+  "review_report_sha256": "4e5885a08049f30dfa41a5a4582e4c2c7d6a52b8f328b3a0bbc0a104c6b5a22b",
+  "reviewed_xml_sha256": "5a809f78c93634b73c128f735fb0a0a570d595bbb00ad5bfbda0c2484d220f7b",
+  "review_history": [
+    {
+      "witness": "Y",
+      "poem": "3.13",
+      "date": "2026-09-10",
+      "author_agent": "/root/review_y",
+      "reviewer_agent": "/root/encode_p",
+      "reviewer": "OpenAI Codex independent encode_p agent",
+      "review_type": "independent-second-agent-image-and-encoding-review",
+      "status": "second-pass-complete",
+      "human_approved": false,
+      "line_coverage": {
+        "count": 36,
+        "ranges": [
+          {
+            "page": "67v",
+            "start": 1,
+            "end": 22
+          },
+          {
+            "page": "68r",
+            "start": 23,
+            "end": 36
+          }
+        ],
+        "absent_ranges": []
+      },
+      "line_order": [
+        "Y-3.13-l1",
+        "Y-3.13-l2",
+        "Y-3.13-l3",
+        "Y-3.13-l4",
+        "Y-3.13-l5",
+        "Y-3.13-l6",
+        "Y-3.13-l7",
+        "Y-3.13-l8",
+        "Y-3.13-l9",
+        "Y-3.13-l10",
+        "Y-3.13-l11",
+        "Y-3.13-l12",
+        "Y-3.13-l13",
+        "Y-3.13-l14",
+        "Y-3.13-l15",
+        "Y-3.13-l16",
+        "Y-3.13-l17",
+        "Y-3.13-l18",
+        "Y-3.13-l19",
+        "Y-3.13-l20",
+        "Y-3.13-l21",
+        "Y-3.13-l22",
+        "Y-3.13-l23",
+        "Y-3.13-l24",
+        "Y-3.13-l25",
+        "Y-3.13-l26",
+        "Y-3.13-l27",
+        "Y-3.13-l28",
+        "Y-3.13-l29",
+        "Y-3.13-l30",
+        "Y-3.13-l31",
+        "Y-3.13-l32",
+        "Y-3.13-l33",
+        "Y-3.13-l34",
+        "Y-3.13-l35",
+        "Y-3.13-l36"
+      ],
+      "notes": [
+        {
+          "note_id": "Y-3.13-note-1",
+          "target": "#Y-3.13-l1",
+          "line": 1,
+          "previous_type": "uncertainty",
+          "status": "documented-uncertainty",
+          "evidence": {
+            "page": "67v",
+            "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0138/full/full/0/default.jpg",
+            "image": "/tmp/amores-y31-33/138.jpg",
+            "assessment": "Full folio and close crop confirm the large C, dark omi, and written fore torta with crossing strokes. The relationship/function of those strokes remains uncertain; no normalized word division or prior erasure is imposed."
+          }
+        },
+        {
+          "note_id": "Y-3.13-note-2",
+          "target": "#Y-3.13-l2",
+          "line": 2,
+          "previous_type": "observation",
+          "status": "resolved",
+          "evidence": {
+            "page": "67v",
+            "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0138/full/full/0/default.jpg",
+            "image": "/tmp/amores-y31-33/138.jpg",
+            "assessment": "Raised con before tigimus and culta above uicta are visible. The o of comillae has a dot beneath and a above, supporting the existing substitution. No cancellation of uicta is established."
+          }
+        },
+        {
+          "note_id": "Y-3.13-note-3",
+          "target": "#Y-3.13-l3",
+          "line": 3,
+          "previous_type": "observation",
+          "status": "resolved",
+          "evidence": {
+            "page": "67v",
+            "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0138/full/full/0/default.jpg",
+            "image": "/tmp/amores-y31-33/138.jpg",
+            "assessment": "The darker final a and the small horizontal mark between sacer and dotes are visible. The mark does not cancel letters; existing representation is adequate."
+          }
+        },
+        {
+          "note_id": "Y-3.13-note-5",
+          "target": "#Y-3.13-l5",
+          "line": 5,
+          "previous_type": "observation",
+          "status": "resolved",
+          "evidence": {
+            "page": "67v",
+            "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0138/full/full/0/default.jpg",
+            "image": "/tmp/amores-y31-33/138.jpg",
+            "assessment": "The source visibly reads Grande more pretium. The unusual grammar is a source feature, not an error to normalize."
+          }
+        },
+        {
+          "note_id": "Y-3.13-note-6",
+          "target": "#Y-3.13-l6",
+          "line": 6,
+          "previous_type": "uncertainty",
+          "status": "documented-uncertainty",
+          "evidence": {
+            "page": "67v",
+            "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0138/full/full/0/default.jpg",
+            "image": "/tmp/amores-y31-33/138.jpg",
+            "assessment": "The dark/crowded que remains locally uncertain. Prebet ends with an et ligature, correctly represented with its explicit expansion."
+          }
+        },
+        {
+          "note_id": "Y-3.13-note-7",
+          "target": "#Y-3.13-l7",
+          "line": 7,
+          "previous_type": "observation",
+          "status": "resolved",
+          "evidence": {
+            "page": "67v",
+            "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0138/full/full/0/default.jpg",
+            "image": "/tmp/amores-y31-33/138.jpg",
+            "assessment": "Stat uetus, the dark final s and darker u/second b in nubibus are visible. Et is a ligature. Marginal oblique marks do not establish a correction function."
+          }
+        },
+        {
+          "note_id": "Y-3.13-note-8",
+          "target": "#Y-3.13-l8",
+          "line": 8,
+          "previous_type": "observation",
+          "status": "resolved",
+          "evidence": {
+            "page": "67v",
+            "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0138/full/full/0/default.jpg",
+            "image": "/tmp/amores-y31-33/138.jpg",
+            "assessment": "The dot under e of numenis and raised i support the existing substitution; both source letters remain encoded."
+          }
+        },
+        {
+          "note_id": "Y-3.13-note-9",
+          "target": "#Y-3.13-l9",
+          "line": 9,
+          "previous_type": "observation",
+          "status": "resolved",
+          "evidence": {
+            "page": "67v",
+            "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0138/full/full/0/default.jpg",
+            "image": "/tmp/amores-y31-33/138.jpg",
+            "assessment": "The a in praeces is crossed and dotted beneath. Keeping that deleted letter preserves the written praeces and corrected preces."
+          }
+        },
+        {
+          "note_id": "Y-3.13-note-10",
+          "target": "#Y-3.13-l10",
+          "line": 10,
+          "previous_type": "uncertainty",
+          "status": "documented-uncertainty",
+          "evidence": {
+            "page": "67v",
+            "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0138/full/full/0/default.jpg",
+            "image": "/tmp/amores-y31-33/138.jpg",
+            "assessment": "A vertical stroke follows Ara and crosses the following boundary. Its exact role is not securely established, so the unspecified metamark remains."
+          }
+        },
+        {
+          "note_id": "Y-3.13-note-11",
+          "target": "#Y-3.13-l11",
+          "line": 11,
+          "previous_type": "observation",
+          "status": "resolved",
+          "evidence": {
+            "page": "67v",
+            "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0138/full/full/0/default.jpg",
+            "image": "/tmp/amores-y31-33/138.jpg",
+            "assessment": "Raised hic, expunged/crossed final a of sollempnia, and the short mark at p of presonuit are visible. Only the secure cancelled a is treated as deletion."
+          }
+        },
+        {
+          "note_id": "Y-3.13-note-12",
+          "target": "#Y-3.13-l12",
+          "line": 12,
+          "previous_type": "uncertainty",
+          "status": "documented-uncertainty",
+          "evidence": {
+            "page": "67v",
+            "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0138/full/full/0/default.jpg",
+            "image": "/tmp/amores-y31-33/138.jpg",
+            "assessment": "The dark I/er/e regions and crossed a after i are visible. Close crop confirms dots near uellatas, but they do not establish deletion of the whole word or an independently legible replacement. Retain the conservative account."
+          }
+        },
+        {
+          "note_id": "Y-3.13-note-13",
+          "target": "#Y-3.13-l13",
+          "line": 13,
+          "previous_type": "uncertainty",
+          "status": "documented-uncertainty",
+          "evidence": {
+            "page": "67v",
+            "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0138/full/full/0/default.jpg",
+            "image": "/tmp/amores-y31-33/138.jpg",
+            "assessment": "Raised c before final e and the caret are visible. A dot near Ducuntur's r remains functionally ambiguous; no cancellation of r or normalized ae is imposed."
+          }
+        },
+        {
+          "note_id": "Y-3.13-note-15",
+          "target": "#Y-3.13-l15",
+          "line": 15,
+          "previous_type": "observation",
+          "status": "resolved",
+          "evidence": {
+            "page": "67v",
+            "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0138/full/full/0/default.jpg",
+            "image": "/tmp/amores-y31-33/138.jpg",
+            "assessment": "The darker final i in uituli and i in metuendi are supported. No earlier letter can be recovered from tone alone."
+          }
+        },
+        {
+          "note_id": "Y-3.13-note-17",
+          "target": "#Y-3.13-l17",
+          "line": 17,
+          "previous_type": "observation",
+          "status": "resolved",
+          "evidence": {
+            "page": "67v",
+            "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0138/full/full/0/default.jpg",
+            "image": "/tmp/amores-y31-33/138.jpg",
+            "assessment": "Two distinct dots beneath the final a of cornua support expunction. The source ending recuruo lacks final s, which remains unsupplied."
+          }
+        },
+        {
+          "note_id": "Y-3.13-note-18",
+          "target": "#Y-3.13-l18",
+          "line": 18,
+          "previous_type": "uncertainty",
+          "status": "documented-uncertainty",
+          "evidence": {
+            "page": "67v",
+            "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0138/full/full/0/default.jpg",
+            "image": "/tmp/amores-y31-33/138.jpg",
+            "assessment": "The a of sola and c of capella are dark and crossed by fine strokes. Their readable current letters remain; neither an earlier erased state nor exact mark function is secure."
+          }
+        },
+        {
+          "note_id": "Y-3.13-note-24",
+          "target": "#Y-3.13-l24",
+          "line": 24,
+          "previous_type": "observation",
+          "status": "resolved",
+          "evidence": {
+            "page": "68r",
+            "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0139/full/full/0/default.jpg",
+            "image": "/tmp/amores-y31-33/139.jpg",
+            "assessment": "Praebuerant and iacente are both visible source forms; preserved without normalization."
+          }
+        },
+        {
+          "note_id": "Y-3.13-note-25",
+          "target": "#Y-3.13-l25",
+          "line": 25,
+          "previous_type": "observation",
+          "status": "resolved",
+          "evidence": {
+            "page": "68r",
+            "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0139/full/full/0/default.jpg",
+            "image": "/tmp/amores-y31-33/139.jpg",
+            "assessment": "Virginea and the dark e of crines are visible. Current source letters are correctly retained."
+          }
+        },
+        {
+          "note_id": "Y-3.13-note-27",
+          "target": "#Y-3.13-l27",
+          "line": 27,
+          "previous_type": "uncertainty",
+          "status": "documented-uncertainty",
+          "evidence": {
+            "page": "68r",
+            "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0139/full/full/0/default.jpg",
+            "image": "/tmp/amores-y31-33/139.jpg",
+            "assessment": "Morem has dark e and a very pale residual final m. Raised sancto stands above graio; nearby dots do not securely establish deletion extent of the baseline word. Preserve local uncertainty and both layers."
+          }
+        },
+        {
+          "note_id": "Y-3.13-note-31",
+          "target": "#Y-3.13-l31",
+          "line": 31,
+          "previous_type": "uncertainty",
+          "status": "documented-uncertainty",
+          "evidence": {
+            "page": "68r",
+            "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0139/full/full/0/default.jpg",
+            "image": "/tmp/amores-y31-33/139.jpg",
+            "assessment": "The close crop supports the written facie sagamen none caeso and two crossing/separating strokes. Their function and word/name division remain uncertain; no familiar normalized name is supplied."
+          }
+        },
+        {
+          "note_id": "Y-3.13-note-32",
+          "target": "#Y-3.13-l32",
+          "line": 32,
+          "previous_type": "observation",
+          "status": "resolved",
+          "evidence": {
+            "page": "68r",
+            "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0139/full/full/0/default.jpg",
+            "image": "/tmp/amores-y31-33/139.jpg",
+            "assessment": "The vertical stroke after fugit, darker al in halesus and the et ligature are visible. No prior reading is inferred."
+          }
+        },
+        {
+          "note_id": "Y-3.13-note-33",
+          "target": "#Y-3.13-l33",
+          "line": 33,
+          "previous_type": "observation",
+          "status": "resolved",
+          "evidence": {
+            "page": "68r",
+            "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0139/full/full/0/default.jpg",
+            "image": "/tmp/amores-y31-33/139.jpg",
+            "assessment": "All letters of the editorially separated per erratis are present. The source sequence is retained."
+          }
+        },
+        {
+          "note_id": "Y-3.13-note-35",
+          "target": "#Y-3.13-l35",
+          "line": 35,
+          "previous_type": "observation",
+          "status": "resolved",
+          "evidence": {
+            "page": "68r",
+            "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0139/full/full/0/default.jpg",
+            "image": "/tmp/amores-y31-33/139.jpg",
+            "assessment": "The dark final s of faliscos and the paired right-margin strokes are supported. No textual function is invented for the margin marks."
+          }
+        },
+        {
+          "note_id": "Y-3.13-note-36",
+          "target": "#Y-3.13-l36",
+          "line": 36,
+          "previous_type": "uncertainty",
+          "status": "documented-uncertainty",
+          "evidence": {
+            "page": "68r",
+            "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0139/full/full/0/default.jpg",
+            "image": "/tmp/amores-y31-33/139.jpg",
+            "assessment": "The stroke after mihi remains unspecified. The closing colon-like mark and long separator precede the actual opening verse of 3.14. Full-page inspection supports both the boundary and the visible alternate-line inset."
+          }
+        }
+      ],
+      "counts": {
+        "resolved": 14,
+        "documented-uncertainty": 9,
+        "escalate": 0
+      },
+      "humanActions": [],
+      "zone_corrections": [],
+      "validation": {
+        "rng": "tei_all-4.12.0.rng",
+        "passed": true,
+        "extantLineCount": 36,
+        "zoneCount": 36,
+        "coordinate_rectangles_unchanged": true,
+        "source_order_preserved": true,
+        "changed_verse_ids": [],
+        "mixed_content_whitespace_preserved": true,
+        "humanReviewNotes": 0
+      },
+      "first_pass_sha256": "8a198e5cbc7dc3c3ea04ed7bda825ed1cd073346d1db2a4eeda00b30de239248",
+      "reviewed_candidate_sha256": "f3c5386c6a0ef9364bf086efca16bd5dcb0666f26dd8befdf5519dc0c3c85b29",
+      "review_report_sha256": "d4e65269522cad28fa45c0b0df7525f0bfaf2994dd4bcdf76cb357d09935ccf6",
+      "reviewed_xml_sha256": "1e2e70f4b662d311c58ca7daba523db20d1af352aac7cf06c88014aac37cb4ea"
+    }
+  ],
+  "fresh_full_review": {
+    "date": "2026-10-26",
+    "reviewer_agent": "/root/w_review_b",
+    "source_checked_lines": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+    ],
+    "source_checked_line_count": 36,
+    "all_existing_notes_checked": 23,
+    "current_note_count": 24,
+    "method": "Full-page context, overlapping enlarged source bands and individual row crops. Every extant line and every note investigated; no other witness used.",
+    "production_sha256": "f3c5386c6a0ef9364bf086efca16bd5dcb0666f26dd8befdf5519dc0c3c85b29",
+    "production_relative_changes": "No verse word was changed. Restored the terminal point at4 and distinguished the comma-like terminal sign at26 from the previous generic point.",
+    "indentation_evidence": "Every full-page line-start column was checked. Ordinary even-line insets match the source; opening initials and page-boundary starts retained. No indentation inferred solely from parity.",
+    "source_evidence": [
+      {
+        "viewer_page": 138,
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0138/full/full/0/default.jpg",
+        "local_image": "docs/data/facsimiles/Y/0138.jpg",
+        "sha256": "e6dfbb17862b7c132e5cb6007425b26bb6c739ef93d58f31098e280f5f1dfe12"
+      },
+      {
+        "viewer_page": 139,
+        "source_url": "https://content.staatsbibliothek-berlin.de/dc/1844735508-0139/full/full/0/default.jpg",
+        "local_image": "docs/data/facsimiles/Y/0139.jpg",
+        "sha256": "8f8c1ccc9f725202876400d21c3574755df2f882828e8d17f17ac4dca50edc16"
+      }
+    ],
+    "all_zones_and_navigation_preserved": true
+  }
 }

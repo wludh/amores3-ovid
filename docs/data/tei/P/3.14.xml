@@ -10,7 +10,7 @@
           <resp>First-pass image transcription and TEI encoding</resp>
           <name>OpenAI Codex</name>
         </respStmt>
-      <respStmt xml:id="P-3.14-reviewer"><resp>Independent second reading of every source position, layout and evidence note</resp><name>OpenAI Codex independent encode_s agent</name></respStmt></titleStmt>
+      <respStmt xml:id="P-3.14-reviewer"><resp>Independent second reading of every source position, layout and evidence note</resp><name>OpenAI Codex independent encode_s agent</name></respStmt><respStmt xml:id="P-3.14-fresh-reviewer"><resp>Fresh independent source reading of every represented position, source absence boundary and evidence note</resp><name>OpenAI Codex /root</name></respStmt></titleStmt>
       <publicationStmt>
         <p>Amores Project local working transcription, 9 September 2026. Independently reviewed by a second source reader; not human-approved.</p>
       </publicationStmt>
@@ -41,7 +41,7 @@
             <surrogates>
               <p><ref target="https://gallica.bnf.fr/ark:/12148/btv1b9066797j">BnF Gallica Latin 8242</ref></p>
               <p>The original full-resolution digital images and enlarged crops were inspected for this first pass. Gallica source reuse conditions apply. No text was populated from LL or another witness.</p>
-            <p><ref target="https://libsysdigi.library.illinois.edu/ilharvest/OtherCDM/chatem0001paldes/chatem0001paldes_v00002/chatem0001paldes_v00002_opt.pdf">Émile Chatelain, Paléographie des classiques latins II, plate XCI notice, PDF fifth page (zero-based 4): surviving Amores 3.12.26 followed by 3.14.3; used for coverage corroboration, not verse text.</ref></p></surrogates>
+            <p><ref target="https://libsysdigi.library.illinois.edu/ilharvest/OtherCDM/chatem0001paldes/chatem0001paldes_v00002/chatem0001paldes_v00002_opt.pdf">Émile Chatelain, Paléographie des classiques latins II, plate XCI notice, PDF fifth page (zero-based 4): surviving Amores 3.12.26 followed by 3.14.3; used for coverage corroboration, not verse text.</ref></p><p>Fresh corpus review used the original-resolution archival copies: <ref target="https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(097_of_101).jpg">archival copy of image 97</ref> <ref target="https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(098_of_101).jpg">archival copy of image 98</ref> <ref target="https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(099_of_101).jpg">archival copy of image 99</ref>. Their pixel dimensions match the original Gallica canvases. File hashes and provenance are recorded in the site facsimile index and renewed review ledger.</p></surrogates>
           </additional>
         </msDesc>
       </sourceDesc>
@@ -77,7 +77,7 @@
     </encodingDesc>
     <revisionDesc status="agent-reviewed"><change when="2026-09-09" who="#P-3.14-reviewer">Independently inspected full images 97–99, every surviving position 3–50 in enlarged strips, all 42 notes and targeted details. Corrected limited source fragments and uncertainty, confirmed source indentation and opening absence against Chatelain. Original zones remain unchanged.</change>
       <change when="2026-09-09" who="#P-3.14-encoder">Completed first reading from source images and enlarged crops, with line coverage and evidence notes. Independent second reading not yet performed.</change>
-    </revisionDesc>
+    <change when="2026-10-26" who="#P-3.14-fresh-reviewer">Fresh independent reading rechecked every represented source position, every evidence note, full-page line starts and absence boundaries. Source-supported changes and all dispositions are documented in P-3.14-second-pass.md; prior reports and review seals are retained as history.</change></revisionDesc>
   </teiHeader>
   <facsimile>
     <surface n="image 97" xml:id="P-3.14-image-97" ulx="0" uly="0" lrx="5810" lry="3969"><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066797j/f97/full/full/0/native.jpg" /></surface><surface n="image 98" xml:id="P-3.14-image-98" ulx="0" uly="0" lrx="5809" lry="3969">
@@ -162,7 +162,7 @@
           <l n="12" xml:id="P-3.14-l12" facs="#P-3.14-zone-12" rend="indent"><unclear>Commisi</unclear> perages indiciumque tui</l>
         </lg>
         <lg type="couplet" n="7">
-          <l n="13" xml:id="P-3.14-l13" facs="#P-3.14-zone-13">Si tibi mens melior saltemue imitare pudicas</l>
+          <l n="13" xml:id="P-3.14-l13" facs="#P-3.14-zone-13">Si tibi mens melior saltemue imitare pudicas <pc>.</pc></l>
           <l n="14" xml:id="P-3.14-l14" facs="#P-3.14-zone-14" rend="indent">Teque probam quamuis non eris esse putem</l>
         </lg>
         <lg type="couplet" n="8">
@@ -254,7 +254,7 @@
         <note xml:id="P-3.14-note-10" n="10" type="uncertainty" target="#P-3.14-l10" resp="#P-3.14-reviewer">The leftmost Nonne sit is faint and less secure than the first pass claimed. It is now explicitly unclear. Populum mouit ante fera is visible; no alternative opening is supplied.</note>
         <note xml:id="P-3.14-note-11" n="11" type="observation" target="#P-3.14-l11" resp="#P-3.14-reviewer">The enlarged middle row supports profiteris, including its terminal sequence; the former uncertainty is removed. The surrounding source wording Tu que and fame peccata sinistre remains unchanged.</note>
         <note xml:id="P-3.14-note-12" n="12" type="uncertainty" target="#P-3.14-l12" resp="#P-3.14-reviewer">The opening doubled-minim sequence remains compatible with tentative Commisi. Its uncertainty is retained; perages indiciumque tui can be followed.</note>
-        <note xml:id="P-3.14-note-13" n="13" type="observation" target="#P-3.14-l13" resp="#P-3.14-reviewer">Si tibi mens melior saltemue imitare pudicas is visible, including saltemue and imitare. No normalized substitution is warranted.</note>
+        <note xml:id="P-3.14-note-13" n="13" type="observation" target="#P-3.14-l13" resp="#P-3.14-reviewer">Si tibi mens melior saltemue imitare pudicas is visible, including saltemue and imitare. No normalized substitution is warranted. The fresh source reading restores the clearly visible terminal punctus after pudicas.</note>
         <note xml:id="P-3.14-note-14" n="14" type="observation" target="#P-3.14-l14" resp="#P-3.14-reviewer">The clearly written non eris is preserved in the full row Teque probam quamuis non eris esse putem.</note>
         <note xml:id="P-3.14-note-15" n="15" type="uncertainty" target="#P-3.14-l15" resp="#P-3.14-reviewer">The pale initial group Que facis hec facito remains qualified. Tantum fecisse negato is legible.</note>
         <note xml:id="P-3.14-note-16" n="16" type="uncertainty" target="#P-3.14-l16" resp="#P-3.14-reviewer">A dark spot interrupts the coram region. The provisional letters remain local uncertainty; the mark does not establish deletion or an earlier textual state.</note>

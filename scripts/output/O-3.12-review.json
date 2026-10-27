@@ -1,11 +1,11 @@
 {
   "witness": "O",
   "poem": "3.12",
-  "date": "2026-09-10",
+  "date": "2026-10-26",
   "author_agent": "/root",
-  "reviewer_agent": "/root/review_y",
-  "reviewer": "OpenAI Codex independent review_y agent",
-  "review_type": "independent-second-agent-image-and-encoding-review",
+  "reviewer_agent": "/root/w_review_c",
+  "reviewer": "OpenAI Codex w_review_c fresh independent full source-image reviewer",
+  "review_type": "independent-second-agent-image-and-encoding-review; fresh-complete-source-reinspection",
   "human_approved": false,
   "line_coverage": {
     "count": 44,
@@ -13,14 +13,12 @@
       {
         "image": 113,
         "printed_page": 65,
-        "page_position": "printed page 65",
         "start": 1,
         "end": 28
       },
       {
         "image": 114,
         "printed_page": 66,
-        "page_position": "printed page 66",
         "start": 29,
         "end": 44
       }
@@ -87,10 +85,10 @@
       "previous_type": "observation",
       "evidence": {
         "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0117.jp2/full/max/0/default.jpg",
-        "page_position": "printed page 65",
-        "assessment": "The full-page heading is XII.; Quis begins at the ordinary hexameter start and the next line is inset. Both pages confirm the layout."
+        "page_position": "printed page 65; viewer image 113",
+        "assessment": "Fresh full-page and enlarged-band inspection independently confirms the source feature described by this note: Heading XII. appears to the left of the opening verse. Both full printed pages show the alternating insets recorded explicitly here."
       },
-      "change": "Independently checked and retained."
+      "change": "Freshly checked against the actual printed source; current encoding retained."
     },
     {
       "note_id": "O-3.12-note-2",
@@ -100,10 +98,10 @@
       "previous_type": "observation",
       "evidence": {
         "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0117.jp2/full/max/0/default.jpg",
-        "page_position": "printed page 65",
-        "assessment": "No comma follows Omina; aves is followed by a question mark."
+        "page_position": "printed page 65; viewer image 113",
+        "assessment": "Fresh full-page and enlarged-band inspection independently confirms the source feature described by this note: There is no comma after Omina; the verse ends with a question mark."
       },
-      "change": "Independently checked and retained."
+      "change": "Freshly checked against the actual printed source; current encoding retained."
     },
     {
       "note_id": "O-3.12-note-5",
@@ -113,10 +111,10 @@
       "previous_type": "observation",
       "evidence": {
         "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0117.jp2/full/max/0/default.jpg",
-        "page_position": "printed page 65",
-        "assessment": "Meast is a single printed contracted form at both 5 and 10."
+        "page_position": "printed page 65; viewer image 113",
+        "assessment": "Fresh full-page and enlarged-band inspection independently confirms the source feature described by this note: The printed contraction meast is retained, here and in verse10."
       },
-      "change": "Independently checked and retained."
+      "change": "Freshly checked against the actual printed source; current encoding retained."
     },
     {
       "note_id": "O-3.12-note-8",
@@ -126,10 +124,10 @@
       "previous_type": "observation",
       "evidence": {
         "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0117.jp2/full/max/0/default.jpg",
-        "page_position": "printed page 65",
-        "assessment": "The print reads prostitit, and a colon follows erit."
+        "page_position": "printed page 65; viewer image 113",
+        "assessment": "Fresh full-page and enlarged-band inspection independently confirms the source feature described by this note: The source prints prostitit and a colon after erit. No alternative wording is supplied."
       },
-      "change": "Independently checked and retained."
+      "change": "Freshly checked against the actual printed source; current encoding retained."
     },
     {
       "note_id": "O-3.12-note-9",
@@ -139,10 +137,10 @@
       "previous_type": "observation",
       "evidence": {
         "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0117.jp2/full/max/0/default.jpg",
-        "page_position": "printed page 65",
-        "assessment": "Merito has an exclamation mark, followed by lowercase quid."
+        "page_position": "printed page 65; viewer image 113",
+        "assessment": "Fresh full-page and enlarged-band inspection independently confirms the source feature described by this note: An exclamation mark follows merito; quid starts with lowercase q."
       },
-      "change": "Independently checked and retained."
+      "change": "Freshly checked against the actual printed source; current encoding retained."
     },
     {
       "note_id": "O-3.12-note-13",
@@ -152,10 +150,10 @@
       "previous_type": "observation",
       "evidence": {
         "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0117.jp2/full/max/0/default.jpg",
-        "page_position": "printed page 65",
-        "assessment": "Dubium has a comma on each side; semper has a colon."
+        "page_position": "printed page 65; viewer image 113",
+        "assessment": "Fresh full-page and enlarged-band inspection independently confirms the source feature described by this note: Commas surround dubium and a colon ends the verse."
       },
-      "change": "Independently checked and retained."
+      "change": "Freshly checked against the actual printed source; current encoding retained."
     },
     {
       "note_id": "O-3.12-note-15",
@@ -165,10 +163,10 @@
       "previous_type": "observation",
       "evidence": {
         "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0117.jp2/full/max/0/default.jpg",
-        "page_position": "printed page 65",
-        "assessment": "Thebe, Troia and Caesaris match the visible letters and capitalization."
+        "page_position": "printed page 65; viewer image 113",
+        "assessment": "Fresh full-page and enlarged-band inspection independently confirms the source feature described by this note: The source proper-name forms are Thebe, Troia and Caesaris; they are retained."
       },
-      "change": "Independently checked and retained."
+      "change": "Freshly checked against the actual printed source; current encoding retained."
     },
     {
       "note_id": "O-3.12-note-19",
@@ -178,10 +176,10 @@
       "previous_type": "observation",
       "evidence": {
         "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0117.jp2/full/max/0/default.jpg",
-        "page_position": "printed page 65",
-        "assessment": "The mark after poetas has a descending lower stroke: semicolon; meis20 has a period."
+        "page_position": "printed page 65; viewer image 113",
+        "assessment": "Fresh full-page and enlarged-band inspection independently confirms the source feature described by this note: The enlarged source shows a semicolon after poetas, not a colon; the next verse ends with a period."
       },
-      "change": "Independently checked and retained."
+      "change": "Freshly checked against the actual printed source; current encoding retained."
     },
     {
       "note_id": "O-3.12-note-24",
@@ -191,10 +189,10 @@
       "previous_type": "observation",
       "evidence": {
         "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0117.jp2/full/max/0/default.jpg",
-        "page_position": "printed page 65",
-        "assessment": "Abantiades is clearly printed between Victor and alite."
+        "page_position": "printed page 65; viewer image 113",
+        "assessment": "Fresh full-page and enlarged-band inspection independently confirms the source feature described by this note: The source spelling is Abantiades, retained as printed."
       },
-      "change": "Independently checked and retained."
+      "change": "Freshly checked against the actual printed source; current encoding retained."
     },
     {
       "note_id": "O-3.12-note-25",
@@ -204,10 +202,10 @@
       "previous_type": "observation",
       "evidence": {
         "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0117.jp2/full/max/0/default.jpg",
-        "page_position": "printed page 65",
-        "assessment": "Tityon has final n, followed by porreximus ingens and a comma."
+        "page_position": "printed page 65; viewer image 113",
+        "assessment": "Fresh full-page and enlarged-band inspection independently confirms the source feature described by this note: The source has Tityon with final n, followed later by porreximus ingens and a comma."
       },
-      "change": "Independently checked and retained."
+      "change": "Freshly checked against the actual printed source; current encoding retained."
     },
     {
       "note_id": "O-3.12-note-27",
@@ -217,10 +215,10 @@
       "previous_type": "observation",
       "evidence": {
         "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0117.jp2/full/max/0/default.jpg",
-        "page_position": "printed page 65",
-        "assessment": "An asterisk is printed immediately left of Fecimus; Enceladon and final comma are clear. Its function remains unspecified in the TEI."
+        "page_position": "printed page 65; viewer image 113",
+        "assessment": "Fresh full-page and enlarged-band inspection independently confirms the source feature described by this note: A printed asterisk stands to the left of Fecimus. It is retained as a separate metamark with unspecified function; the visible mark alone is not treated as a manuscript deletion or a reconstructed critical apparatus. The source name is Enceladon."
       },
-      "change": "Independently checked and retained."
+      "change": "Freshly checked against the actual printed source; current encoding retained."
     },
     {
       "note_id": "O-3.12-note-28",
@@ -230,10 +228,10 @@
       "previous_type": "observation",
       "evidence": {
         "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0117.jp2/full/max/0/default.jpg",
-        "page_position": "printed page 65",
-        "assessment": "Viros ends with semicolon. The separate footer reads OVID. I., and a separate 5 stands near the right below the verse."
+        "page_position": "printed page 65; viewer image 113",
+        "assessment": "Fresh full-page and enlarged-band inspection independently confirms the source feature described by this note: The verse ends in a semicolon. Below it the page carries OVID. I. and a separate signature5; these are encoded as forme work and do not become verse text."
       },
-      "change": "Independently checked and retained."
+      "change": "Freshly checked against the actual printed source; current encoding retained."
     },
     {
       "note_id": "O-3.12-note-29",
@@ -243,10 +241,10 @@
       "previous_type": "observation",
       "evidence": {
         "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0118.jp2/full/max/0/default.jpg",
-        "page_position": "printed page 66",
-        "assessment": "The page opens Aeolios Ithacis inclusimus utribus Euros with final semicolon."
+        "page_position": "printed page 66; viewer image 114",
+        "assessment": "Fresh full-page and enlarged-band inspection independently confirms the source feature described by this note: The new page begins Aeolios Ithacis inclusimus utribus Euros; all proper-name spelling and the final semicolon are retained."
       },
-      "change": "Independently checked and retained."
+      "change": "Freshly checked against the actual printed source; current encoding retained."
     },
     {
       "note_id": "O-3.12-note-32",
@@ -256,10 +254,10 @@
       "previous_type": "observation",
       "evidence": {
         "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0118.jp2/full/max/0/default.jpg",
-        "page_position": "printed page 66",
-        "assessment": "The enlarged line reads Odrysium Cecropis ales Ityn with final semicolon."
+        "page_position": "printed page 66; viewer image 114",
+        "assessment": "Fresh full-page and enlarged-band inspection independently confirms the source feature described by this note: The source prints Odrysium Cecropis ales Ityn; no name or case ending is normalized."
       },
-      "change": "Independently checked and retained."
+      "change": "Freshly checked against the actual printed source; current encoding retained."
     },
     {
       "note_id": "O-3.12-note-34",
@@ -269,10 +267,10 @@
       "previous_type": "observation",
       "evidence": {
         "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0118.jp2/full/max/0/default.jpg",
-        "page_position": "printed page 66",
-        "assessment": "Inposita visibly has n before p; retained."
+        "page_position": "printed page 66; viewer image 114",
+        "assessment": "Fresh full-page and enlarged-band inspection independently confirms the source feature described by this note: The spelling inposita is retained with n before p."
       },
-      "change": "Independently checked and retained."
+      "change": "Freshly checked against the actual printed source; current encoding retained."
     },
     {
       "note_id": "O-3.12-note-35",
@@ -282,10 +280,10 @@
       "previous_type": "observation",
       "evidence": {
         "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0118.jp2/full/max/0/default.jpg",
-        "page_position": "printed page 66",
-        "assessment": "Semina is followed by comma and dentes by semicolon; 36–38 end with commas and 40 with a question mark."
+        "page_position": "printed page 66; viewer image 114",
+        "assessment": "Fresh full-page and enlarged-band inspection independently confirms the source feature described by this note: A comma precedes dentes and a semicolon ends the verse. The next three verses end with commas; the final question mark occurs at40."
       },
-      "change": "Independently checked and retained."
+      "change": "Freshly checked against the actual printed source; current encoding retained."
     },
     {
       "note_id": "O-3.12-note-44",
@@ -295,10 +293,10 @@
       "previous_type": "observation",
       "evidence": {
         "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0118.jp2/full/max/0/default.jpg",
-        "page_position": "printed page 66",
-        "assessment": "Femina is followed by colon and lowercase credulitas; nocet by period. Heading XIII. below establishes the boundary."
+        "page_position": "printed page 66; viewer image 114",
+        "assessment": "Fresh full-page and enlarged-band inspection independently confirms the source feature described by this note: The final verse prints Femina: with a colon and credulitas with lowercase c; a period follows nocet. The next source heading XIII. establishes the boundary."
       },
-      "change": "Independently checked and retained."
+      "change": "Freshly checked against the actual printed source; current encoding retained."
     }
   ],
   "validation": {
@@ -312,7 +310,339 @@
   "layout_evidence": {
     "assessment": "Both full pages show the actual alternate-line inset retained in the candidate; the asterisk at 27 is left of the normal verse start, and the footer below 28 is separate."
   },
-  "reviewed_candidate_sha256": "627069cb8d072641c573fa24f8c35780fb874e5974d80bf2ed792b7b9d885960",
-  "review_report_sha256": "12d393901cf1062144772e24971792156aa8fd76d1df239626bc2c3e3fcdd82e",
-  "reviewed_xml_sha256": "a5d8388161bbc87ec8020aab2f0bde1eb02ece5f7ba00437d7961399c816a32b"
+  "reviewed_candidate_sha256": "9d2b7f42fd5849296f1a18aa97bb8cc1a353b274c4d616f03184eb0480ac939f",
+  "review_report_sha256": "8731b32490788cfac4e946e607fb732a83df6c924880f01bf06f6409281140c8",
+  "reviewed_xml_sha256": "3f37e41ae6cc804543668d5ed0b77666a513883ff273990e4545e02265df402b",
+  "review_history": [
+    {
+      "witness": "O",
+      "poem": "3.12",
+      "date": "2026-09-10",
+      "author_agent": "/root",
+      "reviewer_agent": "/root/review_y",
+      "reviewer": "OpenAI Codex independent review_y agent",
+      "review_type": "independent-second-agent-image-and-encoding-review",
+      "human_approved": false,
+      "line_coverage": {
+        "count": 44,
+        "ranges": [
+          {
+            "image": 113,
+            "printed_page": 65,
+            "page_position": "printed page 65",
+            "start": 1,
+            "end": 28
+          },
+          {
+            "image": 114,
+            "printed_page": 66,
+            "page_position": "printed page 66",
+            "start": 29,
+            "end": 44
+          }
+        ]
+      },
+      "line_order": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "counts": {
+        "resolved": 17,
+        "documented-uncertainty": 0,
+        "escalate": 0
+      },
+      "previous_note_count": 17,
+      "notes": [
+        {
+          "note_id": "O-3.12-note-1",
+          "line": 1,
+          "target": "#O-3.12-l1",
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0117.jp2/full/max/0/default.jpg",
+            "page_position": "printed page 65",
+            "assessment": "The full-page heading is XII.; Quis begins at the ordinary hexameter start and the next line is inset. Both pages confirm the layout."
+          },
+          "change": "Independently checked and retained."
+        },
+        {
+          "note_id": "O-3.12-note-2",
+          "line": 2,
+          "target": "#O-3.12-l2",
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0117.jp2/full/max/0/default.jpg",
+            "page_position": "printed page 65",
+            "assessment": "No comma follows Omina; aves is followed by a question mark."
+          },
+          "change": "Independently checked and retained."
+        },
+        {
+          "note_id": "O-3.12-note-5",
+          "line": 5,
+          "target": "#O-3.12-l5",
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0117.jp2/full/max/0/default.jpg",
+            "page_position": "printed page 65",
+            "assessment": "Meast is a single printed contracted form at both 5 and 10."
+          },
+          "change": "Independently checked and retained."
+        },
+        {
+          "note_id": "O-3.12-note-8",
+          "line": 8,
+          "target": "#O-3.12-l8",
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0117.jp2/full/max/0/default.jpg",
+            "page_position": "printed page 65",
+            "assessment": "The print reads prostitit, and a colon follows erit."
+          },
+          "change": "Independently checked and retained."
+        },
+        {
+          "note_id": "O-3.12-note-9",
+          "line": 9,
+          "target": "#O-3.12-l9",
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0117.jp2/full/max/0/default.jpg",
+            "page_position": "printed page 65",
+            "assessment": "Merito has an exclamation mark, followed by lowercase quid."
+          },
+          "change": "Independently checked and retained."
+        },
+        {
+          "note_id": "O-3.12-note-13",
+          "line": 13,
+          "target": "#O-3.12-l13",
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0117.jp2/full/max/0/default.jpg",
+            "page_position": "printed page 65",
+            "assessment": "Dubium has a comma on each side; semper has a colon."
+          },
+          "change": "Independently checked and retained."
+        },
+        {
+          "note_id": "O-3.12-note-15",
+          "line": 15,
+          "target": "#O-3.12-l15",
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0117.jp2/full/max/0/default.jpg",
+            "page_position": "printed page 65",
+            "assessment": "Thebe, Troia and Caesaris match the visible letters and capitalization."
+          },
+          "change": "Independently checked and retained."
+        },
+        {
+          "note_id": "O-3.12-note-19",
+          "line": 19,
+          "target": "#O-3.12-l19",
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0117.jp2/full/max/0/default.jpg",
+            "page_position": "printed page 65",
+            "assessment": "The mark after poetas has a descending lower stroke: semicolon; meis20 has a period."
+          },
+          "change": "Independently checked and retained."
+        },
+        {
+          "note_id": "O-3.12-note-24",
+          "line": 24,
+          "target": "#O-3.12-l24",
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0117.jp2/full/max/0/default.jpg",
+            "page_position": "printed page 65",
+            "assessment": "Abantiades is clearly printed between Victor and alite."
+          },
+          "change": "Independently checked and retained."
+        },
+        {
+          "note_id": "O-3.12-note-25",
+          "line": 25,
+          "target": "#O-3.12-l25",
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0117.jp2/full/max/0/default.jpg",
+            "page_position": "printed page 65",
+            "assessment": "Tityon has final n, followed by porreximus ingens and a comma."
+          },
+          "change": "Independently checked and retained."
+        },
+        {
+          "note_id": "O-3.12-note-27",
+          "line": 27,
+          "target": "#O-3.12-l27",
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0117.jp2/full/max/0/default.jpg",
+            "page_position": "printed page 65",
+            "assessment": "An asterisk is printed immediately left of Fecimus; Enceladon and final comma are clear. Its function remains unspecified in the TEI."
+          },
+          "change": "Independently checked and retained."
+        },
+        {
+          "note_id": "O-3.12-note-28",
+          "line": 28,
+          "target": "#O-3.12-l28",
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0117.jp2/full/max/0/default.jpg",
+            "page_position": "printed page 65",
+            "assessment": "Viros ends with semicolon. The separate footer reads OVID. I., and a separate 5 stands near the right below the verse."
+          },
+          "change": "Independently checked and retained."
+        },
+        {
+          "note_id": "O-3.12-note-29",
+          "line": 29,
+          "target": "#O-3.12-l29",
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0118.jp2/full/max/0/default.jpg",
+            "page_position": "printed page 66",
+            "assessment": "The page opens Aeolios Ithacis inclusimus utribus Euros with final semicolon."
+          },
+          "change": "Independently checked and retained."
+        },
+        {
+          "note_id": "O-3.12-note-32",
+          "line": 32,
+          "target": "#O-3.12-l32",
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0118.jp2/full/max/0/default.jpg",
+            "page_position": "printed page 66",
+            "assessment": "The enlarged line reads Odrysium Cecropis ales Ityn with final semicolon."
+          },
+          "change": "Independently checked and retained."
+        },
+        {
+          "note_id": "O-3.12-note-34",
+          "line": 34,
+          "target": "#O-3.12-l34",
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0118.jp2/full/max/0/default.jpg",
+            "page_position": "printed page 66",
+            "assessment": "Inposita visibly has n before p; retained."
+          },
+          "change": "Independently checked and retained."
+        },
+        {
+          "note_id": "O-3.12-note-35",
+          "line": 35,
+          "target": "#O-3.12-l35",
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0118.jp2/full/max/0/default.jpg",
+            "page_position": "printed page 66",
+            "assessment": "Semina is followed by comma and dentes by semicolon; 36–38 end with commas and 40 with a question mark."
+          },
+          "change": "Independently checked and retained."
+        },
+        {
+          "note_id": "O-3.12-note-44",
+          "line": 44,
+          "target": "#O-3.12-l44",
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0118.jp2/full/max/0/default.jpg",
+            "page_position": "printed page 66",
+            "assessment": "Femina is followed by colon and lowercase credulitas; nocet by period. Heading XIII. below establishes the boundary."
+          },
+          "change": "Independently checked and retained."
+        }
+      ],
+      "validation": {
+        "schema": "docs/schema/tei_all-4.12.0.rng",
+        "schema_result": "passed xmllint Relax NG",
+        "verse_lines": 44,
+        "facsimile_zones": 44,
+        "unique_ids": true,
+        "local_references_resolve": true
+      },
+      "layout_evidence": {
+        "assessment": "Both full pages show the actual alternate-line inset retained in the candidate; the asterisk at 27 is left of the normal verse start, and the footer below 28 is separate."
+      },
+      "reviewed_candidate_sha256": "627069cb8d072641c573fa24f8c35780fb874e5974d80bf2ed792b7b9d885960",
+      "review_report_sha256": "12d393901cf1062144772e24971792156aa8fd76d1df239626bc2c3e3fcdd82e",
+      "reviewed_xml_sha256": "a5d8388161bbc87ec8020aab2f0bde1eb02ece5f7ba00437d7961399c816a32b",
+      "scope": "Previous independent complete source review, superseded by the fresh full source pass of 26 October 2026"
+    }
+  ],
+  "fresh_source_review": {
+    "date": "2026-10-26",
+    "reviewer_agent": "/root/w_review_c",
+    "scope": "Every extant verse and every current XML editorial note; full-page order, source headings, running headers/footer, punctuation, spelling and actual indentation",
+    "source_text_changes": [],
+    "original_zones_unchanged": true,
+    "navigation_overrides_unchanged": true,
+    "download_alternates": {
+      "65": "https://archive.org/download/operaovid03oviduoft/page/n112.jpg"
+    }
+  }
 }

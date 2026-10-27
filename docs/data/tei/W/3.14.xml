@@ -13,7 +13,7 @@
           <resp>TEI encoding of the source reader’s first-pass transcription</resp>
           <name>OpenAI Codex /root</name>
         </respStmt>
-      <respStmt xml:id="W-3.14-reviewer"><resp>Independent second source-image reading and TEI review of every extant verse</resp><name>OpenAI Codex /root/w_review_c</name></respStmt></titleStmt>
+      <respStmt xml:id="W-3.14-reviewer"><resp>Independent second source-image reading and TEI review of every extant verse</resp><name>OpenAI Codex /root/w_review_c</name></respStmt><respStmt xml:id="W-3.14-fresh-reviewer"><resp>Fresh corpus source reading of every extant verse and every note; prior XML encoder, distinct from the original source reader</resp><name>OpenAI Codex /root</name></respStmt></titleStmt>
       <publicationStmt>
         <p>Amores Project working transcription, 26 October 2026; independently reviewed against the source images; not human-approved.</p>
       </publicationStmt>
@@ -49,7 +49,7 @@
     </encodingDesc>
     <revisionDesc status="reviewed">
       <change when="2026-10-26" who="#W-3.14-encoder">First reader inspected and transcribed all 50 verses from the source images; independent source review pending.</change>
-    <change when="2026-10-26" who="#W-3.14-reviewer">Independent second source pass checked every extant verse, source heading, page furniture and full-page line starts; corrected supported readings and documented the source layout in W-3.14-second-pass.md.</change><change when="2026-10-26" who="#W-3.14-reviewer">Focused independent image reinspection of the enlarged opening initial and following letters corrected source capitalization Non to NOn; remaining opening letters and second-verse layout rechecked before resealing.</change></revisionDesc>
+    <change when="2026-10-26" who="#W-3.14-reviewer">Independent second source pass checked every extant verse, source heading, page furniture and full-page line starts; corrected supported readings and documented the source layout in W-3.14-second-pass.md.</change><change when="2026-10-26" who="#W-3.14-reviewer">Focused independent image reinspection of the enlarged opening initial and following letters corrected source capitalization Non to NOn; remaining opening letters and second-verse layout rechecked before resealing.</change><change when="2026-10-26" who="#W-3.14-fresh-reviewer">Fresh corpus source reading rechecked all 50 verses, every evidence note, headings, page furniture and full-page line starts. Supported source corrections: verse 50 causâ to caussâ. Prior independent second-pass history is retained; changed readings were additionally corroborated from native crops by /root/w_review_c. See W-3.14-second-pass.md.</change></revisionDesc>
   </teiHeader>
   <facsimile>
     <surface xml:id="W-3.14-p146" n="146" ulx="0" uly="0" lrx="1958" lry="2874">
@@ -223,7 +223,7 @@
         </lg>
         <lg type="couplet">
           <l n="49" xml:id="W-3.14-l49" facs="#W-3.14-zone-49">Cum tibi contingat verbis superare duobus;</l>
-          <l n="50" xml:id="W-3.14-l50" facs="#W-3.14-zone-50" rend="indent">Et si non causâ, judice vince tuo.</l>
+          <l n="50" xml:id="W-3.14-l50" facs="#W-3.14-zone-50" rend="indent">Et si non caussâ, judice vince tuo.</l>
         </lg>
       </div>
     </body>

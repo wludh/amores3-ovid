@@ -2,11 +2,11 @@
   "witness": "W",
   "poem": "3.3",
   "author_agent": "/root/w_transcribe_a",
-  "reviewer_agent": "/root/w_review_a",
-  "reviewer": "OpenAI Codex independent w_review_a source-image reviewer",
+  "reviewer_agent": "/root",
+  "reviewer": "OpenAI Codex /root, fresh third source reader (prior XML encoder; distinct from original source reader)",
   "date": "2026-10-26",
   "status": "second-pass-complete",
-  "review_type": "independent-second-agent-image-and-encoding-review",
+  "review_type": "independent-second-agent-image-and-encoding-review-with-fresh-corpus-rereading",
   "human_approved": false,
   "line_coverage": {
     "count": 48,
@@ -93,7 +93,12 @@
         "image": "https://digitalarchive.wlu.edu/cantaloupe/iiif/2/https%3A%2F%2Fdigitalarchive.wlu.edu%2F_flysystem%2Ffedora%2F2026-10%2F72558-Service%2520File.jpg/full/full/0/default.jpg",
         "viewer_page": 175,
         "local_image": "/tmp/amores-wlu/174.jpg",
-        "assessment": "Independent visual inspection confirms a separately printed Elegia heading and italic descriptive title immediately before verse1. The heading is retained as source metadata; canonical poem identity follows annotations. No unsupported heading words have been supplied."
+        "assessment": "Independent visual inspection confirms a separately printed Elegia heading and italic descriptive title immediately before verse1. The heading is retained as source metadata; canonical poem identity follows annotations. No unsupported heading words have been supplied.",
+        "fresh_source_review": {
+          "reviewer_agent": "/root",
+          "date": "2026-10-26",
+          "assessment": "Reinspected the actual source location and full-page context. The recorded source feature and disposition remain supported; any unresolved image uncertainty remains qualified."
+        }
       },
       "change": "Confirmed or conservatively documented by independent direct source-image inspection."
     },
@@ -108,7 +113,12 @@
         "image": "https://digitalarchive.wlu.edu/cantaloupe/iiif/2/https%3A%2F%2Fdigitalarchive.wlu.edu%2F_flysystem%2Ffedora%2F2026-10%2F72558-Service%2520File.jpg/full/full/0/default.jpg",
         "viewer_page": 175,
         "local_image": "/tmp/amores-wlu/174.jpg",
-        "assessment": "The two-line opening capital reserves additional horizontal space: verse 2 is about three character widths farther right than ordinary inset verse starts. Verified in full-page context and enlarged bands."
+        "assessment": "The two-line opening capital reserves additional horizontal space: verse 2 is about three character widths farther right than ordinary inset verse starts. Verified in full-page context and enlarged bands.",
+        "fresh_source_review": {
+          "reviewer_agent": "/root",
+          "date": "2026-10-26",
+          "assessment": "Reinspected the actual source location and full-page context. The recorded source feature and disposition remain supported; any unresolved image uncertainty remains qualified."
+        }
       },
       "change": "Confirmed or conservatively documented by independent direct source-image inspection."
     }
@@ -126,27 +136,196 @@
     "zoneCount": 48,
     "resolved_facs_links": 48,
     "source_order_preserved": true,
-    "changed_verse_ids": [
-      "W-3.3-l1",
-      "W-3.3-l6",
-      "W-3.3-l12",
-      "W-3.3-l14",
-      "W-3.3-l15",
-      "W-3.3-l17",
-      "W-3.3-l18",
-      "W-3.3-l24",
-      "W-3.3-l27",
-      "W-3.3-l28",
-      "W-3.3-l42",
-      "W-3.3-l43",
-      "W-3.3-l48",
-      "W-3.3-l2"
-    ],
+    "changed_verse_ids": [],
     "coordinate_rectangles_unchanged": true,
     "humanReviewNotes": 0
   },
   "first_pass_sha256": "ade325ddb6ad0740ecf382da575cc2005e343a7c6ac65b796a752dd704f5a831",
-  "reviewed_candidate_sha256": "2ba1b13ebb24e4b63d45c59ccc71951ae6e80063d0bd87291c5b770aac046253",
-  "review_report_sha256": "7eef7229ae118960e2bbf7de40bfc3799c9969b589803a721eadf0f54e8b39bb",
-  "reviewed_xml_sha256": "4fe8400506fd5a168edd704292b40c56a7f8a9212632eae4fb3ab83641d09287"
+  "reviewed_candidate_sha256": "4700527b2db51aacff1f465f168da2287a9290242e87e338ab4d383086674175",
+  "review_report_sha256": "36181e44bc4bd0ef212cccff0032ebd66d41021f8edd274426d80aaa71c92fb9",
+  "reviewed_xml_sha256": "21726043893b8f1cff489b4dd93c92312e1e0775b462e0e12c435c13c6540e6f",
+  "review_history": [
+    {
+      "round": "previous-independent-second-source-review",
+      "ledger": {
+        "witness": "W",
+        "poem": "3.3",
+        "author_agent": "/root/w_transcribe_a",
+        "reviewer_agent": "/root/w_review_a",
+        "reviewer": "OpenAI Codex independent w_review_a source-image reviewer",
+        "date": "2026-10-26",
+        "status": "second-pass-complete",
+        "review_type": "independent-second-agent-image-and-encoding-review",
+        "human_approved": false,
+        "line_coverage": {
+          "count": 48,
+          "ranges": [
+            {
+              "start": 1,
+              "end": 6,
+              "image": 175,
+              "printed_page": 131,
+              "page": 131,
+              "source": "https://digitalarchive.wlu.edu/cantaloupe/iiif/2/https%3A%2F%2Fdigitalarchive.wlu.edu%2F_flysystem%2Ffedora%2F2026-10%2F72558-Service%2520File.jpg/full/full/0/default.jpg"
+            },
+            {
+              "start": 7,
+              "end": 48,
+              "image": 176,
+              "printed_page": 132,
+              "page": 132,
+              "source": "https://digitalarchive.wlu.edu/cantaloupe/iiif/2/https%3A%2F%2Fdigitalarchive.wlu.edu%2F_flysystem%2Ffedora%2F2026-10%2F72559-Service%2520File.jpg/full/full/0/default.jpg"
+            }
+          ],
+          "absent_ranges": []
+        },
+        "line_order": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48
+        ],
+        "previous_review_note_count": 1,
+        "notes": [
+          {
+            "note_id": "W-3.3-note-1",
+            "target": "#W-3.3-l1",
+            "line": 1,
+            "previous_type": "observation",
+            "status": "resolved",
+            "evidence": {
+              "page": 131,
+              "image": "https://digitalarchive.wlu.edu/cantaloupe/iiif/2/https%3A%2F%2Fdigitalarchive.wlu.edu%2F_flysystem%2Ffedora%2F2026-10%2F72558-Service%2520File.jpg/full/full/0/default.jpg",
+              "viewer_page": 175,
+              "local_image": "/tmp/amores-wlu/174.jpg",
+              "assessment": "Independent visual inspection confirms a separately printed Elegia heading and italic descriptive title immediately before verse1. The heading is retained as source metadata; canonical poem identity follows annotations. No unsupported heading words have been supplied."
+            },
+            "change": "Confirmed or conservatively documented by independent direct source-image inspection."
+          },
+          {
+            "note_id": "W-3.3-note-opening-inset",
+            "target": "#W-3.3-l2",
+            "line": 2,
+            "previous_type": "observation",
+            "status": "resolved",
+            "evidence": {
+              "page": 131,
+              "image": "https://digitalarchive.wlu.edu/cantaloupe/iiif/2/https%3A%2F%2Fdigitalarchive.wlu.edu%2F_flysystem%2Ffedora%2F2026-10%2F72558-Service%2520File.jpg/full/full/0/default.jpg",
+              "viewer_page": 175,
+              "local_image": "/tmp/amores-wlu/174.jpg",
+              "assessment": "The two-line opening capital reserves additional horizontal space: verse 2 is about three character widths farther right than ordinary inset verse starts. Verified in full-page context and enlarged bands."
+            },
+            "change": "Confirmed or conservatively documented by independent direct source-image inspection."
+          }
+        ],
+        "counts": {
+          "resolved": 2,
+          "documented-uncertainty": 0,
+          "escalate": 0
+        },
+        "humanActions": [],
+        "validation": {
+          "rng": "tei_all-4.12.0.rng",
+          "passed": true,
+          "extantLineCount": 48,
+          "zoneCount": 48,
+          "resolved_facs_links": 48,
+          "source_order_preserved": true,
+          "changed_verse_ids": [
+            "W-3.3-l1",
+            "W-3.3-l6",
+            "W-3.3-l12",
+            "W-3.3-l14",
+            "W-3.3-l15",
+            "W-3.3-l17",
+            "W-3.3-l18",
+            "W-3.3-l24",
+            "W-3.3-l27",
+            "W-3.3-l28",
+            "W-3.3-l42",
+            "W-3.3-l43",
+            "W-3.3-l48",
+            "W-3.3-l2"
+          ],
+          "coordinate_rectangles_unchanged": true,
+          "humanReviewNotes": 0
+        },
+        "first_pass_sha256": "ade325ddb6ad0740ecf382da575cc2005e343a7c6ac65b796a752dd704f5a831",
+        "reviewed_candidate_sha256": "2ba1b13ebb24e4b63d45c59ccc71951ae6e80063d0bd87291c5b770aac046253",
+        "review_report_sha256": "7eef7229ae118960e2bbf7de40bfc3799c9969b589803a721eadf0f54e8b39bb",
+        "reviewed_xml_sha256": "4fe8400506fd5a168edd704292b40c56a7f8a9212632eae4fb3ab83641d09287"
+      },
+      "report_sha256": "7eef7229ae118960e2bbf7de40bfc3799c9969b589803a721eadf0f54e8b39bb",
+      "report_preserved": "Full prior report retained below the fresh review in the same report file."
+    }
+  ],
+  "fresh_source_review": {
+    "date": "2026-10-26",
+    "reviewer_agent": "/root",
+    "scope": "All extant verses, every note, headings, page furniture and actual full-page line starts. Fresh direct image reading, not a checksum-only audit.",
+    "role_disclosure": "Root encoded the original first-source-reader transcription; the original first source reader and independent second reader were different agents. Their full prior ledger and report are preserved.",
+    "sources": [
+      {
+        "viewer_page": 175,
+        "printed_page": 131,
+        "source": "https://digitalarchive.wlu.edu/cantaloupe/iiif/2/https%3A%2F%2Fdigitalarchive.wlu.edu%2F_flysystem%2Ffedora%2F2026-10%2F72558-Service%2520File.jpg/full/full/0/default.jpg",
+        "local_image": "/tmp/amores-wlu/174.jpg",
+        "sha256": "3d5bc6377789717eaad8ad7aad5b7ea1cdd21459aed8ffd7a51e44fa7f4de507"
+      },
+      {
+        "viewer_page": 176,
+        "printed_page": 132,
+        "source": "https://digitalarchive.wlu.edu/cantaloupe/iiif/2/https%3A%2F%2Fdigitalarchive.wlu.edu%2F_flysystem%2Ffedora%2F2026-10%2F72559-Service%2520File.jpg/full/full/0/default.jpg",
+        "local_image": "/tmp/amores-wlu/175.jpg",
+        "sha256": "7e7e06c135ffd8538cc89b521fc675670b05a6a19b73f3a871921e6a618ab1ff"
+      }
+    ],
+    "changed_readings": [],
+    "all_notes_reinvestigated": true,
+    "annotation_rectangles_unchanged": true
+  }
 }

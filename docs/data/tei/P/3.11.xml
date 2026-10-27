@@ -10,7 +10,7 @@
           <resp>First-pass image transcription and TEI encoding</resp>
           <name>OpenAI Codex</name>
         </respStmt>
-      <respStmt xml:id="P-3.11-reviewer"><resp>Independent second image reading of every annotated position and every note</resp><name>OpenAI Codex independent encode_s agent</name></respStmt></titleStmt>
+      <respStmt xml:id="P-3.11-reviewer"><resp>Independent second image reading of every annotated position and every note</resp><name>OpenAI Codex independent encode_s agent</name></respStmt><respStmt xml:id="P-3.11-fresh-reviewer"><resp>Fresh independent source reading of every represented position, source absence boundary and evidence note</resp><name>OpenAI Codex /root</name></respStmt></titleStmt>
       <publicationStmt>
         <p>Amores Project local working transcription, 9 September 2026. Independently source-reviewed by a second agent; not human-approved.</p>
       </publicationStmt>
@@ -41,7 +41,7 @@
             <surrogates>
               <p><ref target="https://gallica.bnf.fr/ark:/12148/btv1b9066797j">BnF Gallica Latin 8242</ref></p>
               <p>The original full-resolution digital images and enlarged crops were inspected for this first pass. Gallica source reuse conditions apply. No text was populated from LL or another witness.</p>
-            </surrogates>
+            <p>Fresh corpus review used the original-resolution archival copies: <ref target="https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(096_of_101).jpg">archival copy of image 96</ref> <ref target="https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(097_of_101).jpg">archival copy of image 97</ref>. Their pixel dimensions match the original Gallica canvases. File hashes and provenance are recorded in the site facsimile index and renewed review ledger.</p></surrogates>
           </additional>
         </msDesc>
       </sourceDesc>
@@ -77,7 +77,7 @@
     </encodingDesc>
     <revisionDesc status="agent-reviewed"><change when="2026-09-09" who="#P-3.11-reviewer">Independent second image review of all 52 annotated positions and 41 notes. Qualified the contraction at 20, recovered additional damaged fragments (the proposed word after mihi at 25 was withdrawn after reinspection), retained punctuation and tonal features, and added verified navigation zones for displaced rectangles 36 and 37 without altering annotation provenance. Full-page layout checked.</change>
       <change when="2026-09-09" who="#P-3.11-encoder">Completed first reading from source images and enlarged crops, with line coverage and evidence notes. Independent second reading not yet performed.</change>
-    </revisionDesc>
+    <change when="2026-10-26" who="#P-3.11-fresh-reviewer">Fresh independent reading rechecked every represented source position, every evidence note, full-page line starts and absence boundaries. Source-supported changes and all dispositions are documented in P-3.11-second-pass.md; prior reports and review seals are retained as history.</change></revisionDesc>
   </teiHeader>
   <facsimile>
     <surface n="image 96" xml:id="P-3.11-image-96" ulx="0" uly="0" lrx="5811" lry="3967">
@@ -162,7 +162,7 @@
           <l n="8" xml:id="P-3.11-l8" facs="#P-3.11-zone-8" rend="indent">Sepe tulit lassis sucus amarus opem <pc>.</pc></l>
         </lg>
         <lg type="couplet" n="5">
-          <l n="9" xml:id="P-3.11-l9" facs="#P-3.11-zone-9">Ergo ego sustinui foribus totiensque repulsus</l>
+          <l n="9" xml:id="P-3.11-l9" facs="#P-3.11-zone-9">Ergo ego sustinui foribus tam <unclear>sepe</unclear> repulsus</l>
           <l n="10" xml:id="P-3.11-l10" facs="#P-3.11-zone-10" rend="indent">Ingenuum dura ponere corpus humo</l>
         </lg>
         <lg type="couplet" n="6">
@@ -224,7 +224,7 @@
         </lg>
         <lg type="couplet" n="20">
           <l n="39" xml:id="P-3.11-l39" facs="#P-3.11-zone-39"><unclear>Sic ego nec sine te</unclear> nec tecum <unclear>uiuere</unclear> possum</l>
-          <l n="40" xml:id="P-3.11-l40" facs="#P-3.11-zone-40">Et uideor uoti nescius esse mei</l>
+          <l n="40" xml:id="P-3.11-l40" facs="#P-3.11-zone-40">Et uideor uoti nescius esse mei <pc>.</pc></l>
         </lg>
         <lg type="couplet" n="21">
           <l n="41" xml:id="P-3.11-l41" facs="#P-3.11-zone-41"><unclear>Aut</unclear> formosa <unclear>fores minus</unclear> aut minus improba uellem</l>
@@ -259,6 +259,7 @@
         <note xml:id="P-3.11-note-1" n="1" type="uncertainty" target="#P-3.11-l1" resp="#P-3.11-encoder">The enlarged M and marginal AMORES / AMICI are visible. The dark congested following strokes still support only a tentative ulta; no underlying deleted letters or historical hand is inferred. Whole-image inspection confirms the modest offset of the visible even-line starts through 22.</note>
         <note xml:id="P-3.11-note-3" n="3" type="observation" target="#P-3.11-l3" resp="#P-3.11-encoder">The image supports adserui and fugique. The initial S is markedly darker and is now retained as tonal emphasis, without an inferred earlier reading.</note>
         <note xml:id="P-3.11-note-8" n="8" type="observation" target="#P-3.11-l8" resp="#P-3.11-encoder">Sucus has one c. The clear terminal punctus after opem was omitted in the first pass and is restored.</note>
+        <note xml:id="P-3.11-note-9" n="9" type="uncertainty" target="#P-3.11-l9" resp="#P-3.11-fresh-reviewer">Fresh native-source inspection shows tam followed by a faded sepe-like group after foribus. The earlier totiensque is unsupported: there is no separate que-shaped group. Tam is clear; sepe remains locally qualified because its vowel strokes are faint. A different source reader, /root/w_review_a, independently corroborated this correction from the actual row crop.</note>
         <note xml:id="P-3.11-note-11" n="11" type="uncertainty" target="#P-3.11-l11" resp="#P-3.11-encoder">Nescio qui is legible in the enlarged row; uncertainty is narrowed to the following pale quem. The unusual qui quem sequence is preserved without normalization.</note>
         <note xml:id="P-3.11-note-12" n="12" type="observation" target="#P-3.11-l12" resp="#P-3.11-encoder">The image confirms clausam seruus ante domum in that order.</note>
         <note xml:id="P-3.11-note-13" n="13" type="uncertainty" target="#P-3.11-l13" resp="#P-3.11-encoder">The fading across foribus and the end amator remains material. These readings stay qualified; the other visible words agree with the source.</note>
@@ -284,7 +285,7 @@
         <note xml:id="P-3.11-note-37" n="37" type="uncertainty" target="#P-3.11-l37" resp="#P-3.11-encoder">The enlarged N, tentative equitiam and readable fugio are followed by a faint faci fragment before the stain; reducit remains tentative beyond it. The original rectangle centres the following Auersor row. A separate corrected zone now encloses this actual row while retaining the original zone.</note>
         <note xml:id="P-3.11-note-38" n="38" type="uncertainty" target="#P-3.11-l38" resp="#P-3.11-encoder">Auersor morum crimina is visible before the stain. The final amo remains tentative and the hidden intervening text is not supplied.</note>
         <note xml:id="P-3.11-note-39" n="39" type="uncertainty" target="#P-3.11-l39" resp="#P-3.11-encoder">The pale initial Sic ego nec sine te and mottled uiuere remain qualified. The other visible portions agree with the source.</note>
-        <note xml:id="P-3.11-note-40" n="40" type="observation" target="#P-3.11-l40" resp="#P-3.11-encoder">Et uideor uoti nescius esse mei is supported in the visible row. No even-line inset is inferred in the deteriorated portion without a securely established margin.</note>
+        <note xml:id="P-3.11-note-40" n="40" type="observation" target="#P-3.11-l40" resp="#P-3.11-encoder">Et uideor uoti nescius esse mei is supported in the visible row. No even-line inset is inferred in the deteriorated portion without a securely established margin. A fresh source reading also restores the clearly visible terminal punctus after mei.</note>
         <note xml:id="P-3.11-note-41" n="41" type="uncertainty" target="#P-3.11-l41" resp="#P-3.11-encoder">Aut and fores minus remain tentative in the faded lower-page writing; the other preserved words remain source-supported.</note>
         <note xml:id="P-3.11-note-42" n="42" type="uncertainty" target="#P-3.11-l42" resp="#P-3.11-encoder">The opening remains obscured. Tentative mores and malos flank readable tam bona forma. A full normalized verse is not reconstructed.</note>
         <note xml:id="P-3.11-note-43" n="43" type="uncertainty" target="#P-3.11-l43" resp="#P-3.11-encoder">Merent odium facies exorat is readable; the faded final amorem remains qualified. The covered opening stays a gap.</note>

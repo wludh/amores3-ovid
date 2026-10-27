@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="O" xml:id="O-3.12">
   <teiHeader xml:lang="en">
     <fileDesc>
@@ -9,7 +9,7 @@
           <resp>First source-image reading and TEI encoding</resp>
           <name>OpenAI Codex primary agent</name>
         </respStmt>
-      <respStmt xml:id="O-3.12-reviewer"><resp>Independent second-agent reading of all 44 actual source verses and every evidence note; not human approval</resp><name>OpenAI Codex review_y agent</name></respStmt></titleStmt>
+      <respStmt xml:id="O-3.12-reviewer"><resp>Independent second-agent reading of all 44 actual source verses and every evidence note; not human approval</resp><name>OpenAI Codex review_y agent</name></respStmt><respStmt xml:id="O-3.12-fresh-reviewer"><resp>Fresh independent full source-image review of every extant verse, all notes and source layout, 26 October 2026</resp><name>OpenAI Codex /root/w_review_c</name></respStmt></titleStmt>
       <publicationStmt>
         <p>Amores Project working transcription, September 2026; independently reviewed by a different agent; no human scholarly approval implied.</p>
       </publicationStmt>
@@ -46,65 +46,65 @@
     </encodingDesc>
     <revisionDesc status="independently-reviewed"><change when="2026-09-10" who="#O-3.12-reviewer">Independently inspected all 44 actual source verses and every author note. Confirmed source wording, punctuation, marks, page boundaries and actual alternating inset. No human approval implied.</change>
       <change when="2026-09-09" who="#O-3.12-encoder">Read all 44 verses from enlarged source images and prepared first-pass encoding.</change>
-    </revisionDesc>
+    <change when="2026-10-26" who="#O-3.12-fresh-reviewer">Fresh independent source pass read every one of the 44 extant verses against full-page scans and enlarged bands; checked all editorial notes, source order, headings, furniture and actual indentation. Current source text and annotation geometry confirmed without changes; historical review retained in the report and ledger.</change></revisionDesc>
   </teiHeader>
   <facsimile>
     <surface xml:id="O-3.12-p65" n="65" ulx="0" uly="0" lrx="1674" lry="2662">
-      <graphic url="https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0117.jp2/full/max/0/default.jpg" />
-      <zone xml:id="O-3.12-zone-1" ulx="14" uly="757" lrx="1268" lry="823" />
-      <zone xml:id="O-3.12-zone-2" ulx="179" uly="816" lrx="1078" lry="869" />
-      <zone xml:id="O-3.12-zone-3" ulx="120" uly="873" lrx="1223" lry="940" />
-      <zone xml:id="O-3.12-zone-4" ulx="179" uly="931" lrx="1218" lry="995" />
-      <zone xml:id="O-3.12-zone-5" ulx="86" uly="989" lrx="1385" lry="1054" />
-      <zone xml:id="O-3.12-zone-6" ulx="180" uly="1047" lrx="1197" lry="1101" />
-      <zone xml:id="O-3.12-zone-7" ulx="121" uly="1105" lrx="1173" lry="1172" />
-      <zone xml:id="O-3.12-zone-8" ulx="180" uly="1164" lrx="1059" lry="1231" />
-      <zone xml:id="O-3.12-zone-9" ulx="121" uly="1220" lrx="1261" lry="1288" />
-      <zone xml:id="O-3.12-zone-10" ulx="70" uly="1281" lrx="1078" lry="1346" />
-      <zone xml:id="O-3.12-zone-11" ulx="120" uly="1339" lrx="1278" lry="1404" />
-      <zone xml:id="O-3.12-zone-12" ulx="179" uly="1398" lrx="1151" lry="1463" />
-      <zone xml:id="O-3.12-zone-13" ulx="120" uly="1454" lrx="1338" lry="1521" />
-      <zone xml:id="O-3.12-zone-14" ulx="179" uly="1513" lrx="985" lry="1566" />
-      <zone xml:id="O-3.12-zone-15" ulx="73" uly="1568" lrx="1375" lry="1637" />
-      <zone xml:id="O-3.12-zone-16" ulx="179" uly="1629" lrx="1107" lry="1696" />
-      <zone xml:id="O-3.12-zone-17" ulx="122" uly="1686" lrx="1175" lry="1754" />
-      <zone xml:id="O-3.12-zone-18" ulx="179" uly="1745" lrx="1160" lry="1811" />
-      <zone xml:id="O-3.12-zone-19" ulx="121" uly="1803" lrx="1231" lry="1866" />
-      <zone xml:id="O-3.12-zone-20" ulx="71" uly="1860" lrx="1118" lry="1927" />
-      <zone xml:id="O-3.12-zone-21" ulx="121" uly="1918" lrx="1169" lry="1986" />
-      <zone xml:id="O-3.12-zone-22" ulx="178" uly="1978" lrx="1231" lry="2043" />
-      <zone xml:id="O-3.12-zone-23" ulx="121" uly="2034" lrx="1396" lry="2101" />
-      <zone xml:id="O-3.12-zone-24" ulx="178" uly="2094" lrx="1084" lry="2156" />
-      <zone xml:id="O-3.12-zone-25" ulx="71" uly="2150" lrx="1259" lry="2217" />
-      <zone xml:id="O-3.12-zone-26" ulx="177" uly="2209" lrx="1022" lry="2274" />
-      <zone xml:id="O-3.12-zone-27" ulx="88" uly="2266" lrx="1258" lry="2320" />
-      <zone xml:id="O-3.12-zone-28" ulx="179" uly="2325" lrx="1088" lry="2393" />
+      <graphic url="https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0117.jp2/full/max/0/default.jpg"/>
+      <zone xml:id="O-3.12-zone-1" ulx="14" uly="757" lrx="1268" lry="823"/>
+      <zone xml:id="O-3.12-zone-2" ulx="179" uly="816" lrx="1078" lry="869"/>
+      <zone xml:id="O-3.12-zone-3" ulx="120" uly="873" lrx="1223" lry="940"/>
+      <zone xml:id="O-3.12-zone-4" ulx="179" uly="931" lrx="1218" lry="995"/>
+      <zone xml:id="O-3.12-zone-5" ulx="86" uly="989" lrx="1385" lry="1054"/>
+      <zone xml:id="O-3.12-zone-6" ulx="180" uly="1047" lrx="1197" lry="1101"/>
+      <zone xml:id="O-3.12-zone-7" ulx="121" uly="1105" lrx="1173" lry="1172"/>
+      <zone xml:id="O-3.12-zone-8" ulx="180" uly="1164" lrx="1059" lry="1231"/>
+      <zone xml:id="O-3.12-zone-9" ulx="121" uly="1220" lrx="1261" lry="1288"/>
+      <zone xml:id="O-3.12-zone-10" ulx="70" uly="1281" lrx="1078" lry="1346"/>
+      <zone xml:id="O-3.12-zone-11" ulx="120" uly="1339" lrx="1278" lry="1404"/>
+      <zone xml:id="O-3.12-zone-12" ulx="179" uly="1398" lrx="1151" lry="1463"/>
+      <zone xml:id="O-3.12-zone-13" ulx="120" uly="1454" lrx="1338" lry="1521"/>
+      <zone xml:id="O-3.12-zone-14" ulx="179" uly="1513" lrx="985" lry="1566"/>
+      <zone xml:id="O-3.12-zone-15" ulx="73" uly="1568" lrx="1375" lry="1637"/>
+      <zone xml:id="O-3.12-zone-16" ulx="179" uly="1629" lrx="1107" lry="1696"/>
+      <zone xml:id="O-3.12-zone-17" ulx="122" uly="1686" lrx="1175" lry="1754"/>
+      <zone xml:id="O-3.12-zone-18" ulx="179" uly="1745" lrx="1160" lry="1811"/>
+      <zone xml:id="O-3.12-zone-19" ulx="121" uly="1803" lrx="1231" lry="1866"/>
+      <zone xml:id="O-3.12-zone-20" ulx="71" uly="1860" lrx="1118" lry="1927"/>
+      <zone xml:id="O-3.12-zone-21" ulx="121" uly="1918" lrx="1169" lry="1986"/>
+      <zone xml:id="O-3.12-zone-22" ulx="178" uly="1978" lrx="1231" lry="2043"/>
+      <zone xml:id="O-3.12-zone-23" ulx="121" uly="2034" lrx="1396" lry="2101"/>
+      <zone xml:id="O-3.12-zone-24" ulx="178" uly="2094" lrx="1084" lry="2156"/>
+      <zone xml:id="O-3.12-zone-25" ulx="71" uly="2150" lrx="1259" lry="2217"/>
+      <zone xml:id="O-3.12-zone-26" ulx="177" uly="2209" lrx="1022" lry="2274"/>
+      <zone xml:id="O-3.12-zone-27" ulx="88" uly="2266" lrx="1258" lry="2320"/>
+      <zone xml:id="O-3.12-zone-28" ulx="179" uly="2325" lrx="1088" lry="2393"/>
     </surface>
     <surface xml:id="O-3.12-p66" n="66" ulx="0" uly="0" lrx="1690" lry="2656">
-      <graphic url="https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0118.jp2/full/max/0/default.jpg" />
-      <zone xml:id="O-3.12-zone-29" ulx="264" uly="228" lrx="1317" lry="294" />
-      <zone xml:id="O-3.12-zone-30" ulx="212" uly="286" lrx="1316" lry="353" />
-      <zone xml:id="O-3.12-zone-31" ulx="266" uly="345" lrx="1408" lry="411" />
-      <zone xml:id="O-3.12-zone-32" ulx="326" uly="401" lrx="1296" lry="469" />
-      <zone xml:id="O-3.12-zone-33" ulx="264" uly="462" lrx="1535" lry="526" />
-      <zone xml:id="O-3.12-zone-34" ulx="323" uly="520" lrx="1347" lry="586" />
-      <zone xml:id="O-3.12-zone-35" ulx="212" uly="578" lrx="1504" lry="643" />
-      <zone xml:id="O-3.12-zone-36" ulx="324" uly="636" lrx="1357" lry="702" />
-      <zone xml:id="O-3.12-zone-37" ulx="264" uly="695" lrx="1317" lry="761" />
-      <zone xml:id="O-3.12-zone-38" ulx="324" uly="753" lrx="1469" lry="819" />
-      <zone xml:id="O-3.12-zone-39" ulx="263" uly="812" lrx="1315" lry="876" />
-      <zone xml:id="O-3.12-zone-40" ulx="210" uly="870" lrx="1321" lry="935" />
-      <zone xml:id="O-3.12-zone-41" ulx="263" uly="928" lrx="1333" lry="994" />
-      <zone xml:id="O-3.12-zone-42" ulx="323" uly="986" lrx="1251" lry="1052" />
-      <zone xml:id="O-3.12-zone-43" ulx="262" uly="1044" lrx="1200" lry="1097" />
-      <zone xml:id="O-3.12-zone-44" ulx="320" uly="1103" lrx="1406" lry="1156" />
+      <graphic url="https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0118.jp2/full/max/0/default.jpg"/>
+      <zone xml:id="O-3.12-zone-29" ulx="264" uly="228" lrx="1317" lry="294"/>
+      <zone xml:id="O-3.12-zone-30" ulx="212" uly="286" lrx="1316" lry="353"/>
+      <zone xml:id="O-3.12-zone-31" ulx="266" uly="345" lrx="1408" lry="411"/>
+      <zone xml:id="O-3.12-zone-32" ulx="326" uly="401" lrx="1296" lry="469"/>
+      <zone xml:id="O-3.12-zone-33" ulx="264" uly="462" lrx="1535" lry="526"/>
+      <zone xml:id="O-3.12-zone-34" ulx="323" uly="520" lrx="1347" lry="586"/>
+      <zone xml:id="O-3.12-zone-35" ulx="212" uly="578" lrx="1504" lry="643"/>
+      <zone xml:id="O-3.12-zone-36" ulx="324" uly="636" lrx="1357" lry="702"/>
+      <zone xml:id="O-3.12-zone-37" ulx="264" uly="695" lrx="1317" lry="761"/>
+      <zone xml:id="O-3.12-zone-38" ulx="324" uly="753" lrx="1469" lry="819"/>
+      <zone xml:id="O-3.12-zone-39" ulx="263" uly="812" lrx="1315" lry="876"/>
+      <zone xml:id="O-3.12-zone-40" ulx="210" uly="870" lrx="1321" lry="935"/>
+      <zone xml:id="O-3.12-zone-41" ulx="263" uly="928" lrx="1333" lry="994"/>
+      <zone xml:id="O-3.12-zone-42" ulx="323" uly="986" lrx="1251" lry="1052"/>
+      <zone xml:id="O-3.12-zone-43" ulx="262" uly="1044" lrx="1200" lry="1097"/>
+      <zone xml:id="O-3.12-zone-44" ulx="320" uly="1103" lrx="1406" lry="1156"/>
     </surface>
   </facsimile>
   <text xml:lang="la">
     <body>
       <div type="poem" n="3.12" xml:id="O-3.12-poem">
         <lg type="couplet">
-          <pb n="65" facs="#O-3.12-p65" />
+          <pb n="65" facs="#O-3.12-p65"/>
           <fw type="header" place="top">III, XI, 9 — XII, 28.</fw>
           <fw type="pageNum" place="top">65</fw>
           <label type="source-heading">XII.</label>
@@ -166,7 +166,7 @@
           <fw type="sig" place="bottom">5</fw>
         </lg>
         <lg type="couplet">
-          <pb n="66" facs="#O-3.12-p66" />
+          <pb n="66" facs="#O-3.12-p66"/>
           <fw type="header" place="top">AMORUM</fw>
           <fw type="pageNum" place="top">66</fw>
           <l n="29" xml:id="O-3.12-l29" facs="#O-3.12-zone-29">Aeolios Ithacis inclusimus utribus Euros;</l>

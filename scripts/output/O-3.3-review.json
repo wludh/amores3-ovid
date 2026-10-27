@@ -2,27 +2,28 @@
   "witness": "O",
   "poem": "3.3",
   "author_agent": "/root",
-  "reviewer_agent": "/root/encode_p",
-  "reviewer": "OpenAI Codex independent encode_p agent",
-  "date": "2026-09-09",
+  "reviewer_agent": "/root/w_review_c",
+  "reviewer": "OpenAI Codex w_review_c fresh independent full source-image reviewer",
+  "date": "2026-10-26",
   "status": "second-pass-complete",
-  "review_type": "independent-second-agent-image-and-encoding-review",
+  "review_type": "independent-second-agent-image-and-encoding-review; fresh-complete-source-reinspection",
   "human_approved": false,
   "line_coverage": {
     "count": 48,
     "ranges": [
       {
-        "page": "49",
+        "image": 97,
+        "printed_page": 49,
         "start": 1,
         "end": 13
       },
       {
-        "page": "50",
+        "image": 98,
+        "printed_page": 50,
         "start": 14,
         "end": 48
       }
-    ],
-    "absent_ranges": []
+    ]
   },
   "line_order": [
     1,
@@ -78,133 +79,133 @@
   "notes": [
     {
       "note_id": "O-3.3-note-1",
-      "target": "#O-3.3-l1",
       "line": 1,
+      "target": "#O-3.3-l1",
       "status": "resolved",
       "previous_type": "observation",
       "evidence": {
-        "page": "49",
         "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0101.jp2/full/max/0/default.jpg",
-        "local_image": "/tmp/amores-o-corpus/97.jpg",
-        "assessment": "The full margin crop confirms III. and the source words Esse deos hic crede followed by the colon."
-      }
+        "page_position": "printed page 49; viewer image 97",
+        "assessment": "Fresh full-page and enlarged-band inspection independently confirms the source feature described by this note: The source reads Esse deos hic crede, with hic, followed by a colon. The margin label III. is recorded separately."
+      },
+      "change": "Freshly checked against the actual printed source; current encoding retained."
     },
     {
       "note_id": "O-3.3-note-5",
-      "target": "#O-3.3-l5",
       "line": 5,
+      "target": "#O-3.3-l5",
       "status": "resolved",
       "previous_type": "observation",
       "evidence": {
-        "page": "49",
         "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0101.jp2/full/max/0/default.jpg",
-        "local_image": "/tmp/amores-o-corpus/97.jpg",
-        "assessment": "The line clearly reads Candida candorem roseo suffusa rubore, with no punctuation at the end."
-      }
+        "page_position": "printed page 49; viewer image 97",
+        "assessment": "Fresh full-page and enlarged-band inspection independently confirms the source feature described by this note: The printed verse reads Candida candorem roseo suffusa rubore. Its wording is retained without grammatical normalization."
+      },
+      "change": "Freshly checked against the actual printed source; current encoding retained."
     },
     {
       "note_id": "O-3.3-note-10",
-      "target": "#O-3.3-l10",
       "line": 10,
+      "target": "#O-3.3-l10",
       "status": "resolved",
       "previous_type": "observation",
       "evidence": {
-        "page": "49",
         "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0101.jp2/full/max/0/default.jpg",
-        "local_image": "/tmp/amores-o-corpus/97.jpg",
-        "assessment": "The source prints mentitast as a single contracted word."
-      }
+        "page_position": "printed page 49; viewer image 97",
+        "assessment": "Fresh full-page and enlarged-band inspection independently confirms the source feature described by this note: The printed contraction mentitast is retained without expansion."
+      },
+      "change": "Freshly checked against the actual printed source; current encoding retained."
     },
     {
       "note_id": "O-3.3-note-13",
-      "target": "#O-3.3-l13",
       "line": 13,
+      "target": "#O-3.3-l13",
       "status": "resolved",
       "previous_type": "observation",
       "evidence": {
-        "page": "49",
         "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0101.jp2/full/max/0/default.jpg",
-        "local_image": "/tmp/amores-o-corpus/97.jpg",
-        "assessment": "Verse13 is followed by OVID. I. and signature4 at the foot of printed49; verse14 begins printed50. Forme work is outside verse content."
-      }
+        "page_position": "printed page 49; viewer image 97",
+        "assessment": "Fresh full-page and enlarged-band inspection independently confirms the source feature described by this note: The page ends after this verse within a couplet. The footer OVID. I. and signature 4 belong to the printed page, not to the verse."
+      },
+      "change": "Freshly checked against the actual printed source; current encoding retained."
     },
     {
       "note_id": "O-3.3-note-17",
-      "target": "#O-3.3-l17",
       "line": 17,
+      "target": "#O-3.3-l17",
       "status": "resolved",
       "previous_type": "observation",
       "evidence": {
-        "page": "50",
         "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0102.jp2/full/max/0/default.jpg",
-        "local_image": "/tmp/amores-o-corpus/98.jpg",
-        "assessment": "The initial At and the final contracted virgost are clearly printed."
-      }
+        "page_position": "printed page 50; viewer image 98",
+        "assessment": "Fresh full-page and enlarged-band inspection independently confirms the source feature described by this note: The source prints At non invidiae and the contraction virgost; both are retained."
+      },
+      "change": "Freshly checked against the actual printed source; current encoding retained."
     },
     {
       "note_id": "O-3.3-note-25",
-      "target": "#O-3.3-l25",
       "line": 25,
+      "target": "#O-3.3-l25",
       "status": "resolved",
       "previous_type": "observation",
       "evidence": {
-        "page": "50",
         "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0102.jp2/full/max/0/default.jpg",
-        "local_image": "/tmp/amores-o-corpus/98.jpg",
-        "assessment": "The source prints siquis as one word."
-      }
+        "page_position": "printed page 50; viewer image 98",
+        "assessment": "Fresh full-page and enlarged-band inspection independently confirms the source feature described by this note: The printed siquis is one word and is retained."
+      },
+      "change": "Freshly checked against the actual printed source; current encoding retained."
     },
     {
       "note_id": "O-3.3-note-33",
-      "target": "#O-3.3-l33",
       "line": 33,
+      "target": "#O-3.3-l33",
       "status": "resolved",
       "previous_type": "observation",
       "evidence": {
-        "page": "50",
         "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0102.jp2/full/max/0/default.jpg",
-        "local_image": "/tmp/amores-o-corpus/98.jpg",
-        "assessment": "The line includes focis and spells inponere with n, both clearly visible."
-      }
+        "page_position": "printed page 50; viewer image 98",
+        "assessment": "Fresh full-page and enlarged-band inspection independently confirms the source feature described by this note: The source spells inponere with n and includes focis after tura."
+      },
+      "change": "Freshly checked against the actual printed source; current encoding retained."
     },
     {
       "note_id": "O-3.3-note-38",
-      "target": "#O-3.3-l38",
       "line": 38,
+      "target": "#O-3.3-l38",
       "status": "resolved",
       "previous_type": "observation",
       "evidence": {
-        "page": "50",
         "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0102.jp2/full/max/0/default.jpg",
-        "local_image": "/tmp/amores-o-corpus/98.jpg",
-        "assessment": "The source prints Officiost as one contracted word."
-      }
+        "page_position": "printed page 50; viewer image 98",
+        "assessment": "Fresh full-page and enlarged-band inspection independently confirms the source feature described by this note: The source prints the contraction Officiost without a space or expansion."
+      },
+      "change": "Freshly checked against the actual printed source; current encoding retained."
     },
     {
       "note_id": "O-3.3-note-40",
-      "target": "#O-3.3-l40",
       "line": 40,
+      "target": "#O-3.3-l40",
       "status": "resolved",
       "previous_type": "observation",
       "evidence": {
-        "page": "50",
         "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0102.jp2/full/max/0/default.jpg",
-        "local_image": "/tmp/amores-o-corpus/98.jpg",
-        "assessment": "Non pater in Baccho matris haberet opus. is confirmed directly from the print."
-      }
+        "page_position": "printed page 50; viewer image 98",
+        "assessment": "Fresh full-page and enlarged-band inspection independently confirms the source feature described by this note: The printed reading is Non pater in Baccho matris haberet opus. No alternate text is supplied."
+      },
+      "change": "Freshly checked against the actual printed source; current encoding retained."
     },
     {
       "note_id": "O-3.3-note-30",
-      "target": "#O-3.3-l30",
       "line": 30,
+      "target": "#O-3.3-l30",
       "status": "resolved",
       "previous_type": "observation",
       "evidence": {
-        "page": "50",
         "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0102.jp2/full/max/0/default.jpg",
-        "local_image": "/tmp/amores-o-corpus/98.jpg",
-        "assessment": "The printed word is dextera, with a distinct e between t and r. The first-pass dextra has been corrected."
-      }
+        "page_position": "printed page 50; viewer image 98",
+        "assessment": "Fresh full-page and enlarged-band inspection independently confirms the source feature described by this note: The source clearly prints dextera, with e between t and r. Independent inspection corrected the first-pass dextra to preserve the printed spelling."
+      },
+      "change": "Freshly checked against the actual printed source; current encoding retained."
     }
   ],
   "counts": {
@@ -227,7 +228,254 @@
     "humanReviewNotes": 0
   },
   "first_pass_sha256": "05e5e732591b761e07e2d44d2d093e9eaf8c428b3f7df36d2a10e750a730e39a",
-  "reviewed_candidate_sha256": "4979614782f2573dfe00907d740ee22854b3ff375f725d4bf23aefa1441ea405",
-  "review_report_sha256": "645167a8c71df48be78757755976b9952fe08d0d8d652b4cc910cf08146e3a81",
-  "reviewed_xml_sha256": "8f6beeaad0a012a60f4d9dc2a4277434a60a72d4072892fb2ef0dac993f3202e"
+  "reviewed_candidate_sha256": "bad4c273eb1127ef3c96670556b1036fffee2d910671df217d81f3e1ea0c8b36",
+  "review_report_sha256": "56b60ef5c4376a641878c99e14e6255cc8595c4b4242889660cfc49701748b84",
+  "reviewed_xml_sha256": "8d38dcc20002a275b328807bfcefcf41a738824ae115045e6fa9cb32b2420dce",
+  "review_history": [
+    {
+      "witness": "O",
+      "poem": "3.3",
+      "author_agent": "/root",
+      "reviewer_agent": "/root/encode_p",
+      "reviewer": "OpenAI Codex independent encode_p agent",
+      "date": "2026-09-09",
+      "status": "second-pass-complete",
+      "review_type": "independent-second-agent-image-and-encoding-review",
+      "human_approved": false,
+      "line_coverage": {
+        "count": 48,
+        "ranges": [
+          {
+            "page": "49",
+            "start": 1,
+            "end": 13
+          },
+          {
+            "page": "50",
+            "start": 14,
+            "end": 48
+          }
+        ],
+        "absent_ranges": []
+      },
+      "line_order": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "previous_review_note_count": 0,
+      "notes": [
+        {
+          "note_id": "O-3.3-note-1",
+          "target": "#O-3.3-l1",
+          "line": 1,
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "page": "49",
+            "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0101.jp2/full/max/0/default.jpg",
+            "local_image": "/tmp/amores-o-corpus/97.jpg",
+            "assessment": "The full margin crop confirms III. and the source words Esse deos hic crede followed by the colon."
+          }
+        },
+        {
+          "note_id": "O-3.3-note-5",
+          "target": "#O-3.3-l5",
+          "line": 5,
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "page": "49",
+            "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0101.jp2/full/max/0/default.jpg",
+            "local_image": "/tmp/amores-o-corpus/97.jpg",
+            "assessment": "The line clearly reads Candida candorem roseo suffusa rubore, with no punctuation at the end."
+          }
+        },
+        {
+          "note_id": "O-3.3-note-10",
+          "target": "#O-3.3-l10",
+          "line": 10,
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "page": "49",
+            "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0101.jp2/full/max/0/default.jpg",
+            "local_image": "/tmp/amores-o-corpus/97.jpg",
+            "assessment": "The source prints mentitast as a single contracted word."
+          }
+        },
+        {
+          "note_id": "O-3.3-note-13",
+          "target": "#O-3.3-l13",
+          "line": 13,
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "page": "49",
+            "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0101.jp2/full/max/0/default.jpg",
+            "local_image": "/tmp/amores-o-corpus/97.jpg",
+            "assessment": "Verse13 is followed by OVID. I. and signature4 at the foot of printed49; verse14 begins printed50. Forme work is outside verse content."
+          }
+        },
+        {
+          "note_id": "O-3.3-note-17",
+          "target": "#O-3.3-l17",
+          "line": 17,
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "page": "50",
+            "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0102.jp2/full/max/0/default.jpg",
+            "local_image": "/tmp/amores-o-corpus/98.jpg",
+            "assessment": "The initial At and the final contracted virgost are clearly printed."
+          }
+        },
+        {
+          "note_id": "O-3.3-note-25",
+          "target": "#O-3.3-l25",
+          "line": 25,
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "page": "50",
+            "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0102.jp2/full/max/0/default.jpg",
+            "local_image": "/tmp/amores-o-corpus/98.jpg",
+            "assessment": "The source prints siquis as one word."
+          }
+        },
+        {
+          "note_id": "O-3.3-note-33",
+          "target": "#O-3.3-l33",
+          "line": 33,
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "page": "50",
+            "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0102.jp2/full/max/0/default.jpg",
+            "local_image": "/tmp/amores-o-corpus/98.jpg",
+            "assessment": "The line includes focis and spells inponere with n, both clearly visible."
+          }
+        },
+        {
+          "note_id": "O-3.3-note-38",
+          "target": "#O-3.3-l38",
+          "line": 38,
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "page": "50",
+            "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0102.jp2/full/max/0/default.jpg",
+            "local_image": "/tmp/amores-o-corpus/98.jpg",
+            "assessment": "The source prints Officiost as one contracted word."
+          }
+        },
+        {
+          "note_id": "O-3.3-note-40",
+          "target": "#O-3.3-l40",
+          "line": 40,
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "page": "50",
+            "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0102.jp2/full/max/0/default.jpg",
+            "local_image": "/tmp/amores-o-corpus/98.jpg",
+            "assessment": "Non pater in Baccho matris haberet opus. is confirmed directly from the print."
+          }
+        },
+        {
+          "note_id": "O-3.3-note-30",
+          "target": "#O-3.3-l30",
+          "line": 30,
+          "status": "resolved",
+          "previous_type": "observation",
+          "evidence": {
+            "page": "50",
+            "image": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0102.jp2/full/max/0/default.jpg",
+            "local_image": "/tmp/amores-o-corpus/98.jpg",
+            "assessment": "The printed word is dextera, with a distinct e between t and r. The first-pass dextra has been corrected."
+          }
+        }
+      ],
+      "counts": {
+        "resolved": 10,
+        "documented-uncertainty": 0,
+        "escalate": 0
+      },
+      "humanActions": [],
+      "validation": {
+        "rng": "tei_all-4.12.0.rng",
+        "passed": true,
+        "extantLineCount": 48,
+        "zoneCount": 48,
+        "resolved_facs_links": 48,
+        "source_order_preserved": true,
+        "changed_verse_ids": [
+          30
+        ],
+        "coordinate_rectangles_unchanged": true,
+        "humanReviewNotes": 0
+      },
+      "first_pass_sha256": "05e5e732591b761e07e2d44d2d093e9eaf8c428b3f7df36d2a10e750a730e39a",
+      "reviewed_candidate_sha256": "4979614782f2573dfe00907d740ee22854b3ff375f725d4bf23aefa1441ea405",
+      "review_report_sha256": "645167a8c71df48be78757755976b9952fe08d0d8d652b4cc910cf08146e3a81",
+      "reviewed_xml_sha256": "8f6beeaad0a012a60f4d9dc2a4277434a60a72d4072892fb2ef0dac993f3202e",
+      "scope": "Previous independent complete source review, superseded by the fresh full source pass of 26 October 2026"
+    }
+  ],
+  "fresh_source_review": {
+    "date": "2026-10-26",
+    "reviewer_agent": "/root/w_review_c",
+    "scope": "Every extant verse and every current XML editorial note; full-page order, source headings, running headers/footer, punctuation, spelling and actual indentation",
+    "source_text_changes": [],
+    "original_zones_unchanged": true,
+    "navigation_overrides_unchanged": true,
+    "download_alternates": {
+      "50": "https://archive.org/download/operaovid03oviduoft/page/n97.jpg"
+    }
+  }
 }

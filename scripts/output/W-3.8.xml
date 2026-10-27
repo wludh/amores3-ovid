@@ -17,7 +17,7 @@
           <resp>Independent second source-image reading and encoding review</resp>
           <name>OpenAI Codex /root/w_review_b</name>
         </respStmt>
-      </titleStmt>
+      <respStmt xml:id="W-3.8-fresh-reviewer"><resp>Fresh corpus source reading of every extant verse and every note; prior XML encoder, distinct from the original source reader</resp><name>OpenAI Codex /root</name></respStmt></titleStmt>
       <publicationStmt>
         <p>Amores Project working transcription, 26 October 2026; independent second-agent source review complete; human scholarly approval not yet given.</p>
       </publicationStmt>
@@ -55,7 +55,7 @@
       <change when="2026-10-26" who="#W-3.8-encoder">First reader inspected and transcribed all 66 verses from the source images; independent source review pending.</change>
       <change when="2026-10-26" who="#W-3.8-reviewer">Independent reviewer inspected all 66 extant verses against full-page source images and enlarged bands; corrected supported readings, punctuation and accents; checked line starts and all source notes; original annotation rectangles preserved.</change>
       <change when="2026-10-26" who="#W-3.8-reviewer">Independent opening-crop follow-up confirmed the second letter after the large initial is uppercase: Et corrected to source ET; remaining opening letters and extra verse-2 space rechecked.</change>
-    </revisionDesc>
+    <change when="2026-10-26" who="#W-3.8-fresh-reviewer">Fresh corpus source reading rechecked all 66 verses, every evidence note, headings, page furniture and full-page line starts. No further verse wording changes were supported. Prior independent second-pass history is retained; changed readings were additionally corroborated from native crops by /root/w_review_c. See W-3.8-second-pass.md.</change></revisionDesc>
   </teiHeader>
   <facsimile>
     <surface xml:id="W-3.8-p139" n="139" ulx="0" uly="0" lrx="1804" lry="2886">

@@ -13,7 +13,7 @@
           <resp>TEI encoding of the source reader’s first-pass transcription</resp>
           <name>OpenAI Codex /root</name>
         </respStmt>
-      <respStmt xml:id="W-3.15-reviewer"><resp>Independent second source-image reading and TEI review of every extant verse</resp><name>OpenAI Codex /root/w_review_c</name></respStmt></titleStmt>
+      <respStmt xml:id="W-3.15-reviewer"><resp>Independent second source-image reading and TEI review of every extant verse</resp><name>OpenAI Codex /root/w_review_c</name></respStmt><respStmt xml:id="W-3.15-fresh-reviewer"><resp>Fresh corpus source reading of every extant verse and every note; prior XML encoder, distinct from the original source reader</resp><name>OpenAI Codex /root</name></respStmt></titleStmt>
       <publicationStmt>
         <p>Amores Project working transcription, 26 October 2026; independently reviewed against the source images; not human-approved.</p>
       </publicationStmt>
@@ -49,7 +49,7 @@
     </encodingDesc>
     <revisionDesc status="reviewed">
       <change when="2026-10-26" who="#W-3.15-encoder">First reader inspected and transcribed all 20 verses from the source images; independent source review pending.</change>
-    <change when="2026-10-26" who="#W-3.15-reviewer">Independent second source pass checked every extant verse, source heading, page furniture and full-page line starts; corrected supported readings and documented the source layout in W-3.15-second-pass.md.</change><change when="2026-10-26" who="#W-3.15-reviewer">Focused independent image reinspection of the enlarged opening initial and following letters corrected source capitalization Quaere to QUaere; remaining opening letters and second-verse layout rechecked before resealing.</change></revisionDesc>
+    <change when="2026-10-26" who="#W-3.15-reviewer">Independent second source pass checked every extant verse, source heading, page furniture and full-page line starts; corrected supported readings and documented the source layout in W-3.15-second-pass.md.</change><change when="2026-10-26" who="#W-3.15-reviewer">Focused independent image reinspection of the enlarged opening initial and following letters corrected source capitalization Quaere to QUaere; remaining opening letters and second-verse layout rechecked before resealing.</change><change when="2026-10-26" who="#W-3.15-fresh-reviewer">Fresh corpus source reading rechecked all 20 verses, every evidence note, headings, page furniture and full-page line starts. No further verse wording changes were supported. Prior independent second-pass history is retained; changed readings were additionally corroborated from native crops by /root/w_review_c. See W-3.15-second-pass.md.</change></revisionDesc>
   </teiHeader>
   <facsimile>
     <surface xml:id="W-3.15-p148" n="148" ulx="0" uly="0" lrx="2004" lry="2860">

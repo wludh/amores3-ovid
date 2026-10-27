@@ -1,0 +1,262 @@
+{
+  "date": "2026-10-26",
+  "witness": "LL",
+  "review_type": "fresh-complete-third-reader-source-audit",
+  "reviewer_agent": "/root",
+  "reviewer_was_original_first_encoder": true,
+  "original_independent_reviews_retained": true,
+  "source_url": "https://www.thelatinlibrary.com/ovid/ovid.amor3.shtml",
+  "source_sha256": "514ae177539de56ff40b6c0b7890e460db0e3402cbc313e7747e45c33420798d",
+  "source_sections": [
+    {
+      "source_heading": "I",
+      "poem": "3.1",
+      "verse_count": 70
+    },
+    {
+      "source_heading": "II",
+      "poem": "3.2",
+      "verse_count": 84
+    },
+    {
+      "source_heading": "III",
+      "poem": "3.3",
+      "verse_count": 48
+    },
+    {
+      "source_heading": "IV",
+      "poem": "3.4",
+      "verse_count": 48
+    },
+    {
+      "source_heading": "V",
+      "poem": "3.5",
+      "verse_count": 46
+    },
+    {
+      "source_heading": "VI",
+      "poem": "3.6",
+      "verse_count": 106
+    },
+    {
+      "source_heading": "VII",
+      "poem": "3.7",
+      "verse_count": 84
+    },
+    {
+      "source_heading": "VIII",
+      "poem": "3.8",
+      "verse_count": 66
+    },
+    {
+      "source_heading": "IX",
+      "poem": "3.9",
+      "verse_count": 68
+    },
+    {
+      "source_heading": "X",
+      "poem": "3.10",
+      "verse_count": 48
+    },
+    {
+      "source_heading": "XIa",
+      "poem": "3.11",
+      "verse_count": 32
+    },
+    {
+      "source_heading": "XIb",
+      "poem": "3.11",
+      "verse_count": 20
+    },
+    {
+      "source_heading": "XII",
+      "poem": "3.12",
+      "verse_count": 44
+    },
+    {
+      "source_heading": "XIII",
+      "poem": "3.13",
+      "verse_count": 36
+    },
+    {
+      "source_heading": "XIV",
+      "poem": "3.14",
+      "verse_count": 50
+    },
+    {
+      "source_heading": "XV",
+      "poem": "3.15",
+      "verse_count": 20
+    }
+  ],
+  "verse_count": 870,
+  "rows": [
+    {
+      "witness": "LL",
+      "poem": "3.1",
+      "verse_count": 70,
+      "matching_source_lines": 70,
+      "differences": [],
+      "existing_notes": 0,
+      "current_xml_sha256": "5f5f1e6d0a2a4fcff8571bc81f52be7d2694ea0f42a4fb583431e0ae03164348",
+      "original_independent_reviewer": "/root/encode_s",
+      "original_review_report_sha256": "656bc571a72456f5e9f492eccba0a451d015e6dbb8290bf7916609abf257b0b7"
+    },
+    {
+      "witness": "LL",
+      "poem": "3.2",
+      "verse_count": 84,
+      "matching_source_lines": 84,
+      "differences": [],
+      "existing_notes": 0,
+      "current_xml_sha256": "6ac38e4fede0bf517ede3a2bbcde39898d10bad2c0a6bbe2ad00a0f2489ad45e",
+      "original_independent_reviewer": "/root/encode_s",
+      "original_review_report_sha256": "c5684a4d5de7830070c495ad76b73b602caceed85f97544835dba20561e2bf3c"
+    },
+    {
+      "witness": "LL",
+      "poem": "3.3",
+      "verse_count": 48,
+      "matching_source_lines": 48,
+      "differences": [],
+      "existing_notes": 0,
+      "current_xml_sha256": "26db8935133f80628f5b2a181ff1a97a5eff28066448de7a5b4eea61e2dd4c44",
+      "original_independent_reviewer": "/root/encode_s",
+      "original_review_report_sha256": "ad51257e736ef57de1edb791d7599eb7120f498d963a823d68736a7982fcd834"
+    },
+    {
+      "witness": "LL",
+      "poem": "3.4",
+      "verse_count": 48,
+      "matching_source_lines": 48,
+      "differences": [],
+      "existing_notes": 0,
+      "current_xml_sha256": "1ef85c2add30b6aa0cba11a7cc1aae8fb92134e57481154b2b2125ebf872195a",
+      "original_independent_reviewer": "/root/encode_s",
+      "original_review_report_sha256": "3bd4ed4c40047d007b30d83aff661d4f31cebbe3648cfc06e9646165a703d02d"
+    },
+    {
+      "witness": "LL",
+      "poem": "3.5",
+      "verse_count": 46,
+      "matching_source_lines": 46,
+      "differences": [],
+      "existing_notes": 0,
+      "current_xml_sha256": "c937f9eac5320bd339f76c27277454815bd0dc69cc9619d35855c126d581b38f",
+      "original_independent_reviewer": "/root/encode_s",
+      "original_review_report_sha256": "ecd95ef1168599c8ffc1426f8cd29fcc7647e0929b4117984398150799366322"
+    },
+    {
+      "witness": "LL",
+      "poem": "3.6",
+      "verse_count": 106,
+      "matching_source_lines": 106,
+      "differences": [],
+      "existing_notes": 0,
+      "current_xml_sha256": "82a1f03b7868c19253351b3188dbe25666114d77fb6d4f58d1420831f6fbeb63",
+      "original_independent_reviewer": "/root/encode_s",
+      "original_review_report_sha256": "f42b159bd02ecc7709fc19962766e55f9286b72df182e4841b70906082984cc8"
+    },
+    {
+      "witness": "LL",
+      "poem": "3.7",
+      "verse_count": 84,
+      "matching_source_lines": 84,
+      "differences": [],
+      "existing_notes": 0,
+      "current_xml_sha256": "bc80fe01d587638ede7153115d23bdc847d3adcc00d55db9ef1f83dbb8831f23",
+      "original_independent_reviewer": "/root/encode_s",
+      "original_review_report_sha256": "9a761505cdb33f8d316eebd052086f47826eed6b1ff9e40a98f95fdd3302533b"
+    },
+    {
+      "witness": "LL",
+      "poem": "3.8",
+      "verse_count": 66,
+      "matching_source_lines": 66,
+      "differences": [],
+      "existing_notes": 0,
+      "current_xml_sha256": "aa62d34d831408369733f1d1283f197f40e518740fe0f0cd3485e854b0164d45",
+      "original_independent_reviewer": "/root/encode_s",
+      "original_review_report_sha256": "90f1c34d849320d93c0b6279121bb53c8d36f7f1bc0d0caac4c8d22a353dda1f"
+    },
+    {
+      "witness": "LL",
+      "poem": "3.9",
+      "verse_count": 68,
+      "matching_source_lines": 68,
+      "differences": [],
+      "existing_notes": 0,
+      "current_xml_sha256": "d1c2d0c0c3bc0fa6fd537ad9c58e1f1a86bf55d7dc9c4ca57fc12a43330c15e8",
+      "original_independent_reviewer": "/root/encode_s",
+      "original_review_report_sha256": "cf0b563a46dd389d9d3dcf0e18d7997abdb83ced9961a8a40c32e30355e63179"
+    },
+    {
+      "witness": "LL",
+      "poem": "3.10",
+      "verse_count": 48,
+      "matching_source_lines": 48,
+      "differences": [],
+      "existing_notes": 0,
+      "current_xml_sha256": "fb9270e8bc5cbe21095c3ecdac266ea84f8b7918fd01f6f4e31ba0cb0d5addea",
+      "original_independent_reviewer": "/root/encode_s",
+      "original_review_report_sha256": "4dd516be17aa60612fb52d646664abf0f5b76328cd5ba95c08d5227c95cb67bf"
+    },
+    {
+      "witness": "LL",
+      "poem": "3.11",
+      "verse_count": 52,
+      "matching_source_lines": 52,
+      "differences": [],
+      "existing_notes": 0,
+      "current_xml_sha256": "2d6f0d5b5584544d19b5d84d2dd40ce85cd0a80244e72821cc90f106ba377ce4",
+      "original_independent_reviewer": "/root/encode_s",
+      "original_review_report_sha256": "9ddb947cf175c2f8451687ea5465baeba07379cdf0339558a22aa95dee265847"
+    },
+    {
+      "witness": "LL",
+      "poem": "3.12",
+      "verse_count": 44,
+      "matching_source_lines": 44,
+      "differences": [],
+      "existing_notes": 0,
+      "current_xml_sha256": "2f52010fc14bab5f59a7bb1f10c193945a7f5b2a5204298709308632222897d1",
+      "original_independent_reviewer": "/root/encode_s",
+      "original_review_report_sha256": "2ec9f27bd46778fdd6830203e691537a4641dcb9b8fa76b541b1185a739b6ee5"
+    },
+    {
+      "witness": "LL",
+      "poem": "3.13",
+      "verse_count": 36,
+      "matching_source_lines": 36,
+      "differences": [],
+      "existing_notes": 0,
+      "current_xml_sha256": "987785dcd840b1f1585fc2c1ebe049ceb7da93338b545976a159dc93e119f1a9",
+      "original_independent_reviewer": "/root/encode_s",
+      "original_review_report_sha256": "91868772e8f230b58f0612f144567917a815e243bec9c1884a8670c1cffd2719"
+    },
+    {
+      "witness": "LL",
+      "poem": "3.14",
+      "verse_count": 50,
+      "matching_source_lines": 50,
+      "differences": [],
+      "existing_notes": 0,
+      "current_xml_sha256": "04d9c6b2357d1c0137a2a280710ad15b2b5a0a6c09c383e88b2552eaabc89bd0",
+      "original_independent_reviewer": "/root/encode_s",
+      "original_review_report_sha256": "422ecccebd8bd2f700c2f0930a6970529f9dabdba4faafb48a677a765e4d3fe9"
+    },
+    {
+      "witness": "LL",
+      "poem": "3.15",
+      "verse_count": 20,
+      "matching_source_lines": 20,
+      "differences": [],
+      "existing_notes": 0,
+      "current_xml_sha256": "c130f35a19e16512fbd55cee29d1967dee785bbacfb2eefb4683f3d02edb53f6",
+      "original_independent_reviewer": "/root/encode_s",
+      "original_review_report_sha256": "74c568d6946b2337ec86d19c5f172fa3711cb382897d48a1e8b1ed8dffe888cf"
+    }
+  ],
+  "report_sha256": "c2006e15918bda7cdcd576568de9455a123e26fbca4042cc1ffdaa78cae2bb28",
+  "no_xml_changes": true
+}

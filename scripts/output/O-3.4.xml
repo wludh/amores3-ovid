@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="O" xml:id="O-3.4">
   <teiHeader xml:lang="en">
     <fileDesc>
@@ -13,7 +13,7 @@
           <resp>Independent second source-image reading of every verse and editorial note</resp>
           <name>OpenAI Codex independent encode_p agent</name>
         </respStmt>
-      </titleStmt>
+      <respStmt xml:id="O-3.4-fresh-reviewer"><resp>Fresh independent full source-image review of every extant verse, all notes and source layout, 26 October 2026</resp><name>OpenAI Codex /root/w_review_c</name></respStmt></titleStmt>
       <publicationStmt>
         <p>Amores Project working transcription, September 2026; independent second source reading completed. Human editorial approval has not been asserted.</p>
       </publicationStmt>
@@ -51,69 +51,69 @@
     <revisionDesc status="draft">
       <change when="2026-09-09" who="#O-3.4-encoder">Read all 48 verses from enlarged source images and prepared first-pass encoding.</change>
       <change when="2026-09-09" who="#O-3.4-reviewer">Independently checked all 48 verses and all 11 notes against enlarged source images. Confirmed source wording, punctuation, heading, running titles and signature. No verse readings required correction; original source geometry retained.</change>
-    </revisionDesc>
+    <change when="2026-10-26" who="#O-3.4-fresh-reviewer">Fresh independent source pass read every one of the 48 extant verses against full-page scans and enlarged bands; checked all editorial notes, source order, headings, furniture and actual indentation. Current source text and annotation geometry confirmed without changes; historical review retained in the report and ledger.</change></revisionDesc>
   </teiHeader>
   <facsimile>
     <surface xml:id="O-3.4-p51" n="51" ulx="0" uly="0" lrx="1674" lry="2662">
-      <graphic url="https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0103.jp2/full/max/0/default.jpg" />
-      <zone xml:id="O-3.4-zone-1" ulx="11" uly="250" lrx="1183" lry="319" />
-      <zone xml:id="O-3.4-zone-2" ulx="171" uly="308" lrx="1189" lry="378" />
-      <zone xml:id="O-3.4-zone-3" ulx="115" uly="365" lrx="1328" lry="435" />
-      <zone xml:id="O-3.4-zone-4" ulx="173" uly="424" lrx="1265" lry="493" />
-      <zone xml:id="O-3.4-zone-5" ulx="77" uly="482" lrx="1346" lry="551" />
-      <zone xml:id="O-3.4-zone-6" ulx="171" uly="539" lrx="1064" lry="609" />
-      <zone xml:id="O-3.4-zone-7" ulx="112" uly="598" lrx="1302" lry="668" />
-      <zone xml:id="O-3.4-zone-8" ulx="171" uly="656" lrx="1075" lry="712" />
-      <zone xml:id="O-3.4-zone-9" ulx="112" uly="713" lrx="1274" lry="784" />
-      <zone xml:id="O-3.4-zone-10" ulx="58" uly="773" lrx="1047" lry="842" />
-      <zone xml:id="O-3.4-zone-11" ulx="110" uly="830" lrx="1183" lry="899" />
-      <zone xml:id="O-3.4-zone-12" ulx="169" uly="889" lrx="972" lry="957" />
-      <zone xml:id="O-3.4-zone-13" ulx="108" uly="946" lrx="1370" lry="1016" />
-      <zone xml:id="O-3.4-zone-14" ulx="167" uly="1004" lrx="1016" lry="1073" />
-      <zone xml:id="O-3.4-zone-15" ulx="57" uly="1061" lrx="1282" lry="1132" />
-      <zone xml:id="O-3.4-zone-16" ulx="165" uly="1121" lrx="1079" lry="1189" />
-      <zone xml:id="O-3.4-zone-17" ulx="107" uly="1178" lrx="1309" lry="1248" />
-      <zone xml:id="O-3.4-zone-18" ulx="168" uly="1236" lrx="1055" lry="1306" />
-      <zone xml:id="O-3.4-zone-19" ulx="108" uly="1295" lrx="1277" lry="1363" />
-      <zone xml:id="O-3.4-zone-20" ulx="55" uly="1353" lrx="1192" lry="1422" />
-      <zone xml:id="O-3.4-zone-21" ulx="107" uly="1411" lrx="1243" lry="1479" />
-      <zone xml:id="O-3.4-zone-22" ulx="167" uly="1469" lrx="1136" lry="1538" />
-      <zone xml:id="O-3.4-zone-23" ulx="107" uly="1527" lrx="1196" lry="1596" />
-      <zone xml:id="O-3.4-zone-24" ulx="165" uly="1586" lrx="1078" lry="1653" />
-      <zone xml:id="O-3.4-zone-25" ulx="55" uly="1642" lrx="1366" lry="1712" />
-      <zone xml:id="O-3.4-zone-26" ulx="166" uly="1701" lrx="1264" lry="1771" />
-      <zone xml:id="O-3.4-zone-27" ulx="107" uly="1759" lrx="1223" lry="1828" />
-      <zone xml:id="O-3.4-zone-28" ulx="164" uly="1816" lrx="1233" lry="1886" />
-      <zone xml:id="O-3.4-zone-29" ulx="106" uly="1874" lrx="1401" lry="1944" />
-      <zone xml:id="O-3.4-zone-30" ulx="55" uly="1933" lrx="1204" lry="2002" />
-      <zone xml:id="O-3.4-zone-31" ulx="106" uly="1991" lrx="1168" lry="2060" />
-      <zone xml:id="O-3.4-zone-32" ulx="166" uly="2048" lrx="1170" lry="2118" />
-      <zone xml:id="O-3.4-zone-33" ulx="105" uly="2106" lrx="1273" lry="2176" />
-      <zone xml:id="O-3.4-zone-34" ulx="163" uly="2164" lrx="1193" lry="2234" />
-      <zone xml:id="O-3.4-zone-35" ulx="53" uly="2221" lrx="1192" lry="2292" />
-      <zone xml:id="O-3.4-zone-36" ulx="162" uly="2281" lrx="1035" lry="2336" />
-      <zone xml:id="O-3.4-zone-37" ulx="105" uly="2337" lrx="1420" lry="2409" />
+      <graphic url="https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0103.jp2/full/max/0/default.jpg"/>
+      <zone xml:id="O-3.4-zone-1" ulx="11" uly="250" lrx="1183" lry="319"/>
+      <zone xml:id="O-3.4-zone-2" ulx="171" uly="308" lrx="1189" lry="378"/>
+      <zone xml:id="O-3.4-zone-3" ulx="115" uly="365" lrx="1328" lry="435"/>
+      <zone xml:id="O-3.4-zone-4" ulx="173" uly="424" lrx="1265" lry="493"/>
+      <zone xml:id="O-3.4-zone-5" ulx="77" uly="482" lrx="1346" lry="551"/>
+      <zone xml:id="O-3.4-zone-6" ulx="171" uly="539" lrx="1064" lry="609"/>
+      <zone xml:id="O-3.4-zone-7" ulx="112" uly="598" lrx="1302" lry="668"/>
+      <zone xml:id="O-3.4-zone-8" ulx="171" uly="656" lrx="1075" lry="712"/>
+      <zone xml:id="O-3.4-zone-9" ulx="112" uly="713" lrx="1274" lry="784"/>
+      <zone xml:id="O-3.4-zone-10" ulx="58" uly="773" lrx="1047" lry="842"/>
+      <zone xml:id="O-3.4-zone-11" ulx="110" uly="830" lrx="1183" lry="899"/>
+      <zone xml:id="O-3.4-zone-12" ulx="169" uly="889" lrx="972" lry="957"/>
+      <zone xml:id="O-3.4-zone-13" ulx="108" uly="946" lrx="1370" lry="1016"/>
+      <zone xml:id="O-3.4-zone-14" ulx="167" uly="1004" lrx="1016" lry="1073"/>
+      <zone xml:id="O-3.4-zone-15" ulx="57" uly="1061" lrx="1282" lry="1132"/>
+      <zone xml:id="O-3.4-zone-16" ulx="165" uly="1121" lrx="1079" lry="1189"/>
+      <zone xml:id="O-3.4-zone-17" ulx="107" uly="1178" lrx="1309" lry="1248"/>
+      <zone xml:id="O-3.4-zone-18" ulx="168" uly="1236" lrx="1055" lry="1306"/>
+      <zone xml:id="O-3.4-zone-19" ulx="108" uly="1295" lrx="1277" lry="1363"/>
+      <zone xml:id="O-3.4-zone-20" ulx="55" uly="1353" lrx="1192" lry="1422"/>
+      <zone xml:id="O-3.4-zone-21" ulx="107" uly="1411" lrx="1243" lry="1479"/>
+      <zone xml:id="O-3.4-zone-22" ulx="167" uly="1469" lrx="1136" lry="1538"/>
+      <zone xml:id="O-3.4-zone-23" ulx="107" uly="1527" lrx="1196" lry="1596"/>
+      <zone xml:id="O-3.4-zone-24" ulx="165" uly="1586" lrx="1078" lry="1653"/>
+      <zone xml:id="O-3.4-zone-25" ulx="55" uly="1642" lrx="1366" lry="1712"/>
+      <zone xml:id="O-3.4-zone-26" ulx="166" uly="1701" lrx="1264" lry="1771"/>
+      <zone xml:id="O-3.4-zone-27" ulx="107" uly="1759" lrx="1223" lry="1828"/>
+      <zone xml:id="O-3.4-zone-28" ulx="164" uly="1816" lrx="1233" lry="1886"/>
+      <zone xml:id="O-3.4-zone-29" ulx="106" uly="1874" lrx="1401" lry="1944"/>
+      <zone xml:id="O-3.4-zone-30" ulx="55" uly="1933" lrx="1204" lry="2002"/>
+      <zone xml:id="O-3.4-zone-31" ulx="106" uly="1991" lrx="1168" lry="2060"/>
+      <zone xml:id="O-3.4-zone-32" ulx="166" uly="2048" lrx="1170" lry="2118"/>
+      <zone xml:id="O-3.4-zone-33" ulx="105" uly="2106" lrx="1273" lry="2176"/>
+      <zone xml:id="O-3.4-zone-34" ulx="163" uly="2164" lrx="1193" lry="2234"/>
+      <zone xml:id="O-3.4-zone-35" ulx="53" uly="2221" lrx="1192" lry="2292"/>
+      <zone xml:id="O-3.4-zone-36" ulx="162" uly="2281" lrx="1035" lry="2336"/>
+      <zone xml:id="O-3.4-zone-37" ulx="105" uly="2337" lrx="1420" lry="2409"/>
     </surface>
     <surface xml:id="O-3.4-p52" n="52" ulx="0" uly="0" lrx="1690" lry="2656">
-      <graphic url="https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0104.jp2/full/max/0/default.jpg" />
-      <zone xml:id="O-3.4-zone-38" ulx="294" uly="235" lrx="1298" lry="307" />
-      <zone xml:id="O-3.4-zone-39" ulx="232" uly="295" lrx="1413" lry="364" />
-      <zone xml:id="O-3.4-zone-40" ulx="179" uly="353" lrx="1178" lry="420" />
-      <zone xml:id="O-3.4-zone-41" ulx="234" uly="411" lrx="1446" lry="481" />
-      <zone xml:id="O-3.4-zone-42" ulx="291" uly="470" lrx="1198" lry="539" />
-      <zone xml:id="O-3.4-zone-43" ulx="234" uly="528" lrx="1356" lry="597" />
-      <zone xml:id="O-3.4-zone-44" ulx="290" uly="586" lrx="1083" lry="655" />
-      <zone xml:id="O-3.4-zone-45" ulx="178" uly="644" lrx="1528" lry="714" />
-      <zone xml:id="O-3.4-zone-46" ulx="292" uly="702" lrx="1293" lry="772" />
-      <zone xml:id="O-3.4-zone-47" ulx="233" uly="761" lrx="1310" lry="830" />
-      <zone xml:id="O-3.4-zone-48" ulx="290" uly="820" lrx="1354" lry="889" />
+      <graphic url="https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0104.jp2/full/max/0/default.jpg"/>
+      <zone xml:id="O-3.4-zone-38" ulx="294" uly="235" lrx="1298" lry="307"/>
+      <zone xml:id="O-3.4-zone-39" ulx="232" uly="295" lrx="1413" lry="364"/>
+      <zone xml:id="O-3.4-zone-40" ulx="179" uly="353" lrx="1178" lry="420"/>
+      <zone xml:id="O-3.4-zone-41" ulx="234" uly="411" lrx="1446" lry="481"/>
+      <zone xml:id="O-3.4-zone-42" ulx="291" uly="470" lrx="1198" lry="539"/>
+      <zone xml:id="O-3.4-zone-43" ulx="234" uly="528" lrx="1356" lry="597"/>
+      <zone xml:id="O-3.4-zone-44" ulx="290" uly="586" lrx="1083" lry="655"/>
+      <zone xml:id="O-3.4-zone-45" ulx="178" uly="644" lrx="1528" lry="714"/>
+      <zone xml:id="O-3.4-zone-46" ulx="292" uly="702" lrx="1293" lry="772"/>
+      <zone xml:id="O-3.4-zone-47" ulx="233" uly="761" lrx="1310" lry="830"/>
+      <zone xml:id="O-3.4-zone-48" ulx="290" uly="820" lrx="1354" lry="889"/>
     </surface>
   </facsimile>
   <text xml:lang="la">
     <body>
       <div type="poem" n="3.4" xml:id="O-3.4-poem">
         <lg type="couplet">
-          <pb n="51" facs="#O-3.4-p51" />
+          <pb n="51" facs="#O-3.4-p51"/>
           <fw type="header" place="top">III, III, 14 — IIII, 37.</fw>
           <fw type="pageNum" place="top">51</fw>
           <label type="source-heading">IIII.</label>
@@ -191,7 +191,7 @@
         <lg type="couplet">
           <l n="37" xml:id="O-3.4-l37" facs="#O-3.4-zone-37">Rusticus est nimium, quem laedit adultera coniunx,</l>
           <fw type="signature" place="bottom">4*</fw>
-          <pb n="52" facs="#O-3.4-p52" />
+          <pb n="52" facs="#O-3.4-p52"/>
           <fw type="header" place="top">AMORUM</fw>
           <fw type="pageNum" place="top">52</fw>
           <l n="38" xml:id="O-3.4-l38" facs="#O-3.4-zone-38" rend="indent">Et notos mores non satis Urbis habet,</l>

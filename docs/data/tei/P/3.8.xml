@@ -10,7 +10,7 @@
           <resp>First-pass image transcription and TEI encoding</resp>
           <name>OpenAI Codex</name>
         </respStmt>
-      <respStmt xml:id="P-3.8-reviewer"><resp>Independent second-agent reading of every extant source verse and evidence note; not human approval</resp><name>OpenAI Codex, review_y agent</name></respStmt></titleStmt>
+      <respStmt xml:id="P-3.8-reviewer"><resp>Independent second-agent reading of every extant source verse and evidence note; not human approval</resp><name>OpenAI Codex, review_y agent</name></respStmt><respStmt xml:id="P-3.8-fresh-reviewer"><resp>Fresh independent source rereading of all 66 extant verses and all 33 existing editorial notes</resp><name>OpenAI Codex /root/w_review_b</name></respStmt></titleStmt>
       <publicationStmt>
         <p>Amores Project local working transcription, 9 September 2026. Draft; not a scholarly approved edition.</p>
       </publicationStmt>
@@ -77,7 +77,7 @@
     </encodingDesc>
     <revisionDesc status="independently-reviewed"><change when="2026-09-09" who="#P-3.8-reviewer">Independent second-agent source review of all 66 verses and every editorial note. The independent reader inspected all 66 source positions and all 33 author notes. Tenerum at line 2 is now clear; the tentative absque at 39 is corrected to arua sine. Additional tentative ending words are recovered at 60 (esse sinant) and 62 (potest). Other faint words, the incomplete marginal title, and the severely faded lower-right gaps remain documented source uncertainty; no expected verse is supplied from another witness. No human approval is implied.</change>
       <change when="2026-09-09" who="#P-3.8-encoder">Completed first reading from source images and enlarged crops, with line coverage and evidence notes. Independent second reading not yet performed.</change>
-    </revisionDesc>
+    <change when="2026-10-26" who="#P-3.8-fresh-reviewer">Fresh complete source rereading of verses 1–66 and all 33 existing notes against actual BnF scan copies recovered from Commons, in full-spread context and enlarged sequential bands/row crops. Four verse positions changed:44 litus replaces tellus;59 tentative auide/amores replaces auidi/amoris;61 tentative tetricas licet illa replaces the isolated ille;64 tentative cedet replaces cede. All changed pale/stained groups remain unclear and their adjoining gaps remain. Every other source word, marginal heading, punctuation, zone and indentation was retained after fresh checking. All original rectangles and source navigation retained; previous review evidence remains historical.</change></revisionDesc>
   </teiHeader>
   <facsimile>
     <surface n="image 92" xml:id="P-3.8-image-92" ulx="0" uly="0" lrx="5811" lry="3966">
@@ -248,7 +248,7 @@
         </lg>
         <lg type="couplet" n="22">
           <l n="43" xml:id="P-3.8-l43" facs="#P-3.8-zone-43">Non freta dimissi uerrebant <unclear reason="faded">eruta</unclear> remo</l>
-          <l n="44" xml:id="P-3.8-l44" facs="#P-3.8-zone-44" rend="indent">Ultima mortali tum uia tellus erat</l>
+          <l n="44" xml:id="P-3.8-l44" facs="#P-3.8-zone-44" rend="indent">Ultima mortali tum uia litus erat</l>
         </lg>
         <lg type="couplet" n="23">
           <l n="45" xml:id="P-3.8-l45" facs="#P-3.8-zone-45">Contra te sollers hominum natura fuisti</l>
@@ -279,16 +279,16 @@
           <l n="58" xml:id="P-3.8-l58" facs="#P-3.8-zone-58" rend="indent"><unclear reason="faded">Seruiat hi pacem</unclear> crudaque bella gerent</l>
         </lg>
         <lg type="couplet" n="30">
-          <l n="59" xml:id="P-3.8-l59" facs="#P-3.8-zone-59"><gap reason="illegible" extent="several words" /> <unclear reason="faded">auidi</unclear><gap reason="illegible" extent="several letters" /> <unclear reason="stained">amoris</unclear></l>
+          <l n="59" xml:id="P-3.8-l59" facs="#P-3.8-zone-59"><gap reason="illegible" extent="several words" /> <unclear reason="faded">auide</unclear><gap reason="illegible" extent="several letters" /> <unclear reason="stained">amores</unclear></l>
           <l n="60" xml:id="P-3.8-l60" facs="#P-3.8-zone-60" rend="indent"><gap reason="illegible" extent="several words" /> <unclear reason="faded">pauperis esse sinant</unclear></l>
         </lg>
         <lg type="couplet" n="31">
-          <l n="61" xml:id="P-3.8-l61" facs="#P-3.8-zone-61"><gap reason="illegible" extent="several words" /> <unclear reason="faded">ille</unclear> <gap reason="illegible" extent="one or more words" /></l>
+          <l n="61" xml:id="P-3.8-l61" facs="#P-3.8-zone-61"><gap reason="illegible" extent="several words" /> <unclear reason="faded">tetricas licet illa</unclear> <gap reason="illegible" extent="one or more words" /></l>
           <l n="62" xml:id="P-3.8-l62" facs="#P-3.8-zone-62" rend="indent"><gap reason="illegible" extent="several words" /> <unclear reason="faded">multa</unclear> <unclear reason="faded">potest</unclear></l>
         </lg>
         <lg type="couplet" n="32">
           <l n="63" xml:id="P-3.8-l63" facs="#P-3.8-zone-63"><gap reason="illegible" extent="one or more words" /> <unclear reason="faded">custos</unclear> <gap reason="illegible" extent="one or more words" /> illa <unclear reason="faded">maritum</unclear></l>
-          <l n="64" xml:id="P-3.8-l64" facs="#P-3.8-zone-64" rend="indent"><gap reason="illegible" extent="several words" /> <unclear reason="faded">cede</unclear> <gap reason="illegible" extent="one or more words" /> domo</l>
+          <l n="64" xml:id="P-3.8-l64" facs="#P-3.8-zone-64" rend="indent"><gap reason="illegible" extent="several words" /> <unclear reason="faded">cedet</unclear> <gap reason="illegible" extent="one or more words" /> domo</l>
         </lg>
         <lg type="couplet" n="33">
           <pb n="image 94, left" facs="#P-3.8-image-94" />
@@ -325,15 +325,15 @@
         <note xml:id="P-3.8-note-56" n="56" type="uncertainty" target="#P-3.8-l56" resp="#P-3.8-reviewer">The full verse was independently inspected. The pale Inde grauis iudex inde seuerus eques remains compatible with the source and stays qualified.</note>
         <note xml:id="P-3.8-note-57" n="57" type="uncertainty" target="#P-3.8-l57" resp="#P-3.8-reviewer">A dark patch crosses the latter portion of forumque. The tentative word is retained under unclear without reconstructing a prior state.</note>
         <note xml:id="P-3.8-note-58" n="58" type="uncertainty" target="#P-3.8-l58" resp="#P-3.8-reviewer">Seruiat hi pacem is compatible with the pale opening. Crudaque bella gerent remains clearer. No normalization is made.</note>
-        <note xml:id="P-3.8-note-59" n="59" type="uncertainty" target="#P-3.8-l59" resp="#P-3.8-reviewer">The lower-right area is heavily faded and locally stained. Auidi and amoris remain the defensible tentative fragments; the incomplete ending and other spans remain gaps.</note>
+        <note xml:id="P-3.8-note-59" n="59" type="uncertainty" target="#P-3.8-l59" resp="#P-3.8-reviewer">Fresh source reading tentatively supports auide and the stained final amores rather than auidi and amoris. The endings remain locally unclear; the faded opening and intervening compact group remain gaps. No complete familiar phrase is supplied.</note>
         <note xml:id="P-3.8-note-60" n="60" type="uncertainty" target="#P-3.8-l60" resp="#P-3.8-reviewer">The enlarged ending supports tentative esse sinant after pauperis. These two words are recovered under unclear; the faded opening remains a gap.</note>
-        <note xml:id="P-3.8-note-61" n="61" type="uncertainty" target="#P-3.8-l61" resp="#P-3.8-reviewer">The full physical line was enlarged. Ille remains a defensible tentative fragment, but the adjoining pale groups cannot safely establish additional complete words.</note>
+        <note xml:id="P-3.8-note-61" n="61" type="uncertainty" target="#P-3.8-l61" resp="#P-3.8-reviewer">The enlarged physical line supports the tentative surviving group tetricas licet illa, including final a in illa rather than the former ille. This group remains unclear. The preceding pale writing and stained continuation remain gaps, without reconstructing a complete verse.</note>
         <note xml:id="P-3.8-note-62" n="62" type="uncertainty" target="#P-3.8-l62" resp="#P-3.8-reviewer">After multa, the final letters support tentative potest, now retained in place of the final gap. The preceding faded region remains unreadable.</note>
         <note xml:id="P-3.8-note-63" n="63" type="uncertainty" target="#P-3.8-l63" resp="#P-3.8-reviewer">Custos and maritum remain tentative with clearer illa between them. The intervening traces do not securely distinguish a full word, and its gap remains.</note>
-        <note xml:id="P-3.8-note-64" n="64" type="uncertainty" target="#P-3.8-l64" resp="#P-3.8-reviewer">Cede and final domo remain compatible with the image. Other surviving strokes are not completed into a phrase; the gaps remain photographic illegibility, not source omission.</note>
+        <note xml:id="P-3.8-note-64" n="64" type="uncertainty" target="#P-3.8-l64" resp="#P-3.8-reviewer">The visible group tentatively reads cedet, with a narrow terminal t before the following pale group, rather than cede. Domo remains supported; other faded groups remain illegible gaps.</note>
         <note xml:id="P-3.8-note-65" n="65" type="uncertainty" target="#P-3.8-l65" resp="#P-3.8-reviewer">The final couplet begins image 94 left and is followed by the next large initial. Si modo quisquam and amantes remain tentative; the source does not justify an unqualified complete reading.</note>
         <note xml:id="P-3.8-note-66" n="66" type="uncertainty" target="#P-3.8-l66" resp="#P-3.8-reviewer">The enlarged middle remains compatible with the tentative segmentation puluere mutet. No preposition or further ending is imported from another text; the uncertainty is retained.</note>
-      </div>
+      <note xml:id="P-3.8-note-fresh-44" n="44" target="#P-3.8-l44" type="observation">Fresh enlargement distinguishes litus after uia, with a tall l, narrow i and the following t/us sequence, rather than the former tellus. The rest of the verse is unchanged.</note></div>
     </back>
   </text>
 </TEI>

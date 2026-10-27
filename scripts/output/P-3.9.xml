@@ -10,7 +10,7 @@
           <resp>First-pass image transcription and TEI encoding</resp>
           <name>OpenAI Codex</name>
         </respStmt>
-      <respStmt xml:id="P-3.9-reviewer"><resp>Independent second-agent reading of every extant source verse and evidence note; not human approval</resp><name>OpenAI Codex, review_y agent</name></respStmt></titleStmt>
+      <respStmt xml:id="P-3.9-reviewer"><resp>Independent second-agent reading of every extant source verse and evidence note; not human approval</resp><name>OpenAI Codex, review_y agent</name></respStmt><respStmt xml:id="P-3.9-fresh-reviewer"><resp>Fresh independent source rereading of all 68 extant verses and all 35 existing editorial notes</resp><name>OpenAI Codex /root/w_review_b</name></respStmt></titleStmt>
       <publicationStmt>
         <p>Amores Project local working transcription, 9 September 2026. Draft; not a scholarly approved edition.</p>
       </publicationStmt>
@@ -77,7 +77,7 @@
     </encodingDesc>
     <revisionDesc status="independently-reviewed"><change when="2026-09-09" who="#P-3.9-reviewer">Rechecked the changed note68 against the enlarged95left boundary: the next two lines are the opening couplet of3.10, not a heading. No verse text or source order changed.</change><change when="2026-09-09" who="#P-3.9-reviewer">Independent second-agent source review of all 68 verses and every editorial note. Encoded previously unrepresented source corrections at8 and40 and the et ligature within etiam18. Cleared supported readings at7,22,26,49,51; qualified the contraction expansion43. Retained faded names and the unreadable ending27 conservatively. Full pages94–95 establish an actual alternate-line inset; the header now records its source basis. No human approval is implied.</change>
       <change when="2026-09-09" who="#P-3.9-encoder">Completed first reading from source images and enlarged crops, with line coverage and evidence notes. Independent second reading not yet performed.</change>
-    </revisionDesc>
+    <change when="2026-10-26" who="#P-3.9-fresh-reviewer">Fresh complete source rereading of verses 1–68 and all 35 existing notes against actual BnF scan copies recovered from Commons, in full-spread context and enlarged sequential bands/row crops. One verse position changed:21 the pale sequence tentatively reads patris maro rather than assured pater plus tentative ismario. The changed group is wholly unclear and final orphi remains unclear. Every other verse, heading fragment, source addition/cancellation, gap, punctuation and inset was retained after fresh reading. All original rectangles and source navigation retained; previous review evidence remains historical.</change></revisionDesc>
   </teiHeader>
   <facsimile>
     <surface n="image 94" xml:id="P-3.9-image-94" ulx="0" uly="0" lrx="5811" lry="3969">
@@ -200,7 +200,7 @@
           <l n="20" xml:id="P-3.9-l20" facs="#P-3.9-zone-20" rend="indent">Omnibus obscuras inicit illa manus</l>
         </lg>
         <lg type="couplet" n="11">
-          <l n="21" xml:id="P-3.9-l21" facs="#P-3.9-zone-21">Quid pater <unclear>ismario</unclear> quid mater profuit <unclear>orphi</unclear></l>
+          <l n="21" xml:id="P-3.9-l21" facs="#P-3.9-zone-21">Quid <unclear reason="faded">patris maro</unclear> quid mater profuit <unclear reason="faded">orphi</unclear></l>
           <l n="22" xml:id="P-3.9-l22" facs="#P-3.9-zone-22" rend="indent">Carmine quid uictas obstipuisse feras</l>
         </lg>
         <lg type="couplet" n="12">
@@ -311,7 +311,7 @@
         <note xml:id="P-3.9-note-14" n="14" type="uncertainty" target="#P-3.9-l14" resp="#P-3.9-reviewer">Egressum tectis is partly obscured by fading and diagonal surface marks. The remaining pulcher iule tuis is clearer; the name retains its visible initial i.</note>
         <note xml:id="P-3.9-note-16" n="16" type="observation" target="#P-3.9-l16" resp="#P-3.9-reviewer">The supralinear stroke on cu is encoded as an abbreviation expanded cum. Other small dark strokes near the opening phrase are not assigned a historical hand.</note>
         <note xml:id="P-3.9-note-19" n="19" type="observation" target="#P-3.9-l19" resp="#P-3.9-reviewer">The manuscript spells inportuna with n before p; no normalization is made.</note>
-        <note xml:id="P-3.9-note-21" n="21" type="uncertainty" target="#P-3.9-l21" resp="#P-3.9-reviewer">The two names are faded: tentative ismario and orphi preserve the visible sequence, with uncertain letters marked.</note>
+        <note xml:id="P-3.9-note-21" n="21" type="uncertainty" target="#P-3.9-l21" resp="#P-3.9-reviewer">Fresh enlarged reading tentatively separates patris maro, with the is-like ending before the m-like initial, rather than the former assured pater followed by tentative ismario. Both this pale group and final orphi remain unclear; no normalized name or complete expected wording is imposed.</note>
         <note xml:id="P-3.9-note-22" n="22" type="observation" target="#P-3.9-l22" resp="#P-3.9-reviewer">The independent enlarged reading supports obstipuisse, including the narrow i after t. The word is retained and unclear removed.</note>
         <note xml:id="P-3.9-note-23" n="23" type="uncertainty" target="#P-3.9-l23" resp="#P-3.9-reviewer">The final phrase is tentatively segmented a linon altis; the name and following letters are faded and not silently normalized.</note>
         <note xml:id="P-3.9-note-24" n="24" type="observation" target="#P-3.9-l24" resp="#P-3.9-reviewer">The entire verse is markedly darker and smaller than its neighbours. It is encoded as darker ink, with the terminal abbreviation on Dicit expanded Dicitur. This records the visible state without inventing an erased underlying verse or naming a correcting hand.</note>

@@ -13,7 +13,7 @@
           <resp>TEI encoding of the source reader’s first-pass transcription</resp>
           <name>OpenAI Codex /root</name>
         </respStmt>
-      <respStmt xml:id="W-3.9-reviewer"><resp>Independent second source-image reading and TEI review of every extant verse</resp><name>OpenAI Codex /root/w_review_c</name></respStmt></titleStmt>
+      <respStmt xml:id="W-3.9-reviewer"><resp>Independent second source-image reading and TEI review of every extant verse</resp><name>OpenAI Codex /root/w_review_c</name></respStmt><respStmt xml:id="W-3.9-fresh-reviewer"><resp>Fresh corpus source reading of every extant verse and every note; prior XML encoder, distinct from the original source reader</resp><name>OpenAI Codex /root</name></respStmt></titleStmt>
       <publicationStmt>
         <p>Amores Project working transcription, 26 October 2026; independently reviewed against the source images; not human-approved.</p>
       </publicationStmt>
@@ -49,7 +49,7 @@
     </encodingDesc>
     <revisionDesc status="reviewed">
       <change when="2026-10-26" who="#W-3.9-encoder">First reader inspected and transcribed all 68 verses from the source images; independent source review pending.</change>
-    <change when="2026-10-26" who="#W-3.9-reviewer">Independent second source pass checked every extant verse, source heading, page furniture and full-page line starts; corrected supported readings and documented the source layout in W-3.9-second-pass.md.</change><change when="2026-10-26" who="#W-3.9-reviewer">Focused independent image reinspection of the enlarged opening initial and following letters corrected source capitalization Memnona to MEmnona; remaining opening letters and second-verse layout rechecked before resealing.</change></revisionDesc>
+    <change when="2026-10-26" who="#W-3.9-reviewer">Independent second source pass checked every extant verse, source heading, page furniture and full-page line starts; corrected supported readings and documented the source layout in W-3.9-second-pass.md.</change><change when="2026-10-26" who="#W-3.9-reviewer">Focused independent image reinspection of the enlarged opening initial and following letters corrected source capitalization Memnona to MEmnona; remaining opening letters and second-verse layout rechecked before resealing.</change><change when="2026-10-26" who="#W-3.9-fresh-reviewer">Fresh corpus source reading rechecked all 68 verses, every evidence note, headings, page furniture and full-page line starts. Supported source corrections: verse 35 fasto to fasso. Prior independent second-pass history is retained; changed readings were additionally corroborated from native crops by /root/w_review_c. See W-3.9-second-pass.md.</change></revisionDesc>
   </teiHeader>
   <facsimile>
     <surface xml:id="W-3.9-p141" n="141" ulx="0" uly="0" lrx="1812" lry="2864">
@@ -203,7 +203,7 @@
           <l n="34" xml:id="W-3.9-l34" facs="#W-3.9-zone-34" rend="indent">Sistra? quid in vacuo secubuisse toro?</l>
         </lg>
         <lg type="couplet">
-          <l n="35" xml:id="W-3.9-l35" facs="#W-3.9-zone-35">Cum rapiant mala fata bonos, (ignoscite fasto)</l>
+          <l n="35" xml:id="W-3.9-l35" facs="#W-3.9-zone-35">Cum rapiant mala fata bonos, (ignoscite fasso)</l>
           <l n="36" xml:id="W-3.9-l36" facs="#W-3.9-zone-36" rend="indent">Sollicitor nullos esse putare Deos.</l>
         </lg>
         <lg type="couplet">

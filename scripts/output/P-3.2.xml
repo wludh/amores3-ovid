@@ -10,7 +10,7 @@
           <resp>First-pass image transcription and TEI encoding</resp>
           <name>OpenAI Codex</name>
         </respStmt>
-      <respStmt xml:id="P-3.2-reviewer"><resp>Independent second-agent reading of every extant source verse and evidence note; not human approval</resp><name>OpenAI Codex, review_y agent</name></respStmt></titleStmt>
+      <respStmt xml:id="P-3.2-reviewer"><resp>Independent second-agent reading of every extant source verse and evidence note; not human approval</resp><name>OpenAI Codex, review_y agent</name></respStmt><respStmt xml:id="P-3.2-fresh-reviewer"><resp>Fresh independent source reading of every represented verse and evidence note</resp><name>OpenAI Codex /root</name></respStmt></titleStmt>
       <publicationStmt>
         <p>Amores Project local working transcription, 9 September 2026. Draft; not a scholarly approved edition.</p>
       </publicationStmt>
@@ -41,7 +41,7 @@
             <surrogates>
               <p><ref target="https://gallica.bnf.fr/ark:/12148/btv1b9066797j">BnF Gallica Latin 8242</ref></p>
               <p>The original full-resolution digital images and enlarged crops were inspected for this first pass. Gallica source reuse conditions apply. No text was populated from LL or another witness.</p>
-            </surrogates>
+            <p>Fresh corpus review inspected the original-resolution archival copies: <ref target="https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(085_of_101).jpg">archival copy of image 85</ref> <ref target="https://commons.wikimedia.org/wiki/File:1.%C2%B0_P._Ovidii_Nasonis_hero%C3%AFdes_-_initium,_finis,_aliaque_passim_desiderantur._%E2%80%94_2.%C2%B0_Ejusdem_amorum_libri_tres_-_non_pauca_passim_desiderantur._-_btv1b9066797j_(086_of_101).jpg">archival copy of image 86</ref>. Their pixel dimensions match the original Gallica canvases. The site facsimile index and fresh review ledger retain the file hashes and provenance.</p></surrogates>
           </additional>
         </msDesc>
       </sourceDesc>
@@ -61,7 +61,7 @@
           <p>Significant observed punctuation is retained schematically, without adding systematic modern sentence punctuation.</p>
         </punctuation>
         <segmentation>
-          <p>Each l represents a verse and physical written line at its canonical poem position. Elegiac couplets and even-line indentation are editorial display grouping. Page breaks follow the photographed left/right physical pages. Facsimile zones reproduce the existing annotation rectangles unchanged; they may include neighbouring ink and exclude marginal annotations.</p>
+          <p>Each l represents a verse and physical written line at its canonical poem position. Elegiac couplet grouping is editorial. Display insets follow the observed full-page line starts; no inset is inferred solely from verse parity. Page breaks follow the photographed left/right physical pages. Facsimile zones reproduce the existing annotation rectangles unchanged; they may include neighbouring ink and exclude marginal annotations.</p>
         </segmentation>
         <interpretation>
           <p>First-pass evidence notes are a working queue for an independent agent, not assignments for the human editor. Genuine source uncertainty remains local; consequential unresolved interpretation is distinguished from ordinary observation.</p>
@@ -77,7 +77,7 @@
     </encodingDesc>
     <revisionDesc status="independently-reviewed"><change when="2026-09-09" who="#P-3.2-reviewer">Independent second-agent source review of all 84 verses and every editorial note. Corrected circo to circum at65 and revised the uncertain final vowel of rato at81; all prior uncertainties and the actual addition om at62 remain explicit. No human approval is implied.</change>
       <change when="2026-09-09" who="#P-3.2-encoder">Completed first reading from source images and enlarged crops, with line coverage and evidence notes. Independent second reading not yet performed.</change>
-    </revisionDesc>
+    <change when="2026-10-26" who="#P-3.2-fresh-reviewer">Fresh independent source reading of every verse, full-page line starts and every evidence note. Supported changes and dispositions are documented in P-3.2-second-pass.md; earlier reports and review seals are retained as history.</change></revisionDesc>
   </teiHeader>
   <facsimile>
     <surface n="image 85" xml:id="P-3.2-image-85" ulx="0" uly="0" lrx="5815" lry="3969">
@@ -279,7 +279,7 @@
         </lg>
         <lg type="couplet" n="26">
           <l n="51" xml:id="P-3.2-l51" facs="#P-3.2-zone-51">Auguribus phoebus phoebe uenatibus adsit</l>
-          <l n="52" xml:id="P-3.2-l52" facs="#P-3.2-zone-52" rend="indent">Artifices in te uerte minerua manu</l>
+          <l n="52" xml:id="P-3.2-l52" facs="#P-3.2-zone-52" rend="indent">Artifices in te uerte minerua manus</l>
         </lg>
         <lg type="couplet" n="27">
           <l n="53" xml:id="P-3.2-l53" facs="#P-3.2-zone-53">Ruricolae cereri teneroque adsurgite baccho</l>
@@ -291,7 +291,7 @@
         </lg>
         <lg type="couplet" n="29">
           <l n="57" xml:id="P-3.2-l57" facs="#P-3.2-zone-57">Daque nouae mentem <unclear reason="stained">dominae patiatur</unclear> amari</l>
-          <l n="58" xml:id="P-3.2-l58" facs="#P-3.2-zone-58" rend="indent">Annuit <choice><abbr><g ref="#P-3.2-et">&amp;</g></abbr><expan>et</expan></choice> motu signa <unclear reason="stained">secunda</unclear> dedit</l>
+          <l n="58" xml:id="P-3.2-l58" facs="#P-3.2-zone-58" rend="indent">Annuit <choice><abbr><g ref="#P-3.2-et">&amp;</g></abbr><expan>et</expan></choice> motu signa <unclear reason="stained">secunda</unclear> dedit <pc>.</pc></l>
         </lg>
         <lg type="couplet" n="30">
           <l n="59" xml:id="P-3.2-l59" facs="#P-3.2-zone-59">Quod dea promisit <unclear reason="faded">promittas</unclear> ipsa rogamus</l>
@@ -360,7 +360,7 @@
         <note xml:id="P-3.2-note-29" n="29" type="uncertainty" target="#P-3.2-l29" resp="#P-3.2-reviewer">The personal-name sequence milanion atlantis is severely faded. A tentative continuous reading is retained in unclear rather than asserted as certain.</note>
         <note xml:id="P-3.2-note-33" n="33" type="uncertainty" target="#P-3.2-l33" resp="#P-3.2-reviewer">The diagonal obstruction crosses arsi at the opening of the left page. Its partly visible reading is marked unclear; no wholly lost letters have been supplied as established text.</note>
         <note xml:id="P-3.2-note-35" n="35" type="uncertainty" target="#P-3.2-l35" resp="#P-3.2-reviewer">The diagonal obstruction also crosses the short word read ex. Local uncertainty preserves the partial source evidence.</note>
-        <note xml:id="P-3.2-note-52" n="52" type="observation" target="#P-3.2-l52" resp="#P-3.2-reviewer">The final word is visibly manu. No final s is supplied from grammatical expectation.</note>
+        <note xml:id="P-3.2-note-52" n="52" type="observation" target="#P-3.2-l52" resp="#P-3.2-reviewer">Fresh direct inspection shows a separate final long-s after manu, so the reading is corrected to manus. The earlier statement that no s is visible is withdrawn. A different reader, /root/w_review_b, independently confirmed the native source crop.</note>
         <note xml:id="P-3.2-note-54" n="54" type="uncertainty" target="#P-3.2-l54" resp="#P-3.2-reviewer">The short word following castora is faded; placet remains a tentative reading after independent inspection of the local strokes.</note>
         <note xml:id="P-3.2-note-57" n="57" type="uncertainty" target="#P-3.2-l57" resp="#P-3.2-reviewer">A dark patch overlaps the central phrase in lines 57–58. The readings dominae patiatur and secunda are retained locally as unclear. The patch is not encoded as a scribal deletion.</note>
         <note xml:id="P-3.2-note-59" n="59" type="uncertainty" target="#P-3.2-l59" resp="#P-3.2-reviewer">The middle of promittas is faint and physically disturbed; the tentative word remains unclear. No invented underlying cancellation is asserted.</note>
@@ -368,6 +368,7 @@
         <note xml:id="P-3.2-note-80" n="80" type="observation" target="#P-3.2-l80" resp="#P-3.2-reviewer">The sequence in the photograph is Sint mea sint dominae fac rata uota meae, followed by Sunt dominae rat<unclear reason="faded">o</unclear> uota meae mea uota supersunt. Both distinct opening verbs and the repetitions are retained.</note>
         <note xml:id="P-3.2-note-65" n="65" type="observation" target="#P-3.2-l65" resp="#P-3.2-reviewer">The end of the enlarged line reads circum, including faint final nasal strokes, rather than first-pass circo.</note>
         <note xml:id="P-3.2-note-81" n="81" type="uncertainty" target="#P-3.2-l81" resp="#P-3.2-reviewer">The final vowel of the word after dominae is rounded, favoring rato. It is less securely differentiated in this faded stretch, so the revised o remains local unclear.</note>
+      <note xml:id="P-3.2-note-38" n="38" type="uncertainty" target="#P-3.2-l38" resp="#P-3.2-fresh-reviewer">A small cross-like or hooked mark stands after manu. Its function is not established, so it is documented without treating it as a word or assigning a modern punctuation value.</note>
       </div>
     </back>
   </text>

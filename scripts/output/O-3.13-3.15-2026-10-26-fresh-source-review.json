@@ -1,0 +1,342 @@
+{
+  "date": "2026-10-26",
+  "witness": "O",
+  "poems": [
+    "3.13",
+    "3.14",
+    "3.15"
+  ],
+  "review_type": "fresh-complete-third-reader-source-audit",
+  "reviewer_agent": "/root",
+  "reviewer_was_original_first_encoder": true,
+  "original_independent_reviews_retained": true,
+  "sources": [
+    {
+      "printed_page": 66,
+      "original_image_url": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0118.jp2/full/max/0/default.jpg",
+      "inspected_local_full_page": "/tmp/amores-full-review/O/66.jpg",
+      "image_sha256": "d67aa4b63cd9c36a0bc1ee3aa793a8fcac5e978873ad8530b409831cdabb37a5",
+      "normal_archive_download": null
+    },
+    {
+      "printed_page": 67,
+      "original_image_url": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0119.jp2/full/max/0/default.jpg",
+      "inspected_local_full_page": "/tmp/amores-full-review/O/67.jpg",
+      "image_sha256": "f868931823193266557591b786b03d6f298c1be1976a32267c20129a17d93a08",
+      "normal_archive_download": null
+    },
+    {
+      "printed_page": 68,
+      "original_image_url": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0120.jp2/full/max/0/default.jpg",
+      "inspected_local_full_page": "/tmp/amores-full-review/O/68.jpg",
+      "image_sha256": "2fef240963f96fa4225212f7e84403f0b8b10b593f6e14254b5265b30bf6c1b4",
+      "normal_archive_download": "https://archive.org/download/operaovid03oviduoft/page/n115.jpg"
+    },
+    {
+      "printed_page": 69,
+      "original_image_url": "https://iiif.archive.org/image/iiif/3/operaovid03oviduoft%2Foperaovid03oviduoft_jp2.zip%2Foperaovid03oviduoft_jp2%2Foperaovid03oviduoft_0121.jp2/full/max/0/default.jpg",
+      "inspected_local_full_page": "/tmp/amores-full-review/O/69.jpg",
+      "image_sha256": "e34763ae228268c429dce0815de315dc772cf0b0d75d5237f8b56bd4cc7d9bce",
+      "normal_archive_download": null
+    }
+  ],
+  "verse_count": 106,
+  "note_count": 49,
+  "rows": [
+    {
+      "witness": "O",
+      "poem": "3.13",
+      "verse_count": 36,
+      "freshly_read_note_count": 17,
+      "source_pages": [
+        66,
+        67
+      ],
+      "source_and_encoding_changes": [],
+      "note_dispositions": [
+        {
+          "id": "O-3.13-note-1",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: Heading XIII. begins the poem on printed page66. Both full pages have visible alternating insets, recorded explicitly. The source spelling is Faliscis."
+        },
+        {
+          "id": "O-3.13-note-2",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The source prints Moenia contigimus victa, Camille, tibi. with commas around Camille."
+        },
+        {
+          "id": "O-3.13-note-4",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The source prints indigenamque bovem with a final colon."
+        },
+        {
+          "id": "O-3.13-note-6",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The source word is clivis, retained as printed."
+        },
+        {
+          "id": "O-3.13-note-7",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The printed adjective is praenubilus, retained without an imported replacement."
+        },
+        {
+          "id": "O-3.13-note-8",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The spelling is Adspice, followed by a colon; a semicolon ends the verse."
+        },
+        {
+          "id": "O-3.13-note-11",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The source prints praesonuit sollemni tibia cantu; the doubled l in sollemni is retained, with a final comma."
+        },
+        {
+          "id": "O-3.13-note-15",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: Neither verse15 nor verse16 has terminal punctuation; verse17 ends in a semicolon."
+        },
+        {
+          "id": "O-3.13-note-18",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The source contraction Invisast is retained. The verse ends with a colon."
+        },
+        {
+          "id": "O-3.13-note-20",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The source prints inceptam destituisse fugam with a final semicolon before the page break."
+        },
+        {
+          "id": "O-3.13-note-21",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The printed verb is incessitur. The running head uses XIIII for the following poem14; the source numbering is retained in forme work."
+        },
+        {
+          "id": "O-3.13-note-23",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The printed contraction deast is retained without silently expanding it."
+        },
+        {
+          "id": "O-3.13-note-24",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The source prints Praeverrunt and a colon after vias."
+        },
+        {
+          "id": "O-3.13-note-27",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The source spelling is Graio, retained as printed."
+        },
+        {
+          "id": "O-3.13-note-31",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The printed contraction Argivast and the colon after facies are retained."
+        },
+        {
+          "id": "O-3.13-note-32",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The source proper name is Halaesus; verses32–33 have no terminal punctuation."
+        },
+        {
+          "id": "O-3.13-note-36",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The final verse has a comma after mihi and an exclamation mark after suo. The following heading XIIII. begins the next poem."
+        }
+      ],
+      "current_xml_sha256": "c9b87d095c8a2bf7958479407b3783123d1f7e4ae8242158abd8fc13102ff063",
+      "original_independent_reviewer": "/root/review_y",
+      "original_review_report_sha256": "843ddd3912fe7317311ddfb8eee5ea485a735c8879e7b6ff22c14e1ff13c003b"
+    },
+    {
+      "witness": "O",
+      "poem": "3.14",
+      "verse_count": 50,
+      "freshly_read_note_count": 19,
+      "source_pages": [
+        67,
+        68
+      ],
+      "source_and_encoding_changes": [],
+      "note_dispositions": [
+        {
+          "id": "O-3.14-note-1",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The source heading is XIIII., using additive Roman numerals. Actual full-page starts on both pages establish the explicit alternating insets."
+        },
+        {
+          "id": "O-3.14-note-2",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The source prints a comma after mihi followed by an asterisk. The asterisk is retained as a source mark with unspecified function; it is not assigned an inferred critical meaning."
+        },
+        {
+          "id": "O-3.14-note-10",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The source prints summovet and a terminal colon after sera."
+        },
+        {
+          "id": "O-3.14-note-15",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The punctuation is a semicolon after facito and a comma after negato."
+        },
+        {
+          "id": "O-3.14-note-17",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The source has a colon after exigat and no terminal punctuation."
+        },
+        {
+          "id": "O-3.14-note-18",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The source spelling is inple, with an exclamation mark after pudor."
+        },
+        {
+          "id": "O-3.14-note-19",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The printed ending is omnis, retained without an imported replacement."
+        },
+        {
+          "id": "O-3.14-note-20",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The page ends after tuo! and carries the printer's signature 5* in the footer; the signature is encoded separately from verse wording."
+        },
+        {
+          "id": "O-3.14-note-22",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The spelling inpositum and the final semicolon are retained."
+        },
+        {
+          "id": "O-3.14-note-23",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The printed verb is condatur, retained as read on the source image."
+        },
+        {
+          "id": "O-3.14-note-28",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The source prints diffiteatur, ending the verse with a semicolon."
+        },
+        {
+          "id": "O-3.14-note-31",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The spellings totiens and recipique are retained, with a final question mark."
+        },
+        {
+          "id": "O-3.14-note-34",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The source prints dentis, with a final question mark."
+        },
+        {
+          "id": "O-3.14-note-39",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: Verses39–40 are enclosed in literal printed square brackets. These reproduce the edition's brackets without asserting a scribal deletion. The contraction necessest is retained, followed by a semicolon."
+        },
+        {
+          "id": "O-3.14-note-41",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The source has a colon after inquiram and a comma after parabis."
+        },
+        {
+          "id": "O-3.14-note-45",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The repeated bene visa is printed in both clauses; a colon ends the verse."
+        },
+        {
+          "id": "O-3.14-note-47",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The source contraction palmast is retained, followed by a comma."
+        },
+        {
+          "id": "O-3.14-note-48",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The phrase non feci is enclosed in quotation marks, represented schematically by curly single quotes. A colon follows memor."
+        },
+        {
+          "id": "O-3.14-note-50",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The poem ends with a comma after causa and an exclamation mark after tuo; the next source heading is XV."
+        }
+      ],
+      "current_xml_sha256": "2a0af1748ce50125ecaef3f238c7b2a7191e5c0627c3c1bb9fa03a87fa9888ce",
+      "original_independent_reviewer": "/root/review_y",
+      "original_review_report_sha256": "46f160efc776c96eb2cc567ae325f89f12891a4b17116047abb4fab6036c79e6"
+    },
+    {
+      "witness": "O",
+      "poem": "3.15",
+      "verse_count": 20,
+      "freshly_read_note_count": 13,
+      "source_pages": [
+        68,
+        69
+      ],
+      "source_and_encoding_changes": [],
+      "note_dispositions": [
+        {
+          "id": "O-3.15-note-1",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The source heading is XV. Both full pages show the explicitly recorded alternating insets. A colon follows Amorum."
+        },
+        {
+          "id": "O-3.15-note-3",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The source spelling is conposui, with the proper name Paeligni."
+        },
+        {
+          "id": "O-3.15-note-4",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The complete printed verse is enclosed in parentheses and has no additional terminal punctuation."
+        },
+        {
+          "id": "O-3.15-note-5",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The source prints Siquid as one word and proavis in full."
+        },
+        {
+          "id": "O-3.15-note-7",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The source has a comma after Vergilio and a semicolon after Catullo."
+        },
+        {
+          "id": "O-3.15-note-9",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: A printed asterisk precedes Quam; its function is left unspecified. The verb is coegerat, not replaced from another witness."
+        },
+        {
+          "id": "O-3.15-note-13",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The printed quotation is interrupted by dicat outside the quotation. Both pairs of quotation marks across13–14 are represented schematically with curly single quotes."
+        },
+        {
+          "id": "O-3.15-note-14",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The source word is Quantulacumque. The full stop follows voco before the closing quotation mark."
+        },
+        {
+          "id": "O-3.15-note-15",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The source prints Amathusia culti, retained as read in the enlarged image."
+        },
+        {
+          "id": "O-3.15-note-17",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The printed proper name is Lyaeus, followed by a colon."
+        },
+        {
+          "id": "O-3.15-note-18",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The printed contraction Pulsandast is retained without expansion."
+        },
+        {
+          "id": "O-3.15-note-19",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The source spelling is Inbelles. Commas follow elegi, Musa and valete."
+        },
+        {
+          "id": "O-3.15-note-20",
+          "status": "resolved",
+          "assessment": "Rechecked directly against the actual page and enlarged bands: The poem ends with an exclamation mark after opus. The full source page has a short horizontal closing rule and blank space below the final verse; no further poem text follows on this page."
+        }
+      ],
+      "current_xml_sha256": "3870dad2a666a312f9399d83701ca3dde465c6d9d45599653fd0aec9207c8b49",
+      "original_independent_reviewer": "/root/review_y",
+      "original_review_report_sha256": "af56f371b436d9e3321b8c322848043c1c1d79783e04977fc288103bfb951193"
+    }
+  ],
+  "report_sha256": "02dd078fb784ab12fa18456268004e39c65f6a09c7f6e70f130c1899108f6533",
+  "no_xml_changes": true
+}

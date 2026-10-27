@@ -17,7 +17,7 @@
           <resp>Independent second source-image reading, line-by-line verification, corrections and encoding review</resp>
           <name>OpenAI Codex /root/w_review_a</name>
         </respStmt>
-      </titleStmt>
+      <respStmt xml:id="W-3.4-fresh-reviewer"><resp>Fresh corpus source reading of every extant verse and every note; prior XML encoder, distinct from the original source reader</resp><name>OpenAI Codex /root</name></respStmt></titleStmt>
       <publicationStmt>
         <p>Amores Project working transcription, 26 October 2026; independent second source-image pass complete; human scholarly approval not implied.</p>
       </publicationStmt>
@@ -54,7 +54,7 @@
     <revisionDesc status="reviewed">
       <change when="2026-10-26" who="#W-3.4-encoder">First reader inspected and transcribed all 48 verses from the source images; independent source review pending.</change>
       <change when="2026-10-26" who="#W-3.4-reviewer">Independent reviewer inspected every extant verse in full-page context and enlarged source-image bands, corrected source readings and page furniture, and checked observed line starts. Review report and exact XML/report hashes are recorded in the companion ledger.</change>
-    </revisionDesc>
+    <change when="2026-10-26" who="#W-3.4-fresh-reviewer">Fresh corpus source reading rechecked all 48 verses, every evidence note, headings, page furniture and full-page line starts. No further verse wording changes were supported. Prior independent second-pass history is retained; changed readings were additionally corroborated from native crops by /root/w_review_c. See W-3.4-second-pass.md.</change></revisionDesc>
   </teiHeader>
   <facsimile>
     <surface xml:id="W-3.4-p133" n="133" ulx="0" uly="0" lrx="1798" lry="2876">

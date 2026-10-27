@@ -27,79 +27,79 @@
     "inputSha256": {
       "docs/data/latin-frequency.json": "0071be2a4271288610d8217144819e5177dcca1235b78b41f6d97693b59e04f7",
       "scripts/sources/vocabulary/tei-corpus.json": "f365cc7a6f9281c9402bbcc336e2e3cc4efcb69f1f9eaa9c04e1cd04a253c19f",
-      "docs/data/tei/P/3.1.xml": "3925c157427ad457b9841656bfda3af6edf902ea55e802a26086697672e9dfbc",
-      "docs/data/tei/Y/3.1.xml": "f6989f5791b4b4da4ff6fa632a9c0147f527d2467a92db88d09bbbf8f2b584e5",
-      "docs/data/tei/S/3.1.xml": "d1056e804785873200ab4ca6e1dfb121d580cf11443f234d4d3902842eee1857",
-      "docs/data/tei/O/3.1.xml": "45794e148d1517eba1c9e57e09d5e390213413af75da0e7769dd505adbfeab76",
+      "docs/data/tei/P/3.1.xml": "e1bba614f3fd63042f3c3e63f64b9371977000c2983a6edfbd44c18438463e6a",
+      "docs/data/tei/Y/3.1.xml": "c4a946291fc11c6dfbc17a096cba3d18d111480fc33dfdef848e3286af54b613",
+      "docs/data/tei/S/3.1.xml": "4ab6e994d66b90504f61ae2b0775c1a8a396dc91fd614608dc982db87d9a576d",
+      "docs/data/tei/O/3.1.xml": "d024c2f155599da07f6600b3be47184bf68caed1674bf31c09a5f476ac6ac0b1",
       "docs/data/tei/LL/3.1.xml": "eeed28fa65888925b15a87a0278a876b0c4b61e0c739272ec9fb043282ebe2be",
-      "docs/data/tei/P/3.2.xml": "b415627995f2d59b5570a23c008ec2749827006b980f36965d9b1450a3fe6c3c",
-      "docs/data/tei/Y/3.2.xml": "2c4d362b78ed5a8d15a96806ad521d7a3e083ef4fccc92e1083512ec12c629a6",
-      "docs/data/tei/S/3.2.xml": "7c2e9cf92571cfaac9e346f22611bf1cbfc156f160bc629f16b547d445f86a17",
-      "docs/data/tei/O/3.2.xml": "9cd42192cb4b67f4c6f7eeec4533f61feede378da3259e3c3d64c5ff5799a124",
+      "docs/data/tei/P/3.2.xml": "fac174d42cef2c7c5129aea68b782e2a29bd38c5e674a50b4378165489a993b2",
+      "docs/data/tei/Y/3.2.xml": "b6613fd4648f2ca8a62848aaf8bc4ae2a393f4cbec582917323b3a55a84062ff",
+      "docs/data/tei/S/3.2.xml": "74f31380eee0f5bbe5b47a5e997fb2f352d58b60ea87133bf5f0f6beb834d1f2",
+      "docs/data/tei/O/3.2.xml": "b7bb40c927606a31eb55464bc320852c51d1be78158b61877d2fc3d4202d8b48",
       "docs/data/tei/LL/3.2.xml": "33fd8de45c6ef42f096cb2332d9f5af1b6ea526ee837a9b5b98aef5be4c19f25",
-      "docs/data/tei/P/3.3.xml": "15dd0bace511ca98a2723ebfb96b5f190b5d14d8d214c69e9147b66caf47ba8a",
-      "docs/data/tei/Y/3.3.xml": "461314320604a59b89821340b35372dec31fcf4da4712a680f9191d6bda58ade",
-      "docs/data/tei/S/3.3.xml": "cf344617d25f5d8cc877e198d67413c99e9927500ba8027b963e4d4e4a4a6a7c",
-      "docs/data/tei/O/3.3.xml": "4979614782f2573dfe00907d740ee22854b3ff375f725d4bf23aefa1441ea405",
+      "docs/data/tei/P/3.3.xml": "64f1ad6392e2bffcf15ab58502dd4a1967bb3d4b22e457429b849e7342715224",
+      "docs/data/tei/Y/3.3.xml": "8831cbd30f08fea0e67cea953aec32cc8a6e35cf76432dfe4671fca1b0f6b4f2",
+      "docs/data/tei/S/3.3.xml": "20b4394fa21844c5715d4c017134ab77a03a429d56ed5bf37fe56dd1d6ea8c62",
+      "docs/data/tei/O/3.3.xml": "bad4c273eb1127ef3c96670556b1036fffee2d910671df217d81f3e1ea0c8b36",
       "docs/data/tei/LL/3.3.xml": "16762216bd1fae553a4187dddb6102e25413e68e0589b6ad231efcb17c2a74ab",
-      "docs/data/tei/P/3.4.xml": "a1bfc741890597f356d5990d11badbc37141fd6222e12f145f0ad1b2fcf39eb4",
-      "docs/data/tei/Y/3.4.xml": "066d4d396f3e4416d7f28c07754a9fc6dba9f865c2147b92ff85b7b33b80ae42",
-      "docs/data/tei/S/3.4.xml": "453554784c0ef986b37c8aab4bf60dd99fa711bfe88c330c640fdd2d91a7c329",
-      "docs/data/tei/O/3.4.xml": "08f593ccb4f62bc594949338b342102b08b63817e5ff1abd37d010898f98f7e7",
+      "docs/data/tei/P/3.4.xml": "760a5c3e51e551b636bc5a87ccc6ebedf2dbda3b12230386b8ba17244fb8dcad",
+      "docs/data/tei/Y/3.4.xml": "38f78a9a01c21c3f7c5a43e993ac6c1424fa7eb8245553d8ca6f83d7f9664d0c",
+      "docs/data/tei/S/3.4.xml": "65891086c9544842e1df2e1838b5b163de25e351a0454d193c170f55d7c9ba92",
+      "docs/data/tei/O/3.4.xml": "2b5e45ec4213b34b7fff4babde8ce24b2d1953a67b4163f55e2055a4d270640e",
       "docs/data/tei/LL/3.4.xml": "79a190cf943929047987cb7fcba5f8280e50bd595be15b162c7efe00b0dfdeb4",
-      "docs/data/tei/P/3.5.xml": "9dc16fb2153595e8689ad261b9c4a59c9c68b63a6e3f3401b696ead784e96e8b",
-      "docs/data/tei/Y/3.5.xml": "19f294c812985c5eb47d3ded9968e855f0ec81e7781aa605bbd3f794a9137ea4",
-      "docs/data/tei/S/3.5.xml": "dfa962c0f405d42d29cfc373835152ca729bb43608be57a453f35ea275f594ac",
-      "docs/data/tei/O/3.5.xml": "e4bfab0b16e377a6d7875986a2d7b413184bc9ee835687867a3fc42928faee3a",
+      "docs/data/tei/P/3.5.xml": "ed673386144816c2f3d7b274bcc3445f0b1f3c6ad818638f30990eabda42ba09",
+      "docs/data/tei/Y/3.5.xml": "d4d5c42a07d93d7685f22d6d839b4c36c2d56f32345cda3b33a3ac9cd7c68b89",
+      "docs/data/tei/S/3.5.xml": "32653d67afb71f826153d53bae060eaac48037ac5607558789b84a5deff78d7e",
+      "docs/data/tei/O/3.5.xml": "9823673ac7b008242e071516963a765b40bea79b1a52570c076279db504e310f",
       "docs/data/tei/LL/3.5.xml": "391c975871d9bfde55bdab7563fcb4da6a1b0f4f4487fd9aafbe40aaa62cb67d",
-      "docs/data/tei/P/3.6.xml": "b0d4e361e373d55e146b54c2bd8341eb8e846d1eda27554bf01cc587ac5742de",
-      "docs/data/tei/Y/3.6.xml": "75c104ae8f95b8100b61ebaab55bfda8dd5c80b31494bd5ff6153c86f02e5810",
-      "docs/data/tei/S/3.6.xml": "706f94bcce93cb7f5726b8f036f190e3106f45f57addb342b44f7ff173149883",
-      "docs/data/tei/O/3.6.xml": "5230a77c427ab988f161659b15853b5756f6ba0a5b386b19e4a9b87533d131ec",
+      "docs/data/tei/P/3.6.xml": "002caa96e5052460cb5e77e9ad64f6e55d8a804aad2f9b7919af54fb4ef72680",
+      "docs/data/tei/Y/3.6.xml": "111746a0f8e7b731d2badd9154a901d2d2e56e88f1dad282ff4762ea2e28439b",
+      "docs/data/tei/S/3.6.xml": "1f0a97c07b84a2361aa4f27676f8b4a5b63593fc48b5cf302da32eac058b9474",
+      "docs/data/tei/O/3.6.xml": "aaf836db7ca8288f30aa076e5734dc7bc20060057d48421f3f93749175fcb4ce",
       "docs/data/tei/LL/3.6.xml": "8c49e3d95cb25e3b580f033cc82447c9b15b22eba65de4023faf1edc1f71e59f",
-      "docs/data/tei/P/3.7.xml": "8649ab43f1021faf7e07570ed19c1ce0b394c69ab26a1719781ae6ef50f2213f",
-      "docs/data/tei/Y/3.7.xml": "5bde881b48c979a0ff2582b80cbe7d270e8882e76c1037b75840c80d21141317",
-      "docs/data/tei/S/3.7.xml": "02dfdfcc0f374992c23fd7539bf68e10b0bb16eab9d01e3e51b3d0860b76e21c",
-      "docs/data/tei/O/3.7.xml": "f9b5abf8a638f4ed42eecc7e6e647b381bd3652b1f2be372df5656734348ba86",
+      "docs/data/tei/P/3.7.xml": "2e2c1269e2efad49c15aef50c07edb8d8d54ae8f581dde6e75ce843834e01cbf",
+      "docs/data/tei/Y/3.7.xml": "0eaea8978586f79e016ecbad0b4149cc7d0eb3660cd9f9b06438ddaf830beacd",
+      "docs/data/tei/S/3.7.xml": "ddad58d7d4d4cd624f7556b9ac542a3c9252ded95433bffe9c8819b5f34d988f",
+      "docs/data/tei/O/3.7.xml": "51471eef2c0f6de0788fc4ad42ed20f0cb86733c05f6a54f958ead74861ac43b",
       "docs/data/tei/LL/3.7.xml": "b77538b7e13513feaec9cfb855c09d59c4bb3bfb61a12fc6b81f035f1b6620c3",
-      "docs/data/tei/P/3.8.xml": "43f623f31de927c399f2e8fc4ca932e5f5093bcdd240cf400ae09efb7c35e16a",
-      "docs/data/tei/Y/3.8.xml": "caf58c4e5b4ac3fa26eff77c3011e74ea37c7dea10068ea13b895b40329fc52a",
-      "docs/data/tei/S/3.8.xml": "6f312fd32b59d94e7fd86172cf6e5c01b92ebf4d602a719bc0d7692222346f0b",
-      "docs/data/tei/O/3.8.xml": "3aab856efa2884010907039ac2cd2c415ce1e99913f1328a3a91b7e093bb5930",
+      "docs/data/tei/P/3.8.xml": "8733a2d037592b7d4e688cc2c8b669baabc3d53bb4a8be3c686e1e03a902eb8d",
+      "docs/data/tei/Y/3.8.xml": "04253832ef67275855d7618d10a8f5506f3c4c7278f659538a28d03f47410a89",
+      "docs/data/tei/S/3.8.xml": "005ee9c591fb8b184b07c258e573c2444c2895afeda5b3c7d2497bb1548fca19",
+      "docs/data/tei/O/3.8.xml": "9cb796fecaa12091f69b4ba9347516a3fd7df193995b8eef7b60aa6cbf567da4",
       "docs/data/tei/LL/3.8.xml": "61a8754a71e01758ff11b04bbb99b14d75caa55793b1b6150b93cf2ef59da2bb",
-      "docs/data/tei/P/3.9.xml": "7ae49dcca26ae6acf3bf57436019c552ff6f40115267b1a2f98f6868e6d5f9ee",
-      "docs/data/tei/Y/3.9.xml": "1b36734096e7fb8184cf267165ca353279baca9cfba44333dd2d7553b43a3d58",
-      "docs/data/tei/S/3.9.xml": "54853e68e5e27e42e641f4a250a9c3a0affc59301b1fa9291fb0bd939406d1ba",
-      "docs/data/tei/O/3.9.xml": "3c061094feaa2fd7c89e904faa610a1c6664e9c3e5ded3471a94bb52dda53db1",
+      "docs/data/tei/P/3.9.xml": "406ce986fed2f6e20992c7a9ead4901f1a959c77f465c5780773362ff31a82e2",
+      "docs/data/tei/Y/3.9.xml": "0945a03daceef19923de73e524a5acaa04eeaf69b1af5c01b96bbcfe5eb97801",
+      "docs/data/tei/S/3.9.xml": "779cfe646c81c0d291150879adc7343a8dce04de072dad233c807278e0820884",
+      "docs/data/tei/O/3.9.xml": "4d7a145a58f543b168ae2ab07e8c065eaab1a1810f26ece63f264abf68f7b17e",
       "docs/data/tei/LL/3.9.xml": "adfe2ca17a6ed2bebf0c779acf85414473b4f021735647ac9f92cc177a5542a9",
-      "docs/data/tei/P/3.10.xml": "bf1d251613a35cbd29b558436bd319945c8fc264b410ad092ac2c54c50361eb0",
-      "docs/data/tei/Y/3.10.xml": "a8944f7154a8b91a681e87622a904216a95a3eb1b8cf2817215b8fc76c8f9de3",
-      "docs/data/tei/S/3.10.xml": "cb0d910294c7600d1eae343344e90d3e6c23b887b97bee55bc532a3347a28e11",
-      "docs/data/tei/O/3.10.xml": "e99fdb7402fde18d989bce54c91b1e7112accd6d3ce26c74d4a0f0c2c443e75a",
+      "docs/data/tei/P/3.10.xml": "e504bad4764db84329df37fe058f95b1416416e96ec17dcc6d5bd7a1cc3ad8e9",
+      "docs/data/tei/Y/3.10.xml": "eb68dd1c1a2a6f6f0ad7e356dfeb66ba936d1cd64621027667188974c892e1c0",
+      "docs/data/tei/S/3.10.xml": "142f602acdebd303de85ebe3b9a2c8f145bd1ae0a03f3f029e24a29f4ee1768c",
+      "docs/data/tei/O/3.10.xml": "e43421298a5389c38ac549a836999d99069d482fa93512a06e65a13bf783020c",
       "docs/data/tei/LL/3.10.xml": "e5324ab95ff4ca6fe1a8345e464df92d538184cd5e2fca20dfb8066e452758a0",
-      "docs/data/tei/P/3.11.xml": "5d26020322789d9cbe4ac8a1a64808e388512442cccc27bf7176b766d51257b3",
-      "docs/data/tei/Y/3.11.xml": "16bdcc2c53d5529919555583b6c74cfaf2a4bbd3ce5012dc52ce786154dec242",
-      "docs/data/tei/S/3.11.xml": "8656c705ab57b6af2a413724849c8e48f99e85a662ed4aff93aab6ba0f48fe75",
-      "docs/data/tei/O/3.11.xml": "b719bf7ff6ab39630ec4b9d59bbd7dfce946b4bc44a937998c32a4f49bb1ffea",
+      "docs/data/tei/P/3.11.xml": "6aa1d2edb2215feebc6924c6c77e0b26d532065e701f603c45daed3fc3d8ad7b",
+      "docs/data/tei/Y/3.11.xml": "0f69a43d72b65d8c6a83cbdf546237cae6d379d29ba26994ab92b881b45baea7",
+      "docs/data/tei/S/3.11.xml": "d0937a4973ad66046b11007e8690dece2e514aaef7516b1f9d782ffab260366a",
+      "docs/data/tei/O/3.11.xml": "d748410bce982d1b336613d464cb7bf9530619807dd6a8b7f1c0eaa5278a11c4",
       "docs/data/tei/LL/3.11.xml": "42f979d2d03c555a90ae6d468d06b335960e1ad7af756898de958745390823e7",
-      "docs/data/tei/P/3.12.xml": "c355bbc3ebc5a5f1600e69f3490b83bde14b8ee841414a871a0327637cd618dd",
-      "docs/data/tei/Y/3.12.xml": "c0ba98011f7f6f2a24f7260adfdfd7ce0672a438bdb2bee93d7385b3c55dc668",
-      "docs/data/tei/S/3.12.xml": "b968f136db8af358bc40a41d6c1bbdb9262a7733aecc4edf96e420ef67dc8812",
-      "docs/data/tei/O/3.12.xml": "627069cb8d072641c573fa24f8c35780fb874e5974d80bf2ed792b7b9d885960",
+      "docs/data/tei/P/3.12.xml": "9008881d831f5035dd800d334ae9913dcefb6e4f9e881ff7ad33cd40009d2a12",
+      "docs/data/tei/Y/3.12.xml": "2188faf2e09c356ca01237819cff1de49fda15431cc80d33328b7e37b6cfbe78",
+      "docs/data/tei/S/3.12.xml": "8ae0cf5a27a57afab3656788354d949d684e01ecd569ecb85281d5d00909a1ef",
+      "docs/data/tei/O/3.12.xml": "9d2b7f42fd5849296f1a18aa97bb8cc1a353b274c4d616f03184eb0480ac939f",
       "docs/data/tei/LL/3.12.xml": "4dd2b0525d8b4c8be31c1402a9c5ba8a0aa704f8f4ae7d8eb55b8bffd90e2b78",
-      "docs/data/tei/P/3.13.xml": "6615b43974e1214c866f6d4414cf73313a25d059a990ef9c3248fdc43ff523ad",
-      "docs/data/tei/Y/3.13.xml": "f3c5386c6a0ef9364bf086efca16bd5dcb0666f26dd8befdf5519dc0c3c85b29",
-      "docs/data/tei/S/3.13.xml": "83d8590b98f4f3eb94f10b489779a2a6433c1055b53e16ac890c20027a259f8a",
+      "docs/data/tei/P/3.13.xml": "06080bd2f4775402432e81438faf12dcf09b3594dcca9e32a07e0b004d4d306f",
+      "docs/data/tei/Y/3.13.xml": "b692d278e9e88555522cf5473bcc3ed4cd88bdc749f9cc9c3dddb37565bb1416",
+      "docs/data/tei/S/3.13.xml": "a210fbd6c4d7bb99b9546b0569841c70e2369001de0b7a8a51655e5d7a3a43ac",
       "docs/data/tei/O/3.13.xml": "8d2c0971051d5b72fc6137fd38a45e86a4c481b9a33b4caa13b3710237750636",
       "docs/data/tei/LL/3.13.xml": "6f5fbc9fd08b88e3ae6f76a68bd05ba31dc1d4032119987c16e6d03d5332475d",
-      "docs/data/tei/P/3.14.xml": "ac258374530eddd8866f1b1025117c56ec33dc16a03f06be4d31356ef77809ba",
-      "docs/data/tei/Y/3.14.xml": "bc6eaab22d84bba05eec6daf4b8b437c7d86bd88bacb850f8fa6fb91b1ebc897",
-      "docs/data/tei/S/3.14.xml": "a7193227ac89c9d7b661ab3bb8c76790735fcf77593cb909adfe16e3872be0d0",
+      "docs/data/tei/P/3.14.xml": "5dad1f8ecc955fb073478c3cc082b7a405661e8a7358e55c79e34bfadb9a4d38",
+      "docs/data/tei/Y/3.14.xml": "c4d300af7514eeae3658be6b52d8e58581ef7444658fa4385f73cc64aac37a74",
+      "docs/data/tei/S/3.14.xml": "eca9b7dd6d203380c0a54fbb2983fe59e6a6c9d28e079052b35a8fb5013ef6e5",
       "docs/data/tei/O/3.14.xml": "41d595fc2d8a556b248c8f450197dad96311ebcd56c45de75638e87043ad3e7f",
       "docs/data/tei/LL/3.14.xml": "392252b9c94356e8bcc608b69537644db32f578c8adc77cb797b67434fa1df1f",
-      "docs/data/tei/P/3.15.xml": "9a3e695c20b4bf23c177f874e15bf995ff53ad7a0b04cb89957f00227b24c4fe",
-      "docs/data/tei/Y/3.15.xml": "2ba80423164348eda7b6f6f72ba419fae371730ff3c3d7d5fdfc0d695f065ac1",
-      "docs/data/tei/S/3.15.xml": "7f088232b6e831c942cef91d1cd660a51c3ba60b5ae3732976b062a9cb08c43c",
+      "docs/data/tei/P/3.15.xml": "6ff857e5a0b1b31d5f649cd643523c62eaf165ccc8307e25e6fde1fadc1dcfdb",
+      "docs/data/tei/Y/3.15.xml": "2add28d3d2fb4876ebf8942077b464710d3b4fbe9884e91e6103e5888884d947",
+      "docs/data/tei/S/3.15.xml": "99ff124909a034190f43f269ce0082520159d377a997d865fde9a12ea348c034",
       "docs/data/tei/O/3.15.xml": "5cffe789cc96680a9a6ac50bcb1fbd7163f5121018b00a40ce833d55b4c94443",
       "docs/data/tei/LL/3.15.xml": "dd475e3e069890bbcc5a3d06795f25a641e3833c1e1c3fb7895950817637da7e",
       "docs/data/Companion/Vocab/3.1.json": "88854735be779374657d1f3c8442b7555d163866eacffd195d49678293a9cea7",
@@ -4428,10 +4428,6 @@
       "dccId": "dcc-umquam-482",
       "lemma": "umquam"
     },
-    "undae": {
-      "dccId": "dcc-unda-207",
-      "lemma": "unda"
-    },
     "undique": {
       "dccId": "dcc-undique-686",
       "lemma": "undique"
@@ -4453,10 +4449,6 @@
       "lemma": "uoco"
     },
     "uocat": {
-      "dccId": "dcc-voco-158",
-      "lemma": "uoco"
-    },
-    "uocata": {
       "dccId": "dcc-voco-158",
       "lemma": "uoco"
     },
@@ -10961,17 +10953,6 @@
         ],
         "allCandidatesCore": false
       },
-      "uersi": {
-        "lemmas": [
-          "uerro",
-          "uersus",
-          "uerto"
-        ],
-        "dccIds": [
-          "dcc-verto-288"
-        ],
-        "allCandidatesCore": false
-      },
       "uersu": {
         "lemmas": [
           "uerro",
@@ -11903,7 +11884,6 @@
       "elegeia",
       "elegia",
       "elegis",
-      "eleigia",
       "elysia",
       "emereo",
       "emeritumque",
@@ -11928,6 +11908,7 @@
       "eruo",
       "eruta",
       "erycis",
+      "estalis",
       "estus",
       "etiamnunc",
       "etolia",
@@ -12491,7 +12472,6 @@
       "laumedonte",
       "laxa",
       "laxus",
-      "lebuies",
       "ledatur",
       "ledit",
       "legifer",
@@ -12934,7 +12914,6 @@
       "pomaque",
       "pomifer",
       "pomifera",
-      "pomiferaque",
       "pomiferis",
       "pompa",
       "pompae",
@@ -13472,7 +13451,6 @@
       "torus",
       "toruus",
       "totiens",
-      "totiensque",
       "tragedia",
       "tragoedia",
       "traiectis",
@@ -13673,27 +13651,27 @@
     ]
   },
   "coverage": {
-    "analyzedForms": 4093,
-    "sourceForms": 3438,
-    "matchedForms": 1102,
-    "ambiguousForms": 631,
+    "analyzedForms": 4087,
+    "sourceForms": 3432,
+    "matchedForms": 1100,
+    "ambiguousForms": 630,
     "allCoreAmbiguousForms": 72,
-    "unmatchedForms": 2360,
-    "matchedSourceTokens": 10164,
-    "readableSourceTokens": 21943,
+    "unmatchedForms": 2357,
+    "matchedSourceTokens": 10147,
+    "readableSourceTokens": 21905,
     "byWitnessPoem": {
       "P:3.1": {
-        "readableTokens": 418,
-        "matchedTokens": 182,
-        "matchedForms": 130
+        "readableTokens": 415,
+        "matchedTokens": 181,
+        "matchedForms": 129
       },
       "Y:3.1": {
-        "readableTokens": 418,
-        "matchedTokens": 181,
-        "matchedForms": 127
+        "readableTokens": 420,
+        "matchedTokens": 184,
+        "matchedForms": 131
       },
       "S:3.1": {
-        "readableTokens": 305,
+        "readableTokens": 304,
         "matchedTokens": 125,
         "matchedForms": 97
       },
@@ -13710,12 +13688,12 @@
       "P:3.2": {
         "readableTokens": 528,
         "matchedTokens": 231,
-        "matchedForms": 165
+        "matchedForms": 166
       },
       "Y:3.2": {
-        "readableTokens": 519,
-        "matchedTokens": 234,
-        "matchedForms": 169
+        "readableTokens": 509,
+        "matchedTokens": 230,
+        "matchedForms": 166
       },
       "S:3.2": {
         "readableTokens": 359,
@@ -13738,14 +13716,14 @@
         "matchedForms": 99
       },
       "Y:3.3": {
-        "readableTokens": 286,
-        "matchedTokens": 138,
-        "matchedForms": 96
+        "readableTokens": 280,
+        "matchedTokens": 137,
+        "matchedForms": 95
       },
       "S:3.3": {
-        "readableTokens": 211,
-        "matchedTokens": 105,
-        "matchedForms": 76
+        "readableTokens": 208,
+        "matchedTokens": 102,
+        "matchedForms": 75
       },
       "O:3.3": {
         "readableTokens": 301,
@@ -13808,14 +13786,14 @@
         "matchedForms": 89
       },
       "P:3.6": {
-        "readableTokens": 396,
-        "matchedTokens": 199,
-        "matchedForms": 153
+        "readableTokens": 390,
+        "matchedTokens": 194,
+        "matchedForms": 149
       },
       "Y:3.6": {
-        "readableTokens": 628,
-        "matchedTokens": 297,
-        "matchedForms": 199
+        "readableTokens": 624,
+        "matchedTokens": 294,
+        "matchedForms": 196
       },
       "S:3.6": {
         "readableTokens": 459,
@@ -13833,12 +13811,12 @@
         "matchedForms": 208
       },
       "P:3.7": {
-        "readableTokens": 492,
+        "readableTokens": 491,
         "matchedTokens": 226,
         "matchedForms": 148
       },
       "Y:3.7": {
-        "readableTokens": 468,
+        "readableTokens": 465,
         "matchedTokens": 218,
         "matchedForms": 149
       },
@@ -13859,8 +13837,8 @@
       },
       "P:3.8": {
         "readableTokens": 331,
-        "matchedTokens": 162,
-        "matchedForms": 124
+        "matchedTokens": 161,
+        "matchedForms": 123
       },
       "Y:3.8": {
         "readableTokens": 374,
@@ -13883,8 +13861,8 @@
         "matchedForms": 148
       },
       "P:3.9": {
-        "readableTokens": 391,
-        "matchedTokens": 183,
+        "readableTokens": 390,
+        "matchedTokens": 182,
         "matchedForms": 137
       },
       "Y:3.9": {
@@ -13913,9 +13891,9 @@
         "matchedForms": 90
       },
       "Y:3.10": {
-        "readableTokens": 272,
-        "matchedTokens": 121,
-        "matchedForms": 91
+        "readableTokens": 271,
+        "matchedTokens": 120,
+        "matchedForms": 90
       },
       "S:3.10": {
         "readableTokens": 0,
@@ -13934,12 +13912,12 @@
       },
       "P:3.11": {
         "readableTokens": 189,
-        "matchedTokens": 90,
+        "matchedTokens": 91,
         "matchedForms": 75
       },
       "Y:3.11": {
-        "readableTokens": 313,
-        "matchedTokens": 143,
+        "readableTokens": 312,
+        "matchedTokens": 142,
         "matchedForms": 108
       },
       "S:3.11": {
