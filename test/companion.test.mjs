@@ -168,3 +168,140 @@ test('linked reading stays within a poem and repeated rendering binds one naviga
   for (const handler of text.listeners.get('click')) handler({ target: textLine });
   assert.equal(scrolls, 4, 'scroll each matching companion and reading panel once');
 });
+
+const companionSource = await readFile(new URL('../docs/js/companion.js', import.meta.url), 'utf8');
+
+function renderFixture({ type = 'reading', query = '', extras = ['vocab', 'commentary'], lines, commentary, amount = 50 } = {}) {
+  const panel = {};
+  const content = { innerHTML: '', querySelectorAll: () => [] };
+  const control = { setAttribute() {} };
+  const entry = (headword, definition) => ({ headword, definition, raw: `${headword}: ${definition}` });
+  const glossary = [
+    { lineRange: '1', entries: [entry('silva', 'a wood')] },
+    { lineRange: '2', entries: [entry('numen', 'divine power')] },
+    { lineRange: '3', entries: [entry('fons', 'a spring')] }
+  ];
+  const model = {
+    poem: '3.1', witness: 'Y', extras, absentLines: [],
+    lines: lines || [
+      { number: '1', text: 'Stat vetus silva', readable: true },
+      { number: '2', text: '  numen inesse loco', readable: true },
+      { number: '3', text: 'fons sacer', readable: true },
+      { number: '4', text: 'dulce queruntur aves', readable: true }
+    ],
+    datasets: extras.map(extra => ({ extra, data: extra === 'vocab' ? glossary : commentary || { 1: 'First note', 2: 'Second note' } }))
+  };
+  const exported = [];
+  const context = vm.createContext({
+    fixturePanel: panel, fixtureModel: model,
+    PANEL_TYPES: { COMPANION: 'companion', READING: 'reading' },
+    getPanelType: () => type,
+    getPanelState: () => ({ vocabularyAmount: amount, vocabularyQuery: query }),
+    getPanelElement: (_panel, selector) => selector === '.extra-content' ? content : control,
+    setupHighlightListeners() {},
+    VocabularyLookup: { enrichGroups: groups => groups },
+    Vocabulary: {
+      parseEntries: data => data,
+      selectEntries: groups => ({ groups: amount ? groups : [], shownWords: 3, totalWords: 3 }),
+      toFlashcardTsv(entries) { exported.push(...entries); return { text: entries.map(entry => entry.raw).join('\n'), count: entries.length }; }
+    }
+  });
+  vm.runInContext(companionSource + '\ncompanionModels.set(fixturePanel, fixtureModel); renderCompanionModel(fixturePanel);', context);
+  return { html: content.innerHTML, exported, context };
+}
+
+test('Text & notes pairs canonical verses and places every note before the couplet vocabulary', () => {
+  const { html } = renderFixture();
+  assert.equal((html.match(/class="companion-line-group companion-couplet"/g) || []).length, 2);
+  assert.match(html, /data-line-range="1–2"/);
+  assert.match(html, /data-line-range="3–4"/);
+  assert.ok(html.indexOf('First note') < html.indexOf('Second note'));
+  assert.ok(html.indexOf('Second note') < html.indexOf('class="vocabulary-entries"'));
+  for (const number of ['1', '2', '3', '4']) {
+    assert.match(html, new RegExp(`class="companion-line-link companion-source-line" data-line="${number}" data-witness="Y"`));
+  }
+  assert.match(html, /lang="la">  numen inesse loco<\/span>/, 'preserve source whitespace');
+  assert.doesNotMatch(html, /aria-label="Highlight line/, 'visible Latin must remain the accessible button name');
+});
+
+test('Companion keeps individual line groups but puts notes before vocabulary', () => {
+  const { html } = renderFixture({ type: 'companion' });
+  assert.doesNotMatch(html, /companion-couplet|companion-source-line/);
+  assert.match(html, /data-line-range="1"/);
+  assert.ok(html.indexOf('First note') < html.indexOf('class="vocabulary-entries"'));
+});
+
+test('couplets retain absent partners, odd endings, and cross-couplet note attribution without copies', () => {
+  const { html } = renderFixture({
+    extras: ['commentary'],
+    lines: [{ number: '2', text: 'surviving second verse', readable: true }, { number: '5', text: 'last verse', readable: true }],
+    commentary: { '1-5': 'A range note' }
+  });
+  assert.match(html, /data-line-range="1–2"/);
+  assert.match(html, /data-line-range="5–6"/);
+  assert.doesNotMatch(html, /data-line="[1346]"/);
+  assert.match(html, /companion-note-range">1-5<\/span>A range note/);
+  assert.equal((html.match(/A range note/g) || []).length, 1);
+});
+
+test('search retains the complete matching couplet and exports only its displayed vocabulary', () => {
+  const { html, exported } = renderFixture({ query: 'numen' });
+  assert.match(html, /data-line="1"/);
+  assert.match(html, /data-line="2"/);
+  assert.doesNotMatch(html, /data-line="3"/);
+  assert.deepEqual(exported.map(entry => entry.headword), ['silva', 'numen']);
+});
+
+test('text-only and vocabulary-off reading remain paired and individually actionable', () => {
+  for (const options of [{ extras: [] }, { amount: 0 }]) {
+    const { html, exported } = renderFixture(options);
+    assert.equal((html.match(/class="companion-line-group companion-couplet"/g) || []).length, 2);
+    assert.equal((html.match(/class="companion-line-link companion-source-line"/g) || []).length, 4);
+    assert.equal(exported.length, 0);
+    assert.doesNotMatch(html, /class="vocabulary-entries"/);
+  }
+});
+
+test('repeated reading renders navigate each exact verse through existing viewer selection, never the pair', () => {
+  const selected = [], zoomed = [], scrolled = [];
+  const panel = { classList: { contains: () => false } };
+  const reading = { dataset: { poem: '3.1' }, listeners: new Map(),
+    addEventListener: (type, fn) => reading.listeners.set(type, fn),
+    removeEventListener: type => reading.listeners.delete(type) };
+  const textLine = {
+    dataset: { line: '2' }, classList: { add() {} },
+    closest: selector => selector === 'section' ? panel : null
+  };
+  const verse = number => ({
+    dataset: { line: number, witness: 'Y' },
+    classList: { contains: name => ['companion-line-link', 'companion-source-line'].includes(name) },
+    closest(selector) {
+      if (selector === '.extra-content') return reading;
+      if (selector === 'section') return panel;
+      return this;
+    }
+  });
+  const context = vm.createContext({
+    document: { querySelectorAll(selector) {
+      if (selector.startsWith('section[')) return [reading];
+      if (selector === '.text-content [data-line]') return [textLine];
+      return [];
+    } },
+    getPanelElement: () => ({ value: '3.1' }),
+    setSelectedAnnotationLine: (...args) => selected.push(args),
+    zoomAllViewersToLine: (...args) => zoomed.push(args)
+  });
+  vm.runInContext(source.slice(source.indexOf('const companionHighlightHandlers'), source.indexOf('// Attach event handlers for a panel')), context);
+  context.scrollLinkedVerseIntoView = element => scrolled.push(element);
+  for (let i = 0; i < 3; i++) context.setupHighlightListeners(panel);
+  reading.listeners.get('mouseover')({ target: verse('2') });
+  assert.equal(selected.length, 0, 'hover must not move image viewers');
+  for (const number of ['1', '2', '2']) reading.listeners.get('click')({ target: verse(number) });
+  assert.deepEqual(selected, [['1', 'Y', '3.1'], ['2', 'Y', '3.1'], ['2', 'Y', '3.1']]);
+  assert.deepEqual(zoomed, [['1', '3.1'], ['2', '3.1'], ['2', '3.1']]);
+  assert.equal(scrolled.length, 2, 'exact reading verse still links to the matching transcription');
+  reading.dataset.poem = '3.2';
+  const newVerse = verse('4'); newVerse.dataset.witness = 'S';
+  reading.listeners.get('click')({ target: newVerse });
+  assert.deepEqual(selected.at(-1), ['4', 'S', '3.2'], 'delegated handler uses the current poem and witness');
+});

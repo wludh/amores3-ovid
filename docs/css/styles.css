@@ -1311,6 +1311,28 @@ body.dark-mode section:is([data-panel-type="companion"], [data-panel-type="readi
   color: var(--text-main);
   white-space: pre-wrap;
 }
+.companion-couplet-text { display: grid; gap: 2px; }
+.companion-source-line {
+  display: grid;
+  grid-template-columns: 1.8em minmax(0, 1fr);
+  align-items: baseline;
+  gap: 8px;
+  width: 100%;
+  border-radius: 3px;
+  padding: 3px 0;
+}
+.companion-source-line:hover {
+  background: var(--button-hover-bg);
+  text-decoration: none;
+}
+.companion-source-line:hover .companion-source-number { text-decoration: underline; }
+.companion-note-range {
+  display: block;
+  margin-bottom: 3px;
+  color: var(--text-muted);
+  font: 0.7rem/1.4 'Open Sans', sans-serif;
+  font-variant-numeric: tabular-nums;
+}
 .vocabulary-entries {
   margin: 10px 0 0 30px;
   border-left: 2px solid var(--vocabulary-accent);

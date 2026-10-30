@@ -2068,7 +2068,7 @@ function setupHighlightListeners(panel) {
   const linkedElements = target => {
     const poem = poemFor(target);
     const [start, end] = rangeFor(target);
-    const selector = target.matches('[data-line]') ? '.extra-content [data-line-range]' : '.text-content [data-line]';
+    const selector = target.closest('.extra-content') ? '.text-content [data-line]' : '.extra-content [data-line-range]';
     return Array.from(document.querySelectorAll(selector)).filter(element => {
       if (!poem || poemFor(element) !== poem || element.closest('section').classList.contains('collapsed')) return false;
       const [otherStart, otherEnd] = rangeFor(element);
@@ -2087,6 +2087,14 @@ function setupHighlightListeners(panel) {
     const control = event.target.closest('a, button, summary, input, select');
     if (control && !control.classList.contains('companion-line-link')) return;
     highlight(event);
+    // A couplet is a reading unit, never a substitute for the clicked verse.
+    // Reuse transcription navigation so existing witness rectangles, reviewed
+    // page-only locations and asynchronous viewer loads behave identically.
+    if (target.classList.contains('companion-source-line') && target.dataset.line) {
+      const poem = poemFor(target);
+      setSelectedAnnotationLine(target.dataset.line, target.dataset.witness, poem);
+      zoomAllViewersToLine(target.dataset.line, poem);
+    }
     const scrolledPanels = new Set();
     for (const element of linkedElements(target)) {
       const linkedPanel = element.closest('section');

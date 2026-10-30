@@ -250,6 +250,29 @@ function companionSearchText(value) {
   return String(value).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 }
 
+// Pair canonical verse numbers, not adjacent array positions: an absent verse
+// must not move every later couplet. Keep original note ranges for attribution;
+// a note spanning couplets appears once, beside the start of its range.
+function groupCompanionCouplets(groups) {
+  const couplets = new Map();
+  for (const group of groups) {
+    const number = Number(group.range.split(/[-–]/)[0]);
+    const start = Number.isInteger(number) && number > 0 ? number - (number % 2 === 0 ? 1 : 0) : null;
+    const range = start === null ? group.range : `${start}–${start + 1}`;
+    if (!couplets.has(range)) couplets.set(range, { range, lines: [], entries: [], commentary: [], notes: [] });
+    const couplet = couplets.get(range);
+    couplet.lines.push(...group.lines);
+    couplet.entries.push(...group.entries);
+    couplet.commentary.push(...group.commentary);
+    couplet.notes.push(group);
+  }
+  return Array.from(couplets.values()).sort((a, b) => parseInt(a.range, 10) - parseInt(b.range, 10))
+    .map(group => ({ ...group,
+      lines: group.lines.sort((a, b) => Number(a.number) - Number(b.number)),
+      notes: group.notes.sort((a, b) => parseInt(a.range, 10) - parseInt(b.range, 10))
+    }));
+}
+
 function renderCompanionModel(panel) {
   const model = companionModels.get(panel);
   const content = getPanelElement(panel, '.extra-content');
@@ -315,18 +338,29 @@ function renderCompanionModel(panel) {
   }
   let shown = 0;
   const visibleEntries = [];
-  for (const group of Array.from(groups.values()).sort((a, b) => parseInt(a.range, 10) - parseInt(b.range, 10))) {
+  const displayGroups = hasTranscription ? groupCompanionCouplets(groups.values())
+    : Array.from(groups.values()).sort((a, b) => parseInt(a.range, 10) - parseInt(b.range, 10));
+  for (const group of displayGroups) {
     if (!hasTranscription && !group.entries.length && !group.commentary.length) continue;
-    const searchable = [group.range, ...group.lines.map(line => line.text), ...group.entries.map(entry => entry.raw), ...group.commentary.map(item => item.text)].join(' ');
+    const searchable = [group.range, ...(group.notes || []).map(note => note.range), ...group.lines.map(line => line.text), ...group.entries.map(entry => entry.raw), ...group.commentary.map(item => item.text)].join(' ');
     if (query && !companionSearchText(searchable).includes(query)) continue;
     shown++;
     visibleEntries.push(...group.entries);
-    html += `<div class="companion-line-group" data-line-range="${companionEscape(group.range)}" data-poem="${companionEscape(model.poem)}">
-      <div class="companion-line-heading"><button type="button" class="companion-line-link" aria-label="Go to line ${companionEscape(group.range)} in the transcription">${companionEscape(group.range)}</button>
-      ${group.lines.map(line => `<p class="vocabulary-source-line" lang="la">${companionEscape(line.text)}</p>`).join('')}</div>`;
-    if (group.entries.length) html += `<div class="vocabulary-entries">${group.entries.map(entry => renderVocabularyEntry(entry)).join('')}</div>`;
-    for (const { extra, text } of group.commentary) {
-      html += `<div class="companion-item ${extra} ${extra}-color">${text.replace(/\n/g, '<br>')}</div>`;
+    html += `<div class="companion-line-group${hasTranscription ? ' companion-couplet' : ''}" data-line-range="${companionEscape(group.range)}" data-poem="${companionEscape(model.poem)}">`;
+    if (hasTranscription) {
+      html += `<div class="companion-couplet-text">${group.lines.map(line => `<button type="button" class="companion-line-link companion-source-line" data-line="${companionEscape(line.number)}" data-witness="${companionEscape(model.witness)}" title="Highlight line ${companionEscape(line.number)} in the manuscript viewer">
+        <span class="companion-source-number">${companionEscape(line.number)}</span><span class="vocabulary-source-line" lang="la">${companionEscape(line.text)}</span></button>`).join('')}</div>`;
+    } else {
+      html += `<div class="companion-line-heading"><button type="button" class="companion-line-link" aria-label="Go to line ${companionEscape(group.range)} in the transcription">${companionEscape(group.range)}</button></div>`;
+    }
+    const notes = group.notes || [group];
+    // Read the notes for the whole couplet before its vocabulary, retaining
+    // each note's original line or range rather than relabeling it as a pair.
+    for (const note of notes) for (const { extra, text } of note.commentary) {
+      html += `<div class="companion-item ${extra} ${extra}-color" data-line-range="${companionEscape(note.range)}">${hasTranscription ? `<span class="companion-note-range">${companionEscape(note.range)}</span>` : ''}${text.replace(/\n/g, '<br>')}</div>`;
+    }
+    for (const note of notes) {
+      if (note.entries.length) html += `<div class="vocabulary-entries" data-line-range="${companionEscape(note.range)}">${hasTranscription ? `<span class="companion-note-range">${companionEscape(note.range)}</span>` : ''}${note.entries.map(entry => renderVocabularyEntry(entry)).join('')}</div>`;
     }
     html += '</div>';
   }
